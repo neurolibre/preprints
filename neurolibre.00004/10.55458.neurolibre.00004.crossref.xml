@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/4.4.0" xmlns:ai="http://www.crossref.org/AccessIndicators.xsd" xmlns:rel="http://www.crossref.org/relations.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.4.0" xsi:schemaLocation="http://www.crossref.org/schema/4.4.0 http://www.crossref.org/schemas/crossref4.4.0.xsd">
+  <head>
+    <doi_batch_id>392f1c33395fd464e7e03f36dabfd429</doi_batch_id>
+    <timestamp>20220602121101</timestamp>
+    <depositor>
+      <depositor_name>NeuroLibre Admin</depositor_name>
+      <email_address>roboneurolibre@gmail.com</email_address>
+    </depositor>
+    <registrant>Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal</registrant>
+  </head>
+  <body>
+    <journal>
+      <journal_metadata>
+        <full_title>NeuroLibre Reproducible Preprint Server</full_title>
+        <abbrev_title>NeuroLibre</abbrev_title>
+        <doi_data>
+          <doi>10.55458/neurolibre</doi>
+          <resource>https://neurolibre.org</resource>
+        </doi_data>
+      </journal_metadata>
+      <journal_issue>
+        <publication_date media_type="online">
+          <month>4</month>
+          <year>2022</year>
+        </publication_date>
+        <journal_volume>
+          <volume>1</volume>
+        </journal_volume>
+        <issue>1</issue>
+      </journal_issue>
+      <journal_article publication_type="full_text">
+        <titles>
+          <title>An interactive meta-analysis of MRI biomarkers of myelin</title>
+        </titles>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Matteo</given_name>
+            <surname>Mancini</surname>
+            <ORCID>http://orcid.org/0000-0001-7194-4568</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Agah</given_name>
+            <surname>Karakuzu</surname>
+            <ORCID>http://orcid.org/0000-0001-7283-271X</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Julien</given_name>
+            <surname>Cohen-Adad</surname>
+            <ORCID>http://orcid.org/0000-0003-3662-9532</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Mara</given_name>
+            <surname>Cercignani</surname>
+            <ORCID>http://orcid.org/0000-0002-4550-2456</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Thomas</given_name>
+            <surname>Nichols</surname>
+            <ORCID>http://orcid.org/0000-0002-4516-5103</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Nikola</given_name>
+            <surname>Stikov</surname>
+            <ORCID>http://orcid.org/0000-0002-8480-5230</ORCID>
+          </person_name>
+        </contributors>
+        <publication_date>
+          <month>4</month>
+          <day>20</day>
+          <year>2022</year>
+        </publication_date>
+        <pages>
+          <first_page>4</first_page>
+        </pages>
+        <publisher_item>
+          <identifier id_type="doi">10.55458/neurolibre.00004</identifier>
+        </publisher_item>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Repository archive</rel:description>
+            <rel:inter_work_relation relationship-type="hasPart" identifier-type="doi">“https://doi.org/10.5281/zenodo.6463433”</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Dataset archive</rel:description>
+            <rel:inter_work_relation relationship-type="hasPart" identifier-type="doi">“https://doi.org/10.5281/zenodo.6463435”</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Book archive</rel:description>
+            <rel:inter_work_relation relationship-type="hasPart" identifier-type="doi">“https://doi.org/10.5281/zenodo.6463431”</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Container archive</rel:description>
+            <rel:inter_work_relation relationship-type="hasPart" identifier-type="doi">“https://doi.org/10.5281/zenodo.6463437”</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub technical screening</rel:description>
+            <rel:inter_work_relation relationship-type="hasReview" identifier-type="uri">https://github.com/neurolibre/neurolibre-reviews/issues/4</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.55458/neurolibre.00004</doi>
+          <resource>https://neurolibre.org/papers/10.55458/neurolibre.00004</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://neurolibre.org/papers/10.55458/neurolibre.00004.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="ref1">
+            <doi>10.1016/j.neuroimage.2018.04.009</doi>
+          </citation>
+        </citation_list>
+      </journal_article>
+    </journal>
+  </body>
+</doi_batch>
