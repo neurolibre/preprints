@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <doi_batch xmlns="http://www.crossref.org/schema/4.4.0" xmlns:ai="http://www.crossref.org/AccessIndicators.xsd" xmlns:rel="http://www.crossref.org/relations.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.4.0" xsi:schemaLocation="http://www.crossref.org/schema/4.4.0 http://www.crossref.org/schemas/crossref4.4.0.xsd">
   <head>
-    <doi_batch_id>e2239d0bfe6e29d77b4583d813977908</doi_batch_id>
-    <timestamp>20220608233248</timestamp>
+    <doi_batch_id>75dbfed2996807b7cb2d4ac1aa9f7e4b</doi_batch_id>
+    <timestamp>20220609002207</timestamp>
     <depositor>
       <depositor_name>NeuroLibre Admin</depositor_name>
       <email_address>roboneurolibre@gmail.com</email_address>
@@ -117,7 +117,7 @@
         </contributors>
         <publication_date>
           <month>06</month>
-          <day>08</day>
+          <day>09</day>
           <year>2022</year>
         </publication_date>
         <pages>
@@ -162,7 +162,11 @@
             </item>
           </collection>
         </doi_data>
-        <citation_list/>
+        <citation_list>
+          <citation key="ref1">
+            <doi>10.5281/zenodo.6091632</doi>
+          </citation>
+        </citation_list>
       </journal_article>
     </journal>
   </body>
