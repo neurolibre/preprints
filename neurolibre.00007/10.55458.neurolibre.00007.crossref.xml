@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/4.4.0" xmlns:ai="http://www.crossref.org/AccessIndicators.xsd" xmlns:rel="http://www.crossref.org/relations.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.4.0" xsi:schemaLocation="http://www.crossref.org/schema/4.4.0 http://www.crossref.org/schemas/crossref4.4.0.xsd">
+  <head>
+    <doi_batch_id>d72c6be7e7acd31c6a8258ecd111bb74</doi_batch_id>
+    <timestamp>20220609101834</timestamp>
+    <depositor>
+      <depositor_name>NeuroLibre Admin</depositor_name>
+      <email_address>roboneurolibre@gmail.com</email_address>
+    </depositor>
+    <registrant>Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal</registrant>
+  </head>
+  <body>
+    <journal>
+      <journal_metadata>
+        <full_title>NeuroLibre Reproducible Preprint Server</full_title>
+        <abbrev_title>NeuroLibre</abbrev_title>
+        <doi_data>
+          <doi>10.55458/neurolibre</doi>
+          <resource>https://neurolibre.org</resource>
+        </doi_data>
+      </journal_metadata>
+      <journal_issue>
+        <publication_date media_type="online">
+          <month>06</month>
+          <year>2022</year>
+        </publication_date>
+        <journal_volume>
+          <volume>1</volume>
+        </journal_volume>
+        <issue>1</issue>
+      </journal_issue>
+      <journal_article publication_type="full_text">
+        <titles>
+          <title>NiMARE: Neuroimaging Meta-Analysis Research Environment</title>
+        </titles>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Taylor</given_name>
+            <surname>Salo</surname>
+            <ORCID>http://orcid.org/0000-0001-9813-3167</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Tal</given_name>
+            <surname>Yarkoni</surname>
+            <ORCID>http://orcid.org/0000-0002-6558-5113</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Thomas</given_name>
+            <surname>Nichols</surname>
+            <ORCID>http://orcid.org/0000-0002-4516-5103</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Jean-Baptiste</given_name>
+            <surname>Poline</surname>
+            <ORCID>http://orcid.org/0000-0002-9794-749X</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Murat</given_name>
+            <surname>Bilgel</surname>
+            <ORCID>http://orcid.org/0000-0001-5042-7422</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Katherine</given_name>
+            <surname>Bottenhorn</surname>
+            <ORCID>http://orcid.org/0000-0002-7796-8795</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Dorota</given_name>
+            <surname>Jarecka</surname>
+            <ORCID>http://orcid.org/0000-0001-8282-2988</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>James</given_name>
+            <surname>Kent</surname>
+            <ORCID>http://orcid.org/0000-0002-4892-2659</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Adam</given_name>
+            <surname>Kimbler</surname>
+            <ORCID>http://orcid.org/0000-0001-5885-9596</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Dylan</given_name>
+            <surname>Nielson</surname>
+            <ORCID>http://orcid.org/0000-0003-4613-6643</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Kendra</given_name>
+            <surname>Oudyk</surname>
+            <ORCID>http://orcid.org/0000-0003-4087-5402</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Julio</given_name>
+            <surname>Peraza</surname>
+            <ORCID>http://orcid.org/0000-0003-3816-5903</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Alexandre</given_name>
+            <surname>Pérez</surname>
+            <ORCID>http://orcid.org/0000-0003-0556-0763</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Puck</given_name>
+            <surname>Reeders</surname>
+            <ORCID>http://orcid.org/0000-0002-6401-3017</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Julio</given_name>
+            <surname>Yanes</surname>
+            <ORCID>http://orcid.org/0000-0002-6620-4351</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Angela</given_name>
+            <surname>Laird</surname>
+            <ORCID>http://orcid.org/0000-0003-3379-8744</ORCID>
+          </person_name>
+        </contributors>
+        <publication_date>
+          <month>06</month>
+          <day>09</day>
+          <year>2022</year>
+        </publication_date>
+        <pages>
+          <first_page>7</first_page>
+        </pages>
+        <publisher_item>
+          <identifier id_type="doi">10.55458/neurolibre.00007</identifier>
+        </publisher_item>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Repository archive</rel:description>
+            <rel:inter_work_relation relationship-type="hasPart" identifier-type="doi">“https://doi.org/10.5281/zenodo.6624793”</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Dataset archive</rel:description>
+            <rel:inter_work_relation relationship-type="hasPart" identifier-type="doi">“https://doi.org/10.5281/zenodo.6624795”</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Book archive</rel:description>
+            <rel:inter_work_relation relationship-type="hasPart" identifier-type="doi">“https://doi.org/10.5281/zenodo.6624790”</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Container archive</rel:description>
+            <rel:inter_work_relation relationship-type="hasPart" identifier-type="doi">“https://doi.org/10.5281/zenodo.6624797”</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub technical screening</rel:description>
+            <rel:inter_work_relation relationship-type="hasReview" identifier-type="uri">https://github.com/neurolibre/neurolibre-reviews/issues/7</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.55458/neurolibre.00007</doi>
+          <resource>https://neurolibre.org/papers/10.55458/neurolibre.00007</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://neurolibre.github.io/preprints/neurolibre.00007/10.55458.neurolibre.00007.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="ref1">
+            <doi>10.5281/zenodo.6091632</doi>
+          </citation>
+        </citation_list>
+      </journal_article>
+    </journal>
+  </body>
+</doi_batch>
