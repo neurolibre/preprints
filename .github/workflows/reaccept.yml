@@ -18,25 +18,25 @@ jobs:
     env:
       GH_ACCESS_TOKEN: ${{ secrets.BOT_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
-      GH_REPO: openjournals/joss-reviews
+      GH_REPO: neurolibre/neurolibre-reviews
       ISSUE_ID: ${{ github.event.inputs.issue_id }}
       DEFAULT_ERROR: ":warning: Couldn't update published paper. [An error happened](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}?check_suite_focus=true)."
     steps:
       - name: Compile Paper
         id: generate-files
-        uses: xuanxu/paper-action@main
+        uses: neurolibre/paper-action@main
         with:
           repository_url: ${{ github.event.inputs.repository_url }}
           branch: ${{ github.event.inputs.branch }}
           issue_id: ${{ github.event.inputs.issue_id }}
-          journal: joss
+          journal: neurolibre
           compile_mode: accepted
       - name: Update paper files
         id: update-files
-        uses: xuanxu/update-files-action@main
+        uses: neurolibre/update-files-action@main
         with:
-          papers_repo: openjournals/joss-papers
-          branch_prefix: joss
+          papers_repo: neurolibre/preprints
+          branch_prefix: neurolibre
           issue_id: ${{ github.event.inputs.issue_id }}
           pdf_path: ${{ steps.generate-files.outputs.pdf_path}}
           jats_path: ${{ steps.generate-files.outputs.jats_path}}
@@ -50,25 +50,25 @@ jobs:
           validation_mode: strict
       - name: Create and Merge Pull Request
         id: pull-request
-        uses: xuanxu/deposit-pull-request-action@main
+        uses: neurolibre/deposit-pull-request-action@main
         with:
-          papers_repo: openjournals/joss-papers
+          papers_repo: neurolibre/preprints
           papers_repo_main_branch: master
-          branch_prefix: joss
+          branch_prefix: neurolibre
           issue_id: ${{ github.event.inputs.issue_id }}
           bot_token: ${{ secrets.BOT_TOKEN }}
           mode: deposit
       - name: Deposit with Crossref
-        uses: xuanxu/deposit-with-crossref-action@main
+        uses: neurolibre/deposit-with-crossref-action@main
         with:
           crossref_filepath: ${{ steps.generate-files.outputs.crossref_path}}
           crossref_username: ${{ secrets.CROSSREF_USERNAME }}
           crossref_password: ${{ secrets.CROSSREF_PASSWORD }}
-      - name: Deposit with JOSS
-        id: oj-deposit
-        uses: xuanxu/deposit-with-openjournals-action@main
+      - name: Deposit with NeuroLibre
+        id: neurolibre-deposit
+        uses: neurolibre/deposit-with-neurolibre-action@main
         with:
-          journal_alias: joss
+          journal_alias: neurolibre
           journal_secret: ${{ secrets.JOSS_SECRET }}
           issue_id: ${{ github.event.inputs.issue_id }}
           paper_path: ${{ steps.generate-files.outputs.paper_file_path}}
