@@ -69,7 +69,7 @@ jobs:
         uses: neurolibre/deposit-with-neurolibre-action@main
         with:
           journal_alias: neurolibre
-          journal_secret: ${{ secrets.JOSS_SECRET }}
+          journal_secret: ${{ secrets.JOURNAL_SECRET }}
           issue_id: ${{ github.event.inputs.issue_id }}
           paper_path: ${{ steps.generate-files.outputs.paper_file_path}}
       - name: Reply message
