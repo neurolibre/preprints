@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>20230618T072024-40779f54456ee9c84fa687f2f35ef7a097162596</doi_batch_id>
+    <timestamp>20230618072024</timestamp>
+    <depositor>
+      <depositor_name>NeuroLibre Admin</depositor_name>
+      <email_address>admin@neurolibre.org</email_address>
+    </depositor>
+    <registrant>Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal</registrant>
+  </head>
+  <body>
+  <posted_content type="preprint">
+  <group_title>NeuroLibre Reproducible Preprints</group_title>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Hao-Ting</given_name>
+            <surname>Wang</surname>
+            <ORCID>https://orcid.org/0000-0003-4078-2038</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Steven L</given_name>
+            <surname>Meisler</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Hanad</given_name>
+            <surname>Sharmarke</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Natasha</given_name>
+            <surname>Clarke</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>François</given_name>
+            <surname>Paugam</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Nicolas</given_name>
+            <surname>Gensollen</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Christopher J</given_name>
+            <surname>Markiewicz</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Bertrand</given_name>
+            <surname>Thirion</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Pierre</given_name>
+            <surname>Bellec</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>A reproducible benchmark of resting-state fMRI
+denoising strategies using fMRIPrep and Nilearn</title>
+        </titles>
+        <posted_date>
+          <month>06</month>
+          <day>18</day>
+          <year>2023</year>
+        </posted_date>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Repository archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.7996698</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Dataset archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.7764979</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Book archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.7996696</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Container archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.7996700</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub technical screening</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://github.com/neurolibre/neurolibre-reviews/issues/12</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Executable preprint</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://preprint.neurolibre.org/10.55458/neurolibre.00012</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.55458/neurolibre.00012</doi>
+          <resource>https://neurolibre.org/papers/10.55458/neurolibre.00012</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://preprint.neurolibre.org/10.55458/neurolibre.00012.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="fmriprep1">
+            <article_title>fMRIPrep: A robust preprocessing pipeline for
+functional MRI</article_title>
+            <author>Esteban</author>
+            <journal_title>Nature Methods</journal_title>
+            <doi>10.1038/s41592-018-0235-4</doi>
+            <cYear>2018</cYear>
+            <unstructured_citation>Esteban, O., Markiewicz, C., Blair,
+R. W., Moodie, C., Isik, A. I., Erramuzpe Aliaga, A., Kent, J.,
+Goncalves, M., DuPre, E., Snyder, M., Oya, H., Ghosh, S., Wright, J.,
+Durnez, J., Poldrack, R., &amp; Gorgolewski, K. J. (2018). fMRIPrep: A
+robust preprocessing pipeline for functional MRI. Nature Methods.
+https://doi.org/10.1038/s41592-018-0235-4</unstructured_citation>
+          </citation>
+          <citation key="nilearn">
+            <article_title>Machine learning for neuroimaging with
+scikit-learn</article_title>
+            <author>Abraham</author>
+            <journal_title>Frontiers in Neuroinformatics</journal_title>
+            <volume>8</volume>
+            <doi>10.3389/fninf.2014.00014</doi>
+            <issn>1662-5196</issn>
+            <cYear>2014</cYear>
+            <unstructured_citation>Abraham, A., Pedregosa, F.,
+Eickenberg, M., Gervais, P., Mueller, A., Kossaifi, J., Gramfort, A.,
+Thirion, B., &amp; Varoquaux, G. (2014). Machine learning for
+neuroimaging with scikit-learn. Frontiers in Neuroinformatics, 8.
+https://doi.org/10.3389/fninf.2014.00014</unstructured_citation>
+          </citation>
+          <citation key="jupyter">
+            <article_title>Jupyter: Thinking and storytelling with code
+and data</article_title>
+            <author>Granger</author>
+            <journal_title>Computing in Science &amp;
+Engineering</journal_title>
+            <issue>2</issue>
+            <volume>23</volume>
+            <doi>10.1109/MCSE.2021.3059263</doi>
+            <issn>1558-366X</issn>
+            <cYear>2021</cYear>
+            <unstructured_citation>Granger, B. E., &amp; Pérez, F.
+(2021). Jupyter: Thinking and storytelling with code and data. Computing
+in Science &amp; Engineering, 23(2), 7–14.
+https://doi.org/10.1109/MCSE.2021.3059263</unstructured_citation>
+          </citation>
+          <citation key="neurolibre">
+            <article_title>NeuroLibre : A preprint server for
+full-fledged reproducible neuroscience</article_title>
+            <author>Karakuzu</author>
+            <journal_title>OSF Preprints</journal_title>
+            <doi>10.31219/osf.io/h89js</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Karakuzu, A., DuPre, E., Tetrel, L.,
+Bermudez, P., Boudreau, M., Chin, M., Poline, J.-B., Das, S., Bellec,
+P., &amp; Stikov, N. (2022). NeuroLibre : A preprint server for
+full-fledged reproducible neuroscience. OSF Preprints.
+https://doi.org/10.31219/osf.io/h89js</unstructured_citation>
+          </citation>
+        </citation_list>
+  </posted_content>
+  </body>
+</doi_batch>
