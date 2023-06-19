@@ -13,7 +13,7 @@ on:
         required: true
 jobs:
   reacceptance-and-publishing:
-    name: ${{ format('Depositing to Neurolibre {0}', github.event.inputs.issue_id) }}
+    name: ${{ format('Updating accepted paper from issue {0}', github.event.inputs.issue_id) }}
     runs-on: ubuntu-latest
     env:
       GH_ACCESS_TOKEN: ${{ secrets.BOT_TOKEN }}
@@ -31,39 +31,39 @@ jobs:
           issue_id: ${{ github.event.inputs.issue_id }}
           journal: neurolibre
           compile_mode: accepted
-      # - name: Update paper files
-      #   id: update-files
-      #   uses: neurolibre/update-files-action@main
-      #   with:
-      #     papers_repo: neurolibre/preprints
-      #     branch_prefix: neurolibre
-      #     issue_id: ${{ github.event.inputs.issue_id }}
-      #     pdf_path: ${{ steps.generate-files.outputs.pdf_path}}
-      #     jats_path: ${{ steps.generate-files.outputs.jats_path}}
-      #     crossref_path: ${{ steps.generate-files.outputs.crossref_path}}
-      # - name: Validate metadata files
-      #   id: validate-xml
-      #   uses: xuanxu/validate-xml-files-action@main
-      #   with:
-      #     jats_path: ${{ steps.generate-files.outputs.jats_path}}
-      #     crossref_path: ${{ steps.generate-files.outputs.crossref_path}}
-      #     validation_mode: strict
-      # - name: Create and Merge Pull Request
-      #   id: pull-request
-      #   uses: neurolibre/deposit-pull-request-action@main
-      #   with:
-      #     papers_repo: neurolibre/preprints
-      #     papers_repo_main_branch: master
-      #     branch_prefix: neurolibre
-      #     issue_id: ${{ github.event.inputs.issue_id }}
-      #     bot_token: ${{ secrets.BOT_TOKEN }}
-      #     mode: deposit
-      # - name: Deposit with Crossref
-      #   uses: neurolibre/deposit-with-crossref-action@main
-      #   with:
-      #     crossref_filepath: ${{ steps.generate-files.outputs.crossref_path}}
-      #     crossref_username: ${{ secrets.CROSSREF_USERNAME }}
-      #     crossref_password: ${{ secrets.CROSSREF_PASSWORD }}
+      - name: Update paper files
+        id: update-files
+        uses: neurolibre/update-files-action@main
+        with:
+          papers_repo: neurolibre/preprints
+          branch_prefix: neurolibre
+          issue_id: ${{ github.event.inputs.issue_id }}
+          pdf_path: ${{ steps.generate-files.outputs.pdf_path}}
+          jats_path: ${{ steps.generate-files.outputs.jats_path}}
+          crossref_path: ${{ steps.generate-files.outputs.crossref_path}}
+      - name: Validate metadata files
+        id: validate-xml
+        uses: xuanxu/validate-xml-files-action@main
+        with:
+          jats_path: ${{ steps.generate-files.outputs.jats_path}}
+          crossref_path: ${{ steps.generate-files.outputs.crossref_path}}
+          validation_mode: strict
+      - name: Create and Merge Pull Request
+        id: pull-request
+        uses: neurolibre/deposit-pull-request-action@main
+        with:
+          papers_repo: neurolibre/preprints
+          papers_repo_main_branch: master
+          branch_prefix: neurolibre
+          issue_id: ${{ github.event.inputs.issue_id }}
+          bot_token: ${{ secrets.BOT_TOKEN }}
+          mode: deposit
+      - name: Deposit with Crossref
+        uses: neurolibre/deposit-with-crossref-action@main
+        with:
+          crossref_filepath: ${{ steps.generate-files.outputs.crossref_path}}
+          crossref_username: ${{ secrets.CROSSREF_USERNAME }}
+          crossref_password: ${{ secrets.CROSSREF_PASSWORD }}
       - name: Deposit with NeuroLibre
         id: neurolibre-deposit
         uses: neurolibre/deposit-with-neurolibre-action@main
