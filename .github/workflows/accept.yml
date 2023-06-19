@@ -81,7 +81,7 @@ jobs:
         with:
           citation_file_path: ${{ steps.generate-files.outputs.citation_file_path}}
           issue_id: ${{ github.event.inputs.issue_id }}
-          reviews_repo: openjournals/joss-reviews
+          reviews_repo: neurolibre/neurolibre-reviews
           gh_token: ${{ secrets.BOT_TOKEN }}
       - name: Reply message
         if: ${{ success() }}
