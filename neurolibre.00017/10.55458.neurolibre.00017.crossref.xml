@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>20231017T012950-596d59d1c31ee620c4110b12aa008e1820fac3c8</doi_batch_id>
+    <timestamp>20231017012950</timestamp>
+    <depositor>
+      <depositor_name>NeuroLibre Admin</depositor_name>
+      <email_address>admin@neurolibre.org</email_address>
+    </depositor>
+    <registrant>Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal</registrant>
+  </head>
+  <body>
+  <posted_content type="preprint">
+  <group_title>NeuroLibre Reproducible Preprints</group_title>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Jan</given_name>
+            <surname>Valošek</surname>
+            <ORCID>https://orcid.org/0000-0002-7398-4990</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Sandrine</given_name>
+            <surname>Bédard</surname>
+            <ORCID>https://orcid.org/0000-0001-9859-1133</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Miloš</given_name>
+            <surname>Keřkovský</surname>
+            <ORCID>https://orcid.org/0000-0003-0587-9897</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Tomáš</given_name>
+            <surname>Rohan</surname>
+            <ORCID>https://orcid.org/0000-0002-7105-583X</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Julien</given_name>
+            <surname>Cohen-Adad</surname>
+            <ORCID>https://orcid.org/0000-0003-3662-9532</ORCID>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>A database of the healthy human spinal cord morphometry
+in the PAM50 template space</title>
+        </titles>
+        <posted_date>
+          <month>10</month>
+          <day>17</day>
+          <year>2023</year>
+        </posted_date>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Repository archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.10002178</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Dataset archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">zenodo.10002180</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Book archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.10002176</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Container archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.10002182</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub technical screening</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://github.com/neurolibre/neurolibre-reviews/issues/17</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Executable preprint</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://preprint.neurolibre.org/10.55458/neurolibre.00017</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.55458/neurolibre.00017</doi>
+          <resource>https://neurolibre.org/papers/10.55458/neurolibre.00017</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://preprint.neurolibre.org/10.55458/neurolibre.00017.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="Oh2014-du">
+            <article_title>Spinal cord normalization in multiple
+sclerosis</article_title>
+            <author>Oh</author>
+            <journal_title>J. Neuroimaging</journal_title>
+            <issue>6</issue>
+            <volume>24</volume>
+            <doi>10.1111/jon.12097</doi>
+            <cYear>2014</cYear>
+            <unstructured_citation>Oh, J., Seigo, M., Saidha, S.,
+Sotirchos, E., Zackowski, K., Chen, M., Prince, J., Diener-West, M.,
+Calabresi, P. A., &amp; Reich, D. S. (2014). Spinal cord normalization
+in multiple sclerosis. J. Neuroimaging, 24(6), 577–584.
+https://doi.org/10.1111/jon.12097</unstructured_citation>
+          </citation>
+          <citation key="Rocca2019-yc">
+            <article_title>Clinically relevant cranio-caudal patterns of
+cervical cord atrophy evolution in MS</article_title>
+            <author>Rocca</author>
+            <journal_title>Neurology</journal_title>
+            <issue>20</issue>
+            <volume>93</volume>
+            <doi>10.1212/wnl.0000000000008466</doi>
+            <cYear>2019</cYear>
+            <unstructured_citation>Rocca, M. A., Valsasina, P., Meani,
+A., Gobbi, C., Zecca, C., Rovira, À., Montalban, X., Kearney, H.,
+Ciccarelli, O., Matthews, L., Palace, J., Gallo, A., Bisecco, A., Gass,
+A., Eisele, P., Lukas, C., Bellenberg, B., Barkhof, F., Vrenken, H., …
+Filippi, M. (2019). Clinically relevant cranio-caudal patterns of
+cervical cord atrophy evolution in MS. Neurology, 93(20), E1852–E1866.
+https://doi.org/10.1212/wnl.0000000000008466</unstructured_citation>
+          </citation>
+          <citation key="Virtanen2020-hl">
+            <article_title>SciPy 1.0: Fundamental algorithms for
+scientific computing in python</article_title>
+            <author>Virtanen</author>
+            <journal_title>Nat. Methods</journal_title>
+            <issue>3</issue>
+            <volume>17</volume>
+            <doi>10.1038/s41592-019-0686-2</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Virtanen, P., Gommers, R., Oliphant,
+T. E., Haberland, M., Reddy, T., Cournapeau, D., Burovski, E., Peterson,
+P., Weckesser, W., Bright, J., Walt, S. J. van der, Brett, M., Wilson,
+J., Millman, K. J., Mayorov, N., Nelson, A. R. J., Jones, E., Kern, R.,
+Larson, E., … Vázquez-Baeza, Y. (2020). SciPy 1.0: Fundamental
+algorithms for scientific computing in python. Nat. Methods, 17(3),
+261–272.
+https://doi.org/10.1038/s41592-019-0686-2</unstructured_citation>
+          </citation>
+          <citation key="ElMendili2023-ws">
+            <article_title>Association between brain and upper cervical
+spinal cord atrophy assessed by MRI and disease aggressiveness in
+amyotrophic lateral sclerosis</article_title>
+            <author>El Mendili</author>
+            <journal_title>Neuroradiology</journal_title>
+            <doi>10.1007/s00234-023-03191-0</doi>
+            <cYear>2023</cYear>
+            <unstructured_citation>El Mendili, M. M., Verschueren, A.,
+Ranjeva, J.-P., Guye, M., Attarian, S., Zaaraoui, W., &amp; Grapperon,
+A.-M. (2023). Association between brain and upper cervical spinal cord
+atrophy assessed by MRI and disease aggressiveness in amyotrophic
+lateral sclerosis. Neuroradiology.
+https://doi.org/10.1007/s00234-023-03191-0</unstructured_citation>
+          </citation>
+          <citation key="Engl2013-xx">
+            <article_title>Brain size and white matter content of
+cerebrospinal tracts determine the upper cervical cord area: Evidence
+from structural brain MRI</article_title>
+            <author>Engl</author>
+            <journal_title>Neuroradiology</journal_title>
+            <issue>8</issue>
+            <volume>55</volume>
+            <doi>10.1007/s00234-013-1204-3</doi>
+            <cYear>2013</cYear>
+            <unstructured_citation>Engl, C., Schmidt, P., Arsic, M.,
+Boucard, C. C., Biberacher, V., Röttinger, M., Etgen, T., Nunnemann, S.,
+Koutsouleris, N., Reiser, M., Meisenzahl, E. M., &amp; Mühlau, M.
+(2013). Brain size and white matter content of cerebrospinal tracts
+determine the upper cervical cord area: Evidence from structural brain
+MRI. Neuroradiology, 55(8), 963–970.
+https://doi.org/10.1007/s00234-013-1204-3</unstructured_citation>
+          </citation>
+          <citation key="Losseff1996-py">
+            <article_title>Spinal cord atrophy and disability in
+multiple sclerosis. A new reproducible and sensitive MRI method with
+potential to monitor disease progression</article_title>
+            <author>Losseff</author>
+            <journal_title>Brain</journal_title>
+            <volume>119 ( Pt 3)</volume>
+            <doi>10.1093/brain/119.3.701</doi>
+            <cYear>1996</cYear>
+            <unstructured_citation>Losseff, N. A., Webb, S. L.,
+O’Riordan, J. I., Page, R., Wang, L., Barker, G. J., Tofts, P. S.,
+McDonald, W. I., Miller, D. H., &amp; Thompson, A. J. (1996). Spinal
+cord atrophy and disability in multiple sclerosis. A new reproducible
+and sensitive MRI method with potential to monitor disease progression.
+Brain, 119 ( Pt 3), 701–708.
+https://doi.org/10.1093/brain/119.3.701</unstructured_citation>
+          </citation>
+          <citation key="Rashid2006-ar">
+            <article_title>Upper cervical cord area in early
+relapsing-remitting multiple sclerosis: Cross-sectional study of factors
+influencing cord size</article_title>
+            <author>Rashid</author>
+            <journal_title>J. Magn. Reson. Imaging</journal_title>
+            <issue>4</issue>
+            <volume>23</volume>
+            <doi>10.1002/jmri.20545</doi>
+            <cYear>2006</cYear>
+            <unstructured_citation>Rashid, W., Davies, G. R., Chard, D.
+T., Griffin, C. M., Altmann, D. R., Gordon, R., Kapoor, R., Thompson, A.
+J., &amp; Miller, D. H. (2006). Upper cervical cord area in early
+relapsing-remitting multiple sclerosis: Cross-sectional study of factors
+influencing cord size. J. Magn. Reson. Imaging, 23(4), 473–476.
+https://doi.org/10.1002/jmri.20545</unstructured_citation>
+          </citation>
+          <citation key="Smith2021-mh">
+            <article_title>The prevalence of asymptomatic and
+symptomatic spinal cord compression on magnetic resonance imaging: A
+systematic review and meta-analysis</article_title>
+            <author>Smith</author>
+            <journal_title>Global Spine Journal</journal_title>
+            <issue>4</issue>
+            <volume>11</volume>
+            <doi>10.1177/2192568220934496</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Smith, S. S., Stewart, M. E., Davies,
+B. M., &amp; Kotter, M. R. N. (2021). The prevalence of asymptomatic and
+symptomatic spinal cord compression on magnetic resonance imaging: A
+systematic review and meta-analysis. Global Spine Journal, 11(4),
+597–607.
+https://doi.org/10.1177/2192568220934496</unstructured_citation>
+          </citation>
+          <citation key="Cohen2021-generic">
+            <article_title>Generic acquisition protocol for quantitative
+MRI of the spinal cord</article_title>
+            <author>Cohen-Adad</author>
+            <journal_title>Nature protocols</journal_title>
+            <issue>10</issue>
+            <volume>16</volume>
+            <doi>10.1038/s41596-021-00588-0</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Cohen-Adad, J., Alonso-Ortiz, E.,
+Abramovic, M., Arneitz, C., Atcheson, N., Barlow, L., Barry, R. L.,
+Barth, M., Battiston, M., Büchel, C., &amp; others. (2021). Generic
+acquisition protocol for quantitative MRI of the spinal cord. Nature
+Protocols, 16(10), 4611–4632.
+https://doi.org/10.1038/s41596-021-00588-0</unstructured_citation>
+          </citation>
+          <citation key="Cohen2021-open">
+            <article_title>Open-access quantitative MRI data of the
+spinal cord and reproducibility across participants, sites and
+manufacturers</article_title>
+            <author>Cohen-Adad</author>
+            <journal_title>Scientific data</journal_title>
+            <issue>1</issue>
+            <volume>8</volume>
+            <doi>10.1038/s41597-021-01044-0</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Cohen-Adad, J., Alonso-Ortiz, E.,
+Abramovic, M., Arneitz, C., Atcheson, N., Barlow, L., Barry, R. L.,
+Barth, M., Battiston, M., Büchel, C., &amp; others. (2021). Open-access
+quantitative MRI data of the spinal cord and reproducibility across
+participants, sites and manufacturers. Scientific Data, 8(1), 219.
+https://doi.org/10.1038/s41597-021-01044-0</unstructured_citation>
+          </citation>
+          <citation key="David2019-jc">
+            <article_title>Traumatic and nontraumatic spinal cord
+injury: Pathological insights from neuroimaging</article_title>
+            <author>David</author>
+            <journal_title>Nat. Rev. Neurol.</journal_title>
+            <issue>12</issue>
+            <volume>15</volume>
+            <doi>10.1038/s41582-019-0270-5</doi>
+            <cYear>2019</cYear>
+            <unstructured_citation>David, G., Mohammadi, S., Martin, A.
+R., Cohen-Adad, J., Weiskopf, N., Thompson, A., &amp; Freund, P. (2019).
+Traumatic and nontraumatic spinal cord injury: Pathological insights
+from neuroimaging. Nat. Rev. Neurol., 15(12), 718–731.
+https://doi.org/10.1038/s41582-019-0270-5</unstructured_citation>
+          </citation>
+          <citation key="Mina2021-xs">
+            <article_title>Cervical and thoracic cord atrophy in
+multiple sclerosis phenotypes: Quantification and correlation with
+clinical disability</article_title>
+            <author>Mina</author>
+            <journal_title>NeuroImage: Clinical</journal_title>
+            <volume>30</volume>
+            <doi>10.1016/j.nicl.2021.102680</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Mina, Y., Azodi, S., Dubuche, T.,
+Andrada, F., Osuorah, I., Ohayon, J., Cortese, I., Wu, T., Johnson, K.
+R., Reich, D. S., Nair, G., &amp; Jacobson, S. (2021). Cervical and
+thoracic cord atrophy in multiple sclerosis phenotypes: Quantification
+and correlation with clinical disability. NeuroImage: Clinical, 30,
+102680.
+https://doi.org/10.1016/j.nicl.2021.102680</unstructured_citation>
+          </citation>
+          <citation key="Gros2019-yi">
+            <article_title>Automatic segmentation of the spinal cord and
+intramedullary multiple sclerosis lesions with convolutional neural
+networks</article_title>
+            <author>Gros</author>
+            <journal_title>Neuroimage</journal_title>
+            <volume>184</volume>
+            <doi>10.1016/j.neuroimage.2018.09.081</doi>
+            <cYear>2019</cYear>
+            <unstructured_citation>Gros, C., De Leener, B., Badji, A.,
+Maranzano, J., Eden, D., Dupont, S. M., Talbott, J., Zhuoquiong, R.,
+Liu, Y., Granberg, T., Ouellette, R., Tachibana, Y., Hori, M., Kamiya,
+K., Chougar, L., Stawiarz, L., Hillert, J., Bannier, E., Kerbrat, A., …
+Cohen-Adad, J. (2019). Automatic segmentation of the spinal cord and
+intramedullary multiple sclerosis lesions with convolutional neural
+networks. Neuroimage, 184, 901–915.
+https://doi.org/10.1016/j.neuroimage.2018.09.081</unstructured_citation>
+          </citation>
+          <citation key="Paquin2018-kf">
+            <article_title>Spinal cord gray matter atrophy in
+amyotrophic lateral sclerosis</article_title>
+            <author>Paquin</author>
+            <journal_title>AJNR Am. J. Neuroradiol.</journal_title>
+            <issue>1</issue>
+            <volume>39</volume>
+            <doi>10.3174/ajnr.a5427</doi>
+            <cYear>2018</cYear>
+            <unstructured_citation>Paquin, M. E., Mendili, M. M. E.,
+Gros, C., Dupont, S. M., Cohen-Adad, J., &amp; Pradat, P. F. (2018).
+Spinal cord gray matter atrophy in amyotrophic lateral sclerosis. AJNR
+Am. J. Neuroradiol., 39(1), 184–192.
+https://doi.org/10.3174/ajnr.a5427</unstructured_citation>
+          </citation>
+          <citation key="Horsfield2010-gx">
+            <article_title>Rapid semi-automatic segmentation of the
+spinal cord from magnetic resonance images: Application in multiple
+sclerosis</article_title>
+            <author>Horsfield</author>
+            <journal_title>Neuroimage</journal_title>
+            <issue>2</issue>
+            <volume>50</volume>
+            <doi>10.1016/j.neuroimage.2009.12.121</doi>
+            <cYear>2010</cYear>
+            <unstructured_citation>Horsfield, M. A., Sala, S., Neema,
+M., Absinta, M., Bakshi, A., Sormani, M. P., Rocca, M. A., Bakshi, R.,
+&amp; Filippi, M. (2010). Rapid semi-automatic segmentation of the
+spinal cord from magnetic resonance images: Application in multiple
+sclerosis. Neuroimage, 50(2), 446–455.
+https://doi.org/10.1016/j.neuroimage.2009.12.121</unstructured_citation>
+          </citation>
+          <citation key="Badhiwala2020-qh">
+            <article_title>Degenerative cervical myelopathy - update and
+future directions</article_title>
+            <author>Badhiwala</author>
+            <journal_title>Nat. Rev. Neurol.</journal_title>
+            <issue>2</issue>
+            <volume>16</volume>
+            <doi>10.1038/s41582-019-0303-0</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Badhiwala, J. H., Ahuja, C. S.,
+Akbar, M. A., Witiw, C. D., Nassiri, F., Furlan, J. C., Curt, A.,
+Wilson, J. R., &amp; Fehlings, M. G. (2020). Degenerative cervical
+myelopathy - update and future directions. Nat. Rev. Neurol., 16(2),
+108–124.
+https://doi.org/10.1038/s41582-019-0303-0</unstructured_citation>
+          </citation>
+          <citation key="Gorgolewski2016-xf">
+            <article_title>The brain imaging data structure, a format
+for organizing and describing outputs of neuroimaging
+experiments</article_title>
+            <author>Gorgolewski</author>
+            <journal_title>Scientific Data</journal_title>
+            <issue>1</issue>
+            <volume>3</volume>
+            <doi>10.1038/sdata.2016.44</doi>
+            <cYear>2016</cYear>
+            <unstructured_citation>Gorgolewski, K. J., Auer, T.,
+Calhoun, V. D., Craddock, R. C., Das, S., Duff, E. P., Flandin, G.,
+Ghosh, S. S., Glatard, T., Halchenko, Y. O., Handwerker, D. A., Hanke,
+M., Keator, D., Li, X., Michael, Z., Maumet, C., Nichols, B. N.,
+Nichols, T. E., Pellman, J., … Poldrack, R. A. (2016). The brain imaging
+data structure, a format for organizing and describing outputs of
+neuroimaging experiments. Scientific Data, 3(1), 160044.
+https://doi.org/10.1038/sdata.2016.44</unstructured_citation>
+          </citation>
+          <citation key="Guo2022-qb">
+            <article_title>The Pre-Operative duration of symptoms: The
+most important predictor of Post-Operative efficacy in patients with
+degenerative cervical myelopathy</article_title>
+            <author>Guo</author>
+            <journal_title>Brain Sci</journal_title>
+            <issue>8</issue>
+            <volume>12</volume>
+            <doi>10.3390/brainsci12081088</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Guo, S., Lin, T., Wu, R., Wang, Z.,
+Chen, G., &amp; Liu, W. (2022). The Pre-Operative duration of symptoms:
+The most important predictor of Post-Operative efficacy in patients with
+degenerative cervical myelopathy. Brain Sci, 12(8).
+https://doi.org/10.3390/brainsci12081088</unstructured_citation>
+          </citation>
+          <citation key="DeLeener2018-zm">
+            <article_title>PAM50: Unbiased multimodal template of the
+brainstem and spinal cord aligned with the ICBM152 space</article_title>
+            <author>De Leener</author>
+            <journal_title>Neuroimage</journal_title>
+            <volume>165</volume>
+            <doi>10.1016/j.neuroimage.2017.10.041</doi>
+            <cYear>2018</cYear>
+            <unstructured_citation>De Leener, B., Fonov, V. S., Collins,
+D. L., Callot, V., Stikov, N., &amp; Cohen-Adad, J. (2018). PAM50:
+Unbiased multimodal template of the brainstem and spinal cord aligned
+with the ICBM152 space. Neuroimage, 165, 170–179.
+https://doi.org/10.1016/j.neuroimage.2017.10.041</unstructured_citation>
+          </citation>
+          <citation key="Yanase2006-xz">
+            <article_title>Measurement of the cervical spinal cord
+volume on MRI</article_title>
+            <author>Yanase</author>
+            <journal_title>J. Spinal Disord. Tech.</journal_title>
+            <issue>2</issue>
+            <volume>19</volume>
+            <doi>10.1097/01.bsd.0000181294.67212.79</doi>
+            <cYear>2006</cYear>
+            <unstructured_citation>Yanase, M., Matsuyama, Y., Hirose,
+K., Takagi, H., Yamada, M., Iwata, H., &amp; Ishiguro, N. (2006).
+Measurement of the cervical spinal cord volume on MRI. J. Spinal Disord.
+Tech., 19(2), 125–129.
+https://doi.org/10.1097/01.bsd.0000181294.67212.79</unstructured_citation>
+          </citation>
+          <citation key="Bedard2023-kb">
+            <article_title>Contrast-agnostic segmentation of the spinal
+cord using deep learning</article_title>
+            <author>Bédard</author>
+            <cYear>2023</cYear>
+            <unstructured_citation>Bédard, S. (2023). Contrast-agnostic
+segmentation of the spinal cord using deep learning.
+ISMRM.</unstructured_citation>
+          </citation>
+          <citation key="Frostell2016-yw">
+            <article_title>A review of the segmental diameter of the
+healthy human spinal cord</article_title>
+            <author>Frostell</author>
+            <journal_title>Front. Neurol.</journal_title>
+            <volume>7</volume>
+            <doi>10.3389/fneur.2016.00238</doi>
+            <cYear>2016</cYear>
+            <unstructured_citation>Frostell, A., Hakim, R., Thelin, E.
+P., Mattsson, P., &amp; Svensson, M. (2016). A review of the segmental
+diameter of the healthy human spinal cord. Front. Neurol., 7, 238.
+https://doi.org/10.3389/fneur.2016.00238</unstructured_citation>
+          </citation>
+          <citation key="Papinutto2015-ov">
+            <article_title>Age, gender and normalization covariates for
+spinal cord gray matter and total cross-sectional areas at cervical and
+thoracic levels: A 2D phase sensitive inversion recovery imaging
+study</article_title>
+            <author>Papinutto</author>
+            <journal_title>PLoS One</journal_title>
+            <issue>3</issue>
+            <volume>10</volume>
+            <doi>10.1371/journal.pone.0118576</doi>
+            <cYear>2015</cYear>
+            <unstructured_citation>Papinutto, N., Schlaeger, R., Panara,
+V., Zhu, A. H., Caverzasi, E., Stern, W. A., Hauser, S. L., &amp; Henry,
+R. G. (2015). Age, gender and normalization covariates for spinal cord
+gray matter and total cross-sectional areas at cervical and thoracic
+levels: A 2D phase sensitive inversion recovery imaging study. PLoS One,
+10(3), e0118576.
+https://doi.org/10.1371/journal.pone.0118576</unstructured_citation>
+          </citation>
+          <citation key="Bedard2022-tr">
+            <article_title>Automatic measure and normalization of spinal
+cord cross-sectional area using the pontomedullary
+junction</article_title>
+            <author>Bédard</author>
+            <journal_title>Frontiers in Neuroimaging</journal_title>
+            <volume>1</volume>
+            <doi>10.3389/fnimg.2022.1031253</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Bédard, S., &amp; Cohen-Adad, J.
+(2022). Automatic measure and normalization of spinal cord
+cross-sectional area using the pontomedullary junction. Frontiers in
+Neuroimaging, 1, 43.
+https://doi.org/10.3389/fnimg.2022.1031253</unstructured_citation>
+          </citation>
+          <citation key="Martin2017-cf">
+            <article_title>A novel MRI biomarker of spinal cord white
+matter injury: T2∗-weighted white matter to gray matter signal intensity
+ratio</article_title>
+            <author>Martin</author>
+            <journal_title>AJNR Am. J. Neuroradiol.</journal_title>
+            <issue>6</issue>
+            <volume>38</volume>
+            <doi>10.3174/ajnr.a5162</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>Martin, A. R., De Leener, B.,
+Cohen-Adad, J., Cadotte, D. W., Kalsi-Ryan, S., Lange, S. F., Tetreault,
+L., Nouri, A., Crawley, A., Mikulis, D. J., Ginsberg, H., &amp;
+Fehlings, M. G. (2017). A novel MRI biomarker of spinal cord white
+matter injury: T2∗-weighted white matter to gray matter signal intensity
+ratio. AJNR Am. J. Neuroradiol., 38(6), 1266–1273.
+https://doi.org/10.3174/ajnr.a5162</unstructured_citation>
+          </citation>
+          <citation key="Papinutto2020-hn">
+            <article_title>Intersubject variability and normalization
+strategies for spinal cord total Cross-Sectional and gray matter
+areas</article_title>
+            <author>Papinutto</author>
+            <journal_title>J. Neuroimaging</journal_title>
+            <issue>1</issue>
+            <volume>30</volume>
+            <doi>10.1111/jon.12666</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Papinutto, N., Asteggiano, C.,
+Bischof, A., Gundel, T. J., Caverzasi, E., Stern, W. A., Bastianello,
+S., Hauser, S. L., &amp; Henry, R. G. (2020). Intersubject variability
+and normalization strategies for spinal cord total Cross-Sectional and
+gray matter areas. J. Neuroimaging, 30(1), 110–118.
+https://doi.org/10.1111/jon.12666</unstructured_citation>
+          </citation>
+          <citation key="DeLeener2017-fe">
+            <article_title>SCT: Spinal cord toolbox, an open-source
+software for processing spinal cord MRI data</article_title>
+            <author>De Leener</author>
+            <journal_title>Neuroimage</journal_title>
+            <volume>145</volume>
+            <doi>10.1016/j.neuroimage.2016.10.009</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>De Leener, B., Lévy, S., Dupont, S.
+M., Fonov, V. S., Stikov, N., Louis Collins, D., Callot, V., &amp;
+Cohen-Adad, J. (2017). SCT: Spinal cord toolbox, an open-source software
+for processing spinal cord MRI data. Neuroimage, 145, 24–43.
+https://doi.org/10.1016/j.neuroimage.2016.10.009</unstructured_citation>
+          </citation>
+          <citation key="Kovalova2016-ra">
+            <article_title>Prevalence and imaging characteristics of
+nonmyelopathic and myelopathic spondylotic cervical cord
+compression</article_title>
+            <author>Kovalova</author>
+            <journal_title>Spine</journal_title>
+            <issue>24</issue>
+            <volume>41</volume>
+            <doi>10.1097/brs.0000000000001842</doi>
+            <cYear>2016</cYear>
+            <unstructured_citation>Kovalova, I., Kerkovsky, M., Kadanka,
+Z., Kadanka, Z., Nemec, M., Jurova, B., Dusek, L., Jarkovsky, J., &amp;
+Bednarik, J. (2016). Prevalence and imaging characteristics of
+nonmyelopathic and myelopathic spondylotic cervical cord compression.
+Spine, 41(24), 1908–1916.
+https://doi.org/10.1097/brs.0000000000001842</unstructured_citation>
+          </citation>
+          <citation key="Kadanka2017-cu">
+            <article_title>Predictors of symptomatic myelopathy in
+degenerative cervical spinal cord compression</article_title>
+            <author>Kadanka</author>
+            <journal_title>Brain Behav.</journal_title>
+            <issue>9</issue>
+            <volume>7</volume>
+            <doi>10.1002/brb3.797</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>Kadanka, Z., Adamova, B., Kerkovsky,
+M., Kadanka, Z., Dusek, L., Jurova, B., Vlckova, E., &amp; Bednarik, J.
+(2017). Predictors of symptomatic myelopathy in degenerative cervical
+spinal cord compression. Brain Behav., 7(9), e00797.
+https://doi.org/10.1002/brb3.797</unstructured_citation>
+          </citation>
+          <citation key="Martin2017-zu">
+            <article_title>Clinically feasible microstructural MRI to
+quantify cervical spinal cord tissue injury using DTI, MT, and
+T2*-Weighted imaging: Assessment of normative data and
+reliability</article_title>
+            <author>Martin</author>
+            <journal_title>AJNR Am. J. Neuroradiol.</journal_title>
+            <issue>6</issue>
+            <volume>38</volume>
+            <doi>10.3174/ajnr.a5163</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>Martin, A. R., De Leener, B.,
+Cohen-Adad, J., Cadotte, D. W., Kalsi-Ryan, S., Lange, S. F., Tetreault,
+L., Nouri, A., Crawley, A., Mikulis, D. J., Ginsberg, H., &amp;
+Fehlings, M. G. (2017). Clinically feasible microstructural MRI to
+quantify cervical spinal cord tissue injury using DTI, MT, and
+T2*-Weighted imaging: Assessment of normative data and reliability. AJNR
+Am. J. Neuroradiol., 38(6), 1257–1265.
+https://doi.org/10.3174/ajnr.a5163</unstructured_citation>
+          </citation>
+          <citation key="Kato2012-iy">
+            <article_title>Normal morphology, age-related changes and
+abnormal findings of the cervical spine. Part II: Magnetic resonance
+imaging of over 1,200 asymptomatic subjects</article_title>
+            <author>Kato</author>
+            <journal_title>Eur. Spine J.</journal_title>
+            <doi>10.1007/s00586-012-2176-4</doi>
+            <cYear>2012</cYear>
+            <unstructured_citation>Kato, F., Yukawa, Y., Suda, K.,
+Yamagata, M., &amp; Ueta, T. (2012). Normal morphology, age-related
+changes and abnormal findings of the cervical spine. Part II: Magnetic
+resonance imaging of over 1,200 asymptomatic subjects. Eur. Spine J.
+https://doi.org/10.1007/s00586-012-2176-4</unstructured_citation>
+          </citation>
+          <citation key="Kerkovsky2017-tw">
+            <article_title>Spinal cord MR diffusion properties in
+patients with degenerative cervical cord compression</article_title>
+            <author>Keřkovský</author>
+            <journal_title>J. Neuroimaging</journal_title>
+            <issue>1</issue>
+            <volume>27</volume>
+            <doi>10.1111/jon.12372</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>Keřkovský, M., Bednařı́k, J., Jurová,
+B., Dušek, L., Kadaňka, Z., Kadaňka, Z., Němec, M., Kovaľová, I.,
+Šprláková-Puková, A., &amp; Mechl, M. (2017). Spinal cord MR diffusion
+properties in patients with degenerative cervical cord compression. J.
+Neuroimaging, 27(1), 149–157.
+https://doi.org/10.1111/jon.12372</unstructured_citation>
+          </citation>
+          <citation key="Solstrand2020-xz">
+            <article_title>Heritability of cervical spinal cord
+structure</article_title>
+            <author>Solstrand Dahlberg</author>
+            <journal_title>Neurol Genet</journal_title>
+            <issue>2</issue>
+            <volume>6</volume>
+            <doi>10.1212/nxg.0000000000000401</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Solstrand Dahlberg, L., Viessmann,
+O., &amp; Linnman, C. (2020). Heritability of cervical spinal cord
+structure. Neurol Genet, 6(2), e401.
+https://doi.org/10.1212/nxg.0000000000000401</unstructured_citation>
+          </citation>
+          <citation key="Miyanji2007-za">
+            <article_title>Acute cervical traumatic spinal cord injury:
+MR imaging findings correlated with neurologic outcome–prospective study
+with 100 consecutive patients</article_title>
+            <author>Miyanji</author>
+            <journal_title>Radiology</journal_title>
+            <issue>3</issue>
+            <volume>243</volume>
+            <doi>10.1148/radiol.2433060583</doi>
+            <cYear>2007</cYear>
+            <unstructured_citation>Miyanji, F., Furlan, J. C., Aarabi,
+B., Arnold, P. M., &amp; Fehlings, M. G. (2007). Acute cervical
+traumatic spinal cord injury: MR imaging findings correlated with
+neurologic outcome–prospective study with 100 consecutive patients.
+Radiology, 243(3), 820–827.
+https://doi.org/10.1148/radiol.2433060583</unstructured_citation>
+          </citation>
+          <citation key="Standring2020-er">
+            <volume_title>Gray’s anatomy: The anatomical basis of
+clinical practice</volume_title>
+            <author>Standring</author>
+            <cYear>2020</cYear>
+            <unstructured_citation>Standring, S. (2020). Gray’s anatomy:
+The anatomical basis of clinical practice.
+Elsevier.</unstructured_citation>
+          </citation>
+          <citation key="Taso2016-cv">
+            <article_title>Tract-specific and age-related variations of
+the spinal cord microstructure: A multi-parametric MRI study using
+diffusion tensor imaging (DTI) and inhomogeneous magnetization transfer
+(ihMT)</article_title>
+            <author>Taso</author>
+            <journal_title>NMR Biomed.</journal_title>
+            <issue>6</issue>
+            <volume>29</volume>
+            <doi>10.1002/nbm.3530</doi>
+            <cYear>2016</cYear>
+            <unstructured_citation>Taso, M., Girard, O. M., Duhamel, G.,
+Le Troter, A., Feiweier, T., Guye, M., Ranjeva, J. P., &amp; Callot, V.
+(2016). Tract-specific and age-related variations of the spinal cord
+microstructure: A multi-parametric MRI study using diffusion tensor
+imaging (DTI) and inhomogeneous magnetization transfer (ihMT). NMR
+Biomed., 29(6), 817–832.
+https://doi.org/10.1002/nbm.3530</unstructured_citation>
+          </citation>
+          <citation key="Horakova2022-gz">
+            <article_title>Semi-automated detection of cervical spinal
+cord compression with the spinal cord toolbox</article_title>
+            <author>Horáková</author>
+            <journal_title>Quant. Imaging Med. Surg.</journal_title>
+            <issue>4</issue>
+            <volume>12</volume>
+            <doi>10.21037/qims-21-782</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Horáková, M., Horák, T., Valošek, J.,
+Rohan, T., Koriťáková, E., Dostál, M., Kočica, J., Skutil, T.,
+Keřkovský, M., Kadaňka, Z., Jr, Bednařík, P., Svátková, A., Hluštík, P.,
+&amp; Bednařík, J. (2022). Semi-automated detection of cervical spinal
+cord compression with the spinal cord toolbox. Quant. Imaging Med.
+Surg., 12(4), 2261–2279.
+https://doi.org/10.21037/qims-21-782</unstructured_citation>
+          </citation>
+          <citation key="Kesenheimer2021-vw">
+            <article_title>Normalization of spinal cord total
+Cross-Sectional and gray matter areas as quantified with radially
+sampled averaged magnetization inversion recovery
+acquisitions</article_title>
+            <author>Kesenheimer</author>
+            <journal_title>Front. Neurol.</journal_title>
+            <volume>12</volume>
+            <doi>10.3389/fneur.2021.637198</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Kesenheimer, E. M., Wendebourg, M.
+J., Weigel, M., Weidensteiner, C., Haas, T., Richter, L., Sander, L.,
+Horvath, A., Barakovic, M., Cattin, P., Granziera, C., Bieri, O., &amp;
+Schlaeger, R. (2021). Normalization of spinal cord total Cross-Sectional
+and gray matter areas as quantified with radially sampled averaged
+magnetization inversion recovery acquisitions. Front. Neurol., 12.
+https://doi.org/10.3389/fneur.2021.637198</unstructured_citation>
+          </citation>
+          <citation key="Ullmann2014-zm">
+            <article_title>Automatic labeling of vertebral levels using
+a robust Template-Based approach</article_title>
+            <author>Ullmann</author>
+            <journal_title>Int. J. Biomed. Imaging</journal_title>
+            <volume>2014</volume>
+            <doi>10.1155/2014/719520</doi>
+            <cYear>2014</cYear>
+            <unstructured_citation>Ullmann, E., Pelletier Paquette, J.
+F., Thong, W. E., &amp; Cohen-Adad, J. (2014). Automatic labeling of
+vertebral levels using a robust Template-Based approach. Int. J. Biomed.
+Imaging, 2014, 719520.
+https://doi.org/10.1155/2014/719520</unstructured_citation>
+          </citation>
+          <citation key="Karakuzu2022-bids">
+            <article_title>qMRI-BIDS: An extension to the brain imaging
+data structure for quantitative magnetic resonance imaging
+data</article_title>
+            <author>Karakuzu</author>
+            <journal_title>Scientific data</journal_title>
+            <issue>1</issue>
+            <volume>9</volume>
+            <doi>10.1038/s41597-022-01571-4</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Karakuzu, A., Appelhoff, S., Auer,
+T., Boudreau, M., Feingold, F., Khan, A. R., Lazari, A., Markiewicz, C.,
+Mulder, M., Phillips, C., &amp; others. (2022). qMRI-BIDS: An extension
+to the brain imaging data structure for quantitative magnetic resonance
+imaging data. Scientific Data, 9(1), 517.
+https://doi.org/10.1038/s41597-022-01571-4</unstructured_citation>
+          </citation>
+          <citation key="McCarthy2019-qd">
+            <article_title>FSLeyes</article_title>
+            <author>McCarthy</author>
+            <doi>10.5281/zenodo.6511596</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>McCarthy, P. (2022). FSLeyes (Version
+1.4.0). Zenodo.
+https://doi.org/10.5281/zenodo.6511596</unstructured_citation>
+          </citation>
+          <citation key="Karakuzu2022-nlwf">
+            <article_title>NeuroLibre : A preprint server for
+full-fledged reproducible neuroscience</article_title>
+            <author>Karakuzu</author>
+            <doi>10.31219/osf.io/h89js</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Karakuzu, A., DuPre, E., Tetrel, L.,
+Bermudez, P., Boudreau, M., Chin, M., Poline, J.-B., Das, S., Bellec,
+P., &amp; Stikov, N. (2022). NeuroLibre : A preprint server for
+full-fledged reproducible neuroscience. OSF Preprints.
+https://doi.org/10.31219/osf.io/h89js</unstructured_citation>
+          </citation>
+          <citation key="Dupre2022-iro">
+            <article_title>Beyond advertising: New infrastructures for
+publishing integrated research objects</article_title>
+            <author>DuPre</author>
+            <journal_title>PLOS Computational Biology</journal_title>
+            <issue>1</issue>
+            <volume>18</volume>
+            <doi>10.1371/journal.pcbi.1009651</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>DuPre, E., Holdgraf, C., Karakuzu,
+A., Tetrel, L., Bellec, P., Stikov, N., &amp; Poline, J.-B. (2022).
+Beyond advertising: New infrastructures for publishing integrated
+research objects. PLOS Computational Biology, 18(1), e1009651.
+https://doi.org/10.1371/journal.pcbi.1009651</unstructured_citation>
+          </citation>
+          <citation key="Harding2023-conp">
+            <article_title>The Canadian Open Neuroscience Platform—An
+open science framework for the neuroscience community</article_title>
+            <author>Harding</author>
+            <journal_title>PLOS Computational Biology</journal_title>
+            <issue>7</issue>
+            <volume>19</volume>
+            <doi>10.1371/journal.pcbi.1011230</doi>
+            <cYear>2023</cYear>
+            <unstructured_citation>Harding, R. J., Bermudez, P.,
+Bernier, A., Beauvais, M., Bellec, P., Hill, S., Karakuzu, A., Knoppers,
+B. M., Pavlidis, P., Poline, J.-B., Roskams, J., Stikov, N., Stone, J.,
+Strother, S., Consortium, C., &amp; Evans, A. C. (2023). The Canadian
+Open Neuroscience Platform—An open science framework for the
+neuroscience community. PLOS Computational Biology, 19(7), 1–14.
+https://doi.org/10.1371/journal.pcbi.1011230</unstructured_citation>
+          </citation>
+        </citation_list>
+  </posted_content>
+  </body>
+</doi_batch>
