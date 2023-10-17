@@ -1,0 +1,2011 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN"
+                  "JATS-publishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+<journal-title>NeuroLibre Reproducible Preprints</journal-title>
+<abbrev-journal-title>NeuroLibre</abbrev-journal-title>
+</journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher>
+<publisher-name>NeuroLibre</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">17</article-id>
+<article-id pub-id-type="doi">10.55458/neurolibre.00017</article-id>
+<title-group>
+<article-title>A database of the healthy human spinal cord morphometry
+in the PAM50 template space</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" equal-contrib="yes">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-7398-4990</contrib-id>
+<name>
+<surname>Valošek</surname>
+<given-names>Jan</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="aff" rid="aff-2"/>
+<xref ref-type="aff" rid="aff-3"/>
+<xref ref-type="aff" rid="aff-4"/>
+</contrib>
+<contrib contrib-type="author" equal-contrib="yes">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-9859-1133</contrib-id>
+<name>
+<surname>Bédard</surname>
+<given-names>Sandrine</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-0587-9897</contrib-id>
+<name>
+<surname>Keřkovský</surname>
+<given-names>Miloš</given-names>
+</name>
+<xref ref-type="aff" rid="aff-5"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-7105-583X</contrib-id>
+<name>
+<surname>Rohan</surname>
+<given-names>Tomáš</given-names>
+</name>
+<xref ref-type="aff" rid="aff-5"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-3662-9532</contrib-id>
+<name>
+<surname>Cohen-Adad</surname>
+<given-names>Julien</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="aff" rid="aff-2"/>
+<xref ref-type="aff" rid="aff-6"/>
+<xref ref-type="aff" rid="aff-7"/>
+</contrib>
+<aff id="aff-1">
+<institution-wrap>
+<institution>NeuroPoly Lab, Institute of Biomedical Engineering,
+Polytechnique Montreal, Montreal, QC, Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-2">
+<institution-wrap>
+<institution>Mila - Quebec AI Institute, Montreal, QC,
+Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-3">
+<institution-wrap>
+<institution>Department of Neurosurgery, Faculty of Medicine and
+Dentistry, Palacký University Olomouc, Olomouc, Czechia</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-4">
+<institution-wrap>
+<institution>Department of Neurology, Faculty of Medicine and Dentistry,
+Palacký University Olomouc, Olomouc, Czechia</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-5">
+<institution-wrap>
+<institution>Department of Radiology and Nuclear Medicine, University
+Hospital Brno and Masaryk University, Brno, Czechia</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-6">
+<institution-wrap>
+<institution>Functional Neuroimaging Unit, CRIUGM, Université de
+Montréal, Montreal, QC, Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-7">
+<institution-wrap>
+<institution>Centre de recherche du CHU Sainte-Justine, Université de
+Montréal, Montreal, QC, Canada</institution>
+</institution-wrap>
+</aff>
+</contrib-group>
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2023-08-16">
+<day>16</day>
+<month>8</month>
+<year>2023</year>
+</pub-date>
+<volume>3</volume>
+<issue>34</issue>
+<fpage>17</fpage>
+<permissions>
+<copyright-statement>Authors of papers retain copyright and release the
+work under a Creative Commons Attribution 4.0 International License (CC
+BY 4.0)</copyright-statement>
+<copyright-year>2022</copyright-year>
+<copyright-holder>The article authors</copyright-holder>
+<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/">
+<license-p>Authors of papers retain copyright and release the work under
+a Creative Commons Attribution 4.0 International License (CC BY
+4.0)</license-p>
+</license>
+</permissions>
+<kwd-group kwd-group-type="author">
+<kwd>spinal cord</kwd>
+<kwd>morphometric measures</kwd>
+<kwd>normative values</kwd>
+<kwd>open-source</kwd>
+</kwd-group>
+</article-meta>
+</front>
+<body>
+<sec id="summary">
+  <title>Summary</title>
+  <p>Spinal cord morphometry measures derived from magnetic resonance
+  imaging (MRI) scans serve as valuable prognostic biomarkers for
+  various spinal cord pathologies. Despite their significance,
+  interpreting these biomarkers is challenging due to substantial
+  variability between subjects. The lack of a standardized normalization
+  method to mitigate this variability and the need for a better
+  understanding of morphometric distribution contribute to the current
+  knowledge gap.</p>
+  <p>In this work, we present a database of healthy normative values for
+  six commonly used measures of spinal cord morphometry built using a
+  new fully-automatic normalization approach. Morphometric measures were
+  computed from a large open-access dataset of healthy adult volunteers
+  (N = 203) and brought to the common space of the PAM50 spinal cord
+  template using a newly proposed normalization method based on linear
+  interpolation
+  <xref alt="[fig:figure1]" rid="figU003Afigure1">[fig:figure1]</xref>.</p>
+  <p>The database is interactive, available online
+  (<ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00017">https://preprint.neurolibre.org/10.55458/neurolibre.00017</ext-link>)
+  and allows filtering for sex, age, and MRI vendors. The proposed
+  method is open-source and easily accessible through the Spinal Cord
+  Toolbox (SCT) v6.0 and higher.</p>
+  <p>This new morphometric database allows researchers to normalize
+  morphometrics based on sex and age, thereby minimizing inter-subject
+  variability associated with demographic and biological factors.</p>
+</sec>
+<sec id="figures">
+  <title>Figures</title>
+  <fig>
+    <caption><p>Schematic representation of the normalization approach.
+    (A) T2-weighted images of 203 participants from the spine-generic
+    dataset (multi-subject) were used. The spinal cord was segmented,
+    and vertebral levels were identified automatically using the Spinal
+    Cord Toolbox (SCT). (B) Six morphometric measures were computed for
+    each axial slice from the single-subject segmentation masks. (C) For
+    each vertebral level, the number of slices in the subject native
+    space and the corresponding vertebral level in the PAM50 template
+    (D) were identified. Then, the morphometric measures were linearly
+    interpolated to the PAM50 space using the number of slices in the
+    PAM50 template and the subject native space for each vertebral
+    level.<styled-content id="figU003Afigure1"></styled-content></p></caption>
+    <graphic mimetype="image" mime-subtype="png" xlink:href="media/content/images/fig1.png" />
+  </fig>
+</sec>
+<sec id="acknowledgements">
+  <title>Acknowledgements</title>
+  <p>We thank Nick Guenther and Mathieu Guay-Paquet for their assistance
+  with dataset management, Joshua Newton for his help with implementing
+  the algorithm in SCT, and Allan R. Martin for his insightful
+  discussions on the clinical aspects of the work. We also thank Nathan
+  Molinier for providing valuable feedback on the manuscript figures. We
+  acknowledge all participants as well as collaborators of the
+  spine-generic study
+  (<ext-link ext-link-type="uri" xlink:href="https://spine-generic.readthedocs.io">https://spine-generic.readthedocs.io</ext-link>).</p>
+  <p>Funded by the Canada Research Chair in Quantitative Magnetic
+  Resonance Imaging [CRC-2020-00179], the Canadian Institute of Health
+  Research [PJT-190258], the Canada Foundation for Innovation [32454,
+  34824], the Fonds de Recherche du Québec - Santé [322736], the Natural
+  Sciences and Engineering Research Council of Canada
+  [RGPIN-2019-07244], the Canada First Research Excellence Fund (IVADO
+  and TransMedTech), the Courtois NeuroMod project, the Quebec
+  BioImaging Network [5886, 35450], INSPIRED (Spinal Research, UK; Wings
+  for Life, Austria; Craig H. Neilsen Foundation, USA), Mila - Tech
+  Transfer Funding Program. Supported by the Ministry of Health of the
+  Czech Republic, grant nr. NU22-04-00024. All rights reserved. JV has
+  received funding from the European Union’s Horizon Europe research and
+  innovation programme under the Marie Sktodowska-Curie grant agreement
+  No 101107932.</p>
+  <p></p>
+  <disp-quote>
+    <p><bold><italic>NOTE:</italic></bold> The following section in this
+    document repeats the narrative content exactly as found in the
+    <ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00017">corresponding
+    NeuroLibre Reproducible Preprint (NRP)</ext-link>. The content was
+    automatically incorporated into this PDF using the NeuroLibre
+    publication workflow
+    (<xref alt="Karakuzu, DuPre, et al., 2022" rid="ref-Karakuzu2022-nlwf" ref-type="bibr">Karakuzu,
+    DuPre, et al., 2022</xref>) to credit the referenced resources. The
+    submitting author of the preprint has verified and approved the
+    inclusion of this section through a GitHub pull request made to the
+    <ext-link ext-link-type="uri" xlink:href="https://github.com/valosekj/PAM50-normalized-metrics-paper">source
+    repository</ext-link> from which this document was built. Please
+    note that the figures and tables have been excluded from this
+    (static) document. <bold>To interactively explore such outputs and
+    re-generate them, please visit the corresponding
+    <ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00017">NRP</ext-link>.</bold>
+    For more information on integrated research objects (e.g., NRPs)
+    that bundle narrative and executable content for reproducible and
+    transparent publications, please refer to DuPre et al.
+    (<xref alt="2022" rid="ref-Dupre2022-iro" ref-type="bibr">2022</xref>).
+    NeuroLibre is sponsored by the Canadian Open Neuroscience Platform
+    (CONP)
+    (<xref alt="Harding et al., 2023" rid="ref-Harding2023-conp" ref-type="bibr">Harding
+    et al., 2023</xref>).</p>
+  </disp-quote>
+</sec>
+<sec id="introduction">
+  <title>1. INTRODUCTION</title>
+  <sec id="spinal-cord-morphometry-measures">
+    <title>1.1 Spinal cord morphometry measures</title>
+    <p>The spinal cord plays a vital role in the central nervous system
+    by transmitting sensory and motor signals between the brain and the
+    rest of the body. It also contains essential networks responsible
+    for functions such as locomotion and pain processing. Structural
+    magnetic resonance imaging (MRI) is commonly used to assess spinal
+    cord macrostructure and to compute measures of spinal cord
+    morphometry like cross-sectional area (CSA) or anteroposterior (AP)
+    diameter. The morphometric measures serve as objective indicators to
+    evaluate spinal cord pathologies, such as the extent of spinal cord
+    atrophy in multiple sclerosis
+    (<xref alt="Losseff et al., 1996" rid="ref-Losseff1996-py" ref-type="bibr">Losseff
+    et al., 1996</xref>;
+    <xref alt="Mina et al., 2021" rid="ref-Mina2021-xs" ref-type="bibr">Mina
+    et al., 2021</xref>;
+    <xref alt="Rocca et al., 2019" rid="ref-Rocca2019-yc" ref-type="bibr">Rocca
+    et al., 2019</xref>) and amyotrophic lateral sclerosis
+    (<xref alt="El Mendili et al., 2023" rid="ref-ElMendili2023-ws" ref-type="bibr">El
+    Mendili et al., 2023</xref>;
+    <xref alt="Paquin et al., 2018" rid="ref-Paquin2018-kf" ref-type="bibr">Paquin
+    et al., 2018</xref>) or the severity of spinal cord injury and
+    spinal cord compression in traumatic and non-traumatic spinal cord
+    injury, respectively
+    (<xref alt="Badhiwala et al., 2020" rid="ref-Badhiwala2020-qh" ref-type="bibr">Badhiwala
+    et al., 2020</xref>;
+    <xref alt="David et al., 2019" rid="ref-David2019-jc" ref-type="bibr">David
+    et al., 2019</xref>;
+    <xref alt="Miyanji et al., 2007" rid="ref-Miyanji2007-za" ref-type="bibr">Miyanji
+    et al., 2007</xref>).</p>
+    <p>However, interpreting morphometric measures is challenging due to
+    considerable inter-subject variability associated with demographic
+    and biological factors. For example, significantly smaller CSA is
+    consistently reported in females relative to males
+    (<xref alt="Bédard &amp; Cohen-Adad, 2022" rid="ref-Bedard2022-tr" ref-type="bibr">Bédard
+    &amp; Cohen-Adad, 2022</xref>;
+    <xref alt="Engl et al., 2013" rid="ref-Engl2013-xx" ref-type="bibr">Engl
+    et al., 2013</xref>;
+    <xref alt="Mina et al., 2021" rid="ref-Mina2021-xs" ref-type="bibr">Mina
+    et al., 2021</xref>;
+    <xref alt="Papinutto et al., 2015" rid="ref-Papinutto2015-ov" ref-type="bibr">Papinutto
+    et al., 2015</xref>,
+    <xref alt="2020" rid="ref-Papinutto2020-hn" ref-type="bibr">2020</xref>;
+    <xref alt="Rashid et al., 2006" rid="ref-Rashid2006-ar" ref-type="bibr">Rashid
+    et al., 2006</xref>;
+    <xref alt="Solstrand Dahlberg et al., 2020" rid="ref-Solstrand2020-xz" ref-type="bibr">Solstrand
+    Dahlberg et al., 2020</xref>;
+    <xref alt="Yanase et al., 2006" rid="ref-Yanase2006-xz" ref-type="bibr">Yanase
+    et al., 2006</xref>). Similarly, studies showed an association of
+    spinal cord CSA with cervical cord length
+    (<xref alt="Martin et al., 2017a" rid="ref-Martin2017-cf" ref-type="bibr">Martin
+    et al., 2017a</xref>,
+    <xref alt="2017b" rid="ref-Martin2017-zu" ref-type="bibr">2017b</xref>;
+    <xref alt="Oh et al., 2014" rid="ref-Oh2014-du" ref-type="bibr">Oh
+    et al., 2014</xref>), spinal canal area, and spinal canal diameters
+    (<xref alt="Kesenheimer et al., 2021" rid="ref-Kesenheimer2021-vw" ref-type="bibr">Kesenheimer
+    et al., 2021</xref>;
+    <xref alt="Papinutto et al., 2020" rid="ref-Papinutto2020-hn" ref-type="bibr">Papinutto
+    et al., 2020</xref>). Other factors, such as brain volume,
+    intracranial volume, and thalamic volume also showed a strong
+    correlation with spinal cord CSA
+    (<xref alt="Bédard &amp; Cohen-Adad, 2022" rid="ref-Bedard2022-tr" ref-type="bibr">Bédard
+    &amp; Cohen-Adad, 2022</xref>;
+    <xref alt="Papinutto et al., 2020" rid="ref-Papinutto2020-hn" ref-type="bibr">Papinutto
+    et al., 2020</xref>;
+    <xref alt="Rashid et al., 2006" rid="ref-Rashid2006-ar" ref-type="bibr">Rashid
+    et al., 2006</xref>;
+    <xref alt="Solstrand Dahlberg et al., 2020" rid="ref-Solstrand2020-xz" ref-type="bibr">Solstrand
+    Dahlberg et al., 2020</xref>).</p>
+    <p>As for weight and height, studies showed only a moderate
+    correlation with spinal cord CSA
+    (<xref alt="Papinutto et al., 2020" rid="ref-Papinutto2020-hn" ref-type="bibr">Papinutto
+    et al., 2020</xref>;
+    <xref alt="Yanase et al., 2006" rid="ref-Yanase2006-xz" ref-type="bibr">Yanase
+    et al., 2006</xref>) or did not show any significant association
+    (<xref alt="Bédard &amp; Cohen-Adad, 2022" rid="ref-Bedard2022-tr" ref-type="bibr">Bédard
+    &amp; Cohen-Adad, 2022</xref>;
+    <xref alt="Papinutto et al., 2020" rid="ref-Papinutto2020-hn" ref-type="bibr">Papinutto
+    et al., 2020</xref>;
+    <xref alt="Solstrand Dahlberg et al., 2020" rid="ref-Solstrand2020-xz" ref-type="bibr">Solstrand
+    Dahlberg et al., 2020</xref>). Likewise, only a weak non-significant
+    association was reported between spinal cord CSA and age
+    (<xref alt="Bédard &amp; Cohen-Adad, 2022" rid="ref-Bedard2022-tr" ref-type="bibr">Bédard
+    &amp; Cohen-Adad, 2022</xref>;
+    <xref alt="Kato et al., 2012" rid="ref-Kato2012-iy" ref-type="bibr">Kato
+    et al., 2012</xref>;
+    <xref alt="Papinutto et al., 2020" rid="ref-Papinutto2020-hn" ref-type="bibr">Papinutto
+    et al., 2020</xref>;
+    <xref alt="Yanase et al., 2006" rid="ref-Yanase2006-xz" ref-type="bibr">Yanase
+    et al., 2006</xref>). A single study with a wide cohort age range
+    reported that CSA increases until about 45 years of age and then
+    begins to decrease
+    (<xref alt="Papinutto et al., 2020" rid="ref-Papinutto2020-hn" ref-type="bibr">Papinutto
+    et al., 2020</xref>).</p>
+    <p>In addition to inter-subject variability, spinal cord anatomy
+    varies depending on the level. Corresponding with anatomical
+    textbooks
+    (<xref alt="Standring, 2020" rid="ref-Standring2020-er" ref-type="bibr">Standring,
+    2020</xref>), studies have shown an increase in CSA around vertebral
+    levels C4-C5 corresponding to cervical enlargement
+    (<xref alt="De Leener et al., 2018" rid="ref-DeLeener2018-zm" ref-type="bibr">De
+    Leener et al., 2018</xref>;
+    <xref alt="Frostell et al., 2016" rid="ref-Frostell2016-yw" ref-type="bibr">Frostell
+    et al., 2016</xref>;
+    <xref alt="Horáková et al., 2022" rid="ref-Horakova2022-gz" ref-type="bibr">Horáková
+    et al., 2022</xref>;
+    <xref alt="Martin et al., 2017b" rid="ref-Martin2017-zu" ref-type="bibr">Martin
+    et al., 2017b</xref>;
+    <xref alt="Mina et al., 2021" rid="ref-Mina2021-xs" ref-type="bibr">Mina
+    et al., 2021</xref>;
+    <xref alt="Rocca et al., 2019" rid="ref-Rocca2019-yc" ref-type="bibr">Rocca
+    et al., 2019</xref>). Then, the spinal cord cross-section becomes
+    smaller, which is mirrored by the decrease in CSA.</p>
+  </sec>
+  <sec id="normalization-strategies">
+    <title>1.2 Normalization strategies</title>
+    <p>Various normalization strategies have been proposed to account
+    for the above-mentioned factors on spinal cord morphometric
+    measures. Sex was used for CSA normalization in several works
+    (<xref alt="Bédard &amp; Cohen-Adad, 2022" rid="ref-Bedard2022-tr" ref-type="bibr">Bédard
+    &amp; Cohen-Adad, 2022</xref>;
+    <xref alt="Kesenheimer et al., 2021" rid="ref-Kesenheimer2021-vw" ref-type="bibr">Kesenheimer
+    et al., 2021</xref>;
+    <xref alt="Papinutto et al., 2020" rid="ref-Papinutto2020-hn" ref-type="bibr">Papinutto
+    et al., 2020</xref>;
+    <xref alt="Rashid et al., 2006" rid="ref-Rashid2006-ar" ref-type="bibr">Rashid
+    et al., 2006</xref>). Other studies proposed spinal cord length as a
+    normalization factor
+    (<xref alt="El Mendili et al., 2023" rid="ref-ElMendili2023-ws" ref-type="bibr">El
+    Mendili et al., 2023</xref>;
+    <xref alt="Martin et al., 2017a" rid="ref-Martin2017-cf" ref-type="bibr">Martin
+    et al., 2017a</xref>,
+    <xref alt="2017b" rid="ref-Martin2017-zu" ref-type="bibr">2017b</xref>;
+    <xref alt="Oh et al., 2014" rid="ref-Oh2014-du" ref-type="bibr">Oh
+    et al., 2014</xref>;
+    <xref alt="Rocca et al., 2019" rid="ref-Rocca2019-yc" ref-type="bibr">Rocca
+    et al., 2019</xref>). Additionally, combining spinal cord length
+    with a z-score normalization was proposed to account for variations
+    along the superior-inferior axis
+    (<xref alt="Martin et al., 2017a" rid="ref-Martin2017-cf" ref-type="bibr">Martin
+    et al., 2017a</xref>,
+    <xref alt="2017b" rid="ref-Martin2017-zu" ref-type="bibr">2017b</xref>).
+    Another approach taking into account the dependency of spinal cord
+    anatomy on a level involved the normalization of morphometric
+    measures from the compression site using non-compressed levels above
+    and below
+    (<xref alt="Guo et al., 2022" rid="ref-Guo2022-qb" ref-type="bibr">Guo
+    et al., 2022</xref>;
+    <xref alt="Miyanji et al., 2007" rid="ref-Miyanji2007-za" ref-type="bibr">Miyanji
+    et al., 2007</xref>). Finally, several studies normalized CSA using
+    the spinal canal and brain metrics, including spinal canal area,
+    spinal canal diameter, brain volume, intracranial volume, thalamic
+    volume, and head size normalization factor
+    (<xref alt="Bédard &amp; Cohen-Adad, 2022" rid="ref-Bedard2022-tr" ref-type="bibr">Bédard
+    &amp; Cohen-Adad, 2022</xref>;
+    <xref alt="Horsfield et al., 2010" rid="ref-Horsfield2010-gx" ref-type="bibr">Horsfield
+    et al., 2010</xref>;
+    <xref alt="Kesenheimer et al., 2021" rid="ref-Kesenheimer2021-vw" ref-type="bibr">Kesenheimer
+    et al., 2021</xref>;
+    <xref alt="Papinutto et al., 2020" rid="ref-Papinutto2020-hn" ref-type="bibr">Papinutto
+    et al., 2020</xref>;
+    <xref alt="Rashid et al., 2006" rid="ref-Rashid2006-ar" ref-type="bibr">Rashid
+    et al., 2006</xref>;
+    <xref alt="Rocca et al., 2019" rid="ref-Rocca2019-yc" ref-type="bibr">Rocca
+    et al., 2019</xref>).</p>
+    <p>While normalization strategies showed promising outcomes, there
+    is currently no accepted consensus on which method to use
+    (<xref alt="Cohen-Adad et al., 2021a" rid="ref-Cohen2021-generic" ref-type="bibr">Cohen-Adad
+    et al., 2021a</xref>;
+    <xref alt="Papinutto et al., 2020" rid="ref-Papinutto2020-hn" ref-type="bibr">Papinutto
+    et al., 2020</xref>), and their practical implementation may
+    encounter several challenges. First, measuring the spinal cord
+    length and the spinal canal area can be time-consuming due to the
+    absence of reliable automatic measurement techniques. Second,
+    obtaining brain MRI scans, necessary for assessing brain and
+    thalamic volumes, may not be routinely available in spinal cord MRI
+    protocols, and neurodegenerative diseases such as multiple sclerosis
+    can influence brain measurements and potentially introduce bias
+    during normalization.</p>
+  </sec>
+  <sec id="spinal-cord-template">
+    <title>1.3 Spinal cord template</title>
+    <p>Similarly to brain studies, spinal cord studies involving
+    multiple subjects frequently rely on templates — standardized,
+    high-resolution images of the human spinal cord used as a reference
+    for comparing and analyzing individual spinal cord scans. A commonly
+    used spinal cord template is the PAM50
+    (<xref alt="De Leener et al., 2018" rid="ref-DeLeener2018-zm" ref-type="bibr">De
+    Leener et al., 2018</xref>). The process of aligning individual
+    single-subject images to the template typically involves a series of
+    non-linear image transformations, which may introduce inaccuracies
+    when computing morphometric measures in the PAM50 vs. in the native
+    subject’s space. This is an important consideration, especially in
+    subjects with altered spinal cord anatomy, such as patients with
+    spinal cord injury.</p>
+  </sec>
+  <sec id="normative-values">
+    <title>1.4 Normative values</title>
+    <p>Several multi-subject studies have provided normative values for
+    spinal cord morphometry
+    (<xref alt="De Leener et al., 2018" rid="ref-DeLeener2018-zm" ref-type="bibr">De
+    Leener et al., 2018</xref>;
+    <xref alt="Frostell et al., 2016" rid="ref-Frostell2016-yw" ref-type="bibr">Frostell
+    et al., 2016</xref>;
+    <xref alt="Horáková et al., 2022" rid="ref-Horakova2022-gz" ref-type="bibr">Horáková
+    et al., 2022</xref>;
+    <xref alt="Kato et al., 2012" rid="ref-Kato2012-iy" ref-type="bibr">Kato
+    et al., 2012</xref>;
+    <xref alt="Taso et al., 2016" rid="ref-Taso2016-cv" ref-type="bibr">Taso
+    et al., 2016</xref>). However, these studies show inconsistency in
+    their reporting. Some authors only provided values for
+    intervertebral discs
+    (<xref alt="De Leener et al., 2018" rid="ref-DeLeener2018-zm" ref-type="bibr">De
+    Leener et al., 2018</xref>;
+    <xref alt="Horáková et al., 2022" rid="ref-Horakova2022-gz" ref-type="bibr">Horáková
+    et al., 2022</xref>), while others presented values averaged across
+    multiple vertebral levels
+    (<xref alt="Taso et al., 2016" rid="ref-Taso2016-cv" ref-type="bibr">Taso
+    et al., 2016</xref>). Notably, none of these studies have presented
+    normative values separated by sex.</p>
+  </sec>
+  <sec id="study-objective">
+    <title>1.5 Study Objective</title>
+    <p>In this study, we present a database of healthy normative values
+    for six commonly used measures of spinal cord morphometry built
+    using a new fully-automatic normalization approach. The database is
+    interactive, available
+    <ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00017">online</ext-link>
+    and allows filtering by sex, age, and MRI vendors. The proposed
+    methodology is open-source, easily accessible through the Spinal
+    Cord Toolbox (SCT)
+    (<xref alt="De Leener et al., 2017" rid="ref-DeLeener2017-fe" ref-type="bibr">De
+    Leener et al., 2017</xref>), and can be used in future multi-subject
+    studies to minimize inter- and intra-subject variability.</p>
+  </sec>
+</sec>
+<sec id="materials-and-methods">
+  <title>2. MATERIALS AND METHODS</title>
+  <sec id="participants">
+    <title>2.1 Participants</title>
+    <p>We used data from the <italic>spine-generic</italic>
+    multi-subject dataset
+    (<xref alt="Cohen-Adad et al., 2021b" rid="ref-Cohen2021-open" ref-type="bibr">Cohen-Adad
+    et al., 2021b</xref>). The dataset is open-access, organized
+    according to the Brain Imaging Data Structure (BIDS) standard
+    (<xref alt="Gorgolewski et al., 2016" rid="ref-Gorgolewski2016-xf" ref-type="bibr">Gorgolewski
+    et al., 2016</xref>;
+    <xref alt="Karakuzu, Appelhoff, et al., 2022" rid="ref-Karakuzu2022-bids" ref-type="bibr">Karakuzu,
+    Appelhoff, et al., 2022</xref>) and managed using
+    <ext-link ext-link-type="uri" xlink:href="href=%22https://git-annex.branchable.com">git-annex</ext-link>
+    in
+    <ext-link ext-link-type="uri" xlink:href="https://github.com/spine-generic/data-multi-subject/tree/r20230223">this
+    GitHub repository</ext-link>.</p>
+    <p>Participants were scanned across 43 centers on 3T MRI scanners
+    from 3 vendors (GE, Philips and Siemens) using the consensus
+    <italic>spine-generic</italic> acquisition protocol
+    (<xref alt="Cohen-Adad et al., 2021a" rid="ref-Cohen2021-generic" ref-type="bibr">Cohen-Adad
+    et al., 2021a</xref>). For details on sequence parameters, see
+    Cohen-Adad et al.
+    (<xref alt="2021a" rid="ref-Cohen2021-generic" ref-type="bibr">2021a</xref>);
+    Cohen-Adad et al.
+    (<xref alt="2021b" rid="ref-Cohen2021-open" ref-type="bibr">2021b</xref>).</p>
+    <p>Two experienced radiologists (MK, TR) evaluated MRI scans with a
+    focus on the presence of spinal cord compression. Spinal cord
+    compression was defined as a change in spinal cord contour at the
+    level of an intervertebral disc on an axial or sagittal MRI plane
+    compared with that at the midpoint level of neighbouring vertebrae
+    (<xref alt="Kadanka et al., 2017" rid="ref-Kadanka2017-cu" ref-type="bibr">Kadanka
+    et al., 2017</xref>;
+    <xref alt="Keřkovský et al., 2017" rid="ref-Kerkovsky2017-tw" ref-type="bibr">Keřkovský
+    et al., 2017</xref>). Minor abnormalities such as mild disc
+    protrusions, spine misalignment or minimal widening of the spinal
+    cord central canal were not considered significant pathologies.</p>
+    <p>Qualitative assessment of the <italic>spine-generic</italic>
+    dataset by two experienced radiologists revealed mostly mild spinal
+    cord compression in 64 out of the total 267 volunteers (see the
+    “pathology” column in
+    <ext-link ext-link-type="uri" xlink:href="https://github.com/spine-generic/data-multi-subject/blob/r20230223/participants.tsv">this
+    spreadsheet</ext-link>). Those volunteers were excluded from the
+    further analysis. The final cohort used for the normative database
+    construction consisted of 203 healthy subjects (105 males and 98
+    females). Detailed demographic characteristics are provided in Table
+    1.</p>
+  </sec>
+  <sec id="data-pre-processing">
+    <title>2.2 Data pre-processing</title>
+    <p>We used the T2-weighted images (0.8 mm isotropic resolution)
+    covering at least C1 to T1 vertebral levels. The image processing
+    was performed automatically using SCT v6.0
+    (<xref alt="De Leener et al., 2017" rid="ref-DeLeener2017-fe" ref-type="bibr">De
+    Leener et al., 2017</xref>). For each participant, the spinal cord
+    was segmented using a deep learning-based algorithm
+    (<xref alt="Gros et al., 2019" rid="ref-Gros2019-yi" ref-type="bibr">Gros
+    et al., 2019</xref>) and the intervertebral discs were labeled
+    (<xref alt="Ullmann et al., 2014" rid="ref-Ullmann2014-zm" ref-type="bibr">Ullmann
+    et al., 2014</xref>) to generate the cord segmentation labeled with
+    vertebral levels (Figure 1A).</p>
+    <p>The spinal cord segmentation and disc labels were visually
+    inspected using SCT’s quality control report
+    (<monospace>sct_qc</monospace> function) and manually corrected when
+    necessary. The manual corrections ensured that the spinal cord
+    segmentation masks used for the computation of morphometric measures
+    were reliable. Segmentation masks were corrected using FSLeyes image
+    viewer
+    (<xref alt="McCarthy, 2022" rid="ref-McCarthy2019-qd" ref-type="bibr">McCarthy,
+    2022</xref>) by adding or removing voxels when appropriate.
+    Regarding vertebral labeling corrections, we manually identified the
+    posterior tip of the intervertebral discs using SCT’s
+    <monospace>sct_label_utils</monospace> function when it was
+    necessary.</p>
+  </sec>
+  <sec id="normalization">
+    <title>2.3 Normalization</title>
+    <p>Figure 1 shows a schematic representation of the fully-automatic
+    normalization approach based on linear interpolation of morphometric
+    measures from the subject’s native space to the anatomical
+    dimensions of the PAM50 spinal cord template
+    (<xref alt="De Leener et al., 2018" rid="ref-DeLeener2018-zm" ref-type="bibr">De
+    Leener et al., 2018</xref>).</p>
+    <p>After the preprocessing (i.e., spinal cord segmentation and
+    labeling), the morphometric measures were computed across individual
+    axial slices from the spinal cord segmentation mask in the subject’s
+    native space. Then, the number of axial slices corresponding to each
+    vertebral level was identified in both the subject’s native space
+    and in the PAM50 template based on the labeled segmentation.
+    Finally, the computed morphometric measures were linearly
+    interpolated to the PAM50 anatomical dimensions based on the number
+    of slices for each vertebral level in the native space and the PAM50
+    template. The following morphometric measures were computed using
+    SCT’s <monospace>sct_process_segmentation</monospace> for each
+    participant: cross-sectional area (CSA), anteroposterior (AP)
+    diameter, transverse diameter, compression ratio, eccentricity, and
+    solidity.</p>
+    <p>Spinal cord CSA reflects the atrophy of the spinal cord and is
+    computed as the area of the spinal cord in the transverse plane. The
+    AP diameter is the measurement of the diameter of the spinal cord in
+    the anterior-posterior direction, while the transverse diameter is
+    the measurement of the diameter of the spinal cord from side to
+    side. The compression ratio reflects the flattening of the spinal
+    cord and is defined as the ratio of the AP diameter and the
+    transverse diameter. Eccentricity is defined as the ratio of the
+    focal distance over the major axis length of an ellipse with the
+    same second moments as the spinal cord. The value is in the interval
+    <monospace>[0, 1]</monospace>. When it is 0, the ellipse becomes a
+    circle. Solidity is used to measure the indentation of the spinal
+    cord and is defined as the ratio of the area representing the spinal
+    cord to the area of the smallest convex polygon surrounding all
+    positive pixels in the image. Solidity is relevant in detecting
+    non-convex shapes, for instance, in subjects with spinal cord
+    compression.</p>
+  </sec>
+  <sec id="normative-values-and-interactive-database">
+    <title>2.4 Normative values and interactive database</title>
+    <p>Morphometric measures normalized to the PAM50 space were used for
+    the calculation of normative values of the spinal cord morphometry.
+    The normative values were calculated as mean and standard deviation
+    across participants for slices in PAM50 space corresponding to each
+    intervertebral disc and the middle of each vertebral level. The
+    normative values are provided for the whole cohort and separated by
+    sex. For convenient introspection of the morphometric measures,
+    interactive figures were created using the
+    <ext-link ext-link-type="uri" xlink:href="https://plotly.com">Plotly</ext-link>
+    Python library <monospace>v5.9.0</monospace>. The figures allow
+    interactive visualization of normative values for any slice in the
+    PAM50 space and filtering for sex, age decades, and MRI vendors. The
+    figures show values per slice (instead of per vertebral level), to
+    prevent the loss of information that would arise if values were
+    averaged within each vertebral level.</p>
+  </sec>
+  <sec id="statistical-analysis">
+    <title>2.5 Statistical analysis</title>
+    <p>Statistical analysis was conducted using the SciPy Python library
+    <monospace>v1.10.1</monospace>
+    (<xref alt="Virtanen et al., 2020" rid="ref-Virtanen2020-hl" ref-type="bibr">Virtanen
+    et al., 2020</xref>). Descriptive statistics, including mean and
+    standard deviation, were computed for age, height, and weight. The
+    Shapiro-Wilk normality test was used to assess data normality.
+    Differences between males and females in age, height, and weight
+    were examined using the Wilcoxon rank-sum test. Morphometric
+    measures in PAM50 space were averaged across participants for each
+    slice and compared between sex and MRI vendors using the Wilcoxon
+    rank-sum test. The significance level was set to
+    <monospace>alpha = 0.001</monospace>.</p>
+    <p>The inter-subject coefficient of variation (COV), defined as the
+    ratio of standard deviation and mean, was computed per slice for all
+    morphometrics measures. The COV was then averaged for individual
+    vertebral levels. Additionally, the mean COV for the whole cervical
+    spinal cord was computed as average across all slices.</p>
+  </sec>
+</sec>
+<sec id="discussion">
+  <title>4. DISCUSSION</title>
+  <p>This study introduced a framework to automatically normalize spinal
+  cord morphometric measures and computed normative metrics from a
+  public database of healthy adults. Normative values were reported in
+  the PAM50 template reference space, which facilitates the comparison
+  of results across past and future studies. Metrics were presented as
+  interactive figures, allowing readers to conveniently explore
+  morphometric values and filter them according to sex, MRI vendor, and
+  age.</p>
+  <sec id="participants-1">
+    <title>4.1 Participants</title>
+    <p>Assessment of the <italic>spine-generic</italic> MRI scans by two
+    experienced radiologists revealed mild spinal cord compression in
+    24% of volunteers. This finding aligns with previous studies that
+    have reported the prevalence of asymptomatic spinal cord compression
+    in up to 40% of the otherwise healthy population
+    (<xref alt="Kovalova et al., 2016" rid="ref-Kovalova2016-ra" ref-type="bibr">Kovalova
+    et al., 2016</xref>;
+    <xref alt="Smith et al., 2021" rid="ref-Smith2021-mh" ref-type="bibr">Smith
+    et al., 2021</xref>). Given our objective of constructing a database
+    containing healthy normative morphometric values to minimize
+    variability in future research, we excluded the subjects with mild
+    compression to mitigate potential bias.</p>
+  </sec>
+  <sec id="normalization-to-pam50-anatomical-dimensions">
+    <title>4.2 Normalization to PAM50 anatomical dimensions</title>
+    <p>The proposed normalization approach is performed per slice
+    (instead of per vertebral level), providing a more exhaustive
+    picture of cord morphometry along the superior-inferior axis.
+    Moreover, precise quantification of cord morphometry along the
+    superior-inferior axis could be relevant. For example, in the case
+    of compression spanning only a few mm of cord tissue, it would be
+    desirable to know the cord morphometry on the healthy population at
+    the equivalent spinal cord location (ie: not the entire vertebrae,
+    but a smaller section).</p>
+    <p>Compared to classical image-based registration, our normalization
+    approach does not introduce geometrical image distortions, which may
+    result in inaccuracies when computing morphometric measures.
+    Traditional registration to the PAM50 template involves spinal cord
+    straightening, vertebral alignment between the image and the
+    template, and iterative slice-wise non-linear registration
+    (<xref alt="De Leener et al., 2017" rid="ref-DeLeener2017-fe" ref-type="bibr">De
+    Leener et al., 2017</xref>). Each of these steps might change the
+    spinal cord shape and contour (see a relevant
+    <ext-link ext-link-type="uri" xlink:href="https://github.com/sct-pipeline/dcm-metric-normalization/issues/3">issue
+    on GitHub</ext-link>).</p>
+  </sec>
+  <sec id="interactive-figures-and-normative-database">
+    <title>4.3 Interactive figures and Normative database</title>
+    <p>Unlike previous studies
+    (<xref alt="De Leener et al., 2018" rid="ref-DeLeener2018-zm" ref-type="bibr">De
+    Leener et al., 2018</xref>;
+    <xref alt="Horáková et al., 2022" rid="ref-Horakova2022-gz" ref-type="bibr">Horáková
+    et al., 2022</xref>;
+    <xref alt="Kato et al., 2012" rid="ref-Kato2012-iy" ref-type="bibr">Kato
+    et al., 2012</xref>;
+    <xref alt="Taso et al., 2016" rid="ref-Taso2016-cv" ref-type="bibr">Taso
+    et al., 2016</xref>) that presented normative values using “static”
+    tables, our paper features interactive figures for a more exhaustive
+    and convenient exploration of morphometric results.</p>
+    <p>Furthermore, previous studies, such as those conducted by
+    (<xref alt="De Leener et al., 2018" rid="ref-DeLeener2018-zm" ref-type="bibr">De
+    Leener et al., 2018</xref>;
+    <xref alt="Kato et al., 2012" rid="ref-Kato2012-iy" ref-type="bibr">Kato
+    et al., 2012</xref>;
+    <xref alt="Taso et al., 2016" rid="ref-Taso2016-cv" ref-type="bibr">Taso
+    et al., 2016</xref>), only provided normative values for CSA and AP
+    diameter. Only one recent study
+    (<xref alt="Horáková et al., 2022" rid="ref-Horakova2022-gz" ref-type="bibr">Horáková
+    et al., 2022</xref>) also featured transverse diameter, compression
+    ratio, solidity, and torsion. Results presented in this study
+    feature morphometric values for all six metrics simultaneously,
+    offering a convenient way to explore the relationship between
+    individual morphometric measures. This could be particularly useful
+    for assessing changes in spinal anatomy between levels or for
+    identifying levels of spinal cord compression. Additionally,
+    researchers have the option to show or hide traces by clicking on
+    their corresponding legend items, allowing for easy exploration of
+    trends related to sex, age decades, and MRI vendors.</p>
+    <p>The proposed open-source database of normative values in the
+    PAM50 space allows researchers to filter subjects based on
+    demographic and biological factors. Researchers can thus match sex,
+    age, and MRI vendor with their study population and use our database
+    for normalization of their cohort relative to the healthy population
+    with respect to these factors. This is a relevant feature since
+    normalization per sex is the most commonly used normalization factor
+    for spinal cord morphometric measures
+    (<xref alt="Bédard &amp; Cohen-Adad, 2022" rid="ref-Bedard2022-tr" ref-type="bibr">Bédard
+    &amp; Cohen-Adad, 2022</xref>;
+    <xref alt="Kesenheimer et al., 2021" rid="ref-Kesenheimer2021-vw" ref-type="bibr">Kesenheimer
+    et al., 2021</xref>;
+    <xref alt="Mina et al., 2021" rid="ref-Mina2021-xs" ref-type="bibr">Mina
+    et al., 2021</xref>;
+    <xref alt="Papinutto et al., 2020" rid="ref-Papinutto2020-hn" ref-type="bibr">Papinutto
+    et al., 2020</xref>;
+    <xref alt="Rashid et al., 2006" rid="ref-Rashid2006-ar" ref-type="bibr">Rashid
+    et al., 2006</xref>;
+    <xref alt="Rocca et al., 2019" rid="ref-Rocca2019-yc" ref-type="bibr">Rocca
+    et al., 2019</xref>).</p>
+  </sec>
+  <sec id="morphometric-measures">
+    <title>4.4 Morphometric measures</title>
+    <p>The CSA values obtained in this study for individual
+    intervertebral discs are in line with CSA measured in 50 healthy
+    subjects
+    (<xref alt="De Leener et al., 2018" rid="ref-DeLeener2018-zm" ref-type="bibr">De
+    Leener et al., 2018</xref>). For instance, we measured a CSA of
+    76.61 ± 8.35 mm2 (mean ± standard deviation) for the C3-C4
+    intervertebral disc, while De Leener et al.
+    (<xref alt="2018" rid="ref-DeLeener2018-zm" ref-type="bibr">2018</xref>)
+    obtained 77.46 ± 8.45 mm2 for the same intervertebral disc. In
+    contrast, other studies reported either smaller or larger CSA for
+    the same C3-C4 intervertebral disc. For example, Horáková et al.
+    (<xref alt="2022" rid="ref-Horakova2022-gz" ref-type="bibr">2022</xref>)
+    obtained a CSA of 71.7 ± 8.2 mm2, while Kesenheimer et al.
+    (<xref alt="2021" rid="ref-Kesenheimer2021-vw" ref-type="bibr">2021</xref>)
+    measured a CSA of 87.4 ± 8.31 mm2. This can be attributed to various
+    factors, including differences in MRI contrast, variations in
+    population ages, and variations in the segmentation methods
+    used.</p>
+    <p>Another study based on the UK Biobank database (N = 804) measured
+    a CSA of 66.4 ± 6.61 mm2 at C2-C3 vertebral levels
+    (<xref alt="Bédard &amp; Cohen-Adad, 2022" rid="ref-Bedard2022-tr" ref-type="bibr">Bédard
+    &amp; Cohen-Adad, 2022</xref>). Here, we measured larger CSAs: 73.59
+    ± 7.41 mm2 at C2 and 74.32 ± 7.91 mm2 at C3 vertebral levels. This
+    discrepancy is likely caused by our study relying on T2-w images,
+    whilst Bédard and Cohen-Adad used T1-w images
+    (<xref alt="Bédard &amp; Cohen-Adad, 2022" rid="ref-Bedard2022-tr" ref-type="bibr">Bédard
+    &amp; Cohen-Adad, 2022</xref>). It has been shown that T2-w scans
+    generally yield larger CSA compared to T1-w scans
+    (<xref alt="Cohen-Adad et al., 2021b" rid="ref-Cohen2021-open" ref-type="bibr">Cohen-Adad
+    et al., 2021b</xref>).</p>
+    <p>As for AP diameter and transverse diameter, values measured in
+    this study correspond with population estimates from Frostell et al.
+    (<xref alt="2016" rid="ref-Frostell2016-yw" ref-type="bibr">2016</xref>).
+    For instance, we measured an AP diameter of 7.86 ± 0.56 mm and a
+    transverse diameter of 11.9 ± 0.76 mm for the C2 vertebral level,
+    while Frostell et al.
+    (<xref alt="2016" rid="ref-Frostell2016-yw" ref-type="bibr">2016</xref>)
+    reported an AP diameter of 7.9 ± 1.6 mm and a transverse diameter of
+    12.3 ± 2.4 mm for the same vertebral level.</p>
+    <p>Confirming previous studies
+    (<xref alt="Bédard &amp; Cohen-Adad, 2022" rid="ref-Bedard2022-tr" ref-type="bibr">Bédard
+    &amp; Cohen-Adad, 2022</xref>;
+    <xref alt="Engl et al., 2013" rid="ref-Engl2013-xx" ref-type="bibr">Engl
+    et al., 2013</xref>;
+    <xref alt="Papinutto et al., 2020" rid="ref-Papinutto2020-hn" ref-type="bibr">Papinutto
+    et al., 2020</xref>;
+    <xref alt="Rashid et al., 2006" rid="ref-Rashid2006-ar" ref-type="bibr">Rashid
+    et al., 2006</xref>;
+    <xref alt="Solstrand Dahlberg et al., 2020" rid="ref-Solstrand2020-xz" ref-type="bibr">Solstrand
+    Dahlberg et al., 2020</xref>;
+    <xref alt="Yanase et al., 2006" rid="ref-Yanase2006-xz" ref-type="bibr">Yanase
+    et al., 2006</xref>), we showed that females have smaller CSA
+    relative to males across all vertebral levels. Smaller spinal cord
+    size is also mirrored by lower AP and transverse diameters in
+    females compared to males.</p>
+    <p>The increase in CSA around vertebral levels C4-C5 indicates the
+    location of cervical enlargement, the source of the large spinal
+    nerves that supply the upper limbs. This finding is consistent with
+    anatomical textbooks
+    (<xref alt="Standring, 2020" rid="ref-Standring2020-er" ref-type="bibr">Standring,
+    2020</xref>) and previous studies
+    (<xref alt="De Leener et al., 2018" rid="ref-DeLeener2018-zm" ref-type="bibr">De
+    Leener et al., 2018</xref>;
+    <xref alt="Frostell et al., 2016" rid="ref-Frostell2016-yw" ref-type="bibr">Frostell
+    et al., 2016</xref>;
+    <xref alt="Horáková et al., 2022" rid="ref-Horakova2022-gz" ref-type="bibr">Horáková
+    et al., 2022</xref>;
+    <xref alt="Martin et al., 2017b" rid="ref-Martin2017-zu" ref-type="bibr">Martin
+    et al., 2017b</xref>;
+    <xref alt="Mina et al., 2021" rid="ref-Mina2021-xs" ref-type="bibr">Mina
+    et al., 2021</xref>;
+    <xref alt="Rocca et al., 2019" rid="ref-Rocca2019-yc" ref-type="bibr">Rocca
+    et al., 2019</xref>). After the cervical enlargement (i.e., below
+    level C5), the spinal cord becomes smaller, which is mirrored by the
+    decrease in CSA, AP diameter, and transverse diameter. The decrease
+    in AP diameter along the superior-inferior direction, along with the
+    changing trends in compression ratio and eccentricity, corresponds
+    to the fact that the spinal cord is not cylindrical but rather
+    changes its shape across levels from circular shape at C1 and C2
+    levels to a more elliptical shape around levels C5 and C6
+    (<xref alt="Standring, 2020" rid="ref-Standring2020-er" ref-type="bibr">Standring,
+    2020</xref>).</p>
+    <p>Because various morphometric measures exhibited differing levels
+    of inter-subject variability (indicated by COV), we hypothesize that
+    normalizing measures with greater inter-subject variability, such as
+    CSA, would yield a more pronounced impact compared to normalizing
+    measures with lower inter-subject variability, such as solidity. We
+    measured a COV of 10.1% and 10.8% for the CSA at the C2 and C3
+    vertebral levels, respectively. These values are similar to the
+    9.96% COV reported by Bédard and Cohen-Adad for T1-w images at the
+    C2-C3 level
+    (<xref alt="Bédard &amp; Cohen-Adad, 2022" rid="ref-Bedard2022-tr" ref-type="bibr">Bédard
+    &amp; Cohen-Adad, 2022</xref>).</p>
+    <p>The variability of morphometric measures between MRI vendors
+    might be explained by differences in sequence parameters and/or
+    reconstruction filters between vendors
+    (<xref alt="Cohen-Adad et al., 2021b" rid="ref-Cohen2021-open" ref-type="bibr">Cohen-Adad
+    et al., 2021b</xref>).</p>
+  </sec>
+  <sec id="limitations-and-future-work">
+    <title>4.5 Limitations and Future Work</title>
+    <p>The T2-w images from the open-access
+    <italic>spine-generic</italic> dataset cover only the cervical
+    spinal cord and have a relatively narrow age range (with 93.6% of
+    subjects aged 21 to 40 years). Despite this limitation, it remains
+    the largest open-source database of multi-contrast spinal cord MRI
+    data. We welcome future contributions of additional subjects across
+    different age groups and with data that encompasses the entire
+    spinal cord.</p>
+    <p>We are aware that the morphometric measures were derived solely
+    from T2-w MRI contrast and using the segmentation method trained
+    specifically for this contrast
+    (<xref alt="Gros et al., 2019" rid="ref-Gros2019-yi" ref-type="bibr">Gros
+    et al., 2019</xref>). This has to be considered when comparing with
+    other MRI contrasts, such as T1-w, which showed a smaller CSA
+    compared to T2-w
+    (<xref alt="Cohen-Adad et al., 2021b" rid="ref-Cohen2021-open" ref-type="bibr">Cohen-Adad
+    et al., 2021b</xref>). This might be mitigated in the future using a
+    contrast-agnostic segmentation algorithm
+    (<xref alt="Bédard, 2023" rid="ref-Bedard2023-kb" ref-type="bibr">Bédard,
+    2023</xref>).</p>
+    <p>Future efforts will focus on validating the proposed methods in
+    pathologies such as traumatic and non-traumatic spinal cord injury
+    and multiple sclerosis. This validation process will provide
+    valuable insights into the applicability and accuracy of the methods
+    in the context of various spinal cord conditions.</p>
+  </sec>
+  <sec id="conclusions">
+    <title>4.6 Conclusions</title>
+    <p>We introduced a new approach for the normalization of spinal cord
+    morphometric measures using the PAM50 spinal cord template. We built
+    an interactive database of spinal cord morphometric values across
+    203 healthy adults. The database can be used to normalize spinal
+    cord morphometric features, stratified according to factors such as
+    sex, age, and MRI vendors. This database can also be used to further
+    inspect demographic, biological and image acquisition factors
+    associated with inter-subject variability.</p>
+    <p>The proposed methodology and results are open-source and fully
+    reproducible. The database and normalization method is applicable to
+    new datasets via the Spinal Cord Toolbox (SCT)
+    <monospace>v6.0</monospace> and higher.</p>
+  </sec>
+</sec>
+</body>
+<back>
+<ref-list>
+  <ref id="ref-Oh2014-du">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Oh</surname><given-names>Jiwon</given-names></name>
+        <name><surname>Seigo</surname><given-names>Michaela</given-names></name>
+        <name><surname>Saidha</surname><given-names>Shiv</given-names></name>
+        <name><surname>Sotirchos</surname><given-names>Elias</given-names></name>
+        <name><surname>Zackowski</surname><given-names>Kathy</given-names></name>
+        <name><surname>Chen</surname><given-names>Min</given-names></name>
+        <name><surname>Prince</surname><given-names>Jerry</given-names></name>
+        <name><surname>Diener-West</surname><given-names>Marie</given-names></name>
+        <name><surname>Calabresi</surname><given-names>Peter A</given-names></name>
+        <name><surname>Reich</surname><given-names>Daniel S</given-names></name>
+      </person-group>
+      <article-title>Spinal cord normalization in multiple sclerosis</article-title>
+      <source>J. Neuroimaging</source>
+      <year iso-8601-date="2014-03">2014</year><month>03</month>
+      <volume>24</volume>
+      <issue>6</issue>
+      <pub-id pub-id-type="doi">10.1111/jon.12097</pub-id>
+      <fpage>577</fpage>
+      <lpage>584</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Rocca2019-yc">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Rocca</surname><given-names>Maria A</given-names></name>
+        <name><surname>Valsasina</surname><given-names>Paola</given-names></name>
+        <name><surname>Meani</surname><given-names>Alessandro</given-names></name>
+        <name><surname>Gobbi</surname><given-names>Claudio</given-names></name>
+        <name><surname>Zecca</surname><given-names>Chiara</given-names></name>
+        <name><surname>Rovira</surname><given-names>Àlex</given-names></name>
+        <name><surname>Montalban</surname><given-names>Xavier</given-names></name>
+        <name><surname>Kearney</surname><given-names>Hugh</given-names></name>
+        <name><surname>Ciccarelli</surname><given-names>Olga</given-names></name>
+        <name><surname>Matthews</surname><given-names>Lucy</given-names></name>
+        <name><surname>Palace</surname><given-names>Jacqueline</given-names></name>
+        <name><surname>Gallo</surname><given-names>Antonio</given-names></name>
+        <name><surname>Bisecco</surname><given-names>Alvino</given-names></name>
+        <name><surname>Gass</surname><given-names>Achim</given-names></name>
+        <name><surname>Eisele</surname><given-names>Philipp</given-names></name>
+        <name><surname>Lukas</surname><given-names>Carsten</given-names></name>
+        <name><surname>Bellenberg</surname><given-names>Barbara</given-names></name>
+        <name><surname>Barkhof</surname><given-names>Frederik</given-names></name>
+        <name><surname>Vrenken</surname><given-names>Hugo</given-names></name>
+        <name><surname>Preziosa</surname><given-names>Paolo</given-names></name>
+        <name><surname>Comi</surname><given-names>Giancarlo</given-names></name>
+        <name><surname>Filippi</surname><given-names>Massimo</given-names></name>
+      </person-group>
+      <article-title>Clinically relevant cranio-caudal patterns of cervical cord atrophy evolution in MS</article-title>
+      <source>Neurology</source>
+      <year iso-8601-date="2019">2019</year>
+      <volume>93</volume>
+      <issue>20</issue>
+      <pub-id pub-id-type="doi">10.1212/wnl.0000000000008466</pub-id>
+      <fpage>E1852</fpage>
+      <lpage>E1866</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Virtanen2020-hl">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Virtanen</surname><given-names>Pauli</given-names></name>
+        <name><surname>Gommers</surname><given-names>Ralf</given-names></name>
+        <name><surname>Oliphant</surname><given-names>Travis E</given-names></name>
+        <name><surname>Haberland</surname><given-names>Matt</given-names></name>
+        <name><surname>Reddy</surname><given-names>Tyler</given-names></name>
+        <name><surname>Cournapeau</surname><given-names>David</given-names></name>
+        <name><surname>Burovski</surname><given-names>Evgeni</given-names></name>
+        <name><surname>Peterson</surname><given-names>Pearu</given-names></name>
+        <name><surname>Weckesser</surname><given-names>Warren</given-names></name>
+        <name><surname>Bright</surname><given-names>Jonathan</given-names></name>
+        <name><surname>Walt</surname><given-names>Stéfan J van der</given-names></name>
+        <name><surname>Brett</surname><given-names>Matthew</given-names></name>
+        <name><surname>Wilson</surname><given-names>Joshua</given-names></name>
+        <name><surname>Millman</surname><given-names>K Jarrod</given-names></name>
+        <name><surname>Mayorov</surname><given-names>Nikolay</given-names></name>
+        <name><surname>Nelson</surname><given-names>Andrew R J</given-names></name>
+        <name><surname>Jones</surname><given-names>Eric</given-names></name>
+        <name><surname>Kern</surname><given-names>Robert</given-names></name>
+        <name><surname>Larson</surname><given-names>Eric</given-names></name>
+        <name><surname>Carey</surname><given-names>C J</given-names></name>
+        <name><surname>Polat</surname><given-names>İlhan</given-names></name>
+        <name><surname>Feng</surname><given-names>Yu</given-names></name>
+        <name><surname>Moore</surname><given-names>Eric W</given-names></name>
+        <name><surname>VanderPlas</surname><given-names>Jake</given-names></name>
+        <name><surname>Laxalde</surname><given-names>Denis</given-names></name>
+        <name><surname>Perktold</surname><given-names>Josef</given-names></name>
+        <name><surname>Cimrman</surname><given-names>Robert</given-names></name>
+        <name><surname>Henriksen</surname><given-names>Ian</given-names></name>
+        <name><surname>Quintero</surname><given-names>E A</given-names></name>
+        <name><surname>Harris</surname><given-names>Charles R</given-names></name>
+        <name><surname>Archibald</surname><given-names>Anne M</given-names></name>
+        <name><surname>Ribeiro</surname><given-names>Antônio H</given-names></name>
+        <name><surname>Pedregosa</surname><given-names>Fabian</given-names></name>
+        <name><surname>Mulbregt</surname><given-names>Paul van</given-names></name>
+        <name><surname>Vijaykumar</surname><given-names>Aditya</given-names></name>
+        <name><surname>Bardelli</surname><given-names>Alessandro Pietro</given-names></name>
+        <name><surname>Rothberg</surname><given-names>Alex</given-names></name>
+        <name><surname>Hilboll</surname><given-names>Andreas</given-names></name>
+        <name><surname>Kloeckner</surname><given-names>Andreas</given-names></name>
+        <name><surname>Scopatz</surname><given-names>Anthony</given-names></name>
+        <name><surname>Lee</surname><given-names>Antony</given-names></name>
+        <name><surname>Rokem</surname><given-names>Ariel</given-names></name>
+        <name><surname>Woods</surname><given-names>C Nathan</given-names></name>
+        <name><surname>Fulton</surname><given-names>Chad</given-names></name>
+        <name><surname>Masson</surname><given-names>Charles</given-names></name>
+        <name><surname>Häggström</surname><given-names>Christian</given-names></name>
+        <name><surname>Fitzgerald</surname><given-names>Clark</given-names></name>
+        <name><surname>Nicholson</surname><given-names>David A</given-names></name>
+        <name><surname>Hagen</surname><given-names>David R</given-names></name>
+        <name><surname>Pasechnik</surname><given-names>Dmitrii V</given-names></name>
+        <name><surname>Olivetti</surname><given-names>Emanuele</given-names></name>
+        <name><surname>Martin</surname><given-names>Eric</given-names></name>
+        <name><surname>Wieser</surname><given-names>Eric</given-names></name>
+        <name><surname>Silva</surname><given-names>Fabrice</given-names></name>
+        <name><surname>Lenders</surname><given-names>Felix</given-names></name>
+        <name><surname>Wilhelm</surname><given-names>Florian</given-names></name>
+        <name><surname>Young</surname><given-names>G</given-names></name>
+        <name><surname>Price</surname><given-names>Gavin A</given-names></name>
+        <name><surname>Ingold</surname><given-names>Gert-Ludwig</given-names></name>
+        <name><surname>Allen</surname><given-names>Gregory E</given-names></name>
+        <name><surname>Lee</surname><given-names>Gregory R</given-names></name>
+        <name><surname>Audren</surname><given-names>Hervé</given-names></name>
+        <name><surname>Probst</surname><given-names>Irvin</given-names></name>
+        <name><surname>Dietrich</surname><given-names>Jörg P</given-names></name>
+        <name><surname>Silterra</surname><given-names>Jacob</given-names></name>
+        <name><surname>Webber</surname><given-names>James T</given-names></name>
+        <name><surname>Slavič</surname><given-names>Janko</given-names></name>
+        <name><surname>Nothman</surname><given-names>Joel</given-names></name>
+        <name><surname>Buchner</surname><given-names>Johannes</given-names></name>
+        <name><surname>Kulick</surname><given-names>Johannes</given-names></name>
+        <name><surname>Schönberger</surname><given-names>Johannes L</given-names></name>
+        <name><surname>Miranda Cardoso</surname><given-names>José Vinı́cius de</given-names></name>
+        <name><surname>Reimer</surname><given-names>Joscha</given-names></name>
+        <name><surname>Harrington</surname><given-names>Joseph</given-names></name>
+        <name><surname>Rodrı́guez</surname><given-names>Juan Luis Cano</given-names></name>
+        <name><surname>Nunez-Iglesias</surname><given-names>Juan</given-names></name>
+        <name><surname>Kuczynski</surname><given-names>Justin</given-names></name>
+        <name><surname>Tritz</surname><given-names>Kevin</given-names></name>
+        <name><surname>Thoma</surname><given-names>Martin</given-names></name>
+        <name><surname>Newville</surname><given-names>Matthew</given-names></name>
+        <name><surname>Kümmerer</surname><given-names>Matthias</given-names></name>
+        <name><surname>Bolingbroke</surname><given-names>Maximilian</given-names></name>
+        <name><surname>Tartre</surname><given-names>Michael</given-names></name>
+        <name><surname>Pak</surname><given-names>Mikhail</given-names></name>
+        <name><surname>Smith</surname><given-names>Nathaniel J</given-names></name>
+        <name><surname>Nowaczyk</surname><given-names>Nikolai</given-names></name>
+        <name><surname>Shebanov</surname><given-names>Nikolay</given-names></name>
+        <name><surname>Pavlyk</surname><given-names>Oleksandr</given-names></name>
+        <name><surname>Brodtkorb</surname><given-names>Per A</given-names></name>
+        <name><surname>Lee</surname><given-names>Perry</given-names></name>
+        <name><surname>McGibbon</surname><given-names>Robert T</given-names></name>
+        <name><surname>Feldbauer</surname><given-names>Roman</given-names></name>
+        <name><surname>Lewis</surname><given-names>Sam</given-names></name>
+        <name><surname>Tygier</surname><given-names>Sam</given-names></name>
+        <name><surname>Sievert</surname><given-names>Scott</given-names></name>
+        <name><surname>Vigna</surname><given-names>Sebastiano</given-names></name>
+        <name><surname>Peterson</surname><given-names>Stefan</given-names></name>
+        <name><surname>More</surname><given-names>Surhud</given-names></name>
+        <name><surname>Pudlik</surname><given-names>Tadeusz</given-names></name>
+        <name><surname>Oshima</surname><given-names>Takuya</given-names></name>
+        <name><surname>Pingel</surname><given-names>Thomas J</given-names></name>
+        <name><surname>Robitaille</surname><given-names>Thomas P</given-names></name>
+        <name><surname>Spura</surname><given-names>Thomas</given-names></name>
+        <name><surname>Jones</surname><given-names>Thouis R</given-names></name>
+        <name><surname>Cera</surname><given-names>Tim</given-names></name>
+        <name><surname>Leslie</surname><given-names>Tim</given-names></name>
+        <name><surname>Zito</surname><given-names>Tiziano</given-names></name>
+        <name><surname>Krauss</surname><given-names>Tom</given-names></name>
+        <name><surname>Upadhyay</surname><given-names>Utkarsh</given-names></name>
+        <name><surname>Halchenko</surname><given-names>Yaroslav O</given-names></name>
+        <name><surname>Vázquez-Baeza</surname><given-names>Yoshiki</given-names></name>
+      </person-group>
+      <article-title>SciPy 1.0: Fundamental algorithms for scientific computing in python</article-title>
+      <source>Nat. Methods</source>
+      <publisher-name>Nature Publishing Group</publisher-name>
+      <year iso-8601-date="2020-03">2020</year><month>03</month>
+      <volume>17</volume>
+      <issue>3</issue>
+      <pub-id pub-id-type="doi">10.1038/s41592-019-0686-2</pub-id>
+      <fpage>261</fpage>
+      <lpage>272</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-ElMendili2023-ws">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>El Mendili</surname><given-names>Mohamed Mounir</given-names></name>
+        <name><surname>Verschueren</surname><given-names>Annie</given-names></name>
+        <name><surname>Ranjeva</surname><given-names>Jean-Philippe</given-names></name>
+        <name><surname>Guye</surname><given-names>Maxime</given-names></name>
+        <name><surname>Attarian</surname><given-names>Shahram</given-names></name>
+        <name><surname>Zaaraoui</surname><given-names>Wafaa</given-names></name>
+        <name><surname>Grapperon</surname><given-names>Aude-Marie</given-names></name>
+      </person-group>
+      <article-title>Association between brain and upper cervical spinal cord atrophy assessed by MRI and disease aggressiveness in amyotrophic lateral sclerosis</article-title>
+      <source>Neuroradiology</source>
+      <year iso-8601-date="2023-07">2023</year><month>07</month>
+      <pub-id pub-id-type="doi">10.1007/s00234-023-03191-0</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-Engl2013-xx">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Engl</surname><given-names>Christina</given-names></name>
+        <name><surname>Schmidt</surname><given-names>Paul</given-names></name>
+        <name><surname>Arsic</surname><given-names>Milan</given-names></name>
+        <name><surname>Boucard</surname><given-names>Christine C</given-names></name>
+        <name><surname>Biberacher</surname><given-names>Viola</given-names></name>
+        <name><surname>Röttinger</surname><given-names>Michael</given-names></name>
+        <name><surname>Etgen</surname><given-names>Thorleif</given-names></name>
+        <name><surname>Nunnemann</surname><given-names>Sabine</given-names></name>
+        <name><surname>Koutsouleris</surname><given-names>Nikolaos</given-names></name>
+        <name><surname>Reiser</surname><given-names>Maximilian</given-names></name>
+        <name><surname>Meisenzahl</surname><given-names>Eva M</given-names></name>
+        <name><surname>Mühlau</surname><given-names>Mark</given-names></name>
+      </person-group>
+      <article-title>Brain size and white matter content of cerebrospinal tracts determine the upper cervical cord area: Evidence from structural brain MRI</article-title>
+      <source>Neuroradiology</source>
+      <year iso-8601-date="2013-08">2013</year><month>08</month>
+      <volume>55</volume>
+      <issue>8</issue>
+      <pub-id pub-id-type="doi">10.1007/s00234-013-1204-3</pub-id>
+      <fpage>963</fpage>
+      <lpage>970</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Losseff1996-py">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Losseff</surname><given-names>N A</given-names></name>
+        <name><surname>Webb</surname><given-names>S L</given-names></name>
+        <name><surname>O’Riordan</surname><given-names>J I</given-names></name>
+        <name><surname>Page</surname><given-names>R</given-names></name>
+        <name><surname>Wang</surname><given-names>L</given-names></name>
+        <name><surname>Barker</surname><given-names>G J</given-names></name>
+        <name><surname>Tofts</surname><given-names>P S</given-names></name>
+        <name><surname>McDonald</surname><given-names>W I</given-names></name>
+        <name><surname>Miller</surname><given-names>D H</given-names></name>
+        <name><surname>Thompson</surname><given-names>A J</given-names></name>
+      </person-group>
+      <article-title>Spinal cord atrophy and disability in multiple sclerosis. A new reproducible and sensitive MRI method with potential to monitor disease progression</article-title>
+      <source>Brain</source>
+      <year iso-8601-date="1996-06">1996</year><month>06</month>
+      <volume>119 ( Pt 3)</volume>
+      <pub-id pub-id-type="doi">10.1093/brain/119.3.701</pub-id>
+      <fpage>701</fpage>
+      <lpage>708</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Rashid2006-ar">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Rashid</surname><given-names>Waqar</given-names></name>
+        <name><surname>Davies</surname><given-names>Gerard R</given-names></name>
+        <name><surname>Chard</surname><given-names>Declan T</given-names></name>
+        <name><surname>Griffin</surname><given-names>Colette M</given-names></name>
+        <name><surname>Altmann</surname><given-names>Dan R</given-names></name>
+        <name><surname>Gordon</surname><given-names>Ros</given-names></name>
+        <name><surname>Kapoor</surname><given-names>Raju</given-names></name>
+        <name><surname>Thompson</surname><given-names>Alan J</given-names></name>
+        <name><surname>Miller</surname><given-names>David H</given-names></name>
+      </person-group>
+      <article-title>Upper cervical cord area in early relapsing-remitting multiple sclerosis: Cross-sectional study of factors influencing cord size</article-title>
+      <source>J. Magn. Reson. Imaging</source>
+      <year iso-8601-date="2006-04">2006</year><month>04</month>
+      <volume>23</volume>
+      <issue>4</issue>
+      <pub-id pub-id-type="doi">10.1002/jmri.20545</pub-id>
+      <fpage>473</fpage>
+      <lpage>476</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Smith2021-mh">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Smith</surname><given-names>Sam S</given-names></name>
+        <name><surname>Stewart</surname><given-names>Max E</given-names></name>
+        <name><surname>Davies</surname><given-names>Benjamin M</given-names></name>
+        <name><surname>Kotter</surname><given-names>Mark R N</given-names></name>
+      </person-group>
+      <article-title>The prevalence of asymptomatic and symptomatic spinal cord compression on magnetic resonance imaging: A systematic review and meta-analysis</article-title>
+      <source>Global Spine Journal</source>
+      <year iso-8601-date="2021-05">2021</year><month>05</month>
+      <volume>11</volume>
+      <issue>4</issue>
+      <pub-id pub-id-type="doi">10.1177/2192568220934496</pub-id>
+      <fpage>597</fpage>
+      <lpage>607</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Cohen2021-generic">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+        <name><surname>Alonso-Ortiz</surname><given-names>Eva</given-names></name>
+        <name><surname>Abramovic</surname><given-names>Mihael</given-names></name>
+        <name><surname>Arneitz</surname><given-names>Carina</given-names></name>
+        <name><surname>Atcheson</surname><given-names>Nicole</given-names></name>
+        <name><surname>Barlow</surname><given-names>Laura</given-names></name>
+        <name><surname>Barry</surname><given-names>Robert L</given-names></name>
+        <name><surname>Barth</surname><given-names>Markus</given-names></name>
+        <name><surname>Battiston</surname><given-names>Marco</given-names></name>
+        <name><surname>Büchel</surname><given-names>Christian</given-names></name>
+        <name><surname>others</surname></name>
+      </person-group>
+      <article-title>Generic acquisition protocol for quantitative MRI of the spinal cord</article-title>
+      <source>Nature protocols</source>
+      <publisher-name>Nature Publishing Group UK London</publisher-name>
+      <year iso-8601-date="2021">2021</year>
+      <volume>16</volume>
+      <issue>10</issue>
+      <pub-id pub-id-type="doi">10.1038/s41596-021-00588-0</pub-id>
+      <fpage>4611</fpage>
+      <lpage>4632</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Cohen2021-open">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+        <name><surname>Alonso-Ortiz</surname><given-names>Eva</given-names></name>
+        <name><surname>Abramovic</surname><given-names>Mihael</given-names></name>
+        <name><surname>Arneitz</surname><given-names>Carina</given-names></name>
+        <name><surname>Atcheson</surname><given-names>Nicole</given-names></name>
+        <name><surname>Barlow</surname><given-names>Laura</given-names></name>
+        <name><surname>Barry</surname><given-names>Robert L</given-names></name>
+        <name><surname>Barth</surname><given-names>Markus</given-names></name>
+        <name><surname>Battiston</surname><given-names>Marco</given-names></name>
+        <name><surname>Büchel</surname><given-names>Christian</given-names></name>
+        <name><surname>others</surname></name>
+      </person-group>
+      <article-title>Open-access quantitative MRI data of the spinal cord and reproducibility across participants, sites and manufacturers</article-title>
+      <source>Scientific data</source>
+      <publisher-name>Nature Publishing Group UK London</publisher-name>
+      <year iso-8601-date="2021">2021</year>
+      <volume>8</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1038/s41597-021-01044-0</pub-id>
+      <fpage>219</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-David2019-jc">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>David</surname><given-names>Gergely</given-names></name>
+        <name><surname>Mohammadi</surname><given-names>Siawoosh</given-names></name>
+        <name><surname>Martin</surname><given-names>Allan R</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+        <name><surname>Weiskopf</surname><given-names>Nikolaus</given-names></name>
+        <name><surname>Thompson</surname><given-names>Alan</given-names></name>
+        <name><surname>Freund</surname><given-names>Patrick</given-names></name>
+      </person-group>
+      <article-title>Traumatic and nontraumatic spinal cord injury: Pathological insights from neuroimaging</article-title>
+      <source>Nat. Rev. Neurol.</source>
+      <publisher-name>Nature Research</publisher-name>
+      <year iso-8601-date="2019-12">2019</year><month>12</month>
+      <volume>15</volume>
+      <issue>12</issue>
+      <pub-id pub-id-type="doi">10.1038/s41582-019-0270-5</pub-id>
+      <fpage>718</fpage>
+      <lpage>731</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Mina2021-xs">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Mina</surname><given-names>Yair</given-names></name>
+        <name><surname>Azodi</surname><given-names>Shila</given-names></name>
+        <name><surname>Dubuche</surname><given-names>Tsemacha</given-names></name>
+        <name><surname>Andrada</surname><given-names>Frances</given-names></name>
+        <name><surname>Osuorah</surname><given-names>Ikesinachi</given-names></name>
+        <name><surname>Ohayon</surname><given-names>Joan</given-names></name>
+        <name><surname>Cortese</surname><given-names>Irene</given-names></name>
+        <name><surname>Wu</surname><given-names>Tianxia</given-names></name>
+        <name><surname>Johnson</surname><given-names>Kory R</given-names></name>
+        <name><surname>Reich</surname><given-names>Daniel S</given-names></name>
+        <name><surname>Nair</surname><given-names>Govind</given-names></name>
+        <name><surname>Jacobson</surname><given-names>Steven</given-names></name>
+      </person-group>
+      <article-title>Cervical and thoracic cord atrophy in multiple sclerosis phenotypes: Quantification and correlation with clinical disability</article-title>
+      <source>NeuroImage: Clinical</source>
+      <publisher-name>Elsevier</publisher-name>
+      <year iso-8601-date="2021-01">2021</year><month>01</month>
+      <volume>30</volume>
+      <pub-id pub-id-type="doi">10.1016/j.nicl.2021.102680</pub-id>
+      <fpage>102680</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Gros2019-yi">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Gros</surname><given-names>Charley</given-names></name>
+        <name><surname>De Leener</surname><given-names>Benjamin</given-names></name>
+        <name><surname>Badji</surname><given-names>Atef</given-names></name>
+        <name><surname>Maranzano</surname><given-names>Josefina</given-names></name>
+        <name><surname>Eden</surname><given-names>Dominique</given-names></name>
+        <name><surname>Dupont</surname><given-names>Sara M</given-names></name>
+        <name><surname>Talbott</surname><given-names>Jason</given-names></name>
+        <name><surname>Zhuoquiong</surname><given-names>Ren</given-names></name>
+        <name><surname>Liu</surname><given-names>Yaou</given-names></name>
+        <name><surname>Granberg</surname><given-names>Tobias</given-names></name>
+        <name><surname>Ouellette</surname><given-names>Russell</given-names></name>
+        <name><surname>Tachibana</surname><given-names>Yasuhiko</given-names></name>
+        <name><surname>Hori</surname><given-names>Masaaki</given-names></name>
+        <name><surname>Kamiya</surname><given-names>Kouhei</given-names></name>
+        <name><surname>Chougar</surname><given-names>Lydia</given-names></name>
+        <name><surname>Stawiarz</surname><given-names>Leszek</given-names></name>
+        <name><surname>Hillert</surname><given-names>Jan</given-names></name>
+        <name><surname>Bannier</surname><given-names>Elise</given-names></name>
+        <name><surname>Kerbrat</surname><given-names>Anne</given-names></name>
+        <name><surname>Edan</surname><given-names>Gilles</given-names></name>
+        <name><surname>Labauge</surname><given-names>Pierre</given-names></name>
+        <name><surname>Callot</surname><given-names>Virginie</given-names></name>
+        <name><surname>Pelletier</surname><given-names>Jean</given-names></name>
+        <name><surname>Audoin</surname><given-names>Bertrand</given-names></name>
+        <name><surname>Rasoanandrianina</surname><given-names>Henitsoa</given-names></name>
+        <name><surname>Brisset</surname><given-names>Jean-Christophe</given-names></name>
+        <name><surname>Valsasina</surname><given-names>Paola</given-names></name>
+        <name><surname>Rocca</surname><given-names>Maria A</given-names></name>
+        <name><surname>Filippi</surname><given-names>Massimo</given-names></name>
+        <name><surname>Bakshi</surname><given-names>Rohit</given-names></name>
+        <name><surname>Tauhid</surname><given-names>Shahamat</given-names></name>
+        <name><surname>Prados</surname><given-names>Ferran</given-names></name>
+        <name><surname>Yiannakas</surname><given-names>Marios</given-names></name>
+        <name><surname>Kearney</surname><given-names>Hugh</given-names></name>
+        <name><surname>Ciccarelli</surname><given-names>Olga</given-names></name>
+        <name><surname>Smith</surname><given-names>Seth</given-names></name>
+        <name><surname>Treaba</surname><given-names>Constantina Andrada</given-names></name>
+        <name><surname>Mainero</surname><given-names>Caterina</given-names></name>
+        <name><surname>Lefeuvre</surname><given-names>Jennifer</given-names></name>
+        <name><surname>Reich</surname><given-names>Daniel S</given-names></name>
+        <name><surname>Nair</surname><given-names>Govind</given-names></name>
+        <name><surname>Auclair</surname><given-names>Vincent</given-names></name>
+        <name><surname>McLaren</surname><given-names>Donald G</given-names></name>
+        <name><surname>Martin</surname><given-names>Allan R</given-names></name>
+        <name><surname>Fehlings</surname><given-names>Michael G</given-names></name>
+        <name><surname>Vahdat</surname><given-names>Shahabeddin</given-names></name>
+        <name><surname>Khatibi</surname><given-names>Ali</given-names></name>
+        <name><surname>Doyon</surname><given-names>Julien</given-names></name>
+        <name><surname>Shepherd</surname><given-names>Timothy</given-names></name>
+        <name><surname>Charlson</surname><given-names>Erik</given-names></name>
+        <name><surname>Narayanan</surname><given-names>Sridar</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+      </person-group>
+      <article-title>Automatic segmentation of the spinal cord and intramedullary multiple sclerosis lesions with convolutional neural networks</article-title>
+      <source>Neuroimage</source>
+      <year iso-8601-date="2019-01">2019</year><month>01</month>
+      <volume>184</volume>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2018.09.081</pub-id>
+      <fpage>901</fpage>
+      <lpage>915</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Paquin2018-kf">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Paquin</surname><given-names>M E</given-names></name>
+        <name><surname>Mendili</surname><given-names>M M El</given-names></name>
+        <name><surname>Gros</surname><given-names>C</given-names></name>
+        <name><surname>Dupont</surname><given-names>S M</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>J</given-names></name>
+        <name><surname>Pradat</surname><given-names>P F</given-names></name>
+      </person-group>
+      <article-title>Spinal cord gray matter atrophy in amyotrophic lateral sclerosis</article-title>
+      <source>AJNR Am. J. Neuroradiol.</source>
+      <year iso-8601-date="2018">2018</year>
+      <volume>39</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.3174/ajnr.a5427</pub-id>
+      <fpage>184</fpage>
+      <lpage>192</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Horsfield2010-gx">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Horsfield</surname><given-names>Mark A</given-names></name>
+        <name><surname>Sala</surname><given-names>Stefania</given-names></name>
+        <name><surname>Neema</surname><given-names>Mohit</given-names></name>
+        <name><surname>Absinta</surname><given-names>Martina</given-names></name>
+        <name><surname>Bakshi</surname><given-names>Anshika</given-names></name>
+        <name><surname>Sormani</surname><given-names>Maria Pia</given-names></name>
+        <name><surname>Rocca</surname><given-names>Maria A</given-names></name>
+        <name><surname>Bakshi</surname><given-names>Rohit</given-names></name>
+        <name><surname>Filippi</surname><given-names>Massimo</given-names></name>
+      </person-group>
+      <article-title>Rapid semi-automatic segmentation of the spinal cord from magnetic resonance images: Application in multiple sclerosis</article-title>
+      <source>Neuroimage</source>
+      <year iso-8601-date="2010">2010</year>
+      <volume>50</volume>
+      <issue>2</issue>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2009.12.121</pub-id>
+      <fpage>446</fpage>
+      <lpage>455</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Badhiwala2020-qh">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Badhiwala</surname><given-names>Jetan H</given-names></name>
+        <name><surname>Ahuja</surname><given-names>Christopher S</given-names></name>
+        <name><surname>Akbar</surname><given-names>Muhammad A</given-names></name>
+        <name><surname>Witiw</surname><given-names>Christopher D</given-names></name>
+        <name><surname>Nassiri</surname><given-names>Farshad</given-names></name>
+        <name><surname>Furlan</surname><given-names>Julio C</given-names></name>
+        <name><surname>Curt</surname><given-names>Armin</given-names></name>
+        <name><surname>Wilson</surname><given-names>Jefferson R</given-names></name>
+        <name><surname>Fehlings</surname><given-names>Michael G</given-names></name>
+      </person-group>
+      <article-title>Degenerative cervical myelopathy - update and future directions</article-title>
+      <source>Nat. Rev. Neurol.</source>
+      <publisher-name>Springer Science; Business Media LLC</publisher-name>
+      <year iso-8601-date="2020-02">2020</year><month>02</month>
+      <volume>16</volume>
+      <issue>2</issue>
+      <pub-id pub-id-type="doi">10.1038/s41582-019-0303-0</pub-id>
+      <fpage>108</fpage>
+      <lpage>124</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Gorgolewski2016-xf">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Gorgolewski</surname><given-names>Krzysztof J</given-names></name>
+        <name><surname>Auer</surname><given-names>Tibor</given-names></name>
+        <name><surname>Calhoun</surname><given-names>Vince D</given-names></name>
+        <name><surname>Craddock</surname><given-names>R Cameron</given-names></name>
+        <name><surname>Das</surname><given-names>Samir</given-names></name>
+        <name><surname>Duff</surname><given-names>Eugene P</given-names></name>
+        <name><surname>Flandin</surname><given-names>Guillaume</given-names></name>
+        <name><surname>Ghosh</surname><given-names>Satrajit S</given-names></name>
+        <name><surname>Glatard</surname><given-names>Tristan</given-names></name>
+        <name><surname>Halchenko</surname><given-names>Yaroslav O</given-names></name>
+        <name><surname>Handwerker</surname><given-names>Daniel A</given-names></name>
+        <name><surname>Hanke</surname><given-names>Michael</given-names></name>
+        <name><surname>Keator</surname><given-names>David</given-names></name>
+        <name><surname>Li</surname><given-names>Xiangrui</given-names></name>
+        <name><surname>Michael</surname><given-names>Zachary</given-names></name>
+        <name><surname>Maumet</surname><given-names>Camille</given-names></name>
+        <name><surname>Nichols</surname><given-names>B Nolan</given-names></name>
+        <name><surname>Nichols</surname><given-names>Thomas E</given-names></name>
+        <name><surname>Pellman</surname><given-names>John</given-names></name>
+        <name><surname>Poline</surname><given-names>Jean-Baptiste</given-names></name>
+        <name><surname>Rokem</surname><given-names>Ariel</given-names></name>
+        <name><surname>Schaefer</surname><given-names>Gunnar</given-names></name>
+        <name><surname>Sochat</surname><given-names>Vanessa</given-names></name>
+        <name><surname>Triplett</surname><given-names>William</given-names></name>
+        <name><surname>Turner</surname><given-names>Jessica A</given-names></name>
+        <name><surname>Varoquaux</surname><given-names>Gaël</given-names></name>
+        <name><surname>Poldrack</surname><given-names>Russell A</given-names></name>
+      </person-group>
+      <article-title>The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments</article-title>
+      <source>Scientific Data</source>
+      <publisher-name>Springer Netherlands</publisher-name>
+      <publisher-loc>Dordrecht</publisher-loc>
+      <year iso-8601-date="2016-12">2016</year><month>12</month>
+      <volume>3</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1038/sdata.2016.44</pub-id>
+      <fpage>160044</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Guo2022-qb">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Guo</surname><given-names>Shengyu</given-names></name>
+        <name><surname>Lin</surname><given-names>Taotao</given-names></name>
+        <name><surname>Wu</surname><given-names>Rongcan</given-names></name>
+        <name><surname>Wang</surname><given-names>Zhenyu</given-names></name>
+        <name><surname>Chen</surname><given-names>Gang</given-names></name>
+        <name><surname>Liu</surname><given-names>Wenge</given-names></name>
+      </person-group>
+      <article-title>The Pre-Operative duration of symptoms: The most important predictor of Post-Operative efficacy in patients with degenerative cervical myelopathy</article-title>
+      <source>Brain Sci</source>
+      <year iso-8601-date="2022-08">2022</year><month>08</month>
+      <volume>12</volume>
+      <issue>8</issue>
+      <pub-id pub-id-type="doi">10.3390/brainsci12081088</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-DeLeener2018-zm">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>De Leener</surname><given-names>Benjamin</given-names></name>
+        <name><surname>Fonov</surname><given-names>Vladimir S</given-names></name>
+        <name><surname>Collins</surname><given-names>D Louis</given-names></name>
+        <name><surname>Callot</surname><given-names>Virginie</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+      </person-group>
+      <article-title>PAM50: Unbiased multimodal template of the brainstem and spinal cord aligned with the ICBM152 space</article-title>
+      <source>Neuroimage</source>
+      <year iso-8601-date="2018">2018</year>
+      <volume>165</volume>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2017.10.041</pub-id>
+      <fpage>170</fpage>
+      <lpage>179</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Yanase2006-xz">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Yanase</surname><given-names>Makoto</given-names></name>
+        <name><surname>Matsuyama</surname><given-names>Yukihiro</given-names></name>
+        <name><surname>Hirose</surname><given-names>Kazuyoshi</given-names></name>
+        <name><surname>Takagi</surname><given-names>Hideki</given-names></name>
+        <name><surname>Yamada</surname><given-names>Masami</given-names></name>
+        <name><surname>Iwata</surname><given-names>Hisashi</given-names></name>
+        <name><surname>Ishiguro</surname><given-names>Naoki</given-names></name>
+      </person-group>
+      <article-title>Measurement of the cervical spinal cord volume on MRI</article-title>
+      <source>J. Spinal Disord. Tech.</source>
+      <year iso-8601-date="2006-04">2006</year><month>04</month>
+      <volume>19</volume>
+      <issue>2</issue>
+      <pub-id pub-id-type="doi">10.1097/01.bsd.0000181294.67212.79</pub-id>
+      <fpage>125</fpage>
+      <lpage>129</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Bedard2023-kb">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Bédard</surname><given-names>Sandrine</given-names></name>
+      </person-group>
+      <article-title>Contrast-agnostic segmentation of the spinal cord using deep learning</article-title>
+      <publisher-name>ISMRM</publisher-name>
+      <publisher-loc>Toronto</publisher-loc>
+      <year iso-8601-date="2023">2023</year>
+    </element-citation>
+  </ref>
+  <ref id="ref-Frostell2016-yw">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Frostell</surname><given-names>Arvid</given-names></name>
+        <name><surname>Hakim</surname><given-names>Ramil</given-names></name>
+        <name><surname>Thelin</surname><given-names>Eric Peter</given-names></name>
+        <name><surname>Mattsson</surname><given-names>Per</given-names></name>
+        <name><surname>Svensson</surname><given-names>Mikael</given-names></name>
+      </person-group>
+      <article-title>A review of the segmental diameter of the healthy human spinal cord</article-title>
+      <source>Front. Neurol.</source>
+      <year iso-8601-date="2016-12">2016</year><month>12</month>
+      <volume>7</volume>
+      <pub-id pub-id-type="doi">10.3389/fneur.2016.00238</pub-id>
+      <fpage>238</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Papinutto2015-ov">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Papinutto</surname><given-names>Nico</given-names></name>
+        <name><surname>Schlaeger</surname><given-names>Regina</given-names></name>
+        <name><surname>Panara</surname><given-names>Valentina</given-names></name>
+        <name><surname>Zhu</surname><given-names>Alyssa H</given-names></name>
+        <name><surname>Caverzasi</surname><given-names>Eduardo</given-names></name>
+        <name><surname>Stern</surname><given-names>William A</given-names></name>
+        <name><surname>Hauser</surname><given-names>Stephen L</given-names></name>
+        <name><surname>Henry</surname><given-names>Roland G</given-names></name>
+      </person-group>
+      <article-title>Age, gender and normalization covariates for spinal cord gray matter and total cross-sectional areas at cervical and thoracic levels: A 2D phase sensitive inversion recovery imaging study</article-title>
+      <source>PLoS One</source>
+      <year iso-8601-date="2015-03">2015</year><month>03</month>
+      <volume>10</volume>
+      <issue>3</issue>
+      <pub-id pub-id-type="doi">10.1371/journal.pone.0118576</pub-id>
+      <fpage>e0118576</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Bedard2022-tr">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Bédard</surname><given-names>Sandrine</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+      </person-group>
+      <article-title>Automatic measure and normalization of spinal cord cross-sectional area using the pontomedullary junction</article-title>
+      <source>Frontiers in Neuroimaging</source>
+      <publisher-name>Frontiers</publisher-name>
+      <year iso-8601-date="2022-11">2022</year><month>11</month>
+      <volume>1</volume>
+      <pub-id pub-id-type="doi">10.3389/fnimg.2022.1031253</pub-id>
+      <fpage>43</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Martin2017-cf">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Martin</surname><given-names>Allan R</given-names></name>
+        <name><surname>De Leener</surname><given-names>B</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>J</given-names></name>
+        <name><surname>Cadotte</surname><given-names>D W</given-names></name>
+        <name><surname>Kalsi-Ryan</surname><given-names>S</given-names></name>
+        <name><surname>Lange</surname><given-names>S F</given-names></name>
+        <name><surname>Tetreault</surname><given-names>L</given-names></name>
+        <name><surname>Nouri</surname><given-names>A</given-names></name>
+        <name><surname>Crawley</surname><given-names>A</given-names></name>
+        <name><surname>Mikulis</surname><given-names>D J</given-names></name>
+        <name><surname>Ginsberg</surname><given-names>H</given-names></name>
+        <name><surname>Fehlings</surname><given-names>Michael G</given-names></name>
+      </person-group>
+      <article-title>A novel MRI biomarker of spinal cord white matter injury: T2∗-weighted white matter to gray matter signal intensity ratio</article-title>
+      <source>AJNR Am. J. Neuroradiol.</source>
+      <year iso-8601-date="2017">2017</year>
+      <volume>38</volume>
+      <issue>6</issue>
+      <pub-id pub-id-type="doi">10.3174/ajnr.a5162</pub-id>
+      <fpage>1266</fpage>
+      <lpage>1273</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Papinutto2020-hn">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Papinutto</surname><given-names>Nico</given-names></name>
+        <name><surname>Asteggiano</surname><given-names>Carlo</given-names></name>
+        <name><surname>Bischof</surname><given-names>Antje</given-names></name>
+        <name><surname>Gundel</surname><given-names>Tristan J</given-names></name>
+        <name><surname>Caverzasi</surname><given-names>Eduardo</given-names></name>
+        <name><surname>Stern</surname><given-names>William A</given-names></name>
+        <name><surname>Bastianello</surname><given-names>Stefano</given-names></name>
+        <name><surname>Hauser</surname><given-names>Stephen L</given-names></name>
+        <name><surname>Henry</surname><given-names>Roland G</given-names></name>
+      </person-group>
+      <article-title>Intersubject variability and normalization strategies for spinal cord total Cross-Sectional and gray matter areas</article-title>
+      <source>J. Neuroimaging</source>
+      <publisher-name>John Wiley &amp; Sons, Ltd</publisher-name>
+      <year iso-8601-date="2020-01">2020</year><month>01</month>
+      <volume>30</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1111/jon.12666</pub-id>
+      <fpage>110</fpage>
+      <lpage>118</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-DeLeener2017-fe">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>De Leener</surname><given-names>Benjamin</given-names></name>
+        <name><surname>Lévy</surname><given-names>Simon</given-names></name>
+        <name><surname>Dupont</surname><given-names>Sara M</given-names></name>
+        <name><surname>Fonov</surname><given-names>Vladimir S</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Louis Collins</surname><given-names>D</given-names></name>
+        <name><surname>Callot</surname><given-names>Virginie</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+      </person-group>
+      <article-title>SCT: Spinal cord toolbox, an open-source software for processing spinal cord MRI data</article-title>
+      <source>Neuroimage</source>
+      <year iso-8601-date="2017">2017</year>
+      <volume>145</volume>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2016.10.009</pub-id>
+      <fpage>24</fpage>
+      <lpage>43</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Kovalova2016-ra">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Kovalova</surname><given-names>Ivana</given-names></name>
+        <name><surname>Kerkovsky</surname><given-names>Milos</given-names></name>
+        <name><surname>Kadanka</surname><given-names>Zdenek</given-names></name>
+        <name><surname>Kadanka</surname><given-names>Zdenek</given-names></name>
+        <name><surname>Nemec</surname><given-names>Martin</given-names></name>
+        <name><surname>Jurova</surname><given-names>Barbora</given-names></name>
+        <name><surname>Dusek</surname><given-names>Ladislav</given-names></name>
+        <name><surname>Jarkovsky</surname><given-names>Jiri</given-names></name>
+        <name><surname>Bednarik</surname><given-names>Josef</given-names></name>
+      </person-group>
+      <article-title>Prevalence and imaging characteristics of nonmyelopathic and myelopathic spondylotic cervical cord compression</article-title>
+      <source>Spine</source>
+      <year iso-8601-date="2016-12">2016</year><month>12</month>
+      <volume>41</volume>
+      <issue>24</issue>
+      <pub-id pub-id-type="doi">10.1097/brs.0000000000001842</pub-id>
+      <fpage>1908</fpage>
+      <lpage>1916</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Kadanka2017-cu">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Kadanka</surname><given-names>Zdenek</given-names></name>
+        <name><surname>Adamova</surname><given-names>Blanka</given-names></name>
+        <name><surname>Kerkovsky</surname><given-names>Milos</given-names></name>
+        <name><surname>Kadanka</surname><given-names>Zdenek</given-names></name>
+        <name><surname>Dusek</surname><given-names>Ladislav</given-names></name>
+        <name><surname>Jurova</surname><given-names>Barbora</given-names></name>
+        <name><surname>Vlckova</surname><given-names>Eva</given-names></name>
+        <name><surname>Bednarik</surname><given-names>Josef</given-names></name>
+      </person-group>
+      <article-title>Predictors of symptomatic myelopathy in degenerative cervical spinal cord compression</article-title>
+      <source>Brain Behav.</source>
+      <year iso-8601-date="2017">2017</year>
+      <volume>7</volume>
+      <issue>9</issue>
+      <pub-id pub-id-type="doi">10.1002/brb3.797</pub-id>
+      <fpage>e00797</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Martin2017-zu">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Martin</surname><given-names>Allan R</given-names></name>
+        <name><surname>De Leener</surname><given-names>B</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>J</given-names></name>
+        <name><surname>Cadotte</surname><given-names>D W</given-names></name>
+        <name><surname>Kalsi-Ryan</surname><given-names>S</given-names></name>
+        <name><surname>Lange</surname><given-names>S F</given-names></name>
+        <name><surname>Tetreault</surname><given-names>L</given-names></name>
+        <name><surname>Nouri</surname><given-names>A</given-names></name>
+        <name><surname>Crawley</surname><given-names>A</given-names></name>
+        <name><surname>Mikulis</surname><given-names>D J</given-names></name>
+        <name><surname>Ginsberg</surname><given-names>H</given-names></name>
+        <name><surname>Fehlings</surname><given-names>M G</given-names></name>
+      </person-group>
+      <article-title>Clinically feasible microstructural MRI to quantify cervical spinal cord tissue injury using DTI, MT, and T2*-Weighted imaging: Assessment of normative data and reliability</article-title>
+      <source>AJNR Am. J. Neuroradiol.</source>
+      <publisher-name>American Journal of Neuroradiology</publisher-name>
+      <year iso-8601-date="2017-06">2017</year><month>06</month>
+      <volume>38</volume>
+      <issue>6</issue>
+      <pub-id pub-id-type="doi">10.3174/ajnr.a5163</pub-id>
+      <fpage>1257</fpage>
+      <lpage>1265</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Kato2012-iy">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Kato</surname><given-names>F</given-names></name>
+        <name><surname>Yukawa</surname><given-names>Y</given-names></name>
+        <name><surname>Suda</surname><given-names>K</given-names></name>
+        <name><surname>Yamagata</surname><given-names>M</given-names></name>
+        <name><surname>Ueta</surname><given-names>T</given-names></name>
+      </person-group>
+      <article-title>Normal morphology, age-related changes and abnormal findings of the cervical spine. Part II: Magnetic resonance imaging of over 1,200 asymptomatic subjects</article-title>
+      <source>Eur. Spine J.</source>
+      <publisher-name>Springer</publisher-name>
+      <year iso-8601-date="2012">2012</year>
+      <pub-id pub-id-type="doi">10.1007/s00586-012-2176-4</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-Kerkovsky2017-tw">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Keřkovský</surname><given-names>Miloš</given-names></name>
+        <name><surname>Bednařı́k</surname><given-names>Josef</given-names></name>
+        <name><surname>Jurová</surname><given-names>Barbora</given-names></name>
+        <name><surname>Dušek</surname><given-names>Ladislav</given-names></name>
+        <name><surname>Kadaňka</surname><given-names>Zdeněk</given-names></name>
+        <name><surname>Kadaňka</surname><given-names>Zdeněk</given-names></name>
+        <name><surname>Němec</surname><given-names>Martin</given-names></name>
+        <name><surname>Kovaľová</surname><given-names>Ivana</given-names></name>
+        <name><surname>Šprláková-Puková</surname><given-names>Andrea</given-names></name>
+        <name><surname>Mechl</surname><given-names>Marek</given-names></name>
+      </person-group>
+      <article-title>Spinal cord MR diffusion properties in patients with degenerative cervical cord compression</article-title>
+      <source>J. Neuroimaging</source>
+      <year iso-8601-date="2017-01">2017</year><month>01</month>
+      <volume>27</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1111/jon.12372</pub-id>
+      <fpage>149</fpage>
+      <lpage>157</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Solstrand2020-xz">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Solstrand Dahlberg</surname><given-names>Linda</given-names></name>
+        <name><surname>Viessmann</surname><given-names>Olivia</given-names></name>
+        <name><surname>Linnman</surname><given-names>Clas</given-names></name>
+      </person-group>
+      <article-title>Heritability of cervical spinal cord structure</article-title>
+      <source>Neurol Genet</source>
+      <year iso-8601-date="2020-04">2020</year><month>04</month>
+      <volume>6</volume>
+      <issue>2</issue>
+      <pub-id pub-id-type="doi">10.1212/nxg.0000000000000401</pub-id>
+      <fpage>e401</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Miyanji2007-za">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Miyanji</surname><given-names>Firoz</given-names></name>
+        <name><surname>Furlan</surname><given-names>Julio C</given-names></name>
+        <name><surname>Aarabi</surname><given-names>Bizhan</given-names></name>
+        <name><surname>Arnold</surname><given-names>Paul M</given-names></name>
+        <name><surname>Fehlings</surname><given-names>Michael G</given-names></name>
+      </person-group>
+      <article-title>Acute cervical traumatic spinal cord injury: MR imaging findings correlated with neurologic outcome–prospective study with 100 consecutive patients</article-title>
+      <source>Radiology</source>
+      <publisher-name>Radiological Society of North America (RSNA)</publisher-name>
+      <year iso-8601-date="2007-06">2007</year><month>06</month>
+      <volume>243</volume>
+      <issue>3</issue>
+      <pub-id pub-id-type="doi">10.1148/radiol.2433060583</pub-id>
+      <fpage>820</fpage>
+      <lpage>827</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Standring2020-er">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name><surname>Standring</surname><given-names>Susan</given-names></name>
+      </person-group>
+      <source>Gray’s anatomy: The anatomical basis of clinical practice</source>
+      <publisher-name>Elsevier</publisher-name>
+      <year iso-8601-date="2020-10">2020</year><month>10</month>
+    </element-citation>
+  </ref>
+  <ref id="ref-Taso2016-cv">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Taso</surname><given-names>Manuel</given-names></name>
+        <name><surname>Girard</surname><given-names>Olivier M</given-names></name>
+        <name><surname>Duhamel</surname><given-names>Guillaume</given-names></name>
+        <name><surname>Le Troter</surname><given-names>Arnaud</given-names></name>
+        <name><surname>Feiweier</surname><given-names>Thorsten</given-names></name>
+        <name><surname>Guye</surname><given-names>Maxime</given-names></name>
+        <name><surname>Ranjeva</surname><given-names>Jean Philippe</given-names></name>
+        <name><surname>Callot</surname><given-names>Virginie</given-names></name>
+      </person-group>
+      <article-title>Tract-specific and age-related variations of the spinal cord microstructure: A multi-parametric MRI study using diffusion tensor imaging (DTI) and inhomogeneous magnetization transfer (ihMT)</article-title>
+      <source>NMR Biomed.</source>
+      <publisher-name>John Wiley &amp; Sons, Ltd</publisher-name>
+      <year iso-8601-date="2016-06">2016</year><month>06</month>
+      <volume>29</volume>
+      <issue>6</issue>
+      <pub-id pub-id-type="doi">10.1002/nbm.3530</pub-id>
+      <fpage>817</fpage>
+      <lpage>832</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Horakova2022-gz">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Horáková</surname><given-names>Magda</given-names></name>
+        <name><surname>Horák</surname><given-names>Tomáš</given-names></name>
+        <name><surname>Valošek</surname><given-names>Jan</given-names></name>
+        <name><surname>Rohan</surname><given-names>Tomáš</given-names></name>
+        <name><surname>Koriťáková</surname><given-names>Eva</given-names></name>
+        <name><surname>Dostál</surname><given-names>Marek</given-names></name>
+        <name><surname>Kočica</surname><given-names>Jan</given-names></name>
+        <name><surname>Skutil</surname><given-names>Tomáš</given-names></name>
+        <name><surname>Keřkovský</surname><given-names>Miloš</given-names></name>
+        <name><surname>Kadaňka</surname><given-names>Zdeněk</given-names><suffix>Jr</suffix></name>
+        <name><surname>Bednařík</surname><given-names>Petr</given-names></name>
+        <name><surname>Svátková</surname><given-names>Alena</given-names></name>
+        <name><surname>Hluštík</surname><given-names>Petr</given-names></name>
+        <name><surname>Bednařík</surname><given-names>Josef</given-names></name>
+      </person-group>
+      <article-title>Semi-automated detection of cervical spinal cord compression with the spinal cord toolbox</article-title>
+      <source>Quant. Imaging Med. Surg.</source>
+      <publisher-name>AME Publishing Company</publisher-name>
+      <year iso-8601-date="2022-04">2022</year><month>04</month>
+      <volume>12</volume>
+      <issue>4</issue>
+      <pub-id pub-id-type="doi">10.21037/qims-21-782</pub-id>
+      <fpage>2261</fpage>
+      <lpage>2279</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Kesenheimer2021-vw">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Kesenheimer</surname><given-names>Eva M</given-names></name>
+        <name><surname>Wendebourg</surname><given-names>Maria Janina</given-names></name>
+        <name><surname>Weigel</surname><given-names>Matthias</given-names></name>
+        <name><surname>Weidensteiner</surname><given-names>Claudia</given-names></name>
+        <name><surname>Haas</surname><given-names>Tanja</given-names></name>
+        <name><surname>Richter</surname><given-names>Laura</given-names></name>
+        <name><surname>Sander</surname><given-names>Laura</given-names></name>
+        <name><surname>Horvath</surname><given-names>Antal</given-names></name>
+        <name><surname>Barakovic</surname><given-names>Muhamed</given-names></name>
+        <name><surname>Cattin</surname><given-names>Philippe</given-names></name>
+        <name><surname>Granziera</surname><given-names>Cristina</given-names></name>
+        <name><surname>Bieri</surname><given-names>Oliver</given-names></name>
+        <name><surname>Schlaeger</surname><given-names>Regina</given-names></name>
+      </person-group>
+      <article-title>Normalization of spinal cord total Cross-Sectional and gray matter areas as quantified with radially sampled averaged magnetization inversion recovery acquisitions</article-title>
+      <source>Front. Neurol.</source>
+      <year iso-8601-date="2021">2021</year>
+      <volume>12</volume>
+      <pub-id pub-id-type="doi">10.3389/fneur.2021.637198</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-Ullmann2014-zm">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Ullmann</surname><given-names>Eugénie</given-names></name>
+        <name><surname>Pelletier Paquette</surname><given-names>Jean François</given-names></name>
+        <name><surname>Thong</surname><given-names>William E</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+      </person-group>
+      <article-title>Automatic labeling of vertebral levels using a robust Template-Based approach</article-title>
+      <source>Int. J. Biomed. Imaging</source>
+      <year iso-8601-date="2014">2014</year>
+      <volume>2014</volume>
+      <pub-id pub-id-type="doi">10.1155/2014/719520</pub-id>
+      <fpage>719520</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Karakuzu2022-bids">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>Appelhoff</surname><given-names>Stefan</given-names></name>
+        <name><surname>Auer</surname><given-names>Tibor</given-names></name>
+        <name><surname>Boudreau</surname><given-names>Mathieu</given-names></name>
+        <name><surname>Feingold</surname><given-names>Franklin</given-names></name>
+        <name><surname>Khan</surname><given-names>Ali R</given-names></name>
+        <name><surname>Lazari</surname><given-names>Alberto</given-names></name>
+        <name><surname>Markiewicz</surname><given-names>Chris</given-names></name>
+        <name><surname>Mulder</surname><given-names>Martijn</given-names></name>
+        <name><surname>Phillips</surname><given-names>Christophe</given-names></name>
+        <name><surname>others</surname></name>
+      </person-group>
+      <article-title>qMRI-BIDS: An extension to the brain imaging data structure for quantitative magnetic resonance imaging data</article-title>
+      <source>Scientific data</source>
+      <publisher-name>Nature Publishing Group UK London</publisher-name>
+      <year iso-8601-date="2022">2022</year>
+      <volume>9</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1038/s41597-022-01571-4</pub-id>
+      <fpage>517</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-McCarthy2019-qd">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>McCarthy</surname><given-names>Paul</given-names></name>
+      </person-group>
+      <article-title>FSLeyes</article-title>
+      <publisher-name>Zenodo</publisher-name>
+      <year iso-8601-date="2022-05">2022</year><month>05</month>
+      <uri>https://doi.org/10.5281/zenodo.6511596</uri>
+      <pub-id pub-id-type="doi">10.5281/zenodo.6511596</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-Karakuzu2022-nlwf">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>DuPre</surname><given-names>Elizabeth</given-names></name>
+        <name><surname>Tetrel</surname><given-names>Loic</given-names></name>
+        <name><surname>Bermudez</surname><given-names>Patrick</given-names></name>
+        <name><surname>Boudreau</surname><given-names>Mathieu</given-names></name>
+        <name><surname>Chin</surname><given-names>Mary</given-names></name>
+        <name><surname>Poline</surname><given-names>Jean-Baptiste</given-names></name>
+        <name><surname>Das</surname><given-names>Samir</given-names></name>
+        <name><surname>Bellec</surname><given-names>Pierre</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+      </person-group>
+      <article-title>NeuroLibre : A preprint server for full-fledged reproducible neuroscience</article-title>
+      <publisher-name>OSF Preprints</publisher-name>
+      <year iso-8601-date="2022-04">2022</year><month>04</month>
+      <uri>osf.io/h89js</uri>
+      <pub-id pub-id-type="doi">10.31219/osf.io/h89js</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-Dupre2022-iro">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>DuPre</surname><given-names>Elizabeth</given-names></name>
+        <name><surname>Holdgraf</surname><given-names>Chris</given-names></name>
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>Tetrel</surname><given-names>Loı̈c</given-names></name>
+        <name><surname>Bellec</surname><given-names>Pierre</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Poline</surname><given-names>Jean-Baptiste</given-names></name>
+      </person-group>
+      <article-title>Beyond advertising: New infrastructures for publishing integrated research objects</article-title>
+      <source>PLOS Computational Biology</source>
+      <publisher-name>Public Library of Science San Francisco, CA USA</publisher-name>
+      <year iso-8601-date="2022">2022</year>
+      <volume>18</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1371/journal.pcbi.1009651</pub-id>
+      <fpage>e1009651</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Harding2023-conp">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Harding</surname><given-names>Rachel J.</given-names></name>
+        <name><surname>Bermudez</surname><given-names>Patrick</given-names></name>
+        <name><surname>Bernier</surname><given-names>Alexander</given-names></name>
+        <name><surname>Beauvais</surname><given-names>Michael</given-names></name>
+        <name><surname>Bellec</surname><given-names>Pierre</given-names></name>
+        <name><surname>Hill</surname><given-names>Sean</given-names></name>
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>Knoppers</surname><given-names>Bartha M.</given-names></name>
+        <name><surname>Pavlidis</surname><given-names>Paul</given-names></name>
+        <name><surname>Poline</surname><given-names>Jean-Baptiste</given-names></name>
+        <name><surname>Roskams</surname><given-names>Jane</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Stone</surname><given-names>Jessica</given-names></name>
+        <name><surname>Strother</surname><given-names>Stephen</given-names></name>
+        <name><surname>Consortium</surname><given-names>CONP</given-names></name>
+        <name><surname>Evans</surname><given-names>Alan C.</given-names></name>
+      </person-group>
+      <article-title>The Canadian Open Neuroscience Platform—An open science framework for the neuroscience community</article-title>
+      <source>PLOS Computational Biology</source>
+      <year iso-8601-date="2023-07">2023</year><month>07</month>
+      <volume>19</volume>
+      <issue>7</issue>
+      <uri>10.1371/journal.pcbi.1011230</uri>
+      <pub-id pub-id-type="doi">10.1371/journal.pcbi.1011230</pub-id>
+      <fpage>1</fpage>
+      <lpage>14</lpage>
+    </element-citation>
+  </ref>
+</ref-list>
+</back>
+</article>
