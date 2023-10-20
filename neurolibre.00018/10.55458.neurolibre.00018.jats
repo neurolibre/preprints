@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN"
+                  "JATS-publishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+<journal-title>NeuroLibre Reproducible Preprints</journal-title>
+<abbrev-journal-title>NeuroLibre</abbrev-journal-title>
+</journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher>
+<publisher-name>NeuroLibre</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">18</article-id>
+<article-id pub-id-type="doi">10.55458/neurolibre.00018</article-id>
+<title-group>
+<article-title>Longitudinal stability of brain and spinal cord
+quantitative MRI measures</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-7726-4456</contrib-id>
+<name>
+<surname>Boudreau</surname>
+<given-names>Mathieu</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="corresp" rid="cor-1"><sup>*</sup></xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-7283-271X</contrib-id>
+<name>
+<surname>Karakuzu</surname>
+<given-names>Agah</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-4822-1211</contrib-id>
+<name>
+<surname>Boré</surname>
+<given-names>Arnaud</given-names>
+</name>
+<xref ref-type="aff" rid="aff-2"/>
+<xref ref-type="aff" rid="aff-3"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-4391-3075</contrib-id>
+<name>
+<surname>Pinsard</surname>
+<given-names>Basile</given-names>
+</name>
+<xref ref-type="aff" rid="aff-2"/>
+<xref ref-type="aff" rid="aff-3"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-7993-7004</contrib-id>
+<name>
+<surname>Zelenkovski</surname>
+<given-names>Kiril</given-names>
+</name>
+<xref ref-type="aff" rid="aff-4"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-6590-7234</contrib-id>
+<name>
+<surname>Alonso-Ortiz</surname>
+<given-names>Eva</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="aff" rid="aff-5"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-5927-221X</contrib-id>
+<name>
+<surname>Boyle</surname>
+<given-names>Julie</given-names>
+</name>
+<xref ref-type="aff" rid="aff-2"/>
+<xref ref-type="aff" rid="aff-3"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-9111-0699</contrib-id>
+<name>
+<surname>Bellec</surname>
+<given-names>Pierre</given-names>
+</name>
+<xref ref-type="aff" rid="aff-2"/>
+<xref ref-type="aff" rid="aff-3"/>
+<xref ref-type="aff" rid="aff-6"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-3662-9532</contrib-id>
+<name>
+<surname>Cohen-Adad</surname>
+<given-names>Julien</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="aff" rid="aff-3"/>
+<xref ref-type="aff" rid="aff-5"/>
+<xref ref-type="aff" rid="aff-7"/>
+</contrib>
+<aff id="aff-1">
+<institution-wrap>
+<institution>NeuroPoly, Polytechnique Montreal, Montreal, QC,
+Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-2">
+<institution-wrap>
+<institution>Centre de Recherche de l’Institut Universitaire de
+Gériatrie de Montréal (CRIUGM), Montreal, QC, Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-3">
+<institution-wrap>
+<institution>Unité de Neuroimagerie Fonctionnelle (UNF), Centre de
+Recherche de l’Institut Universitaire de Gériatrie de Montréal (CRIUGM),
+Montreal, QC, Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-4">
+<institution-wrap>
+<institution>Faculty of Computer Science and Engineering (FINKI),
+Skopje, Macedonia</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-5">
+<institution-wrap>
+<institution>Centre de recherche du CHU Sainte-Justine, Université de
+Montréal, Montreal, QC, Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-6">
+<institution-wrap>
+<institution>Psychology Department, Université de Montréal, Montreal,
+QC, Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-7">
+<institution-wrap>
+<institution>Mila - Quebec AI Institute, Montreal, QC,
+Canada</institution>
+</institution-wrap>
+</aff>
+</contrib-group>
+<author-notes>
+<corresp id="cor-1">* E-mail: <email></email></corresp>
+</author-notes>
+<volume>3</volume>
+<issue>34</issue>
+<fpage>18</fpage>
+<permissions>
+<copyright-statement>Authors of papers retain copyright and release the
+work under a Creative Commons Attribution 4.0 International License (CC
+BY 4.0)</copyright-statement>
+<copyright-year>2022</copyright-year>
+<copyright-holder>The article authors</copyright-holder>
+<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/">
+<license-p>Authors of papers retain copyright and release the work under
+a Creative Commons Attribution 4.0 International License (CC BY
+4.0)</license-p>
+</license>
+</permissions>
+<kwd-group kwd-group-type="author">
+<kwd>quantitative MRI</kwd>
+<kwd>longitudinal stability</kwd>
+<kwd>relaxometry</kwd>
+<kwd>myelin</kwd>
+<kwd>open-source</kwd>
+</kwd-group>
+</article-meta>
+</front>
+<body>
+<sec id="summary">
+  <title>Summary</title>
+  <p>We present the initial data release of the Courtois project on
+  neural modeling (CNeuroMod), with a specific focus on the quantitative
+  MRI (qMRI) component. The primary objective of this study was to
+  evaluate the longitudinal stability of qMRI measurements in both the
+  brain and cervical spinal cord.</p>
+  <p>To achieve this, we conducted regular scanning sessions over a
+  three-year period involving six participants
+  <xref alt="[fig:figure1]" rid="figU003Afigure1">[fig:figure1]</xref>.
+  Each participant underwent up to ten sessions, providing us with a
+  robust dataset. Our brain qMRI imaging protocols consisted of T1,
+  magnetization transfer (MTR, MTsat), and diffusion techniques. In
+  addition to these, the spinal cord imaging protocol included T1w, T2w,
+  and T2*w cross-sectional area (CSA) measurements.</p>
+  <p>The results of our study demonstrate the stability of the qMRI
+  protocols used for both the brain and spinal cord. These findings
+  offer valuable insights for the design of future longitudinal clinical
+  studies in this domain. Furthermore, we have developed reproducible
+  and reusable analysis pipelines for structural qMRI of the brain and
+  spinal cord. These pipelines incorporate cutting-edge tools such as
+  FSL, ANTs, qMRLab, and SCT, ensuring robust and accurate analysis.</p>
+  <p>To enhance the accessibility and dissemination of our work, we have
+  presented our findings as an interactive article using Jupyter Book
+  and Plotly. This format allows for seamless exploration and sharing of
+  the curated findings within an integrated research object. We believe
+  that this approach will facilitate collaboration and encourage further
+  research in the field of qMRI analysis.</p>
+  <p>Overall, the initial data release of the Courtois project on neural
+  modeling (CNeuroMod), specifically focusing on the quantitative MRI
+  (qMRI) component, provides a significant contribution to the
+  understanding of the longitudinal stability of qMRI measurements in
+  the brain and spinal cord. The study offers valuable insights for
+  future longitudinal clinical studies and establishes reproducible
+  analysis pipelines for structural qMRI. The interactive article format
+  ensures easy accessibility and encourages collaboration among
+  researchers.</p>
+</sec>
+<sec id="figures">
+  <title>Figures</title>
+  <fig>
+    <caption><p>Overview of the structural dataset for the Courtois
+    project on neural modelling (CNeuroMod). 6 participants were scanned
+    up to ten times over three years; note that this is an initial data
+    release for 2022, and more scans are regularly being acquired. The
+    structural protocol consists of T1w, T2w and T2*w scans to quantify
+    brain and SC (including grey matter, GM) morphometry, and MP2RAGE,
+    magnetization transfer (MTR and MTsat), and diffusion-weighted
+    sequences to compute metrics sensitive to demyelination in the white
+    matter
+    (WM).<styled-content id="figU003Afigure1"></styled-content></p></caption>
+    <graphic mimetype="image" mime-subtype="png" xlink:href="media/featured.png" />
+  </fig>
+</sec>
+<sec id="acknowledgements">
+  <title>Acknowledgements</title>
+  <p>The Courtois project on neural modelling was made possible by a
+  generous donation from the Courtois foundation. The Courtois NeuroMod
+  team is based at “Centre de Recherche de l’Institut Universitaire de
+  Gériatrie de Montréal”, with several other institutions involved. See
+  the CNeuromod documentation for an up-to-date list of contributors
+  (https://docs.cneuromod.ca). This study was also funded by the Canada
+  Research Chair in Quantitative Magnetic Resonance Imaging
+  [950-230815], the Canadian Institute of Health Research [CIHR
+  FDN-143263], the Canada Foundation for Innovation [32454, 34824], the
+  Fonds de Recherche du Québec - Santé [322736], the Natural Sciences
+  and Engineering Research Council of Canada [RGPIN-2019-07244], the
+  Canada First Research Excellence Fund (IVADO and TransMedTech), and
+  the Mila - Tech Transfer Funding Program.</p>
+</sec>
+</body>
+<back>
+</back>
+</article>
