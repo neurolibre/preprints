@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN"
+                  "JATS-publishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+<journal-title>NeuroLibre Reproducible Preprints</journal-title>
+<abbrev-journal-title>NeuroLibre</abbrev-journal-title>
+</journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher>
+<publisher-name>NeuroLibre</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">10</article-id>
+<article-id pub-id-type="doi">10.55458/neurolibre.00010</article-id>
+<title-group>
+<article-title>Parcellating the parcellation issue - a proof of concept
+for reproducible analyses using Neurolibre</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-9111-0699</contrib-id>
+<name>
+<surname>Bellec</surname>
+<given-names>Pierre</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="aff" rid="aff-2"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-3234-5639</contrib-id>
+<name>
+<surname>Jbabdi</surname>
+<given-names>Saâd</given-names>
+</name>
+<xref ref-type="aff" rid="aff-3"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-4950-1303</contrib-id>
+<name>
+<surname>Craddock</surname>
+<given-names>R. Cameron</given-names>
+</name>
+<xref ref-type="aff" rid="aff-4"/>
+</contrib>
+<aff id="aff-1">
+<institution-wrap>
+<institution>Université de Montréal, Montréal, Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-2">
+<institution-wrap>
+<institution>Centre de recherche de l’université de Montréal, Montréal,
+CA</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-3">
+<institution-wrap>
+<institution>University of Oxford, Oxford, UK</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-4">
+<institution-wrap>
+<institution>brainhack.org</institution>
+</institution-wrap>
+</aff>
+</contrib-group>
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2021-10-22">
+<day>22</day>
+<month>10</month>
+<year>2021</year>
+</pub-date>
+<volume>3</volume>
+<issue>34</issue>
+<fpage>10</fpage>
+<permissions>
+<copyright-statement>Authors of papers retain copyright and release the
+work under a Creative Commons Attribution 4.0 International License (CC
+BY 4.0)</copyright-statement>
+<copyright-year>2022</copyright-year>
+<copyright-holder>The article authors</copyright-holder>
+<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/">
+<license-p>Authors of papers retain copyright and release the work under
+a Creative Commons Attribution 4.0 International License (CC BY
+4.0)</license-p>
+</license>
+</permissions>
+<kwd-group kwd-group-type="author">
+<kwd>Preprint</kwd>
+<kwd>Jupyter Book</kwd>
+<kwd>Reproducible article</kwd>
+<kwd>Neuroscience</kwd>
+</kwd-group>
+</article-meta>
+</front>
+<body>
+<sec id="summary">
+  <title>Summary</title>
+  <p>Back in 2017, a special issue on the topic of <bold>brain
+  parcellation and segmentation</bold> was published in the journal
+  Neuroimage. We acted as guest editors for this special issue, and
+  wrote an editorial
+  (<xref alt="Craddock et al., 2018" rid="ref-Craddock2018-ou" ref-type="bibr">Craddock
+  et al., 2018</xref>) providing an overview of all papers, sorted into
+  categories. The categories were generated using a data-driven
+  parcellation analysis, based on the words contained in the abstract of
+  the articles. This jupyter book will allow interested readers to
+  reproduce this analysis, as a proof of concept for reproducible
+  publications using
+  <ext-link ext-link-type="uri" xlink:href="https://jupyterbook.org/">jupyter
+  books</ext-link> and the
+  <ext-link ext-link-type="uri" xlink:href="https://neurolibre.org">Neurolibre</ext-link>
+  preprint server.</p>
+</sec>
+<sec id="acknowledgements">
+  <title>Acknowledgements</title>
+  <p>NeuroLibre is sponsored by the Canadian Open Neuroscience Platform
+  (CONP), Brain Canada, Cancer Computers, the Courtois foundation, the
+  Quebec Bioimaging Network, and Healthy Brains for Healthy Life.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+  <ref id="ref-Craddock2018-ou">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Craddock</surname><given-names>R Cameron</given-names></name>
+        <name><surname>Bellec</surname><given-names>Pierre</given-names></name>
+        <name><surname>Jbabdi</surname><given-names>Saad</given-names></name>
+      </person-group>
+      <article-title>Neuroimage special issue on brain segmentation and parcellation - editorial</article-title>
+      <source>Neuroimage</source>
+      <year iso-8601-date="2018-04">2018</year><month>04</month>
+      <volume>170</volume>
+      <uri>https://doi.org/10.1016/j.neuroimage.2017.11.063</uri>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2017.11.063</pub-id>
+      <fpage>1</fpage>
+      <lpage>4</lpage>
+    </element-citation>
+  </ref>
+</ref-list>
+</back>
+</article>
