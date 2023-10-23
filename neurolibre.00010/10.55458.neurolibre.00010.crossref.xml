@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>20231023T171818-dc316db3f3c93e06ba8c6f417634731946752090</doi_batch_id>
+    <timestamp>20231023171818</timestamp>
+    <depositor>
+      <depositor_name>NeuroLibre Admin</depositor_name>
+      <email_address>admin@neurolibre.org</email_address>
+    </depositor>
+    <registrant>Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal</registrant>
+  </head>
+  <body>
+  <posted_content type="preprint">
+  <group_title>NeuroLibre Reproducible Preprints</group_title>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Pierre</given_name>
+            <surname>Bellec</surname>
+            <ORCID>https://orcid.org/0000-0002-9111-0699</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Saâd</given_name>
+            <surname>Jbabdi</surname>
+            <ORCID>https://orcid.org/0000-0003-3234-5639</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>R. Cameron</given_name>
+            <surname>Craddock</surname>
+            <ORCID>https://orcid.org/0000-0002-4950-1303</ORCID>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Parcellating the parcellation issue - a proof of
+concept for reproducible analyses using Neurolibre</title>
+        </titles>
+        <posted_date>
+          <month>10</month>
+          <day>23</day>
+          <year>2023</year>
+        </posted_date>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Repository archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.10031956</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Dataset archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.10031958</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Book archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.10031954</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Container archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.10031960</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub technical screening</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://github.com/neurolibre/neurolibre-reviews/issues/10</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Executable preprint</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://preprint.neurolibre.org/10.55458/neurolibre.00010</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.55458/neurolibre.00010</doi>
+          <resource>https://neurolibre.org/papers/10.55458/neurolibre.00010</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://preprint.neurolibre.org/10.55458/neurolibre.00010.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="Craddock2018-ou">
+            <article_title>Neuroimage special issue on brain
+segmentation and parcellation - editorial</article_title>
+            <author>Craddock</author>
+            <journal_title>Neuroimage</journal_title>
+            <volume>170</volume>
+            <doi>10.1016/j.neuroimage.2017.11.063</doi>
+            <cYear>2018</cYear>
+            <unstructured_citation>Craddock, R. C., Bellec, P., &amp;
+Jbabdi, S. (2018). Neuroimage special issue on brain segmentation and
+parcellation - editorial. Neuroimage, 170, 1–4.
+https://doi.org/10.1016/j.neuroimage.2017.11.063</unstructured_citation>
+          </citation>
+          <citation key="Kramer2016">
+            <article_title>Scikit-learn</article_title>
+            <author>Kramer</author>
+            <journal_title>Machine learning for evolution
+strategies</journal_title>
+            <doi>10.1007/978-3-319-33383-0_5</doi>
+            <isbn>978-3-319-33383-0</isbn>
+            <cYear>2016</cYear>
+            <unstructured_citation>Kramer, O. (2016). Scikit-learn. In
+Machine learning for evolution strategies (pp. 45–53). Springer
+International Publishing.
+https://doi.org/10.1007/978-3-319-33383-0_5</unstructured_citation>
+          </citation>
+          <citation key="Karakuzu2022-nlwf">
+            <article_title>NeuroLibre : A preprint server for
+full-fledged reproducible neuroscience</article_title>
+            <author>Karakuzu</author>
+            <doi>10.31219/osf.io/h89js</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Karakuzu, A., DuPre, E., Tetrel, L.,
+Bermudez, P., Boudreau, M., Chin, M., Poline, J.-B., Das, S., Bellec,
+P., &amp; Stikov, N. (2022). NeuroLibre : A preprint server for
+full-fledged reproducible neuroscience. OSF Preprints.
+https://doi.org/10.31219/osf.io/h89js</unstructured_citation>
+          </citation>
+          <citation key="Dupre2022-iro">
+            <article_title>Beyond advertising: New infrastructures for
+publishing integrated research objects</article_title>
+            <author>DuPre</author>
+            <journal_title>PLOS Computational Biology</journal_title>
+            <issue>1</issue>
+            <volume>18</volume>
+            <doi>10.1371/journal.pcbi.1009651</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>DuPre, E., Holdgraf, C., Karakuzu,
+A., Tetrel, L., Bellec, P., Stikov, N., &amp; Poline, J.-B. (2022).
+Beyond advertising: New infrastructures for publishing integrated
+research objects. PLOS Computational Biology, 18(1), e1009651.
+https://doi.org/10.1371/journal.pcbi.1009651</unstructured_citation>
+          </citation>
+          <citation key="Harding2023-conp">
+            <article_title>The Canadian Open Neuroscience Platform—An
+open science framework for the neuroscience community</article_title>
+            <author>Harding</author>
+            <journal_title>PLOS Computational Biology</journal_title>
+            <issue>7</issue>
+            <volume>19</volume>
+            <doi>10.1371/journal.pcbi.1011230</doi>
+            <cYear>2023</cYear>
+            <unstructured_citation>Harding, R. J., Bermudez, P.,
+Bernier, A., Beauvais, M., Bellec, P., Hill, S., Karakuzu, A., Knoppers,
+B. M., Pavlidis, P., Poline, J.-B., Roskams, J., Stikov, N., Stone, J.,
+Strother, S., Consortium, C., &amp; Evans, A. C. (2023). The Canadian
+Open Neuroscience Platform—An open science framework for the
+neuroscience community. PLOS Computational Biology, 19(7), 1–14.
+https://doi.org/10.1371/journal.pcbi.1011230</unstructured_citation>
+          </citation>
+        </citation_list>
+  </posted_content>
+  </body>
+</doi_batch>

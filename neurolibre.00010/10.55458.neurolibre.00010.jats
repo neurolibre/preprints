@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN"
+                  "JATS-publishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+<journal-title>NeuroLibre Reproducible Preprints</journal-title>
+<abbrev-journal-title>NeuroLibre</abbrev-journal-title>
+</journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher>
+<publisher-name>NeuroLibre</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">10</article-id>
+<article-id pub-id-type="doi">10.55458/neurolibre.00010</article-id>
+<title-group>
+<article-title>Parcellating the parcellation issue - a proof of concept
+for reproducible analyses using Neurolibre</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-9111-0699</contrib-id>
+<name>
+<surname>Bellec</surname>
+<given-names>Pierre</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="aff" rid="aff-2"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-3234-5639</contrib-id>
+<name>
+<surname>Jbabdi</surname>
+<given-names>Saâd</given-names>
+</name>
+<xref ref-type="aff" rid="aff-3"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-4950-1303</contrib-id>
+<name>
+<surname>Craddock</surname>
+<given-names>R. Cameron</given-names>
+</name>
+<xref ref-type="aff" rid="aff-4"/>
+</contrib>
+<aff id="aff-1">
+<institution-wrap>
+<institution>Université de Montréal, Montréal, Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-2">
+<institution-wrap>
+<institution>Centre de recherche de l’université de Montréal, Montréal,
+CA</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-3">
+<institution-wrap>
+<institution>University of Oxford, Oxford, UK</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-4">
+<institution-wrap>
+<institution>brainhack.org</institution>
+</institution-wrap>
+</aff>
+</contrib-group>
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2021-10-22">
+<day>22</day>
+<month>10</month>
+<year>2021</year>
+</pub-date>
+<volume>3</volume>
+<issue>34</issue>
+<fpage>10</fpage>
+<permissions>
+<copyright-statement>Authors of papers retain copyright and release the
+work under a Creative Commons Attribution 4.0 International License (CC
+BY 4.0)</copyright-statement>
+<copyright-year>2022</copyright-year>
+<copyright-holder>The article authors</copyright-holder>
+<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/">
+<license-p>Authors of papers retain copyright and release the work under
+a Creative Commons Attribution 4.0 International License (CC BY
+4.0)</license-p>
+</license>
+</permissions>
+<kwd-group kwd-group-type="author">
+<kwd>Preprint</kwd>
+<kwd>Jupyter Book</kwd>
+<kwd>Reproducible article</kwd>
+<kwd>Neuroscience</kwd>
+</kwd-group>
+</article-meta>
+</front>
+<body>
+<sec id="summary">
+  <title>Summary</title>
+  <p>Back in 2017, a special issue on the topic of <bold>brain
+  parcellation and segmentation</bold> was published in the journal
+  Neuroimage. We acted as guest editors for this special issue, and
+  wrote an editorial
+  (<xref alt="Craddock et al., 2018" rid="ref-Craddock2018-ou" ref-type="bibr">Craddock
+  et al., 2018</xref>) providing an overview of all papers, sorted into
+  categories. The categories were generated using a data-driven
+  parcellation analysis, based on the words contained in the abstract of
+  the articles. This jupyter book will allow interested readers to
+  reproduce this analysis, as a proof of concept for reproducible
+  publications using
+  <ext-link ext-link-type="uri" xlink:href="https://jupyterbook.org/">jupyter
+  books</ext-link> and the
+  <ext-link ext-link-type="uri" xlink:href="https://neurolibre.org">Neurolibre</ext-link>
+  preprint server.</p>
+</sec>
+<sec id="acknowledgements">
+  <title>Acknowledgements</title>
+  <p>NeuroLibre is sponsored by the Canadian Open Neuroscience Platform
+  (CONP), Brain Canada, Cancer Computers, the Courtois foundation, the
+  Quebec Bioimaging Network, and Healthy Brains for Healthy Life.</p>
+  <p></p>
+  <disp-quote>
+    <p><bold><italic>NOTE:</italic></bold> The following section in this
+    document repeats the narrative content exactly as found in the
+    <ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00010">corresponding
+    NeuroLibre Reproducible Preprint (NRP)</ext-link>. The content was
+    automatically incorporated into this PDF using the NeuroLibre
+    publication workflow
+    (<xref alt="Karakuzu et al., 2022" rid="ref-Karakuzu2022-nlwf" ref-type="bibr">Karakuzu
+    et al., 2022</xref>) to credit the referenced resources. The
+    submitting author of the preprint has verified and approved the
+    inclusion of this section through a GitHub pull request made to the
+    <ext-link ext-link-type="uri" xlink:href="https://github.com/pbellec/editorial_parcellation">source
+    repository</ext-link> from which this document was built. Please
+    note that the figures and tables have been excluded from this
+    (static) document. <bold>To interactively explore such outputs and
+    re-generate them, please visit the corresponding
+    <ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00010">NRP</ext-link>.</bold>
+    For more information on integrated research objects (e.g., NRPs)
+    that bundle narrative and executable content for reproducible and
+    transparent publications, please refer to DuPre et al.
+    (<xref alt="2022" rid="ref-Dupre2022-iro" ref-type="bibr">2022</xref>).
+    NeuroLibre is sponsored by the Canadian Open Neuroscience Platform
+    (CONP)
+    (<xref alt="Harding et al., 2023" rid="ref-Harding2023-conp" ref-type="bibr">Harding
+    et al., 2023</xref>).</p>
+  </disp-quote>
+</sec>
+<sec id="text-mining">
+  <title>Text mining</title>
+  <sec id="list-of-papers">
+    <title>List of papers</title>
+    <p>We first assembled the title, the name of the corresponding
+    author, and the abstract for all the articles into a
+    tabular-separated values (tsv) file, which we publicly archived on
+    <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.6084/m9.figshare.5497468.v2">Figshare</ext-link>.
+    We use the
+    <ext-link ext-link-type="uri" xlink:href="https://github.com/SIMEXP/Repo2Data">Repo2Data</ext-link>
+    tool developed by the NeuroLibre team to collect these data and
+    include them in our reproducible computational environment.</p>
+  </sec>
+  <sec id="word-features">
+    <title>Word features</title>
+    <p>For each paper, we used
+    <ext-link ext-link-type="uri" xlink:href="http://scikit-learn.org">scikit-learn</ext-link>
+    (<xref alt="Kramer, 2016" rid="ref-Kramer2016" ref-type="bibr">Kramer,
+    2016</xref>) to extract a bag of words representation for each
+    abstract, picking on the 300 most important terms seen across all
+    articles based on a term frequency-inverse document frequency
+    <ext-link ext-link-type="uri" xlink:href="http://scikit-learn.org/stable/modules/feature_extraction.html#text-feature-extraction">(tf-idf)
+    index</ext-link>. Following that, a special value decomposition was
+    used to further reduce the dimensionality of the abstracts to 10
+    components. We ended up with a component matrix of dimension 38
+    (articles) times 10 (abstract text components). The distribution of
+    each of the 38 articles across the 10 components is represented
+    below. Note how some articles have particular high loadings on
+    specific components, suggesting these may capture particular topics.
+    Rather than visually inspect the component loadings to group paper
+    ourselves, we are going to resort to an automated parcellation
+    (clustering) technique.</p>
+  </sec>
+  <sec id="parcellate-the-papers">
+    <title>Parcellate the papers</title>
+    <p>Now that the content of each paper has been condensed into only
+    10 (hopefully informative) numbers, we can run these features into a
+    trusted, classic parcellation algorithm: Ward’s agglomerative
+    hierarchical clustering, as implemented in the scipy library. We cut
+    the hierarchy to extract 7 “paper parcels”, and also use the
+    hierarchy to re-order the papers, such that similar papers are close
+    in order, as illustrated in a dendrogram representation.</p>
+  </sec>
+  <sec id="similarity-matrix">
+    <title>Similarity matrix</title>
+    <p>So, to get a better feel of the similarity between papers that
+    was fed into the clustering procedure, we extracted the 38x38
+    (papers x papers) correlation matrix across features. Papers are
+    re-ordered in the matrix according to the above hierarchy. Each
+    “paper parcel” has been indicated by a white square along the
+    diagonal, which represents the similarity measures between papers
+    falling into the same parcel.</p>
+  </sec>
+  <sec id="word-cloud">
+    <title>Word cloud</title>
+    <p>Now, each paper of the special issue has been assigned to one and
+    only one out of 7 possible “paper parcel”. For each paper parcel, we
+    can evaluate which words contribute more to the dominant component
+    associated with that parcel.</p>
+  </sec>
+  <sec id="categories">
+    <title>Categories</title>
+    <p>Thanks to the word clouds, these simple data-driven categories
+    turned out to be fairly easily interpretable. For example, the word
+    cloud of the category number 4 features prominently words like
+    “white”, “matter” and “bundles”. If we examine the exact list of
+    papers included in this category, we see that it is composed of four
+    papers, which all considered parcels derived from white matter
+    bundles with diffusion imaging. We can also check the distribution
+    of component loadings for this category alone. As expected, there is
+    a certain similarity in the component loadings for these papers, in
+    particular along <monospace>component 4</monospace>:</p>
+  </sec>
+</sec>
+</body>
+<back>
+<ref-list>
+  <ref id="ref-Craddock2018-ou">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Craddock</surname><given-names>R Cameron</given-names></name>
+        <name><surname>Bellec</surname><given-names>Pierre</given-names></name>
+        <name><surname>Jbabdi</surname><given-names>Saad</given-names></name>
+      </person-group>
+      <article-title>Neuroimage special issue on brain segmentation and parcellation - editorial</article-title>
+      <source>Neuroimage</source>
+      <year iso-8601-date="2018-04">2018</year><month>04</month>
+      <volume>170</volume>
+      <uri>https://doi.org/10.1016/j.neuroimage.2017.11.063</uri>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2017.11.063</pub-id>
+      <fpage>1</fpage>
+      <lpage>4</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Kramer2016">
+    <element-citation publication-type="chapter">
+      <person-group person-group-type="author">
+        <name><surname>Kramer</surname><given-names>Oliver</given-names></name>
+      </person-group>
+      <article-title>Scikit-learn</article-title>
+      <source>Machine learning for evolution strategies</source>
+      <publisher-name>Springer International Publishing</publisher-name>
+      <publisher-loc>Cham</publisher-loc>
+      <year iso-8601-date="2016">2016</year>
+      <isbn>978-3-319-33383-0</isbn>
+      <pub-id pub-id-type="doi">10.1007/978-3-319-33383-0_5</pub-id>
+      <fpage>45</fpage>
+      <lpage>53</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Karakuzu2022-nlwf">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>DuPre</surname><given-names>Elizabeth</given-names></name>
+        <name><surname>Tetrel</surname><given-names>Loic</given-names></name>
+        <name><surname>Bermudez</surname><given-names>Patrick</given-names></name>
+        <name><surname>Boudreau</surname><given-names>Mathieu</given-names></name>
+        <name><surname>Chin</surname><given-names>Mary</given-names></name>
+        <name><surname>Poline</surname><given-names>Jean-Baptiste</given-names></name>
+        <name><surname>Das</surname><given-names>Samir</given-names></name>
+        <name><surname>Bellec</surname><given-names>Pierre</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+      </person-group>
+      <article-title>NeuroLibre : A preprint server for full-fledged reproducible neuroscience</article-title>
+      <publisher-name>OSF Preprints</publisher-name>
+      <year iso-8601-date="2022-04">2022</year><month>04</month>
+      <uri>osf.io/h89js</uri>
+      <pub-id pub-id-type="doi">10.31219/osf.io/h89js</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-Dupre2022-iro">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>DuPre</surname><given-names>Elizabeth</given-names></name>
+        <name><surname>Holdgraf</surname><given-names>Chris</given-names></name>
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>Tetrel</surname><given-names>Loı̈c</given-names></name>
+        <name><surname>Bellec</surname><given-names>Pierre</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Poline</surname><given-names>Jean-Baptiste</given-names></name>
+      </person-group>
+      <article-title>Beyond advertising: New infrastructures for publishing integrated research objects</article-title>
+      <source>PLOS Computational Biology</source>
+      <publisher-name>Public Library of Science San Francisco, CA USA</publisher-name>
+      <year iso-8601-date="2022">2022</year>
+      <volume>18</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1371/journal.pcbi.1009651</pub-id>
+      <fpage>e1009651</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Harding2023-conp">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Harding</surname><given-names>Rachel J.</given-names></name>
+        <name><surname>Bermudez</surname><given-names>Patrick</given-names></name>
+        <name><surname>Bernier</surname><given-names>Alexander</given-names></name>
+        <name><surname>Beauvais</surname><given-names>Michael</given-names></name>
+        <name><surname>Bellec</surname><given-names>Pierre</given-names></name>
+        <name><surname>Hill</surname><given-names>Sean</given-names></name>
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>Knoppers</surname><given-names>Bartha M.</given-names></name>
+        <name><surname>Pavlidis</surname><given-names>Paul</given-names></name>
+        <name><surname>Poline</surname><given-names>Jean-Baptiste</given-names></name>
+        <name><surname>Roskams</surname><given-names>Jane</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Stone</surname><given-names>Jessica</given-names></name>
+        <name><surname>Strother</surname><given-names>Stephen</given-names></name>
+        <name><surname>Consortium</surname><given-names>CONP</given-names></name>
+        <name><surname>Evans</surname><given-names>Alan C.</given-names></name>
+      </person-group>
+      <article-title>The Canadian Open Neuroscience Platform—An open science framework for the neuroscience community</article-title>
+      <source>PLOS Computational Biology</source>
+      <year iso-8601-date="2023-07">2023</year><month>07</month>
+      <volume>19</volume>
+      <issue>7</issue>
+      <uri>10.1371/journal.pcbi.1011230</uri>
+      <pub-id pub-id-type="doi">10.1371/journal.pcbi.1011230</pub-id>
+      <fpage>1</fpage>
+      <lpage>14</lpage>
+    </element-citation>
+  </ref>
+</ref-list>
+</back>
+</article>
