@@ -91,7 +91,7 @@ jobs:
           Here's what you must now do:
 
           0. Check final PDF and Crossref metadata that was deposited :point_right: ${{steps.pull-request.outputs.pr_url}}
-          1. Wait a couple of minutes, then verify that the paper DOI resolves [https://doi.org/${{steps.oj-deposit.outputs.paper_doi}}](https://doi.org/${{steps.oj-deposit.outputs.paper_doi}})
+          1. Wait a couple of minutes, then verify that the paper DOI resolves [https://doi.org/${{steps.neurolibre-deposit.outputs.paper_doi}}](https://doi.org/${{steps.neurolibre-deposit.outputs.paper_doi}})
           2. If everything looks good, then close this review issue.
           3. Party like you just published more than a PDF! 🎉🌈🦄💃👻🤘
 
