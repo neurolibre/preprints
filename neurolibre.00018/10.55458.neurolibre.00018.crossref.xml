@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>20231025T155601-da91ff41e4e6a473c652fb73eedff77bad62ced9</doi_batch_id>
+    <timestamp>20231025155601</timestamp>
+    <depositor>
+      <depositor_name>NeuroLibre Admin</depositor_name>
+      <email_address>admin@neurolibre.org</email_address>
+    </depositor>
+    <registrant>Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal</registrant>
+  </head>
+  <body>
+  <posted_content type="preprint">
+  <group_title>NeuroLibre Reproducible Preprints</group_title>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Mathieu</given_name>
+            <surname>Boudreau</surname>
+            <ORCID>https://orcid.org/0000-0002-7726-4456</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Agah</given_name>
+            <surname>Karakuzu</surname>
+            <ORCID>https://orcid.org/0000-0001-7283-271X</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Arnaud</given_name>
+            <surname>Boré</surname>
+            <ORCID>https://orcid.org/0000-0002-4822-1211</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Basile</given_name>
+            <surname>Pinsard</surname>
+            <ORCID>https://orcid.org/0000-0002-4391-3075</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Kiril</given_name>
+            <surname>Zelenkovski</surname>
+            <ORCID>https://orcid.org/0000-0001-7993-7004</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Eva</given_name>
+            <surname>Alonso-Ortiz</surname>
+            <ORCID>https://orcid.org/0000-0001-6590-7234</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Julie</given_name>
+            <surname>Boyle</surname>
+            <ORCID>https://orcid.org/0000-0001-5927-221X</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Pierre</given_name>
+            <surname>Bellec</surname>
+            <ORCID>https://orcid.org/0000-0002-9111-0699</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Julien</given_name>
+            <surname>Cohen-Adad</surname>
+            <ORCID>https://orcid.org/0000-0003-3662-9532</ORCID>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Longitudinal stability of brain and spinal cord
+quantitative MRI measures</title>
+        </titles>
+        <posted_date>
+          <month>10</month>
+          <day>25</day>
+          <year>2023</year>
+        </posted_date>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Repository archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.10038872</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Dataset archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.10038874</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Book archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.10038870</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Container archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.10038876</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub technical screening</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://github.com/neurolibre/neurolibre-reviews/issues/18</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Executable preprint</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri"></rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.55458/neurolibre.00018</doi>
+          <resource>https://neurolibre.org/papers/10.55458/neurolibre.00018</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://preprint.neurolibre.org/10.55458/neurolibre.00018.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="Avants2009-ox">
+            <article_title>Advanced normalization tools
+(ANTS)</article_title>
+            <author>Avants</author>
+            <journal_title>Insight J.</journal_title>
+            <doi>10.54294/uvnhin</doi>
+            <cYear>2009</cYear>
+            <unstructured_citation>Avants, Tustison, &amp; Song. (2009).
+Advanced normalization tools (ANTS). Insight J.
+https://doi.org/10.54294/uvnhin</unstructured_citation>
+          </citation>
+          <citation key="Balbastre2022-dm">
+            <article_title>Correcting inter-scan motion artifacts in
+quantitative R _1 mapping at 7T</article_title>
+            <author>Balbastre</author>
+            <journal_title>Magn. Reson. Med.</journal_title>
+            <volume>88</volume>
+            <doi>10.1002/mrm.29216</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Balbastre, Y., Aghaeifar, A., Corbin,
+N., Brudfors, M., Ashburner, J., &amp; Callaghan, M. F. (2022).
+Correcting inter-scan motion artifacts in quantitative R _1 mapping at
+7T. In Magn. Reson. Med. (No. 1; Vol. 88, pp. 280–291).
+https://doi.org/10.1002/mrm.29216</unstructured_citation>
+          </citation>
+          <citation key="Bautin2021-dt">
+            <article_title>Minimum detectable spinal cord atrophy with
+automatic segmentation: Investigations using an open-access dataset of
+healthy participants</article_title>
+            <author>Bautin</author>
+            <journal_title>NeuroImage. Clinical</journal_title>
+            <volume>32</volume>
+            <doi>10.1016/j.nicl.2021.102849</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Bautin, P., &amp; Cohen-Adad, J.
+(2021). Minimum detectable spinal cord atrophy with automatic
+segmentation: Investigations using an open-access dataset of healthy
+participants. NeuroImage. Clinical, 32, 102849.
+https://doi.org/10.1016/j.nicl.2021.102849</unstructured_citation>
+          </citation>
+          <citation key="Beg2021-ps">
+            <article_title>Using jupyter for reproducible scientific
+workflows</article_title>
+            <author>Beg</author>
+            <journal_title>Computing in Science &amp;
+Engineering</journal_title>
+            <issue>2</issue>
+            <volume>23</volume>
+            <doi>10.1109/MCSE.2021.3052101</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Beg, M., Taka, J., Kluyver, T.,
+Konovalov, A., Ragan-Kelley, M., Thiéry, N. M., &amp; Fangohr, H.
+(2021). Using jupyter for reproducible scientific workflows. Computing
+in Science &amp; Engineering, 23(2), 36–46.
+https://doi.org/10.1109/MCSE.2021.3052101</unstructured_citation>
+          </citation>
+          <citation key="Boyle2020-vv">
+            <article_title>The Courtois project on neuronal modelling -
+2020 data release</article_title>
+            <author>Boyle</author>
+            <journal_title>Annual meeting of the organization for human
+brain mapping</journal_title>
+            <cYear>2020</cYear>
+            <unstructured_citation>Boyle, J. A., Pinsard, B., Boukhdhir,
+A., Belleville, S., Brambatti, S., Chen, J., Cohen-Adad, J., Cyr, A.,
+Fuente, A., Rainville, P., &amp; Bellec, P. (2020). The Courtois project
+on neuronal modelling - 2020 data release. Annual Meeting of the
+Organization for Human Brain Mapping, 1939.</unstructured_citation>
+          </citation>
+          <citation key="Cabana2015-zg">
+            <article_title>Quantitative magnetization transfer
+imagingmadeeasy with qMTLab: Software for data simulation, analysis, and
+visualization</article_title>
+            <author>Cabana</author>
+            <journal_title>Concepts Magn. Reson. Part A Bridg. Educ.
+Res.</journal_title>
+            <issue>5</issue>
+            <volume>44A</volume>
+            <doi>10.1002/cmr.a.21357</doi>
+            <cYear>2015</cYear>
+            <unstructured_citation>Cabana, J.-F., Gu, Y., Boudreau, M.,
+Levesque, I. R., Atchia, Y., Sled, J. G., Narayanan, S., Arnold, D. L.,
+Pike, G. B., Cohen-Adad, J., Duval, T., Vuong, M.-T., &amp; Stikov, N.
+(2015). Quantitative magnetization transfer imagingmadeeasy with qMTLab:
+Software for data simulation, analysis, and visualization. Concepts
+Magn. Reson. Part A Bridg. Educ. Res., 44A(5), 263–277.
+https://doi.org/10.1002/cmr.a.21357</unstructured_citation>
+          </citation>
+          <citation key="Catani2008-jw">
+            <article_title>A diffusion tensor imaging tractography atlas
+for virtual in vivo dissections</article_title>
+            <author>Catani</author>
+            <journal_title>Cortex; a journal devoted to the study of the
+nervous system and behavior</journal_title>
+            <issue>8</issue>
+            <volume>44</volume>
+            <doi>10.1016/j.cortex.2008.05.004</doi>
+            <cYear>2008</cYear>
+            <unstructured_citation>Catani, M., &amp; Thiebaut de
+Schotten, M. (2008). A diffusion tensor imaging tractography atlas for
+virtual in vivo dissections. Cortex; a Journal Devoted to the Study of
+the Nervous System and Behavior, 44(8), 1105–1132.
+https://doi.org/10.1016/j.cortex.2008.05.004</unstructured_citation>
+          </citation>
+          <citation key="Cercignani2018-ga">
+            <volume_title>Quantitative MRI of the brain: Principles of
+physical measurement, second edition</volume_title>
+            <author>Cercignani</author>
+            <cYear>2018</cYear>
+            <unstructured_citation>Cercignani, M., Dowell, N. G., &amp;
+Tofts, P. S. (2018). Quantitative MRI of the brain: Principles of
+physical measurement, second edition. CRC Press.</unstructured_citation>
+          </citation>
+          <citation key="Chung2010-nc">
+            <article_title>Rapid B1+ mapping using a preconditioning RF
+pulse with TurboFLASH readout</article_title>
+            <author>Chung</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>2</issue>
+            <volume>64</volume>
+            <doi>10.1002/mrm.22423</doi>
+            <cYear>2010</cYear>
+            <unstructured_citation>Chung, S., Kim, D., Breton, E., &amp;
+Axel, L. (2010). Rapid B1+ mapping using a preconditioning RF pulse with
+TurboFLASH readout. Magnetic Resonance in Medicine, 64(2), 439–446.
+https://doi.org/10.1002/mrm.22423</unstructured_citation>
+          </citation>
+          <citation key="Cohen-Adad2020-qz">
+            <article_title>Spine generic public database (single
+subject)</article_title>
+            <author>Cohen-Adad</author>
+            <cYear>2020</cYear>
+            <unstructured_citation>Cohen-Adad, J. (2020). Spine generic
+public database (single subject).</unstructured_citation>
+          </citation>
+          <citation key="Cohen-Adad2021-qo">
+            <article_title>Generic acquisition protocol for quantitative
+MRI of the spinal cord</article_title>
+            <author>Cohen-Adad</author>
+            <journal_title>Nature protocols</journal_title>
+            <issue>10</issue>
+            <volume>16</volume>
+            <doi>10.1038/s41596-021-00588-0</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Cohen-Adad, J., Alonso-Ortiz, E.,
+Abramovic, M., Arneitz, C., Atcheson, N., Barlow, L., Barry, R. L.,
+Barth, M., Battiston, M., Büchel, C., &amp; others. (2021). Generic
+acquisition protocol for quantitative MRI of the spinal cord. Nature
+Protocols, 16(10), 4611–4632.
+https://doi.org/10.1038/s41596-021-00588-0</unstructured_citation>
+          </citation>
+          <citation key="Cohen-Adad2021-so">
+            <article_title>Open-access quantitative MRI data of the
+spinal cord and reproducibility across participants, sites and
+manufacturers</article_title>
+            <author>Cohen-Adad</author>
+            <journal_title>Scientific data</journal_title>
+            <issue>1</issue>
+            <volume>8</volume>
+            <doi>10.1038/s41597-021-01044-0</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Cohen-Adad, J., Alonso-Ortiz, E.,
+Abramovic, M., Arneitz, C., Atcheson, N., Barlow, L., Barry, R. L.,
+Barth, M., Battiston, M., Büchel, C., &amp; others. (2021). Open-access
+quantitative MRI data of the spinal cord and reproducibility across
+participants, sites and manufacturers. Scientific Data, 8(1), 219.
+https://doi.org/10.1038/s41597-021-01044-0</unstructured_citation>
+          </citation>
+          <citation key="Cordes2020-vz">
+            <article_title>Portable and platform-independent MR pulse
+sequence programs</article_title>
+            <author>Cordes</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>4</issue>
+            <volume>83</volume>
+            <doi>10.1002/mrm.28020</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Cordes, C., Konstandin, S., Porter,
+D., &amp; Günther, M. (2020). Portable and platform-independent MR pulse
+sequence programs. Magnetic Resonance in Medicine, 83(4), 1277–1290.
+https://doi.org/10.1002/mrm.28020</unstructured_citation>
+          </citation>
+          <citation key="Cousineau2017-ce">
+            <article_title>A test-retest study on Parkinson’s PPMI
+dataset yields statistically significant white matter
+fascicles</article_title>
+            <author>Cousineau</author>
+            <journal_title>NeuroImage: Clinical</journal_title>
+            <volume>16</volume>
+            <doi>10.1016/j.nicl.2017.07.020</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>Cousineau, M., Jodoin, P.-M.,
+Garyfallidis, E., Côté, M.-A., Morency, F. C., Rozanski, V.,
+Grand’Maison, M., Bedell, B. J., &amp; Descoteaux, M. (2017). A
+test-retest study on Parkinson’s PPMI dataset yields statistically
+significant white matter fascicles. NeuroImage: Clinical, 16, 222–233.
+https://doi.org/10.1016/j.nicl.2017.07.020</unstructured_citation>
+          </citation>
+          <citation key="Davis1998-lr">
+            <article_title>Calibrated functional MRI: Mapping the
+dynamics of oxidative metabolism</article_title>
+            <author>Davis</author>
+            <journal_title>Proceedings of the National Academy of
+Sciences</journal_title>
+            <issue>4</issue>
+            <volume>95</volume>
+            <doi>10.1073/pnas.95.4.1834</doi>
+            <cYear>1998</cYear>
+            <unstructured_citation>Davis, T. L., Kwong, K. K.,
+Weisskoff, R. M., &amp; Rosen, B. R. (1998). Calibrated functional MRI:
+Mapping the dynamics of oxidative metabolism. Proceedings of the
+National Academy of Sciences, 95(4), 1834–1839.
+https://doi.org/10.1073/pnas.95.4.1834</unstructured_citation>
+          </citation>
+          <citation key="DeLeener2017-yq">
+            <article_title>SCT: Spinal Cord Toolbox, an open-source
+software for processing spinal cord MRI data</article_title>
+            <author>De Leener</author>
+            <journal_title>Neuroimage</journal_title>
+            <volume>145</volume>
+            <doi>10.1016/j.neuroimage.2016.10.009</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>De Leener, B., Lévy, S., Dupont, S.
+M., Fonov, V. S., Stikov, N., Louis Collins, D., Callot, V., &amp;
+Cohen-Adad, J. (2017). SCT: Spinal Cord Toolbox, an open-source software
+for processing spinal cord MRI data. Neuroimage, 145, 24–43.
+https://doi.org/10.1016/j.neuroimage.2016.10.009</unstructured_citation>
+          </citation>
+          <citation key="DeLeener2018-yb">
+            <article_title>PAM50: Unbiased multimodal template of the
+brainstem and spinal cord aligned with the ICBM152 space</article_title>
+            <author>De Leener</author>
+            <journal_title>Neuroimage</journal_title>
+            <volume>165</volume>
+            <doi>10.1016/j.neuroimage.2017.10.041</doi>
+            <cYear>2018</cYear>
+            <unstructured_citation>De Leener, B., Fonov, V. S., Collins,
+D. L., Callot, V., Stikov, N., &amp; Cohen-Adad, J. (2018). PAM50:
+Unbiased multimodal template of the brainstem and spinal cord aligned
+with the ICBM152 space. Neuroimage, 165, 170–179.
+https://doi.org/10.1016/j.neuroimage.2017.10.041</unstructured_citation>
+          </citation>
+          <citation key="Desikan2006-jc">
+            <article_title>An automated labeling system for subdividing
+the human cerebral cortex on MRI scans into gyral based regions of
+interest</article_title>
+            <author>Desikan</author>
+            <journal_title>Neuroimage</journal_title>
+            <issue>3</issue>
+            <volume>31</volume>
+            <doi>10.1016/j.neuroimage.2006.01.021</doi>
+            <cYear>2006</cYear>
+            <unstructured_citation>Desikan, R. S., Ségonne, F., Fischl,
+B., Quinn, B. T., Dickerson, B. C., Blacker, D., Buckner, R. L., Dale,
+A. M., Maguire, R. P., Hyman, B. T., Albert, M. S., &amp; Killiany, R.
+J. (2006). An automated labeling system for subdividing the human
+cerebral cortex on MRI scans into gyral based regions of interest.
+Neuroimage, 31(3), 968–980.
+https://doi.org/10.1016/j.neuroimage.2006.01.021</unstructured_citation>
+          </citation>
+          <citation key="DiTommaso2017-qk">
+            <article_title>Nextflow enables reproducible computational
+workflows</article_title>
+            <author>Di Tommaso</author>
+            <journal_title>Nature Biotechnology</journal_title>
+            <issue>4</issue>
+            <volume>35</volume>
+            <doi>10.1038/nbt.3820</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>Di Tommaso, P., Chatzou, M., Floden,
+E. W., Barja, P. P., Palumbo, E., &amp; Notredame, C. (2017). Nextflow
+enables reproducible computational workflows. Nature Biotechnology,
+35(4), 316–319. https://doi.org/10.1038/nbt.3820</unstructured_citation>
+          </citation>
+          <citation key="Duchesne2019-ls">
+            <article_title>Structural and functional multi-platform MRI
+series of a single human volunteer over more than fifteen
+years</article_title>
+            <author>Duchesne</author>
+            <journal_title>Scientific Data</journal_title>
+            <issue>1</issue>
+            <volume>6</volume>
+            <doi>10.1038/s41597-019-0262-8</doi>
+            <cYear>2019</cYear>
+            <unstructured_citation>Duchesne, S., Dieumegarde, L.,
+Chouinard, I., Farokhian, F., Badhwar, A., Bellec, P., Tétreault, P.,
+Descoteaux, M., Boré, A., Houde, J.-C., Beaulieu, C., &amp; Potvin, O.
+(2019). Structural and functional multi-platform MRI series of a single
+human volunteer over more than fifteen years. Scientific Data, 6(1),
+1–9. https://doi.org/10.1038/s41597-019-0262-8</unstructured_citation>
+          </citation>
+          <citation key="Erramuzpe2021-rw">
+            <article_title>A comparison of quantitative R1 and cortical
+thickness in identifying age, lifespan dynamics, and disease states of
+the human cortex</article_title>
+            <author>Erramuzpe</author>
+            <journal_title>Cerebral Cortex</journal_title>
+            <issue>2</issue>
+            <volume>31</volume>
+            <doi>10.1093/cercor/bhaa288</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Erramuzpe, A., Schurr, R., Yeatman,
+J. D., Gotlib, I. H., Sacchet, M. D., Travis, K. E., Feldman, H. M.,
+&amp; Mezer, A. A. (2021). A comparison of quantitative R1 and cortical
+thickness in identifying age, lifespan dynamics, and disease states of
+the human cortex. Cerebral Cortex, 31(2), 1211–1226.
+https://doi.org/10.1093/cercor/bhaa288</unstructured_citation>
+          </citation>
+          <citation key="Esteban2022-pi">
+            <article_title>sMRIPrep: Structural MRI PREProcessing
+workflows</article_title>
+            <author>Esteban</author>
+            <cYear>2022</cYear>
+            <unstructured_citation>Esteban, O., Markiewicz, C. J.,
+Blair, R., Poldrack, R. A., &amp; Gorgolewski, K. J. (2022). sMRIPrep:
+Structural MRI PREProcessing workflows.</unstructured_citation>
+          </citation>
+          <citation key="Garyfallidis2014-gu">
+            <article_title>Dipy, a library for the analysis of diffusion
+MRI data</article_title>
+            <author>Garyfallidis</author>
+            <journal_title>Frontiers in Neuroinformatics</journal_title>
+            <volume>8</volume>
+            <doi>10.3389/fninf.2014.00008</doi>
+            <cYear>2014</cYear>
+            <unstructured_citation>Garyfallidis, E., Brett, M.,
+Amirbekian, B., Rokem, A., van der Walt, S., Descoteaux, M.,
+Nimmo-Smith, I., &amp; Dipy Contributors. (2014). Dipy, a library for
+the analysis of diffusion MRI data. Frontiers in Neuroinformatics, 8, 8.
+https://doi.org/10.3389/fninf.2014.00008</unstructured_citation>
+          </citation>
+          <citation key="Ge2002-fz">
+            <article_title>Age-related total gray matter and white
+matter changes in normal adult brain. Part II: Quantitative
+magnetization transfer ratio histogram analysis</article_title>
+            <author>Ge</author>
+            <journal_title>AJNR: American Journal of
+Neuroradiology</journal_title>
+            <issue>8</issue>
+            <volume>23</volume>
+            <cYear>2002</cYear>
+            <unstructured_citation>Ge, Y., Grossman, R. I., Babb, J. S.,
+Rabin, M. L., Mannon, L. J., &amp; Kolson, D. L. (2002). Age-related
+total gray matter and white matter changes in normal adult brain. Part
+II: Quantitative magnetization transfer ratio histogram analysis. AJNR:
+American Journal of Neuroradiology, 23(8),
+1334–1341.</unstructured_citation>
+          </citation>
+          <citation key="Golay2022-zr">
+            <article_title>Phantom for Multi-Parametric calibration in
+magnetic resonance imaging</article_title>
+            <author>Golay</author>
+            <cYear>2022</cYear>
+            <unstructured_citation>Golay, X., &amp; Oliver-Taylor, A.
+(2022). Phantom for Multi-Parametric calibration in magnetic resonance
+imaging (11,391,804 B2).</unstructured_citation>
+          </citation>
+          <citation key="Gorgolewski2016-xt">
+            <article_title>The brain imaging data structure, a format
+for organizing and describing outputs of neuroimaging
+experiments</article_title>
+            <author>Gorgolewski</author>
+            <journal_title>Scientific Data</journal_title>
+            <issue>1</issue>
+            <volume>3</volume>
+            <doi>10.1038/sdata.2016.44</doi>
+            <cYear>2016</cYear>
+            <unstructured_citation>Gorgolewski, K. J., Auer, T.,
+Calhoun, V. D., Craddock, R. C., Das, S., Duff, E. P., Flandin, G.,
+Ghosh, S. S., Glatard, T., Halchenko, Y. O., Handwerker, D. A., Hanke,
+M., Keator, D., Li, X., Michael, Z., Maumet, C., Nichols, B. N.,
+Nichols, T. E., Pellman, J., … Poldrack, R. A. (2016). The brain imaging
+data structure, a format for organizing and describing outputs of
+neuroimaging experiments. Scientific Data, 3(1), 1–9.
+https://doi.org/10.1038/sdata.2016.44</unstructured_citation>
+          </citation>
+          <citation key="Gracien2017-un">
+            <article_title>Evaluation of brain ageing: A quantitative
+longitudinal MRI study over 7 years</article_title>
+            <author>Gracien</author>
+            <journal_title>European Radiology</journal_title>
+            <issue>4</issue>
+            <volume>27</volume>
+            <doi>10.1007/s00330-016-4485-1</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>Gracien, R.-M., Nürnberger, L., Hok,
+P., Hof, S.-M., Reitz, S. C., Rüb, U., Steinmetz, H., Hilker-Roggendorf,
+R., Klein, J. C., Deichmann, R., &amp; Baudrexel, S. (2017). Evaluation
+of brain ageing: A quantitative longitudinal MRI study over 7 years.
+European Radiology, 27(4), 1568–1576.
+https://doi.org/10.1007/s00330-016-4485-1</unstructured_citation>
+          </citation>
+          <citation key="Gracien2020-js">
+            <article_title>How stable is quantitative MRI? - Assessment
+of intra- and inter-scanner-model reproducibility using identical
+acquisition sequences and data analysis programs</article_title>
+            <author>Gracien</author>
+            <journal_title>Neuroimage</journal_title>
+            <volume>207</volume>
+            <doi>10.1016/j.neuroimage.2019.116364</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Gracien, R.-M., Maiworm, M., Brüche,
+N., Shrestha, M., Nöth, U., Hattingen, E., Wagner, M., &amp; Deichmann,
+R. (2020). How stable is quantitative MRI? - Assessment of intra- and
+inter-scanner-model reproducibility using identical acquisition
+sequences and data analysis programs. Neuroimage, 207, 116364.
+https://doi.org/10.1016/j.neuroimage.2019.116364</unstructured_citation>
+          </citation>
+          <citation key="Gros2019-ss">
+            <article_title>Automatic segmentation of the spinal cord and
+intramedullary multiple sclerosis lesions with convolutional neural
+networks</article_title>
+            <author>Gros</author>
+            <journal_title>Neuroimage</journal_title>
+            <volume>184</volume>
+            <doi>10.1016/j.neuroimage.2018.09.081</doi>
+            <cYear>2019</cYear>
+            <unstructured_citation>Gros, C., De Leener, B., Badji, A.,
+Maranzano, J., Eden, D., Dupont, S. M., Talbott, J., Zhuoquiong, R.,
+Liu, Y., Granberg, T., Ouellette, R., Tachibana, Y., Hori, M., Kamiya,
+K., Chougar, L., Stawiarz, L., Hillert, J., Bannier, E., Kerbrat, A., …
+Cohen-Adad, J. (2019). Automatic segmentation of the spinal cord and
+intramedullary multiple sclerosis lesions with convolutional neural
+networks. Neuroimage, 184, 901–915.
+https://doi.org/10.1016/j.neuroimage.2018.09.081</unstructured_citation>
+          </citation>
+          <citation key="Hagiwara2019-pg">
+            <article_title>Linearity, bias, intrascanner repeatability,
+and interscanner reproducibility of quantitative multidynamic multiecho
+sequence for rapid simultaneous relaxometry at 3 T: A validation study
+with a standardized phantom and healthy controls</article_title>
+            <author>Hagiwara</author>
+            <journal_title>Investigative Radiology</journal_title>
+            <issue>1</issue>
+            <volume>54</volume>
+            <doi>10.1097/RLI.0000000000000510</doi>
+            <cYear>2019</cYear>
+            <unstructured_citation>Hagiwara, A., Hori, M., Cohen-Adad,
+J., Nakazawa, M., Suzuki, Y., Kasahara, A., Horita, M., Haruyama, T.,
+Andica, C., Maekawa, T., Kamagata, K., Kumamaru, K. K., Abe, O., &amp;
+Aoki, S. (2019). Linearity, bias, intrascanner repeatability, and
+interscanner reproducibility of quantitative multidynamic multiecho
+sequence for rapid simultaneous relaxometry at 3 T: A validation study
+with a standardized phantom and healthy controls. Investigative
+Radiology, 54(1), 39–47.
+https://doi.org/10.1097/RLI.0000000000000510</unstructured_citation>
+          </citation>
+          <citation key="Hagiwara2021-bz">
+            <article_title>Age-Related changes in relaxation times,
+proton density, myelin, and tissue volumes in adult brain analyzed by
+2-Dimensional quantitative synthetic magnetic resonance
+imaging</article_title>
+            <author>Hagiwara</author>
+            <journal_title>Investigative Radiology</journal_title>
+            <issue>3</issue>
+            <volume>56</volume>
+            <doi>10.1097/RLI.0000000000000720</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Hagiwara, A., Fujimoto, K., Kamagata,
+K., Murata, S., Irie, R., Kaga, H., Someya, Y., Andica, C., Fujita, S.,
+Kato, S., Fukunaga, I., Wada, A., Hori, M., Tamura, Y., Kawamori, R.,
+Watada, H., &amp; Aoki, S. (2021). Age-Related changes in relaxation
+times, proton density, myelin, and tissue volumes in adult brain
+analyzed by 2-Dimensional quantitative synthetic magnetic resonance
+imaging. Investigative Radiology, 56(3), 163.
+https://doi.org/10.1097/RLI.0000000000000720</unstructured_citation>
+          </citation>
+          <citation key="Halchenko2021-wz">
+            <article_title>DataLad: Distributed system for joint
+management of code, data, and their relationship</article_title>
+            <author>Halchenko</author>
+            <journal_title>J. Open Source Softw.</journal_title>
+            <issue>63</issue>
+            <volume>6</volume>
+            <doi>10.21105/joss.03262</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Halchenko, Y., Meyer, K., Poldrack,
+B., Solanky, D., Wagner, A., Gors, J., MacFarlane, D., Pustina, D.,
+Sochat, V., Ghosh, S., Mönch, C., Markiewicz, C., Waite, L., Shlyakhter,
+I., de la Vega, A., Hayashi, S., Häusler, C., Poline, J.-B., Kadelka,
+T., … Hanke, M. (2021). DataLad: Distributed system for joint management
+of code, data, and their relationship. J. Open Source Softw., 6(63),
+3262. https://doi.org/10.21105/joss.03262</unstructured_citation>
+          </citation>
+          <citation key="Herz2021-pu">
+            <article_title>Pulseq-CEST: Towards multi-site multi-vendor
+compatibility and reproducibility of CEST experiments using an
+open-source sequence standard</article_title>
+            <author>Herz</author>
+            <journal_title>Magnetic resonance in
+medicine</journal_title>
+            <issue>4</issue>
+            <volume>86</volume>
+            <doi>10.1002/mrm.28825</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Herz, K., Mueller, S., Perlman, O.,
+Zaitsev, M., Knutsson, L., Sun, P. Z., Zhou, J., van Zijl, P., Heinecke,
+K., Schuenke, P., &amp; others. (2021). Pulseq-CEST: Towards multi-site
+multi-vendor compatibility and reproducibility of CEST experiments using
+an open-source sequence standard. Magnetic Resonance in Medicine, 86(4),
+1845–1858. https://doi.org/10.1002/mrm.28825</unstructured_citation>
+          </citation>
+          <citation key="Karakuzu2020-ul">
+            <article_title>qMRLab: Quantitative MRI analysis, under one
+umbrella</article_title>
+            <author>Karakuzu</author>
+            <journal_title>J. Open Source Softw.</journal_title>
+            <issue>53</issue>
+            <volume>5</volume>
+            <doi>10.21105/joss.02343</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Karakuzu, A., Boudreau, M., Duval,
+T., Boshkovski, T., Leppert, I., Cabana, J.-F., Gagnon, I., Beliveau,
+P., Pike, G., Cohen-Adad, J., &amp; Stikov, N. (2020). qMRLab:
+Quantitative MRI analysis, under one umbrella. J. Open Source Softw.,
+5(53), 2343. https://doi.org/10.21105/joss.02343</unstructured_citation>
+          </citation>
+          <citation key="Karakuzu2022-af">
+            <article_title>Vendor-neutral sequences and fully
+transparent workflows improve inter-vendor reproducibility of
+quantitative MRI</article_title>
+            <author>Karakuzu</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>3</issue>
+            <volume>88</volume>
+            <doi>10.1002/mrm.29292</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Karakuzu, A., Biswas, L., Cohen-Adad,
+J., &amp; Stikov, N. (2022). Vendor-neutral sequences and fully
+transparent workflows improve inter-vendor reproducibility of
+quantitative MRI. Magnetic Resonance in Medicine, 88(3), 1212–1228.
+https://doi.org/10.1002/mrm.29292</unstructured_citation>
+          </citation>
+          <citation key="Karakuzu2022-dq">
+            <article_title>qMRI-BIDS: An extension to the brain imaging
+data structure for quantitative magnetic resonance imaging
+data</article_title>
+            <author>Karakuzu</author>
+            <journal_title>Scientific data</journal_title>
+            <issue>1</issue>
+            <volume>9</volume>
+            <doi>10.1038/s41597-022-01571-4</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Karakuzu, A., Appelhoff, S., Auer,
+T., Boudreau, M., Feingold, F., Khan, A. R., Lazari, A., Markiewicz, C.,
+Mulder, M., Phillips, C., Salo, T., Stikov, N., Whitaker, K., &amp; de
+Hollander, G. (2022). qMRI-BIDS: An extension to the brain imaging data
+structure for quantitative magnetic resonance imaging data. Scientific
+Data, 9(1), 517.
+https://doi.org/10.1038/s41597-022-01571-4</unstructured_citation>
+          </citation>
+          <citation key="Keenan2018-px">
+            <article_title>Quantitative magnetic resonance imaging
+phantoms: A review and the need for a system phantom</article_title>
+            <author>Keenan</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>1</issue>
+            <volume>79</volume>
+            <doi>10.1002/mrm.26982</doi>
+            <cYear>2018</cYear>
+            <unstructured_citation>Keenan, K. E., Ainslie, M., Barker,
+A. J., Boss, M. A., Cecil, K. M., Charles, C., Chenevert, T. L., Clarke,
+L., Evelhoch, J. L., Finn, P., Gembris, D., Gunter, J. L., Hill, D. L.
+G., Jack, C. R., Jr, Jackson, E. F., Liu, G., Russek, S. E., Sharma, S.
+D., Steckner, M., … Zheng, J. (2018). Quantitative magnetic resonance
+imaging phantoms: A review and the need for a system phantom. Magnetic
+Resonance in Medicine, 79(1), 48–61.
+https://doi.org/10.1002/mrm.26982</unstructured_citation>
+          </citation>
+          <citation key="Keenan2021-ly">
+            <article_title>Multi-site, multi-platform comparison of MRI
+T1 measurement using the system phantom</article_title>
+            <author>Keenan</author>
+            <journal_title>PLoS One</journal_title>
+            <issue>6</issue>
+            <volume>16</volume>
+            <doi>10.1371/journal.pone.0252966</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Keenan, K. E., Gimbutas, Z.,
+Dienstfrey, A., Stupic, K. F., Boss, M. A., Russek, S. E., Chenevert, T.
+L., Prasad, P. V., Guo, J., Reddick, W. E., Cecil, K. M., Shukla-Dave,
+A., Aramburu Nunez, D., Shridhar Konar, A., Liu, M. Z., Jambawalikar, S.
+R., Schwartz, L. H., Zheng, J., Hu, P., &amp; Jackson, E. F. (2021).
+Multi-site, multi-platform comparison of MRI T1 measurement using the
+system phantom. PLoS One, 16(6), e0252966.
+https://doi.org/10.1371/journal.pone.0252966</unstructured_citation>
+          </citation>
+          <citation key="Layton2017-qz">
+            <article_title>Pulseq: A rapid and hardware-independent
+pulse sequence prototyping framework</article_title>
+            <author>Layton</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>4</issue>
+            <volume>77</volume>
+            <doi>10.1002/mrm.26235</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>Layton, K. J., Kroboth, S., Jia, F.,
+Littin, S., Yu, H., Leupold, J., Nielsen, J.-F., Stöcker, T., &amp;
+Zaitsev, M. (2017). Pulseq: A rapid and hardware-independent pulse
+sequence prototyping framework. Magnetic Resonance in Medicine, 77(4),
+1544–1552. https://doi.org/10.1002/mrm.26235</unstructured_citation>
+          </citation>
+          <citation key="Lee2019-tn">
+            <article_title>Establishing intra- and inter-vendor
+reproducibility of T1 relaxation time measurements with 3T
+MRI</article_title>
+            <author>Lee</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>1</issue>
+            <volume>81</volume>
+            <doi>10.1002/mrm.27421</doi>
+            <cYear>2019</cYear>
+            <unstructured_citation>Lee, Y., Callaghan, M. F.,
+Acosta-Cabronero, J., Lutti, A., &amp; Nagy, Z. (2019). Establishing
+intra- and inter-vendor reproducibility of T1 relaxation time
+measurements with 3T MRI. Magnetic Resonance in Medicine, 81(1),
+454–465. https://doi.org/10.1002/mrm.27421</unstructured_citation>
+          </citation>
+          <citation key="Levy2015-tt">
+            <article_title>White matter atlas of the human spinal cord
+with estimation of partial volume effect</article_title>
+            <author>Lévy</author>
+            <journal_title>Neuroimage</journal_title>
+            <volume>119</volume>
+            <doi>10.1016/j.neuroimage.2015.06.040</doi>
+            <cYear>2015</cYear>
+            <unstructured_citation>Lévy, S., Benhamou, M., Naaman, C.,
+Rainville, P., Callot, V., &amp; Cohen-Adad, J. (2015). White matter
+atlas of the human spinal cord with estimation of partial volume effect.
+Neuroimage, 119, 262–271.
+https://doi.org/10.1016/j.neuroimage.2015.06.040</unstructured_citation>
+          </citation>
+          <citation key="Levy2018-gt">
+            <article_title>Test-retest reliability of myelin imaging in
+the human spinal cord: Measurement errors versus region- and
+aging-induced variations</article_title>
+            <author>Lévy</author>
+            <journal_title>PLoS One</journal_title>
+            <issue>1</issue>
+            <volume>13</volume>
+            <doi>10.1371/journal.pone.0189944</doi>
+            <cYear>2018</cYear>
+            <unstructured_citation>Lévy, S., Guertin, M.-C., Khatibi,
+A., Mezer, A., Martinu, K., Chen, J.-I., Stikov, N., Rainville, P.,
+&amp; Cohen-Adad, J. (2018). Test-retest reliability of myelin imaging
+in the human spinal cord: Measurement errors versus region- and
+aging-induced variations. PLoS One, 13(1), e0189944.
+https://doi.org/10.1371/journal.pone.0189944</unstructured_citation>
+          </citation>
+          <citation key="Liden2021-el">
+            <article_title>Quantitative T2* imaging of iron overload in
+a non-dedicated center - Normal variation, repeatability and reader
+variation</article_title>
+            <author>Lidén</author>
+            <journal_title>European journal of radiology
+open</journal_title>
+            <volume>8</volume>
+            <doi>10.1016/j.ejro.2021.100357</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Lidén, M., Adrian, D., Widell, J.,
+Uggla, B., &amp; Thunberg, P. (2021). Quantitative T2* imaging of iron
+overload in a non-dedicated center - Normal variation, repeatability and
+reader variation. European Journal of Radiology Open, 8, 100357.
+https://doi.org/10.1016/j.ejro.2021.100357</unstructured_citation>
+          </citation>
+          <citation key="Ma2013-kv">
+            <article_title>Magnetic resonance
+fingerprinting</article_title>
+            <author>Ma</author>
+            <journal_title>Nature</journal_title>
+            <issue>7440</issue>
+            <volume>495</volume>
+            <doi>10.1038/nature11971</doi>
+            <cYear>2013</cYear>
+            <unstructured_citation>Ma, D., Gulani, V., Seiberlich, N.,
+Liu, K., Sunshine, J. L., Duerk, J. L., &amp; Griswold, M. A. (2013).
+Magnetic resonance fingerprinting. Nature, 495(7440), 187–192.
+https://doi.org/10.1038/nature11971</unstructured_citation>
+          </citation>
+          <citation key="Ma2016-fo">
+            <article_title>The effect of dissolved oxygen on the
+relaxation rates of blood plasma: Implications for hyperoxia calibrated
+BOLD</article_title>
+            <author>Ma</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>6</issue>
+            <volume>76</volume>
+            <doi>10.1002/mrm.26069</doi>
+            <cYear>2016</cYear>
+            <unstructured_citation>Ma, Y., Berman, A. J. L., &amp; Pike,
+G. B. (2016). The effect of dissolved oxygen on the relaxation rates of
+blood plasma: Implications for hyperoxia calibrated BOLD. Magnetic
+Resonance in Medicine, 76(6), 1905–1911.
+https://doi.org/10.1002/mrm.26069</unstructured_citation>
+          </citation>
+          <citation key="MacDonald2021-uc">
+            <article_title>MRI of healthy brain aging: A
+review</article_title>
+            <author>MacDonald</author>
+            <journal_title>NMR in Biomedicine</journal_title>
+            <issue>9</issue>
+            <volume>34</volume>
+            <doi>10.1002/nbm.4564</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>MacDonald, M. E., &amp; Pike, G. B.
+(2021). MRI of healthy brain aging: A review. NMR in Biomedicine, 34(9),
+e4564. https://doi.org/10.1002/nbm.4564</unstructured_citation>
+          </citation>
+          <citation key="Mancini2020-sv">
+            <article_title>An interactive meta-analysis of MRI
+biomarkers of myelin</article_title>
+            <author>Mancini</author>
+            <journal_title>Elife</journal_title>
+            <volume>9</volume>
+            <doi>10.7554/eLife.61523</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Mancini, M., Karakuzu, A.,
+Cohen-Adad, J., Cercignani, M., Nichols, T. E., &amp; Stikov, N. (2020).
+An interactive meta-analysis of MRI biomarkers of myelin. Elife, 9.
+https://doi.org/10.7554/eLife.61523</unstructured_citation>
+          </citation>
+          <citation key="Marques2010-po">
+            <article_title>MP2RAGE, a self bias-field corrected sequence
+for improved segmentation and T1-mapping at high field</article_title>
+            <author>Marques</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>49</volume>
+            <doi>10.1016/j.neuroimage.2009.10.002</doi>
+            <cYear>2010</cYear>
+            <unstructured_citation>Marques, J. P., Kober, T., Krueger,
+G., van der Zwaag, W., Van de Moortele, P.-F., &amp; Gruetter, R.
+(2010). MP2RAGE, a self bias-field corrected sequence for improved
+segmentation and T1-mapping at high field. In NeuroImage (No. 2; Vol.
+49, pp. 1271–1281).
+https://doi.org/10.1016/j.neuroimage.2009.10.002</unstructured_citation>
+          </citation>
+          <citation key="Mazerolle2018-xy">
+            <article_title>Impact of abnormal cerebrovascular reactivity
+on BOLD fMRI: A preliminary investigation of moyamoya
+disease</article_title>
+            <author>Mazerolle</author>
+            <journal_title>Clinical Physiology and Functional
+Imaging</journal_title>
+            <issue>1</issue>
+            <volume>38</volume>
+            <doi>10.1111/cpf.12387</doi>
+            <cYear>2018</cYear>
+            <unstructured_citation>Mazerolle, E. L., Ma, Y., Sinclair,
+D., &amp; Pike, G. B. (2018). Impact of abnormal cerebrovascular
+reactivity on BOLD fMRI: A preliminary investigation of moyamoya
+disease. Clinical Physiology and Functional Imaging, 38(1), 87–92.
+https://doi.org/10.1111/cpf.12387</unstructured_citation>
+          </citation>
+          <citation key="Oh2021-os">
+            <article_title>Five-year longitudinal changes in
+quantitative spinal cord MRI in multiple sclerosis</article_title>
+            <author>Oh</author>
+            <journal_title>Multiple Sclerosis</journal_title>
+            <issue>4</issue>
+            <volume>27</volume>
+            <doi>10.1177/1352458520923970</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Oh, J., Chen, M., Cybulsky, K.,
+Suthiphosuwan, S., Seyman, E., Dewey, B., Diener-West, M., van Zijl, P.,
+Prince, J., Reich, D. S., &amp; Calabresi, P. A. (2021). Five-year
+longitudinal changes in quantitative spinal cord MRI in multiple
+sclerosis. Multiple Sclerosis, 27(4), 549–558.
+https://doi.org/10.1177/1352458520923970</unstructured_citation>
+          </citation>
+          <citation key="Oishi2009-nj">
+            <article_title>Atlas-based whole brain white matter analysis
+using large deformation diffeomorphic metric mapping: Application to
+normal elderly and Alzheimer’s disease participants</article_title>
+            <author>Oishi</author>
+            <journal_title>Neuroimage</journal_title>
+            <issue>2</issue>
+            <volume>46</volume>
+            <doi>10.1016/j.neuroimage.2009.01.002</doi>
+            <cYear>2009</cYear>
+            <unstructured_citation>Oishi, K., Faria, A., Jiang, H., Li,
+X., Akhter, K., Zhang, J., Hsu, J. T., Miller, M. I., van Zijl, P. C.
+M., Albert, M., Lyketsos, C. G., Woods, R., Toga, A. W., Pike, G. B.,
+Rosa-Neto, P., Evans, A., Mazziotta, J., &amp; Mori, S. (2009).
+Atlas-based whole brain white matter analysis using large deformation
+diffeomorphic metric mapping: Application to normal elderly and
+Alzheimer’s disease participants. Neuroimage, 46(2), 486–499.
+https://doi.org/10.1016/j.neuroimage.2009.01.002</unstructured_citation>
+          </citation>
+          <citation key="Papp2016-mz">
+            <article_title>Correction of inter-scan motion artifacts in
+quantitative R1 mapping by accounting for receive coil sensitivity
+effects</article_title>
+            <author>Papp</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <volume>76</volume>
+            <doi>10.1002/mrm.26058</doi>
+            <cYear>2016</cYear>
+            <unstructured_citation>Papp, D., Callaghan, M. F., Meyer,
+H., Buckley, C., &amp; Weiskopf, N. (2016). Correction of inter-scan
+motion artifacts in quantitative R1 mapping by accounting for receive
+coil sensitivity effects. In Magnetic Resonance in Medicine (No. 5; Vol.
+76, pp. 1478–1485).
+https://doi.org/10.1002/mrm.26058</unstructured_citation>
+          </citation>
+          <citation key="Perone2018-la">
+            <article_title>Spinal cord gray matter segmentation using
+deep dilated convolutions</article_title>
+            <author>Perone</author>
+            <journal_title>Scientific Reports</journal_title>
+            <issue>1</issue>
+            <volume>8</volume>
+            <doi>10.1038/s41598-018-24304-3</doi>
+            <cYear>2018</cYear>
+            <unstructured_citation>Perone, C. S., Calabrese, E., &amp;
+Cohen-Adad, J. (2018). Spinal cord gray matter segmentation using deep
+dilated convolutions. Scientific Reports, 8(1), 5966.
+https://doi.org/10.1038/s41598-018-24304-3</unstructured_citation>
+          </citation>
+          <citation key="Pykett1978-ef">
+            <article_title>A line scan image study of a tumorous rat leg
+by NMR</article_title>
+            <author>Pykett</author>
+            <journal_title>Physics in Medicine and
+Biology</journal_title>
+            <issue>5</issue>
+            <volume>23</volume>
+            <doi>10.1088/0031-9155/23/5/012</doi>
+            <cYear>1978</cYear>
+            <unstructured_citation>Pykett, I. L., &amp; Mansfield, P.
+(1978). A line scan image study of a tumorous rat leg by NMR. Physics in
+Medicine and Biology, 23(5), 961–967.
+https://doi.org/10.1088/0031-9155/23/5/012</unstructured_citation>
+          </citation>
+          <citation key="Ropele2011-zl">
+            <article_title>MRI assessment of iron deposition in multiple
+sclerosis</article_title>
+            <author>Ropele</author>
+            <journal_title>Journal of Magnetic Resonance
+Imaging</journal_title>
+            <issue>1</issue>
+            <volume>34</volume>
+            <doi>10.1002/jmri.22590</doi>
+            <cYear>2011</cYear>
+            <unstructured_citation>Ropele, S., de Graaf, W., Khalil, M.,
+Wattjes, M. P., Langkammer, C., Rocca, M. A., Rovira, A., Palace, J.,
+Barkhof, F., Filippi, M., &amp; Fazekas, F. (2011). MRI assessment of
+iron deposition in multiple sclerosis. Journal of Magnetic Resonance
+Imaging, 34(1), 13–21.
+https://doi.org/10.1002/jmri.22590</unstructured_citation>
+          </citation>
+          <citation key="Salluzzi2022-jc">
+            <article_title>Short-term repeatability and long-term
+reproducibility of quantitative MR imaging biomarkers in a single centre
+longitudinal study</article_title>
+            <author>Salluzzi</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>260</volume>
+            <doi>10.1016/j.neuroimage.2022.119488</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Salluzzi, M., McCreary, C. R., Gobbi,
+D. G., Lauzon, M. L., &amp; Frayne, R. (2022). Short-term repeatability
+and long-term reproducibility of quantitative MR imaging biomarkers in a
+single centre longitudinal study. NeuroImage, 260, 119488.
+https://doi.org/10.1016/j.neuroimage.2022.119488</unstructured_citation>
+          </citation>
+          <citation key="Schmierer2007-mb">
+            <article_title>Quantitative magnetization transfer imaging
+in postmortem multiple sclerosis brain</article_title>
+            <author>Schmierer</author>
+            <journal_title>Journal of Magnetic Resonance
+Imaging</journal_title>
+            <issue>1</issue>
+            <volume>26</volume>
+            <doi>10.1002/jmri.20984</doi>
+            <cYear>2007</cYear>
+            <unstructured_citation>Schmierer, K., Tozer, D. J.,
+Scaravilli, F., Altmann, D. R., Barker, G. J., Tofts, P. S., &amp;
+Miller, D. H. (2007). Quantitative magnetization transfer imaging in
+postmortem multiple sclerosis brain. Journal of Magnetic Resonance
+Imaging, 26(1), 41–51.
+https://doi.org/10.1002/jmri.20984</unstructured_citation>
+          </citation>
+          <citation key="Seiberlich2012-xi">
+            <article_title>Nuclear magnetic resonance (NMR)
+fingerprinting</article_title>
+            <author>Seiberlich</author>
+            <cYear>2012</cYear>
+            <unstructured_citation>Seiberlich, N., Ma, D., Gulani, V.,
+&amp; Griswold, M. (2012). Nuclear magnetic resonance (NMR)
+fingerprinting (20120235678 A1).</unstructured_citation>
+          </citation>
+          <citation key="Seiberlich2020-xe">
+            <volume_title>Quantitative magnetic resonance
+imaging</volume_title>
+            <author>Seiberlich</author>
+            <cYear>2020</cYear>
+            <unstructured_citation>Seiberlich, N., Gulani, V., Campbell,
+A., Sourbron, S., Doneva, M. I., Calamante, F., &amp; Hu, H. H. (2020).
+Quantitative magnetic resonance imaging. Academic
+Press.</unstructured_citation>
+          </citation>
+          <citation key="Seif2022-xg">
+            <article_title>Reliability of multi-parameter mapping (MPM)
+in the cervical cord: A multi-center multi-vendor quantitative MRI
+study</article_title>
+            <author>Seif</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>264</volume>
+            <doi>10.1016/j.neuroimage.2022.119751</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Seif, M., Leutritz, T., Schading, S.,
+Emmengger, T., Curt, A., Weiskopf, N., &amp; Freund, P. (2022).
+Reliability of multi-parameter mapping (MPM) in the cervical cord: A
+multi-center multi-vendor quantitative MRI study. NeuroImage, 264,
+119751.
+https://doi.org/10.1016/j.neuroimage.2022.119751</unstructured_citation>
+          </citation>
+          <citation key="Seiler2020-na">
+            <article_title>Cortical aging - new insights with
+multiparametric quantitative MRI</article_title>
+            <author>Seiler</author>
+            <journal_title>Stress and The Aging Brain</journal_title>
+            <issue>16</issue>
+            <volume>12</volume>
+            <doi>10.18632/aging.103629</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Seiler, A., Schöngrundner, S., Stock,
+B., Nöth, U., Hattingen, E., Steinmetz, H., Klein, J. C., Baudrexel, S.,
+Wagner, M., Deichmann, R., &amp; Gracien, R.-M. (2020). Cortical aging -
+new insights with multiparametric quantitative MRI. Stress and The Aging
+Brain, 12(16), 16195–16210.
+https://doi.org/10.18632/aging.103629</unstructured_citation>
+          </citation>
+          <citation key="Smith2002-bn">
+            <article_title>Fast robust automated brain
+extraction</article_title>
+            <author>Smith</author>
+            <journal_title>Human Brain Mapping</journal_title>
+            <issue>3</issue>
+            <volume>17</volume>
+            <doi>10.1002/hbm.10062</doi>
+            <cYear>2002</cYear>
+            <unstructured_citation>Smith, S. M. (2002). Fast robust
+automated brain extraction. Human Brain Mapping, 17(3), 143–155.
+https://doi.org/10.1002/hbm.10062</unstructured_citation>
+          </citation>
+          <citation key="Smith2004-oa">
+            <article_title>Advances in functional and structural MR
+image analysis and implementation as FSL</article_title>
+            <author>Smith</author>
+            <journal_title>Neuroimage</journal_title>
+            <volume>23 Suppl 1</volume>
+            <doi>10.1016/j.neuroimage.2004.07.051</doi>
+            <cYear>2004</cYear>
+            <unstructured_citation>Smith, S. M., Jenkinson, M.,
+Woolrich, M. W., Beckmann, C. F., Behrens, T. E. J., Johansen-Berg, H.,
+Bannister, P. R., De Luca, M., Drobnjak, I., Flitney, D. E., Niazy, R.
+K., Saunders, J., Vickers, J., Zhang, Y., De Stefano, N., Brady, J. M.,
+&amp; Matthews, P. M. (2004). Advances in functional and structural MR
+image analysis and implementation as FSL. Neuroimage, 23 Suppl 1,
+S208–19.
+https://doi.org/10.1016/j.neuroimage.2004.07.051</unstructured_citation>
+          </citation>
+          <citation key="Steen1995-se">
+            <article_title>Age-related changes in proton T1 values of
+normal human brain</article_title>
+            <author>Steen</author>
+            <journal_title>Journal of Magnetic Resonance
+Imaging</journal_title>
+            <issue>1</issue>
+            <volume>5</volume>
+            <doi>10.1002/jmri.1880050111</doi>
+            <cYear>1995</cYear>
+            <unstructured_citation>Steen, R. G., Gronemeyer, S. A.,
+&amp; Taylor, J. S. (1995). Age-related changes in proton T1 values of
+normal human brain. Journal of Magnetic Resonance Imaging, 5(1), 43–48.
+https://doi.org/10.1002/jmri.1880050111</unstructured_citation>
+          </citation>
+          <citation key="Stikov2015-gb">
+            <article_title>On the accuracy of T1 mapping: Searching for
+common ground</article_title>
+            <author>Stikov</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>2</issue>
+            <volume>73</volume>
+            <doi>10.1002/mrm.25135</doi>
+            <cYear>2015</cYear>
+            <unstructured_citation>Stikov, N., Boudreau, M., Levesque,
+I. R., Tardif, C. L., Barral, J. K., &amp; Pike, G. B. (2015). On the
+accuracy of T1 mapping: Searching for common ground. Magnetic Resonance
+in Medicine, 73(2), 514–522.
+https://doi.org/10.1002/mrm.25135</unstructured_citation>
+          </citation>
+          <citation key="Stupic2021-lj">
+            <article_title>A standard system phantom for magnetic
+resonance imaging</article_title>
+            <author>Stupic</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>3</issue>
+            <volume>86</volume>
+            <doi>10.1002/mrm.28779</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Stupic, K. F., Ainslie, M., Boss, M.
+A., Charles, C., Dienstfrey, A. M., Evelhoch, J. L., Finn, P., Gimbutas,
+Z., Gunter, J. L., Hill, D. L. G., Jack, C. R., Jackson, E. F.,
+Karaulanov, T., Keenan, K. E., Liu, G., Martin, M. N., Prasad, P. V.,
+Rentz, N. S., Yuan, C., &amp; Russek, S. E. (2021). A standard system
+phantom for magnetic resonance imaging. Magnetic Resonance in Medicine,
+86(3), 1194–1211.
+https://doi.org/10.1002/mrm.28779</unstructured_citation>
+          </citation>
+          <citation key="Theaud2020-mu">
+            <article_title>TractoFlow: A robust, efficient and
+reproducible diffusion MRI pipeline leveraging Nextflow &amp;
+Singularity</article_title>
+            <author>Theaud</author>
+            <journal_title>Neuroimage</journal_title>
+            <volume>218</volume>
+            <doi>10.1016/j.neuroimage.2020.116889</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Theaud, G., Houde, J.-C., Boré, A.,
+Rheault, F., Morency, F., &amp; Descoteaux, M. (2020). TractoFlow: A
+robust, efficient and reproducible diffusion MRI pipeline leveraging
+Nextflow &amp; Singularity. Neuroimage, 218, 116889.
+https://doi.org/10.1016/j.neuroimage.2020.116889</unstructured_citation>
+          </citation>
+          <citation key="Theaud2022-gu">
+            <article_title>dMRIQCpy: A python-based toolbox for
+diffusion MRI quality control and beyond</article_title>
+            <author>Theaud</author>
+            <journal_title>International Society for Magnetic Resonance
+in Medicine (ISMRM) Annual Meeting</journal_title>
+            <doi>10.58530/2022/3906</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Theaud, G., &amp; Descoteaux, M.
+(2022). dMRIQCpy: A python-based toolbox for diffusion MRI quality
+control and beyond. International Society for Magnetic Resonance in
+Medicine (ISMRM) Annual Meeting, 3906.
+https://doi.org/10.58530/2022/3906</unstructured_citation>
+          </citation>
+          <citation key="Tofts1998-kr">
+            <article_title>Standardisation and optimisation of magnetic
+resonance techniques for multicentre studies</article_title>
+            <author>Tofts</author>
+            <journal_title>Journal of Neurology, Neurosurgery and
+Psychiatry</journal_title>
+            <volume>64 Suppl 1</volume>
+            <cYear>1998</cYear>
+            <unstructured_citation>Tofts, P. S. (1998). Standardisation
+and optimisation of magnetic resonance techniques for multicentre
+studies. Journal of Neurology, Neurosurgery and Psychiatry, 64 Suppl 1,
+S37–43.</unstructured_citation>
+          </citation>
+          <citation key="Tournier2019-gb">
+            <article_title>MRtrix3: A fast, flexible and open software
+framework for medical image processing and visualisation</article_title>
+            <author>Tournier</author>
+            <journal_title>Neuroimage</journal_title>
+            <volume>202</volume>
+            <doi>10.1016/j.neuroimage.2019.116137</doi>
+            <cYear>2019</cYear>
+            <unstructured_citation>Tournier, J.-D., Smith, R., Raffelt,
+D., Tabbara, R., Dhollander, T., Pietsch, M., Christiaens, D.,
+Jeurissen, B., Yeh, C.-H., &amp; Connelly, A. (2019). MRtrix3: A fast,
+flexible and open software framework for medical image processing and
+visualisation. Neuroimage, 202, 116137.
+https://doi.org/10.1016/j.neuroimage.2019.116137</unstructured_citation>
+          </citation>
+          <citation key="Ullmann2014-pn">
+            <article_title>Automatic labeling of vertebral levels using
+a robust template-based approach</article_title>
+            <author>Ullmann</author>
+            <journal_title>International Journal of Biomedical
+Imaging</journal_title>
+            <volume>2014</volume>
+            <doi>10.1155/2014/719520</doi>
+            <cYear>2014</cYear>
+            <unstructured_citation>Ullmann, E., Pelletier Paquette, J.
+F., Thong, W. E., &amp; Cohen-Adad, J. (2014). Automatic labeling of
+vertebral levels using a robust template-based approach. International
+Journal of Biomedical Imaging, 2014, 719520.
+https://doi.org/10.1155/2014/719520</unstructured_citation>
+          </citation>
+          <citation key="Wang2017-yt">
+            <article_title>Stability of R2* and quantitative
+susceptibility mapping of the brain tissue in a large scale multi-center
+study</article_title>
+            <author>Wang</author>
+            <journal_title>Scientific Reports</journal_title>
+            <volume>7</volume>
+            <doi>10.1038/srep45261</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>Wang, R., Xie, G., Zhai, M., Zhang,
+Z., Wu, B., Zheng, D., Hong, N., Jiang, T., Wen, B., &amp; Cheng, J.
+(2017). Stability of R2* and quantitative susceptibility mapping of the
+brain tissue in a large scale multi-center study. Scientific Reports, 7,
+45261. https://doi.org/10.1038/srep45261</unstructured_citation>
+          </citation>
+          <citation key="York2022-fl">
+            <article_title>Longitudinal microstructural MRI markers of
+demyelination and neurodegeneration in early relapsing-remitting
+multiple sclerosis: Magnetisation transfer, water diffusion and
+g-ratio</article_title>
+            <author>York</author>
+            <journal_title>NeuroImage: Clinical</journal_title>
+            <volume>36</volume>
+            <doi>10.1016/j.nicl.2022.103228</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>York, E. N., Meijboom, R.,
+Thrippleton, M. J., Bastin, M. E., Kampaite, A., White, N., Chandran,
+S., &amp; Waldman, A. D. (2022). Longitudinal microstructural MRI
+markers of demyelination and neurodegeneration in early
+relapsing-remitting multiple sclerosis: Magnetisation transfer, water
+diffusion and g-ratio. NeuroImage: Clinical, 36, 103228.
+https://doi.org/10.1016/j.nicl.2022.103228</unstructured_citation>
+          </citation>
+          <citation key="Zhang2001-rn">
+            <article_title>Segmentation of brain MR images through a
+hidden Markov random field model and the expectation-maximization
+algorithm</article_title>
+            <author>Zhang</author>
+            <journal_title>IEEE Transactions on Medical
+Imaging</journal_title>
+            <issue>1</issue>
+            <volume>20</volume>
+            <doi>10.1109/42.906424</doi>
+            <cYear>2001</cYear>
+            <unstructured_citation>Zhang, Y., Brady, M., &amp; Smith, S.
+(2001). Segmentation of brain MR images through a hidden Markov random
+field model and the expectation-maximization algorithm. IEEE
+Transactions on Medical Imaging, 20(1), 45–57.
+https://doi.org/10.1109/42.906424</unstructured_citation>
+          </citation>
+          <citation key="Karakuzu2022-nlwf">
+            <article_title>NeuroLibre : A preprint server for
+full-fledged reproducible neuroscience</article_title>
+            <author>Karakuzu</author>
+            <doi>10.31219/osf.io/h89js</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Karakuzu, A., DuPre, E., Tetrel, L.,
+Bermudez, P., Boudreau, M., Chin, M., Poline, J.-B., Das, S., Bellec,
+P., &amp; Stikov, N. (2022). NeuroLibre : A preprint server for
+full-fledged reproducible neuroscience. OSF Preprints.
+https://doi.org/10.31219/osf.io/h89js</unstructured_citation>
+          </citation>
+          <citation key="Dupre2022-iro">
+            <article_title>Beyond advertising: New infrastructures for
+publishing integrated research objects</article_title>
+            <author>DuPre</author>
+            <journal_title>PLOS Computational Biology</journal_title>
+            <issue>1</issue>
+            <volume>18</volume>
+            <doi>10.1371/journal.pcbi.1009651</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>DuPre, E., Holdgraf, C., Karakuzu,
+A., Tetrel, L., Bellec, P., Stikov, N., &amp; Poline, J.-B. (2022).
+Beyond advertising: New infrastructures for publishing integrated
+research objects. PLOS Computational Biology, 18(1), e1009651.
+https://doi.org/10.1371/journal.pcbi.1009651</unstructured_citation>
+          </citation>
+          <citation key="Harding2023-conp">
+            <article_title>The Canadian Open Neuroscience Platform—An
+open science framework for the neuroscience community</article_title>
+            <author>Harding</author>
+            <journal_title>PLOS Computational Biology</journal_title>
+            <issue>7</issue>
+            <volume>19</volume>
+            <doi>10.1371/journal.pcbi.1011230</doi>
+            <cYear>2023</cYear>
+            <unstructured_citation>Harding, R. J., Bermudez, P.,
+Bernier, A., Beauvais, M., Bellec, P., Hill, S., Karakuzu, A., Knoppers,
+B. M., Pavlidis, P., Poline, J.-B., Roskams, J., Stikov, N., Stone, J.,
+Strother, S., Consortium, C., &amp; Evans, A. C. (2023). The Canadian
+Open Neuroscience Platform—An open science framework for the
+neuroscience community. PLOS Computational Biology, 19(7), 1–14.
+https://doi.org/10.1371/journal.pcbi.1011230</unstructured_citation>
+          </citation>
+        </citation_list>
+  </posted_content>
+  </body>
+</doi_batch>
