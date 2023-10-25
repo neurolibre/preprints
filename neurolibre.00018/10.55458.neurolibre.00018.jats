@@ -1,0 +1,2891 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN"
+                  "JATS-publishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+<journal-title>NeuroLibre Reproducible Preprints</journal-title>
+<abbrev-journal-title>NeuroLibre</abbrev-journal-title>
+</journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher>
+<publisher-name>NeuroLibre</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">18</article-id>
+<article-id pub-id-type="doi">10.55458/neurolibre.00018</article-id>
+<title-group>
+<article-title>Longitudinal stability of brain and spinal cord
+quantitative MRI measures</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-7726-4456</contrib-id>
+<name>
+<surname>Boudreau</surname>
+<given-names>Mathieu</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="corresp" rid="cor-1"><sup>*</sup></xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-7283-271X</contrib-id>
+<name>
+<surname>Karakuzu</surname>
+<given-names>Agah</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-4822-1211</contrib-id>
+<name>
+<surname>Boré</surname>
+<given-names>Arnaud</given-names>
+</name>
+<xref ref-type="aff" rid="aff-2"/>
+<xref ref-type="aff" rid="aff-3"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-4391-3075</contrib-id>
+<name>
+<surname>Pinsard</surname>
+<given-names>Basile</given-names>
+</name>
+<xref ref-type="aff" rid="aff-2"/>
+<xref ref-type="aff" rid="aff-3"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-7993-7004</contrib-id>
+<name>
+<surname>Zelenkovski</surname>
+<given-names>Kiril</given-names>
+</name>
+<xref ref-type="aff" rid="aff-4"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-6590-7234</contrib-id>
+<name>
+<surname>Alonso-Ortiz</surname>
+<given-names>Eva</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="aff" rid="aff-5"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-5927-221X</contrib-id>
+<name>
+<surname>Boyle</surname>
+<given-names>Julie</given-names>
+</name>
+<xref ref-type="aff" rid="aff-2"/>
+<xref ref-type="aff" rid="aff-3"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-9111-0699</contrib-id>
+<name>
+<surname>Bellec</surname>
+<given-names>Pierre</given-names>
+</name>
+<xref ref-type="aff" rid="aff-2"/>
+<xref ref-type="aff" rid="aff-3"/>
+<xref ref-type="aff" rid="aff-6"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-3662-9532</contrib-id>
+<name>
+<surname>Cohen-Adad</surname>
+<given-names>Julien</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="aff" rid="aff-3"/>
+<xref ref-type="aff" rid="aff-5"/>
+<xref ref-type="aff" rid="aff-7"/>
+</contrib>
+<aff id="aff-1">
+<institution-wrap>
+<institution>NeuroPoly, Polytechnique Montreal, Montreal, QC,
+Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-2">
+<institution-wrap>
+<institution>Centre de Recherche de l’Institut Universitaire de
+Gériatrie de Montréal (CRIUGM), Montreal, QC, Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-3">
+<institution-wrap>
+<institution>Unité de Neuroimagerie Fonctionnelle (UNF), Centre de
+Recherche de l’Institut Universitaire de Gériatrie de Montréal (CRIUGM),
+Montreal, QC, Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-4">
+<institution-wrap>
+<institution>Faculty of Computer Science and Engineering (FINKI),
+Skopje, Macedonia</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-5">
+<institution-wrap>
+<institution>Centre de recherche du CHU Sainte-Justine, Université de
+Montréal, Montreal, QC, Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-6">
+<institution-wrap>
+<institution>Psychology Department, Université de Montréal, Montreal,
+QC, Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-7">
+<institution-wrap>
+<institution>Mila - Quebec AI Institute, Montreal, QC,
+Canada</institution>
+</institution-wrap>
+</aff>
+</contrib-group>
+<author-notes>
+<corresp id="cor-1">* E-mail: <email></email></corresp>
+</author-notes>
+<volume>3</volume>
+<issue>34</issue>
+<fpage>18</fpage>
+<permissions>
+<copyright-statement>Authors of papers retain copyright and release the
+work under a Creative Commons Attribution 4.0 International License (CC
+BY 4.0)</copyright-statement>
+<copyright-year>2022</copyright-year>
+<copyright-holder>The article authors</copyright-holder>
+<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/">
+<license-p>Authors of papers retain copyright and release the work under
+a Creative Commons Attribution 4.0 International License (CC BY
+4.0)</license-p>
+</license>
+</permissions>
+<kwd-group kwd-group-type="author">
+<kwd>quantitative MRI</kwd>
+<kwd>longitudinal stability</kwd>
+<kwd>relaxometry</kwd>
+<kwd>myelin</kwd>
+<kwd>open-source</kwd>
+</kwd-group>
+</article-meta>
+</front>
+<body>
+<sec id="summary">
+  <title>Summary</title>
+  <p>We present the initial data release of the Courtois project on
+  neural modeling (CNeuroMod), with a specific focus on the quantitative
+  MRI (qMRI) component. The primary objective of this study was to
+  evaluate the longitudinal stability of qMRI measurements in both the
+  brain and cervical spinal cord.</p>
+  <p>To achieve this, we conducted regular scanning sessions over a
+  three-year period involving six participants
+  <xref alt="[fig:figure1]" rid="figU003Afigure1">[fig:figure1]</xref>.
+  Each participant underwent up to ten sessions, providing us with a
+  robust dataset. Our brain qMRI imaging protocols consisted of T1,
+  magnetization transfer (MTR, MTsat), and diffusion techniques. In
+  addition to these, the spinal cord imaging protocol included T1w, T2w,
+  and T2*w cross-sectional area (CSA) measurements.</p>
+  <p>The results of our study demonstrate the stability of the qMRI
+  protocols used for both the brain and spinal cord. These findings
+  offer valuable insights for the design of future longitudinal clinical
+  studies in this domain. Furthermore, we have developed reproducible
+  and reusable analysis pipelines for structural qMRI of the brain and
+  spinal cord. These pipelines incorporate cutting-edge tools such as
+  FSL, ANTs, qMRLab, and SCT, ensuring robust and accurate analysis.</p>
+  <p>To enhance the accessibility and dissemination of our work, we have
+  presented our findings as an interactive article using Jupyter Book
+  and Plotly. This format allows for seamless exploration and sharing of
+  the curated findings within an integrated research object. We believe
+  that this approach will facilitate collaboration and encourage further
+  research in the field of qMRI analysis.</p>
+  <p>Overall, the initial data release of the Courtois project on neural
+  modeling (CNeuroMod), specifically focusing on the quantitative MRI
+  (qMRI) component, provides a significant contribution to the
+  understanding of the longitudinal stability of qMRI measurements in
+  the brain and spinal cord. The study offers valuable insights for
+  future longitudinal clinical studies and establishes reproducible
+  analysis pipelines for structural qMRI. The interactive article format
+  ensures easy accessibility and encourages collaboration among
+  researchers.</p>
+</sec>
+<sec id="figures">
+  <title>Figures</title>
+  <fig>
+    <caption><p>Overview of the structural dataset for the Courtois
+    project on neural modelling (CNeuroMod). 6 participants were scanned
+    up to ten times over three years; note that this is an initial data
+    release for 2022, and more scans are regularly being acquired. The
+    structural protocol consists of T1w, T2w and T2*w scans to quantify
+    brain and SC (including grey matter, GM) morphometry, and MP2RAGE,
+    magnetization transfer (MTR and MTsat), and diffusion-weighted
+    sequences to compute metrics sensitive to demyelination in the white
+    matter
+    (WM).<styled-content id="figU003Afigure1"></styled-content></p></caption>
+    <graphic mimetype="image" mime-subtype="png" xlink:href="media/featured.png" />
+  </fig>
+</sec>
+<sec id="acknowledgements">
+  <title>Acknowledgements</title>
+  <p>The Courtois project on neural modelling was made possible by a
+  generous donation from the Courtois foundation. The Courtois NeuroMod
+  team is based at “Centre de Recherche de l’Institut Universitaire de
+  Gériatrie de Montréal”, with several other institutions involved. See
+  the CNeuromod documentation for an up-to-date list of contributors
+  (https://docs.cneuromod.ca). This study was also funded by the Canada
+  Research Chair in Quantitative Magnetic Resonance Imaging
+  [950-230815], the Canadian Institute of Health Research [CIHR
+  FDN-143263], the Canada Foundation for Innovation [32454, 34824], the
+  Fonds de Recherche du Québec - Santé [322736], the Natural Sciences
+  and Engineering Research Council of Canada [RGPIN-2019-07244], the
+  Canada First Research Excellence Fund (IVADO and TransMedTech), and
+  the Mila - Tech Transfer Funding Program.</p>
+  <p></p>
+  <disp-quote>
+    <p><bold><italic>NOTE:</italic></bold> The following section in this
+    document repeats the narrative content exactly as found in the
+    <ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00018">corresponding
+    NeuroLibre Reproducible Preprint (NRP)</ext-link>. The content was
+    automatically incorporated into this PDF using the NeuroLibre
+    publication workflow
+    (<xref alt="Karakuzu, DuPre, et al., 2022" rid="ref-Karakuzu2022-nlwf" ref-type="bibr">Karakuzu,
+    DuPre, et al., 2022</xref>) to credit the referenced resources. The
+    submitting author of the preprint has verified and approved the
+    inclusion of this section through a GitHub pull request made to the
+    <ext-link ext-link-type="uri" xlink:href="https://github.com/courtois-neuromod/anat-processing-paper">source
+    repository</ext-link> from which this document was built. Please
+    note that the figures and tables have been excluded from this
+    (static) document. <bold>To interactively explore such outputs and
+    re-generate them, please visit the corresponding
+    <ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00018">NRP</ext-link>.</bold>
+    For more information on integrated research objects (e.g., NRPs)
+    that bundle narrative and executable content for reproducible and
+    transparent publications, please refer to DuPre et al.
+    (<xref alt="2022" rid="ref-Dupre2022-iro" ref-type="bibr">2022</xref>).
+    NeuroLibre is sponsored by the Canadian Open Neuroscience Platform
+    (CONP)
+    (<xref alt="Harding et al., 2023" rid="ref-Harding2023-conp" ref-type="bibr">Harding
+    et al., 2023</xref>).</p>
+  </disp-quote>
+  <p>Longitudinal stability of brain and spinal cord quantitative MRI
+  measures</p>
+  <p>Mathieu Boudreau1, Agah Karakuzu1, Arnaud Boré2,3, Basile
+  Pinsard2,3, Kiril Zelenkovski4, Eva Alonso-Ortiz1,5, Julie Boyle2,3,
+  Pierre Bellec2,3,6, Julien Cohen-Adad1,3,5,7</p>
+  <p>1NeuroPoly, Polytechnique Montreal, Montreal, QC, Canada, 2Centre
+  de Recherche de l’Institut Universitaire de Gériatrie de Montréal
+  (CRIUGM), Montreal, QC, Canada 3Unité de Neuroimagerie Fonctionnelle
+  (UNF), Centre de Recherche de l’Institut Universitaire de Gériatrie de
+  Montréal (CRIUGM), Montreal, QC, Canada 4Faculty of Computer Science
+  and Engineering (FINKI), Skopje, Macedonia 5Centre de recherche du CHU
+  Sainte-Justine, Université de Montréal, Montreal, QC, Canada
+  6Psychology Department, Université de Montréal, Montreal, QC, Canada
+  7Mila - Quebec AI Institute, Montreal, QC, Canada</p>
+</sec>
+<sec id="abstract">
+  <title>Abstract</title>
+  <p>Quantitative MRI (qMRI) promises better specificity, accuracy, and
+  stability relative to its clinically-used qualitative MRI counterpart.
+  Longitudinal stability is particularly important in qMRI. The goal is
+  to reliably quantify tissue properties that may be assessed in
+  longitudinal clinical studies throughout disease progression or during
+  treatment. In this work, we present the initial data release of the
+  quantitative MRI portion of the Courtois project on neural modelling
+  (CNeuroMod), where the brain and cervical spinal cord of six
+  participants were scanned at regular intervals over the course of
+  several years. This first release includes three years of data
+  collection and up to ten sessions per participant using quantitative
+  MRI imaging protocols (T1, magnetization transfer (MTR, MTsat), and
+  diffusion). Coefficient of variations (COV) over this timeframe ranged
+  between 0.6% to 2.3% (intrasubject) and 0.4% to 3.5% (intersubject)
+  for T1/MTR/MTsat in whole-brain white matter (WM), and between 0.6% to
+  1.3% (intrasubject) and 3.0% to 10.3% (intersubject) for diffusion
+  FA/MD/RD in the three corpus callosum regions. In the spine, COVs
+  ranged between 2.3% and 4.5% (intrasubject) and 5.1% to 9.7%
+  (intersubject) for measured spine WM cross-sectional area (CSA) across
+  the C2 and C3 vertebral levels, and between 3.9% to 9.5%
+  (intrasubject) and 4.0% to 8.4% (intersubject) in WM across the C2 and
+  C5 vertebral levels for all qMRI metrics (T1, MTR, MTsat, FA, MD, RD).
+  Results from this work show the level of stability that can be
+  expected from qMRI protocols in the brain and spinal cord, and could
+  help in the design of future longitudinal clinical studies.</p>
+</sec>
+<sec id="introduction">
+  <title>1     |     INTRODUCTION</title>
+  <sec id="quantitative-mri-and-the-reproducibility-crisis">
+    <title>Quantitative MRI and the reproducibility crisis</title>
+    <p>Conventional MRI images used clinically stem from using the MRI
+    machine as a non-invasive medical device and not as a scientific
+    instrument
+    (<xref alt="Cercignani et al., 2018" rid="ref-Cercignani2018-ga" ref-type="bibr">Cercignani
+    et al., 2018</xref>;
+    <xref alt="Tofts, 1998" rid="ref-Tofts1998-kr" ref-type="bibr">Tofts,
+    1998</xref>). Medical images produced from clinical MRI protocols
+    must be interpreted by expert readers to extract useful diagnostic
+    information, as the images alone lack biological specificity and
+    reproducibility, due to underlying changes in biology and the
+    electromagnetic fields the imaging hardware generates. Quantitative
+    MRI (qMRI) techniques
+    (<xref alt="Nicole Seiberlich et al., 2020" rid="ref-Seiberlich2020-xe" ref-type="bibr">Nicole
+    Seiberlich et al., 2020</xref>) aim to produce measurements of
+    biological or physical properties through a series of carefully
+    planned conventional MRI images. Quantitative maps are calculated or
+    fit from these measured datasets, which have voxelwise values that
+    typically have physical units associated with them, for example,
+    spin-lattice relaxation time (T1 [s]), spin-spin relaxation time (T2
+    [s]), myelin water fraction (MWF [%]), magnetization transfer ratio
+    (MTR [%]), cerebral blood flow (CBF [ml/g/min]) and diffusion
+    (restricted diffusion coefficients [mm2/s], eg. mean diffusivity
+    (MD) and radial diffusivity (RD)). Some qMRI techniques are highly
+    specific to certain biological changes (eg, myelin loss
+    (<xref alt="Mancini et al., 2020" rid="ref-Mancini2020-sv" ref-type="bibr">Mancini
+    et al., 2020</xref>;
+    <xref alt="Schmierer et al., 2007" rid="ref-Schmierer2007-mb" ref-type="bibr">Schmierer
+    et al., 2007</xref>), cerebrovascular diseases and oxygen
+    consumption disorders
+    (<xref alt="Davis et al., 1998" rid="ref-Davis1998-lr" ref-type="bibr">Davis
+    et al., 1998</xref>;
+    <xref alt="Y. Ma et al., 2016" rid="ref-Ma2016-fo" ref-type="bibr">Y.
+    Ma et al., 2016</xref>;
+    <xref alt="Mazerolle et al., 2018" rid="ref-Mazerolle2018-xy" ref-type="bibr">Mazerolle
+    et al., 2018</xref>;
+    <xref alt="Wang et al., 2017" rid="ref-Wang2017-yt" ref-type="bibr">Wang
+    et al., 2017</xref>), iron deficiency
+    (<xref alt="Lidén et al., 2021" rid="ref-Liden2021-el" ref-type="bibr">Lidén
+    et al., 2021</xref>;
+    <xref alt="Ropele et al., 2011" rid="ref-Ropele2011-zl" ref-type="bibr">Ropele
+    et al., 2011</xref>), etc.). Because these measures either
+    implicitly or explicitly account for effects that typically are
+    unaccounted for in clinical MRI images, in principle they should
+    have improved stability – this is one of the hallmark-promising
+    features of qMRI. However, in practice, the field has fallen short
+    of living up to this high bar. Even fundamental quantitative MRI
+    techniques have been shown to vary widely amongst methods and sites;
+    for example, despite the fact that T1 mapping is the first
+    quantitative MRI technique to have been developed 45 years ago
+    (<xref alt="Pykett &amp; Mansfield, 1978" rid="ref-Pykett1978-ef" ref-type="bibr">Pykett
+    &amp; Mansfield, 1978</xref>), modern T1 mapping techniques have not
+    consistently shown good accuracy in measuring T1 values in the brain
+    across different sites or techniques
+    (<xref alt="Stikov et al., 2015" rid="ref-Stikov2015-gb" ref-type="bibr">Stikov
+    et al., 2015</xref>). A lot of work has been done recently to help
+    quantify the accuracy and improve within-vendor stability of
+    quantitative MR measurements, such as the development of
+    quantitative MRI calibration phantoms
+    (<xref alt="Golay &amp; Oliver-Taylor, 2022" rid="ref-Golay2022-zr" ref-type="bibr">Golay
+    &amp; Oliver-Taylor, 2022</xref>;
+    <xref alt="Keenan et al., 2018" rid="ref-Keenan2018-px" ref-type="bibr">Keenan
+    et al., 2018</xref>;
+    <xref alt="Stupic et al., 2021" rid="ref-Stupic2021-lj" ref-type="bibr">Stupic
+    et al., 2021</xref>) and increasing integration of quantitative MRI
+    pulse sequences as stock sequences on commercial scanners
+    (<xref alt="D. Ma et al., 2013" rid="ref-Ma2013-kv" ref-type="bibr">D.
+    Ma et al., 2013</xref>;
+    <xref alt="Marques et al., 2010" rid="ref-Marques2010-po" ref-type="bibr">Marques
+    et al., 2010</xref>;
+    <xref alt="N. Seiberlich et al., 2012" rid="ref-Seiberlich2012-xi" ref-type="bibr">N.
+    Seiberlich et al., 2012</xref>) or as vendor-neutral implementations
+    (<xref alt="Herz et al., 2021" rid="ref-Herz2021-pu" ref-type="bibr">Herz
+    et al., 2021</xref>;
+    <xref alt="Karakuzu, Biswas, et al., 2022" rid="ref-Karakuzu2022-af" ref-type="bibr">Karakuzu,
+    Biswas, et al., 2022</xref>).</p>
+  </sec>
+  <sec id="stability-in-qmri-why-is-it-needed">
+    <title>Stability in qMRI: why is it needed?</title>
+    <p>The stability of a qMRI measurement is an important
+    characteristic to consider when designing longitudinal studies,
+    particularly when clinical features are expected to evolve over time
+    (eg, worsening disease, or improvement through therapeutic
+    intervention
+    (<xref alt="Oh et al., 2021" rid="ref-Oh2021-os" ref-type="bibr">Oh
+    et al., 2021</xref>)). It is also important to know the anticipated
+    variability of these metrics to find the minimum detectable effect
+    size in a power analysis while designing your study. Same-day
+    test-retest studies have shown that fundamental qMRI metrics (eg,
+    T1, T2) exhibit low intra-scanner variability in vivo (on the order
+    of 1-2%)
+    (<xref alt="Gracien et al., 2020" rid="ref-Gracien2020-js" ref-type="bibr">Gracien
+    et al., 2020</xref>;
+    <xref alt="Lee et al., 2019" rid="ref-Lee2019-tn" ref-type="bibr">Lee
+    et al., 2019</xref>). However, test-retest studies are limited in
+    their usefulness as a stability measure because they only consist of
+    two measurements (leading to improper standard deviation
+    calculations) and are done during the same day (same scanner
+    operator, same scanner conditions), which are not realistic
+    conditions experienced during longitudinal studies. Longitudinal
+    stability is thus important to quantify, but can be challenging due
+    to the potential confounds from actual changes of the subject’s
+    tissue properties over time, even from healthy volunteers.
+    Quantitative MRI metrics in the brain have been shown to correlate
+    with ageing through adulthood
+    (<xref alt="Erramuzpe et al., 2021" rid="ref-Erramuzpe2021-rw" ref-type="bibr">Erramuzpe
+    et al., 2021</xref>;
+    <xref alt="Seiler et al., 2020" rid="ref-Seiler2020-na" ref-type="bibr">Seiler
+    et al., 2020</xref>), although changes appear to happen slowly (over
+    decades) and thus short-term longitudinal studies (eg, 3-5 years)
+    should in principle quantify longitudinal stability reliably.</p>
+  </sec>
+  <sec id="stability-in-qmri-whats-been-done">
+    <title>Stability in (q)MRI: what’s been done</title>
+    <p>Many studies have investigated the stability of morphometrics and
+    quantitative MRI measures. A recent landmark study investigated the
+    longitudinal stability of clinical and functional MRI metrics of a
+    single subject’s brain measured on multiple vendors at multiple
+    sites over the course of 15 years (73 sessions across 36 scanners)
+    (<xref alt="Duchesne et al., 2019" rid="ref-Duchesne2019-ls" ref-type="bibr">Duchesne
+    et al., 2019</xref>), finding poor reproducibility across MRI
+    manufacturers for key clinical metrics (ie., white/grey matter
+    contrast-to-noise ratio (CNR), FLAIR white matter hyperintensities
+    volume). For qMRI metrics, there are a few longitudinal studies that
+    have probed different aspects of their longitudinal stability. A
+    7-year scan-rescan brain ageing study explored the evolution of
+    quantitative T1 values in different tissues using the variable flip
+    angle (VFA) technique (which depends on an additional B1 map)
+    (<xref alt="Gracien et al., 2017" rid="ref-Gracien2017-un" ref-type="bibr">Gracien
+    et al., 2017</xref>) and found T1 values were sensitive to ageing
+    for this timespan. The stability of quantitative brain metrics when
+    encountering MRI software and hardware upgrades was recently
+    explored in a four time-point, seven-year repeatability and
+    reproducibility study
+    (<xref alt="Salluzzi et al., 2022" rid="ref-Salluzzi2022-jc" ref-type="bibr">Salluzzi
+    et al., 2022</xref>), which reported the upgrades did not affect the
+    effect size and stability of the tested MRI biomarkers. Stability
+    has also been explored in non-brain anatomy. For spinal cord,
+    inter-vendor variability was recently probed by a multi-center (19
+    sites) study using a generic quantitative MRI spinal cord imaging
+    protocol
+    (<xref alt="Cohen-Adad et al., 2021a" rid="ref-Cohen-Adad2021-qo" ref-type="bibr">Cohen-Adad
+    et al., 2021a</xref>) on a single participant over the span of one
+    year
+    (<xref alt="Cohen-Adad, 2020" rid="ref-Cohen-Adad2020-qz" ref-type="bibr">Cohen-Adad,
+    2020</xref>). A test-retest quantitative MRI spine study has also
+    been performed in two cohorts (young adult and elderly) over a ten
+    month period
+    (<xref alt="Simon Lévy et al., 2018" rid="ref-Levy2018-gt" ref-type="bibr">Simon
+    Lévy et al., 2018</xref>), with minimal detectable changes reported
+    for T1, MTR, MTsat, and macromolecular tissue volume (MTV)
+    quantitative MRI measures.</p>
+  </sec>
+  <sec id="study-objective-and-the-cneuromod-project">
+    <title>Study Objective and the CNeuroMod Project</title>
+    <p>The objective of this study was to measure and report the
+    stability of quantitative microstructure MRI measurements across
+    multiple time points in the brain and cervical spinal cord. To do
+    this, two sets of qMRI protocols (brain and spinal cord) were
+    integrated within the Courtois project on neural modelling
+    (CNeuroMod)<xref ref-type="fn" rid="fn1">1</xref> for collecting
+    longitudinal data on healthy subjects to train and improve
+    artificial intelligence models on brain behaviour and activity. The
+    qMRI measurements of the brain and spinal cord fell within the
+    “anatomical” imaging branch of the CNeuroMod project, and additional
+    branches of data acquired include deep scanning with functional MRI,
+    biosignals (eg, cardiac, respiration, eye tracking), and
+    magnetoencephalography (MEG). In addition, we developed reproducible
+    and reusable analysis pipelines for structural qMRI of the brain and
+    spinal cord. These pipelines are built using state-of-the-art tools
+    in terms of pipeline management (NextFlow
+    (<xref alt="Di Tommaso et al., 2017" rid="ref-DiTommaso2017-qk" ref-type="bibr">Di
+    Tommaso et al., 2017</xref>)), structural data analyses (FSL
+    (<xref alt="Smith et al., 2004" rid="ref-Smith2004-oa" ref-type="bibr">Smith
+    et al., 2004</xref>), ANTs
+    (<xref alt="Avants et al., 2009" rid="ref-Avants2009-ox" ref-type="bibr">Avants
+    et al., 2009</xref>), qMRLab
+    (<xref alt="Cabana et al., 2015" rid="ref-Cabana2015-zg" ref-type="bibr">Cabana
+    et al., 2015</xref>;
+    <xref alt="Karakuzu et al., 2020" rid="ref-Karakuzu2020-ul" ref-type="bibr">Karakuzu
+    et al., 2020</xref>), SCT
+    (<xref alt="De Leener et al., 2017" rid="ref-DeLeener2017-yq" ref-type="bibr">De
+    Leener et al., 2017</xref>), etc.) and Jupyter notebooks
+    (<xref alt="Beg et al., 2021" rid="ref-Beg2021-ps" ref-type="bibr">Beg
+    et al., 2021</xref>) with Plotly (Plotly Technologies Inc., 2015)
+    for presenting curated and interactive results.</p>
+  </sec>
+</sec>
+<sec id="results">
+  <title>2     |     RESULTS</title>
+  <p>Six participants were repeatedly scanned on a 3T MRI scanner
+  (Prisma Fit, Siemens, Erlangen, Germany) approximately four times a
+  year (up to ten times for this initial 2022 data release, with more
+  scans regularly being acquired). Custom headcases (Caseforge,
+  Berkeley, USA) were used for each participant to minimise movements
+  during the imaging sessions. Two sets of imaging protocols were
+  acquired (Figure 1), one for the brain (T1w, T2w, MP2RAGE, MTsat, B1+,
+  and diffusion) and one for the spinal cord (T1w, T2w, MTsat, and
+  diffusion).</p>
+  <p>FIGURE 1 Overview of the structural dataset for the Courtois
+  project on neural modelling (CNeuroMod). 6 participants were scanned
+  up to ten times over three years; note that this is an initial data
+  release for 2022, and more scans are regularly being acquired. The
+  structural protocol consists of T1w, T2w and T2*w scans to quantify
+  brain and SC (including grey matter, GM) morphometry, and MP2RAGE,
+  magnetization transfer (MTR and MTsat), and diffusion-weighted
+  sequences to compute metrics sensitive to demyelination in the white
+  matter (WM).</p>
+  <sec id="brain">
+    <title>2.1     |     Brain</title>
+    <p>Average quantitative MRI (excluding diffusion) values for the
+    segmented whole-brain white matter (WM) and grey matter (GM) for
+    each subject and session are shown in Figure 2. Missing data points
+    are either unacquired sessions or because they were excluded after
+    doing quality control, more details are listed in the “Quality
+    Control” section. Note that MTR is calculated from a subset of the
+    MTsat measurements, and B1 is not shown because it is only used as a
+    transmit radiofrequency (RF) field correction factor for the MTsat
+    measurement, and does not have biological specificity.</p>
+    <p>FIGURE 2 Brain qMRI metrics (excluding diffusion). Each point
+    represents the mean metric within the WM or GM for one subject and
+    one session. Missing data points are due to unacquired sessions, the
+    pipelines failing to produce an output, or were excluded due to
+    quality control (see Quality Control section for more details). The
+    intra- and inter- subject COVs for these metrics in WM and GM are
+    shown inside each respective plot. Note: subject 4 stopped
+    participating after their fifth session for reasons out of our
+    control.</p>
+    <p>From Figure 2, it is evident that mean T1 values measured with
+    the MP2RAGE pulse sequence (calculated from 2 images) generally
+    showed less intrasubject variation than T1 values measured with
+    MTsat (calculated from five images: three for MTsat calculation and
+    two for B1 calculation). Intrasubject COV means for WM T1 measured
+    using MP2RAGE was 0.6 %, which is four times lower than for T1
+    measured using MTsat. Intrasubject COVs for WM MTR (calculated from
+    two images) were similar to those from MP2RAGE, and three times
+    lower than MTsat (MTR is a subset of MTsat measurements, with two
+    out of the five MTsat measurements being shared). Intrasubject COV
+    standard deviations (STD) (not displayed in figure
+    <xref ref-type="fn" rid="fn2">2</xref>) were low for all metrics in
+    WM (&lt; 1%). Intersubject mean COV was highest for WM T1 calculated
+    from MTsat at 3.5%, and lowest for MTR at 0.4 %. GM intrasubject and
+    intersubject COVs followed similar trends to those for WM, with the
+    same order of magnitude COV mean and STD values. The very low
+    intrasubject COVs and larger intersubject COV for T1 (MP2RAGE) is
+    also expressed as each subject having specific mean whole-brain WM
+    and GM T1 values distinct from each other, and that these values
+    were stable longitudinally (Figure 2); this can also be seen to a
+    lesser extent for T1 (MTsat) and MTsat, but not for MTR which had
+    intrasubject COVs on the order or higher than the intersubject
+    COVs.</p>
+    <p>FIGURE 3 The mean diffusion metrics (FA, MD, and RD) for each
+    acquired session are shown for three atlas-based regions of the
+    corpus callosum (genu in blue, body in yellow, splenium in green) of
+    each subject.</p>
+    <p>Figure 3 displays the three calculated diffusion metrics
+    (fractional anisotropy: FA, mean diffusivity: MD, and radial
+    diffusivity: RD) within the three corpus callosum regions (genu,
+    body, splenium). All three metrics exhibited high intersubject mean
+    COVs (&gt; 3%) and low intrasubject COV means (&lt; 1.3%). The
+    lowest intrasubject COV means are reported for FA in the body and
+    splenium (0.6%), and the lowest intersubject mean COV was reported
+    in the body and splenium for MD (3.0% and 3.1%, respectively).
+    Intrasubject COV standard deviations (STD) (not displayed in figure)
+    were low for all metrics and regions (&lt; 0.6%), and FA in the
+    splenium had the lowest value (0.1%). The substantially higher
+    intersubject mean COVs than intrasubject mean COVs also indicates,
+    like for the T1 (MP2RAGE) earlier, that each subject and region had
+    specific diffusion metric values which were distinct from each other
+    and were relatively stable as can be seen in Figure 3.</p>
+  </sec>
+  <sec id="spinal-cord">
+    <title>2.2     |     Spinal cord</title>
+    <p>Figure 4 displays the results for the spinal cord cross-sectional
+    area calculated for WM (using T1w and T2w images) and GM (using
+    T2<italic>w images). WM cross-sectional area (CSA) across the C2 and
+    C3 vertebral levels calculated with T2w images resulted in
+    intrasubject COVs of 2.3%, half of that found using T1w images
+    (4.5%). For intersubject COVs, the trend is inverted; T2w had nearly
+    double the intersubject COVs value (9.1 %) than T1w (5.2 %). The
+    intrasubject standard deviations were on the order of the means
+    (3.3% for WM using T1w, 1.7% for WM using T2w, and 10.4% for GM
+    using T2</italic>w). We notice a particularly high COV for CSA (WM,
+    T1w) for subject 2, which is due to high subject motion, resulting
+    in unreliable spinal cord segmentation. In order to avoid rater bias
+    in the intra- and inter-subject statistics, the analysis pipeline
+    was fully automated, and no mask was manually edited.</p>
+    <p>FIGURE 4 Spinal cord cross-sectional area (CSA) for each acquired
+    subject and session in WM (using either the T1w or T2w images) and
+    in GM (using the T2*w images).</p>
+    <p>Figure 5 shows the scatter plots of all qMRI metric means
+    calculated in the WM across the C2 and C5 vertebral levels of the
+    spinal cord. As also observed in the brain, MTR resulted in lower
+    intrasubject COV means (5.1%) than MTsat (7.9%, which is a superset
+    of the MTR measurements plus one additional no-MT SPGR measurement
+    and a B1 map). T1 had the better mean intersubject COV (7.9%)
+    relative to its two concomitant metrics (MTR - 4.6%, MTsat - 4.0 %),
+    demonstrating unique mean quantitative T1 values in WM for the set
+    of subjects for this timeframe. For diffusion, FA resulted in the
+    lowest intrasubject COV means (3.9%), and MD and RD were
+    substantially higher (5-9%) in contrast to the observations in the
+    brain (0.6-1.3%).</p>
+    <p>FIGURE 5 Spinal cord qMRI metrics (T1, MTR, MTsat, FA, MD, RD).
+    Each point represents the mean metric within the WM across C2 and C5
+    levels, for one subject and one session.</p>
+  </sec>
+</sec>
+<sec id="discussion">
+  <title>3     |     DISCUSSION</title>
+  <p>Longitudinal stability of quantitative MRI measures is an important
+  feature for clinical and research studies that intend to use the MRI
+  scanner as a scientific instrument. Here, we report on the stability
+  of a fundamental MR parameter (T1) and of microstructural biomarkers
+  (MTR, MTsat, diffusion) in the central nervous system (brain and
+  spinal cord) over the course of three years at a single imaging site.
+  The concept of the “stability” of quantitative MR measures must be
+  considered carefully; long-term biological changes in brain tissue
+  also occur naturally in healthy people due to macro- and
+  microstructural effects associated with normal ageing
+  (<xref alt="MacDonald &amp; Pike, 2021" rid="ref-MacDonald2021-uc" ref-type="bibr">MacDonald
+  &amp; Pike, 2021</xref>). Because this study was limited to three
+  years and only investigated adults in mid-adulthood (ages 31 to 47 at
+  initial scan date), the naturally-occurring effects of ageing in the
+  brain (eg, myelin generation/degradation, ventricular enlargement,
+  etc) are expected to occur slowly during this timespan
+  (<xref alt="Ge et al., 2002" rid="ref-Ge2002-fz" ref-type="bibr">Ge et
+  al., 2002</xref>;
+  <xref alt="Hagiwara et al., 2021" rid="ref-Hagiwara2021-bz" ref-type="bibr">Hagiwara
+  et al., 2021</xref>;
+  <xref alt="Steen et al., 1995" rid="ref-Steen1995-se" ref-type="bibr">Steen
+  et al., 1995</xref>). The results of this initial data release, which
+  can be made available upon request, may be used as a benchmark for the
+  development of other analytical methods, as has been done using other
+  large MRI data studies
+  (<xref alt="Cohen-Adad et al., 2021b" rid="ref-Cohen-Adad2021-so" ref-type="bibr">Cohen-Adad
+  et al., 2021b</xref>;
+  <xref alt="Seif et al., 2022" rid="ref-Seif2022-xg" ref-type="bibr">Seif
+  et al., 2022</xref>). This work is also a small piece of a larger
+  ongoing project, CNeuroMod, and this long-term database of
+  quantitative MRI measurements may be valuable information to
+  incorporate in deep learning training models of other longitudinal
+  measurements (eg, fMRI, MEG) to account for confounding changes in the
+  brains of these subjects.</p>
+  <sec id="stability-of-qmri-measures">
+    <title>Stability of qMRI measures</title>
+    <p>The reported intrasubject COV means indicate good stability of
+    all quantitative metrics measured in the brain (&lt; 2.3 % in WM,
+    &lt; 3.1 % in GM) throughout the ten structural sessions acquired
+    over three years. Several metrics (T1 (MP2RAGE) and MTsat in Figure
+    2 and FA/MD/RD in Figure 3), also had higher intersubject mean COVs
+    than intrasubject COV means, which suggests that the quantitative
+    metrics were specific to the individuals and are stable enough to
+    monitor longitudinal differences. The qMRI metrics that exhibited
+    the lowest intrasubject COVs (MTR and T1 (MP2RAGE)) were also the
+    metrics that used the lowest number of raw MRI images to calculate
+    the metrics (MTR and MP2RAGE only need two, versus whereasMTsat and
+    T1 (MTsat) need three), suggesting that quantitative MRI metric
+    stability may degrade if they need substantially more measurements
+    than simpler alternatives (MTR and T1 (MP2RAGE), calculated from two
+    images). Another potential reason for the improved stability is that
+    MP2RAGE is inherently optimised to reduce sensitivity of B1 effects
+    (<xref alt="Marques et al., 2010" rid="ref-Marques2010-po" ref-type="bibr">Marques
+    et al., 2010</xref>), and future work should explore if quantitative
+    techniques with good robustness against field inhomogeneities
+    provide better long term stability than techniques necessitating
+    additional measurements to correct for these effects. The
+    longitudinal stability of a different implementation of T1 mapping
+    (variable flip angle: VFA, which uses two measurements plus a B1
+    map) was reported in a healthy cohort at two timepoints acquired
+    seven years apart
+    (<xref alt="Gracien et al., 2017" rid="ref-Gracien2017-un" ref-type="bibr">Gracien
+    et al., 2017</xref>). Good stability was reported in WM T1 values,
+    as well as a decrease in T1 values in cortical GM, the magnitude of
+    which was proportional to the subject’s age. The age range of the
+    study was 51-77 at the initial time point, thus a higher overall
+    cohort age than the CNeuroMod cohort. Another recent longitudinal
+    study
+    (<xref alt="York et al., 2022" rid="ref-York2022-fl" ref-type="bibr">York
+    et al., 2022</xref>) investigated the longitudinal trends of
+    quantitative MRI myelin measures (MTR, MTsat, and diffusion) in a
+    cohort of both healthy and MS patients, and found that MTsat was
+    more sensitive to subtle changes in normal appearing white matter
+    (NAWM) than MTR. However, only the MS cohort was investigated
+    longitudinally over one year; the healthy cohort was a scan-rescan
+    over two weeks. The longitudinal stability measures we reported in a
+    healthy cohort (and in particular our open-source datasets) could be
+    used to further support studies such as this one. In recent months,
+    another longitudinal study
+    (<xref alt="Salluzzi et al., 2022" rid="ref-Salluzzi2022-jc" ref-type="bibr">Salluzzi
+    et al., 2022</xref>) investigated the short-term repeatability and
+    long-term reproducibility in a healthy cohort over a 5 year interval
+    with a different set of quantitative MRI metrics (T2/T2*,
+    quantitative susceptibility, cerebral blood flow, and diffusivity).
+    Their work, though investigating mostly different metrics, is
+    complementary to our study in that its main objective was to assess
+    the potential impacts of both software and hardware MRI upgrades on
+    the repeatability and reproducibility of this set of qMRI metrics.
+    They reported intrasubject COVs on the order of 1% or less for
+    diffusion metrics (FA/MD/RD) in the three corpus callosum regions,
+    in agreement with the observations reported in our study.</p>
+    <p>Spinal cord CSA had an intrasubject COV mean of 4.5 % and 2.3 %
+    for CSA calculated from T1w and T2w scans, respectively. The almost
+    twice smaller intrasubject COV for CSA computed on the T2w scan is
+    likely due to the higher robustness to subject motion and/or spinal
+    cord pulsatile motion for the T2w fast spin echo sequence vs. the
+    T1w MPRAGE. This is consistent with a recent study
+    (<xref alt="Bautin &amp; Cohen-Adad, 2021" rid="ref-Bautin2021-dt" ref-type="bibr">Bautin
+    &amp; Cohen-Adad, 2021</xref>), where intrasubject CSA COVs where
+    0.8% for T1w images and 0.57% for T2w images. Note that the Bautin
+    &amp; Cohen-Adad
+    (<xref alt="2021" rid="ref-Bautin2021-dt" ref-type="bibr">2021</xref>)
+    study was based on in-silico generation of scan-rescan using random
+    affine transformations, hence the variability was highly
+    under-estimated compared to the present study. In the present study,
+    the reported COVs are likely closer to a realistic longitudinal
+    scenario and suggest good long term stability for this quantitative
+    metric in the spinal cord, and that T2w is the better choice for CSA
+    quantification stability. In another related multi-site and
+    multi-manufacturer study
+    (<xref alt="Cohen-Adad et al., 2021b" rid="ref-Cohen-Adad2021-so" ref-type="bibr">Cohen-Adad
+    et al., 2021b</xref>), were one subject was scanned in 19 different
+    imaging centers over a period of 77 days,, they reported intra-site
+    COVs for MTR and MTsat were below 3.6% and 11% respectively, on the
+    order of our reported longitudinally measured values (5.1% and
+    7.9%). Intrasite FA COVs were reported on the order of or below
+    5.9%, higher than our mean longitudinal intrasubject COV value of
+    3.9%. These overall agreements between a multi-center snapshot in
+    time and a single-centre longitudinal study provide encouraging
+    evidence for the longitudinal stability when imaging the spinal
+    cord.</p>
+  </sec>
+  <sec id="limitations">
+    <title>Limitations</title>
+    <p>Some limitations related to this study are important to
+    highlight. Foremost, all measurements in this work were done on a
+    single MRI scanner, and thus a single MRI vendor. Recent work
+    (<xref alt="Cohen-Adad et al., 2021a" rid="ref-Cohen-Adad2021-qo" ref-type="bibr">Cohen-Adad
+    et al., 2021a</xref>,
+    <xref alt="2021b" rid="ref-Cohen-Adad2021-so" ref-type="bibr">2021b</xref>)
+    done in the spinal cord suggests that while quantitative MR values
+    differ across vendors, the COVs compare well. Multi-vendor
+    harmonisation can only go so far; key differences in proprietary
+    vendor pulse sequence implementations will always introduce
+    differences out of the control of the user-researchers. However
+    there is a lot of recent work on open-source pulse sequence
+    frameworks
+    (<xref alt="Cordes et al., 2020" rid="ref-Cordes2020-vz" ref-type="bibr">Cordes
+    et al., 2020</xref>;
+    <xref alt="Karakuzu, Biswas, et al., 2022" rid="ref-Karakuzu2022-af" ref-type="bibr">Karakuzu,
+    Biswas, et al., 2022</xref>;
+    <xref alt="Layton et al., 2017" rid="ref-Layton2017-qz" ref-type="bibr">Layton
+    et al., 2017</xref>) aiming to minimise these differences and give
+    more control to the user researchers that may provide a solution to
+    this limitation. Alternatively, inter-vendor biases can be accounted
+    for in the statistics analysis step
+    (<xref alt="Hagiwara et al., 2019" rid="ref-Hagiwara2019-pg" ref-type="bibr">Hagiwara
+    et al., 2019</xref>), or by using a standard system phantom
+    (<xref alt="Keenan et al., 2021" rid="ref-Keenan2021-ly" ref-type="bibr">Keenan
+    et al., 2021</xref>). Our work reported on the longitudinal
+    stability of mostly coarse regions-of-interest in the brain and
+    spinal cord (whole-brain WM and GM mean values, in-plane WM and GM
+    spinal cord means), except for the brain diffusion metrics which
+    were averaged for the three corpus callosum regions (as was
+    similarly done in
+    (<xref alt="Salluzzi et al., 2022" rid="ref-Salluzzi2022-jc" ref-type="bibr">Salluzzi
+    et al., 2022</xref>)). More granular masking methods exist for both
+    the brain and spinal cord (eg. white &amp; grey matter
+    (<xref alt="Desikan et al., 2006" rid="ref-Desikan2006-jc" ref-type="bibr">Desikan
+    et al., 2006</xref>;
+    <xref alt="S. Lévy et al., 2015" rid="ref-Levy2015-tt" ref-type="bibr">S.
+    Lévy et al., 2015</xref>;
+    <xref alt="Oishi et al., 2009" rid="ref-Oishi2009-nj" ref-type="bibr">Oishi
+    et al., 2009</xref>)), tractometry
+    (<xref alt="Catani &amp; Thiebaut de Schotten, 2008" rid="ref-Catani2008-jw" ref-type="bibr">Catani
+    &amp; Thiebaut de Schotten, 2008</xref>)), and may be explored in
+    the future. Another important point is that the processing pipelines
+    were all only automatic, and no manual interventions were done
+    during the segmentation steps of the pipeline. Manual corrections or
+    more robust tools would likely improve the reliability of the
+    reported metrics in both brain and spinal cord. Although outside of
+    the scope of this current study, the stability of quantitative
+    morphometry in the brain (eg. cortical thickness) could also be
+    explored and compared against the quantitative MRI metrics using
+    this open dataset.</p>
+  </sec>
+</sec>
+<sec id="methods">
+  <title>4     |     METHODS</title>
+  <sec id="data-acquisition">
+    <title>Data acquisition</title>
+    <p>Six healthy participants (three females) were recruited in 2018
+    (aged 31 to 47 at initial scan date) and consented to be scanned
+    regularly as part of the on-going CNeuroMod project
+    (<xref alt="Boyle et al., 2020" rid="ref-Boyle2020-vv" ref-type="bibr">Boyle
+    et al., 2020</xref>). The anatomical imaging protocol is run on each
+    participant at a rate of approximately four times / year, for three
+    years for this initial 2022 data release; more scans are regularly
+    being acquired as the CNeuroMod project is ongoing. The
+    participation of the subject labelled number 4 was unable to
+    continue participating after their fifth session, and other
+    participants occasionally were unable to attend their scheduled
+    scans thus the total number of scans per participant varied. Each
+    subject had the following number of scans at the time of data
+    processing: subject 1 – 8 scans, subject 2 – 10 scans, subject 3 –
+    10 scans, subject 4 – 5 scans, subject 5 – 8 scans, subject 6 – 9
+    scans. All imaging sessions were performed at the same site on a 3.0
+    T whole-body MRI scanner (Prisma Fit, Siemens, Erlangen, Germany)
+    with a 64-channel head/neck receive coil and 2-channel body transmit
+    coil. Custom headcases (Caseforge, Berkeley, USA) were used for each
+    participant to minimise movements during the imaging sessions;
+    inter-scan motion is particularly important to be minimised for
+    quantitative MRI as the actual fields in the imaging volume change
+    with different anatomical positioning and cannot be easily corrected
+    for using image registration techniques
+    (<xref alt="Balbastre et al., 2022" rid="ref-Balbastre2022-dm" ref-type="bibr">Balbastre
+    et al., 2022</xref>;
+    <xref alt="Papp et al., 2016" rid="ref-Papp2016-mz" ref-type="bibr">Papp
+    et al., 2016</xref>). Up to ten imaging sessions were acquired in
+    total, and the same imaging protocol was used for each subject and
+    session. Two sets of imaging protocols were implemented, one for the
+    brain and one for the spinal cord, the details of which are
+    summarised next, but are also documented on the CNeuroMod project
+    documentation <xref ref-type="fn" rid="fn3">3</xref>, including the
+    Siemens MRI exam card PDFs exported from the scanner
+    <xref ref-type="fn" rid="fn4">4</xref>.</p>
+    <sec id="brain-imaging-protocol">
+      <title>Brain imaging protocol</title>
+      <p>The brain imaging protocol (Figure 1, top) consisted of the
+      following set of MRI measurements: T1-weighted, T2-weighted,
+      diffusion, MP2RAGE, B1 mapping, and magnetization transfer (MT)
+      saturation. The T1-weighted image consisted of a 3D MPRAGE
+      acquisition using a repetition time (TR) = 2.4 s, echo time (TE) =
+      2.2 ms, excitation flip angle (FA) = 8 deg, 0.8 mm isotropic
+      resolution, and parallel imaging acceleration factor (R) = 2. The
+      T2-weighted pulse sequence was a 3D fast spin-echo (FSE)
+      acquisition with TR = 3.2 s, TE = 563 ms, 0.8 mm isotropic
+      resolution, and R = 2. The diffusion-weighted protocol used a 2D
+      axial EPI sequence (TR = 2.3 s, TE = 82 ms, FA = 78 deg, 2 mm3
+      isotropic resolution, simultaneous multi-slice (SMS) factor of 3,
+      two-shells, minimum b-value = 1500 s/mm2, maximum b-value = 3000
+      s/mm2), and was acquired twice using either P-A or A-P
+      phase-encoding directions, to correct for susceptibility-induced
+      distortion. The MP2RAGE 3D protocol produced two images with
+      different inversion times (TI) = 700 ms and 1500 ms, TR = 4s, TE =
+      1.51 ms FA = 7 deg and 5 deg for each TI respectively, 1.2 mm
+      isotropic resolution, and R = 2. B1 maps were acquired using the
+      default Siemens B1 mapping sequence based on a gradient echo
+      sequence with ultrafast turbo-FLASH readout (6mm isotropic
+      resolution)
+      (<xref alt="Chung et al., 2010" rid="ref-Chung2010-nc" ref-type="bibr">Chung
+      et al., 2010</xref>). Lastly, the MT saturation protocol consists
+      of a set of three 3D spoiled gradient echo images: an MT-weighted
+      (MTw) image (TR = 28 ms, TE = 3.3 ms, FA = 6 deg, 1.5 mm isotropic
+      resolution, R = 2, and a Gaussian-shaped MT preparation pulse with
+      an off-resonance frequency = 1.2 kHz), a proton-density-weighted
+      (PDw) image (same protocol as the MTw, with the omission of the MT
+      preparation pulse), and a T1-weighted (T1w) image (same protocol
+      as the PDw, except TR = 18 ms and FA = 20 deg).</p>
+    </sec>
+    <sec id="spinal-cord-imaging-protocol">
+      <title>Spinal cord imaging protocol</title>
+      <p>The spinal cord imaging protocol (Figure 1, bottom) consisted
+      of the following set of MRI measurements: T1-weighted,
+      T2-weighted, diffusion, and magnetization transfer (MT)
+      saturation. The T1-weighted image consisted of a 3D MPRAGE
+      acquisition with TR = 2 s, TE = 3.72 ms, FA = 9 deg, 1 mm
+      isotropic resolution, and R = 2. The T2-weighted pulse sequence
+      was a 3D fast spin-echo (FSE) acquisition with TR = 1.5 s, TE =
+      120 ms, FA = 120 deg, 0.8 mm isotropic resolution, and R = 3. The
+      diffusion-weighted protocol used a 2D axial EPI sequence that was
+      cardiac-gated with a pulse oximeter and TR ~ 620 ms, TE = 60 ms,
+      0.9 mm in-plane resolution, 5 mm slice resolution, phase encoding
+      in the A-P direction, and a maximum b-value of 800 s/mm2). Lastly,
+      the MT saturation protocol consisted of an MTw acquisition (TR =
+      35 ms, TE = 3.13 ms, FA = 9 deg, 0.9 mm2 in-plane resolution, 0.5
+      mm slice resolution, R = 2, and a Gaussian-shaped MT preparation
+      pulse with an off-resonance frequency = 1.2 kHz), a
+      proton-density-weighted (PDw) image (same protocol as the MTw,
+      with the omission of the MT preparation pulse), and a T1-weighted
+      (T1w) image (same protocol as the PDw, except TR = 15 ms and FA =
+      15 deg).</p>
+    </sec>
+  </sec>
+  <sec id="data-preparation">
+    <title>Data preparation</title>
+    <p>All datasets acquired within the CNeuroMod project were prepared
+    with the intention to be shared. Data were anonymized and defaced by
+    masking out face, teeth, and ears. Datasets were prepared and
+    organised in the BIDS (Brain Imaging Data Structure) format
+    (<xref alt="Gorgolewski et al., 2016" rid="ref-Gorgolewski2016-xt" ref-type="bibr">Gorgolewski
+    et al., 2016</xref>). Quantitative image acquisitions were prepared
+    according to the BEP001 specification
+    (<xref alt="Karakuzu, Appelhoff, et al., 2022" rid="ref-Karakuzu2022-dq" ref-type="bibr">Karakuzu,
+    Appelhoff, et al., 2022</xref>), and spinal cord data used the
+    “bp-cspine” tag as proposed in BEP025 to distinguish against the
+    brain datasets for the same subject. Datasets were managed using
+    Datalad
+    (<xref alt="Halchenko et al., 2021" rid="ref-Halchenko2021-wz" ref-type="bibr">Halchenko
+    et al., 2021</xref>) and git-annex in a databank; access to this
+    databank is made available through the CNeuroMod website
+    <xref ref-type="fn" rid="fn5">5</xref>. Session numbers in the
+    database that are missing for some subjects are omitted datasets
+    from scanning sessions that were aborted due to various scanning
+    issues. sMRIprep
+    (<xref alt="Esteban et al., 2022" rid="ref-Esteban2022-pi" ref-type="bibr">Esteban
+    et al., 2022</xref>) was executed on the T1w brain scans from the
+    first two sessions of each subject, which were later published on
+    GitHub using git-annex as part of the CNeuroMod project. These
+    outputs were used solely for the brain diffusion pipeline.</p>
+  </sec>
+  <sec id="analysis-pipeline">
+    <title>Analysis pipeline</title>
+    <p>Two separate post-processing and analysis pipelines were
+    developed for the brain and spinal cord data. Figure 6 shows an
+    overview of both pipelines with the outcome metrics.</p>
+    <p>The brain pipelines were managed using Nextflow
+    (<xref alt="Di Tommaso et al., 2017" rid="ref-DiTommaso2017-qk" ref-type="bibr">Di
+    Tommaso et al., 2017</xref>), a container management tool for data
+    processing pipelines. Two Docker container images were prebuilt and
+    used for this pipeline:
+    <monospace>dockerhub.io/qmrlab/antsfl:latest</monospace> (digest:
+    <monospace>597de3e6e1aa</monospace>) and
+    <monospace>dockerhub.io/qmrlab/minimal:v2.5.0b</monospace> (digest:
+    <monospace>40270330e7b5</monospace>). Image registration was
+    performed using the Advanced Normalization Tools (ANTS;
+    <monospace>version 2.1.0</monospace>)
+    (<xref alt="Avants et al., 2009" rid="ref-Avants2009-ox" ref-type="bibr">Avants
+    et al., 2009</xref>). Brain extraction was done using the brain
+    extraction tool (BET) tool in the FMRIB Software Library (FSL;
+    <monospace>version 5.0</monospace>)
+    (<xref alt="Smith, 2002" rid="ref-Smith2002-bn" ref-type="bibr">Smith,
+    2002</xref>;
+    <xref alt="Smith et al., 2004" rid="ref-Smith2004-oa" ref-type="bibr">Smith
+    et al., 2004</xref>), and whole-brain WM and GM segmentation were
+    done using the FMRIB’s Automated Segmentation Tool (FAST) in FSL
+    (<xref alt="Zhang et al., 2001" rid="ref-Zhang2001-rn" ref-type="bibr">Zhang
+    et al., 2001</xref>). With the exception of diffusion, for all
+    quantitative MRI methods the core data fitting algorithms used in
+    this pipeline are from the open-source qMRLab software (version tag
+    <monospace>2.5.0b</monospace>)
+    (<xref alt="Cabana et al., 2015" rid="ref-Cabana2015-zg" ref-type="bibr">Cabana
+    et al., 2015</xref>;
+    <xref alt="Karakuzu et al., 2020" rid="ref-Karakuzu2020-ul" ref-type="bibr">Karakuzu
+    et al., 2020</xref>). For diffusion, the TractoFlow pipeline
+    (<monospace>version 2.4.1</monospace>) was used
+    (<xref alt="Theaud et al., 2020" rid="ref-Theaud2020-mu" ref-type="bibr">Theaud
+    et al., 2020</xref>), which uses DIPY
+    (<xref alt="Garyfallidis et al., 2014" rid="ref-Garyfallidis2014-gu" ref-type="bibr">Garyfallidis
+    et al., 2014</xref>) and MRtrix3
+    (<xref alt="Tournier et al., 2019" rid="ref-Tournier2019-gb" ref-type="bibr">Tournier
+    et al., 2019</xref>) for the core diffusion processing
+    functionalities, and FSL and ANTs for the image processing tools.
+    The diffusion pipeline consists of a denoising step (MRtrix3), TOPUP
+    (using the two phase encoding directions diffusion images) and eddy
+    current corrections (FSL), DTIs (DIPY), brain tissue segmentation
+    (ANTs), and lastly tractography maps
+    (<xref alt="Cousineau et al., 2017" rid="ref-Cousineau2017-ce" ref-type="bibr">Cousineau
+    et al., 2017</xref>); the full processing diagram is shown in Figure
+    6. DTI metrics were calculated using the 1500 s/mm2 b-value shell.
+    In addition to the diffusion images as inputs, TractoFlow also used
+    the average of the T1w structural images of the first two sessions
+    (for each subject) that was registered to the MNI152 atlas, which is
+    the output of another standard pipeline, sMRIprep
+    (<xref alt="Esteban et al., 2022" rid="ref-Esteban2022-pi" ref-type="bibr">Esteban
+    et al., 2022</xref>), that consists
+    <xref ref-type="fn" rid="fn6">6</xref> of intensity non-uniformity
+    corrections, alignment and fusion of the images, skull stripping,
+    and non-linear registration to the template. The three
+    regions-of-interests (ROIs) of the corpus callosum
+    (genu/body/splenium) were extracted using the John Hopkins
+    University ICBM-DTI-81 WM labels provided by FSL. The labels were
+    first transformed from MNI152 space to the average T1w space (with
+    transformations files available from the sMRIprep outputs
+    <xref ref-type="fn" rid="fn7">7</xref>), and then from the average
+    T1w space to the diffusion space using the affine matrix files
+    provided as outputs of TractoFlow.</p>
+    <p>For the spinal cord data, the pipeline was developed in a shell
+    script <xref ref-type="fn" rid="fn8">8</xref> using all tools
+    available through the Spinal Cord Toolbox (SCT)
+    <monospace>v5.6</monospace>
+    (<xref alt="De Leener et al., 2017" rid="ref-DeLeener2017-yq" ref-type="bibr">De
+    Leener et al., 2017</xref>). The script was run through all the
+    available subjects and sessions using the pipeline management tool
+    <monospace>sct_run_batch</monospace>. The SC was segmented on T2w
+    images using <monospace>sct_deepseg_sc</monospace>
+    (<xref alt="Gros et al., 2019" rid="ref-Gros2019-ss" ref-type="bibr">Gros
+    et al., 2019</xref>), then vertebral levels were identified
+    (<xref alt="Ullmann et al., 2014" rid="ref-Ullmann2014-pn" ref-type="bibr">Ullmann
+    et al., 2014</xref>). The SC was then registered to the adult PAM50
+    template
+    (<xref alt="De Leener et al., 2018" rid="ref-DeLeener2018-yb" ref-type="bibr">De
+    Leener et al., 2018</xref>). T1w images were analysed similarly: the
+    SC was segmented and then registered to the PAM50 template using the
+    transformation T2w-PAM50 calculated earlier. The ME-GRE images were
+    analysed using <monospace>sct_deepseg_gm</monospace>
+    (<xref alt="Perone et al., 2018" rid="ref-Perone2018-la" ref-type="bibr">Perone
+    et al., 2018</xref>) to segment the grey matter. MT images were
+    processed as follows. The SC was segmented on the GRE-MT1 scan,
+    followed by registration to the PAM50 template via the T2w-PAM50
+    transformation. GRE-MT0 and GRE-T1w scans were then registered to
+    the GRE-MT1 scans. Magnetization transfer ratio (MTR) and MTsat were
+    computed. DWI images were motion-corrected using a mask centred
+    around the SC for more robustness, then registered to the PAM50
+    template using the initial transformation. DTI metrics were computed
+    using <monospace>sct_compute_dti</monospace> (powered by DIPY
+    (<xref alt="Garyfallidis et al., 2014" rid="ref-Garyfallidis2014-gu" ref-type="bibr">Garyfallidis
+    et al., 2014</xref>)).</p>
+    <p>The computed metrics are as follows: SC CSA averaged between
+    C2-C3 levels from the T1w and T2w scans (using
+    sct_process_segmentation), GM CSA averaged between C3-C4 from the
+    ME-GRE scan, MTR, MTsat, T1 and DTI metrics extracted in the WM
+    between levels C2-C5.</p>
+    <p>FIGURE 6 Overview of the three analysis pipelines used in this
+    project: qMRLab (top row), Tractoflow (middle row), Spinal Cord
+    Toolbox (bottom row). The human datasets were processed using
+    NextFlow-based pipelines (qMRLab for qMRI processing, and Tractoflow
+    for diffusion processing), whereas spine datasets used a bash
+    script-based pipeline using the Spinal Cord Toolbox software.</p>
+  </sec>
+  <sec id="quality-control">
+    <title>Quality control</title>
+    <p>For brain qMRI data processing (excluding diffusion), quality
+    assurance was done manually with the assistance of the Nextflow log,
+    which provides a report on success/failure of each processing step
+    for all subjects and sessions. The resulting maps and masks were
+    also visually verified manually, which resulted in some subsequent
+    corrections to how the tissue masks were calculated
+    <xref ref-type="fn" rid="fn9">9</xref> and the removal of parts of
+    the MTsat acquisition volume due to slab profile effects
+    <xref ref-type="fn" rid="fn10">10</xref>. Five data points were
+    omitted due to missing B1 maps in the CNeuroMod database at the time
+    of processing for these subject’s sessions:
+    <monospace>sub-03_ses-003, sub-06_ses-001, sub-06_ses-002, sub-06_ses-003, sub-06_ses-005</monospace>.</p>
+    <p>For brain diffusion data processing, a report was generated from
+    the TractoFlow tool dmriqc_flow (<monospace>v0.2.0</monospace> -
+    (<xref alt="Theaud &amp; Descoteaux, 2022" rid="ref-Theaud2022-gu" ref-type="bibr">Theaud
+    &amp; Descoteaux, 2022</xref>)). Each step of the pipeline has been
+    manually validated without any reported issues. Two sessions were
+    excluded due to corrupted initial acquisitions
+    (<monospace>sub-03_ses-002, sub-03_ses-003</monospace>). For the
+    spinal cord data processing pipeline, a QC report showing various
+    steps of the analysis (segmentation, vertebral labelling,
+    registration) was generated and made publicly available on the
+    <ext-link ext-link-type="uri" xlink:href="https://github.com/courtois-neuromod/anat-processing">GitHub
+    project repository</ext-link>, release version
+    <monospace>r20220804</monospace>). Following expert readings, some
+    data points were excluded due to factors such as excessive motion
+    (<monospace>sub-05_ses-007</monospace> [T2w]), poor shimming
+    (<monospace>sub-03_ses-010</monospace> [T1w] and
+    <monospace>sub-05_ses-007</monospace> [T1w]), and incorrect volume
+    placement or incorrect b-values
+    (<monospace>sub-02_ses-001</monospace> [DWI],
+    <monospace>sub-03_ses-003</monospace> [DWI],
+    <monospace>sub-06_ses-008</monospace>): details are listed in
+    <ext-link ext-link-type="uri" xlink:href="https://github.com/courtois-neuromod/anat-processing/issues">GitHub
+    issues</ext-link>. In addition, the pipeline failed to produce an
+    output for two data points
+    (<monospace>sub-04_ses-001, sub-06_ses-005</monospace>).</p>
+  </sec>
+</sec>
+<sec id="acknowledgement">
+  <title>ACKNOWLEDGEMENT</title>
+  <p>The Courtois project on neural modelling was made possible by a
+  generous donation from the Courtois foundation. The Courtois NeuroMod
+  team is based at “Centre de Recherche de l’Institut Universitaire de
+  Gériatrie de Montréal”, with several other institutions involved. See
+  the CNeuromod documentation for an up-to-date list of contributors
+  (https://docs.cneuromod.ca). This study was also funded by the Canada
+  Research Chair in Quantitative Magnetic Resonance Imaging
+  [950-230815], the Canadian Institute of Health Research [CIHR
+  FDN-143263], the Canada Foundation for Innovation [32454, 34824], the
+  Fonds de Recherche du Québec - Santé [322736], the Natural Sciences
+  and Engineering Research Council of Canada [RGPIN-2019-07244], the
+  Canada First Research Excellence Fund (IVADO and TransMedTech), and
+  the Mila - Tech Transfer Funding Program.</p>
+</sec>
+<sec id="data-availability-statement">
+  <title>DATA AVAILABILITY STATEMENT</title>
+  <p>In the aim of better reproducibility and transparency in research,
+  all the data, processing pipelines, containers, and analysis code have
+  been made available online. The anonymized and defaced datasets are in
+  BIDS format and managed using Datalad and git-annex in a GitHub
+  repository, https://github.com/courtois-neuromod/anat (commit:
+  5a5f687), and the data itself is hosted on an self-hosted S3 server.
+  The sMRIPrep pipeline outputs for each subjects are also managed using
+  git-annex and GitHub,
+  https://github.com/courtois-neuromod/anat.smriprep (commit: b055f52).
+  To request access to this data, we invite researchers to fill out an
+  application form on our website
+  https://www.cneuromod.ca/access/access/. The brain quantitative MRI
+  processing pipeline was written in Nextflow (brain) and shell (spine)
+  and are available in this repository:
+  https://github.com/courtois-neuromod/anat-processing. The TractoFlow
+  pipeline is built using open-source tools and is available on GitHub:
+  https://github.com/scilus/tractoflow combined with the container image
+  on Dockerhub: dockerhub.io/scilus/scilus:1.4.2 (digest: 25415e45ea7f,
+  https://hub.docker.com/repository/docker/scilus/scilus) . The qMRI
+  brain pipeline used two Docker containers which have been made
+  available as saved container images on Dockerhub:
+  dockerhub.io/qmrlab/antsfl:latest (digest: 597de3e6e1aa,
+  https://hub.docker.com/repository/docker/qmrlab/antsfsl) and
+  dockerhub.io/qmrlab/minimal:​​v2.5.0b (digest: 40270330e7b5,
+  https://hub.docker.com/repository/docker/qmrlab/minimal)). The
+  condensed outputs of these pipelines (eg, masked and averaged values
+  for each tissue) are shared in GitHub releases of this repository,
+  which can be found here:
+  https://github.com/courtois-neuromod/anat-processing/releases/. The
+  data figures and tables in this article were produced using analysis
+  code integrated in an interactive Jupyter Book and powered by Plotly,
+  which is available here,
+  https://courtois-neuromod.github.io/anat-processing-paper/, and the
+  code repository for this book is
+  https://github.com/courtois-neuromod/anat-processing-paper.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+  <ref id="ref-Avants2009-ox">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <string-name>Avants</string-name>
+        <string-name>Tustison</string-name>
+        <string-name>Song</string-name>
+      </person-group>
+      <article-title>Advanced normalization tools (ANTS)</article-title>
+      <source>Insight J.</source>
+      <year iso-8601-date="2009">2009</year>
+      <pub-id pub-id-type="doi">10.54294/uvnhin</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-Balbastre2022-dm">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Balbastre</surname><given-names>Yaël</given-names></name>
+        <name><surname>Aghaeifar</surname><given-names>Ali</given-names></name>
+        <name><surname>Corbin</surname><given-names>Nadège</given-names></name>
+        <name><surname>Brudfors</surname><given-names>Mikael</given-names></name>
+        <name><surname>Ashburner</surname><given-names>John</given-names></name>
+        <name><surname>Callaghan</surname><given-names>Martina F</given-names></name>
+      </person-group>
+      <article-title>Correcting inter-scan motion artifacts in quantitative R _1 mapping at 7T</article-title>
+      <source>Magn. Reson. Med.</source>
+      <year iso-8601-date="2022">2022</year>
+      <volume>88</volume>
+      <pub-id pub-id-type="doi">10.1002/mrm.29216</pub-id>
+      <fpage>280</fpage>
+      <lpage>291</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Bautin2021-dt">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Bautin</surname><given-names>Paul</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+      </person-group>
+      <article-title>Minimum detectable spinal cord atrophy with automatic segmentation: Investigations using an open-access dataset of healthy participants</article-title>
+      <source>NeuroImage. Clinical</source>
+      <year iso-8601-date="2021-10">2021</year><month>10</month>
+      <volume>32</volume>
+      <pub-id pub-id-type="doi">10.1016/j.nicl.2021.102849</pub-id>
+      <fpage>102849</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Beg2021-ps">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Beg</surname><given-names>Marijan</given-names></name>
+        <name><surname>Taka</surname><given-names>Juliette</given-names></name>
+        <name><surname>Kluyver</surname><given-names>Thomas</given-names></name>
+        <name><surname>Konovalov</surname><given-names>Alexander</given-names></name>
+        <name><surname>Ragan-Kelley</surname><given-names>Min</given-names></name>
+        <name><surname>Thiéry</surname><given-names>Nicolas M</given-names></name>
+        <name><surname>Fangohr</surname><given-names>Hans</given-names></name>
+      </person-group>
+      <article-title>Using jupyter for reproducible scientific workflows</article-title>
+      <source>Computing in Science &amp; Engineering</source>
+      <publisher-name>IEEE</publisher-name>
+      <year iso-8601-date="2021">2021</year>
+      <volume>23</volume>
+      <issue>2</issue>
+      <pub-id pub-id-type="doi">10.1109/MCSE.2021.3052101</pub-id>
+      <fpage>36</fpage>
+      <lpage>46</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Boyle2020-vv">
+    <element-citation publication-type="paper-conference">
+      <person-group person-group-type="author">
+        <name><surname>Boyle</surname><given-names>Julie A</given-names></name>
+        <name><surname>Pinsard</surname><given-names>Basile</given-names></name>
+        <name><surname>Boukhdhir</surname><given-names>Amal</given-names></name>
+        <name><surname>Belleville</surname><given-names>Sylvie</given-names></name>
+        <name><surname>Brambatti</surname><given-names>Simona</given-names></name>
+        <name><surname>Chen</surname><given-names>Jeni</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+        <name><surname>Cyr</surname><given-names>Andre</given-names></name>
+        <name><surname>Fuente</surname><given-names>Adrien</given-names></name>
+        <name><surname>Rainville</surname><given-names>Pierre</given-names></name>
+        <name><surname>Bellec</surname><given-names>Pierre</given-names></name>
+      </person-group>
+      <article-title>The Courtois project on neuronal modelling - 2020 data release</article-title>
+      <source>Annual meeting of the organization for human brain mapping</source>
+      <publisher-loc>Held virtually</publisher-loc>
+      <year iso-8601-date="2020">2020</year>
+      <fpage>1939</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Cabana2015-zg">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Cabana</surname><given-names>Jean-François</given-names></name>
+        <name><surname>Gu</surname><given-names>Ye</given-names></name>
+        <name><surname>Boudreau</surname><given-names>Mathieu</given-names></name>
+        <name><surname>Levesque</surname><given-names>Ives R</given-names></name>
+        <name><surname>Atchia</surname><given-names>Yaaseen</given-names></name>
+        <name><surname>Sled</surname><given-names>John G</given-names></name>
+        <name><surname>Narayanan</surname><given-names>Sridar</given-names></name>
+        <name><surname>Arnold</surname><given-names>Douglas L</given-names></name>
+        <name><surname>Pike</surname><given-names>G Bruce</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+        <name><surname>Duval</surname><given-names>Tanguy</given-names></name>
+        <name><surname>Vuong</surname><given-names>Manh-Tung</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+      </person-group>
+      <article-title>Quantitative magnetization transfer imagingmadeeasy with qMTLab: Software for data simulation, analysis, and visualization</article-title>
+      <source>Concepts Magn. Reson. Part A Bridg. Educ. Res.</source>
+      <publisher-name>Wiley</publisher-name>
+      <year iso-8601-date="2015-09">2015</year><month>09</month>
+      <volume>44A</volume>
+      <issue>5</issue>
+      <pub-id pub-id-type="doi">10.1002/cmr.a.21357</pub-id>
+      <fpage>263</fpage>
+      <lpage>277</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Catani2008-jw">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Catani</surname><given-names>Marco</given-names></name>
+        <name><surname>Thiebaut de Schotten</surname><given-names>Michel</given-names></name>
+      </person-group>
+      <article-title>A diffusion tensor imaging tractography atlas for virtual in vivo dissections</article-title>
+      <source>Cortex; a journal devoted to the study of the nervous system and behavior</source>
+      <year iso-8601-date="2008-09">2008</year><month>09</month>
+      <volume>44</volume>
+      <issue>8</issue>
+      <pub-id pub-id-type="doi">10.1016/j.cortex.2008.05.004</pub-id>
+      <fpage>1105</fpage>
+      <lpage>1132</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Cercignani2018-ga">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name><surname>Cercignani</surname><given-names>Mara</given-names></name>
+        <name><surname>Dowell</surname><given-names>Nicholas G</given-names></name>
+        <name><surname>Tofts</surname><given-names>Paul S</given-names></name>
+      </person-group>
+      <source>Quantitative MRI of the brain: Principles of physical measurement, second edition</source>
+      <publisher-name>CRC Press</publisher-name>
+      <year iso-8601-date="2018-01">2018</year><month>01</month>
+    </element-citation>
+  </ref>
+  <ref id="ref-Chung2010-nc">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Chung</surname><given-names>Sohae</given-names></name>
+        <name><surname>Kim</surname><given-names>Daniel</given-names></name>
+        <name><surname>Breton</surname><given-names>Elodie</given-names></name>
+        <name><surname>Axel</surname><given-names>Leon</given-names></name>
+      </person-group>
+      <article-title>Rapid B1+ mapping using a preconditioning RF pulse with TurboFLASH readout</article-title>
+      <source>Magnetic Resonance in Medicine</source>
+      <year iso-8601-date="2010-08">2010</year><month>08</month>
+      <volume>64</volume>
+      <issue>2</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.22423</pub-id>
+      <fpage>439</fpage>
+      <lpage>446</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Cohen-Adad2020-qz">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+      </person-group>
+      <article-title>Spine generic public database (single subject)</article-title>
+      <year iso-8601-date="2020-11">2020</year><month>11</month>
+    </element-citation>
+  </ref>
+  <ref id="ref-Cohen-Adad2021-qo">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+        <name><surname>Alonso-Ortiz</surname><given-names>Eva</given-names></name>
+        <name><surname>Abramovic</surname><given-names>Mihael</given-names></name>
+        <name><surname>Arneitz</surname><given-names>Carina</given-names></name>
+        <name><surname>Atcheson</surname><given-names>Nicole</given-names></name>
+        <name><surname>Barlow</surname><given-names>Laura</given-names></name>
+        <name><surname>Barry</surname><given-names>Robert L</given-names></name>
+        <name><surname>Barth</surname><given-names>Markus</given-names></name>
+        <name><surname>Battiston</surname><given-names>Marco</given-names></name>
+        <name><surname>Büchel</surname><given-names>Christian</given-names></name>
+        <name><surname>others</surname></name>
+      </person-group>
+      <article-title>Generic acquisition protocol for quantitative MRI of the spinal cord</article-title>
+      <source>Nature protocols</source>
+      <publisher-name>Nature Publishing Group UK London</publisher-name>
+      <year iso-8601-date="2021">2021</year>
+      <volume>16</volume>
+      <issue>10</issue>
+      <pub-id pub-id-type="doi">10.1038/s41596-021-00588-0</pub-id>
+      <fpage>4611</fpage>
+      <lpage>4632</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Cohen-Adad2021-so">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+        <name><surname>Alonso-Ortiz</surname><given-names>Eva</given-names></name>
+        <name><surname>Abramovic</surname><given-names>Mihael</given-names></name>
+        <name><surname>Arneitz</surname><given-names>Carina</given-names></name>
+        <name><surname>Atcheson</surname><given-names>Nicole</given-names></name>
+        <name><surname>Barlow</surname><given-names>Laura</given-names></name>
+        <name><surname>Barry</surname><given-names>Robert L</given-names></name>
+        <name><surname>Barth</surname><given-names>Markus</given-names></name>
+        <name><surname>Battiston</surname><given-names>Marco</given-names></name>
+        <name><surname>Büchel</surname><given-names>Christian</given-names></name>
+        <name><surname>others</surname></name>
+      </person-group>
+      <article-title>Open-access quantitative MRI data of the spinal cord and reproducibility across participants, sites and manufacturers</article-title>
+      <source>Scientific data</source>
+      <publisher-name>Nature Publishing Group UK London</publisher-name>
+      <year iso-8601-date="2021">2021</year>
+      <volume>8</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1038/s41597-021-01044-0</pub-id>
+      <fpage>219</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Cordes2020-vz">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Cordes</surname><given-names>Cristoffer</given-names></name>
+        <name><surname>Konstandin</surname><given-names>Simon</given-names></name>
+        <name><surname>Porter</surname><given-names>David</given-names></name>
+        <name><surname>Günther</surname><given-names>Matthias</given-names></name>
+      </person-group>
+      <article-title>Portable and platform-independent MR pulse sequence programs</article-title>
+      <source>Magnetic Resonance in Medicine</source>
+      <publisher-name>Wiley</publisher-name>
+      <year iso-8601-date="2020-04">2020</year><month>04</month>
+      <volume>83</volume>
+      <issue>4</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.28020</pub-id>
+      <fpage>1277</fpage>
+      <lpage>1290</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Cousineau2017-ce">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Cousineau</surname><given-names>Martin</given-names></name>
+        <name><surname>Jodoin</surname><given-names>Pierre-Marc</given-names></name>
+        <name><surname>Garyfallidis</surname><given-names>Eleftherios</given-names></name>
+        <name><surname>Côté</surname><given-names>Marc-Alexandre</given-names></name>
+        <name><surname>Morency</surname><given-names>Félix C</given-names></name>
+        <name><surname>Rozanski</surname><given-names>Verena</given-names></name>
+        <name><surname>Grand’Maison</surname><given-names>Marilyn</given-names></name>
+        <name><surname>Bedell</surname><given-names>Barry J</given-names></name>
+        <name><surname>Descoteaux</surname><given-names>Maxime</given-names></name>
+      </person-group>
+      <article-title>A test-retest study on Parkinson’s PPMI dataset yields statistically significant white matter fascicles</article-title>
+      <source>NeuroImage: Clinical</source>
+      <year iso-8601-date="2017-01">2017</year><month>01</month>
+      <volume>16</volume>
+      <pub-id pub-id-type="doi">10.1016/j.nicl.2017.07.020</pub-id>
+      <fpage>222</fpage>
+      <lpage>233</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Davis1998-lr">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Davis</surname><given-names>Timothy L</given-names></name>
+        <name><surname>Kwong</surname><given-names>Kenneth K</given-names></name>
+        <name><surname>Weisskoff</surname><given-names>Robert M</given-names></name>
+        <name><surname>Rosen</surname><given-names>Bruce R</given-names></name>
+      </person-group>
+      <article-title>Calibrated functional MRI: Mapping the dynamics of oxidative metabolism</article-title>
+      <source>Proceedings of the National Academy of Sciences</source>
+      <year iso-8601-date="1998">1998</year>
+      <volume>95</volume>
+      <issue>4</issue>
+      <pub-id pub-id-type="doi">10.1073/pnas.95.4.1834</pub-id>
+      <fpage>1834</fpage>
+      <lpage>1839</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-DeLeener2017-yq">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>De Leener</surname><given-names>Benjamin</given-names></name>
+        <name><surname>Lévy</surname><given-names>Simon</given-names></name>
+        <name><surname>Dupont</surname><given-names>Sara M</given-names></name>
+        <name><surname>Fonov</surname><given-names>Vladimir S</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Louis Collins</surname><given-names>D</given-names></name>
+        <name><surname>Callot</surname><given-names>Virginie</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+      </person-group>
+      <article-title>SCT: Spinal Cord Toolbox, an open-source software for processing spinal cord MRI data</article-title>
+      <source>Neuroimage</source>
+      <year iso-8601-date="2017-01">2017</year><month>01</month>
+      <volume>145</volume>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2016.10.009</pub-id>
+      <fpage>24</fpage>
+      <lpage>43</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-DeLeener2018-yb">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>De Leener</surname><given-names>Benjamin</given-names></name>
+        <name><surname>Fonov</surname><given-names>Vladimir S</given-names></name>
+        <name><surname>Collins</surname><given-names>D Louis</given-names></name>
+        <name><surname>Callot</surname><given-names>Virginie</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+      </person-group>
+      <article-title>PAM50: Unbiased multimodal template of the brainstem and spinal cord aligned with the ICBM152 space</article-title>
+      <source>Neuroimage</source>
+      <year iso-8601-date="2018-01">2018</year><month>01</month>
+      <volume>165</volume>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2017.10.041</pub-id>
+      <fpage>170</fpage>
+      <lpage>179</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Desikan2006-jc">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Desikan</surname><given-names>Rahul S</given-names></name>
+        <name><surname>Ségonne</surname><given-names>Florent</given-names></name>
+        <name><surname>Fischl</surname><given-names>Bruce</given-names></name>
+        <name><surname>Quinn</surname><given-names>Brian T</given-names></name>
+        <name><surname>Dickerson</surname><given-names>Bradford C</given-names></name>
+        <name><surname>Blacker</surname><given-names>Deborah</given-names></name>
+        <name><surname>Buckner</surname><given-names>Randy L</given-names></name>
+        <name><surname>Dale</surname><given-names>Anders M</given-names></name>
+        <name><surname>Maguire</surname><given-names>R Paul</given-names></name>
+        <name><surname>Hyman</surname><given-names>Bradley T</given-names></name>
+        <name><surname>Albert</surname><given-names>Marilyn S</given-names></name>
+        <name><surname>Killiany</surname><given-names>Ronald J</given-names></name>
+      </person-group>
+      <article-title>An automated labeling system for subdividing the human cerebral cortex on MRI scans into gyral based regions of interest</article-title>
+      <source>Neuroimage</source>
+      <year iso-8601-date="2006-07">2006</year><month>07</month>
+      <volume>31</volume>
+      <issue>3</issue>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2006.01.021</pub-id>
+      <fpage>968</fpage>
+      <lpage>980</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-DiTommaso2017-qk">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Di Tommaso</surname><given-names>Paolo</given-names></name>
+        <name><surname>Chatzou</surname><given-names>Maria</given-names></name>
+        <name><surname>Floden</surname><given-names>Evan W</given-names></name>
+        <name><surname>Barja</surname><given-names>Pablo Prieto</given-names></name>
+        <name><surname>Palumbo</surname><given-names>Emilio</given-names></name>
+        <name><surname>Notredame</surname><given-names>Cedric</given-names></name>
+      </person-group>
+      <article-title>Nextflow enables reproducible computational workflows</article-title>
+      <source>Nature Biotechnology</source>
+      <publisher-name>Nature Publishing Group</publisher-name>
+      <year iso-8601-date="2017-04">2017</year><month>04</month>
+      <volume>35</volume>
+      <issue>4</issue>
+      <pub-id pub-id-type="doi">10.1038/nbt.3820</pub-id>
+      <fpage>316</fpage>
+      <lpage>319</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Duchesne2019-ls">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Duchesne</surname><given-names>Simon</given-names></name>
+        <name><surname>Dieumegarde</surname><given-names>Louis</given-names></name>
+        <name><surname>Chouinard</surname><given-names>Isabelle</given-names></name>
+        <name><surname>Farokhian</surname><given-names>Farnaz</given-names></name>
+        <name><surname>Badhwar</surname><given-names>Amanpreet</given-names></name>
+        <name><surname>Bellec</surname><given-names>Pierre</given-names></name>
+        <name><surname>Tétreault</surname><given-names>Pascal</given-names></name>
+        <name><surname>Descoteaux</surname><given-names>Maxime</given-names></name>
+        <name><surname>Boré</surname><given-names>Arnaud</given-names></name>
+        <name><surname>Houde</surname><given-names>Jean-Christophe</given-names></name>
+        <name><surname>Beaulieu</surname><given-names>Christian</given-names></name>
+        <name><surname>Potvin</surname><given-names>Olivier</given-names></name>
+      </person-group>
+      <article-title>Structural and functional multi-platform MRI series of a single human volunteer over more than fifteen years</article-title>
+      <source>Scientific Data</source>
+      <publisher-name>Nature Publishing Group</publisher-name>
+      <year iso-8601-date="2019-10">2019</year><month>10</month>
+      <volume>6</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1038/s41597-019-0262-8</pub-id>
+      <fpage>1</fpage>
+      <lpage>9</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Erramuzpe2021-rw">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Erramuzpe</surname><given-names>A</given-names></name>
+        <name><surname>Schurr</surname><given-names>R</given-names></name>
+        <name><surname>Yeatman</surname><given-names>J D</given-names></name>
+        <name><surname>Gotlib</surname><given-names>I H</given-names></name>
+        <name><surname>Sacchet</surname><given-names>M D</given-names></name>
+        <name><surname>Travis</surname><given-names>K E</given-names></name>
+        <name><surname>Feldman</surname><given-names>H M</given-names></name>
+        <name><surname>Mezer</surname><given-names>A A</given-names></name>
+      </person-group>
+      <article-title>A comparison of quantitative R1 and cortical thickness in identifying age, lifespan dynamics, and disease states of the human cortex</article-title>
+      <source>Cerebral Cortex</source>
+      <year iso-8601-date="2021-01">2021</year><month>01</month>
+      <volume>31</volume>
+      <issue>2</issue>
+      <pub-id pub-id-type="doi">10.1093/cercor/bhaa288</pub-id>
+      <fpage>1211</fpage>
+      <lpage>1226</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Esteban2022-pi">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Esteban</surname><given-names>Oscar</given-names></name>
+        <name><surname>Markiewicz</surname><given-names>Christopher J</given-names></name>
+        <name><surname>Blair</surname><given-names>Ross</given-names></name>
+        <name><surname>Poldrack</surname><given-names>Russell A</given-names></name>
+        <name><surname>Gorgolewski</surname><given-names>Krzysztof J</given-names></name>
+      </person-group>
+      <article-title>sMRIPrep: Structural MRI PREProcessing workflows</article-title>
+      <year iso-8601-date="2022-11">2022</year><month>11</month>
+    </element-citation>
+  </ref>
+  <ref id="ref-Garyfallidis2014-gu">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Garyfallidis</surname><given-names>Eleftherios</given-names></name>
+        <name><surname>Brett</surname><given-names>Matthew</given-names></name>
+        <name><surname>Amirbekian</surname><given-names>Bagrat</given-names></name>
+        <name><surname>Rokem</surname><given-names>Ariel</given-names></name>
+        <name><surname>van der Walt</surname><given-names>Stefan</given-names></name>
+        <name><surname>Descoteaux</surname><given-names>Maxime</given-names></name>
+        <name><surname>Nimmo-Smith</surname><given-names>Ian</given-names></name>
+        <string-name>Dipy Contributors</string-name>
+      </person-group>
+      <article-title>Dipy, a library for the analysis of diffusion MRI data</article-title>
+      <source>Frontiers in Neuroinformatics</source>
+      <year iso-8601-date="2014-02">2014</year><month>02</month>
+      <volume>8</volume>
+      <pub-id pub-id-type="doi">10.3389/fninf.2014.00008</pub-id>
+      <fpage>8</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Ge2002-fz">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Ge</surname><given-names>Yulin</given-names></name>
+        <name><surname>Grossman</surname><given-names>Robert I</given-names></name>
+        <name><surname>Babb</surname><given-names>James S</given-names></name>
+        <name><surname>Rabin</surname><given-names>Marcie L</given-names></name>
+        <name><surname>Mannon</surname><given-names>Lois J</given-names></name>
+        <name><surname>Kolson</surname><given-names>Dennis L</given-names></name>
+      </person-group>
+      <article-title>Age-related total gray matter and white matter changes in normal adult brain. Part II: Quantitative magnetization transfer ratio histogram analysis</article-title>
+      <source>AJNR: American Journal of Neuroradiology</source>
+      <year iso-8601-date="2002-09">2002</year><month>09</month>
+      <volume>23</volume>
+      <issue>8</issue>
+      <fpage>1334</fpage>
+      <lpage>1341</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Golay2022-zr">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Golay</surname><given-names>Xavier</given-names></name>
+        <name><surname>Oliver-Taylor</surname><given-names>Aaron</given-names></name>
+      </person-group>
+      <article-title>Phantom for Multi-Parametric calibration in magnetic resonance imaging</article-title>
+      <year iso-8601-date="2022-07">2022</year><month>07</month>
+    </element-citation>
+  </ref>
+  <ref id="ref-Gorgolewski2016-xt">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Gorgolewski</surname><given-names>Krzysztof J</given-names></name>
+        <name><surname>Auer</surname><given-names>Tibor</given-names></name>
+        <name><surname>Calhoun</surname><given-names>Vince D</given-names></name>
+        <name><surname>Craddock</surname><given-names>R Cameron</given-names></name>
+        <name><surname>Das</surname><given-names>Samir</given-names></name>
+        <name><surname>Duff</surname><given-names>Eugene P</given-names></name>
+        <name><surname>Flandin</surname><given-names>Guillaume</given-names></name>
+        <name><surname>Ghosh</surname><given-names>Satrajit S</given-names></name>
+        <name><surname>Glatard</surname><given-names>Tristan</given-names></name>
+        <name><surname>Halchenko</surname><given-names>Yaroslav O</given-names></name>
+        <name><surname>Handwerker</surname><given-names>Daniel A</given-names></name>
+        <name><surname>Hanke</surname><given-names>Michael</given-names></name>
+        <name><surname>Keator</surname><given-names>David</given-names></name>
+        <name><surname>Li</surname><given-names>Xiangrui</given-names></name>
+        <name><surname>Michael</surname><given-names>Zachary</given-names></name>
+        <name><surname>Maumet</surname><given-names>Camille</given-names></name>
+        <name><surname>Nichols</surname><given-names>B Nolan</given-names></name>
+        <name><surname>Nichols</surname><given-names>Thomas E</given-names></name>
+        <name><surname>Pellman</surname><given-names>John</given-names></name>
+        <name><surname>Poline</surname><given-names>Jean-Baptiste</given-names></name>
+        <name><surname>Rokem</surname><given-names>Ariel</given-names></name>
+        <name><surname>Schaefer</surname><given-names>Gunnar</given-names></name>
+        <name><surname>Sochat</surname><given-names>Vanessa</given-names></name>
+        <name><surname>Triplett</surname><given-names>William</given-names></name>
+        <name><surname>Turner</surname><given-names>Jessica A</given-names></name>
+        <name><surname>Varoquaux</surname><given-names>Gaël</given-names></name>
+        <name><surname>Poldrack</surname><given-names>Russell A</given-names></name>
+      </person-group>
+      <article-title>The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments</article-title>
+      <source>Scientific Data</source>
+      <publisher-name>Nature Publishing Group</publisher-name>
+      <year iso-8601-date="2016-06">2016</year><month>06</month>
+      <volume>3</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1038/sdata.2016.44</pub-id>
+      <fpage>1</fpage>
+      <lpage>9</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Gracien2017-un">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Gracien</surname><given-names>René-Maxime</given-names></name>
+        <name><surname>Nürnberger</surname><given-names>Lucas</given-names></name>
+        <name><surname>Hok</surname><given-names>Pavel</given-names></name>
+        <name><surname>Hof</surname><given-names>Stephanie-Michelle</given-names></name>
+        <name><surname>Reitz</surname><given-names>Sarah C</given-names></name>
+        <name><surname>Rüb</surname><given-names>Udo</given-names></name>
+        <name><surname>Steinmetz</surname><given-names>Helmuth</given-names></name>
+        <name><surname>Hilker-Roggendorf</surname><given-names>Rüdiger</given-names></name>
+        <name><surname>Klein</surname><given-names>Johannes C</given-names></name>
+        <name><surname>Deichmann</surname><given-names>Ralf</given-names></name>
+        <name><surname>Baudrexel</surname><given-names>Simon</given-names></name>
+      </person-group>
+      <article-title>Evaluation of brain ageing: A quantitative longitudinal MRI study over 7 years</article-title>
+      <source>European Radiology</source>
+      <year iso-8601-date="2017-04">2017</year><month>04</month>
+      <volume>27</volume>
+      <issue>4</issue>
+      <pub-id pub-id-type="doi">10.1007/s00330-016-4485-1</pub-id>
+      <fpage>1568</fpage>
+      <lpage>1576</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Gracien2020-js">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Gracien</surname><given-names>René-Maxime</given-names></name>
+        <name><surname>Maiworm</surname><given-names>Michelle</given-names></name>
+        <name><surname>Brüche</surname><given-names>Nadine</given-names></name>
+        <name><surname>Shrestha</surname><given-names>Manoj</given-names></name>
+        <name><surname>Nöth</surname><given-names>Ulrike</given-names></name>
+        <name><surname>Hattingen</surname><given-names>Elke</given-names></name>
+        <name><surname>Wagner</surname><given-names>Marlies</given-names></name>
+        <name><surname>Deichmann</surname><given-names>Ralf</given-names></name>
+      </person-group>
+      <article-title>How stable is quantitative MRI? - Assessment of intra- and inter-scanner-model reproducibility using identical acquisition sequences and data analysis programs</article-title>
+      <source>Neuroimage</source>
+      <year iso-8601-date="2020-02">2020</year><month>02</month>
+      <volume>207</volume>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2019.116364</pub-id>
+      <fpage>116364</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Gros2019-ss">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Gros</surname><given-names>Charley</given-names></name>
+        <name><surname>De Leener</surname><given-names>Benjamin</given-names></name>
+        <name><surname>Badji</surname><given-names>Atef</given-names></name>
+        <name><surname>Maranzano</surname><given-names>Josefina</given-names></name>
+        <name><surname>Eden</surname><given-names>Dominique</given-names></name>
+        <name><surname>Dupont</surname><given-names>Sara M</given-names></name>
+        <name><surname>Talbott</surname><given-names>Jason</given-names></name>
+        <name><surname>Zhuoquiong</surname><given-names>Ren</given-names></name>
+        <name><surname>Liu</surname><given-names>Yaou</given-names></name>
+        <name><surname>Granberg</surname><given-names>Tobias</given-names></name>
+        <name><surname>Ouellette</surname><given-names>Russell</given-names></name>
+        <name><surname>Tachibana</surname><given-names>Yasuhiko</given-names></name>
+        <name><surname>Hori</surname><given-names>Masaaki</given-names></name>
+        <name><surname>Kamiya</surname><given-names>Kouhei</given-names></name>
+        <name><surname>Chougar</surname><given-names>Lydia</given-names></name>
+        <name><surname>Stawiarz</surname><given-names>Leszek</given-names></name>
+        <name><surname>Hillert</surname><given-names>Jan</given-names></name>
+        <name><surname>Bannier</surname><given-names>Elise</given-names></name>
+        <name><surname>Kerbrat</surname><given-names>Anne</given-names></name>
+        <name><surname>Edan</surname><given-names>Gilles</given-names></name>
+        <name><surname>Labauge</surname><given-names>Pierre</given-names></name>
+        <name><surname>Callot</surname><given-names>Virginie</given-names></name>
+        <name><surname>Pelletier</surname><given-names>Jean</given-names></name>
+        <name><surname>Audoin</surname><given-names>Bertrand</given-names></name>
+        <name><surname>Rasoanandrianina</surname><given-names>Henitsoa</given-names></name>
+        <name><surname>Brisset</surname><given-names>Jean-Christophe</given-names></name>
+        <name><surname>Valsasina</surname><given-names>Paola</given-names></name>
+        <name><surname>Rocca</surname><given-names>Maria A</given-names></name>
+        <name><surname>Filippi</surname><given-names>Massimo</given-names></name>
+        <name><surname>Bakshi</surname><given-names>Rohit</given-names></name>
+        <name><surname>Tauhid</surname><given-names>Shahamat</given-names></name>
+        <name><surname>Prados</surname><given-names>Ferran</given-names></name>
+        <name><surname>Yiannakas</surname><given-names>Marios</given-names></name>
+        <name><surname>Kearney</surname><given-names>Hugh</given-names></name>
+        <name><surname>Ciccarelli</surname><given-names>Olga</given-names></name>
+        <name><surname>Smith</surname><given-names>Seth</given-names></name>
+        <name><surname>Treaba</surname><given-names>Constantina Andrada</given-names></name>
+        <name><surname>Mainero</surname><given-names>Caterina</given-names></name>
+        <name><surname>Lefeuvre</surname><given-names>Jennifer</given-names></name>
+        <name><surname>Reich</surname><given-names>Daniel S</given-names></name>
+        <name><surname>Nair</surname><given-names>Govind</given-names></name>
+        <name><surname>Auclair</surname><given-names>Vincent</given-names></name>
+        <name><surname>McLaren</surname><given-names>Donald G</given-names></name>
+        <name><surname>Martin</surname><given-names>Allan R</given-names></name>
+        <name><surname>Fehlings</surname><given-names>Michael G</given-names></name>
+        <name><surname>Vahdat</surname><given-names>Shahabeddin</given-names></name>
+        <name><surname>Khatibi</surname><given-names>Ali</given-names></name>
+        <name><surname>Doyon</surname><given-names>Julien</given-names></name>
+        <name><surname>Shepherd</surname><given-names>Timothy</given-names></name>
+        <name><surname>Charlson</surname><given-names>Erik</given-names></name>
+        <name><surname>Narayanan</surname><given-names>Sridar</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+      </person-group>
+      <article-title>Automatic segmentation of the spinal cord and intramedullary multiple sclerosis lesions with convolutional neural networks</article-title>
+      <source>Neuroimage</source>
+      <year iso-8601-date="2019-01">2019</year><month>01</month>
+      <volume>184</volume>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2018.09.081</pub-id>
+      <fpage>901</fpage>
+      <lpage>915</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Hagiwara2019-pg">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Hagiwara</surname><given-names>Akifumi</given-names></name>
+        <name><surname>Hori</surname><given-names>Masaaki</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+        <name><surname>Nakazawa</surname><given-names>Misaki</given-names></name>
+        <name><surname>Suzuki</surname><given-names>Yuichi</given-names></name>
+        <name><surname>Kasahara</surname><given-names>Akihiro</given-names></name>
+        <name><surname>Horita</surname><given-names>Moeko</given-names></name>
+        <name><surname>Haruyama</surname><given-names>Takuya</given-names></name>
+        <name><surname>Andica</surname><given-names>Christina</given-names></name>
+        <name><surname>Maekawa</surname><given-names>Tomoko</given-names></name>
+        <name><surname>Kamagata</surname><given-names>Koji</given-names></name>
+        <name><surname>Kumamaru</surname><given-names>Kanako Kunishima</given-names></name>
+        <name><surname>Abe</surname><given-names>Osamu</given-names></name>
+        <name><surname>Aoki</surname><given-names>Shigeki</given-names></name>
+      </person-group>
+      <article-title>Linearity, bias, intrascanner repeatability, and interscanner reproducibility of quantitative multidynamic multiecho sequence for rapid simultaneous relaxometry at 3 T: A validation study with a standardized phantom and healthy controls</article-title>
+      <source>Investigative Radiology</source>
+      <year iso-8601-date="2019-01">2019</year><month>01</month>
+      <volume>54</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1097/RLI.0000000000000510</pub-id>
+      <fpage>39</fpage>
+      <lpage>47</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Hagiwara2021-bz">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Hagiwara</surname><given-names>Akifumi</given-names></name>
+        <name><surname>Fujimoto</surname><given-names>Kotaro</given-names></name>
+        <name><surname>Kamagata</surname><given-names>Koji</given-names></name>
+        <name><surname>Murata</surname><given-names>Syo</given-names></name>
+        <name><surname>Irie</surname><given-names>Ryusuke</given-names></name>
+        <name><surname>Kaga</surname><given-names>Hideyoshi</given-names></name>
+        <name><surname>Someya</surname><given-names>Yuki</given-names></name>
+        <name><surname>Andica</surname><given-names>Christina</given-names></name>
+        <name><surname>Fujita</surname><given-names>Shohei</given-names></name>
+        <name><surname>Kato</surname><given-names>Shimpei</given-names></name>
+        <name><surname>Fukunaga</surname><given-names>Issei</given-names></name>
+        <name><surname>Wada</surname><given-names>Akihiko</given-names></name>
+        <name><surname>Hori</surname><given-names>Masaaki</given-names></name>
+        <name><surname>Tamura</surname><given-names>Yoshifumi</given-names></name>
+        <name><surname>Kawamori</surname><given-names>Ryuzo</given-names></name>
+        <name><surname>Watada</surname><given-names>Hirotaka</given-names></name>
+        <name><surname>Aoki</surname><given-names>Shigeki</given-names></name>
+      </person-group>
+      <article-title>Age-Related changes in relaxation times, proton density, myelin, and tissue volumes in adult brain analyzed by 2-Dimensional quantitative synthetic magnetic resonance imaging</article-title>
+      <source>Investigative Radiology</source>
+      <year iso-8601-date="2021-03">2021</year><month>03</month>
+      <volume>56</volume>
+      <issue>3</issue>
+      <pub-id pub-id-type="doi">10.1097/RLI.0000000000000720</pub-id>
+      <fpage>163</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Halchenko2021-wz">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Halchenko</surname><given-names>Yaroslav</given-names></name>
+        <name><surname>Meyer</surname><given-names>Kyle</given-names></name>
+        <name><surname>Poldrack</surname><given-names>Benjamin</given-names></name>
+        <name><surname>Solanky</surname><given-names>Debanjum</given-names></name>
+        <name><surname>Wagner</surname><given-names>Adina</given-names></name>
+        <name><surname>Gors</surname><given-names>Jason</given-names></name>
+        <name><surname>MacFarlane</surname><given-names>Dave</given-names></name>
+        <name><surname>Pustina</surname><given-names>Dorian</given-names></name>
+        <name><surname>Sochat</surname><given-names>Vanessa</given-names></name>
+        <name><surname>Ghosh</surname><given-names>Satrajit</given-names></name>
+        <name><surname>Mönch</surname><given-names>Christian</given-names></name>
+        <name><surname>Markiewicz</surname><given-names>Christopher</given-names></name>
+        <name><surname>Waite</surname><given-names>Laura</given-names></name>
+        <name><surname>Shlyakhter</surname><given-names>Ilya</given-names></name>
+        <name><surname>de la Vega</surname><given-names>Alejandro</given-names></name>
+        <name><surname>Hayashi</surname><given-names>Soichi</given-names></name>
+        <name><surname>Häusler</surname><given-names>Christian</given-names></name>
+        <name><surname>Poline</surname><given-names>Jean-Baptiste</given-names></name>
+        <name><surname>Kadelka</surname><given-names>Tobias</given-names></name>
+        <name><surname>Skytén</surname><given-names>Kusti</given-names></name>
+        <name><surname>Jarecka</surname><given-names>Dorota</given-names></name>
+        <name><surname>Kennedy</surname><given-names>David</given-names></name>
+        <name><surname>Strauss</surname><given-names>Ted</given-names></name>
+        <name><surname>Cieslak</surname><given-names>Matt</given-names></name>
+        <name><surname>Vavra</surname><given-names>Peter</given-names></name>
+        <name><surname>Ioanas</surname><given-names>Horea-Ioan</given-names></name>
+        <name><surname>Schneider</surname><given-names>Robin</given-names></name>
+        <name><surname>Pflüger</surname><given-names>Mika</given-names></name>
+        <name><surname>Haxby</surname><given-names>James</given-names></name>
+        <name><surname>Eickhoff</surname><given-names>Simon</given-names></name>
+        <name><surname>Hanke</surname><given-names>Michael</given-names></name>
+      </person-group>
+      <article-title>DataLad: Distributed system for joint management of code, data, and their relationship</article-title>
+      <source>J. Open Source Softw.</source>
+      <publisher-name>The Open Journal</publisher-name>
+      <year iso-8601-date="2021-07">2021</year><month>07</month>
+      <volume>6</volume>
+      <issue>63</issue>
+      <pub-id pub-id-type="doi">10.21105/joss.03262</pub-id>
+      <fpage>3262</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Herz2021-pu">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Herz</surname><given-names>Kai</given-names></name>
+        <name><surname>Mueller</surname><given-names>Sebastian</given-names></name>
+        <name><surname>Perlman</surname><given-names>Or</given-names></name>
+        <name><surname>Zaitsev</surname><given-names>Maxim</given-names></name>
+        <name><surname>Knutsson</surname><given-names>Linda</given-names></name>
+        <name><surname>Sun</surname><given-names>Phillip Zhe</given-names></name>
+        <name><surname>Zhou</surname><given-names>Jinyuan</given-names></name>
+        <name><surname>van Zijl</surname><given-names>Peter</given-names></name>
+        <name><surname>Heinecke</surname><given-names>Kerstin</given-names></name>
+        <name><surname>Schuenke</surname><given-names>Patrick</given-names></name>
+        <name><surname>others</surname></name>
+      </person-group>
+      <article-title>Pulseq-CEST: Towards multi-site multi-vendor compatibility and reproducibility of CEST experiments using an open-source sequence standard</article-title>
+      <source>Magnetic resonance in medicine</source>
+      <publisher-name>Wiley Online Library</publisher-name>
+      <year iso-8601-date="2021">2021</year>
+      <volume>86</volume>
+      <issue>4</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.28825</pub-id>
+      <fpage>1845</fpage>
+      <lpage>1858</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Karakuzu2020-ul">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>Boudreau</surname><given-names>Mathieu</given-names></name>
+        <name><surname>Duval</surname><given-names>Tanguy</given-names></name>
+        <name><surname>Boshkovski</surname><given-names>Tommy</given-names></name>
+        <name><surname>Leppert</surname><given-names>Ilana</given-names></name>
+        <name><surname>Cabana</surname><given-names>Jean-François</given-names></name>
+        <name><surname>Gagnon</surname><given-names>Ian</given-names></name>
+        <name><surname>Beliveau</surname><given-names>Pascale</given-names></name>
+        <name><surname>Pike</surname><given-names>G</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+      </person-group>
+      <article-title>qMRLab: Quantitative MRI analysis, under one umbrella</article-title>
+      <source>J. Open Source Softw.</source>
+      <publisher-name>The Open Journal</publisher-name>
+      <year iso-8601-date="2020-09">2020</year><month>09</month>
+      <volume>5</volume>
+      <issue>53</issue>
+      <pub-id pub-id-type="doi">10.21105/joss.02343</pub-id>
+      <fpage>2343</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Karakuzu2022-af">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>Biswas</surname><given-names>Labonny</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+      </person-group>
+      <article-title>Vendor-neutral sequences and fully transparent workflows improve inter-vendor reproducibility of quantitative MRI</article-title>
+      <source>Magnetic Resonance in Medicine</source>
+      <year iso-8601-date="2022-09">2022</year><month>09</month>
+      <volume>88</volume>
+      <issue>3</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.29292</pub-id>
+      <fpage>1212</fpage>
+      <lpage>1228</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Karakuzu2022-dq">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>Appelhoff</surname><given-names>Stefan</given-names></name>
+        <name><surname>Auer</surname><given-names>Tibor</given-names></name>
+        <name><surname>Boudreau</surname><given-names>Mathieu</given-names></name>
+        <name><surname>Feingold</surname><given-names>Franklin</given-names></name>
+        <name><surname>Khan</surname><given-names>Ali R</given-names></name>
+        <name><surname>Lazari</surname><given-names>Alberto</given-names></name>
+        <name><surname>Markiewicz</surname><given-names>Chris</given-names></name>
+        <name><surname>Mulder</surname><given-names>Martijn</given-names></name>
+        <name><surname>Phillips</surname><given-names>Christophe</given-names></name>
+        <name><surname>Salo</surname><given-names>Taylor</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Whitaker</surname><given-names>Kirstie</given-names></name>
+        <name><surname>de Hollander</surname><given-names>Gilles</given-names></name>
+      </person-group>
+      <article-title>qMRI-BIDS: An extension to the brain imaging data structure for quantitative magnetic resonance imaging data</article-title>
+      <source>Scientific data</source>
+      <year iso-8601-date="2022-08">2022</year><month>08</month>
+      <volume>9</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1038/s41597-022-01571-4</pub-id>
+      <fpage>517</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Keenan2018-px">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Keenan</surname><given-names>Kathryn E</given-names></name>
+        <name><surname>Ainslie</surname><given-names>Maureen</given-names></name>
+        <name><surname>Barker</surname><given-names>Alex J</given-names></name>
+        <name><surname>Boss</surname><given-names>Michael A</given-names></name>
+        <name><surname>Cecil</surname><given-names>Kim M</given-names></name>
+        <name><surname>Charles</surname><given-names>Cecil</given-names></name>
+        <name><surname>Chenevert</surname><given-names>Thomas L</given-names></name>
+        <name><surname>Clarke</surname><given-names>Larry</given-names></name>
+        <name><surname>Evelhoch</surname><given-names>Jeffrey L</given-names></name>
+        <name><surname>Finn</surname><given-names>Paul</given-names></name>
+        <name><surname>Gembris</surname><given-names>Daniel</given-names></name>
+        <name><surname>Gunter</surname><given-names>Jeffrey L</given-names></name>
+        <name><surname>Hill</surname><given-names>Derek L G</given-names></name>
+        <name><surname>Jack</surname><given-names>Clifford R</given-names><suffix>Jr</suffix></name>
+        <name><surname>Jackson</surname><given-names>Edward F</given-names></name>
+        <name><surname>Liu</surname><given-names>Guoying</given-names></name>
+        <name><surname>Russek</surname><given-names>Stephen E</given-names></name>
+        <name><surname>Sharma</surname><given-names>Samir D</given-names></name>
+        <name><surname>Steckner</surname><given-names>Michael</given-names></name>
+        <name><surname>Stupic</surname><given-names>Karl F</given-names></name>
+        <name><surname>Trzasko</surname><given-names>Joshua D</given-names></name>
+        <name><surname>Yuan</surname><given-names>Chun</given-names></name>
+        <name><surname>Zheng</surname><given-names>Jie</given-names></name>
+      </person-group>
+      <article-title>Quantitative magnetic resonance imaging phantoms: A review and the need for a system phantom</article-title>
+      <source>Magnetic Resonance in Medicine</source>
+      <year iso-8601-date="2018-01">2018</year><month>01</month>
+      <volume>79</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.26982</pub-id>
+      <fpage>48</fpage>
+      <lpage>61</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Keenan2021-ly">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Keenan</surname><given-names>Kathryn E</given-names></name>
+        <name><surname>Gimbutas</surname><given-names>Zydrunas</given-names></name>
+        <name><surname>Dienstfrey</surname><given-names>Andrew</given-names></name>
+        <name><surname>Stupic</surname><given-names>Karl F</given-names></name>
+        <name><surname>Boss</surname><given-names>Michael A</given-names></name>
+        <name><surname>Russek</surname><given-names>Stephen E</given-names></name>
+        <name><surname>Chenevert</surname><given-names>Thomas L</given-names></name>
+        <name><surname>Prasad</surname><given-names>P V</given-names></name>
+        <name><surname>Guo</surname><given-names>Junyu</given-names></name>
+        <name><surname>Reddick</surname><given-names>Wilburn E</given-names></name>
+        <name><surname>Cecil</surname><given-names>Kim M</given-names></name>
+        <name><surname>Shukla-Dave</surname><given-names>Amita</given-names></name>
+        <name><surname>Aramburu Nunez</surname><given-names>David</given-names></name>
+        <name><surname>Shridhar Konar</surname><given-names>Amaresh</given-names></name>
+        <name><surname>Liu</surname><given-names>Michael Z</given-names></name>
+        <name><surname>Jambawalikar</surname><given-names>Sachin R</given-names></name>
+        <name><surname>Schwartz</surname><given-names>Lawrence H</given-names></name>
+        <name><surname>Zheng</surname><given-names>Jie</given-names></name>
+        <name><surname>Hu</surname><given-names>Peng</given-names></name>
+        <name><surname>Jackson</surname><given-names>Edward F</given-names></name>
+      </person-group>
+      <article-title>Multi-site, multi-platform comparison of MRI T1 measurement using the system phantom</article-title>
+      <source>PLoS One</source>
+      <year iso-8601-date="2021-06">2021</year><month>06</month>
+      <volume>16</volume>
+      <issue>6</issue>
+      <pub-id pub-id-type="doi">10.1371/journal.pone.0252966</pub-id>
+      <fpage>e0252966</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Layton2017-qz">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Layton</surname><given-names>Kelvin J</given-names></name>
+        <name><surname>Kroboth</surname><given-names>Stefan</given-names></name>
+        <name><surname>Jia</surname><given-names>Feng</given-names></name>
+        <name><surname>Littin</surname><given-names>Sebastian</given-names></name>
+        <name><surname>Yu</surname><given-names>Huijun</given-names></name>
+        <name><surname>Leupold</surname><given-names>Jochen</given-names></name>
+        <name><surname>Nielsen</surname><given-names>Jon-Fredrik</given-names></name>
+        <name><surname>Stöcker</surname><given-names>Tony</given-names></name>
+        <name><surname>Zaitsev</surname><given-names>Maxim</given-names></name>
+      </person-group>
+      <article-title>Pulseq: A rapid and hardware-independent pulse sequence prototyping framework</article-title>
+      <source>Magnetic Resonance in Medicine</source>
+      <publisher-name>Wiley</publisher-name>
+      <year iso-8601-date="2017-04">2017</year><month>04</month>
+      <volume>77</volume>
+      <issue>4</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.26235</pub-id>
+      <fpage>1544</fpage>
+      <lpage>1552</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Lee2019-tn">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Lee</surname><given-names>Yoojin</given-names></name>
+        <name><surname>Callaghan</surname><given-names>Martina F</given-names></name>
+        <name><surname>Acosta-Cabronero</surname><given-names>Julio</given-names></name>
+        <name><surname>Lutti</surname><given-names>Antoine</given-names></name>
+        <name><surname>Nagy</surname><given-names>Zoltan</given-names></name>
+      </person-group>
+      <article-title>Establishing intra- and inter-vendor reproducibility of T1 relaxation time measurements with 3T MRI</article-title>
+      <source>Magnetic Resonance in Medicine</source>
+      <year iso-8601-date="2019-01">2019</year><month>01</month>
+      <volume>81</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.27421</pub-id>
+      <fpage>454</fpage>
+      <lpage>465</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Levy2015-tt">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Lévy</surname><given-names>S</given-names></name>
+        <name><surname>Benhamou</surname><given-names>M</given-names></name>
+        <name><surname>Naaman</surname><given-names>C</given-names></name>
+        <name><surname>Rainville</surname><given-names>P</given-names></name>
+        <name><surname>Callot</surname><given-names>V</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>J</given-names></name>
+      </person-group>
+      <article-title>White matter atlas of the human spinal cord with estimation of partial volume effect</article-title>
+      <source>Neuroimage</source>
+      <year iso-8601-date="2015-10">2015</year><month>10</month>
+      <volume>119</volume>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2015.06.040</pub-id>
+      <fpage>262</fpage>
+      <lpage>271</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Levy2018-gt">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Lévy</surname><given-names>Simon</given-names></name>
+        <name><surname>Guertin</surname><given-names>Marie-Claude</given-names></name>
+        <name><surname>Khatibi</surname><given-names>Ali</given-names></name>
+        <name><surname>Mezer</surname><given-names>Aviv</given-names></name>
+        <name><surname>Martinu</surname><given-names>Kristina</given-names></name>
+        <name><surname>Chen</surname><given-names>Jen-I</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Rainville</surname><given-names>Pierre</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+      </person-group>
+      <article-title>Test-retest reliability of myelin imaging in the human spinal cord: Measurement errors versus region- and aging-induced variations</article-title>
+      <source>PLoS One</source>
+      <year iso-8601-date="2018-01">2018</year><month>01</month>
+      <volume>13</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1371/journal.pone.0189944</pub-id>
+      <fpage>e0189944</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Liden2021-el">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Lidén</surname><given-names>Mats</given-names></name>
+        <name><surname>Adrian</surname><given-names>David</given-names></name>
+        <name><surname>Widell</surname><given-names>Jonas</given-names></name>
+        <name><surname>Uggla</surname><given-names>Bertil</given-names></name>
+        <name><surname>Thunberg</surname><given-names>Per</given-names></name>
+      </person-group>
+      <article-title>Quantitative T2* imaging of iron overload in a non-dedicated center - Normal variation, repeatability and reader variation</article-title>
+      <source>European journal of radiology open</source>
+      <year iso-8601-date="2021-05">2021</year><month>05</month>
+      <volume>8</volume>
+      <pub-id pub-id-type="doi">10.1016/j.ejro.2021.100357</pub-id>
+      <fpage>100357</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Ma2013-kv">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Ma</surname><given-names>Dan</given-names></name>
+        <name><surname>Gulani</surname><given-names>Vikas</given-names></name>
+        <name><surname>Seiberlich</surname><given-names>Nicole</given-names></name>
+        <name><surname>Liu</surname><given-names>Kecheng</given-names></name>
+        <name><surname>Sunshine</surname><given-names>Jeffrey L</given-names></name>
+        <name><surname>Duerk</surname><given-names>Jeffrey L</given-names></name>
+        <name><surname>Griswold</surname><given-names>Mark A</given-names></name>
+      </person-group>
+      <article-title>Magnetic resonance fingerprinting</article-title>
+      <source>Nature</source>
+      <year iso-8601-date="2013-03">2013</year><month>03</month>
+      <volume>495</volume>
+      <issue>7440</issue>
+      <pub-id pub-id-type="doi">10.1038/nature11971</pub-id>
+      <fpage>187</fpage>
+      <lpage>192</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Ma2016-fo">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Ma</surname><given-names>Yuhan</given-names></name>
+        <name><surname>Berman</surname><given-names>Avery J L</given-names></name>
+        <name><surname>Pike</surname><given-names>G Bruce</given-names></name>
+      </person-group>
+      <article-title>The effect of dissolved oxygen on the relaxation rates of blood plasma: Implications for hyperoxia calibrated BOLD</article-title>
+      <source>Magnetic Resonance in Medicine</source>
+      <publisher-name>Wiley</publisher-name>
+      <year iso-8601-date="2016-12">2016</year><month>12</month>
+      <volume>76</volume>
+      <issue>6</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.26069</pub-id>
+      <fpage>1905</fpage>
+      <lpage>1911</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-MacDonald2021-uc">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>MacDonald</surname><given-names>M Ethan</given-names></name>
+        <name><surname>Pike</surname><given-names>G Bruce</given-names></name>
+      </person-group>
+      <article-title>MRI of healthy brain aging: A review</article-title>
+      <source>NMR in Biomedicine</source>
+      <year iso-8601-date="2021-09">2021</year><month>09</month>
+      <volume>34</volume>
+      <issue>9</issue>
+      <pub-id pub-id-type="doi">10.1002/nbm.4564</pub-id>
+      <fpage>e4564</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Mancini2020-sv">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Mancini</surname><given-names>Matteo</given-names></name>
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+        <name><surname>Cercignani</surname><given-names>Mara</given-names></name>
+        <name><surname>Nichols</surname><given-names>Thomas E</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+      </person-group>
+      <article-title>An interactive meta-analysis of MRI biomarkers of myelin</article-title>
+      <source>Elife</source>
+      <year iso-8601-date="2020-10">2020</year><month>10</month>
+      <volume>9</volume>
+      <pub-id pub-id-type="doi">10.7554/eLife.61523</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-Marques2010-po">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Marques</surname><given-names>José P</given-names></name>
+        <name><surname>Kober</surname><given-names>Tobias</given-names></name>
+        <name><surname>Krueger</surname><given-names>Gunnar</given-names></name>
+        <name><surname>van der Zwaag</surname><given-names>Wietske</given-names></name>
+        <name><surname>Van de Moortele</surname><given-names>Pierre-François</given-names></name>
+        <name><surname>Gruetter</surname><given-names>Rolf</given-names></name>
+      </person-group>
+      <article-title>MP2RAGE, a self bias-field corrected sequence for improved segmentation and T1-mapping at high field</article-title>
+      <source>NeuroImage</source>
+      <year iso-8601-date="2010">2010</year>
+      <volume>49</volume>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2009.10.002</pub-id>
+      <fpage>1271</fpage>
+      <lpage>1281</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Mazerolle2018-xy">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Mazerolle</surname><given-names>Erin L</given-names></name>
+        <name><surname>Ma</surname><given-names>Yuhan</given-names></name>
+        <name><surname>Sinclair</surname><given-names>David</given-names></name>
+        <name><surname>Pike</surname><given-names>G Bruce</given-names></name>
+      </person-group>
+      <article-title>Impact of abnormal cerebrovascular reactivity on BOLD fMRI: A preliminary investigation of moyamoya disease</article-title>
+      <source>Clinical Physiology and Functional Imaging</source>
+      <year iso-8601-date="2018-01">2018</year><month>01</month>
+      <volume>38</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1111/cpf.12387</pub-id>
+      <fpage>87</fpage>
+      <lpage>92</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Oh2021-os">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Oh</surname><given-names>Jiwon</given-names></name>
+        <name><surname>Chen</surname><given-names>Min</given-names></name>
+        <name><surname>Cybulsky</surname><given-names>Kateryna</given-names></name>
+        <name><surname>Suthiphosuwan</surname><given-names>Suradech</given-names></name>
+        <name><surname>Seyman</surname><given-names>Estelle</given-names></name>
+        <name><surname>Dewey</surname><given-names>Blake</given-names></name>
+        <name><surname>Diener-West</surname><given-names>Marie</given-names></name>
+        <name><surname>van Zijl</surname><given-names>Peter</given-names></name>
+        <name><surname>Prince</surname><given-names>Jerry</given-names></name>
+        <name><surname>Reich</surname><given-names>Daniel S</given-names></name>
+        <name><surname>Calabresi</surname><given-names>Peter A</given-names></name>
+      </person-group>
+      <article-title>Five-year longitudinal changes in quantitative spinal cord MRI in multiple sclerosis</article-title>
+      <source>Multiple Sclerosis</source>
+      <year iso-8601-date="2021-04">2021</year><month>04</month>
+      <volume>27</volume>
+      <issue>4</issue>
+      <pub-id pub-id-type="doi">10.1177/1352458520923970</pub-id>
+      <fpage>549</fpage>
+      <lpage>558</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Oishi2009-nj">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Oishi</surname><given-names>Kenichi</given-names></name>
+        <name><surname>Faria</surname><given-names>Andreia</given-names></name>
+        <name><surname>Jiang</surname><given-names>Hangyi</given-names></name>
+        <name><surname>Li</surname><given-names>Xin</given-names></name>
+        <name><surname>Akhter</surname><given-names>Kazi</given-names></name>
+        <name><surname>Zhang</surname><given-names>Jiangyang</given-names></name>
+        <name><surname>Hsu</surname><given-names>John T</given-names></name>
+        <name><surname>Miller</surname><given-names>Michael I</given-names></name>
+        <name><surname>van Zijl</surname><given-names>Peter C M</given-names></name>
+        <name><surname>Albert</surname><given-names>Marilyn</given-names></name>
+        <name><surname>Lyketsos</surname><given-names>Constantine G</given-names></name>
+        <name><surname>Woods</surname><given-names>Roger</given-names></name>
+        <name><surname>Toga</surname><given-names>Arthur W</given-names></name>
+        <name><surname>Pike</surname><given-names>G Bruce</given-names></name>
+        <name><surname>Rosa-Neto</surname><given-names>Pedro</given-names></name>
+        <name><surname>Evans</surname><given-names>Alan</given-names></name>
+        <name><surname>Mazziotta</surname><given-names>John</given-names></name>
+        <name><surname>Mori</surname><given-names>Susumu</given-names></name>
+      </person-group>
+      <article-title>Atlas-based whole brain white matter analysis using large deformation diffeomorphic metric mapping: Application to normal elderly and Alzheimer’s disease participants</article-title>
+      <source>Neuroimage</source>
+      <year iso-8601-date="2009-06">2009</year><month>06</month>
+      <volume>46</volume>
+      <issue>2</issue>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2009.01.002</pub-id>
+      <fpage>486</fpage>
+      <lpage>499</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Papp2016-mz">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Papp</surname><given-names>Daniel</given-names></name>
+        <name><surname>Callaghan</surname><given-names>Martina F</given-names></name>
+        <name><surname>Meyer</surname><given-names>Heiko</given-names></name>
+        <name><surname>Buckley</surname><given-names>Craig</given-names></name>
+        <name><surname>Weiskopf</surname><given-names>Nikolaus</given-names></name>
+      </person-group>
+      <article-title>Correction of inter-scan motion artifacts in quantitative R1 mapping by accounting for receive coil sensitivity effects</article-title>
+      <source>Magnetic Resonance in Medicine</source>
+      <year iso-8601-date="2016">2016</year>
+      <volume>76</volume>
+      <pub-id pub-id-type="doi">10.1002/mrm.26058</pub-id>
+      <fpage>1478</fpage>
+      <lpage>1485</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Perone2018-la">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Perone</surname><given-names>Christian S</given-names></name>
+        <name><surname>Calabrese</surname><given-names>Evan</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+      </person-group>
+      <article-title>Spinal cord gray matter segmentation using deep dilated convolutions</article-title>
+      <source>Scientific Reports</source>
+      <year iso-8601-date="2018-04">2018</year><month>04</month>
+      <volume>8</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1038/s41598-018-24304-3</pub-id>
+      <fpage>5966</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Pykett1978-ef">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Pykett</surname><given-names>I L</given-names></name>
+        <name><surname>Mansfield</surname><given-names>P</given-names></name>
+      </person-group>
+      <article-title>A line scan image study of a tumorous rat leg by NMR</article-title>
+      <source>Physics in Medicine and Biology</source>
+      <year iso-8601-date="1978-09">1978</year><month>09</month>
+      <volume>23</volume>
+      <issue>5</issue>
+      <pub-id pub-id-type="doi">10.1088/0031-9155/23/5/012</pub-id>
+      <fpage>961</fpage>
+      <lpage>967</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Ropele2011-zl">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Ropele</surname><given-names>Stefan</given-names></name>
+        <name><surname>de Graaf</surname><given-names>Wolter</given-names></name>
+        <name><surname>Khalil</surname><given-names>Michael</given-names></name>
+        <name><surname>Wattjes</surname><given-names>Mike P</given-names></name>
+        <name><surname>Langkammer</surname><given-names>Christian</given-names></name>
+        <name><surname>Rocca</surname><given-names>Maria A</given-names></name>
+        <name><surname>Rovira</surname><given-names>Alex</given-names></name>
+        <name><surname>Palace</surname><given-names>Jacqueline</given-names></name>
+        <name><surname>Barkhof</surname><given-names>Frederik</given-names></name>
+        <name><surname>Filippi</surname><given-names>Massimo</given-names></name>
+        <name><surname>Fazekas</surname><given-names>Franz</given-names></name>
+      </person-group>
+      <article-title>MRI assessment of iron deposition in multiple sclerosis</article-title>
+      <source>Journal of Magnetic Resonance Imaging</source>
+      <year iso-8601-date="2011-07">2011</year><month>07</month>
+      <volume>34</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1002/jmri.22590</pub-id>
+      <fpage>13</fpage>
+      <lpage>21</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Salluzzi2022-jc">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Salluzzi</surname><given-names>Marina</given-names></name>
+        <name><surname>McCreary</surname><given-names>Cheryl R</given-names></name>
+        <name><surname>Gobbi</surname><given-names>David G</given-names></name>
+        <name><surname>Lauzon</surname><given-names>Michel Louis</given-names></name>
+        <name><surname>Frayne</surname><given-names>Richard</given-names></name>
+      </person-group>
+      <article-title>Short-term repeatability and long-term reproducibility of quantitative MR imaging biomarkers in a single centre longitudinal study</article-title>
+      <source>NeuroImage</source>
+      <year iso-8601-date="2022-10">2022</year><month>10</month>
+      <volume>260</volume>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2022.119488</pub-id>
+      <fpage>119488</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Schmierer2007-mb">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Schmierer</surname><given-names>Klaus</given-names></name>
+        <name><surname>Tozer</surname><given-names>Daniel J</given-names></name>
+        <name><surname>Scaravilli</surname><given-names>Francesco</given-names></name>
+        <name><surname>Altmann</surname><given-names>Daniel R</given-names></name>
+        <name><surname>Barker</surname><given-names>Gareth J</given-names></name>
+        <name><surname>Tofts</surname><given-names>Paul S</given-names></name>
+        <name><surname>Miller</surname><given-names>David H</given-names></name>
+      </person-group>
+      <article-title>Quantitative magnetization transfer imaging in postmortem multiple sclerosis brain</article-title>
+      <source>Journal of Magnetic Resonance Imaging</source>
+      <year iso-8601-date="2007-07">2007</year><month>07</month>
+      <volume>26</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1002/jmri.20984</pub-id>
+      <fpage>41</fpage>
+      <lpage>51</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Seiberlich2012-xi">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Seiberlich</surname><given-names>N</given-names></name>
+        <name><surname>Ma</surname><given-names>D</given-names></name>
+        <name><surname>Gulani</surname><given-names>V</given-names></name>
+        <name><surname>Griswold</surname><given-names>M</given-names></name>
+      </person-group>
+      <article-title>Nuclear magnetic resonance (NMR) fingerprinting</article-title>
+      <year iso-8601-date="2012-09">2012</year><month>09</month>
+    </element-citation>
+  </ref>
+  <ref id="ref-Seiberlich2020-xe">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name><surname>Seiberlich</surname><given-names>Nicole</given-names></name>
+        <name><surname>Gulani</surname><given-names>Vikas</given-names></name>
+        <name><surname>Campbell</surname><given-names>Adrienne</given-names></name>
+        <name><surname>Sourbron</surname><given-names>Steven</given-names></name>
+        <name><surname>Doneva</surname><given-names>Mariya Ivanova</given-names></name>
+        <name><surname>Calamante</surname><given-names>Fernando</given-names></name>
+        <name><surname>Hu</surname><given-names>Houchun Harry</given-names></name>
+      </person-group>
+      <source>Quantitative magnetic resonance imaging</source>
+      <publisher-name>Academic Press</publisher-name>
+      <year iso-8601-date="2020-11">2020</year><month>11</month>
+    </element-citation>
+  </ref>
+  <ref id="ref-Seif2022-xg">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Seif</surname><given-names>Maryam</given-names></name>
+        <name><surname>Leutritz</surname><given-names>Tobias</given-names></name>
+        <name><surname>Schading</surname><given-names>Simon</given-names></name>
+        <name><surname>Emmengger</surname><given-names>Tim</given-names></name>
+        <name><surname>Curt</surname><given-names>Armin</given-names></name>
+        <name><surname>Weiskopf</surname><given-names>Nikolaus</given-names></name>
+        <name><surname>Freund</surname><given-names>Patrick</given-names></name>
+      </person-group>
+      <article-title>Reliability of multi-parameter mapping (MPM) in the cervical cord: A multi-center multi-vendor quantitative MRI study</article-title>
+      <source>NeuroImage</source>
+      <year iso-8601-date="2022-12">2022</year><month>12</month>
+      <volume>264</volume>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2022.119751</pub-id>
+      <fpage>119751</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Seiler2020-na">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Seiler</surname><given-names>Alexander</given-names></name>
+        <name><surname>Schöngrundner</surname><given-names>Sophie</given-names></name>
+        <name><surname>Stock</surname><given-names>Benjamin</given-names></name>
+        <name><surname>Nöth</surname><given-names>Ulrike</given-names></name>
+        <name><surname>Hattingen</surname><given-names>Elke</given-names></name>
+        <name><surname>Steinmetz</surname><given-names>Helmuth</given-names></name>
+        <name><surname>Klein</surname><given-names>Johannes C</given-names></name>
+        <name><surname>Baudrexel</surname><given-names>Simon</given-names></name>
+        <name><surname>Wagner</surname><given-names>Marlies</given-names></name>
+        <name><surname>Deichmann</surname><given-names>Ralf</given-names></name>
+        <name><surname>Gracien</surname><given-names>René-Maxime</given-names></name>
+      </person-group>
+      <article-title>Cortical aging - new insights with multiparametric quantitative MRI</article-title>
+      <source>Stress and The Aging Brain</source>
+      <year iso-8601-date="2020-08">2020</year><month>08</month>
+      <volume>12</volume>
+      <issue>16</issue>
+      <pub-id pub-id-type="doi">10.18632/aging.103629</pub-id>
+      <fpage>16195</fpage>
+      <lpage>16210</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Smith2002-bn">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Smith</surname><given-names>Stephen M</given-names></name>
+      </person-group>
+      <article-title>Fast robust automated brain extraction</article-title>
+      <source>Human Brain Mapping</source>
+      <year iso-8601-date="2002-11">2002</year><month>11</month>
+      <volume>17</volume>
+      <issue>3</issue>
+      <pub-id pub-id-type="doi">10.1002/hbm.10062</pub-id>
+      <fpage>143</fpage>
+      <lpage>155</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Smith2004-oa">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Smith</surname><given-names>Stephen M</given-names></name>
+        <name><surname>Jenkinson</surname><given-names>Mark</given-names></name>
+        <name><surname>Woolrich</surname><given-names>Mark W</given-names></name>
+        <name><surname>Beckmann</surname><given-names>Christian F</given-names></name>
+        <name><surname>Behrens</surname><given-names>Timothy E J</given-names></name>
+        <name><surname>Johansen-Berg</surname><given-names>Heidi</given-names></name>
+        <name><surname>Bannister</surname><given-names>Peter R</given-names></name>
+        <name><surname>De Luca</surname><given-names>Marilena</given-names></name>
+        <name><surname>Drobnjak</surname><given-names>Ivana</given-names></name>
+        <name><surname>Flitney</surname><given-names>David E</given-names></name>
+        <name><surname>Niazy</surname><given-names>Rami K</given-names></name>
+        <name><surname>Saunders</surname><given-names>James</given-names></name>
+        <name><surname>Vickers</surname><given-names>John</given-names></name>
+        <name><surname>Zhang</surname><given-names>Yongyue</given-names></name>
+        <name><surname>De Stefano</surname><given-names>Nicola</given-names></name>
+        <name><surname>Brady</surname><given-names>J Michael</given-names></name>
+        <name><surname>Matthews</surname><given-names>Paul M</given-names></name>
+      </person-group>
+      <article-title>Advances in functional and structural MR image analysis and implementation as FSL</article-title>
+      <source>Neuroimage</source>
+      <year iso-8601-date="2004">2004</year>
+      <volume>23 Suppl 1</volume>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2004.07.051</pub-id>
+      <fpage>S208</fpage>
+      <lpage>19</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Steen1995-se">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Steen</surname><given-names>R G</given-names></name>
+        <name><surname>Gronemeyer</surname><given-names>S A</given-names></name>
+        <name><surname>Taylor</surname><given-names>J S</given-names></name>
+      </person-group>
+      <article-title>Age-related changes in proton T1 values of normal human brain</article-title>
+      <source>Journal of Magnetic Resonance Imaging</source>
+      <year iso-8601-date="1995">1995</year>
+      <volume>5</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1002/jmri.1880050111</pub-id>
+      <fpage>43</fpage>
+      <lpage>48</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Stikov2015-gb">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Boudreau</surname><given-names>Mathieu</given-names></name>
+        <name><surname>Levesque</surname><given-names>Ives R</given-names></name>
+        <name><surname>Tardif</surname><given-names>Christine L</given-names></name>
+        <name><surname>Barral</surname><given-names>Joëlle K</given-names></name>
+        <name><surname>Pike</surname><given-names>G Bruce</given-names></name>
+      </person-group>
+      <article-title>On the accuracy of T1 mapping: Searching for common ground</article-title>
+      <source>Magnetic Resonance in Medicine</source>
+      <publisher-name>John Wiley &amp; Sons, Ltd</publisher-name>
+      <year iso-8601-date="2015-02">2015</year><month>02</month>
+      <volume>73</volume>
+      <issue>2</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.25135</pub-id>
+      <fpage>514</fpage>
+      <lpage>522</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Stupic2021-lj">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Stupic</surname><given-names>Karl F</given-names></name>
+        <name><surname>Ainslie</surname><given-names>Maureen</given-names></name>
+        <name><surname>Boss</surname><given-names>Michael A</given-names></name>
+        <name><surname>Charles</surname><given-names>Cecil</given-names></name>
+        <name><surname>Dienstfrey</surname><given-names>Andrew M</given-names></name>
+        <name><surname>Evelhoch</surname><given-names>Jeffrey L</given-names></name>
+        <name><surname>Finn</surname><given-names>Paul</given-names></name>
+        <name><surname>Gimbutas</surname><given-names>Zydrunas</given-names></name>
+        <name><surname>Gunter</surname><given-names>Jeffrey L</given-names></name>
+        <name><surname>Hill</surname><given-names>Derek L G</given-names></name>
+        <name><surname>Jack</surname><given-names>Clifford R</given-names></name>
+        <name><surname>Jackson</surname><given-names>Edward F</given-names></name>
+        <name><surname>Karaulanov</surname><given-names>Todor</given-names></name>
+        <name><surname>Keenan</surname><given-names>Kathryn E</given-names></name>
+        <name><surname>Liu</surname><given-names>Guoying</given-names></name>
+        <name><surname>Martin</surname><given-names>Michele N</given-names></name>
+        <name><surname>Prasad</surname><given-names>Pottumarthi V</given-names></name>
+        <name><surname>Rentz</surname><given-names>Nikki S</given-names></name>
+        <name><surname>Yuan</surname><given-names>Chun</given-names></name>
+        <name><surname>Russek</surname><given-names>Stephen E</given-names></name>
+      </person-group>
+      <article-title>A standard system phantom for magnetic resonance imaging</article-title>
+      <source>Magnetic Resonance in Medicine</source>
+      <year iso-8601-date="2021-09">2021</year><month>09</month>
+      <volume>86</volume>
+      <issue>3</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.28779</pub-id>
+      <fpage>1194</fpage>
+      <lpage>1211</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Theaud2020-mu">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Theaud</surname><given-names>Guillaume</given-names></name>
+        <name><surname>Houde</surname><given-names>Jean-Christophe</given-names></name>
+        <name><surname>Boré</surname><given-names>Arnaud</given-names></name>
+        <name><surname>Rheault</surname><given-names>François</given-names></name>
+        <name><surname>Morency</surname><given-names>Felix</given-names></name>
+        <name><surname>Descoteaux</surname><given-names>Maxime</given-names></name>
+      </person-group>
+      <article-title>TractoFlow: A robust, efficient and reproducible diffusion MRI pipeline leveraging Nextflow &amp; Singularity</article-title>
+      <source>Neuroimage</source>
+      <year iso-8601-date="2020-09">2020</year><month>09</month>
+      <volume>218</volume>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2020.116889</pub-id>
+      <fpage>116889</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Theaud2022-gu">
+    <element-citation publication-type="paper-conference">
+      <person-group person-group-type="author">
+        <name><surname>Theaud</surname><given-names>Guillaume</given-names></name>
+        <name><surname>Descoteaux</surname><given-names>Maxime</given-names></name>
+      </person-group>
+      <article-title>dMRIQCpy: A python-based toolbox for diffusion MRI quality control and beyond</article-title>
+      <source>International Society for Magnetic Resonance in Medicine (ISMRM) Annual Meeting</source>
+      <publisher-loc>London</publisher-loc>
+      <year iso-8601-date="2022">2022</year>
+      <pub-id pub-id-type="doi">10.58530/2022/3906</pub-id>
+      <fpage>3906</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Tofts1998-kr">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Tofts</surname><given-names>P S</given-names></name>
+      </person-group>
+      <article-title>Standardisation and optimisation of magnetic resonance techniques for multicentre studies</article-title>
+      <source>Journal of Neurology, Neurosurgery and Psychiatry</source>
+      <year iso-8601-date="1998-05">1998</year><month>05</month>
+      <volume>64 Suppl 1</volume>
+      <fpage>S37</fpage>
+      <lpage>43</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Tournier2019-gb">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Tournier</surname><given-names>J-Donald</given-names></name>
+        <name><surname>Smith</surname><given-names>Robert</given-names></name>
+        <name><surname>Raffelt</surname><given-names>David</given-names></name>
+        <name><surname>Tabbara</surname><given-names>Rami</given-names></name>
+        <name><surname>Dhollander</surname><given-names>Thijs</given-names></name>
+        <name><surname>Pietsch</surname><given-names>Maximilian</given-names></name>
+        <name><surname>Christiaens</surname><given-names>Daan</given-names></name>
+        <name><surname>Jeurissen</surname><given-names>Ben</given-names></name>
+        <name><surname>Yeh</surname><given-names>Chun-Hung</given-names></name>
+        <name><surname>Connelly</surname><given-names>Alan</given-names></name>
+      </person-group>
+      <article-title>MRtrix3: A fast, flexible and open software framework for medical image processing and visualisation</article-title>
+      <source>Neuroimage</source>
+      <year iso-8601-date="2019-11">2019</year><month>11</month>
+      <volume>202</volume>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2019.116137</pub-id>
+      <fpage>116137</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Ullmann2014-pn">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Ullmann</surname><given-names>Eugénie</given-names></name>
+        <name><surname>Pelletier Paquette</surname><given-names>Jean François</given-names></name>
+        <name><surname>Thong</surname><given-names>William E</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+      </person-group>
+      <article-title>Automatic labeling of vertebral levels using a robust template-based approach</article-title>
+      <source>International Journal of Biomedical Imaging</source>
+      <year iso-8601-date="2014-07">2014</year><month>07</month>
+      <volume>2014</volume>
+      <pub-id pub-id-type="doi">10.1155/2014/719520</pub-id>
+      <fpage>719520</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Wang2017-yt">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Wang</surname><given-names>Rongpin</given-names></name>
+        <name><surname>Xie</surname><given-names>Guangyou</given-names></name>
+        <name><surname>Zhai</surname><given-names>Maoxiong</given-names></name>
+        <name><surname>Zhang</surname><given-names>Zhongping</given-names></name>
+        <name><surname>Wu</surname><given-names>Bing</given-names></name>
+        <name><surname>Zheng</surname><given-names>Dandan</given-names></name>
+        <name><surname>Hong</surname><given-names>Nan</given-names></name>
+        <name><surname>Jiang</surname><given-names>Tao</given-names></name>
+        <name><surname>Wen</surname><given-names>Baohong</given-names></name>
+        <name><surname>Cheng</surname><given-names>Jingliang</given-names></name>
+      </person-group>
+      <article-title>Stability of R2* and quantitative susceptibility mapping of the brain tissue in a large scale multi-center study</article-title>
+      <source>Scientific Reports</source>
+      <year iso-8601-date="2017-03">2017</year><month>03</month>
+      <volume>7</volume>
+      <pub-id pub-id-type="doi">10.1038/srep45261</pub-id>
+      <fpage>45261</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-York2022-fl">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>York</surname><given-names>Elizabeth N</given-names></name>
+        <name><surname>Meijboom</surname><given-names>Rozanna</given-names></name>
+        <name><surname>Thrippleton</surname><given-names>Michael J</given-names></name>
+        <name><surname>Bastin</surname><given-names>Mark E</given-names></name>
+        <name><surname>Kampaite</surname><given-names>Agniete</given-names></name>
+        <name><surname>White</surname><given-names>Nicole</given-names></name>
+        <name><surname>Chandran</surname><given-names>Siddharthan</given-names></name>
+        <name><surname>Waldman</surname><given-names>Adam D</given-names></name>
+      </person-group>
+      <article-title>Longitudinal microstructural MRI markers of demyelination and neurodegeneration in early relapsing-remitting multiple sclerosis: Magnetisation transfer, water diffusion and g-ratio</article-title>
+      <source>NeuroImage: Clinical</source>
+      <year iso-8601-date="2022-01">2022</year><month>01</month>
+      <volume>36</volume>
+      <pub-id pub-id-type="doi">10.1016/j.nicl.2022.103228</pub-id>
+      <fpage>103228</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Zhang2001-rn">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Zhang</surname><given-names>Y</given-names></name>
+        <name><surname>Brady</surname><given-names>M</given-names></name>
+        <name><surname>Smith</surname><given-names>S</given-names></name>
+      </person-group>
+      <article-title>Segmentation of brain MR images through a hidden Markov random field model and the expectation-maximization algorithm</article-title>
+      <source>IEEE Transactions on Medical Imaging</source>
+      <year iso-8601-date="2001-01">2001</year><month>01</month>
+      <volume>20</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1109/42.906424</pub-id>
+      <fpage>45</fpage>
+      <lpage>57</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Karakuzu2022-nlwf">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>DuPre</surname><given-names>Elizabeth</given-names></name>
+        <name><surname>Tetrel</surname><given-names>Loic</given-names></name>
+        <name><surname>Bermudez</surname><given-names>Patrick</given-names></name>
+        <name><surname>Boudreau</surname><given-names>Mathieu</given-names></name>
+        <name><surname>Chin</surname><given-names>Mary</given-names></name>
+        <name><surname>Poline</surname><given-names>Jean-Baptiste</given-names></name>
+        <name><surname>Das</surname><given-names>Samir</given-names></name>
+        <name><surname>Bellec</surname><given-names>Pierre</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+      </person-group>
+      <article-title>NeuroLibre : A preprint server for full-fledged reproducible neuroscience</article-title>
+      <publisher-name>OSF Preprints</publisher-name>
+      <year iso-8601-date="2022-04">2022</year><month>04</month>
+      <uri>osf.io/h89js</uri>
+      <pub-id pub-id-type="doi">10.31219/osf.io/h89js</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-Dupre2022-iro">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>DuPre</surname><given-names>Elizabeth</given-names></name>
+        <name><surname>Holdgraf</surname><given-names>Chris</given-names></name>
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>Tetrel</surname><given-names>Loı̈c</given-names></name>
+        <name><surname>Bellec</surname><given-names>Pierre</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Poline</surname><given-names>Jean-Baptiste</given-names></name>
+      </person-group>
+      <article-title>Beyond advertising: New infrastructures for publishing integrated research objects</article-title>
+      <source>PLOS Computational Biology</source>
+      <publisher-name>Public Library of Science San Francisco, CA USA</publisher-name>
+      <year iso-8601-date="2022">2022</year>
+      <volume>18</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1371/journal.pcbi.1009651</pub-id>
+      <fpage>e1009651</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Harding2023-conp">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Harding</surname><given-names>Rachel J.</given-names></name>
+        <name><surname>Bermudez</surname><given-names>Patrick</given-names></name>
+        <name><surname>Bernier</surname><given-names>Alexander</given-names></name>
+        <name><surname>Beauvais</surname><given-names>Michael</given-names></name>
+        <name><surname>Bellec</surname><given-names>Pierre</given-names></name>
+        <name><surname>Hill</surname><given-names>Sean</given-names></name>
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>Knoppers</surname><given-names>Bartha M.</given-names></name>
+        <name><surname>Pavlidis</surname><given-names>Paul</given-names></name>
+        <name><surname>Poline</surname><given-names>Jean-Baptiste</given-names></name>
+        <name><surname>Roskams</surname><given-names>Jane</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Stone</surname><given-names>Jessica</given-names></name>
+        <name><surname>Strother</surname><given-names>Stephen</given-names></name>
+        <name><surname>Consortium</surname><given-names>CONP</given-names></name>
+        <name><surname>Evans</surname><given-names>Alan C.</given-names></name>
+      </person-group>
+      <article-title>The Canadian Open Neuroscience Platform—An open science framework for the neuroscience community</article-title>
+      <source>PLOS Computational Biology</source>
+      <year iso-8601-date="2023-07">2023</year><month>07</month>
+      <volume>19</volume>
+      <issue>7</issue>
+      <uri>10.1371/journal.pcbi.1011230</uri>
+      <pub-id pub-id-type="doi">10.1371/journal.pcbi.1011230</pub-id>
+      <fpage>1</fpage>
+      <lpage>14</lpage>
+    </element-citation>
+  </ref>
+</ref-list>
+<fn-group>
+  <fn id="fn1">
+    <label>1</label><p>Please see
+    <ext-link ext-link-type="uri" xlink:href="https://www.cneuromod.ca">https://www.cneuromod.ca</ext-link>.</p>
+  </fn>
+  <fn id="fn2">
+    <label>2</label><p>Standard deviation values of the intrasubject
+    COVs are reported in the interactive figures.</p>
+  </fn>
+  <fn id="fn3">
+    <label>3</label><p><ext-link ext-link-type="uri" xlink:href="https://docs.cneuromod.ca/en/latest/MRI.html#brain-anatomical-sequences">Brain
+    anatomical sequences</ext-link></p>
+  </fn>
+  <fn id="fn4">
+    <label>4</label><p><ext-link ext-link-type="uri" xlink:href="https://docs.cneuromod.ca/en/latest/_downloads/4f1f285d300373cc60a45d4085097bad/anatomical_protocol_2019-01-22.pdf">Anatomical
+    protocol PDF</ext-link></p>
+  </fn>
+  <fn id="fn5">
+    <label>5</label><p><ext-link ext-link-type="uri" xlink:href="https://www.cneuromod.ca/access/access">Neuromod
+    data access</ext-link></p>
+  </fn>
+  <fn id="fn6">
+    <label>6</label><p>The pipeline diagram for the external tool
+    sMRIprep is available in their
+    <ext-link ext-link-type="uri" xlink:href="https://www.nipreps.org/smriprep">documentation</ext-link></p>
+  </fn>
+  <fn id="fn7">
+    <label>7</label><p><ext-link ext-link-type="uri" xlink:href="https://github.com/courtois-neuromod/anat.smriprep.git">Neuromod
+    sMRIprep</ext-link></p>
+  </fn>
+  <fn id="fn8">
+    <label>8</label><p><ext-link ext-link-type="uri" xlink:href="https://github.com/courtois-neuromod/anat-processing/blob/main/process_spinalcord.sh">Neuromod
+    process spinal cord data</ext-link></p>
+  </fn>
+  <fn id="fn9">
+    <label>9</label><p><ext-link ext-link-type="uri" xlink:href="https://github.com/courtois-neuromod/anat-processing/releases/tag/r20220916">Release
+    r20220916</ext-link></p>
+  </fn>
+  <fn id="fn10">
+    <label>10</label><p><ext-link ext-link-type="uri" xlink:href="https://github.com/courtois-neuromod/anat-processing/releases/tag/r20220921">Release
+    r20220921</ext-link></p>
+  </fn>
+</fn-group>
+</back>
+</article>
