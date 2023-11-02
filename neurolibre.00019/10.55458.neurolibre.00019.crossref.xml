@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>20231102T211831-1d9c33bb62fc14286074ebbaeffd13dcc8b52314</doi_batch_id>
+    <timestamp>20231102211831</timestamp>
+    <depositor>
+      <depositor_name>NeuroLibre Admin</depositor_name>
+      <email_address>admin@neurolibre.org</email_address>
+    </depositor>
+    <registrant>Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal</registrant>
+  </head>
+  <body>
+  <posted_content type="preprint">
+  <group_title>NeuroLibre Reproducible Preprints</group_title>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Mathieu</given_name>
+            <surname>Boudreau</surname>
+            <ORCID>https://orcid.org/0000-0002-7726-4456</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Kathryn E.</given_name>
+            <surname>Keenan</surname>
+            <ORCID>https://orcid.org/0000-0001-9070-5255</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Nikola</given_name>
+            <surname>Stikov</surname>
+            <ORCID>https://orcid.org/0000-0002-8480-5230</ORCID>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Quantitative T1 MRI</title>
+        </titles>
+        <posted_date>
+          <month>11</month>
+          <day>02</day>
+          <year>2023</year>
+        </posted_date>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Repository archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.10067639</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Dataset archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.10067641</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Book archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.10067637</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Container archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.10067643</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub technical screening</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://github.com/neurolibre/neurolibre-reviews/issues/19</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Executable preprint</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://preprint.neurolibre.org/10.55458/neurolibre.00019</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.55458/neurolibre.00019</doi>
+          <resource>https://neurolibre.org/papers/10.55458/neurolibre.00019</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://preprint.neurolibre.org/10.55458/neurolibre.00019.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="Boudreau2019">
+            <article_title>Chapter 2 - quantitative T1 and T1ρ
+mapping</article_title>
+            <author>Boudreau</author>
+            <journal_title>Quantitative magnetic resonance
+imaging</journal_title>
+            <volume>1</volume>
+            <doi>10.1016/B978-0-12-817057-1.00004-4</doi>
+            <issn>2666-9099</issn>
+            <cYear>2020</cYear>
+            <unstructured_citation>Boudreau, M., Keenan, K. E., &amp;
+Stikov, N. (2020). Chapter 2 - quantitative T1 and T1ρ mapping. In N.
+Seiberlich, V. Gulani, F. Calamante, A. Campbell-Washburn, M. Doneva, H.
+H. Hu, &amp; S. Sourbron (Eds.), Quantitative magnetic resonance imaging
+(Vol. 1, pp. 19–45). Academic Press.
+https://doi.org/10.1016/B978-0-12-817057-1.00004-4</unstructured_citation>
+          </citation>
+          <citation key="Karakuzu2020-ul">
+            <article_title>qMRLab: Quantitative MRI analysis, under one
+umbrella</article_title>
+            <author>Karakuzu</author>
+            <journal_title>J. Open Source Softw.</journal_title>
+            <issue>53</issue>
+            <volume>5</volume>
+            <doi>10.21105/joss.02343</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Karakuzu, A., Boudreau, M., Duval,
+T., Boshkovski, T., Leppert, I., Cabana, J.-F., Gagnon, I., Beliveau,
+P., Pike, G., Cohen-Adad, J., &amp; Stikov, N. (2020). qMRLab:
+Quantitative MRI analysis, under one umbrella. J. Open Source Softw.,
+5(53), 2343. https://doi.org/10.21105/joss.02343</unstructured_citation>
+          </citation>
+          <citation key="Boudreau2023">
+            <article_title>Results of the ISMRM 2020 joint reproducible
+research &amp; quantitative MR study groups reproducibility challenge on
+phantom and human brain T1 mapping</article_title>
+            <author>Boudreau</author>
+            <journal_title>NeuroLibre Reproducible
+Preprints</journal_title>
+            <doi>10.55458/neurolibre.00014</doi>
+            <cYear>2023</cYear>
+            <unstructured_citation>Boudreau, M., Karakuzu, A.,
+Cohen-Adad, J., Bozkurt, E., Carr, M., Castellaro, M., Concha, L.,
+Doneva, M., Dual, S., Ensworth, A., Foias, A., Fortier, V., Gabr, R. E.,
+Gilbert, G., Glide-Hurst, C. K., Grech-Sollars, M., Hu, S., Jalnefjord,
+O., Jovicich, J., … Stikov, N. (2023). Results of the ISMRM 2020 joint
+reproducible research &amp; quantitative MR study groups reproducibility
+challenge on phantom and human brain T1 mapping. NeuroLibre Reproducible
+Preprints.
+https://doi.org/10.55458/neurolibre.00014</unstructured_citation>
+          </citation>
+          <citation key="Stikov2015">
+            <article_title>On the accuracy of T1 mapping: Searching for
+common ground</article_title>
+            <author>Stikov</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>2</issue>
+            <volume>73</volume>
+            <doi>10.1002/mrm.25135</doi>
+            <cYear>2015</cYear>
+            <unstructured_citation>Stikov, N., Boudreau, M., Levesque,
+I. R., Tardif, C. L., Barral, J. K., &amp; Pike, G. B. (2015). On the
+accuracy of T1 mapping: Searching for common ground. Magnetic Resonance
+in Medicine, 73(2), 514–522.
+https://doi.org/10.1002/mrm.25135</unstructured_citation>
+          </citation>
+          <citation key="Fukushima1981">
+            <volume_title>Experimental pulse NMR: A nuts and bolts
+approach</volume_title>
+            <author>Fukushima</author>
+            <doi>10.1201/9780429493867</doi>
+            <cYear>1981</cYear>
+            <unstructured_citation>Fukushima, E. (1981). Experimental
+pulse NMR: A nuts and bolts approach. CRC Press.
+https://doi.org/10.1201/9780429493867</unstructured_citation>
+          </citation>
+          <citation key="Barral2010-qm">
+            <article_title>A robust methodology for in vivo T1
+mapping</article_title>
+            <author>Barral</author>
+            <journal_title>Magn. Reson. Med.</journal_title>
+            <issue>4</issue>
+            <volume>64</volume>
+            <doi>10.1002/mrm.22497</doi>
+            <cYear>2010</cYear>
+            <unstructured_citation>Barral, J. K., Gudmundson, E.,
+Stikov, N., Etezadi-Amoli, M., Stoica, P., &amp; Nishimura, D. G.
+(2010). A robust methodology for in vivo T1 mapping. Magn. Reson. Med.,
+64(4), 1057–1067.
+https://doi.org/10.1002/mrm.22497</unstructured_citation>
+          </citation>
+          <citation key="Pykett1983">
+            <article_title>Measurement of spin-lattice relaxation times
+in nuclear magnetic resonance imaging</article_title>
+            <author>Pykett</author>
+            <journal_title>Physics in Medicine &amp;
+Biology</journal_title>
+            <issue>6</issue>
+            <volume>28</volume>
+            <doi>10.1088/0031-9155/28/6/012</doi>
+            <cYear>1983</cYear>
+            <unstructured_citation>Pykett, I., Rosen, B., Buonanno, F.,
+&amp; Brady, T. (1983). Measurement of spin-lattice relaxation times in
+nuclear magnetic resonance imaging. Physics in Medicine &amp; Biology,
+28(6), 723.
+https://doi.org/10.1088/0031-9155/28/6/012</unstructured_citation>
+          </citation>
+          <citation key="Steen1994">
+            <article_title>Precise and accurate measurement of proton T1
+in human brain in vivo: Validation and preliminary clinical
+application</article_title>
+            <author>Steen</author>
+            <journal_title>Journal of Magnetic Resonance
+Imaging</journal_title>
+            <issue>5</issue>
+            <volume>4</volume>
+            <doi>10.1002/jmri.1880040511</doi>
+            <cYear>1994</cYear>
+            <unstructured_citation>Steen, R. G., Gronemeyer, S. A.,
+Kingsley, P. B., Reddick, W. E., Langston, J. S., &amp; Taylor, J. S.
+(1994). Precise and accurate measurement of proton T1 in human brain in
+vivo: Validation and preliminary clinical application. Journal of
+Magnetic Resonance Imaging, 4(5), 681–691.
+https://doi.org/10.1002/jmri.1880040511</unstructured_citation>
+          </citation>
+          <citation key="Pykett1978">
+            <article_title>A line scan image study of a tumorous rat leg
+by NMR</article_title>
+            <author>Pykett</author>
+            <journal_title>Physics in Medicine &amp;
+Biology</journal_title>
+            <issue>5</issue>
+            <volume>23</volume>
+            <doi>10.1088/0031-9155/23/5/012</doi>
+            <cYear>1978</cYear>
+            <unstructured_citation>Pykett, I., &amp; Mansfield, P.
+(1978). A line scan image study of a tumorous rat leg by NMR. Physics in
+Medicine &amp; Biology, 23(5), 961.
+https://doi.org/10.1088/0031-9155/23/5/012</unstructured_citation>
+          </citation>
+          <citation key="Piechnik2010">
+            <article_title>Shortened modified look-locker inversion
+recovery (ShMOLLI) for clinical myocardial T1-mapping at 1.5 and 3 t
+within a 9 heartbeat breathhold</article_title>
+            <author>Piechnik</author>
+            <journal_title>Journal of cardiovascular magnetic
+resonance</journal_title>
+            <issue>1</issue>
+            <volume>12</volume>
+            <doi>10.1186/1532-429X-12-69</doi>
+            <cYear>2010</cYear>
+            <unstructured_citation>Piechnik, S. K., Ferreira, V. M.,
+Dall’Armellina, E., Cochlin, L. E., Greiser, A., Neubauer, S., &amp;
+Robson, M. D. (2010). Shortened modified look-locker inversion recovery
+(ShMOLLI) for clinical myocardial T1-mapping at 1.5 and 3 t within a 9
+heartbeat breathhold. Journal of Cardiovascular Magnetic Resonance,
+12(1), 1–11.
+https://doi.org/10.1186/1532-429X-12-69</unstructured_citation>
+          </citation>
+          <citation key="Messroghli2004">
+            <article_title>Modified look-locker inversion recovery
+(MOLLI) for high-resolution T1 mapping of the heart</article_title>
+            <author>Messroghli</author>
+            <journal_title>Magnetic Resonance in Medicine: An Official
+Journal of the International Society for Magnetic Resonance in
+Medicine</journal_title>
+            <issue>1</issue>
+            <volume>52</volume>
+            <doi>10.1002/mrm.20110</doi>
+            <cYear>2004</cYear>
+            <unstructured_citation>Messroghli, D. R., Radjenovic, A.,
+Kozerke, S., Higgins, D. M., Sivananthan, M. U., &amp; Ridgway, J. P.
+(2004). Modified look-locker inversion recovery (MOLLI) for
+high-resolution T1 mapping of the heart. Magnetic Resonance in Medicine:
+An Official Journal of the International Society for Magnetic Resonance
+in Medicine, 52(1), 141–146.
+https://doi.org/10.1002/mrm.20110</unstructured_citation>
+          </citation>
+          <citation key="Look1970">
+            <article_title>Time saving in measurement of NMR and EPR
+relaxation times</article_title>
+            <author>Look</author>
+            <journal_title>Review of scientific
+instruments</journal_title>
+            <issue>2</issue>
+            <volume>41</volume>
+            <doi>10.1063/1.1684482</doi>
+            <cYear>1970</cYear>
+            <unstructured_citation>Look, D. C., &amp; Locker, D. R.
+(1970). Time saving in measurement of NMR and EPR relaxation times.
+Review of Scientific Instruments, 41(2), 250–251.
+https://doi.org/10.1063/1.1684482</unstructured_citation>
+          </citation>
+          <citation key="Hahn1949">
+            <article_title>An accurate nuclear magnetic resonance method
+for measuring spin-lattice relaxation times</article_title>
+            <author>Hahn</author>
+            <journal_title>Physical Review</journal_title>
+            <issue>1</issue>
+            <volume>76</volume>
+            <doi>10.1103/PhysRev.76.145</doi>
+            <cYear>1949</cYear>
+            <unstructured_citation>Hahn, E. L. (1949). An accurate
+nuclear magnetic resonance method for measuring spin-lattice relaxation
+times. Physical Review, 76(1), 145.
+https://doi.org/10.1103/PhysRev.76.145</unstructured_citation>
+          </citation>
+          <citation key="Gai2013">
+            <article_title>Modified look-locker T1 evaluation using
+bloch simulations: Human and phantom validation</article_title>
+            <author>Gai</author>
+            <journal_title>Magnetic resonance in
+medicine</journal_title>
+            <issue>2</issue>
+            <volume>69</volume>
+            <doi>10.1002/mrm.24251</doi>
+            <cYear>2013</cYear>
+            <unstructured_citation>Gai, N. D., Stehning, C., Nacif, M.,
+&amp; Bluemke, D. A. (2013). Modified look-locker T1 evaluation using
+bloch simulations: Human and phantom validation. Magnetic Resonance in
+Medicine, 69(2), 329–336.
+https://doi.org/10.1002/mrm.24251</unstructured_citation>
+          </citation>
+          <citation key="Drain1949">
+            <article_title>A direct method of measuring nuclear
+spin-lattice relaxation times</article_title>
+            <author>Drain</author>
+            <journal_title>Proceedings of the Physical Society. Section
+A</journal_title>
+            <issue>5</issue>
+            <volume>62</volume>
+            <doi>10.1088/0370-1298/62/5/306</doi>
+            <cYear>1949</cYear>
+            <unstructured_citation>Drain, L. (1949). A direct method of
+measuring nuclear spin-lattice relaxation times. Proceedings of the
+Physical Society. Section A, 62(5), 301.
+https://doi.org/10.1088/0370-1298/62/5/306</unstructured_citation>
+          </citation>
+          <citation key="Baudrexel2017">
+            <article_title>T1 mapping with the variable flip angle
+technique: A simple correction for insufficient spoiling of transverse
+magnetization</article_title>
+            <author>Baudrexel</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>6</issue>
+            <volume>79</volume>
+            <doi>10.1002/mrm.26979</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>Baudrexel, S., Nöth, U., Schüre,
+J.-R., &amp; Deichmann, R. (2017). T1 mapping with the variable flip
+angle technique: A simple correction for insufficient spoiling of
+transverse magnetization. Magnetic Resonance in Medicine, 79(6),
+3082–3092. https://doi.org/10.1002/mrm.26979</unstructured_citation>
+          </citation>
+          <citation key="Handbook2004">
+            <volume_title>Handbook of MRI pulse sequences</volume_title>
+            <author>Bernstein</author>
+            <doi>10.1016/b978-0-12-092861-3.x5000-6</doi>
+            <cYear>2004</cYear>
+            <unstructured_citation>Bernstein, M. A., King, K. F., &amp;
+Zhou, X. J. (2004). Handbook of MRI pulse sequences. Elsevier.
+https://doi.org/10.1016/b978-0-12-092861-3.x5000-6</unstructured_citation>
+          </citation>
+          <citation key="Boudreau2017">
+            <article_title>B1 mapping for bias-correction in
+quantitative T1 imaging of the brain at 3T using standard pulse
+sequences</article_title>
+            <author>Boudreau</author>
+            <journal_title>Journal of Magnetic Resonance
+Imaging</journal_title>
+            <issue>6</issue>
+            <volume>46</volume>
+            <doi>10.1002/jmri.25692</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>Boudreau, M., Tardif, C. L., Stikov,
+N., Sled, J. G., Lee, W., &amp; Pike, G. B. (2017). B1 mapping for
+bias-correction in quantitative T1 imaging of the brain at 3T using
+standard pulse sequences. Journal of Magnetic Resonance Imaging, 46(6),
+1673–1682. https://doi.org/10.1002/jmri.25692</unstructured_citation>
+          </citation>
+          <citation key="Cercignani2005">
+            <article_title>Three-dimensional quantitative magnetisation
+transfer imaging of the human brain</article_title>
+            <author>Cercignani</author>
+            <journal_title>NeuroImage</journal_title>
+            <issue>2</issue>
+            <volume>27</volume>
+            <doi>10.1016/j.neuroimage.2005.04.031</doi>
+            <cYear>2005</cYear>
+            <unstructured_citation>Cercignani, M., Symms, M. R.,
+Schmierer, K., Boulby, P. A., Tozer, D. J., Ron, M., Tofts, P. S., &amp;
+Barker, G. J. (2005). Three-dimensional quantitative magnetisation
+transfer imaging of the human brain. NeuroImage, 27(2), 436–441.
+https://doi.org/10.1016/j.neuroimage.2005.04.031</unstructured_citation>
+          </citation>
+          <citation key="Chang2008">
+            <article_title>Linear least-squares method for unbiased
+estimation of T1 from SPGR signals</article_title>
+            <author>Chang</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>2</issue>
+            <volume>60</volume>
+            <doi>10.1002/mrm.21669</doi>
+            <cYear>2008</cYear>
+            <unstructured_citation>Chang, L.-C., Koay, C. G., Basser, P.
+J., &amp; Pierpaoli, C. (2008). Linear least-squares method for unbiased
+estimation of T1 from SPGR signals. Magnetic Resonance in Medicine,
+60(2), 496–501.
+https://doi.org/10.1002/mrm.21669</unstructured_citation>
+          </citation>
+          <citation key="Christensen1974">
+            <article_title>Optimal determination of relaxation times of
+fourier transform nuclear magnetic resonance. Determination of
+spin-lattice relaxation times in chemically polarized
+species</article_title>
+            <author>Christensen</author>
+            <journal_title>The Journal of Physical
+Chemistry</journal_title>
+            <issue>19</issue>
+            <volume>78</volume>
+            <doi>10.1021/j100612a022</doi>
+            <cYear>1974</cYear>
+            <unstructured_citation>Christensen, K. A., Grant, D. M.,
+Schulman, E. M., &amp; Walling, C. (1974). Optimal determination of
+relaxation times of fourier transform nuclear magnetic resonance.
+Determination of spin-lattice relaxation times in chemically polarized
+species. The Journal of Physical Chemistry, 78(19), 1971–1977.
+https://doi.org/10.1021/j100612a022</unstructured_citation>
+          </citation>
+          <citation key="Ernst1966">
+            <article_title>Application of fourier transform spectroscopy
+to magnetic resonance</article_title>
+            <author>Ernst</author>
+            <journal_title>Review of Scientific
+Instruments</journal_title>
+            <issue>1</issue>
+            <volume>37</volume>
+            <doi>10.1063/1.1719961</doi>
+            <cYear>1966</cYear>
+            <unstructured_citation>Ernst, R. R., &amp; Anderson, W. A.
+(1966). Application of fourier transform spectroscopy to magnetic
+resonance. Review of Scientific Instruments, 37(1), 93–102.
+https://doi.org/10.1063/1.1719961</unstructured_citation>
+          </citation>
+          <citation key="Fram1987">
+            <article_title>Rapid calculation of T1 using variable flip
+angle gradient refocused imaging</article_title>
+            <author>Fram</author>
+            <journal_title>Magnetic Resonance Imaging</journal_title>
+            <issue>3</issue>
+            <volume>5</volume>
+            <doi>10.1016/0730-725x(87)90021-x</doi>
+            <cYear>1987</cYear>
+            <unstructured_citation>Fram, E. K., Herfkens, R. J.,
+Johnson, G. A., Glover, G. H., Karis, J. P., Shimakawa, A., Perkins, T.
+G., &amp; Pelc, N. J. (1987). Rapid calculation of T1 using variable
+flip angle gradient refocused imaging. Magnetic Resonance Imaging, 5(3),
+201–208.
+https://doi.org/10.1016/0730-725x(87)90021-x</unstructured_citation>
+          </citation>
+          <citation key="Gupta1977">
+            <article_title>A new look at the method of variable nutation
+angle for the measurement of spin-lattice relaxation times using fourier
+transform NMR</article_title>
+            <author>Gupta</author>
+            <journal_title>Journal of Magnetic Resonance
+(1969)</journal_title>
+            <issue>1</issue>
+            <volume>25</volume>
+            <doi>10.1016/0022-2364(77)90138-x</doi>
+            <cYear>1977</cYear>
+            <unstructured_citation>Gupta, R. K. (1977). A new look at
+the method of variable nutation angle for the measurement of
+spin-lattice relaxation times using fourier transform NMR. Journal of
+Magnetic Resonance (1969), 25(1), 231–235.
+https://doi.org/10.1016/0022-2364(77)90138-x</unstructured_citation>
+          </citation>
+          <citation key="Homer1985">
+            <article_title>Driven-equilibrium single-pulse observation
+of T1 relaxation. A reevaluation of a rapid “new” method for determining
+NMR spin-lattice relaxation times</article_title>
+            <author>Homer</author>
+            <journal_title>Journal of Magnetic Resonance
+(1969)</journal_title>
+            <issue>2</issue>
+            <volume>63</volume>
+            <doi>10.1016/0022-2364(85)90318-x</doi>
+            <cYear>1985</cYear>
+            <unstructured_citation>Homer, J., &amp; Beevers, M. S.
+(1985). Driven-equilibrium single-pulse observation of T1 relaxation. A
+reevaluation of a rapid “new” method for determining NMR spin-lattice
+relaxation times. Journal of Magnetic Resonance (1969), 63(2), 287–297.
+https://doi.org/10.1016/0022-2364(85)90318-x</unstructured_citation>
+          </citation>
+          <citation key="Lee2017">
+            <article_title>Analysis of the precision of variable flip
+angle T1 mapping with emphasis on the noise propagated from RF transmit
+field maps</article_title>
+            <author>Lee</author>
+            <journal_title>Frontiers in Neuroscience</journal_title>
+            <volume>11</volume>
+            <doi>10.3389/fnins.2017.00106</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>Lee, Y., Callaghan, M. F., &amp;
+Nagy, Z. (2017). Analysis of the precision of variable flip angle T1
+mapping with emphasis on the noise propagated from RF transmit field
+maps. Frontiers in Neuroscience, 11.
+https://doi.org/10.3389/fnins.2017.00106</unstructured_citation>
+          </citation>
+          <citation key="Liberman2013">
+            <article_title>T1 mapping using variable flip angle SPGR
+data with flip angle correction</article_title>
+            <author>Liberman</author>
+            <journal_title>Journal of Magnetic Resonance
+Imaging</journal_title>
+            <issue>1</issue>
+            <volume>40</volume>
+            <doi>10.1002/jmri.24373</doi>
+            <cYear>2013</cYear>
+            <unstructured_citation>Liberman, G., Louzoun, Y., &amp;
+Bashat, D. B. (2013). T1 mapping using variable flip angle SPGR data
+with flip angle correction. Journal of Magnetic Resonance Imaging,
+40(1), 171–180.
+https://doi.org/10.1002/jmri.24373</unstructured_citation>
+          </citation>
+          <citation key="Li2018">
+            <article_title>A simple B1correction method for dynamic
+contrast-enhanced MRI</article_title>
+            <author>Li</author>
+            <journal_title>Physics in Medicine and
+Biology</journal_title>
+            <issue>16</issue>
+            <volume>63</volume>
+            <doi>10.1088/1361-6560/aad519</doi>
+            <cYear>2018</cYear>
+            <unstructured_citation>Li, Z. F., Zhao, W., Qi, T. F., Gao,
+C., Gu, Q., Zhao, J. S., &amp; Koh, T. S. (2018). A simple B1correction
+method for dynamic contrast-enhanced MRI. Physics in Medicine and
+Biology, 63(16), 16NT01.
+https://doi.org/10.1088/1361-6560/aad519</unstructured_citation>
+          </citation>
+          <citation key="Lutti2013">
+            <article_title>Optimizing the accuracy of T1 mapping
+accounting for RF non-linearities and spoiling characteristics in FLASH
+imaging</article_title>
+            <author>Lutti</author>
+            <journal_title>Proceedings of the 21st annual meeting of
+ISMRM, salt lake city, utah, USA</journal_title>
+            <cYear>2013</cYear>
+            <unstructured_citation>Lutti, A., &amp; Weiskopf, N. (2013).
+Optimizing the accuracy of T1 mapping accounting for RF non-linearities
+and spoiling characteristics in FLASH imaging. Proceedings of the 21st
+Annual Meeting of ISMRM, Salt Lake City, Utah, USA,
+2478.</unstructured_citation>
+          </citation>
+          <citation key="Samson2006">
+            <article_title>A simple correction for B1 field errors in
+magnetization transfer ratio measurements</article_title>
+            <author>Samson</author>
+            <journal_title>Magnetic Resonance Imaging</journal_title>
+            <issue>3</issue>
+            <volume>24</volume>
+            <doi>10.1016/j.mri.2005.10.025</doi>
+            <cYear>2006</cYear>
+            <unstructured_citation>Samson, R. S., Wheeler-Kingshott, C.
+A. M., Symms, M. R., Tozer, D. J., &amp; Tofts, P. S. (2006). A simple
+correction for B1 field errors in magnetization transfer ratio
+measurements. Magnetic Resonance Imaging, 24(3), 255–263.
+https://doi.org/10.1016/j.mri.2005.10.025</unstructured_citation>
+          </citation>
+          <citation key="Schabel2008">
+            <article_title>Uncertainty in T1 mapping using the variable
+flip angle method with two flip angles</article_title>
+            <author>Schabel</author>
+            <journal_title>Physics in Medicine and
+Biology</journal_title>
+            <issue>1</issue>
+            <volume>54</volume>
+            <doi>10.1088/0031-9155/54/1/n01</doi>
+            <cYear>2008</cYear>
+            <unstructured_citation>Schabel, M. C., &amp; Morrell, G. R.
+(2008). Uncertainty in T1 mapping using the variable flip angle method
+with two flip angles. Physics in Medicine and Biology, 54(1), N1–N8.
+https://doi.org/10.1088/0031-9155/54/1/n01</unstructured_citation>
+          </citation>
+          <citation key="Sled1998">
+            <article_title>Standing-wave and RF penetration artifacts
+caused by elliptic geometry: An electrodynamic analysis of
+MRI</article_title>
+            <author>Sled</author>
+            <journal_title>IEEE Transactions on Medical
+Imaging</journal_title>
+            <issue>4</issue>
+            <volume>17</volume>
+            <doi>10.1109/42.730409</doi>
+            <cYear>1998</cYear>
+            <unstructured_citation>Sled, J. G., &amp; Pike, G. B.
+(1998). Standing-wave and RF penetration artifacts caused by elliptic
+geometry: An electrodynamic analysis of MRI. IEEE Transactions on
+Medical Imaging, 17(4), 653–662.
+https://doi.org/10.1109/42.730409</unstructured_citation>
+          </citation>
+          <citation key="Sung2013">
+            <article_title>Transmit field inhomogeneity and T1
+estimation errors in breast DCE-MRI at 3 tesla</article_title>
+            <author>Sung</author>
+            <journal_title>Journal of Magnetic Resonance
+Imaging</journal_title>
+            <issue>2</issue>
+            <volume>38</volume>
+            <doi>10.1002/jmri.23996</doi>
+            <cYear>2013</cYear>
+            <unstructured_citation>Sung, K., Daniel, B. L., &amp;
+Hargreaves, B. A. (2013). Transmit field inhomogeneity and T1 estimation
+errors in breast DCE-MRI at 3 tesla. Journal of Magnetic Resonance
+Imaging, 38(2), 454–459.
+https://doi.org/10.1002/jmri.23996</unstructured_citation>
+          </citation>
+          <citation key="Wang2005">
+            <article_title>In vivo method for correcting
+transmit/receive nonuniformities with phased array coils</article_title>
+            <author>Wang</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>3</issue>
+            <volume>53</volume>
+            <doi>10.1002/mrm.20377</doi>
+            <cYear>2005</cYear>
+            <unstructured_citation>Wang, J., Qiu, M., &amp; Constable,
+R. T. (2005). In vivo method for correcting transmit/receive
+nonuniformities with phased array coils. Magnetic Resonance in Medicine,
+53(3), 666–674.
+https://doi.org/10.1002/mrm.20377</unstructured_citation>
+          </citation>
+          <citation key="Yarnykh2010">
+            <article_title>Optimal radiofrequency and gradient spoiling
+for improved accuracy of T1 and B1 measurements using fast steady-state
+techniques</article_title>
+            <author>Yarnykh</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>6</issue>
+            <volume>63</volume>
+            <doi>10.1002/mrm.22394</doi>
+            <cYear>2010</cYear>
+            <unstructured_citation>Yarnykh, V. L. (2010). Optimal
+radiofrequency and gradient spoiling for improved accuracy of T1 and B1
+measurements using fast steady-state techniques. Magnetic Resonance in
+Medicine, 63(6), 1610–1626.
+https://doi.org/10.1002/mrm.22394</unstructured_citation>
+          </citation>
+          <citation key="Yarnykh2002">
+            <article_title>Pulsed z-spectroscopic imaging of
+cross-relaxation parameters in tissues for human MRI: Theory and
+clinical applications</article_title>
+            <author>Yarnykh</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>5</issue>
+            <volume>47</volume>
+            <doi>10.1002/mrm.10120</doi>
+            <cYear>2002</cYear>
+            <unstructured_citation>Yarnykh, V. L. (2002). Pulsed
+z-spectroscopic imaging of cross-relaxation parameters in tissues for
+human MRI: Theory and clinical applications. Magnetic Resonance in
+Medicine, 47(5), 929–939.
+https://doi.org/10.1002/mrm.10120</unstructured_citation>
+          </citation>
+          <citation key="Yuan2012">
+            <article_title>Quantitative evaluation of dual-flip-angle t
+1 mapping on DCE-MRI kinetic parameter estimation in head and
+neck</article_title>
+            <author>Yuan</author>
+            <journal_title>Quantitative Imaging in Medicine and
+Surgery</journal_title>
+            <issue>4</issue>
+            <volume>2</volume>
+            <doi>10.3978/j.issn.2223-4292.2012.11.04</doi>
+            <issn>2223-4306</issn>
+            <cYear>2012</cYear>
+            <unstructured_citation>Yuan, J., Chow, S. K. K., Yeung, D.
+K. W., Ahuja, A. T., &amp; King, A. D. (2012). Quantitative evaluation
+of dual-flip-angle t 1 mapping on DCE-MRI kinetic parameter estimation
+in head and neck. Quantitative Imaging in Medicine and Surgery, 2(4).
+https://doi.org/10.3978/j.issn.2223-4292.2012.11.04</unstructured_citation>
+          </citation>
+          <citation key="Zur1991">
+            <article_title>Spoiling of transverse magnetization in
+steady-state sequences</article_title>
+            <author>Zur</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>2</issue>
+            <volume>21</volume>
+            <doi>10.1002/mrm.1910210210</doi>
+            <cYear>1991</cYear>
+            <unstructured_citation>Zur, Y., Wood, M. L., &amp;
+Neuringer, L. J. (1991). Spoiling of transverse magnetization in
+steady-state sequences. Magnetic Resonance in Medicine, 21(2), 251–263.
+https://doi.org/10.1002/mrm.1910210210</unstructured_citation>
+          </citation>
+          <citation key="Deoni2003">
+            <article_title>Rapid combined T1 and T2 mapping using
+gradient recalled acquisition in the steady state</article_title>
+            <author>Deoni</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>3</issue>
+            <volume>49</volume>
+            <doi>10.1002/mrm.10407</doi>
+            <cYear>2003</cYear>
+            <unstructured_citation>Deoni, S. C. L., Rutt, B. K., &amp;
+Peters, T. M. (2003). Rapid combined T1 and T2 mapping using gradient
+recalled acquisition in the steady state. Magnetic Resonance in
+Medicine, 49(3), 515–526.
+https://doi.org/10.1002/mrm.10407</unstructured_citation>
+          </citation>
+          <citation key="Karakuzu2022-nlwf">
+            <article_title>NeuroLibre : A preprint server for
+full-fledged reproducible neuroscience</article_title>
+            <author>Karakuzu</author>
+            <doi>10.31219/osf.io/h89js</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Karakuzu, A., DuPre, E., Tetrel, L.,
+Bermudez, P., Boudreau, M., Chin, M., Poline, J.-B., Das, S., Bellec,
+P., &amp; Stikov, N. (2022). NeuroLibre : A preprint server for
+full-fledged reproducible neuroscience. OSF Preprints.
+https://doi.org/10.31219/osf.io/h89js</unstructured_citation>
+          </citation>
+          <citation key="Dupre2022-iro">
+            <article_title>Beyond advertising: New infrastructures for
+publishing integrated research objects</article_title>
+            <author>DuPre</author>
+            <journal_title>PLOS Computational Biology</journal_title>
+            <issue>1</issue>
+            <volume>18</volume>
+            <doi>10.1371/journal.pcbi.1009651</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>DuPre, E., Holdgraf, C., Karakuzu,
+A., Tetrel, L., Bellec, P., Stikov, N., &amp; Poline, J.-B. (2022).
+Beyond advertising: New infrastructures for publishing integrated
+research objects. PLOS Computational Biology, 18(1), e1009651.
+https://doi.org/10.1371/journal.pcbi.1009651</unstructured_citation>
+          </citation>
+          <citation key="Harding2023-conp">
+            <article_title>The Canadian Open Neuroscience Platform—An
+open science framework for the neuroscience community</article_title>
+            <author>Harding</author>
+            <journal_title>PLOS Computational Biology</journal_title>
+            <issue>7</issue>
+            <volume>19</volume>
+            <doi>10.1371/journal.pcbi.1011230</doi>
+            <cYear>2023</cYear>
+            <unstructured_citation>Harding, R. J., Bermudez, P.,
+Bernier, A., Beauvais, M., Bellec, P., Hill, S., Karakuzu, A., Knoppers,
+B. M., Pavlidis, P., Poline, J.-B., Roskams, J., Stikov, N., Stone, J.,
+Strother, S., Consortium, C., &amp; Evans, A. C. (2023). The Canadian
+Open Neuroscience Platform—An open science framework for the
+neuroscience community. PLOS Computational Biology, 19(7), 1–14.
+https://doi.org/10.1371/journal.pcbi.1011230</unstructured_citation>
+          </citation>
+        </citation_list>
+  </posted_content>
+  </body>
+</doi_batch>

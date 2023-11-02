@@ -1,0 +1,1597 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN"
+                  "JATS-publishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+<journal-title>NeuroLibre Reproducible Preprints</journal-title>
+<abbrev-journal-title>NeuroLibre</abbrev-journal-title>
+</journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher>
+<publisher-name>NeuroLibre</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">19</article-id>
+<article-id pub-id-type="doi">10.55458/neurolibre.00019</article-id>
+<title-group>
+<article-title>Quantitative T1 MRI</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-7726-4456</contrib-id>
+<name>
+<surname>Boudreau</surname>
+<given-names>Mathieu</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="aff" rid="aff-2"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-9070-5255</contrib-id>
+<name>
+<surname>Keenan</surname>
+<given-names>Kathryn E.</given-names>
+</name>
+<xref ref-type="aff" rid="aff-3"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-8480-5230</contrib-id>
+<name>
+<surname>Stikov</surname>
+<given-names>Nikola</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="aff" rid="aff-2"/>
+</contrib>
+<aff id="aff-1">
+<institution-wrap>
+<institution>Montreal Heart Institute, Montreal, Quebec,
+Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-2">
+<institution-wrap>
+<institution>NeuroPoly, Polytechnique Montreal, Quebec,
+Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-3">
+<institution-wrap>
+<institution>Physical Measurement Laboratory, National Institute of
+Standards and Technology, Boulder, Colorado</institution>
+</institution-wrap>
+</aff>
+</contrib-group>
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2021-07-20">
+<day>20</day>
+<month>7</month>
+<year>2021</year>
+</pub-date>
+<volume>3</volume>
+<issue>35</issue>
+<fpage>19</fpage>
+<permissions>
+<copyright-statement>Authors of papers retain copyright and release the
+work under a Creative Commons Attribution 4.0 International License (CC
+BY 4.0)</copyright-statement>
+<copyright-year>2022</copyright-year>
+<copyright-holder>The article authors</copyright-holder>
+<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/">
+<license-p>Authors of papers retain copyright and release the work under
+a Creative Commons Attribution 4.0 International License (CC BY
+4.0)</license-p>
+</license>
+</permissions>
+<kwd-group kwd-group-type="author">
+<kwd>MRI</kwd>
+<kwd>qMRI</kwd>
+<kwd>Quantitative</kwd>
+<kwd>T1</kwd>
+<kwd>Relaxometry</kwd>
+</kwd-group>
+</article-meta>
+</front>
+<body>
+<sec id="summary">
+  <title>Summary</title>
+  <p>This NeuroLibre Reproducible preprint is an interactive tutorial on
+  quantitative T1 mapping MRI. It is an interactive version of two
+  subsections of the chapter “Quantitative T1 and T1r Mapping” in the
+  book Quantitative Magnetic Resonance Imaging
+  (<xref alt="Boudreau et al., 2020" rid="ref-Boudreau2019" ref-type="bibr">Boudreau
+  et al., 2020</xref>).</p>
+  <p></p>
+  <disp-quote>
+    <p>The following section in this document repeats the narrative
+    content exactly as found in the
+    <ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">corresponding
+    NeuroLibre Reproducible Preprint (NRP)</ext-link>. The content was
+    automatically incorporated into this PDF using the NeuroLibre
+    publication workflow
+    (<xref alt="Karakuzu et al., 2022" rid="ref-Karakuzu2022-nlwf" ref-type="bibr">Karakuzu
+    et al., 2022</xref>) to credit the referenced resources. The
+    submitting author of the preprint has verified and approved the
+    inclusion of this section through a GitHub pull request made to the
+    <ext-link ext-link-type="uri" xlink:href="https://github.com/qMRLab/t1-book-neurolibre">source
+    repository</ext-link> from which this document was built. Please
+    note that the figures and tables have been excluded from this
+    (static) document. <bold>To interactively explore such outputs and
+    re-generate them, please visit the corresponding
+    <ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">NRP</ext-link>.</bold>
+    For more information on integrated research objects (e.g., NRPs)
+    that bundle narrative and executable content for reproducible and
+    transparent publications, please refer to DuPre et al.
+    (<xref alt="2022" rid="ref-Dupre2022-iro" ref-type="bibr">2022</xref>).
+    NeuroLibre is sponsored by the Canadian Open Neuroscience Platform
+    (CONP)
+    (<xref alt="Harding et al., 2023" rid="ref-Harding2023-conp" ref-type="bibr">Harding
+    et al., 2023</xref>).</p>
+  </disp-quote>
+</sec>
+<sec id="about">
+  <title>About</title>
+  <p>This Jupyter Book is a series of interactive tutorials about
+  quantitative T1 mapping, powered by
+  <ext-link ext-link-type="uri" xlink:href="https://qmrlab.org">qMRLab</ext-link>
+  (<xref alt="Karakuzu et al., 2020" rid="ref-Karakuzu2020-ul" ref-type="bibr">Karakuzu
+  et al., 2020</xref>).</p>
+  <sec id="acknowledgements">
+    <title>Acknowledgements</title>
+    <p>This work was supported by the Canadian Open Neuroscience
+    Platform
+    <ext-link ext-link-type="uri" xlink:href="http://conp.ca">(CONP)</ext-link>,
+    the Quebec Bio-Imaging Network
+    <ext-link ext-link-type="uri" xlink:href="https://www.rbiq-qbin.qc.ca/">(QBIN)</ext-link>,
+    and the Montreal Heart Institute Foundation
+    <ext-link ext-link-type="uri" xlink:href="https://www.icm-mhi.org/en/foundation">(MHI)</ext-link>.</p>
+  </sec>
+</sec>
+<sec id="inversion-recovery-t1-mapping">
+  <title>Inversion Recovery T1 Mapping</title>
+  <p>Widely considered the gold standard for T1 mapping, the inversion
+  recovery technique estimates T1 values by fitting the signal recovery
+  curve acquired at different delays after an inversion pulse (180°). In
+  a typical inversion recovery experiment
+  (<ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+  1</ext-link>), the magnetization at thermal equilibrium is inverted
+  using a 180° RF pulse. After the longitudinal magnetization recovers
+  through spin-lattice relaxation for predetermined delay (“inversion
+  time”, TI), a 90° excitation pulse is applied, followed by a readout
+  imaging sequence (typically a spin-echo or gradient-echo readout) to
+  create a snapshot of the longitudinal magnetization state at that
+  TI.</p>
+  <p>Inversion recovery was first developed for NMR in the 1940s
+  (<xref alt="Drain, 1949" rid="ref-Drain1949" ref-type="bibr">Drain,
+  1949</xref>;
+  <xref alt="Hahn, 1949" rid="ref-Hahn1949" ref-type="bibr">Hahn,
+  1949</xref>), and the first T1 map was acquired using a
+  saturation-recovery technique (90° as a preparation pulse instead of
+  180°) by
+  (<xref alt="Pykett &amp; Mansfield, 1978" rid="ref-Pykett1978" ref-type="bibr">Pykett
+  &amp; Mansfield, 1978</xref>). Some distinct advantages of inversion
+  recovery are its large dynamic range of signal change and an
+  insensitivity to pulse sequence parameter imperfections
+  (<xref alt="Stikov et al., 2015" rid="ref-Stikov2015" ref-type="bibr">Stikov
+  et al., 2015</xref>). Despite its proven robustness at measuring T1,
+  inversion recovery is scarcely used in practice, because conventional
+  implementations require repetition times (TRs) on the order of 2 to 5
+  T1
+  (<xref alt="Steen et al., 1994" rid="ref-Steen1994" ref-type="bibr">Steen
+  et al., 1994</xref>), making it challenging to acquire whole-organ T1
+  maps in a clinically feasible time. Nonetheless, it is continuously
+  used as a reference measurement during the development of new
+  techniques, or when comparing different T1 mapping techniques, and
+  several variations of the inversion recovery technique have been
+  developed, making it practical for some applications
+  (<xref alt="Messroghli et al., 2004" rid="ref-Messroghli2004" ref-type="bibr">Messroghli
+  et al., 2004</xref>;
+  <xref alt="Piechnik et al., 2010" rid="ref-Piechnik2010" ref-type="bibr">Piechnik
+  et al., 2010</xref>).</p>
+  <p><bold><ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+  1</ext-link>. Pulse sequence of an inversion recovery
+  experiment.</bold></p>
+  <sec id="signal-modelling">
+    <title>Signal Modelling</title>
+    <p>The steady-state longitudinal magnetization of an inversion
+    recovery experiment can be derived from the Bloch equations for the
+    pulse sequence {θ180 – TI – θ90 – (TR-TI)}, and is given by:</p>
+    <p><named-content id="eqU003A1" content-type="equation"><disp-formula><alternatives>
+    <tex-math><![CDATA[
+    M\_{z}(TI) = M\_0 \frac{1-\text{cos}(\theta\_{180})e^{- \frac{TR}{T\_1}} -[1-\text{cos}(\theta\_{180})]e^{- \frac{TI}{T\_1}}}{1 - \text{cos}(\theta\_{180}) \text{cos}(\theta\_{90}) e^{- \frac{TR}{T\_1}}}]]></tex-math>
+    <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>M</mml:mi><mml:mi>_</mml:mi><mml:mi>z</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>T</mml:mi><mml:mi>I</mml:mi><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>M</mml:mi><mml:mi>_</mml:mi><mml:mn>0</mml:mn><mml:mfrac><mml:mrow><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mtext mathvariant="normal">cos</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>θ</mml:mi><mml:mi>_</mml:mi><mml:mn>180</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>T</mml:mi><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>_</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:msup><mml:mo>−</mml:mo><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mtext mathvariant="normal">cos</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>θ</mml:mi><mml:mi>_</mml:mi><mml:mn>180</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>T</mml:mi><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>_</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:msup></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mtext mathvariant="normal">cos</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>θ</mml:mi><mml:mi>_</mml:mi><mml:mn>180</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mtext mathvariant="normal">cos</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>θ</mml:mi><mml:mi>_</mml:mi><mml:mn>90</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>T</mml:mi><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>_</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:msup></mml:mrow></mml:mfrac></mml:mrow></mml:math></alternatives></disp-formula></named-content></p>
+    <p>where Mz is the longitudinal magnetization prior to the θ90
+    pulse. If the in-phase real signal is desired, it can be calculated
+    by multiplying Eq. 1 by <italic>k</italic>sin(θ90)e-TE/T2, where
+    <italic>k</italic> is a constant. This general equation can be
+    simplified by grouping together the constants for each measurements
+    regardless of their values (i.e. at each TI, same TE and θ90 are
+    used) and assuming an ideal inversion pulse:</p>
+    <p><named-content id="eqU003A2" content-type="equation"><disp-formula><alternatives>
+    <tex-math><![CDATA[
+    M\_z(TI) = C(1-2e^{- \frac{TI}{T\_1}} + e^{- \frac{TR}{T\_1}})]]></tex-math>
+    <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>M</mml:mi><mml:mi>_</mml:mi><mml:mi>z</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>T</mml:mi><mml:mi>I</mml:mi><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>C</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mn>2</mml:mn><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>T</mml:mi><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>_</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>T</mml:mi><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>_</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:msup><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:math></alternatives></disp-formula></named-content></p>
+    <p>where the first three terms and the denominator of Eq. 1 have
+    been grouped together into the constant C. If the experiment is
+    designed such that TR is long enough to allow for full relaxation of
+    the magnetization (TR &gt; 5T1), we can do an additional
+    approximation by dropping the last term in Eq. 2:</p>
+    <p><named-content id="eqU003A3" content-type="equation"><disp-formula><alternatives>
+    <tex-math><![CDATA[
+    M\_z(TI) = C(1-2e^{- \frac{TI}{T\_1}})]]></tex-math>
+    <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>M</mml:mi><mml:mi>_</mml:mi><mml:mi>z</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>T</mml:mi><mml:mi>I</mml:mi><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>C</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mn>2</mml:mn><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>T</mml:mi><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>_</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:msup><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:math></alternatives></disp-formula></named-content></p>
+    <p>The simplicity of the signal model described by Eq. 3, both in
+    its equation and experimental implementation, has made it the most
+    widely used equation to describe the signal evolution in an
+    inversion recovery T1 mapping experiment. The magnetization curves
+    are plotted in
+    <ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    2</ext-link> for approximate T1 values of three different tissues in
+    the brain. Note that in many practical implementations,
+    magnitude-only images are acquired, so the signal measured would be
+    proportional to the absolute value of Eq. 3.</p>
+    <p><bold><ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    2</ext-link>. Inversion recovery curves (Eq. 2) for three different
+    T1 values, approximating the main types of tissue in the
+    brain.</bold></p>
+    <p>Practically, Eq. 1 is the better choice for simulating the signal
+    of an inversion recovery experiment, as the TRs are often chosen to
+    be greater than 5T1 of the tissue-of-interest, which rarely
+    coincides with the longest T1 present (e.g. TR may be sufficiently
+    long for white matter, but not for CSF which could also be present
+    in the volume). Equation 3 also assumes ideal inversion pulses,
+    which is rarely the case due to slice profile effects.
+    <ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    3</ext-link> displays the inversion recovery signal magnitude
+    (complete relaxation normalized to 1) of an experiment with TR = 5 s
+    and T1 values ranging between 250 ms to 5 s, calculated using both
+    equations.</p>
+    <p><bold><ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    3</ext-link>. Signal recovery curves simulated using Eq. 3 (solid)
+    and Eq. 1 (dotted) with a TR = 5 s for T1 values ranging between
+    0.25 to 5 s.</bold></p>
+  </sec>
+  <sec id="data-fitting">
+    <title>Data Fitting</title>
+    <p>Several factors impact the choice of the inversion recovery
+    fitting algorithm. If only magnitude images are available, then a
+    polarity-inversion is often implemented to restore the
+    non-exponential magnitude curves
+    (<ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    3</ext-link>) into the exponential form
+    (<ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    2</ext-link>). This process is sensitive to noise due to the Rician
+    noise creating a non-zero level at the signal null. If phase data is
+    also available, then a phase term must be added to the fitting
+    equation
+    (<xref alt="Barral et al., 2010" rid="ref-Barral2010-qm" ref-type="bibr">Barral
+    et al., 2010</xref>). Equation 3 must only be used to fit data for
+    the long TR regime (TR &gt; 5T1), which in practice is rarely
+    satisfied for all tissues in subjects.</p>
+    <p>Early implementations of inversion recovery fitting algorithms
+    were designed around the computational power available at the time.
+    These included the “null method”
+    (<xref alt="Pykett et al., 1983" rid="ref-Pykett1983" ref-type="bibr">Pykett
+    et al., 1983</xref>), assuming that each T1 value has unique
+    zero-crossings (see
+    <ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    2</ext-link>), and linear fitting of a rearranged version of Eq. 3
+    on a semi-log plot
+    (<xref alt="Fukushima, 1981" rid="ref-Fukushima1981" ref-type="bibr">Fukushima,
+    1981</xref>). Nowadays, a non-linear least-squares fitting algorithm
+    (e.g. Levenberg-Marquardt) is more appropriate, and can be applied
+    to either approximate or general forms of the signal model (Eq. 3 or
+    Eq. 1). More recent work
+    (<xref alt="Barral et al., 2010" rid="ref-Barral2010-qm" ref-type="bibr">Barral
+    et al., 2010</xref>) demonstrated that T1 maps can also be fitted
+    much faster (up to 75 times compared to Levenberg-Marquardt) to fit
+    Eq. 1 – without a precision penalty – by using a reduced-dimension
+    non-linear least squares (RD-NLS) algorithm. It was demonstrated
+    that the following simplified 5-parameter equation can be sufficient
+    for accurate T1 mapping:</p>
+    <p><named-content id="eqU003A4" content-type="equation"><disp-formula><alternatives>
+    <tex-math><![CDATA[
+    S(TI) = a + be^{- \frac{TI}{T\_1}}]]></tex-math>
+    <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>T</mml:mi><mml:mi>I</mml:mi><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>a</mml:mi><mml:mo>+</mml:mo><mml:mi>b</mml:mi><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>T</mml:mi><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>_</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:msup></mml:mrow></mml:math></alternatives></disp-formula></named-content></p>
+    <p>where <italic>a</italic> and <italic>b</italic> are complex
+    values. If magnitude-only data is available, a 3-parameter model can
+    be sufficient by taking the absolute value of Eq. 4. While the
+    RD-NLS algorithms are too complex to be presented here (the reader
+    is referred to the paper, (Barral et al. 2010)), the code for these
+    algorithms
+    <ext-link ext-link-type="uri" xlink:href="http://www-mrsrl.stanford.edu/~jbarral/t1map.html">was
+    released open-source</ext-link> along with the original publication,
+    and is also available as a
+    <ext-link ext-link-type="uri" xlink:href="https://github.com/qMRLab/qMRLab">qMRLab</ext-link>
+    T1 mapping model. One important thing to note about Eq. 4 is that it
+    is general – no assumption is made about TR – and is thus as robust
+    as Eq. 1 as long as all pulse sequence parameters other than TI are
+    kept constant between each measurement.
+    <ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    4</ext-link> compares simulated data (Eq. 1) using a range of TRs
+    (1.5T1 to 5T1) fitted using either RD-NLS &amp; Eq. 4 or a
+    Levenberg-Marquardt fit of Eq. 2.</p>
+    <p><bold><ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    4</ext-link>. Fitting comparison of simulated data (blue markers)
+    with T1 = 1 s and TR = 1.5 to 5 s, using fitted using RD-NLS &amp;
+    Eq. 4 (green) and Levenberg-Marquardt &amp; Eq. 2 (orange, long TR
+    approximation).</bold></p>
+    <p><ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    5</ext-link> displays an example brain dataset from an inversion
+    recovery experiment, along with the T1 map fitted using the RD-NLS
+    technique.</p>
+    <p><bold><ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    5</ext-link>. Example inversion recovery dataset of a healthy adult
+    brain (left). Inversion times used to acquire this magnitude image
+    dataset were 30 ms, 530 ms, 1030 ms, and 1530 ms, and the TR used
+    was 1550 ms. The T1 map (right) was fitted using a RD-NLS
+    algorithm.</bold></p>
+  </sec>
+  <sec id="benefits-and-pitfalls">
+    <title>Benefits and Pitfalls</title>
+    <p>The conventional inversion recovery experiment is considered the
+    gold standard T1 mapping technique for several reasons:</p>
+    <list list-type="bullet">
+      <list-item>
+        <p>A typical protocol has a long TR value and a sufficient
+        number of inversion times for stable fitting (typically 5 or
+        more) covering the range [0, TR].</p>
+      </list-item>
+      <list-item>
+        <p>It offers a wide dynamic range of signals (up to
+        [-<italic>k</italic>M0, <italic>k</italic>M0]), allowing a
+        number of inversion times where high SNR is available to sample
+        the signal recovery curve
+        (<xref alt="Fukushima, 1981" rid="ref-Fukushima1981" ref-type="bibr">Fukushima,
+        1981</xref>).</p>
+      </list-item>
+      <list-item>
+        <p>T1 maps produced by inversion recovery are largely
+        insensitive to inaccuracies in excitation flip angles and
+        imperfect spoiling
+        (<xref alt="Stikov et al., 2015" rid="ref-Stikov2015" ref-type="bibr">Stikov
+        et al., 2015</xref>), as all parameters except TI are constant
+        for each measurement and only a single acquisition is performed
+        (at TI) during each TR.</p>
+      </list-item>
+    </list>
+    <p>One important protocol design consideration is to avoid acquiring
+    at inversion times where the signal for T1 values of the
+    tissue-of-interest is nulled, as the magnitude images at this TI
+    time will be dominated by Rician noise which can negatively impact
+    the fit under low SNR circumstances
+    (<ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    6</ext-link>). Inversion recovery can also often be acquired using
+    commonly available standard pulse sequences available on most MRI
+    scanners by setting up a customized acquisition protocol, and does
+    not require any additional calibration measurements. For an example,
+    please visit the interactive preprint of the ISMRM Reproducible
+    Research Group 2020 Challenge on inversion recovery T1 mapping
+    (<xref alt="Boudreau et al., 2023" rid="ref-Boudreau2023" ref-type="bibr">Boudreau
+    et al., 2023</xref>).</p>
+    <p><bold><ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    6</ext-link>. Monte Carlo simulations (mean and standard deviation
+    (STD), blue markers) and fitted T1 values (mean and STD, red and
+    green respectively) generated for a T1 value of 900 ms and 5 TI
+    values linearly spaced across the TR (ranging from 1 to 5 s). A bump
+    in T1 STD occurs near TR = 3000 ms, which coincides with the TR
+    where the second TI is located near a null point for this T1
+    value.</bold></p>
+    <p>Despite a widely acknowledged robustness for measuring accurate
+    T1 maps, inversion recovery is not often used in studies. An
+    important drawback of this technique is the need for long TR values,
+    generally on the order of a few T1 for general models (e.g. Eqs. 1
+    and 4), and up to 5T1 for long TR approximated models (Eq. 3). It
+    takes about to 10-25 minutes to acquire a single-slice T1 map using
+    the inversion recovery technique, as only one TI is acquired per TR
+    (2-5 s) and conventional cartesian gradient readout imaging acquires
+    one phase encode line per excitation (for a total of ~100-200 phase
+    encode lines). The long acquisition time makes it challenging to
+    acquire whole-organ T1 maps in clinically feasible protocol times.
+    Nonetheless, it is useful as a reference measurement for comparisons
+    against other T1 mapping methods, or to acquire a single-slice T1
+    map of a tissue to get T1 estimates for optimization of other pulse
+    sequences.</p>
+  </sec>
+  <sec id="other-saturation-recovery-t1-mapping-techniques">
+    <title>Other Saturation-Recovery T1 Mapping techniques</title>
+    <p>Several variations of the inversion recovery pulse sequence were
+    developed to overcome challenges like those specified above. Amongst
+    them, the Look-Locker technique
+    (<xref alt="Look &amp; Locker, 1970" rid="ref-Look1970" ref-type="bibr">Look
+    &amp; Locker, 1970</xref>) stands out as one of the most widely used
+    in practice. Instead of a single 90° acquisition per TR, a periodic
+    train of small excitation pulses θ are applied after the inversion
+    pulse, {θ180 – 𝛕 – θ – 𝛕 – θ – …}, where 𝛕 = TR/n and n is the
+    number of sampling acquisitions. This pulse sequence samples the
+    inversion time relaxation curve much more efficiently than
+    conventional inversion recovery, but at a cost of lower SNR.
+    However, because the magnetization state of each TI measurement
+    depends on the previous series of θ excitation, it has higher
+    sensitivity to B1-inhomogeneities and imperfect spoiling compared to
+    inversion recovery
+    (<xref alt="Gai et al., 2013" rid="ref-Gai2013" ref-type="bibr">Gai
+    et al., 2013</xref>;
+    <xref alt="Stikov et al., 2015" rid="ref-Stikov2015" ref-type="bibr">Stikov
+    et al., 2015</xref>). Nonetheless, Look-Locker is widely used for
+    rapid T1 mapping applications, and variants like MOLLI (Modified
+    Look-Locker Inversion recovery) and ShMOLLI (Shortened MOLLI) are
+    widely used for cardiac T1 mapping
+    (<xref alt="Messroghli et al., 2004" rid="ref-Messroghli2004" ref-type="bibr">Messroghli
+    et al., 2004</xref>;
+    <xref alt="Piechnik et al., 2010" rid="ref-Piechnik2010" ref-type="bibr">Piechnik
+    et al., 2010</xref>).</p>
+    <p>Another inversion recovery variant that’s worth mentioning is
+    saturation recovery, in which the inversion pulse is replaced with a
+    saturation pulse: {θ90 – TI – θ90}. This technique was used to
+    acquire the very first T1 map
+    (<xref alt="Pykett &amp; Mansfield, 1978" rid="ref-Pykett1978" ref-type="bibr">Pykett
+    &amp; Mansfield, 1978</xref>). Unlike inversion recovery, this pulse
+    sequence does not need a long TR to recover to its initial
+    condition; every θ90 pulse resets the longitudinal magnetization to
+    the same initial state. However, to properly sample the recovery
+    curve, TIs still need to reach the order of ~T1, the dynamic range
+    of signal potential is cut in half ([0, M0]), and the short TIs
+    (which have the fastest acquisition times) have the lowest SNRs.</p>
+  </sec>
+</sec>
+<sec id="variable-flip-angle-t1-mapping">
+  <title>Variable Flip Angle T1 Mapping</title>
+  <p>Variable flip angle (VFA) T1 mapping
+  (<xref alt="Christensen et al., 1974" rid="ref-Christensen1974" ref-type="bibr">Christensen
+  et al., 1974</xref>;
+  <xref alt="Fram et al., 1987" rid="ref-Fram1987" ref-type="bibr">Fram
+  et al., 1987</xref>;
+  <xref alt="Gupta, 1977" rid="ref-Gupta1977" ref-type="bibr">Gupta,
+  1977</xref>), also known as Driven Equilibrium Single Pulse
+  Observation of T1 (DESPOT1)
+  (<xref alt="Deoni et al., 2003" rid="ref-Deoni2003" ref-type="bibr">Deoni
+  et al., 2003</xref>;
+  <xref alt="Homer &amp; Beevers, 1985" rid="ref-Homer1985" ref-type="bibr">Homer
+  &amp; Beevers, 1985</xref>), is a rapid quantitative T1 measurement
+  technique that is widely used to acquire 3D T1 maps (e.g. whole-brain)
+  in a clinically feasible time. VFA estimates T1 values by acquiring
+  multiple spoiled gradient echo acquisitions, each with different
+  excitation flip angles (<italic>θn</italic> for n = 1, 2, .., N and
+  <italic>θi</italic> ≠ <italic>θj</italic>). The steady-state signal of
+  this pulse sequence
+  (<ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+  1</ext-link>) uses very short TRs (on the order of magnitude of 10 ms)
+  and is very sensitive to T1 for a wide range of flip angles.</p>
+  <p>VFA is a technique that originates from the NMR field, and was
+  adopted because of its time efficiency and the ability to acquire
+  accurate T1 values simultaneously for a wide range of values
+  (<xref alt="Christensen et al., 1974" rid="ref-Christensen1974" ref-type="bibr">Christensen
+  et al., 1974</xref>;
+  <xref alt="Gupta, 1977" rid="ref-Gupta1977" ref-type="bibr">Gupta,
+  1977</xref>). For imaging applications, VFA also benefits from an
+  increase in SNR because it can be acquired using a 3D acquisition
+  instead of multislice, which also helps to reduce slice profile
+  effects. One important drawback of VFA for T1 mapping is that the
+  signal is very sensitive to inaccuracies in the flip angle value, thus
+  impacting the T1 estimates. In practice, the nominal flip angle
+  (i.e. the value set at the scanner) is different than the actual flip
+  angle experienced by the spins (e.g. at 3.0 T, variations of up to
+  ±30%), an issue that increases with field strength. VFA typically
+  requires the acquisition of another quantitative map, the transmit RF
+  amplitude (B1+, or B1 for short), to calibrate the nominal flip angle
+  to its actual value because of B1 inhomogeneities that occur in most
+  loaded MRI coils
+  (<xref alt="Sled &amp; Pike, 1998" rid="ref-Sled1998" ref-type="bibr">Sled
+  &amp; Pike, 1998</xref>). The need to acquire an additional B1 map
+  reduces the time savings offered by VFA over saturation-recovery
+  techniques, and inaccuracies/imprecisions of the B1 map are also
+  propagated into the VFA T1 map
+  (<xref alt="Boudreau et al., 2017" rid="ref-Boudreau2017" ref-type="bibr">Boudreau
+  et al., 2017</xref>;
+  <xref alt="Lee et al., 2017" rid="ref-Lee2017" ref-type="bibr">Lee et
+  al., 2017</xref>).</p>
+  <p><bold><ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+  1</ext-link>. Simplified pulse sequence diagram of a variable flip
+  angle (VFA) pulse sequence with a gradient echo readout. TR:
+  repetition time, <italic>θn</italic>: excitation flip angle for the
+  nth measurement, IMG: image acquisition (k-space readout), SPOIL:
+  spoiler gradient.</bold></p>
+  <sec id="signal-modelling-1">
+    <title>Signal Modelling</title>
+    <p>The steady-state longitudinal magnetization of an ideal variable
+    flip angle experiment can be analytically solved from the Bloch
+    equations for the spoiled gradient echo pulse sequence
+    {<italic>θn</italic>–TR}:</p>
+    <p><disp-formula><alternatives>
+    <tex-math><![CDATA[\tag{1}
+    M\_{z}(\theta\_n) = M\_0 \frac{1-e^{- \frac{TR}{T\_1}}}{1-\text{cos}(\theta\_n) e^{- \frac{TR}{T\_1}}} \text{sin}(\theta\_n)]]></tex-math>
+    <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>M</mml:mi><mml:mi>_</mml:mi><mml:mi>z</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>θ</mml:mi><mml:mi>_</mml:mi><mml:mi>n</mml:mi><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>M</mml:mi><mml:mi>_</mml:mi><mml:mn>0</mml:mn><mml:mfrac><mml:mrow><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>T</mml:mi><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>_</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:msup></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mtext mathvariant="normal">cos</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>θ</mml:mi><mml:mi>_</mml:mi><mml:mi>n</mml:mi><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>T</mml:mi><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>_</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:msup></mml:mrow></mml:mfrac><mml:mtext mathvariant="normal">sin</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>θ</mml:mi><mml:mi>_</mml:mi><mml:mi>n</mml:mi><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:math></alternatives></disp-formula></p>
+    <p>where <italic>Mz</italic> is the longitudinal magnetization,
+    <italic>M</italic>0 is the magnetization at thermal equilibrium, TR
+    is the pulse sequence repetition time
+    (<ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    1</ext-link>), and <italic>θn</italic> is the excitation flip angle.
+    The <italic>Mz</italic> curves of different T1 values for a range of
+    <italic>θn</italic> and TR values are shown in
+    <ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    2</ext-link>.</p>
+    <p><bold><ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    2</ext-link>. Variable flip angle technique signal curves (Eq. 1)
+    for three different T1 values, approximating the main types of
+    tissue in the brain at 3T.</bold></p>
+    <p>From
+    <ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    2</ext-link>, it is clearly seen that the flip angle at which the
+    steady-state signal is maximized is dependent on the T1 and TR
+    values. This flip angle is a well known quantity, called the Ernst
+    angle
+    (<xref alt="Ernst &amp; Anderson, 1966" rid="ref-Ernst1966" ref-type="bibr">Ernst
+    &amp; Anderson, 1966</xref>), which can be solved analytically from
+    Equation 1 using properties of calculus:</p>
+    <p><disp-formula><alternatives>
+    <tex-math><![CDATA[\tag{2}
+    \theta\_{Ernst} = \text{acos}(e^{- \frac{TR}{T\_1}})]]></tex-math>
+    <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>θ</mml:mi><mml:mi>_</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mi>r</mml:mi><mml:mi>n</mml:mi><mml:mi>s</mml:mi><mml:mi>t</mml:mi></mml:mrow><mml:mo>=</mml:mo><mml:mtext mathvariant="normal">acos</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>T</mml:mi><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>_</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:msup><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:math></alternatives></disp-formula></p>
+    <p>The closed-form solution (Equation 1) makes several assumptions
+    which in practice may not always hold true if care is not taken.
+    Mainly, it is assumed that the longitudinal magnetization has
+    reached a steady state after a large number of TRs, and that the
+    transverse magnetization is perfectly spoiled at the end of each TR.
+    Bloch simulations – a numerical approach at solving the Bloch
+    <italic>equations</italic> for a set of spins at each time point –
+    provide a more realistic estimate of the signal if the number of
+    repetition times is small (i.e. a steady-state is not achieved). As
+    can be seen from
+    <ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    3</ext-link>, the number of repetitions required to reach a steady
+    state not only depends on T1, but also on the flip angle; flip
+    angles near the Ernst angle need more TRs to reach a steady state.
+    Preparation pulses or an outward-in k-space acquisition pattern are
+    typically sufficient to reach a steady state by the time that the
+    center of k-space is acquired, which is where most of the image
+    contrast resides.</p>
+    <p><bold><ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    3</ext-link>. Signal curves simulated using Bloch simulations
+    (orange) for a number of repetitions ranging from 1 to 150, plotted
+    against the ideal case (Equation 1 – blue). Simulation details: TR =
+    25 ms, T1 = 900 ms, 100 spins. Ideal spoiling was used for this set
+    of Bloch simulations (transverse magnetization was set to 0 at the
+    end of each TR).</bold></p>
+    <p>Sufficient spoiling is likely the most challenging parameter to
+    control for in a VFA experiment. A combination of both gradient
+    spoiling and RF phase spoiling
+    (<xref alt="Bernstein et al., 2004" rid="ref-Handbook2004" ref-type="bibr">Bernstein
+    et al., 2004</xref>;
+    <xref alt="Zur et al., 1991" rid="ref-Zur1991" ref-type="bibr">Zur
+    et al., 1991</xref>) are typically recommended
+    (<ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    4</ext-link>). It has also been shown that the use of very strong
+    gradients, introduces diffusion effects (not considered in
+    <ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    4</ext-link>), further improving the spoiling efficacy in the VFA
+    pulse sequence
+    (<xref alt="Yarnykh, 2010" rid="ref-Yarnykh2010" ref-type="bibr">Yarnykh,
+    2010</xref>).</p>
+    <p><bold><ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    4</ext-link>. Signal curves estimated using Bloch simulations for
+    three categories of signal spoiling: (1) ideal spoiling (blue),
+    gradient &amp; RF Spoiling (orange), and no spoiling (green).
+    Simulations details: TR = 25 ms, T1 = 900 ms, Te = 100 ms, TE = 5
+    ms, 100 spins. For the ideal spoiling case, the transverse
+    magnetization is set to zero at the end of each TR. For the gradient
+    &amp; RF spoiling case, each spin is rotated by different increments
+    of phase (2𝜋 / # of spins) to simulate complete decoherence from
+    gradient spoiling, and the RF phase of the excitation pulse is
+    ɸ<italic>n</italic> = ɸ<italic>n</italic>-1 + <italic>n</italic>ɸ0 =
+    ½ ɸ0(<italic>n</italic>2 + <italic>n</italic> + 2)
+    (<xref alt="Bernstein et al., 2004" rid="ref-Handbook2004" ref-type="bibr">Bernstein
+    et al., 2004</xref>) with ɸ0 = 117°
+    (<xref alt="Zur et al., 1991" rid="ref-Zur1991" ref-type="bibr">Zur
+    et al., 1991</xref>) after each TR.</bold></p>
+  </sec>
+  <sec id="data-fitting-1">
+    <title>Data Fitting</title>
+    <p>At first glance, one could be tempted to fit VFA data using a
+    non-linear least squares fitting algorithm such as
+    Levenberg-Marquardt with Eq. 1, which typically only has two free
+    fitting variables (T1 and <italic>M</italic>0). Although this is a
+    valid way of estimating T1 from VFA data, it is rarely done in
+    practice because a simple refactoring of Equation 1 allows T1 values
+    to be estimated with a linear least square fitting algorithm, which
+    substantially reduces the processing time. Without any
+    approximations, Equation 1 can be rearranged into the form
+    <bold>y</bold> = m<bold>x</bold>+b
+    (<xref alt="Gupta, 1977" rid="ref-Gupta1977" ref-type="bibr">Gupta,
+    1977</xref>):</p>
+    <p><disp-formula><alternatives>
+    <tex-math><![CDATA[\tag{3}
+    \frac{S\_n}{ \text{sin}(\theta\_n)} = e^{- \frac{TR}{T\_1}} \frac{S\_n}{ \text{tan}(\theta\_n)} + C (1-e^{- \frac{TR}{T\_1}})]]></tex-math>
+    <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>S</mml:mi><mml:mi>_</mml:mi><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="normal">sin</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>θ</mml:mi><mml:mi>_</mml:mi><mml:mi>n</mml:mi><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>T</mml:mi><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>_</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:msup><mml:mfrac><mml:mrow><mml:mi>S</mml:mi><mml:mi>_</mml:mi><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="normal">tan</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>θ</mml:mi><mml:mi>_</mml:mi><mml:mi>n</mml:mi><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>+</mml:mo><mml:mi>C</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>T</mml:mi><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>_</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:msup><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:math></alternatives></disp-formula></p>
+    <p>As the third term does not change between measurements (it is
+    constant for each <italic>θn</italic>), it can be grouped into the
+    constant for a simpler representation:</p>
+    <p><disp-formula><alternatives>
+    <tex-math><![CDATA[\tag{4}
+    \frac{S\_n}{ \text{sin}(\theta\_n)} = e^{- \frac{TR}{T\_1}} \frac{S\_n}{ \text{tan}(\theta\_n)} + C]]></tex-math>
+    <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>S</mml:mi><mml:mi>_</mml:mi><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="normal">sin</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>θ</mml:mi><mml:mi>_</mml:mi><mml:mi>n</mml:mi><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>T</mml:mi><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>_</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:msup><mml:mfrac><mml:mrow><mml:mi>S</mml:mi><mml:mi>_</mml:mi><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="normal">tan</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>θ</mml:mi><mml:mi>_</mml:mi><mml:mi>n</mml:mi><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>+</mml:mo><mml:mi>C</mml:mi></mml:mrow></mml:math></alternatives></disp-formula></p>
+    <p>With this rearranged form of Equation 1, T1 can be simply
+    estimated from the slope of a linear regression calculated from
+    <italic>Sn</italic>/sin(<italic>θn</italic>) and
+    <italic>Sn</italic>/tan(<italic>θn</italic>) values:</p>
+    <p><disp-formula><alternatives>
+    <tex-math><![CDATA[\tag{5}
+    T\_1 = - \frac{TR}{ \text{ln}(slope)}]]></tex-math>
+    <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>T</mml:mi><mml:mi>_</mml:mi><mml:mn>1</mml:mn><mml:mo>=</mml:mo><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>T</mml:mi><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="normal">ln</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>s</mml:mi><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>p</mml:mi><mml:mi>e</mml:mi><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac></mml:mrow></mml:math></alternatives></disp-formula></p>
+    <p>If data were acquired using only two flip angles – a very common
+    VFA acquisition protocol – then the slope can be calculated using
+    the elementary slope equation.
+    <ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    5</ext-link> displays both Equation 1 and 4 plotted for a noisy
+    dataset.</p>
+    <p><bold><ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    5</ext-link>. Mean and standard deviation of the VFA signal plotted
+    using the nonlinear form (Equation 1 – blue) and linear form
+    (Equation 4 – red). Monte Carlo simulation details: SNR = 25, N =
+    1000. VFA simulation details: TR = 25 ms, T1 = 900 ms.</bold></p>
+    <p>There are two important imaging protocol design considerations
+    that should be taken into account when planning to use VFA: (1) how
+    many and which flip angles to use to acquire VFA data, and (2)
+    correcting inaccurate flip angles due to transmit RF field
+    inhomogeneity. Most VFA experiments use the minimum number of
+    required flip angles (two) to minimize acquisition time. For this
+    case, it has been shown that the flip angle choice resulting in the
+    best precision for VFA T1 estimates for a sample with a single T1
+    value (i.e. single tissue) are the two flip angles that result in
+    71% of the maximum possible steady-state signal (i.e. at the Ernst
+    angle)
+    (<xref alt="Deoni et al., 2003" rid="ref-Deoni2003" ref-type="bibr">Deoni
+    et al., 2003</xref>;
+    <xref alt="Schabel &amp; Morrell, 2008" rid="ref-Schabel2008" ref-type="bibr">Schabel
+    &amp; Morrell, 2008</xref>).</p>
+    <p>Time allowing, additional flip angles are often acquired at
+    higher values and in between the two above, because greater signal
+    differences between tissue T1 values are present there
+    (e.g. <ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    2</ext-link>). Also, for more than two flip angles, Equations 1 and
+    4 do not have the same noise weighting for each fitting point, which
+    may bias linear least-square T1 estimates at lower SNRs. Thus, it
+    has been recommended that low SNR data should be fitted with either
+    Equation 1 using non-linear least-squares (slower fitting) or with a
+    weighted linear least-squares form of Equation 4
+    (<xref alt="Chang et al., 2008" rid="ref-Chang2008" ref-type="bibr">Chang
+    et al., 2008</xref>).</p>
+    <p>Accurate knowledge of the flip angle values is very important to
+    produce accurate T1 maps. Because of how the RF field interacts with
+    matter
+    (<xref alt="Sled &amp; Pike, 1998" rid="ref-Sled1998" ref-type="bibr">Sled
+    &amp; Pike, 1998</xref>), the excitation RF field (B1+, or B1 for
+    short) of a loaded RF coil results in spatial variations in
+    intensity/amplitude, unless RF shimming is available to counteract
+    this effect (not common at clinical field strengths). For
+    quantitative measurements like VFA which are sensitive to this
+    parameter, the flip angle can be corrected (voxelwise) relative to
+    the nominal value by multiplying it with a scaling factor (B1) from
+    a B1 map that is acquired during the same session:</p>
+    <p><disp-formula><alternatives>
+    <tex-math><![CDATA[\tag{6}
+    \theta\_{corrected} = B\_1 \theta\_{nominal}]]></tex-math>
+    <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>θ</mml:mi><mml:mi>_</mml:mi><mml:mrow><mml:mi>c</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>c</mml:mi><mml:mi>t</mml:mi><mml:mi>e</mml:mi><mml:mi>d</mml:mi></mml:mrow><mml:mo>=</mml:mo><mml:mi>B</mml:mi><mml:mi>_</mml:mi><mml:mn>1</mml:mn><mml:mi>θ</mml:mi><mml:mi>_</mml:mi><mml:mrow><mml:mi>n</mml:mi><mml:mi>o</mml:mi><mml:mi>m</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mi>a</mml:mi><mml:mi>l</mml:mi></mml:mrow></mml:mrow></mml:math></alternatives></disp-formula></p>
+    <p>B1 in this context is normalized, meaning that it is unitless and
+    has a value of 1 in voxels where the RF field has the expected
+    amplitude (i.e. where the nominal flip angle is the actual flip
+    angle).
+    <ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    6</ext-link> displays fitted VFA T1 values from a Monte Carlo
+    dataset simulated using biased flip angle values, and fitted
+    without/with B1 correction.</p>
+    <p><bold><ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    6</ext-link>. Mean and standard deviations of fitted VFA T1 values
+    for a set of Monte Carlo simulations (SNR = 100, N = 1000),
+    simulated using a wide range of biased flip angles and fitted
+    without (blue) or with (red) B1 correction. Simulation parameters:
+    TR = 25 ms, T1 = 900 ms, <italic>θnominal</italic> = 6° and 32°
+    (optimized values for this TR/T1 combination). Notice how even after
+    B1 correction, fitted T1 values at B1 values far from the nominal
+    case (B1 = 1) exhibit larger variance, as the actual flip angles of
+    the simulated signal deviate from the optimal values for this TR/T1
+    (Deoni et al. 2003).</bold></p>
+    <p><ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    7</ext-link> displays an example VFA dataset and a B1 map in a
+    healthy brain, along with the T1 map estimated using a linear fit
+    (Equations 4 and 5).</p>
+    <p><bold><ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00019">Figure
+    7</ext-link>. Example variable flip angle dataset and B1 map of a
+    healthy adult brain (left). The relevant VFA protocol parameters
+    used were: TR = 15 ms, <italic>θnominal</italic> = 3° and 20°. The
+    T1 map (right) was fitted using a linear regression (Equations 4 and
+    5).</bold></p>
+  </sec>
+  <sec id="benefits-and-pitfalls-1">
+    <title>Benefits and Pitfalls</title>
+    <p>It has been well reported in recent years that the accuracy of
+    VFA T1 estimates is very sensitive to pulse sequence implementations
+    (<xref alt="Baudrexel et al., 2017" rid="ref-Baudrexel2017" ref-type="bibr">Baudrexel
+    et al., 2017</xref>;
+    <xref alt="Lutti &amp; Weiskopf, 2013" rid="ref-Lutti2013" ref-type="bibr">Lutti
+    &amp; Weiskopf, 2013</xref>;
+    <xref alt="Stikov et al., 2015" rid="ref-Stikov2015" ref-type="bibr">Stikov
+    et al., 2015</xref>), and as such is less robust than the gold
+    standard inversion recovery technique. In particular, the signal
+    bias resulting from insufficient spoiling can result in inaccurate
+    T1 estimates of up to 30% relative to inversion recovery estimated
+    values
+    (<xref alt="Stikov et al., 2015" rid="ref-Stikov2015" ref-type="bibr">Stikov
+    et al., 2015</xref>). VFA T1 map accuracy and precision is also
+    strongly dependent on the quality of the measured B1 map
+    (<xref alt="Lee et al., 2017" rid="ref-Lee2017" ref-type="bibr">Lee
+    et al., 2017</xref>), which can vary substantially between
+    implementations
+    (<xref alt="Boudreau et al., 2017" rid="ref-Boudreau2017" ref-type="bibr">Boudreau
+    et al., 2017</xref>). Modern rapid B1 mapping pulse sequences are
+    not as widely available as VFA, resulting in some groups attempting
+    alternative ways of removing the bias from the T1 maps like
+    generating an artificial B1 map through the use of image processing
+    techniques
+    (<xref alt="Liberman et al., 2013" rid="ref-Liberman2013" ref-type="bibr">Liberman
+    et al., 2013</xref>) or omitting B1 correction altogether
+    (<xref alt="Yuan et al., 2012" rid="ref-Yuan2012" ref-type="bibr">Yuan
+    et al., 2012</xref>). The latter is not recommended, because most
+    MRI scanners have default pulse sequences that, with careful
+    protocol settings, can provide B1 maps of sufficient quality very
+    rapidly
+    (<xref alt="Boudreau et al., 2017" rid="ref-Boudreau2017" ref-type="bibr">Boudreau
+    et al., 2017</xref>;
+    <xref alt="Samson et al., 2006" rid="ref-Samson2006" ref-type="bibr">Samson
+    et al., 2006</xref>;
+    <xref alt="Wang et al., 2005" rid="ref-Wang2005" ref-type="bibr">Wang
+    et al., 2005</xref>).</p>
+    <p>Despite some drawbacks, VFA is still one of the most widely used
+    T1 mapping methods in research. Its rapid acquisition time, rapid
+    image processing time, and widespread availability makes it a great
+    candidate for use in other quantitative imaging acquisition
+    protocols like quantitative magnetization transfer imaging
+    (<xref alt="Cercignani et al., 2005" rid="ref-Cercignani2005" ref-type="bibr">Cercignani
+    et al., 2005</xref>;
+    <xref alt="Yarnykh, 2002" rid="ref-Yarnykh2002" ref-type="bibr">Yarnykh,
+    2002</xref>) and dynamic contrast enhanced imaging
+    (<xref alt="Li et al., 2018" rid="ref-Li2018" ref-type="bibr">Li et
+    al., 2018</xref>;
+    <xref alt="Sung et al., 2013" rid="ref-Sung2013" ref-type="bibr">Sung
+    et al., 2013</xref>).</p>
+  </sec>
+</sec>
+</body>
+<back>
+<ref-list>
+  <ref id="ref-Boudreau2019">
+    <element-citation publication-type="chapter">
+      <person-group person-group-type="author">
+        <name><surname>Boudreau</surname><given-names>Mathieu</given-names></name>
+        <name><surname>Keenan</surname><given-names>Kathryn E.</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+      </person-group>
+      <article-title>Chapter 2 - quantitative T1 and T1ρ mapping</article-title>
+      <source>Quantitative magnetic resonance imaging</source>
+      <person-group person-group-type="editor">
+        <name><surname>Seiberlich</surname><given-names>Nicole</given-names></name>
+        <name><surname>Gulani</surname><given-names>Vikas</given-names></name>
+        <name><surname>Calamante</surname><given-names>Fernando</given-names></name>
+        <name><surname>Campbell-Washburn</surname><given-names>Adrienne</given-names></name>
+        <name><surname>Doneva</surname><given-names>Mariya</given-names></name>
+        <name><surname>Hu</surname><given-names>Houchun Harry</given-names></name>
+        <name><surname>Sourbron</surname><given-names>Steven</given-names></name>
+      </person-group>
+      <publisher-name>Academic Press</publisher-name>
+      <year iso-8601-date="2020">2020</year>
+      <volume>1</volume>
+      <issn>2666-9099</issn>
+      <pub-id pub-id-type="doi">10.1016/B978-0-12-817057-1.00004-4</pub-id>
+      <fpage>19</fpage>
+      <lpage>45</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Karakuzu2020-ul">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>Boudreau</surname><given-names>Mathieu</given-names></name>
+        <name><surname>Duval</surname><given-names>Tanguy</given-names></name>
+        <name><surname>Boshkovski</surname><given-names>Tommy</given-names></name>
+        <name><surname>Leppert</surname><given-names>Ilana</given-names></name>
+        <name><surname>Cabana</surname><given-names>Jean-François</given-names></name>
+        <name><surname>Gagnon</surname><given-names>Ian</given-names></name>
+        <name><surname>Beliveau</surname><given-names>Pascale</given-names></name>
+        <name><surname>Pike</surname><given-names>G</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+      </person-group>
+      <article-title>qMRLab: Quantitative MRI analysis, under one umbrella</article-title>
+      <source>J. Open Source Softw.</source>
+      <publisher-name>The Open Journal</publisher-name>
+      <year iso-8601-date="2020">2020</year>
+      <volume>5</volume>
+      <issue>53</issue>
+      <pub-id pub-id-type="doi">10.21105/joss.02343</pub-id>
+      <fpage>2343</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Boudreau2023">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Boudreau</surname><given-names>Mathieu</given-names></name>
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+        <name><surname>Bozkurt</surname><given-names>Ecem</given-names></name>
+        <name><surname>Carr</surname><given-names>Madeline</given-names></name>
+        <name><surname>Castellaro</surname><given-names>Marco</given-names></name>
+        <name><surname>Concha</surname><given-names>Luis</given-names></name>
+        <name><surname>Doneva</surname><given-names>Mariya</given-names></name>
+        <name><surname>Dual</surname><given-names>Seraina</given-names></name>
+        <name><surname>Ensworth</surname><given-names>Alex</given-names></name>
+        <name><surname>Foias</surname><given-names>Alexandru</given-names></name>
+        <name><surname>Fortier</surname><given-names>Véronique</given-names></name>
+        <name><surname>Gabr</surname><given-names>Refaat E.</given-names></name>
+        <name><surname>Gilbert</surname><given-names>Guillaume</given-names></name>
+        <name><surname>Glide-Hurst</surname><given-names>Carri K.</given-names></name>
+        <name><surname>Grech-Sollars</surname><given-names>Matthew</given-names></name>
+        <name><surname>Hu</surname><given-names>Siyuan</given-names></name>
+        <name><surname>Jalnefjord</surname><given-names>Oscar</given-names></name>
+        <name><surname>Jovicich</surname><given-names>Jorge</given-names></name>
+        <name><surname>Keskin</surname><given-names>Kübra</given-names></name>
+        <name><surname>Koken</surname><given-names>Peter</given-names></name>
+        <name><surname>Kolokotronis</surname><given-names>Anastasia</given-names></name>
+        <name><surname>Kukran</surname><given-names>Simran</given-names></name>
+        <name><surname>Lee</surname><given-names>Nam. G.</given-names></name>
+        <name><surname>Levesque</surname><given-names>Ives R.</given-names></name>
+        <name><surname>Li</surname><given-names>Bochao</given-names></name>
+        <name><surname>Ma</surname><given-names>Dan</given-names></name>
+        <name><surname>Mädler</surname><given-names>Burkhard</given-names></name>
+        <name><surname>Maforo</surname><given-names>Nyasha</given-names></name>
+        <name><surname>Near</surname><given-names>Jamie</given-names></name>
+        <name><surname>Pasaye</surname><given-names>Erick</given-names></name>
+        <name><surname>Ramirez-Manzanares</surname><given-names>Alonso</given-names></name>
+        <name><surname>Statton</surname><given-names>Ben</given-names></name>
+        <name><surname>Stehning</surname><given-names>Christian</given-names></name>
+        <name><surname>Tambalo</surname><given-names>Stefano</given-names></name>
+        <name><surname>Tian</surname><given-names>Ye</given-names></name>
+        <name><surname>Wang</surname><given-names>Chenyang</given-names></name>
+        <name><surname>Weis</surname><given-names>Kilian</given-names></name>
+        <name><surname>Zakariaei</surname><given-names>Niloufar</given-names></name>
+        <name><surname>Zhang</surname><given-names>Shuo</given-names></name>
+        <name><surname>Zhao</surname><given-names>Ziwei</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+      </person-group>
+      <article-title>Results of the ISMRM 2020 joint reproducible research &amp; quantitative MR study groups reproducibility challenge on phantom and human brain T1 mapping</article-title>
+      <source>NeuroLibre Reproducible Preprints</source>
+      <publisher-name>NeuroLibre</publisher-name>
+      <year iso-8601-date="2023">2023</year>
+      <pub-id pub-id-type="doi">10.55458/neurolibre.00014</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-Stikov2015">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Boudreau</surname><given-names>Mathieu</given-names></name>
+        <name><surname>Levesque</surname><given-names>Ives R.</given-names></name>
+        <name><surname>Tardif</surname><given-names>Christine L.</given-names></name>
+        <name><surname>Barral</surname><given-names>Joëlle K.</given-names></name>
+        <name><surname>Pike</surname><given-names>G. Bruce</given-names></name>
+      </person-group>
+      <article-title>On the accuracy of T1 mapping: Searching for common ground</article-title>
+      <source>Magnetic Resonance in Medicine</source>
+      <year iso-8601-date="2015">2015</year>
+      <volume>73</volume>
+      <issue>2</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.25135</pub-id>
+      <fpage>514</fpage>
+      <lpage>522</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Fukushima1981">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name><surname>Fukushima</surname><given-names>Eiichi</given-names></name>
+      </person-group>
+      <source>Experimental pulse NMR: A nuts and bolts approach</source>
+      <publisher-name>CRC Press</publisher-name>
+      <year iso-8601-date="1981">1981</year>
+      <pub-id pub-id-type="doi">10.1201/9780429493867</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-Barral2010-qm">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Barral</surname><given-names>Joëlle K</given-names></name>
+        <name><surname>Gudmundson</surname><given-names>Erik</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Etezadi-Amoli</surname><given-names>Maryam</given-names></name>
+        <name><surname>Stoica</surname><given-names>Petre</given-names></name>
+        <name><surname>Nishimura</surname><given-names>Dwight G</given-names></name>
+      </person-group>
+      <article-title>A robust methodology for in vivo T1 mapping</article-title>
+      <source>Magn. Reson. Med.</source>
+      <year iso-8601-date="2010">2010</year>
+      <volume>64</volume>
+      <issue>4</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.22497</pub-id>
+      <fpage>1057</fpage>
+      <lpage>1067</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Pykett1983">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Pykett</surname><given-names>IL</given-names></name>
+        <name><surname>Rosen</surname><given-names>BR</given-names></name>
+        <name><surname>Buonanno</surname><given-names>FS</given-names></name>
+        <name><surname>Brady</surname><given-names>TJ</given-names></name>
+      </person-group>
+      <article-title>Measurement of spin-lattice relaxation times in nuclear magnetic resonance imaging</article-title>
+      <source>Physics in Medicine &amp; Biology</source>
+      <publisher-name>IOP Publishing</publisher-name>
+      <year iso-8601-date="1983">1983</year>
+      <volume>28</volume>
+      <issue>6</issue>
+      <pub-id pub-id-type="doi">10.1088/0031-9155/28/6/012</pub-id>
+      <fpage>723</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Steen1994">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Steen</surname><given-names>R Grant</given-names></name>
+        <name><surname>Gronemeyer</surname><given-names>Suzanne A</given-names></name>
+        <name><surname>Kingsley</surname><given-names>Peter B</given-names></name>
+        <name><surname>Reddick</surname><given-names>Wilbum E</given-names></name>
+        <name><surname>Langston</surname><given-names>James S</given-names></name>
+        <name><surname>Taylor</surname><given-names>June S</given-names></name>
+      </person-group>
+      <article-title>Precise and accurate measurement of proton T1 in human brain in vivo: Validation and preliminary clinical application</article-title>
+      <source>Journal of Magnetic Resonance Imaging</source>
+      <publisher-name>Wiley Online Library</publisher-name>
+      <year iso-8601-date="1994">1994</year>
+      <volume>4</volume>
+      <issue>5</issue>
+      <pub-id pub-id-type="doi">10.1002/jmri.1880040511</pub-id>
+      <fpage>681</fpage>
+      <lpage>691</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Pykett1978">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Pykett</surname><given-names>IL</given-names></name>
+        <name><surname>Mansfield</surname><given-names>Peter</given-names></name>
+      </person-group>
+      <article-title>A line scan image study of a tumorous rat leg by NMR</article-title>
+      <source>Physics in Medicine &amp; Biology</source>
+      <publisher-name>IOP Publishing</publisher-name>
+      <year iso-8601-date="1978">1978</year>
+      <volume>23</volume>
+      <issue>5</issue>
+      <pub-id pub-id-type="doi">10.1088/0031-9155/23/5/012</pub-id>
+      <fpage>961</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Piechnik2010">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Piechnik</surname><given-names>Stefan K</given-names></name>
+        <name><surname>Ferreira</surname><given-names>Vanessa M</given-names></name>
+        <name><surname>Dall’Armellina</surname><given-names>Erica</given-names></name>
+        <name><surname>Cochlin</surname><given-names>Lowri E</given-names></name>
+        <name><surname>Greiser</surname><given-names>Andreas</given-names></name>
+        <name><surname>Neubauer</surname><given-names>Stefan</given-names></name>
+        <name><surname>Robson</surname><given-names>Matthew D</given-names></name>
+      </person-group>
+      <article-title>Shortened modified look-locker inversion recovery (ShMOLLI) for clinical myocardial T1-mapping at 1.5 and 3 t within a 9 heartbeat breathhold</article-title>
+      <source>Journal of cardiovascular magnetic resonance</source>
+      <publisher-name>BioMed Central</publisher-name>
+      <year iso-8601-date="2010">2010</year>
+      <volume>12</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1186/1532-429X-12-69</pub-id>
+      <fpage>1</fpage>
+      <lpage>11</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Messroghli2004">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Messroghli</surname><given-names>Daniel R</given-names></name>
+        <name><surname>Radjenovic</surname><given-names>Aleksandra</given-names></name>
+        <name><surname>Kozerke</surname><given-names>Sebastian</given-names></name>
+        <name><surname>Higgins</surname><given-names>David M</given-names></name>
+        <name><surname>Sivananthan</surname><given-names>Mohan U</given-names></name>
+        <name><surname>Ridgway</surname><given-names>John P</given-names></name>
+      </person-group>
+      <article-title>Modified look-locker inversion recovery (MOLLI) for high-resolution T1 mapping of the heart</article-title>
+      <source>Magnetic Resonance in Medicine: An Official Journal of the International Society for Magnetic Resonance in Medicine</source>
+      <publisher-name>Wiley Online Library</publisher-name>
+      <year iso-8601-date="2004">2004</year>
+      <volume>52</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.20110</pub-id>
+      <fpage>141</fpage>
+      <lpage>146</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Look1970">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Look</surname><given-names>David C</given-names></name>
+        <name><surname>Locker</surname><given-names>Donald R</given-names></name>
+      </person-group>
+      <article-title>Time saving in measurement of NMR and EPR relaxation times</article-title>
+      <source>Review of scientific instruments</source>
+      <publisher-name>American Institute of Physics</publisher-name>
+      <year iso-8601-date="1970">1970</year>
+      <volume>41</volume>
+      <issue>2</issue>
+      <pub-id pub-id-type="doi">10.1063/1.1684482</pub-id>
+      <fpage>250</fpage>
+      <lpage>251</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Hahn1949">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Hahn</surname><given-names>Erwin L</given-names></name>
+      </person-group>
+      <article-title>An accurate nuclear magnetic resonance method for measuring spin-lattice relaxation times</article-title>
+      <source>Physical Review</source>
+      <publisher-name>APS</publisher-name>
+      <year iso-8601-date="1949">1949</year>
+      <volume>76</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1103/PhysRev.76.145</pub-id>
+      <fpage>145</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Gai2013">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Gai</surname><given-names>Neville D</given-names></name>
+        <name><surname>Stehning</surname><given-names>Christian</given-names></name>
+        <name><surname>Nacif</surname><given-names>Marcelo</given-names></name>
+        <name><surname>Bluemke</surname><given-names>David A</given-names></name>
+      </person-group>
+      <article-title>Modified look-locker T1 evaluation using bloch simulations: Human and phantom validation</article-title>
+      <source>Magnetic resonance in medicine</source>
+      <publisher-name>Wiley Online Library</publisher-name>
+      <year iso-8601-date="2013">2013</year>
+      <volume>69</volume>
+      <issue>2</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.24251</pub-id>
+      <fpage>329</fpage>
+      <lpage>336</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Drain1949">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Drain</surname><given-names>LE</given-names></name>
+      </person-group>
+      <article-title>A direct method of measuring nuclear spin-lattice relaxation times</article-title>
+      <source>Proceedings of the Physical Society. Section A</source>
+      <publisher-name>IOP Publishing</publisher-name>
+      <year iso-8601-date="1949">1949</year>
+      <volume>62</volume>
+      <issue>5</issue>
+      <pub-id pub-id-type="doi">10.1088/0370-1298/62/5/306</pub-id>
+      <fpage>301</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Baudrexel2017">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Baudrexel</surname><given-names>Simon</given-names></name>
+        <name><surname>Nöth</surname><given-names>Ulrike</given-names></name>
+        <name><surname>Schüre</surname><given-names>Jan-Rüdiger</given-names></name>
+        <name><surname>Deichmann</surname><given-names>Ralf</given-names></name>
+      </person-group>
+      <article-title>T1 mapping with the variable flip angle technique: A simple correction for insufficient spoiling of transverse magnetization</article-title>
+      <source>Magnetic Resonance in Medicine</source>
+      <publisher-name>Wiley</publisher-name>
+      <year iso-8601-date="2017-10">2017</year><month>10</month>
+      <volume>79</volume>
+      <issue>6</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.26979</pub-id>
+      <fpage>3082</fpage>
+      <lpage>3092</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Handbook2004">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name><surname>Bernstein</surname><given-names>Matt A</given-names></name>
+        <name><surname>King</surname><given-names>Kevin F</given-names></name>
+        <name><surname>Zhou</surname><given-names>Xiaohong Joe</given-names></name>
+      </person-group>
+      <source>Handbook of MRI pulse sequences</source>
+      <publisher-name>Elsevier</publisher-name>
+      <year iso-8601-date="2004">2004</year>
+      <pub-id pub-id-type="doi">10.1016/b978-0-12-092861-3.x5000-6</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-Boudreau2017">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Boudreau</surname><given-names>Mathieu</given-names></name>
+        <name><surname>Tardif</surname><given-names>Christine L.</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Sled</surname><given-names>John G.</given-names></name>
+        <name><surname>Lee</surname><given-names>Wayne</given-names></name>
+        <name><surname>Pike</surname><given-names>G. Bruce</given-names></name>
+      </person-group>
+      <article-title>B1 mapping for bias-correction in quantitative T1 imaging of the brain at 3T using standard pulse sequences</article-title>
+      <source>Journal of Magnetic Resonance Imaging</source>
+      <publisher-name>Wiley</publisher-name>
+      <year iso-8601-date="2017-03">2017</year><month>03</month>
+      <volume>46</volume>
+      <issue>6</issue>
+      <pub-id pub-id-type="doi">10.1002/jmri.25692</pub-id>
+      <fpage>1673</fpage>
+      <lpage>1682</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Cercignani2005">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Cercignani</surname><given-names>Mara</given-names></name>
+        <name><surname>Symms</surname><given-names>Mark R.</given-names></name>
+        <name><surname>Schmierer</surname><given-names>Klaus</given-names></name>
+        <name><surname>Boulby</surname><given-names>Philip A.</given-names></name>
+        <name><surname>Tozer</surname><given-names>Daniel J.</given-names></name>
+        <name><surname>Ron</surname><given-names>Maria</given-names></name>
+        <name><surname>Tofts</surname><given-names>Paul S.</given-names></name>
+        <name><surname>Barker</surname><given-names>Gareth J.</given-names></name>
+      </person-group>
+      <article-title>Three-dimensional quantitative magnetisation transfer imaging of the human brain</article-title>
+      <source>NeuroImage</source>
+      <publisher-name>Elsevier BV</publisher-name>
+      <year iso-8601-date="2005-08">2005</year><month>08</month>
+      <volume>27</volume>
+      <issue>2</issue>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2005.04.031</pub-id>
+      <fpage>436</fpage>
+      <lpage>441</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Chang2008">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Chang</surname><given-names>Lin-Ching</given-names></name>
+        <name><surname>Koay</surname><given-names>Cheng Guan</given-names></name>
+        <name><surname>Basser</surname><given-names>Peter J.</given-names></name>
+        <name><surname>Pierpaoli</surname><given-names>Carlo</given-names></name>
+      </person-group>
+      <article-title>Linear least-squares method for unbiased estimation of T1 from SPGR signals</article-title>
+      <source>Magnetic Resonance in Medicine</source>
+      <publisher-name>Wiley</publisher-name>
+      <year iso-8601-date="2008-07">2008</year><month>07</month>
+      <volume>60</volume>
+      <issue>2</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.21669</pub-id>
+      <fpage>496</fpage>
+      <lpage>501</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Christensen1974">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Christensen</surname><given-names>Kenner A</given-names></name>
+        <name><surname>Grant</surname><given-names>David M</given-names></name>
+        <name><surname>Schulman</surname><given-names>Edward M</given-names></name>
+        <name><surname>Walling</surname><given-names>Cheves</given-names></name>
+      </person-group>
+      <article-title>Optimal determination of relaxation times of fourier transform nuclear magnetic resonance. Determination of spin-lattice relaxation times in chemically polarized species</article-title>
+      <source>The Journal of Physical Chemistry</source>
+      <publisher-name>ACS Publications</publisher-name>
+      <year iso-8601-date="1974">1974</year>
+      <volume>78</volume>
+      <issue>19</issue>
+      <pub-id pub-id-type="doi">10.1021/j100612a022</pub-id>
+      <fpage>1971</fpage>
+      <lpage>1977</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Ernst1966">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Ernst</surname><given-names>R. R.</given-names></name>
+        <name><surname>Anderson</surname><given-names>W. A.</given-names></name>
+      </person-group>
+      <article-title>Application of fourier transform spectroscopy to magnetic resonance</article-title>
+      <source>Review of Scientific Instruments</source>
+      <publisher-name>AIP Publishing</publisher-name>
+      <year iso-8601-date="1966-01">1966</year><month>01</month>
+      <volume>37</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1063/1.1719961</pub-id>
+      <fpage>93</fpage>
+      <lpage>102</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Fram1987">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Fram</surname><given-names>Evan K.</given-names></name>
+        <name><surname>Herfkens</surname><given-names>Robert J.</given-names></name>
+        <name><surname>Johnson</surname><given-names>G.Allan</given-names></name>
+        <name><surname>Glover</surname><given-names>Gary H.</given-names></name>
+        <name><surname>Karis</surname><given-names>John P.</given-names></name>
+        <name><surname>Shimakawa</surname><given-names>Ann</given-names></name>
+        <name><surname>Perkins</surname><given-names>Tom G.</given-names></name>
+        <name><surname>Pelc</surname><given-names>Norbert J.</given-names></name>
+      </person-group>
+      <article-title>Rapid calculation of T1 using variable flip angle gradient refocused imaging</article-title>
+      <source>Magnetic Resonance Imaging</source>
+      <publisher-name>Elsevier BV</publisher-name>
+      <year iso-8601-date="1987-01">1987</year><month>01</month>
+      <volume>5</volume>
+      <issue>3</issue>
+      <pub-id pub-id-type="doi">10.1016/0730-725x(87)90021-x</pub-id>
+      <fpage>201</fpage>
+      <lpage>208</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Gupta1977">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Gupta</surname><given-names>Raj K</given-names></name>
+      </person-group>
+      <article-title>A new look at the method of variable nutation angle for the measurement of spin-lattice relaxation times using fourier transform NMR</article-title>
+      <source>Journal of Magnetic Resonance (1969)</source>
+      <publisher-name>Elsevier BV</publisher-name>
+      <year iso-8601-date="1977-01">1977</year><month>01</month>
+      <volume>25</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1016/0022-2364(77)90138-x</pub-id>
+      <fpage>231</fpage>
+      <lpage>235</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Homer1985">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Homer</surname><given-names>John</given-names></name>
+        <name><surname>Beevers</surname><given-names>Martin S</given-names></name>
+      </person-group>
+      <article-title>Driven-equilibrium single-pulse observation of T1 relaxation. A reevaluation of a rapid “new” method for determining NMR spin-lattice relaxation times</article-title>
+      <source>Journal of Magnetic Resonance (1969)</source>
+      <publisher-name>Elsevier BV</publisher-name>
+      <year iso-8601-date="1985-06">1985</year><month>06</month>
+      <volume>63</volume>
+      <issue>2</issue>
+      <pub-id pub-id-type="doi">10.1016/0022-2364(85)90318-x</pub-id>
+      <fpage>287</fpage>
+      <lpage>297</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Lee2017">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Lee</surname><given-names>Yoojin</given-names></name>
+        <name><surname>Callaghan</surname><given-names>Martina F.</given-names></name>
+        <name><surname>Nagy</surname><given-names>Zoltan</given-names></name>
+      </person-group>
+      <article-title>Analysis of the precision of variable flip angle T1 mapping with emphasis on the noise propagated from RF transmit field maps</article-title>
+      <source>Frontiers in Neuroscience</source>
+      <publisher-name>Frontiers Media SA</publisher-name>
+      <year iso-8601-date="2017-03">2017</year><month>03</month>
+      <volume>11</volume>
+      <pub-id pub-id-type="doi">10.3389/fnins.2017.00106</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-Liberman2013">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Liberman</surname><given-names>Gilad</given-names></name>
+        <name><surname>Louzoun</surname><given-names>Yoram</given-names></name>
+        <name><surname>Bashat</surname><given-names>Dafna Ben</given-names></name>
+      </person-group>
+      <article-title>T1 mapping using variable flip angle SPGR data with flip angle correction</article-title>
+      <source>Journal of Magnetic Resonance Imaging</source>
+      <publisher-name>Wiley</publisher-name>
+      <year iso-8601-date="2013-11">2013</year><month>11</month>
+      <volume>40</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1002/jmri.24373</pub-id>
+      <fpage>171</fpage>
+      <lpage>180</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Li2018">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Li</surname><given-names>Z F</given-names></name>
+        <name><surname>Zhao</surname><given-names>W</given-names></name>
+        <name><surname>Qi</surname><given-names>T F</given-names></name>
+        <name><surname>Gao</surname><given-names>C</given-names></name>
+        <name><surname>Gu</surname><given-names>Q</given-names></name>
+        <name><surname>Zhao</surname><given-names>J S</given-names></name>
+        <name><surname>Koh</surname><given-names>T S</given-names></name>
+      </person-group>
+      <article-title>A simple B1correction method for dynamic contrast-enhanced MRI</article-title>
+      <source>Physics in Medicine and Biology</source>
+      <publisher-name>IOP Publishing</publisher-name>
+      <year iso-8601-date="2018-08">2018</year><month>08</month>
+      <volume>63</volume>
+      <issue>16</issue>
+      <pub-id pub-id-type="doi">10.1088/1361-6560/aad519</pub-id>
+      <fpage>16NT01</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Lutti2013">
+    <element-citation publication-type="paper-conference">
+      <person-group person-group-type="author">
+        <name><surname>Lutti</surname><given-names>Antoine</given-names></name>
+        <name><surname>Weiskopf</surname><given-names>Nikolaus</given-names></name>
+      </person-group>
+      <article-title>Optimizing the accuracy of T1 mapping accounting for RF non-linearities and spoiling characteristics in FLASH imaging</article-title>
+      <source>Proceedings of the 21st annual meeting of ISMRM, salt lake city, utah, USA</source>
+      <year iso-8601-date="2013">2013</year>
+      <fpage>2478</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Samson2006">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Samson</surname><given-names>Rebecca S.</given-names></name>
+        <name><surname>Wheeler-Kingshott</surname><given-names>Claudia A. M.</given-names></name>
+        <name><surname>Symms</surname><given-names>Mark R.</given-names></name>
+        <name><surname>Tozer</surname><given-names>Daniel J.</given-names></name>
+        <name><surname>Tofts</surname><given-names>Paul S.</given-names></name>
+      </person-group>
+      <article-title>A simple correction for B1 field errors in magnetization transfer ratio measurements</article-title>
+      <source>Magnetic Resonance Imaging</source>
+      <publisher-name>Elsevier BV</publisher-name>
+      <year iso-8601-date="2006-04">2006</year><month>04</month>
+      <volume>24</volume>
+      <issue>3</issue>
+      <pub-id pub-id-type="doi">10.1016/j.mri.2005.10.025</pub-id>
+      <fpage>255</fpage>
+      <lpage>263</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Schabel2008">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Schabel</surname><given-names>Matthias C</given-names></name>
+        <name><surname>Morrell</surname><given-names>Glen R</given-names></name>
+      </person-group>
+      <article-title>Uncertainty in T1 mapping using the variable flip angle method with two flip angles</article-title>
+      <source>Physics in Medicine and Biology</source>
+      <publisher-name>IOP Publishing</publisher-name>
+      <year iso-8601-date="2008-12">2008</year><month>12</month>
+      <volume>54</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1088/0031-9155/54/1/n01</pub-id>
+      <fpage>N1</fpage>
+      <lpage>N8</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Sled1998">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Sled</surname><given-names>J. G.</given-names></name>
+        <name><surname>Pike</surname><given-names>G. B.</given-names></name>
+      </person-group>
+      <article-title>Standing-wave and RF penetration artifacts caused by elliptic geometry: An electrodynamic analysis of MRI</article-title>
+      <source>IEEE Transactions on Medical Imaging</source>
+      <publisher-name>Institute of Electrical; Electronics Engineers (IEEE)</publisher-name>
+      <year iso-8601-date="1998">1998</year>
+      <volume>17</volume>
+      <issue>4</issue>
+      <pub-id pub-id-type="doi">10.1109/42.730409</pub-id>
+      <fpage>653</fpage>
+      <lpage>662</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Sung2013">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Sung</surname><given-names>Kyunghyun</given-names></name>
+        <name><surname>Daniel</surname><given-names>Bruce L.</given-names></name>
+        <name><surname>Hargreaves</surname><given-names>Brian A.</given-names></name>
+      </person-group>
+      <article-title>Transmit field inhomogeneity and T1 estimation errors in breast DCE-MRI at 3 tesla</article-title>
+      <source>Journal of Magnetic Resonance Imaging</source>
+      <publisher-name>Wiley</publisher-name>
+      <year iso-8601-date="2013-01">2013</year><month>01</month>
+      <volume>38</volume>
+      <issue>2</issue>
+      <pub-id pub-id-type="doi">10.1002/jmri.23996</pub-id>
+      <fpage>454</fpage>
+      <lpage>459</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Wang2005">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Wang</surname><given-names>Jinghua</given-names></name>
+        <name><surname>Qiu</surname><given-names>Maolin</given-names></name>
+        <name><surname>Constable</surname><given-names>R. Todd</given-names></name>
+      </person-group>
+      <article-title>In vivo method for correcting transmit/receive nonuniformities with phased array coils</article-title>
+      <source>Magnetic Resonance in Medicine</source>
+      <publisher-name>Wiley</publisher-name>
+      <year iso-8601-date="2005-02">2005</year><month>02</month>
+      <volume>53</volume>
+      <issue>3</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.20377</pub-id>
+      <fpage>666</fpage>
+      <lpage>674</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Yarnykh2010">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Yarnykh</surname><given-names>Vasily L.</given-names></name>
+      </person-group>
+      <article-title>Optimal radiofrequency and gradient spoiling for improved accuracy of T1 and B1 measurements using fast steady-state techniques</article-title>
+      <source>Magnetic Resonance in Medicine</source>
+      <publisher-name>Wiley</publisher-name>
+      <year iso-8601-date="2010-05">2010</year><month>05</month>
+      <volume>63</volume>
+      <issue>6</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.22394</pub-id>
+      <fpage>1610</fpage>
+      <lpage>1626</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Yarnykh2002">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Yarnykh</surname><given-names>Vasily L.</given-names></name>
+      </person-group>
+      <article-title>Pulsed z-spectroscopic imaging of cross-relaxation parameters in tissues for human MRI: Theory and clinical applications</article-title>
+      <source>Magnetic Resonance in Medicine</source>
+      <publisher-name>Wiley</publisher-name>
+      <year iso-8601-date="2002-04">2002</year><month>04</month>
+      <volume>47</volume>
+      <issue>5</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.10120</pub-id>
+      <fpage>929</fpage>
+      <lpage>939</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Yuan2012">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Yuan</surname><given-names>Jing</given-names></name>
+        <name><surname>Chow</surname><given-names>Steven Kwok Keung</given-names></name>
+        <name><surname>Yeung</surname><given-names>David Ka Wai</given-names></name>
+        <name><surname>Ahuja</surname><given-names>Anil T</given-names></name>
+        <name><surname>King</surname><given-names>Ann D</given-names></name>
+      </person-group>
+      <article-title>Quantitative evaluation of dual-flip-angle t 1 mapping on DCE-MRI kinetic parameter estimation in head and neck</article-title>
+      <source>Quantitative Imaging in Medicine and Surgery</source>
+      <year iso-8601-date="2012">2012</year>
+      <volume>2</volume>
+      <issue>4</issue>
+      <issn>2223-4306</issn>
+      <pub-id pub-id-type="doi">10.3978/j.issn.2223-4292.2012.11.04</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-Zur1991">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Zur</surname><given-names>Y.</given-names></name>
+        <name><surname>Wood</surname><given-names>M. L.</given-names></name>
+        <name><surname>Neuringer</surname><given-names>L. J.</given-names></name>
+      </person-group>
+      <article-title>Spoiling of transverse magnetization in steady-state sequences</article-title>
+      <source>Magnetic Resonance in Medicine</source>
+      <publisher-name>Wiley</publisher-name>
+      <year iso-8601-date="1991-10">1991</year><month>10</month>
+      <volume>21</volume>
+      <issue>2</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.1910210210</pub-id>
+      <fpage>251</fpage>
+      <lpage>263</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Deoni2003">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Deoni</surname><given-names>Sean C. L.</given-names></name>
+        <name><surname>Rutt</surname><given-names>Brian K.</given-names></name>
+        <name><surname>Peters</surname><given-names>Terry M.</given-names></name>
+      </person-group>
+      <article-title>Rapid combined T1 and T2 mapping using gradient recalled acquisition in the steady state</article-title>
+      <source>Magnetic Resonance in Medicine</source>
+      <publisher-name>Wiley</publisher-name>
+      <year iso-8601-date="2003-03">2003</year><month>03</month>
+      <volume>49</volume>
+      <issue>3</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.10407</pub-id>
+      <fpage>515</fpage>
+      <lpage>526</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Karakuzu2022-nlwf">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>DuPre</surname><given-names>Elizabeth</given-names></name>
+        <name><surname>Tetrel</surname><given-names>Loic</given-names></name>
+        <name><surname>Bermudez</surname><given-names>Patrick</given-names></name>
+        <name><surname>Boudreau</surname><given-names>Mathieu</given-names></name>
+        <name><surname>Chin</surname><given-names>Mary</given-names></name>
+        <name><surname>Poline</surname><given-names>Jean-Baptiste</given-names></name>
+        <name><surname>Das</surname><given-names>Samir</given-names></name>
+        <name><surname>Bellec</surname><given-names>Pierre</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+      </person-group>
+      <article-title>NeuroLibre : A preprint server for full-fledged reproducible neuroscience</article-title>
+      <publisher-name>OSF Preprints</publisher-name>
+      <year iso-8601-date="2022-04">2022</year><month>04</month>
+      <uri>osf.io/h89js</uri>
+      <pub-id pub-id-type="doi">10.31219/osf.io/h89js</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-Dupre2022-iro">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>DuPre</surname><given-names>Elizabeth</given-names></name>
+        <name><surname>Holdgraf</surname><given-names>Chris</given-names></name>
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>Tetrel</surname><given-names>Loı̈c</given-names></name>
+        <name><surname>Bellec</surname><given-names>Pierre</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Poline</surname><given-names>Jean-Baptiste</given-names></name>
+      </person-group>
+      <article-title>Beyond advertising: New infrastructures for publishing integrated research objects</article-title>
+      <source>PLOS Computational Biology</source>
+      <publisher-name>Public Library of Science San Francisco, CA USA</publisher-name>
+      <year iso-8601-date="2022">2022</year>
+      <volume>18</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1371/journal.pcbi.1009651</pub-id>
+      <fpage>e1009651</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Harding2023-conp">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Harding</surname><given-names>Rachel J.</given-names></name>
+        <name><surname>Bermudez</surname><given-names>Patrick</given-names></name>
+        <name><surname>Bernier</surname><given-names>Alexander</given-names></name>
+        <name><surname>Beauvais</surname><given-names>Michael</given-names></name>
+        <name><surname>Bellec</surname><given-names>Pierre</given-names></name>
+        <name><surname>Hill</surname><given-names>Sean</given-names></name>
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>Knoppers</surname><given-names>Bartha M.</given-names></name>
+        <name><surname>Pavlidis</surname><given-names>Paul</given-names></name>
+        <name><surname>Poline</surname><given-names>Jean-Baptiste</given-names></name>
+        <name><surname>Roskams</surname><given-names>Jane</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Stone</surname><given-names>Jessica</given-names></name>
+        <name><surname>Strother</surname><given-names>Stephen</given-names></name>
+        <name><surname>Consortium</surname><given-names>CONP</given-names></name>
+        <name><surname>Evans</surname><given-names>Alan C.</given-names></name>
+      </person-group>
+      <article-title>The Canadian Open Neuroscience Platform—An open science framework for the neuroscience community</article-title>
+      <source>PLOS Computational Biology</source>
+      <year iso-8601-date="2023-07">2023</year><month>07</month>
+      <volume>19</volume>
+      <issue>7</issue>
+      <uri>10.1371/journal.pcbi.1011230</uri>
+      <pub-id pub-id-type="doi">10.1371/journal.pcbi.1011230</pub-id>
+      <fpage>1</fpage>
+      <lpage>14</lpage>
+    </element-citation>
+  </ref>
+</ref-list>
+</back>
+</article>
