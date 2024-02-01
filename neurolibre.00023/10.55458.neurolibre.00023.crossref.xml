@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>20240201T085807-f0e25762c562b7d32a5e5a061b3b5fce9c662b12</doi_batch_id>
+    <timestamp>20240201085807</timestamp>
+    <depositor>
+      <depositor_name>NeuroLibre Admin</depositor_name>
+      <email_address>admin@neurolibre.org</email_address>
+    </depositor>
+    <registrant>Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal</registrant>
+  </head>
+  <body>
+  <posted_content type="preprint">
+  <group_title>NeuroLibre Reproducible Preprints</group_title>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Mathieu</given_name>
+            <surname>Boudreau</surname>
+            <ORCID>https://orcid.org/0000-0002-7726-4456</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Agah</given_name>
+            <surname>Karakuzu</surname>
+            <ORCID>https://orcid.org/0000-0001-7283-271X</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Julien</given_name>
+            <surname>Cohen-Adad</surname>
+            <ORCID>https://orcid.org/0000-0003-3662-9532</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Ecem</given_name>
+            <surname>Bozkurt</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Madeline</given_name>
+            <surname>Carr</surname>
+            <ORCID>https://orcid.org/0000-0002-4915-5076</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Marco</given_name>
+            <surname>Castellaro</surname>
+            <ORCID>https://orcid.org/0000-0002-1203-2670</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Luis</given_name>
+            <surname>Concha</surname>
+            <ORCID>https://orcid.org/0000-0002-7842-3869</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Mariya</given_name>
+            <surname>Doneva</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Seraina A.</given_name>
+            <surname>Dual</surname>
+            <ORCID>https://orcid.org/0000-0001-6867-8270</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Alex</given_name>
+            <surname>Ensworth</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Alexandru</given_name>
+            <surname>Foias</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Véronique</given_name>
+            <surname>Fortier</surname>
+            <ORCID>https://orcid.org/0000-0003-1859-003X</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Refaat E.</given_name>
+            <surname>Gabr</surname>
+            <ORCID>https://orcid.org/0000-0002-8802-3201</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Guillaume</given_name>
+            <surname>Gilbert</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Carri K.</given_name>
+            <surname>Glide-Hurst</surname>
+            <ORCID>https://orcid.org/0000-0001-7989-4382</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Matthew</given_name>
+            <surname>Grech-Sollars</surname>
+            <ORCID>https://orcid.org/0000-0003-3881-4870</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Siyuan</given_name>
+            <surname>Hu</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Oscar</given_name>
+            <surname>Jalnefjord</surname>
+            <ORCID>https://orcid.org/0000-0003-2741-5890</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Jorge</given_name>
+            <surname>Jovicich</surname>
+            <ORCID>https://orcid.org/0000-0001-9504-7503</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Kübra</given_name>
+            <surname>Keskin</surname>
+            <ORCID>https://orcid.org/0000-0003-4571-2813</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Peter</given_name>
+            <surname>Koken</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Anastasia</given_name>
+            <surname>Kolokotronis</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Simran</given_name>
+            <surname>Kukran</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Nam. G.</given_name>
+            <surname>Lee</surname>
+            <ORCID>https://orcid.org/0000-0001-5462-1492</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Ives R.</given_name>
+            <surname>Levesque</surname>
+            <ORCID>https://orcid.org/0000-0002-0546-1733</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Bochao</given_name>
+            <surname>Li</surname>
+            <ORCID>https://orcid.org/0000-0002-5267-9129</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Dan</given_name>
+            <surname>Ma</surname>
+            <ORCID>https://orcid.org/0000-0003-1664-9579</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Burkhard</given_name>
+            <surname>Mädler</surname>
+            <ORCID>https://orcid.org/0000-0002-1465-2961</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Nyasha</given_name>
+            <surname>Maforo</surname>
+            <ORCID>https://orcid.org/0000-0002-5741-7021</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Jamie</given_name>
+            <surname>Near</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Erick</given_name>
+            <surname>Pasaye</surname>
+            <ORCID>https://orcid.org/0000-0002-0637-0833</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Alonso</given_name>
+            <surname>Ramirez-Manzanares</surname>
+            <ORCID>https://orcid.org/0000-0001-6645-9162</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Ben</given_name>
+            <surname>Statton</surname>
+            <ORCID>https://orcid.org/0000-0001-5118-7977</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Christian</given_name>
+            <surname>Stehning</surname>
+            <ORCID>https://orcid.org/0000-0002-0660-840X</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Stefano</given_name>
+            <surname>Tambalo</surname>
+            <ORCID>https://orcid.org/0000-0003-2562-1324</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Ye</given_name>
+            <surname>Tian</surname>
+            <ORCID>https://orcid.org/0000-0002-8559-4404</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Chenyang</given_name>
+            <surname>Wang</surname>
+            <ORCID>https://orcid.org/0000-0001-6798-0857</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Kilian</given_name>
+            <surname>Weis</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Niloufar</given_name>
+            <surname>Zakariaei</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Shuo</given_name>
+            <surname>Zhang</surname>
+            <ORCID>https://orcid.org/0000-0002-1057-7255</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Ziwei</given_name>
+            <surname>Zhao</surname>
+            <ORCID>https://orcid.org/0000-0003-0281-1141</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Nikola</given_name>
+            <surname>Stikov</surname>
+            <ORCID>https://orcid.org/0000-0002-8480-5230</ORCID>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Paper is not enough: Crowdsourcing the T1 mapping
+common ground via the ISMRM reproducibility challenge</title>
+        </titles>
+        <posted_date>
+          <month>02</month>
+          <day>01</day>
+          <year>2024</year>
+        </posted_date>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Repository archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.10589600</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Dataset archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.10589602</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Book archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.10589598</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Container archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.10589605</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub technical screening</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://github.com/neurolibre/neurolibre-reviews/issues/23</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Executable preprint</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://preprint.neurolibre.org/10.55458/neurolibre.00023</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.55458/neurolibre.00023</doi>
+          <resource>https://neurolibre.org/papers/10.55458/neurolibre.00023</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://preprint.neurolibre.org/10.55458/neurolibre.00023.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="Dieringer2014-qz">
+            <article_title>Rapid parametric mapping of the longitudinal
+relaxation time T1 using two-dimensional variable flip angle magnetic
+resonance imaging at 1.5 tesla, 3 tesla, and 7 tesla</article_title>
+            <author>Dieringer</author>
+            <journal_title>PLoS One</journal_title>
+            <issue>3</issue>
+            <volume>9</volume>
+            <doi>10.1371/journal.pone.0091318</doi>
+            <cYear>2014</cYear>
+            <unstructured_citation>Dieringer, M. A., Deimling, M.,
+Santoro, D., Wuerfel, J., Madai, V. I., Sobesky, J.,
+Knobelsdorff-Brenkenhoff, F. von, Schulz-Menger, J., &amp; Niendorf, T.
+(2014). Rapid parametric mapping of the longitudinal relaxation time T1
+using two-dimensional variable flip angle magnetic resonance imaging at
+1.5 tesla, 3 tesla, and 7 tesla. PLoS One, 9(3), e91318.
+https://doi.org/10.1371/journal.pone.0091318</unstructured_citation>
+          </citation>
+          <citation key="Kluyver2016-nl">
+            <article_title>Jupyter notebooks – a publishing format for
+reproducible computational workflows</article_title>
+            <author>Kluyver</author>
+            <journal_title>Positioning and power in academic publishing:
+Players, agents and agendas</journal_title>
+            <doi>10.3233/978-1-61499-649-1-87</doi>
+            <cYear>2016</cYear>
+            <unstructured_citation>Kluyver, T., Ragan-Kelley, B.,
+Granger, B., Bussonnier, M., Frederic, J., Kelley, K., Hamrick, J.,
+Grout, J., Corlay, S., Ivanov, P., Abdalla, S., &amp; Willing, C.
+(2016). Jupyter notebooks – a publishing format for reproducible
+computational workflows. In Positioning and power in academic
+publishing: Players, agents and agendas (pp. 87–90). IOS Press.
+https://doi.org/10.3233/978-1-61499-649-1-87</unstructured_citation>
+          </citation>
+          <citation key="Barral2010-qm">
+            <article_title>A robust methodology for in vivo T1
+mapping</article_title>
+            <author>Barral</author>
+            <journal_title>Magn. Reson. Med.</journal_title>
+            <issue>4</issue>
+            <volume>64</volume>
+            <doi>10.1002/mrm.22497</doi>
+            <cYear>2010</cYear>
+            <unstructured_citation>Barral, J. K., Gudmundson, E.,
+Stikov, N., Etezadi-Amoli, M., Stoica, P., &amp; Nishimura, D. G.
+(2010). A robust methodology for in vivo T1 mapping. Magn. Reson. Med.,
+64(4), 1057–1067.
+https://doi.org/10.1002/mrm.22497</unstructured_citation>
+          </citation>
+          <citation key="Bottomley1984-qx">
+            <article_title>A review of normal tissue hydrogen NMR
+relaxation times and relaxation mechanisms from 1-100 MHz: Dependence on
+tissue type, NMR frequency, temperature, species, excision, and
+age</article_title>
+            <author>Bottomley</author>
+            <journal_title>Med. Phys.</journal_title>
+            <issue>4</issue>
+            <volume>11</volume>
+            <doi>10.1118/1.595535</doi>
+            <cYear>1984</cYear>
+            <unstructured_citation>Bottomley, P. A., Foster, T. H.,
+Argersinger, R. E., &amp; Pfeifer, L. M. (1984). A review of normal
+tissue hydrogen NMR relaxation times and relaxation mechanisms from
+1-100 MHz: Dependence on tissue type, NMR frequency, temperature,
+species, excision, and age. Med. Phys., 11(4), 425–448.
+https://doi.org/10.1118/1.595535</unstructured_citation>
+          </citation>
+          <citation key="Cabana2015-zg">
+            <article_title>Quantitative magnetization transfer
+imagingmadeeasy with qMTLab: Software for data simulation, analysis, and
+visualization</article_title>
+            <author>Cabana</author>
+            <journal_title>Concepts Magn. Reson. Part A Bridg. Educ.
+Res.</journal_title>
+            <issue>5</issue>
+            <volume>44A</volume>
+            <doi>10.1002/cmr.a.21357</doi>
+            <cYear>2015</cYear>
+            <unstructured_citation>Cabana, J.-F., Gu, Y., Boudreau, M.,
+Levesque, I. R., Atchia, Y., Sled, J. G., Narayanan, S., Arnold, D. L.,
+Pike, G. B., Cohen-Adad, J., Duval, T., Vuong, M.-T., &amp; Stikov, N.
+(2015). Quantitative magnetization transfer imagingmadeeasy with qMTLab:
+Software for data simulation, analysis, and visualization. Concepts
+Magn. Reson. Part A Bridg. Educ. Res., 44A(5), 263–277.
+https://doi.org/10.1002/cmr.a.21357</unstructured_citation>
+          </citation>
+          <citation key="Karakuzu2022-af">
+            <article_title>Vendor-neutral sequences and fully
+transparent workflows improve inter-vendor reproducibility of
+quantitative MRI</article_title>
+            <author>Karakuzu</author>
+            <journal_title>Magn. Reson. Med.</journal_title>
+            <issue>3</issue>
+            <volume>88</volume>
+            <doi>10.1002/mrm.29292</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Karakuzu, A., Biswas, L., Cohen-Adad,
+J., &amp; Stikov, N. (2022). Vendor-neutral sequences and fully
+transparent workflows improve inter-vendor reproducibility of
+quantitative MRI. Magn. Reson. Med., 88(3), 1212–1228.
+https://doi.org/10.1002/mrm.29292</unstructured_citation>
+          </citation>
+          <citation key="Keenan2018-px">
+            <article_title>Quantitative magnetic resonance imaging
+phantoms: A review and the need for a system phantom</article_title>
+            <author>Keenan</author>
+            <journal_title>Magn. Reson. Med.</journal_title>
+            <issue>1</issue>
+            <volume>79</volume>
+            <doi>10.1002/mrm.26982</doi>
+            <cYear>2018</cYear>
+            <unstructured_citation>Keenan, K. E., Ainslie, M., Barker,
+A. J., Boss, M. A., Cecil, K. M., Charles, C., Chenevert, T. L., Clarke,
+L., Evelhoch, J. L., Finn, P., Gembris, D., Gunter, J. L., Hill, D. L.
+G., Jack, C. R., Jr, Jackson, E. F., Liu, G., Russek, S. E., Sharma, S.
+D., Steckner, M., … Zheng, J. (2018). Quantitative magnetic resonance
+imaging phantoms: A review and the need for a system phantom. Magn.
+Reson. Med., 79(1), 48–61.
+https://doi.org/10.1002/mrm.26982</unstructured_citation>
+          </citation>
+          <citation key="Piechnik2010-be">
+            <article_title>Shortened modified Look-Locker inversion
+recovery (ShMOLLI) for clinical myocardial T1-mapping at 1.5 and 3 T
+within a 9 heartbeat breathhold</article_title>
+            <author>Piechnik</author>
+            <journal_title>J. Cardiovasc. Magn. Reson.</journal_title>
+            <issue>1</issue>
+            <volume>12</volume>
+            <doi>10.1186/1532-429X-12-69</doi>
+            <cYear>2010</cYear>
+            <unstructured_citation>Piechnik, S. K., Ferreira, V. M.,
+Dall’Armellina, E., Cochlin, L. E., Greiser, A., Neubauer, S., &amp;
+Robson, M. D. (2010). Shortened modified Look-Locker inversion recovery
+(ShMOLLI) for clinical myocardial T1-mapping at 1.5 and 3 T within a 9
+heartbeat breathhold. J. Cardiovasc. Magn. Reson., 12(1), 69.
+https://doi.org/10.1186/1532-429X-12-69</unstructured_citation>
+          </citation>
+          <citation key="Lazari2021-oy">
+            <article_title>Can MRI measure myelin? Systematic review,
+qualitative assessment, and meta-analysis of studies validating
+microstructural imaging with myelin histology</article_title>
+            <author>Lazari</author>
+            <journal_title>Neuroimage</journal_title>
+            <volume>230</volume>
+            <doi>10.1016/j.neuroimage.2021.117744</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Lazari, A., &amp; Lipp, I. (2021).
+Can MRI measure myelin? Systematic review, qualitative assessment, and
+meta-analysis of studies validating microstructural imaging with myelin
+histology. Neuroimage, 230, 117744.
+https://doi.org/10.1016/j.neuroimage.2021.117744</unstructured_citation>
+          </citation>
+          <citation key="Mancini2020-sv">
+            <article_title>An interactive meta-analysis of MRI
+biomarkers of myelin</article_title>
+            <author>Mancini</author>
+            <journal_title>Elife</journal_title>
+            <volume>9</volume>
+            <doi>10.55458/neurolibre.00004</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Mancini, M., Karakuzu, A.,
+Cohen-Adad, J., Cercignani, M., Nichols, T. E., &amp; Stikov, N. (2020).
+An interactive meta-analysis of MRI biomarkers of myelin. Elife, 9.
+https://doi.org/10.55458/neurolibre.00004</unstructured_citation>
+          </citation>
+          <citation key="Pykett1978-mk">
+            <article_title>A line scan image study of a tumorous rat leg
+by NMR</article_title>
+            <author>Pykett</author>
+            <journal_title>Phys. Med. Biol.</journal_title>
+            <issue>5</issue>
+            <volume>23</volume>
+            <doi>10.1097/00004728-197904000-00056</doi>
+            <cYear>1978</cYear>
+            <unstructured_citation>Pykett, I. L., &amp; Mansfield, P.
+(1978). A line scan image study of a tumorous rat leg by NMR. Phys. Med.
+Biol., 23(5), 961–967.
+https://doi.org/10.1097/00004728-197904000-00056</unstructured_citation>
+          </citation>
+          <citation key="Bojorquez2017-xh">
+            <article_title>What are normal relaxation times of tissues
+at 3 t?</article_title>
+            <author>Bojorquez</author>
+            <journal_title>Magn. Reson. Imaging</journal_title>
+            <volume>35</volume>
+            <doi>10.1016/j.mri.2016.08.021</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>Bojorquez, J. Z., Bricq, S.,
+Acquitter, C., Brunotte, F., Walker, P. M., &amp; Lalande, A. (2017).
+What are normal relaxation times of tissues at 3 t? Magn. Reson.
+Imaging, 35, 69–80.
+https://doi.org/10.1016/j.mri.2016.08.021</unstructured_citation>
+          </citation>
+          <citation key="Seiberlich2020-xe">
+            <volume_title>Quantitative magnetic resonance
+imaging</volume_title>
+            <author>Seiberlich</author>
+            <cYear>2020</cYear>
+            <unstructured_citation>Seiberlich, N., Gulani, V., Campbell,
+A., Sourbron, S., Doneva, M. I., Calamante, F., &amp; Hu, H. H. (2020).
+Quantitative magnetic resonance imaging. Academic
+Press.</unstructured_citation>
+          </citation>
+          <citation key="Lee2019-ei">
+            <article_title>Establishing intra- and inter-vendor
+reproducibility of T1 relaxation time measurements with 3T
+MRI</article_title>
+            <author>Lee</author>
+            <journal_title>Magn. Reson. Med.</journal_title>
+            <issue>1</issue>
+            <volume>81</volume>
+            <cYear>2019</cYear>
+            <unstructured_citation>Lee, Y., Callaghan, M. F.,
+Acosta-Cabronero, J., Lutti, A., &amp; Nagy, Z. (2019). Establishing
+intra- and inter-vendor reproducibility of T1 relaxation time
+measurements with 3T MRI. Magn. Reson. Med., 81(1),
+454–465.</unstructured_citation>
+          </citation>
+          <citation key="Hahn1949-wf">
+            <article_title>An accurate nuclear magnetic resonance method
+for measuring Spin-Lattice relaxation times</article_title>
+            <author>Hahn</author>
+            <journal_title>Physical Review</journal_title>
+            <volume>76</volume>
+            <doi>10.1103/PhysRev.76.145</doi>
+            <cYear>1949</cYear>
+            <unstructured_citation>Hahn, E. L. (1949). An accurate
+nuclear magnetic resonance method for measuring Spin-Lattice relaxation
+times. In Physical Review (No. 1; Vol. 76, pp. 145–146).
+https://doi.org/10.1103/PhysRev.76.145</unstructured_citation>
+          </citation>
+          <citation key="Boettiger2015-vd">
+            <article_title>An introduction to docker for reproducible
+research</article_title>
+            <author>Boettiger</author>
+            <journal_title>Oper. Syst. Rev.</journal_title>
+            <issue>1</issue>
+            <volume>49</volume>
+            <doi>10.1145/2723872.2723882</doi>
+            <cYear>2015</cYear>
+            <unstructured_citation>Boettiger, C. (2015). An introduction
+to docker for reproducible research. Oper. Syst. Rev., 49(1), 71–79.
+https://doi.org/10.1145/2723872.2723882</unstructured_citation>
+          </citation>
+          <citation key="Sled2001-fz">
+            <article_title>Quantitative imaging of magnetization
+transfer exchange and relaxation properties in vivo using
+MRI</article_title>
+            <author>Sled</author>
+            <journal_title>Magn. Reson. Med.</journal_title>
+            <issue>5</issue>
+            <volume>46</volume>
+            <doi>10.1002/mrm.1278</doi>
+            <cYear>2001</cYear>
+            <unstructured_citation>Sled, J. G., &amp; Pike, G. B.
+(2001). Quantitative imaging of magnetization transfer exchange and
+relaxation properties in vivo using MRI. Magn. Reson. Med., 46(5),
+923–931. https://doi.org/10.1002/mrm.1278</unstructured_citation>
+          </citation>
+          <citation key="Deoni2003-qc">
+            <article_title>Rapid combinedT1 andT2 mapping using gradient
+recalled acquisition in the steady state</article_title>
+            <author>Deoni</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <volume>49</volume>
+            <doi>10.1002/mrm.10407</doi>
+            <cYear>2003</cYear>
+            <unstructured_citation>Deoni, S. C. L., Rutt, B. K., &amp;
+Peters, T. M. (2003). Rapid combinedT1 andT2 mapping using gradient
+recalled acquisition in the steady state. In Magnetic Resonance in
+Medicine (No. 3; Vol. 49, pp. 515–526).
+https://doi.org/10.1002/mrm.10407</unstructured_citation>
+          </citation>
+          <citation key="Merkel2014-cu">
+            <article_title>Docker: Lightweight linux containers for
+consistent development and deployment</article_title>
+            <author>Merkel</author>
+            <cYear>2014</cYear>
+            <unstructured_citation>Merkel, D. (2014). Docker:
+Lightweight linux containers for consistent development and deployment.
+https://www.seltzer.com/margo/teaching/CS508.19/papers/merkel14.pdf.</unstructured_citation>
+          </citation>
+          <citation key="Karakuzu2020-ul">
+            <article_title>qMRLab: Quantitative MRI analysis, under one
+umbrella</article_title>
+            <author>Karakuzu</author>
+            <journal_title>J. Open Source Softw.</journal_title>
+            <issue>53</issue>
+            <volume>5</volume>
+            <doi>10.21105/joss.02343</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Karakuzu, A., Boudreau, M., Duval,
+T., Boshkovski, T., Leppert, I., Cabana, J.-F., Gagnon, I., Beliveau,
+P., Pike, G., Cohen-Adad, J., &amp; Stikov, N. (2020). qMRLab:
+Quantitative MRI analysis, under one umbrella. J. Open Source Softw.,
+5(53), 2343. https://doi.org/10.21105/joss.02343</unstructured_citation>
+          </citation>
+          <citation key="Beg2021-ps">
+            <article_title>Using jupyter for reproducible scientific
+workflows</article_title>
+            <author>Beg</author>
+            <journal_title>https://www.computer.org › csdl › magazine ›
+2021/02https://www.computer.org › csdl › magazine ›
+2021/02</journal_title>
+            <volume>23</volume>
+            <doi>10.1109/MCSE.2021.3052101</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Beg, Taka, Kluyver, Konovalov,
+Ragan-Kelley, Thiery, &amp; Fangohr. (2021). Using jupyter for
+reproducible scientific workflows. Https://Www.computer.org › Csdl ›
+Magazine › 2021/02https://Www.computer.org › Csdl › Magazine › 2021/02,
+23, 36–46.
+https://doi.org/10.1109/MCSE.2021.3052101</unstructured_citation>
+          </citation>
+          <citation key="Project_Jupyter2018-ll">
+            <article_title>Binder 2.0 - reproducible, interactive,
+sharable environments for science at scale</article_title>
+            <author>Project Jupyter</author>
+            <journal_title>Proceedings of the python in science
+conference</journal_title>
+            <doi>10.25080/Majora-4af1f417-011</doi>
+            <cYear>2018</cYear>
+            <unstructured_citation>Project Jupyter, Bussonnier, M.,
+Forde, J., Freeman, J., Granger, B., Head, T., Holdgraf, C., Kelley, K.,
+Nalvarte, G., Osheroff, A., Pacer, M., Panda, Y., Perez, F.,
+Ragan-Kelley, B., &amp; Willing, C. (2018). Binder 2.0 - reproducible,
+interactive, sharable environments for science at scale. Proceedings of
+the Python in Science Conference.
+https://doi.org/10.25080/Majora-4af1f417-011</unstructured_citation>
+          </citation>
+          <citation key="Marques2013-yg">
+            <article_title>New developments and applications of the
+MP2RAGE sequence–focusing the contrast and high spatial resolution R1
+mapping</article_title>
+            <author>Marques</author>
+            <journal_title>PLoS One</journal_title>
+            <issue>7</issue>
+            <volume>8</volume>
+            <doi>10.1371/journal.pone.0069294</doi>
+            <cYear>2013</cYear>
+            <unstructured_citation>Marques, J. P., &amp; Gruetter, R.
+(2013). New developments and applications of the MP2RAGE
+sequence–focusing the contrast and high spatial resolution R1 mapping.
+PLoS One, 8(7), e69294.
+https://doi.org/10.1371/journal.pone.0069294</unstructured_citation>
+          </citation>
+          <citation key="Redpath1994-sb">
+            <article_title>Technical note: Use of a double inversion
+recovery pulse sequence to image selectively grey or white brain
+matter</article_title>
+            <author>Redpath</author>
+            <journal_title>Br. J. Radiol.</journal_title>
+            <issue>804</issue>
+            <volume>67</volume>
+            <doi>10.1259/0007-1285-67-804-1258</doi>
+            <cYear>1994</cYear>
+            <unstructured_citation>Redpath, T. W., &amp; Smith, F. W.
+(1994). Technical note: Use of a double inversion recovery pulse
+sequence to image selectively grey or white brain matter. Br. J.
+Radiol., 67(804), 1258–1263.
+https://doi.org/10.1259/0007-1285-67-804-1258</unstructured_citation>
+          </citation>
+          <citation key="Keenan2019-ni">
+            <article_title>Recommendations towards standards for
+quantitative MRI (qMRI) and outstanding needs</article_title>
+            <author>Keenan</author>
+            <journal_title>J. Magn. Reson. Imaging</journal_title>
+            <issue>7</issue>
+            <volume>49</volume>
+            <doi>10.1002/jmri.26598</doi>
+            <cYear>2019</cYear>
+            <unstructured_citation>Keenan, K. E., Biller, J. R.,
+Delfino, J. G., Boss, M. A., Does, M. D., Evelhoch, J. L., Griswold, M.
+A., Gunter, J. L., Hinks, R. S., Hoffman, S. W., Kim, G., Lattanzi, R.,
+Li, X., Marinelli, L., Metzger, G. J., Mukherjee, P., Nordstrom, R. J.,
+Peskin, A. P., Perez, E., … Sullivan, D. C. (2019). Recommendations
+towards standards for quantitative MRI (qMRI) and outstanding needs. J.
+Magn. Reson. Imaging, 49(7), e26–e39.
+https://doi.org/10.1002/jmri.26598</unstructured_citation>
+          </citation>
+          <citation key="Stupic2021-hu">
+            <article_title>A standard system phantom for magnetic
+resonance imaging</article_title>
+            <author>Stupic</author>
+            <journal_title>Magn. Reson. Med.</journal_title>
+            <issue>3</issue>
+            <volume>86</volume>
+            <doi>10.1002/mrm.28779</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Stupic, K. F., Ainslie, M., Boss, M.
+A., Charles, C., Dienstfrey, A. M., Evelhoch, J. L., Finn, P., Gimbutas,
+Z., Gunter, J. L., Hill, D. L. G., Jack, C. R., Jackson, E. F.,
+Karaulanov, T., Keenan, K. E., Liu, G., Martin, M. N., Prasad, P. V.,
+Rentz, N. S., Yuan, C., &amp; Russek, S. E. (2021). A standard system
+phantom for magnetic resonance imaging. Magn. Reson. Med., 86(3),
+1194–1211. https://doi.org/10.1002/mrm.28779</unstructured_citation>
+          </citation>
+          <citation key="Bane2018-wt">
+            <article_title>Accuracy, repeatability, and interplatform
+reproducibility of T1 quantification methods used for DCE-MRI: Results
+from a multicenter phantom study</article_title>
+            <author>Bane</author>
+            <journal_title>Magn. Reson. Med.</journal_title>
+            <issue>5</issue>
+            <volume>79</volume>
+            <doi>10.1002/mrm.26903</doi>
+            <cYear>2018</cYear>
+            <unstructured_citation>Bane, O., Hectors, S. J., Wagner, M.,
+Arlinghaus, L. L., Aryal, M. P., Cao, Y., Chenevert, T. L., Fennessy,
+F., Huang, W., Hylton, N. M., Kalpathy-Cramer, J., Keenan, K. E.,
+Malyarenko, D. I., Mulkern, R. V., Newitt, D. C., Russek, S. E., Stupic,
+K. F., Tudorica, A., Wilmes, L. J., … Taouli, B. (2018). Accuracy,
+repeatability, and interplatform reproducibility of T1 quantification
+methods used for DCE-MRI: Results from a multicenter phantom study.
+Magn. Reson. Med., 79(5), 2564–2575.
+https://doi.org/10.1002/mrm.26903</unstructured_citation>
+          </citation>
+          <citation key="Look1970-no">
+            <article_title>Time saving in measurement of NMR and EPR
+relaxation times</article_title>
+            <author>Look</author>
+            <journal_title>Rev. Sci. Instrum.</journal_title>
+            <issue>2</issue>
+            <volume>41</volume>
+            <doi>10.1063/1.1684482</doi>
+            <cYear>1970</cYear>
+            <unstructured_citation>Look, D. C., &amp; Locker, D. R.
+(1970). Time saving in measurement of NMR and EPR relaxation times. Rev.
+Sci. Instrum., 41(2), 250–251.
+https://doi.org/10.1063/1.1684482</unstructured_citation>
+          </citation>
+          <citation key="Damadian1971-sc">
+            <article_title>Tumor detection by nuclear magnetic
+resonance</article_title>
+            <author>Damadian</author>
+            <journal_title>Science</journal_title>
+            <issue>3976</issue>
+            <volume>171</volume>
+            <doi>10.1126/science.171.3976.1151</doi>
+            <cYear>1971</cYear>
+            <unstructured_citation>Damadian, R. (1971). Tumor detection
+by nuclear magnetic resonance. Science, 171(3976), 1151–1153.
+https://doi.org/10.1126/science.171.3976.1151</unstructured_citation>
+          </citation>
+          <citation key="Cordes2020-au">
+            <article_title>Portable and platform-independent MR pulse
+sequence programs</article_title>
+            <author>Cordes</author>
+            <journal_title>Magn. Reson. Med.</journal_title>
+            <issue>4</issue>
+            <volume>83</volume>
+            <doi>10.1002/mrm.28020</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Cordes, C., Konstandin, S., Porter,
+D., &amp; Günther, M. (2020). Portable and platform-independent MR pulse
+sequence programs. Magn. Reson. Med., 83(4), 1277–1290.
+https://doi.org/10.1002/mrm.28020</unstructured_citation>
+          </citation>
+          <citation key="Drain1949-yk">
+            <article_title>A direct method of measuring nuclear
+Spin-Lattice relaxation times</article_title>
+            <author>Drain</author>
+            <journal_title>Proc. Phys. Soc. A</journal_title>
+            <issue>5</issue>
+            <volume>62</volume>
+            <doi>10.1088/0370-1298/62/5/306</doi>
+            <cYear>1949</cYear>
+            <unstructured_citation>Drain, L. E. (1949). A direct method
+of measuring nuclear Spin-Lattice relaxation times. Proc. Phys. Soc. A,
+62(5), 301.
+https://doi.org/10.1088/0370-1298/62/5/306</unstructured_citation>
+          </citation>
+          <citation key="Messroghli2004-iv">
+            <article_title>Modified Look-Locker inversion recovery
+(MOLLI) for high-resolution T1 mapping of the heart</article_title>
+            <author>Messroghli</author>
+            <journal_title>Magn. Reson. Med.</journal_title>
+            <issue>1</issue>
+            <volume>52</volume>
+            <doi>10.1002/mrm.20110</doi>
+            <cYear>2004</cYear>
+            <unstructured_citation>Messroghli, D. R., Radjenovic, A.,
+Kozerke, S., Higgins, D. M., Sivananthan, M. U., &amp; Ridgway, J. P.
+(2004). Modified Look-Locker inversion recovery (MOLLI) for
+high-resolution T1 mapping of the heart. Magn. Reson. Med., 52(1),
+141–146. https://doi.org/10.1002/mrm.20110</unstructured_citation>
+          </citation>
+          <citation key="Boudreau2020-jf">
+            <article_title>Quantitative T1 and T1r
+mapping</article_title>
+            <author>Boudreau</author>
+            <journal_title>Quantitative magnetic resonance
+imaging</journal_title>
+            <doi>10.1016/b978-0-12-817057-1.00004-4</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Boudreau, M., Keenan, K. E., &amp;
+Stikov, N. (2020). Quantitative T1 and T1r mapping. In Quantitative
+magnetic resonance imaging (pp. 19–45).
+https://doi.org/10.1016/b978-0-12-817057-1.00004-4</unstructured_citation>
+          </citation>
+          <citation key="Tofts1997-ln">
+            <article_title>Modeling tracer kinetics in dynamic Gd-DTPA
+MR imaging</article_title>
+            <author>Tofts</author>
+            <journal_title>J. Magn. Reson. Imaging</journal_title>
+            <issue>1</issue>
+            <volume>7</volume>
+            <doi>10.1002/jmri.1880070113</doi>
+            <cYear>1997</cYear>
+            <unstructured_citation>Tofts, P. S. (1997). Modeling tracer
+kinetics in dynamic Gd-DTPA MR imaging. J. Magn. Reson. Imaging, 7(1),
+91–101. https://doi.org/10.1002/jmri.1880070113</unstructured_citation>
+          </citation>
+          <citation key="Keenan2021-ly">
+            <article_title>Multi-site, multi-platform comparison of MRI
+T1 measurement using the system phantom</article_title>
+            <author>Keenan</author>
+            <journal_title>PLoS One</journal_title>
+            <issue>6</issue>
+            <volume>16</volume>
+            <doi>10.1371/journal.pone.0252966</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Keenan, K. E., Gimbutas, Z.,
+Dienstfrey, A., Stupic, K. F., Boss, M. A., Russek, S. E., Chenevert, T.
+L., Prasad, P. V., Guo, J., Reddick, W. E., Cecil, K. M., Shukla-Dave,
+A., Aramburu Nunez, D., Shridhar Konar, A., Liu, M. Z., Jambawalikar, S.
+R., Schwartz, L. H., Zheng, J., Hu, P., &amp; Jackson, E. F. (2021).
+Multi-site, multi-platform comparison of MRI T1 measurement using the
+system phantom. PLoS One, 16(6), e0252966.
+https://doi.org/10.1371/journal.pone.0252966</unstructured_citation>
+          </citation>
+          <citation key="Wansapura1999-tf">
+            <article_title>NMR relaxation times in the human brain at
+3.0 tesla</article_title>
+            <author>Wansapura</author>
+            <journal_title>J. Magn. Reson. Imaging</journal_title>
+            <issue>4</issue>
+            <volume>9</volume>
+            <doi>10.1002/(SICI)1522-2586(199904)9:4&lt;531::AID-JMRI4&gt;3.0.CO;2-L</doi>
+            <cYear>1999</cYear>
+            <unstructured_citation>Wansapura, J. P., Holland, S. K.,
+Dunn, R. S., &amp; Ball, W. S., Jr. (1999). NMR relaxation times in the
+human brain at 3.0 tesla. J. Magn. Reson. Imaging, 9(4), 531–538.
+https://doi.org/10.1002/(SICI)1522-2586(199904)9:4&lt;531::AID-JMRI4&gt;3.0.CO;2-L</unstructured_citation>
+          </citation>
+          <citation key="Gracien2020-ak">
+            <article_title>How stable is quantitative MRI?–Assessment of
+intra-and inter-scanner-model reproducibility using identical
+acquisition sequences and data analysis …</article_title>
+            <author>Gracien</author>
+            <journal_title>Neuroimage</journal_title>
+            <doi>10.1016/j.neuroimage.2019.116364</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Gracien, Maiworm, Brüche, Shrestha,
+&amp; others. (2020). How stable is quantitative MRI?–Assessment of
+intra-and inter-scanner-model reproducibility using identical
+acquisition sequences and data analysis …. Neuroimage.
+https://doi.org/10.1016/j.neuroimage.2019.116364</unstructured_citation>
+          </citation>
+          <citation key="Schweitzer2016-fl">
+            <article_title>Stages of technical efficacy: Journal of
+magnetic resonance imaging style</article_title>
+            <author>Schweitzer</author>
+            <journal_title>J. Magn. Reson. Imaging</journal_title>
+            <issue>4</issue>
+            <volume>44</volume>
+            <doi>10.1002/jmri.25417</doi>
+            <cYear>2016</cYear>
+            <unstructured_citation>Schweitzer, M. (2016). Stages of
+technical efficacy: Journal of magnetic resonance imaging style. J.
+Magn. Reson. Imaging, 44(4), 781–782.
+https://doi.org/10.1002/jmri.25417</unstructured_citation>
+          </citation>
+          <citation key="A_G_Teixeira2020-bw">
+            <article_title>Controlled saturation magnetization transfer
+for reproducible multivendor variable flip angle T1 and T2
+mapping</article_title>
+            <author>A G Teixeira</author>
+            <journal_title>Magn. Reson. Med.</journal_title>
+            <issue>1</issue>
+            <volume>84</volume>
+            <doi>10.1002/mrm.28109</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>A G Teixeira, R. P., Neji, R., Wood,
+T. C., Baburamani, A. A., Malik, S. J., &amp; Hajnal, J. V. (2020).
+Controlled saturation magnetization transfer for reproducible
+multivendor variable flip angle T1 and T2 mapping. Magn. Reson. Med.,
+84(1), 221–236.
+https://doi.org/10.1002/mrm.28109</unstructured_citation>
+          </citation>
+          <citation key="Ernst1966-pp">
+            <article_title>Application of fourier transform spectroscopy
+to magnetic resonance</article_title>
+            <author>Ernst</author>
+            <journal_title>Rev. Sci. Instrum.</journal_title>
+            <issue>1</issue>
+            <volume>37</volume>
+            <doi>10.1063/1.1719961</doi>
+            <cYear>1966</cYear>
+            <unstructured_citation>Ernst, R. R., &amp; Anderson, W. A.
+(1966). Application of fourier transform spectroscopy to magnetic
+resonance. Rev. Sci. Instrum., 37(1), 93–102.
+https://doi.org/10.1063/1.1719961</unstructured_citation>
+          </citation>
+          <citation key="Layton2017-dy">
+            <article_title>Pulseq: A rapid and hardware-independent
+pulse sequence prototyping framework</article_title>
+            <author>Layton</author>
+            <journal_title>Magn. Reson. Med.</journal_title>
+            <issue>4</issue>
+            <volume>77</volume>
+            <doi>10.1002/mrm.26235</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>Layton, K. J., Kroboth, S., Jia, F.,
+Littin, S., Yu, H., Leupold, J., Nielsen, J.-F., Stöcker, T., &amp;
+Zaitsev, M. (2017). Pulseq: A rapid and hardware-independent pulse
+sequence prototyping framework. Magn. Reson. Med., 77(4), 1544–1552.
+https://doi.org/10.1002/mrm.26235</unstructured_citation>
+          </citation>
+          <citation key="Fryback1991-sy">
+            <article_title>The efficacy of diagnostic
+imaging</article_title>
+            <author>Fryback</author>
+            <journal_title>Med. Decis. Making</journal_title>
+            <issue>2</issue>
+            <volume>11</volume>
+            <doi>10.1177/0272989X9101100203</doi>
+            <cYear>1991</cYear>
+            <unstructured_citation>Fryback, D. G., &amp; Thornbury, J.
+R. (1991). The efficacy of diagnostic imaging. Med. Decis. Making,
+11(2), 88–94.
+https://doi.org/10.1177/0272989X9101100203</unstructured_citation>
+          </citation>
+          <citation key="Marques2010-po">
+            <article_title>MP2RAGE, a self bias-field corrected sequence
+for improved segmentation and T1-mapping at high field</article_title>
+            <author>Marques</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>49</volume>
+            <doi>10.1016/j.neuroimage.2009.10.002</doi>
+            <cYear>2010</cYear>
+            <unstructured_citation>Marques, J. P., Kober, T., Krueger,
+G., Zwaag, W. van der, Van de Moortele, P.-F., &amp; Gruetter, R.
+(2010). MP2RAGE, a self bias-field corrected sequence for improved
+segmentation and T1-mapping at high field. In NeuroImage (No. 2; Vol.
+49, pp. 1271–1281).
+https://doi.org/10.1016/j.neuroimage.2009.10.002</unstructured_citation>
+          </citation>
+          <citation key="Stikov2015-qj">
+            <article_title>On the accuracy of T1 mapping: Searching for
+common ground</article_title>
+            <author>Stikov</author>
+            <journal_title>Magn. Reson. Med.</journal_title>
+            <issue>2</issue>
+            <volume>73</volume>
+            <doi>10.1002/mrm.25135</doi>
+            <cYear>2015</cYear>
+            <unstructured_citation>Stikov, N., Boudreau, M., Levesque,
+I. R., Tardif, C. L., Barral, J. K., &amp; Pike, G. B. (2015). On the
+accuracy of T1 mapping: Searching for common ground. Magn. Reson. Med.,
+73(2), 514–522.
+https://doi.org/10.1002/mrm.25135</unstructured_citation>
+          </citation>
+          <citation key="Fram1987-jj">
+            <article_title>Rapid calculation of T1 using variable flip
+angle gradient refocused imaging</article_title>
+            <author>Fram</author>
+            <journal_title>Magn. Reson. Imaging</journal_title>
+            <issue>3</issue>
+            <volume>5</volume>
+            <doi>10.1016/0730-725X(87)90021-X</doi>
+            <cYear>1987</cYear>
+            <unstructured_citation>Fram, E. K., Herfkens, R. J.,
+Johnson, G. A., Glover, G. H., Karis, J. P., Shimakawa, A., Perkins, T.
+G., &amp; Pelc, N. J. (1987). Rapid calculation of T1 using variable
+flip angle gradient refocused imaging. Magn. Reson. Imaging, 5(3),
+201–208.
+https://doi.org/10.1016/0730-725X(87)90021-X</unstructured_citation>
+          </citation>
+          <citation key="Cheng2006-qe">
+            <article_title>Rapid high-resolutionT1 mapping by variable
+flip angles: Accurate and precise measurements in the presence of
+radiofrequency field inhomogeneity</article_title>
+            <author>Cheng</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <volume>55</volume>
+            <doi>10.1002/mrm.20791</doi>
+            <cYear>2006</cYear>
+            <unstructured_citation>Cheng, H.-L. M., &amp; Wright, G. A.
+(2006). Rapid high-resolutionT1 mapping by variable flip angles:
+Accurate and precise measurements in the presence of radiofrequency
+field inhomogeneity. In Magnetic Resonance in Medicine (No. 3; Vol. 55,
+pp. 566–574). https://doi.org/10.1002/mrm.20791</unstructured_citation>
+          </citation>
+        </citation_list>
+  </posted_content>
+  </body>
+</doi_batch>
