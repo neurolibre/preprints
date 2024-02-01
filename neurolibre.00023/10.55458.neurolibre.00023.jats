@@ -1,0 +1,2323 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN"
+                  "JATS-publishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+<journal-title>NeuroLibre Reproducible Preprints</journal-title>
+<abbrev-journal-title>NeuroLibre</abbrev-journal-title>
+</journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher>
+<publisher-name>NeuroLibre</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">23</article-id>
+<article-id pub-id-type="doi">10.55458/neurolibre.00023</article-id>
+<title-group>
+<article-title>Paper is not enough: Crowdsourcing the T1 mapping common
+ground via the ISMRM reproducibility challenge</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" equal-contrib="yes" corresp="yes">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-7726-4456</contrib-id>
+<name>
+<surname>Boudreau</surname>
+<given-names>Mathieu</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="aff" rid="aff-2"/>
+<xref ref-type="corresp" rid="cor-1"><sup>*</sup></xref>
+</contrib>
+<contrib contrib-type="author" equal-contrib="yes">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-7283-271X</contrib-id>
+<name>
+<surname>Karakuzu</surname>
+<given-names>Agah</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="aff" rid="aff-2"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-3662-9532</contrib-id>
+<name>
+<surname>Cohen-Adad</surname>
+<given-names>Julien</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="aff" rid="aff-3"/>
+<xref ref-type="aff" rid="aff-4"/>
+<xref ref-type="aff" rid="aff-5"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Bozkurt</surname>
+<given-names>Ecem</given-names>
+</name>
+<xref ref-type="aff" rid="aff-6"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-4915-5076</contrib-id>
+<name>
+<surname>Carr</surname>
+<given-names>Madeline</given-names>
+</name>
+<xref ref-type="aff" rid="aff-7"/>
+<xref ref-type="aff" rid="aff-8"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-1203-2670</contrib-id>
+<name>
+<surname>Castellaro</surname>
+<given-names>Marco</given-names>
+</name>
+<xref ref-type="aff" rid="aff-9"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-7842-3869</contrib-id>
+<name>
+<surname>Concha</surname>
+<given-names>Luis</given-names>
+</name>
+<xref ref-type="aff" rid="aff-10"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Doneva</surname>
+<given-names>Mariya</given-names>
+</name>
+<xref ref-type="aff" rid="aff-11"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-6867-8270</contrib-id>
+<name>
+<surname>Dual</surname>
+<given-names>Seraina A.</given-names>
+</name>
+<xref ref-type="aff" rid="aff-12"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Ensworth</surname>
+<given-names>Alex</given-names>
+</name>
+<xref ref-type="aff" rid="aff-13"/>
+<xref ref-type="aff" rid="aff-14"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Foias</surname>
+<given-names>Alexandru</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-1859-003X</contrib-id>
+<name>
+<surname>Fortier</surname>
+<given-names>Véronique</given-names>
+</name>
+<xref ref-type="aff" rid="aff-15"/>
+<xref ref-type="aff" rid="aff-16"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-8802-3201</contrib-id>
+<name>
+<surname>Gabr</surname>
+<given-names>Refaat E.</given-names>
+</name>
+<xref ref-type="aff" rid="aff-17"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Gilbert</surname>
+<given-names>Guillaume</given-names>
+</name>
+<xref ref-type="aff" rid="aff-18"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-7989-4382</contrib-id>
+<name>
+<surname>Glide-Hurst</surname>
+<given-names>Carri K.</given-names>
+</name>
+<xref ref-type="aff" rid="aff-19"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-3881-4870</contrib-id>
+<name>
+<surname>Grech-Sollars</surname>
+<given-names>Matthew</given-names>
+</name>
+<xref ref-type="aff" rid="aff-20"/>
+<xref ref-type="aff" rid="aff-21"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Hu</surname>
+<given-names>Siyuan</given-names>
+</name>
+<xref ref-type="aff" rid="aff-22"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-2741-5890</contrib-id>
+<name>
+<surname>Jalnefjord</surname>
+<given-names>Oscar</given-names>
+</name>
+<xref ref-type="aff" rid="aff-23"/>
+<xref ref-type="aff" rid="aff-24"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-9504-7503</contrib-id>
+<name>
+<surname>Jovicich</surname>
+<given-names>Jorge</given-names>
+</name>
+<xref ref-type="aff" rid="aff-25"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-4571-2813</contrib-id>
+<name>
+<surname>Keskin</surname>
+<given-names>Kübra</given-names>
+</name>
+<xref ref-type="aff" rid="aff-6"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Koken</surname>
+<given-names>Peter</given-names>
+</name>
+<xref ref-type="aff" rid="aff-11"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Kolokotronis</surname>
+<given-names>Anastasia</given-names>
+</name>
+<xref ref-type="aff" rid="aff-13"/>
+<xref ref-type="aff" rid="aff-26"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Kukran</surname>
+<given-names>Simran</given-names>
+</name>
+<xref ref-type="aff" rid="aff-27"/>
+<xref ref-type="aff" rid="aff-28"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-5462-1492</contrib-id>
+<name>
+<surname>Lee</surname>
+<given-names>Nam. G.</given-names>
+</name>
+<xref ref-type="aff" rid="aff-6"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-0546-1733</contrib-id>
+<name>
+<surname>Levesque</surname>
+<given-names>Ives R.</given-names>
+</name>
+<xref ref-type="aff" rid="aff-13"/>
+<xref ref-type="aff" rid="aff-29"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-5267-9129</contrib-id>
+<name>
+<surname>Li</surname>
+<given-names>Bochao</given-names>
+</name>
+<xref ref-type="aff" rid="aff-6"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-1664-9579</contrib-id>
+<name>
+<surname>Ma</surname>
+<given-names>Dan</given-names>
+</name>
+<xref ref-type="aff" rid="aff-22"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-1465-2961</contrib-id>
+<name>
+<surname>Mädler</surname>
+<given-names>Burkhard</given-names>
+</name>
+<xref ref-type="aff" rid="aff-30"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-5741-7021</contrib-id>
+<name>
+<surname>Maforo</surname>
+<given-names>Nyasha</given-names>
+</name>
+<xref ref-type="aff" rid="aff-31"/>
+<xref ref-type="aff" rid="aff-32"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Near</surname>
+<given-names>Jamie</given-names>
+</name>
+<xref ref-type="aff" rid="aff-33"/>
+<xref ref-type="aff" rid="aff-34"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-0637-0833</contrib-id>
+<name>
+<surname>Pasaye</surname>
+<given-names>Erick</given-names>
+</name>
+<xref ref-type="aff" rid="aff-35"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-6645-9162</contrib-id>
+<name>
+<surname>Ramirez-Manzanares</surname>
+<given-names>Alonso</given-names>
+</name>
+<xref ref-type="aff" rid="aff-35"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-5118-7977</contrib-id>
+<name>
+<surname>Statton</surname>
+<given-names>Ben</given-names>
+</name>
+<xref ref-type="aff" rid="aff-36"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-0660-840X</contrib-id>
+<name>
+<surname>Stehning</surname>
+<given-names>Christian</given-names>
+</name>
+<xref ref-type="aff" rid="aff-30"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-2562-1324</contrib-id>
+<name>
+<surname>Tambalo</surname>
+<given-names>Stefano</given-names>
+</name>
+<xref ref-type="aff" rid="aff-25"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-8559-4404</contrib-id>
+<name>
+<surname>Tian</surname>
+<given-names>Ye</given-names>
+</name>
+<xref ref-type="aff" rid="aff-6"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-6798-0857</contrib-id>
+<name>
+<surname>Wang</surname>
+<given-names>Chenyang</given-names>
+</name>
+<xref ref-type="aff" rid="aff-37"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Weis</surname>
+<given-names>Kilian</given-names>
+</name>
+<xref ref-type="aff" rid="aff-30"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Zakariaei</surname>
+<given-names>Niloufar</given-names>
+</name>
+<xref ref-type="aff" rid="aff-38"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-1057-7255</contrib-id>
+<name>
+<surname>Zhang</surname>
+<given-names>Shuo</given-names>
+</name>
+<xref ref-type="aff" rid="aff-30"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-0281-1141</contrib-id>
+<name>
+<surname>Zhao</surname>
+<given-names>Ziwei</given-names>
+</name>
+<xref ref-type="aff" rid="aff-6"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-8480-5230</contrib-id>
+<name>
+<surname>Stikov</surname>
+<given-names>Nikola</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="aff" rid="aff-2"/>
+<xref ref-type="aff" rid="aff-39"/>
+</contrib>
+<aff id="aff-1">
+<institution-wrap>
+<institution>NeuroPoly Lab, Polytechnique Montréal, Montreal, Quebec,
+Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-2">
+<institution-wrap>
+<institution>Montreal Heart Institute, Montreal, Quebec,
+Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-3">
+<institution-wrap>
+<institution>Unité de Neuroimagerie Fonctionnelle (UNF), Centre de
+recherche de l’Institut Universitaire de Gériatrie de Montréal (CRIUGM),
+Montreal, Quebec, Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-4">
+<institution-wrap>
+<institution>Mila - Quebec AI Institute, Montreal, QC,
+Canad</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-5">
+<institution-wrap>
+<institution>Centre de recherche du CHU Sainte-Justine, Université de
+Montréal, Montreal, QC, Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-6">
+<institution-wrap>
+<institution>Magnetic Resonance Engineering Laboratory (MREL),
+University of Southern California, Los Angeles, California,
+USA</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-7">
+<institution-wrap>
+<institution>Medical Physics, Ingham Institute for Applied Medical
+Research, Liverpool, Australia</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-8">
+<institution-wrap>
+<institution>Department of Medical Physics, Liverpool and Macarthur
+Cancer Therapy Centres, Liverpool, Australia</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-9">
+<institution-wrap>
+<institution>Department of Information Engineering, University of
+Padova, Padova, Italy</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-10">
+<institution-wrap>
+<institution>Institute of Neurobiology, Universidad Nacional Autónoma de
+México Campus Juriquilla, Querétaro, México</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-11">
+<institution-wrap>
+<institution>Philips Research Hamburg, Germany</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-12">
+<institution-wrap>
+<institution>Department of Radiology, Stanford University, Stanford,
+California, United States</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-13">
+<institution-wrap>
+<institution>Medical Physics Unit, McGill University, Montreal,
+Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-14">
+<institution-wrap>
+<institution>University of British Columbia, Vancouver,
+Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-15">
+<institution-wrap>
+<institution>Department of Medical Imaging, McGill University Health
+Centre, Montrea, Quebec, Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-16">
+<institution-wrap>
+<institution>Department of Radiology, McGill University, Montreal,
+Quebec, Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-17">
+<institution-wrap>
+<institution>Department of Diagnostic and Interventional Imaging,
+University of Texas Health Science Center at Houston, McGovern Medical
+School, Houston, Texas, USA</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-18">
+<institution-wrap>
+<institution>MR Clinical Science, Philips Canada, Mississauga, Ontario,
+Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-19">
+<institution-wrap>
+<institution>Department of Human Oncology, University of
+Wisconsin-Madison, Madison, Wisconsin, USA</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-20">
+<institution-wrap>
+<institution>Centre for Medical Image Computing, Department of Computer
+Science, University College London, London, UK</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-21">
+<institution-wrap>
+<institution>Lysholm Department of Neuroradiology, National Hospital for
+Neurology and Neurosurgery, University College London Hospitals NHS
+Foundation Trust, London, UK</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-22">
+<institution-wrap>
+<institution>Department of Biomedical Engineering, Case Western Reserve
+University, Cleveland, Ohio, USA</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-23">
+<institution-wrap>
+<institution>Department of Medical Radiation Sciences, Institute of
+Clinical Sciences, Sahlgrenska Academy, University of Gothenburg,
+Gothenburg, Sweden</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-24">
+<institution-wrap>
+<institution>Biomedical Engineering, Sahlgrenska University Hospital,
+Gothenburg, Sweden</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-25">
+<institution-wrap>
+<institution>Center for Mind/Brain Sciences, University of Trento,
+Italy</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-26">
+<institution-wrap>
+<institution>Hopital Maisonneuve-Rosemont, Montreal,
+Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-27">
+<institution-wrap>
+<institution>Bioengineering, Imperial College London, UK</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-28">
+<institution-wrap>
+<institution>Radiotherapy and Imaging, Insitute of Cancer Research,
+Imperial College London, UK</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-29">
+<institution-wrap>
+<institution>Research Institute of the McGill University Health Centre,
+Montreal, Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-30">
+<institution-wrap>
+<institution>Clinical Science, Philips Healthcare, Germany</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-31">
+<institution-wrap>
+<institution>Department of Radiological Sciences, University of
+California Los Angeles, Los Angeles, CA, USA</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-32">
+<institution-wrap>
+<institution>Physics and Biology in Medicine IDP, University of
+California Los Angeles, Los Angeles, CA, USA</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-33">
+<institution-wrap>
+<institution>Douglas Brain Imaging Centre, Montreal,
+Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-34">
+<institution-wrap>
+<institution>Sunnybrook Research Institute, Toronto,
+Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-35">
+<institution-wrap>
+<institution>Computer Science Department, Centro de Investigación en
+Matemáticas, A.C., Guanajuato, México</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-36">
+<institution-wrap>
+<institution>Medical Research Council, London Institute of Medical
+Sciences, Imperial College London, London, United Kingdom</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-37">
+<institution-wrap>
+<institution>Department of Radiation Oncology - CNS Service, The
+University of Texas MD Anderson Cancer Center, Texas, USA</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-38">
+<institution-wrap>
+<institution>Department of Biomedical Engineering, University of British
+Columbia, British Columbia, Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-39">
+<institution-wrap>
+<institution>Center for Advanced Interdisciplinary Research, Ss. Cyril
+and Methodius University, Skopje, North Macedonia</institution>
+</institution-wrap>
+</aff>
+</contrib-group>
+<author-notes>
+<corresp id="cor-1">* E-mail: <email></email></corresp>
+</author-notes>
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-01-24">
+<day>24</day>
+<month>1</month>
+<year>2024</year>
+</pub-date>
+<volume>4</volume>
+<issue>38</issue>
+<fpage>23</fpage>
+<permissions>
+<copyright-statement>Authors of papers retain copyright and release the
+work under a Creative Commons Attribution 4.0 International License (CC
+BY 4.0)</copyright-statement>
+<copyright-year>2022</copyright-year>
+<copyright-holder>The article authors</copyright-holder>
+<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/">
+<license-p>Authors of papers retain copyright and release the work under
+a Creative Commons Attribution 4.0 International License (CC BY
+4.0)</license-p>
+</license>
+</permissions>
+<kwd-group kwd-group-type="author">
+<kwd>quantitative MRI</kwd>
+<kwd>T1 mapping</kwd>
+<kwd>inversion recovery</kwd>
+<kwd>reproducibility</kwd>
+<kwd>open data</kwd>
+</kwd-group>
+</article-meta>
+</front>
+<body>
+<sec id="summary">
+  <title>Summary</title>
+  <p>We present the results of the ISMRM 2020 joint Reproducible
+  Research and Quantitative MR study groups reproducibility challenge on
+  T1 mapping in phantom and human brain. T1 mapping, a widely used
+  quantitative MRI technique, exhibits inconsistent tissue-specific
+  values across protocols, sites, and vendors. The challenge aimed to
+  assess the reproducibility of a well-established inversion recovery T1
+  mapping technique, with acquisition details published solely as a PDF,
+  on a standardized phantom and in human brains. Participants acquired
+  T1 mapping data from MRIs of three manufacturers at 3T, resulting in
+  39 phantom datasets and 56 datasets from healthy human subjects. The
+  T1 inter-submission variability was twice as high as the
+  intra-submission variability in both phantoms and human brains,
+  indicating that the acquisition details in the selected paper were
+  insufficient to reproduce a quantitative MRI protocol. This study
+  reports the inherent uncertainty in T1 measures across independent
+  research groups, bringing us one step closer to a practical clinical
+  baseline of T1 variations in vivo. This challenge resulted in the
+  creation of a comprehensive open database of T1 mapping acquisitions,
+  accessible at
+  <ext-link ext-link-type="uri" xlink:href="https://osf.io/ywc9g/">osf.io/ywc9g/</ext-link>,
+  and an
+  <ext-link ext-link-type="uri" xlink:href="https://rrsg2020.db.neurolibre.org">interactive
+  dashboard</ext-link> for wider community access and engagement.</p>
+</sec>
+<sec id="figures">
+  <title>Figures</title>
+  <fig>
+    <caption><p>Dashboard. a) welcome page listing all the sites, the
+    types of subject, and scanner, and the relationship between the
+    three. Row b) shows two of the phantom dashboard tabs, and row c)
+    shows two of the human data dashboard tabs Link:
+    <ext-link ext-link-type="uri" xlink:href="https://rrsg2020.db.neurolibre.org">https://rrsg2020.db.neurolibre.org</ext-link>
+    <styled-content id="figU003Adashboard"></styled-content></p></caption>
+    <graphic mimetype="image" mime-subtype="png" xlink:href="media/featured.png" />
+  </fig>
+</sec>
+<sec id="acknowledgements">
+  <title>Acknowledgements</title>
+  <p>The conception of this collaborative reproducibility challenge
+  originated from discussions with experts, including Paul Tofts, Joëlle
+  Barral, and Ilana Leppert, who provided valuable insights.
+  Additionally, Kathryn Keenan, Zydrunas Gimbutas, and Andrew Dienstfrey
+  from NIST provided their code to generate the ROI template for the
+  ISMRM/NIST phantom. Dylan Roskams-Edris and Gabriel Pelletier from the
+  Tanenbaum Open Science Institute (TOSI) offered valuable insights and
+  guidance related to data ethics and data sharing in the context of
+  this international multi-center conference challenge. The 2020 RRSG
+  study group committee members who launched the challenge, Martin
+  Uecker, Florian Knoll, Nikola Stikov, Maria Eugenia Caligiuri, and
+  Daniel Gallichan, as well as the 2020 qMRSG committee members, Kathryn
+  Keenan, Diego Hernando, Xavier Golay, Annie Yuxin Zhang, and Jeff
+  Gunter, also played an essential role in making this challenge
+  possible. We would also like to thank the Canadian Open Neuroscience
+  Platform (CONP), the Quebec Bioimaging Network (QBIN), and the
+  Montreal Heart Institute Foundation for their support in creating the
+  NeuroLibre preprint. Finally, we extend our thanks to all the
+  volunteers and individuals who helped with the scanning at each
+  imaging site.</p>
+  <p>The authors thank the ISMRM Reproducible Research Study Group for
+  conducting a code review of the code (Version 1) supplied in the Data
+  Availability Statement. The scope of the code review covered only the
+  code’s ease of download, quality of documentation, and ability to run,
+  but did not consider scientific accuracy or code efficiency.</p>
+  <p>Lastly, we acknowledge use of ChatGPT (v3), a generative language
+  model, for accelerating manuscript preparation. The co-first authors
+  employed ChatGPT in the initial draft for transforming bullet point
+  sentences into paragraphs, proofreading for typos, and refining the
+  academic tone. ChatGPT served exclusively as a writing aid, and was
+  not used to create or interpret results.</p>
+  <p></p>
+  <disp-quote>
+    <p>The following section in this document repeats the narrative
+    content exactly as found in the
+    <ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00023">corresponding
+    NeuroLibre Reproducible Preprint (NRP)</ext-link>. The content was
+    automatically incorporated into this PDF using the NeuroLibre
+    publication workflow
+    (<xref alt="Karakuzu, DuPre, et al., 2022" rid="ref-Karakuzu2022-nlwf" ref-type="bibr">Karakuzu,
+    DuPre, et al., 2022</xref>) to credit the referenced resources. The
+    submitting author of the preprint has verified and approved the
+    inclusion of this section through a GitHub pull request made to the
+    <ext-link ext-link-type="uri" xlink:href="https://www.github.com/rrsg2020/note">source
+    repository</ext-link> from which this document was built. Please
+    note that the figures and tables have been excluded from this
+    (static) document. <bold>To interactively explore such outputs and
+    re-generate them, please visit the corresponding
+    <ext-link ext-link-type="uri" xlink:href="https://preprint.neurolibre.org/10.55458/neurolibre.00023">NRP</ext-link>.</bold>
+    For more information on integrated research objects (e.g., NRPs)
+    that bundle narrative and executable content for reproducible and
+    transparent publications, please refer to
+    (<xref alt="DuPre et al., 2022" rid="ref-Dupre2022-iro" ref-type="bibr">DuPre
+    et al., 2022</xref>). NeuroLibre is sponsored by the Canadian Open
+    Neuroscience Platform (CONP)
+    (<xref alt="Harding et al., 2023" rid="ref-Harding2023-conp" ref-type="bibr">Harding
+    et al., 2023</xref>).</p>
+  </disp-quote>
+</sec>
+<sec id="introduction">
+  <title>1 | INTRODUCTION</title>
+  <p>Significant challenges exist in the reproducibility of quantitative
+  MRI (qMRI)
+  (<xref alt="Keenan et al., 2019" rid="ref-Keenan2019-ni" ref-type="bibr">Keenan
+  et al., 2019</xref>). Despite its promise of improving the specificity
+  and reproducibility of MRI acquisitions, few qMRI techniques have been
+  integrated into clinical practice. Even the most fundamental MR
+  parameters cannot be measured with sufficient reproducibility and
+  precision across clinical scanners to pass the second of six stages of
+  technical assessment for clinical biomarkers
+  (<xref alt="Fryback &amp; Thornbury, 1991" rid="ref-Fryback1991-sy" ref-type="bibr">Fryback
+  &amp; Thornbury, 1991</xref>;
+  <xref alt="Schweitzer, 2016" rid="ref-Schweitzer2016-fl" ref-type="bibr">Schweitzer,
+  2016</xref>;
+  <xref alt="Seiberlich et al., 2020" rid="ref-Seiberlich2020-xe" ref-type="bibr">Seiberlich
+  et al., 2020</xref>). Half a century has passed since the first
+  quantitative T1 (spin-lattice relaxation time) measurements were first
+  reported as a potential biomarker for tumors
+  (<xref alt="Damadian, 1971" rid="ref-Damadian1971-sc" ref-type="bibr">Damadian,
+  1971</xref>), followed shortly thereafter by the first in vivo T1 maps
+  (<xref alt="Pykett &amp; Mansfield, 1978" rid="ref-Pykett1978-mk" ref-type="bibr">Pykett
+  &amp; Mansfield, 1978</xref>) of tumors, but there is still
+  disagreement in reported values for this fundamental parameter across
+  different sites, vendors, and measurement techniques
+  (<xref alt="Stikov et al., 2015" rid="ref-Stikov2015-qj" ref-type="bibr">Stikov
+  et al., 2015</xref>).</p>
+  <p>Among fundamental MRI parameters, T1 holds significant importance
+  (<xref alt="Boudreau et al., 2020" rid="ref-Boudreau2020-jf" ref-type="bibr">Boudreau
+  et al., 2020</xref>). T1 represents the time constant for recovery of
+  equilibrium longitudinal magnetization. T1 values will vary depending
+  on the molecular mobility and magnetic field strength
+  (<xref alt="Bottomley et al., 1984" rid="ref-Bottomley1984-qx" ref-type="bibr">Bottomley
+  et al., 1984</xref>;
+  <xref alt="Dieringer et al., 2014" rid="ref-Dieringer2014-qz" ref-type="bibr">Dieringer
+  et al., 2014</xref>;
+  <xref alt="Wansapura et al., 1999" rid="ref-Wansapura1999-tf" ref-type="bibr">Wansapura
+  et al., 1999</xref>). Knowledge of the T1 values for tissue is crucial
+  for optimizing clinical MRI sequences for contrast and time efficiency
+  (<xref alt="Ernst &amp; Anderson, 1966" rid="ref-Ernst1966-pp" ref-type="bibr">Ernst
+  &amp; Anderson, 1966</xref>;
+  <xref alt="Redpath &amp; Smith, 1994" rid="ref-Redpath1994-sb" ref-type="bibr">Redpath
+  &amp; Smith, 1994</xref>;
+  <xref alt="Tofts, 1997" rid="ref-Tofts1997-ln" ref-type="bibr">Tofts,
+  1997</xref>) and to calibrate other quantitative MRI techniques [Sled
+  &amp; Pike
+  (<xref alt="2001" rid="ref-Sled2001-fz" ref-type="bibr">2001</xref>);Yuan2012-xh].
+  Inversion recovery (IR)
+  (<xref alt="Drain, 1949" rid="ref-Drain1949-yk" ref-type="bibr">Drain,
+  1949</xref>;
+  <xref alt="Hahn, 1949" rid="ref-Hahn1949-wf" ref-type="bibr">Hahn,
+  1949</xref>) is considered the gold standard for T1 measurement due to
+  its robustness against effects like B1 inhomogeneity
+  (<xref alt="Stikov et al., 2015" rid="ref-Stikov2015-qj" ref-type="bibr">Stikov
+  et al., 2015</xref>), but its long acquisition times limit the
+  clinical use of IR for T1 mapping
+  (<xref alt="Stikov et al., 2015" rid="ref-Stikov2015-qj" ref-type="bibr">Stikov
+  et al., 2015</xref>). In practice, IR is often used as a reference for
+  validating other T1 mapping techniques, such as variable flip angle
+  imaging (VFA)
+  (<xref alt="Cheng &amp; Wright, 2006" rid="ref-Cheng2006-qe" ref-type="bibr">Cheng
+  &amp; Wright, 2006</xref>;
+  <xref alt="Deoni et al., 2003" rid="ref-Deoni2003-qc" ref-type="bibr">Deoni
+  et al., 2003</xref>;
+  <xref alt="Fram et al., 1987" rid="ref-Fram1987-jj" ref-type="bibr">Fram
+  et al., 1987</xref>), Look-Locker
+  (<xref alt="Look &amp; Locker, 1970" rid="ref-Look1970-no" ref-type="bibr">Look
+  &amp; Locker, 1970</xref>;
+  <xref alt="Messroghli et al., 2004" rid="ref-Messroghli2004-iv" ref-type="bibr">Messroghli
+  et al., 2004</xref>;
+  <xref alt="Piechnik et al., 2010" rid="ref-Piechnik2010-be" ref-type="bibr">Piechnik
+  et al., 2010</xref>), and MP2RAGE
+  (<xref alt="Marques et al., 2010" rid="ref-Marques2010-po" ref-type="bibr">Marques
+  et al., 2010</xref>;
+  <xref alt="Marques &amp; Gruetter, 2013" rid="ref-Marques2013-yg" ref-type="bibr">Marques
+  &amp; Gruetter, 2013</xref>).</p>
+  <p>In ongoing efforts to standardize T1 mapping methods, researchers
+  have been actively developing quantitative MRI phantoms
+  (<xref alt="Keenan et al., 2018" rid="ref-Keenan2018-px" ref-type="bibr">Keenan
+  et al., 2018</xref>). The International Society for Magnetic Resonance
+  in Medicine (ISMRM) and the National Institute of Standards and
+  Technology (NIST) collaborated on a standard system phantom
+  (<xref alt="Stupic et al., 2021" rid="ref-Stupic2021-hu" ref-type="bibr">Stupic
+  et al., 2021</xref>), which was subsequently commercialized (Premium
+  System Phantom, CaliberMRI, Boulder, Colorado). This phantom has since
+  been used in large multicenter studies, such as Bane et al.
+  (<xref alt="Bane et al., 2018" rid="ref-Bane2018-wt" ref-type="bibr">Bane
+  et al., 2018</xref>) which concluded that acquisition protocols and
+  field strength influence accuracy, repeatability, and interplatform
+  reproducibility. Another NIST-led study
+  (<xref alt="Keenan et al., 2021" rid="ref-Keenan2021-ly" ref-type="bibr">Keenan
+  et al., 2021</xref>) found no significant T1 discrepancies among
+  measurements using NIST protocols across 27 MRI systems from three
+  vendors at two clinical field strengths.</p>
+  <p>The 2020 ISMRM reproducibility challenge
+  <xref ref-type="fn" rid="fn1">1</xref> posed a slightly different
+  question: can an imaging protocol, independently implemented at
+  multiple centers, consistently measure one of the fundamental MRI
+  parameters (T1)? To assess this, we proposed using inversion recovery
+  on a standardized phantom (ISMRM/NIST system phantom) and the healthy
+  human brain. Specifically, <bold>this challenge explored whether the
+  acquisition details provided in a seminal paper on T1 mapping
+  (<xref alt="Barral et al., 2010" rid="ref-Barral2010-qm" ref-type="bibr">Barral
+  et al., 2010</xref>) is sufficient to ensure the reproducibility
+  across independent research groups.</bold></p>
+</sec>
+<sec id="methods">
+  <title>2 | METHODS</title>
+  <sec id="phantom-and-human-data">
+    <title>2.1 | Phantom and human data</title>
+  </sec>
+</sec>
+<sec id="methods-1">
+  <title>2     |     METHODS</title>
+  <sec id="phantom-and-human-data-1">
+    <title>2.1     |     Phantom and human data</title>
+    <p>The challenge asked researchers with access to the ISMRM/NIST
+    system phantom
+    (<xref alt="Stupic et al., 2021" rid="ref-Stupic2021-hu" ref-type="bibr">Stupic
+    et al., 2021</xref>) (Premium System Phantom, CaliberMRI, Boulder,
+    Colorado) to measure T1 maps of the phantom’s T1 plate (Table 1).
+    Researchers who participated in the challenge were instructed to
+    record the temperature before and after scanning the phantom using
+    the phantom’s internal thermometer. Instructions for positioning and
+    setting up the phantom were devised by NIST and were provided to
+    researchers through the NIST website
+    <xref ref-type="fn" rid="fn2">2</xref>. In brief, the instructions
+    explained how to orient the phantom and how long the phantom should
+    be in the scanner room prior to scanning to achieve thermal
+    equilibrium.</p>
+    <p>Researchers were also instructed to collect T1 maps in healthy
+    human brains, and were asked to measure a single slice positioned
+    parallel to the anterior commissure - posterior commissure (AC-PC)
+    line. Prior to imaging, the imaging subjects consented
+    <xref ref-type="fn" rid="fn3">3</xref> to share their de-identified
+    data with the challenge organizers and on the Open Science Framework
+    (<ext-link ext-link-type="uri" xlink:href="http://www.OSF.io">OSF.io</ext-link>)
+    website. As the submitted data was a single slice, the researchers
+    were not instructed to de-face the data of their imaging subjects.
+    Researchers submitting human data provided written confirmation to
+    the organizers that their data was acquired in accordance with their
+    institutional ethics committee (or equivalent regulatory body) and
+    that the subjects had consented to data sharing as outlined in the
+    challenge.</p>
+  </sec>
+  <sec id="mri-acquisition-protocol">
+    <title>2.2 | MRI Acquisition Protocol</title>
+    <p>Researchers followed the inversion recovery T1 mapping protocol
+    optimized for the human brain as described in the paper published by
+    Barral et al.
+    (<xref alt="Barral et al., 2010" rid="ref-Barral2010-qm" ref-type="bibr">Barral
+    et al., 2010</xref>), which used: TR = 2550 ms, TIs = 50, 400, 1100,
+    2500 ms, TE = 14 ms, 2 mm slice thickness and 1×1 mm2 in-plane
+    resolution. Note that this protocol is not suitable for fitting
+    models that assume TR &gt; 5T1. Instead, the more general Barral et
+    al.
+    (<xref alt="Barral et al., 2010" rid="ref-Barral2010-qm" ref-type="bibr">Barral
+    et al., 2010</xref>) fitting model described in Section 2.4 can be
+    used, and this model is compatible with both magnitude-only and
+    complex data. Researchers were instructed to closely adhere to this
+    protocol and report any deviations due to technical limitations.</p>
+  </sec>
+  <sec id="data-submissions">
+    <title>2.3 | Data Submissions</title>
+    <p>Data submissions for the challenge were handled through a GitHub
+    repository
+    (<ext-link ext-link-type="uri" xlink:href="https://github.com/rrsg2020/data_submission">https://github.com/rrsg2020/data_submission</ext-link>),
+    enabling a standardized and transparent process. All datasets were
+    converted to the NIfTI format, and images for all TIs were
+    concatenated into a single NIfTI file. Each submission included a
+    YAML file to store additional information (submitter details,
+    acquisition details, and phantom or human subject details).
+    Submissions were reviewed <xref ref-type="fn" rid="fn4">4</xref>,
+    and following acceptance the datasets were uploaded to OSF.io
+    (<ext-link ext-link-type="uri" xlink:href="http://www.osf.io/ywc9g/">osf.io/ywc9g/</ext-link>).
+    A Jupyter Notebook
+    (<xref alt="Beg et al., 2021" rid="ref-Beg2021-ps" ref-type="bibr">Beg
+    et al., 2021</xref>;
+    <xref alt="Kluyver et al., 2016" rid="ref-Kluyver2016-nl" ref-type="bibr">Kluyver
+    et al., 2016</xref>) pipeline using qMRLab
+    (<xref alt="Cabana et al., 2015" rid="ref-Cabana2015-zg" ref-type="bibr">Cabana
+    et al., 2015</xref>;
+    <xref alt="Karakuzu et al., 2020" rid="ref-Karakuzu2020-ul" ref-type="bibr">Karakuzu
+    et al., 2020</xref>) was used to process the T1 maps and to conduct
+    quality-control checks. MyBinder links to Jupyter notebooks that
+    reproduced each T1 map were shared in each respective submission
+    GitHub issue to easily reproduce the results in web browsers while
+    maintaining consistent computational environments. Eighteen
+    submissions were included in the analysis, which resulted in 39 T1
+    maps of the NIST/system phantom, and 56 brain T1 maps. Figure 1
+    illustrates all the submissions that acquired phantom data (Figure
+    1-a) and human data (Figure 1-b), the MRI scanner vendors, and the
+    resulting T1 mapping datasets. Some submissions included
+    measurements where both complex and magnitude-only data from the
+    same acquisition were used to fit T1 maps, thus the total number of
+    unique acquisitions is lower than the numbers reported above (27 for
+    phantom data and 44 for human data). The datasets were collected on
+    systems from three MRI manufacturers (Siemens, GE, Philips) and were
+    acquired at 3T <xref ref-type="fn" rid="fn5">5</xref>, except for
+    one dataset acquired at 0.35T (the ViewRay MRidian MR-linac).</p>
+    <p>Figure 1. List of the datasets submitted to the challenge.
+    Submissions that included phantom data are shown in a), and those
+    that included human brain data are shown in b). For the phantom
+    (panel a), each submission acquired its data using a single phantom,
+    however, some researchers shared the same physical phantom with each
+    other. Green indicates submissions used for inter-submission
+    analyses, and orange indicates the sites used for intra-submission
+    analyses. T1 maps used in the calculations of inter- (green) and
+    intra- (orange) submission coefficients of variation (COV) are
+    indicated with asterisks. Images c) and d) illustrate the ROI choice
+    in phantom and humans.</p>
+  </sec>
+  <sec id="data-processing">
+    <title>2.4 | Data Processing</title>
+    <p>A reduced-dimension non-linear least squares (RD-NLS) approach
+    was used to fit the complex general inversion recovery signal
+    equation:</p>
+    <p>where a and b are complex constants. This approach, developed by
+    Barral et al.
+    (<xref alt="Barral et al., 2010" rid="ref-Barral2010-qm" ref-type="bibr">Barral
+    et al., 2010</xref>), offers a model for the general T1 signal
+    equation without relying on the long-TR approximation. The a and b
+    constants inherently factor TR in them, as well as other imaging
+    parameters such as excitation pulse angle, inversion pulse flip
+    angles, TR, TE, TI, and a constant that has contributions from T2
+    and the receive coil sensitivity. Barral et al. [31] shared their
+    MATLAB (MathWorks, Natick, MA) code for the fitting algorithm used
+    in their paper <xref ref-type="fn" rid="fn6">6</xref>.
+    Magnitude-only data were fitted to a modified version of Eq. 1 (Eq.
+    15 of Barral et al. 2010) with signal-polarity restoration by
+    finding the signal minima, fitting the inversion recovery curve for
+    two cases (data points for TI &lt; TIminimum flipped, and data
+    points for TI ≤ TIminimum flipped), and selecting the case that
+    resulted in the best fit based on minimizing the residual between
+    the model and the measurements
+    <xref ref-type="fn" rid="fn7">7</xref>. This code is available as
+    part of the open-source software qMRLab
+    (<xref alt="Cabana et al., 2015" rid="ref-Cabana2015-zg" ref-type="bibr">Cabana
+    et al., 2015</xref>;
+    <xref alt="Karakuzu et al., 2020" rid="ref-Karakuzu2020-ul" ref-type="bibr">Karakuzu
+    et al., 2020</xref>), which provides a standardized application
+    program interface (API) to call the fitting in MATLAB/Octave
+    scripts.</p>
+    <p>A data processing pipeline was written using MATLAB/Octave in a
+    Jupyter Notebook. This pipeline downloads every dataset from OSF.io
+    (<ext-link ext-link-type="uri" xlink:href="http://www.osf.io/ywc9g/">osf.io/ywc9g/</ext-link>),
+    loads its configuration file, fits the T1 maps, and then saves them
+    to NIfTI and PNG formats. The code is available on GitHub
+    (<ext-link ext-link-type="uri" xlink:href="https://github.com/rrsg2020/t1_fitting_pipeline">https://github.com/rrsg2020/t1_fitting_pipeline</ext-link>,
+    filename: RRSG_T1_fitting.ipynb). Finally, T1 maps were manually
+    uploaded to OSF
+    (<ext-link ext-link-type="uri" xlink:href="http://WWW.osf.io/ywc9g/">osf.io/ywc9g/</ext-link>).</p>
+  </sec>
+  <sec id="image-labeling-registration">
+    <title>2.5 | Image Labeling &amp; Registration</title>
+    <p>The T1 plate (NiCl2 array) of the phantom has 14 spheres that
+    were labeled as the regions-of-interest (ROI) using a numerical mask
+    template created in MATLAB, provided by NIST researchers (Figure
+    1-c). To avoid potential edge effects in the T1 maps, the ROI labels
+    were reduced to 60% of the expected sphere diameter. A registration
+    pipeline in Python using the Advanced Normalization Tools (ANTs)
+    {cite}<monospace>Avants2009-cw</monospace> was developed and shared
+    in the analysis repository of our GitHub organization
+    (<ext-link ext-link-type="uri" xlink:href="https://github.com/rrsg2020/analysis">https://github.com/rrsg2020/analysis</ext-link>,
+    filename: register_t1maps_nist.py, commit ID: 8d38644). Briefly, a
+    label-based registration was first applied to obtain a coarse
+    alignment, followed by an affine registration (gradientStep: 0.1,
+    metric: cross correlation, number of steps: 3, iterations:
+    100/100/100, smoothness: 0/0/0, sub-sampling: 4/2/1) and a
+    BSplineSyN registration (gradientStep:0.5, meshSizeAtBaseLevel:3,
+    number of steps: 3, iterations: 50/50/10, smoothness: 0/0/0,
+    sub-sampling: 4/2/1). The ROI labels template was nonlinearly
+    registered to each T1 map uploaded to OSF.</p>
+    <p>For human data, manual ROIs were segmented by a single researcher
+    (M.B., 11+ years of neuroimaging experience) using FSLeyes
+    {cite}<monospace>McCarthy2019-qd</monospace> in four regions (Figure
+    1-d): located in the genu, splenium, deep gray matter, and cortical
+    gray matter. Automatic segmentation was not used because the data
+    were single-slice and there was inconsistent slice positioning
+    between datasets.</p>
+  </sec>
+  <sec id="analysis-and-statistics">
+    <title>2.6 | Analysis and Statistics</title>
+    <p>Analysis code and scripts were developed and shared in a
+    version-controlled public GitHub repository
+    <xref ref-type="fn" rid="fn8">8</xref>. The T1 fitting and data
+    analysis were performed by M.B., one of the challenge organizers.
+    Computational environment requirements were containerized in Docker
+    (<xref alt="Boettiger, 2015" rid="ref-Boettiger2015-vd" ref-type="bibr">Boettiger,
+    2015</xref>;
+    <xref alt="Merkel, 2014" rid="ref-Merkel2014-cu" ref-type="bibr">Merkel,
+    2014</xref>) to create an executable environment that allows for
+    analysis reproduction in a web browser via MyBinder
+    <xref ref-type="fn" rid="fn9">9</xref>
+    (<xref alt="Project Jupyter et al., 2018" rid="ref-Project_Jupyter2018-ll" ref-type="bibr">Project
+    Jupyter et al., 2018</xref>). Backend Python files handled reference
+    data, database operations, ROI masking, and general analysis tools.
+    Configuration files handled dataset information, and the datasets
+    were downloaded and pooled using a script
+    (<monospace>make_pooled_datasets.py</monospace>). The databases were
+    created using a reproducible Jupyter Notebook script and
+    subsequently saved in the repository.</p>
+    <p>The mean T1 values of the ISMRM/NIST phantom data for each ROI
+    were compared with temperature-corrected reference values and
+    visualized in three different types of plots (linear axes, log-log
+    axes, and error relative to the reference value). Temperature
+    correction involved nonlinear interpolation
+    <xref ref-type="fn" rid="fn10">10</xref> of a NIST reference table
+    of T1 values for temperatures ranging from 16 °C to 26 °C (2 °C
+    intervals) as specified in the phantom’s technical specifications.
+    For the human datasets, the mean and standard deviations for each
+    tissue ROI were calculated from all submissions across all sites.
+    Two submissions (one of phantom data – submission 6 in Figure 1-a,
+    and one of human data – submission 18 in Figure 1-b) were received
+    that measured large T1 mapping datasets. Submission 6 consisted of
+    data from one traveling phantom acquired at seven Philips imaging
+    sites, and submission 18 was a large cohort of volunteers that were
+    imaged on two 3T scanners, one GE and one Philips. These datasets
+    (identified in orange in Figures 1, 3, and 4) were used to calculate
+    intra-submission coefficients of variation (COV) (one per
+    scanner/volunteer, identified by asterisks in Figure 1-a and 1-b),
+    and inter-submission COVs were calculated using one T1 map from each
+    of these (orange) along with one from all other submissions
+    <xref ref-type="fn" rid="fn11">11</xref> (identified as green in
+    Figures 1, 3, and 4, and the T1 maps used in those COV calculations
+    are also indicated with asterisks in Figure 1-a and 1-b). All
+    quality assurance and analysis plot images were stored in the
+    repository. Additionally, the database files of ROI values and
+    acquisition details for all submissions were also stored in the
+    repository.</p>
+  </sec>
+  <sec id="dashboard">
+    <title>2.7 | Dashboard</title>
+    <p>To widely disseminate the challenge results, a web-based
+    dashboard was developed (Figure 2,
+    https://rrsg2020.dashboards.neurolibre.org). The landing page
+    (Figure 2-a) showcases the relationship between the phantom and
+    brain datasets acquired at different sites/vendors. Selecting the
+    Phantom or In Vivo icons and then clicking a ROI will display
+    whisker plots for that region. Additional sections of the dashboard
+    allow for displaying statistical summaries for both sets of data, a
+    magnitude vs complex data fitting comparison, and hierarchical shift
+    function analyses.</p>
+  </sec>
+  <sec id="results">
+    <title>3 | RESULTS</title>
+    <p>Figure 3 presents a comprehensive overview of the challenge
+    results through violin plots, depicting inter- and intra- submission
+    comparisons in both phantoms (a) and human (b) datasets. For the
+    phantom (Figure 3-a), the average inter-submission COV for the first
+    five spheres, representing the expected T1 value range in the human
+    brain (approximately 500 to 2000 ms) was 6.1%. By addressing
+    outliers from two sites associated with specific challenges for
+    sphere 4 (signal null near a TI), the mean inter-submission COV was
+    reduced to 4.1%. One participant (submission 6, Figure 1) measured
+    T1 maps using a consistent protocol at 7 different sites, and the
+    mean intra-submission COV across the first five spheres for this
+    submission was calculated to be 2.9%.</p>
+    <p>For the human datasets (Figure 3-b), inter-submission COVs for
+    independently-implemented imaging protocols were 5.9% for genu, 10.6
+    % for splenium, 16 % for cortical GM, and 22% for deep GM. One
+    participant (submission 18, Figure 1) measured a large dataset (13
+    individuals) on three scanners and two vendors, and the
+    intra-submission COVs for this submission were 3.2% for genu, 3.1%
+    for splenium, 6.9% for cortical GM, and 7.1% for deep GM. The
+    binomial appearance for the splenium, deep GM, and cortical GM for
+    the sites used in the inter-site analyses (green) can be explained
+    by an outlier measurement, which can be seen in (Figure 4 e-f, site
+    3.001).</p>
+    <p>A scatterplot of the T1 data for all submissions and their ROIs
+    is shown in Figure 4 (phantom a-c, and human brains d-f). The NIST
+    phantom T1 measurements are presented in each plot for different
+    axes types (linear, log, and error) to better visualize the results.
+    Figure 4-a shows good agreement for this dataset in comparison with
+    the temperature-corrected reference T1 values. However, this trend
+    did not persist for low T1 values (T1 &lt; 100-200 ms), as seen in
+    the log-log plot (Figure 4-b), which was expected because the
+    imaging protocol is optimized for human brain T1 values (T1 &gt; 500
+    ms). Higher variability is seen at long T1 values (T1 ~ 2000 ms) in
+    Figure 4-a. Errors exceeding 10% are observed in the phantom spheres
+    with T1 values below 300 ms (Figure 4-c), and 3-4 measurements with
+    outlier values exceeding 10% error were observed in the human brain
+    tissue range (~500-2000 ms).</p>
+    <p>Figure 4 d-f displays the scatter plot data for human datasets
+    submitted to this challenge, showing mean and standard deviation T1
+    values for the WM (genu and splenium) and GM (cerebral cortex and
+    deep GM) ROIs. Mean WM T1 values across all submissions were 828 ±
+    38 ms in the genu and 852 ± 49 ms in the splenium, and mean GM T1
+    values were 1548 ± 156 ms in the cortex and 1188 ± 133 ms in the
+    deep GM, with less variations overall in WM compared to GM, possibly
+    due to better ROI placement and less partial voluming in WM. The
+    lower standard deviations for the ROIs of human database ID site 9
+    (by submission 18, Figure 1, and seen in orange in Figure 4d-g) are
+    due to good slice positioning, cutting through the AC-PC line and
+    the genu for proper ROI placement, particularly for the corpus
+    callosum and deep GM.</p>
+  </sec>
+  <sec id="discussion">
+    <title>4 | DISCUSSION</title>
+    <p>This challenge focused on exploring if different research groups
+    could reproduce T1 maps based on the protocol information reported
+    in a seminal publication
+    (<xref alt="Barral et al., 2010" rid="ref-Barral2010-qm" ref-type="bibr">Barral
+    et al., 2010</xref>). Eighteen submissions independently implemented
+    the inversion recovery T1 mapping acquisition protocol as outlined
+    in Barral et al.
+    (<xref alt="Barral et al., 2010" rid="ref-Barral2010-qm" ref-type="bibr">Barral
+    et al., 2010</xref>), and reported T1 mapping data in a standard
+    quantitative MRI phantom and/or human brains at 27 MRI sites, using
+    systems from three different vendors (GE, Philips, Siemens). The
+    collaborative effort produced an open-source database of 94 T1
+    mapping datasets, including 38 ISMRM/NIST phantom and 56 human brain
+    datasets. The inter-submission variability was twice as high as the
+    intra-submission variability in both phantom and human brain T1
+    measurements, <bold>demonstrating that written instructions
+    communicated via a PDF are not enough for reproducibility in
+    quantitative MRI</bold>. This study reports the inherent uncertainty
+    in T1 measures across independent research groups, which brings us
+    one step closer to producing a practical baseline of variations for
+    this metric.</p>
+    <p>Overall, our approach did show improvement in the reproducibility
+    of T1 measurements in vivo compared to researchers implementing T1
+    mapping protocols completely independently (i.e. with no central
+    guidance), as literature T1 values in vivo vary more than reported
+    here (e.g., Bojorquez et al.
+    (<xref alt="Bojorquez et al., 2017" rid="ref-Bojorquez2017-xh" ref-type="bibr">Bojorquez
+    et al., 2017</xref>) reports that reported T1 values in WM vary
+    between 699 to 1735 ms in published literature). We were aware that
+    coordination was essential for a quantitative MRI challenge, which
+    is why the protocol specifications we provided to researchers were
+    more detailed than any guidelines for quantitative MR imaging that
+    were available at the time. Yet, even in combination with the same
+    T1 mapping processing tools, this level of description (a PDF +
+    post-processing tools) leaves something to be desired.</p>
+    <p>This analysis highlights that more information is needed to unify
+    all the aspects of a pulse sequence across sites, beyond what is
+    routinely reported in a scientific publication. However, in a
+    vendor-specific setting, this is a major challenge given the
+    disparities between proprietary development libraries
+    (<xref alt="Gracien et al., 2020" rid="ref-Gracien2020-ak" ref-type="bibr">Gracien
+    et al., 2020</xref>). Vendor-neutral pulse sequence design platforms
+    (<xref alt="Cordes et al., 2020" rid="ref-Cordes2020-au" ref-type="bibr">Cordes
+    et al., 2020</xref>;
+    <xref alt="Karakuzu, Biswas, et al., 2022" rid="ref-Karakuzu2022-af" ref-type="bibr">Karakuzu,
+    Biswas, et al., 2022</xref>;
+    <xref alt="Layton et al., 2017" rid="ref-Layton2017-dy" ref-type="bibr">Layton
+    et al., 2017</xref>) have emerged as a powerful solution to
+    standardize sequence components at the implementation level (e.g.,
+    RF pulse shape, gradients, etc.). Vendor neutrality has been shown
+    to significantly reduce the variability of T1 maps acquired using
+    VFA across vendors
+    (<xref alt="Karakuzu, Biswas, et al., 2022" rid="ref-Karakuzu2022-af" ref-type="bibr">Karakuzu,
+    Biswas, et al., 2022</xref>). In the absence of a vendor-neutral
+    framework, a vendor-specific alternative is the implementation of a
+    strategy to control the saturation of MT across TRs
+    (<xref alt="A G Teixeira et al., 2020" rid="ref-A_G_Teixeira2020-bw" ref-type="bibr">A
+    G Teixeira et al., 2020</xref>). Nevertheless, this approach can
+    still benefit from a vendor-neutral protocol to enhance
+    accessibility and unify implementations. This is because
+    vendor-specific constraints are recognized to impose limitations on
+    the adaptability of sequences, resulting in significant variability
+    even when implementations are closely aligned within their
+    respective vendor-specific development environments
+    (<xref alt="Lee et al., 2019" rid="ref-Lee2019-ei" ref-type="bibr">Lee
+    et al., 2019</xref>).</p>
+    <p>The 2020 Reproducibility Challenge, jointly organized by the
+    Reproducible Research and Quantitative MR ISMRM study groups, led to
+    the creation of a large open database of standard quantitative MR
+    phantom and human brain inversion recovery T1 maps. These maps were
+    measured using independently implemented imaging protocols on MRI
+    scanners from three different manufacturers. All collected data,
+    processing pipeline code, computational environment files, and
+    analysis scripts were shared with the goal of promoting reproducible
+    research practices, and an interactive dashboard was developed to
+    broaden the accessibility and engagement of the resulting datasets
+    (https://rrsg2020.dashboards.neurolibre.org). The differences in
+    stability between independently implemented (inter-submission) and
+    centrally shared (intra-submission) protocols observed both in
+    phantoms and in vivo could help inform future meta-analyses of
+    quantitative MRI metrics
+    (<xref alt="Lazari &amp; Lipp, 2021" rid="ref-Lazari2021-oy" ref-type="bibr">Lazari
+    &amp; Lipp, 2021</xref>;
+    <xref alt="Mancini et al., 2020" rid="ref-Mancini2020-sv" ref-type="bibr">Mancini
+    et al., 2020</xref>) and better guide multi-center
+    collaborations.</p>
+    <p>By providing access and analysis tools for this multi-center T1
+    mapping dataset, we aim to provide a benchmark for future T1 mapping
+    approaches. We also hope that this dataset will inspire new
+    acquisition, analysis, and standardization techniques that address
+    non-physiological sources of variability in T1 mapping. This could
+    lead to more robust and reproducible quantitative MRI and ultimately
+    better patient care.</p>
+  </sec>
+</sec>
+</body>
+<back>
+<ref-list>
+  <ref id="ref-Dieringer2014-qz">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Dieringer</surname><given-names>Matthias A</given-names></name>
+        <name><surname>Deimling</surname><given-names>Michael</given-names></name>
+        <name><surname>Santoro</surname><given-names>Davide</given-names></name>
+        <name><surname>Wuerfel</surname><given-names>Jens</given-names></name>
+        <name><surname>Madai</surname><given-names>Vince I</given-names></name>
+        <name><surname>Sobesky</surname><given-names>Jan</given-names></name>
+        <name><surname>Knobelsdorff-Brenkenhoff</surname><given-names>Florian von</given-names></name>
+        <name><surname>Schulz-Menger</surname><given-names>Jeanette</given-names></name>
+        <name><surname>Niendorf</surname><given-names>Thoralf</given-names></name>
+      </person-group>
+      <article-title>Rapid parametric mapping of the longitudinal relaxation time T1 using two-dimensional variable flip angle magnetic resonance imaging at 1.5 tesla, 3 tesla, and 7 tesla</article-title>
+      <source>PLoS One</source>
+      <year iso-8601-date="2014-03">2014</year><month>03</month>
+      <volume>9</volume>
+      <issue>3</issue>
+      <pub-id pub-id-type="doi">10.1371/journal.pone.0091318</pub-id>
+      <fpage>e91318</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Kluyver2016-nl">
+    <element-citation publication-type="chapter">
+      <person-group person-group-type="author">
+        <name><surname>Kluyver</surname><given-names>Thomas</given-names></name>
+        <name><surname>Ragan-Kelley</surname><given-names>Benjamin</given-names></name>
+        <name><surname>Granger</surname><given-names>Brian</given-names></name>
+        <name><surname>Bussonnier</surname><given-names>Matthias</given-names></name>
+        <name><surname>Frederic</surname><given-names>Jonathan</given-names></name>
+        <name><surname>Kelley</surname><given-names>Kyle</given-names></name>
+        <name><surname>Hamrick</surname><given-names>Jessica</given-names></name>
+        <name><surname>Grout</surname><given-names>Jason</given-names></name>
+        <name><surname>Corlay</surname><given-names>Sylvain</given-names></name>
+        <name><surname>Ivanov</surname><given-names>Paul</given-names></name>
+        <name><surname>Abdalla</surname><given-names>Safia</given-names></name>
+        <name><surname>Willing</surname><given-names>Carol</given-names></name>
+      </person-group>
+      <article-title>Jupyter notebooks – a publishing format for reproducible computational workflows</article-title>
+      <source>Positioning and power in academic publishing: Players, agents and agendas</source>
+      <publisher-name>IOS Press</publisher-name>
+      <publisher-loc>Amsterdam, NY</publisher-loc>
+      <year iso-8601-date="2016">2016</year>
+      <pub-id pub-id-type="doi">10.3233/978-1-61499-649-1-87</pub-id>
+      <fpage>87</fpage>
+      <lpage>90</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Barral2010-qm">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Barral</surname><given-names>Joëlle K</given-names></name>
+        <name><surname>Gudmundson</surname><given-names>Erik</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Etezadi-Amoli</surname><given-names>Maryam</given-names></name>
+        <name><surname>Stoica</surname><given-names>Petre</given-names></name>
+        <name><surname>Nishimura</surname><given-names>Dwight G</given-names></name>
+      </person-group>
+      <article-title>A robust methodology for in vivo T1 mapping</article-title>
+      <source>Magn. Reson. Med.</source>
+      <year iso-8601-date="2010-10">2010</year><month>10</month>
+      <volume>64</volume>
+      <issue>4</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.22497</pub-id>
+      <fpage>1057</fpage>
+      <lpage>1067</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Bottomley1984-qx">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Bottomley</surname><given-names>P A</given-names></name>
+        <name><surname>Foster</surname><given-names>T H</given-names></name>
+        <name><surname>Argersinger</surname><given-names>R E</given-names></name>
+        <name><surname>Pfeifer</surname><given-names>L M</given-names></name>
+      </person-group>
+      <article-title>A review of normal tissue hydrogen NMR relaxation times and relaxation mechanisms from 1-100 MHz: Dependence on tissue type, NMR frequency, temperature, species, excision, and age</article-title>
+      <source>Med. Phys.</source>
+      <year iso-8601-date="1984">1984</year>
+      <volume>11</volume>
+      <issue>4</issue>
+      <pub-id pub-id-type="doi">10.1118/1.595535</pub-id>
+      <fpage>425</fpage>
+      <lpage>448</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Cabana2015-zg">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Cabana</surname><given-names>Jean-François</given-names></name>
+        <name><surname>Gu</surname><given-names>Ye</given-names></name>
+        <name><surname>Boudreau</surname><given-names>Mathieu</given-names></name>
+        <name><surname>Levesque</surname><given-names>Ives R</given-names></name>
+        <name><surname>Atchia</surname><given-names>Yaaseen</given-names></name>
+        <name><surname>Sled</surname><given-names>John G</given-names></name>
+        <name><surname>Narayanan</surname><given-names>Sridar</given-names></name>
+        <name><surname>Arnold</surname><given-names>Douglas L</given-names></name>
+        <name><surname>Pike</surname><given-names>G Bruce</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+        <name><surname>Duval</surname><given-names>Tanguy</given-names></name>
+        <name><surname>Vuong</surname><given-names>Manh-Tung</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+      </person-group>
+      <article-title>Quantitative magnetization transfer imagingmadeeasy with qMTLab: Software for data simulation, analysis, and visualization</article-title>
+      <source>Concepts Magn. Reson. Part A Bridg. Educ. Res.</source>
+      <publisher-name>Wiley</publisher-name>
+      <year iso-8601-date="2015-09">2015</year><month>09</month>
+      <volume>44A</volume>
+      <issue>5</issue>
+      <pub-id pub-id-type="doi">10.1002/cmr.a.21357</pub-id>
+      <fpage>263</fpage>
+      <lpage>277</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Karakuzu2022-af">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>Biswas</surname><given-names>Labonny</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+      </person-group>
+      <article-title>Vendor-neutral sequences and fully transparent workflows improve inter-vendor reproducibility of quantitative MRI</article-title>
+      <source>Magn. Reson. Med.</source>
+      <year iso-8601-date="2022-09">2022</year><month>09</month>
+      <volume>88</volume>
+      <issue>3</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.29292</pub-id>
+      <fpage>1212</fpage>
+      <lpage>1228</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Keenan2018-px">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Keenan</surname><given-names>Kathryn E</given-names></name>
+        <name><surname>Ainslie</surname><given-names>Maureen</given-names></name>
+        <name><surname>Barker</surname><given-names>Alex J</given-names></name>
+        <name><surname>Boss</surname><given-names>Michael A</given-names></name>
+        <name><surname>Cecil</surname><given-names>Kim M</given-names></name>
+        <name><surname>Charles</surname><given-names>Cecil</given-names></name>
+        <name><surname>Chenevert</surname><given-names>Thomas L</given-names></name>
+        <name><surname>Clarke</surname><given-names>Larry</given-names></name>
+        <name><surname>Evelhoch</surname><given-names>Jeffrey L</given-names></name>
+        <name><surname>Finn</surname><given-names>Paul</given-names></name>
+        <name><surname>Gembris</surname><given-names>Daniel</given-names></name>
+        <name><surname>Gunter</surname><given-names>Jeffrey L</given-names></name>
+        <name><surname>Hill</surname><given-names>Derek L G</given-names></name>
+        <name><surname>Jack</surname><given-names>Clifford R</given-names><suffix>Jr</suffix></name>
+        <name><surname>Jackson</surname><given-names>Edward F</given-names></name>
+        <name><surname>Liu</surname><given-names>Guoying</given-names></name>
+        <name><surname>Russek</surname><given-names>Stephen E</given-names></name>
+        <name><surname>Sharma</surname><given-names>Samir D</given-names></name>
+        <name><surname>Steckner</surname><given-names>Michael</given-names></name>
+        <name><surname>Stupic</surname><given-names>Karl F</given-names></name>
+        <name><surname>Trzasko</surname><given-names>Joshua D</given-names></name>
+        <name><surname>Yuan</surname><given-names>Chun</given-names></name>
+        <name><surname>Zheng</surname><given-names>Jie</given-names></name>
+      </person-group>
+      <article-title>Quantitative magnetic resonance imaging phantoms: A review and the need for a system phantom</article-title>
+      <source>Magn. Reson. Med.</source>
+      <year iso-8601-date="2018-01">2018</year><month>01</month>
+      <volume>79</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.26982</pub-id>
+      <fpage>48</fpage>
+      <lpage>61</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Piechnik2010-be">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Piechnik</surname><given-names>Stefan K</given-names></name>
+        <name><surname>Ferreira</surname><given-names>Vanessa M</given-names></name>
+        <name><surname>Dall’Armellina</surname><given-names>Erica</given-names></name>
+        <name><surname>Cochlin</surname><given-names>Lowri E</given-names></name>
+        <name><surname>Greiser</surname><given-names>Andreas</given-names></name>
+        <name><surname>Neubauer</surname><given-names>Stefan</given-names></name>
+        <name><surname>Robson</surname><given-names>Matthew D</given-names></name>
+      </person-group>
+      <article-title>Shortened modified Look-Locker inversion recovery (ShMOLLI) for clinical myocardial T1-mapping at 1.5 and 3 T within a 9 heartbeat breathhold</article-title>
+      <source>J. Cardiovasc. Magn. Reson.</source>
+      <year iso-8601-date="2010-11">2010</year><month>11</month>
+      <volume>12</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1186/1532-429X-12-69</pub-id>
+      <fpage>69</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Lazari2021-oy">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Lazari</surname><given-names>Alberto</given-names></name>
+        <name><surname>Lipp</surname><given-names>Ilona</given-names></name>
+      </person-group>
+      <article-title>Can MRI measure myelin? Systematic review, qualitative assessment, and meta-analysis of studies validating microstructural imaging with myelin histology</article-title>
+      <source>Neuroimage</source>
+      <year iso-8601-date="2021-04">2021</year><month>04</month>
+      <volume>230</volume>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2021.117744</pub-id>
+      <fpage>117744</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Mancini2020-sv">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Mancini</surname><given-names>Matteo</given-names></name>
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+        <name><surname>Cercignani</surname><given-names>Mara</given-names></name>
+        <name><surname>Nichols</surname><given-names>Thomas E</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+      </person-group>
+      <article-title>An interactive meta-analysis of MRI biomarkers of myelin</article-title>
+      <source>Elife</source>
+      <year iso-8601-date="2020-10">2020</year><month>10</month>
+      <volume>9</volume>
+      <pub-id pub-id-type="doi">10.55458/neurolibre.00004</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-Pykett1978-mk">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Pykett</surname><given-names>I L</given-names></name>
+        <name><surname>Mansfield</surname><given-names>P</given-names></name>
+      </person-group>
+      <article-title>A line scan image study of a tumorous rat leg by NMR</article-title>
+      <source>Phys. Med. Biol.</source>
+      <year iso-8601-date="1978-09">1978</year><month>09</month>
+      <volume>23</volume>
+      <issue>5</issue>
+      <pub-id pub-id-type="doi">10.1097/00004728-197904000-00056</pub-id>
+      <fpage>961</fpage>
+      <lpage>967</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Bojorquez2017-xh">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Bojorquez</surname><given-names>Jorge Zavala</given-names></name>
+        <name><surname>Bricq</surname><given-names>Stéphanie</given-names></name>
+        <name><surname>Acquitter</surname><given-names>Clement</given-names></name>
+        <name><surname>Brunotte</surname><given-names>François</given-names></name>
+        <name><surname>Walker</surname><given-names>Paul M</given-names></name>
+        <name><surname>Lalande</surname><given-names>Alain</given-names></name>
+      </person-group>
+      <article-title>What are normal relaxation times of tissues at 3 t?</article-title>
+      <source>Magn. Reson. Imaging</source>
+      <year iso-8601-date="2017-01">2017</year><month>01</month>
+      <volume>35</volume>
+      <pub-id pub-id-type="doi">10.1016/j.mri.2016.08.021</pub-id>
+      <fpage>69</fpage>
+      <lpage>80</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Seiberlich2020-xe">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name><surname>Seiberlich</surname><given-names>Nicole</given-names></name>
+        <name><surname>Gulani</surname><given-names>Vikas</given-names></name>
+        <name><surname>Campbell</surname><given-names>Adrienne</given-names></name>
+        <name><surname>Sourbron</surname><given-names>Steven</given-names></name>
+        <name><surname>Doneva</surname><given-names>Mariya Ivanova</given-names></name>
+        <name><surname>Calamante</surname><given-names>Fernando</given-names></name>
+        <name><surname>Hu</surname><given-names>Houchun Harry</given-names></name>
+      </person-group>
+      <source>Quantitative magnetic resonance imaging</source>
+      <publisher-name>Academic Press</publisher-name>
+      <year iso-8601-date="2020-11">2020</year><month>11</month>
+    </element-citation>
+  </ref>
+  <ref id="ref-Lee2019-ei">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Lee</surname><given-names>Yoojin</given-names></name>
+        <name><surname>Callaghan</surname><given-names>Martina F</given-names></name>
+        <name><surname>Acosta-Cabronero</surname><given-names>Julio</given-names></name>
+        <name><surname>Lutti</surname><given-names>Antoine</given-names></name>
+        <name><surname>Nagy</surname><given-names>Zoltan</given-names></name>
+      </person-group>
+      <article-title>Establishing intra- and inter-vendor reproducibility of T1 relaxation time measurements with 3T MRI</article-title>
+      <source>Magn. Reson. Med.</source>
+      <publisher-name>Wiley</publisher-name>
+      <year iso-8601-date="2019-01">2019</year><month>01</month>
+      <volume>81</volume>
+      <issue>1</issue>
+      <fpage>454</fpage>
+      <lpage>465</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Hahn1949-wf">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Hahn</surname><given-names>Erwin L</given-names></name>
+      </person-group>
+      <article-title>An accurate nuclear magnetic resonance method for measuring Spin-Lattice relaxation times</article-title>
+      <source>Physical Review</source>
+      <year iso-8601-date="1949">1949</year>
+      <volume>76</volume>
+      <pub-id pub-id-type="doi">10.1103/PhysRev.76.145</pub-id>
+      <fpage>145</fpage>
+      <lpage>146</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Boettiger2015-vd">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Boettiger</surname><given-names>Carl</given-names></name>
+      </person-group>
+      <article-title>An introduction to docker for reproducible research</article-title>
+      <source>Oper. Syst. Rev.</source>
+      <publisher-name>Association for Computing Machinery</publisher-name>
+      <publisher-loc>New York, NY, USA</publisher-loc>
+      <year iso-8601-date="2015-01">2015</year><month>01</month>
+      <volume>49</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1145/2723872.2723882</pub-id>
+      <fpage>71</fpage>
+      <lpage>79</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Sled2001-fz">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Sled</surname><given-names>J G</given-names></name>
+        <name><surname>Pike</surname><given-names>G B</given-names></name>
+      </person-group>
+      <article-title>Quantitative imaging of magnetization transfer exchange and relaxation properties in vivo using MRI</article-title>
+      <source>Magn. Reson. Med.</source>
+      <year iso-8601-date="2001-11">2001</year><month>11</month>
+      <volume>46</volume>
+      <issue>5</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.1278</pub-id>
+      <fpage>923</fpage>
+      <lpage>931</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Deoni2003-qc">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Deoni</surname><given-names>Sean C L</given-names></name>
+        <name><surname>Rutt</surname><given-names>Brian K</given-names></name>
+        <name><surname>Peters</surname><given-names>Terry M</given-names></name>
+      </person-group>
+      <article-title>Rapid combinedT1 andT2 mapping using gradient recalled acquisition in the steady state</article-title>
+      <source>Magnetic Resonance in Medicine</source>
+      <year iso-8601-date="2003">2003</year>
+      <volume>49</volume>
+      <pub-id pub-id-type="doi">10.1002/mrm.10407</pub-id>
+      <fpage>515</fpage>
+      <lpage>526</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Merkel2014-cu">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Merkel</surname><given-names>Dirk</given-names></name>
+      </person-group>
+      <article-title>Docker: Lightweight linux containers for consistent development and deployment</article-title>
+      <publisher-name>https://www.seltzer.com/margo/teaching/CS508.19/papers/merkel14.pdf</publisher-name>
+      <year iso-8601-date="2014">2014</year>
+    </element-citation>
+  </ref>
+  <ref id="ref-Karakuzu2020-ul">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>Boudreau</surname><given-names>Mathieu</given-names></name>
+        <name><surname>Duval</surname><given-names>Tanguy</given-names></name>
+        <name><surname>Boshkovski</surname><given-names>Tommy</given-names></name>
+        <name><surname>Leppert</surname><given-names>Ilana</given-names></name>
+        <name><surname>Cabana</surname><given-names>Jean-François</given-names></name>
+        <name><surname>Gagnon</surname><given-names>Ian</given-names></name>
+        <name><surname>Beliveau</surname><given-names>Pascale</given-names></name>
+        <name><surname>Pike</surname><given-names>G</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+      </person-group>
+      <article-title>qMRLab: Quantitative MRI analysis, under one umbrella</article-title>
+      <source>J. Open Source Softw.</source>
+      <publisher-name>The Open Journal</publisher-name>
+      <year iso-8601-date="2020-09">2020</year><month>09</month>
+      <volume>5</volume>
+      <issue>53</issue>
+      <pub-id pub-id-type="doi">10.21105/joss.02343</pub-id>
+      <fpage>2343</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Beg2021-ps">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <string-name>Beg</string-name>
+        <string-name>Taka</string-name>
+        <string-name>Kluyver</string-name>
+        <string-name>Konovalov</string-name>
+        <string-name>Ragan-Kelley</string-name>
+        <string-name>Thiery</string-name>
+        <string-name>Fangohr</string-name>
+      </person-group>
+      <article-title>Using jupyter for reproducible scientific workflows</article-title>
+      <source>https://www.computer.org › csdl › magazine › 2021/02https://www.computer.org › csdl › magazine › 2021/02</source>
+      <year iso-8601-date="2021-03">2021</year><month>03</month>
+      <volume>23</volume>
+      <pub-id pub-id-type="doi">10.1109/MCSE.2021.3052101</pub-id>
+      <fpage>36</fpage>
+      <lpage>46</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Project_Jupyter2018-ll">
+    <element-citation publication-type="paper-conference">
+      <person-group person-group-type="author">
+        <string-name>Project Jupyter</string-name>
+        <name><surname>Bussonnier</surname><given-names>Matthias</given-names></name>
+        <name><surname>Forde</surname><given-names>Jessica</given-names></name>
+        <name><surname>Freeman</surname><given-names>Jeremy</given-names></name>
+        <name><surname>Granger</surname><given-names>Brian</given-names></name>
+        <name><surname>Head</surname><given-names>Tim</given-names></name>
+        <name><surname>Holdgraf</surname><given-names>Chris</given-names></name>
+        <name><surname>Kelley</surname><given-names>Kyle</given-names></name>
+        <name><surname>Nalvarte</surname><given-names>Gladys</given-names></name>
+        <name><surname>Osheroff</surname><given-names>Andrew</given-names></name>
+        <name><surname>Pacer</surname><given-names>M</given-names></name>
+        <name><surname>Panda</surname><given-names>Yuvi</given-names></name>
+        <name><surname>Perez</surname><given-names>Fernando</given-names></name>
+        <name><surname>Ragan-Kelley</surname><given-names>Benjamin</given-names></name>
+        <name><surname>Willing</surname><given-names>Carol</given-names></name>
+      </person-group>
+      <article-title>Binder 2.0 - reproducible, interactive, sharable environments for science at scale</article-title>
+      <source>Proceedings of the python in science conference</source>
+      <publisher-name>SciPy</publisher-name>
+      <publisher-loc>Austin, Texas</publisher-loc>
+      <year iso-8601-date="2018">2018</year>
+      <pub-id pub-id-type="doi">10.25080/Majora-4af1f417-011</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-Marques2013-yg">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Marques</surname><given-names>José P</given-names></name>
+        <name><surname>Gruetter</surname><given-names>Rolf</given-names></name>
+      </person-group>
+      <article-title>New developments and applications of the MP2RAGE sequence–focusing the contrast and high spatial resolution R1 mapping</article-title>
+      <source>PLoS One</source>
+      <year iso-8601-date="2013-07">2013</year><month>07</month>
+      <volume>8</volume>
+      <issue>7</issue>
+      <pub-id pub-id-type="doi">10.1371/journal.pone.0069294</pub-id>
+      <fpage>e69294</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Redpath1994-sb">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Redpath</surname><given-names>T W</given-names></name>
+        <name><surname>Smith</surname><given-names>F W</given-names></name>
+      </person-group>
+      <article-title>Technical note: Use of a double inversion recovery pulse sequence to image selectively grey or white brain matter</article-title>
+      <source>Br. J. Radiol.</source>
+      <year iso-8601-date="1994-12">1994</year><month>12</month>
+      <volume>67</volume>
+      <issue>804</issue>
+      <pub-id pub-id-type="doi">10.1259/0007-1285-67-804-1258</pub-id>
+      <fpage>1258</fpage>
+      <lpage>1263</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Keenan2019-ni">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Keenan</surname><given-names>Kathryn E</given-names></name>
+        <name><surname>Biller</surname><given-names>Joshua R</given-names></name>
+        <name><surname>Delfino</surname><given-names>Jana G</given-names></name>
+        <name><surname>Boss</surname><given-names>Michael A</given-names></name>
+        <name><surname>Does</surname><given-names>Mark D</given-names></name>
+        <name><surname>Evelhoch</surname><given-names>Jeffrey L</given-names></name>
+        <name><surname>Griswold</surname><given-names>Mark A</given-names></name>
+        <name><surname>Gunter</surname><given-names>Jeffrey L</given-names></name>
+        <name><surname>Hinks</surname><given-names>R Scott</given-names></name>
+        <name><surname>Hoffman</surname><given-names>Stuart W</given-names></name>
+        <name><surname>Kim</surname><given-names>Geena</given-names></name>
+        <name><surname>Lattanzi</surname><given-names>Riccardo</given-names></name>
+        <name><surname>Li</surname><given-names>Xiaojuan</given-names></name>
+        <name><surname>Marinelli</surname><given-names>Luca</given-names></name>
+        <name><surname>Metzger</surname><given-names>Gregory J</given-names></name>
+        <name><surname>Mukherjee</surname><given-names>Pratik</given-names></name>
+        <name><surname>Nordstrom</surname><given-names>Robert J</given-names></name>
+        <name><surname>Peskin</surname><given-names>Adele P</given-names></name>
+        <name><surname>Perez</surname><given-names>Elena</given-names></name>
+        <name><surname>Russek</surname><given-names>Stephen E</given-names></name>
+        <name><surname>Sahiner</surname><given-names>Berkman</given-names></name>
+        <name><surname>Serkova</surname><given-names>Natalie</given-names></name>
+        <name><surname>Shukla-Dave</surname><given-names>Amita</given-names></name>
+        <name><surname>Steckner</surname><given-names>Michael</given-names></name>
+        <name><surname>Stupic</surname><given-names>Karl F</given-names></name>
+        <name><surname>Wilmes</surname><given-names>Lisa J</given-names></name>
+        <name><surname>Wu</surname><given-names>Holden H</given-names></name>
+        <name><surname>Zhang</surname><given-names>Huiming</given-names></name>
+        <name><surname>Jackson</surname><given-names>Edward F</given-names></name>
+        <name><surname>Sullivan</surname><given-names>Daniel C</given-names></name>
+      </person-group>
+      <article-title>Recommendations towards standards for quantitative MRI (qMRI) and outstanding needs</article-title>
+      <source>J. Magn. Reson. Imaging</source>
+      <year iso-8601-date="2019-06">2019</year><month>06</month>
+      <volume>49</volume>
+      <issue>7</issue>
+      <pub-id pub-id-type="doi">10.1002/jmri.26598</pub-id>
+      <fpage>e26</fpage>
+      <lpage>e39</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Stupic2021-hu">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Stupic</surname><given-names>Karl F</given-names></name>
+        <name><surname>Ainslie</surname><given-names>Maureen</given-names></name>
+        <name><surname>Boss</surname><given-names>Michael A</given-names></name>
+        <name><surname>Charles</surname><given-names>Cecil</given-names></name>
+        <name><surname>Dienstfrey</surname><given-names>Andrew M</given-names></name>
+        <name><surname>Evelhoch</surname><given-names>Jeffrey L</given-names></name>
+        <name><surname>Finn</surname><given-names>Paul</given-names></name>
+        <name><surname>Gimbutas</surname><given-names>Zydrunas</given-names></name>
+        <name><surname>Gunter</surname><given-names>Jeffrey L</given-names></name>
+        <name><surname>Hill</surname><given-names>Derek L G</given-names></name>
+        <name><surname>Jack</surname><given-names>Clifford R</given-names></name>
+        <name><surname>Jackson</surname><given-names>Edward F</given-names></name>
+        <name><surname>Karaulanov</surname><given-names>Todor</given-names></name>
+        <name><surname>Keenan</surname><given-names>Kathryn E</given-names></name>
+        <name><surname>Liu</surname><given-names>Guoying</given-names></name>
+        <name><surname>Martin</surname><given-names>Michele N</given-names></name>
+        <name><surname>Prasad</surname><given-names>Pottumarthi V</given-names></name>
+        <name><surname>Rentz</surname><given-names>Nikki S</given-names></name>
+        <name><surname>Yuan</surname><given-names>Chun</given-names></name>
+        <name><surname>Russek</surname><given-names>Stephen E</given-names></name>
+      </person-group>
+      <article-title>A standard system phantom for magnetic resonance imaging</article-title>
+      <source>Magn. Reson. Med.</source>
+      <year iso-8601-date="2021-09">2021</year><month>09</month>
+      <volume>86</volume>
+      <issue>3</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.28779</pub-id>
+      <fpage>1194</fpage>
+      <lpage>1211</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Bane2018-wt">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Bane</surname><given-names>Octavia</given-names></name>
+        <name><surname>Hectors</surname><given-names>Stefanie J</given-names></name>
+        <name><surname>Wagner</surname><given-names>Mathilde</given-names></name>
+        <name><surname>Arlinghaus</surname><given-names>Lori L</given-names></name>
+        <name><surname>Aryal</surname><given-names>Madhava P</given-names></name>
+        <name><surname>Cao</surname><given-names>Yue</given-names></name>
+        <name><surname>Chenevert</surname><given-names>Thomas L</given-names></name>
+        <name><surname>Fennessy</surname><given-names>Fiona</given-names></name>
+        <name><surname>Huang</surname><given-names>Wei</given-names></name>
+        <name><surname>Hylton</surname><given-names>Nola M</given-names></name>
+        <name><surname>Kalpathy-Cramer</surname><given-names>Jayashree</given-names></name>
+        <name><surname>Keenan</surname><given-names>Kathryn E</given-names></name>
+        <name><surname>Malyarenko</surname><given-names>Dariya I</given-names></name>
+        <name><surname>Mulkern</surname><given-names>Robert V</given-names></name>
+        <name><surname>Newitt</surname><given-names>David C</given-names></name>
+        <name><surname>Russek</surname><given-names>Stephen E</given-names></name>
+        <name><surname>Stupic</surname><given-names>Karl F</given-names></name>
+        <name><surname>Tudorica</surname><given-names>Alina</given-names></name>
+        <name><surname>Wilmes</surname><given-names>Lisa J</given-names></name>
+        <name><surname>Yankeelov</surname><given-names>Thomas E</given-names></name>
+        <name><surname>Yen</surname><given-names>Yi-Fei</given-names></name>
+        <name><surname>Boss</surname><given-names>Michael A</given-names></name>
+        <name><surname>Taouli</surname><given-names>Bachir</given-names></name>
+      </person-group>
+      <article-title>Accuracy, repeatability, and interplatform reproducibility of T1 quantification methods used for DCE-MRI: Results from a multicenter phantom study</article-title>
+      <source>Magn. Reson. Med.</source>
+      <year iso-8601-date="2018-05">2018</year><month>05</month>
+      <volume>79</volume>
+      <issue>5</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.26903</pub-id>
+      <fpage>2564</fpage>
+      <lpage>2575</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Look1970-no">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Look</surname><given-names>D C</given-names></name>
+        <name><surname>Locker</surname><given-names>D R</given-names></name>
+      </person-group>
+      <article-title>Time saving in measurement of NMR and EPR relaxation times</article-title>
+      <source>Rev. Sci. Instrum.</source>
+      <publisher-name>AIP Publishing</publisher-name>
+      <year iso-8601-date="1970-02">1970</year><month>02</month>
+      <volume>41</volume>
+      <issue>2</issue>
+      <pub-id pub-id-type="doi">10.1063/1.1684482</pub-id>
+      <fpage>250</fpage>
+      <lpage>251</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Damadian1971-sc">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Damadian</surname><given-names>R</given-names></name>
+      </person-group>
+      <article-title>Tumor detection by nuclear magnetic resonance</article-title>
+      <source>Science</source>
+      <year iso-8601-date="1971-03">1971</year><month>03</month>
+      <volume>171</volume>
+      <issue>3976</issue>
+      <pub-id pub-id-type="doi">10.1126/science.171.3976.1151</pub-id>
+      <fpage>1151</fpage>
+      <lpage>1153</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Cordes2020-au">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Cordes</surname><given-names>Cristoffer</given-names></name>
+        <name><surname>Konstandin</surname><given-names>Simon</given-names></name>
+        <name><surname>Porter</surname><given-names>David</given-names></name>
+        <name><surname>Günther</surname><given-names>Matthias</given-names></name>
+      </person-group>
+      <article-title>Portable and platform-independent MR pulse sequence programs</article-title>
+      <source>Magn. Reson. Med.</source>
+      <publisher-name>Wiley</publisher-name>
+      <year iso-8601-date="2020-04">2020</year><month>04</month>
+      <volume>83</volume>
+      <issue>4</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.28020</pub-id>
+      <fpage>1277</fpage>
+      <lpage>1290</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Drain1949-yk">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Drain</surname><given-names>L E</given-names></name>
+      </person-group>
+      <article-title>A direct method of measuring nuclear Spin-Lattice relaxation times</article-title>
+      <source>Proc. Phys. Soc. A</source>
+      <publisher-name>IOP Publishing</publisher-name>
+      <year iso-8601-date="1949-05">1949</year><month>05</month>
+      <volume>62</volume>
+      <issue>5</issue>
+      <pub-id pub-id-type="doi">10.1088/0370-1298/62/5/306</pub-id>
+      <fpage>301</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Messroghli2004-iv">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Messroghli</surname><given-names>Daniel R</given-names></name>
+        <name><surname>Radjenovic</surname><given-names>Aleksandra</given-names></name>
+        <name><surname>Kozerke</surname><given-names>Sebastian</given-names></name>
+        <name><surname>Higgins</surname><given-names>David M</given-names></name>
+        <name><surname>Sivananthan</surname><given-names>Mohan U</given-names></name>
+        <name><surname>Ridgway</surname><given-names>John P</given-names></name>
+      </person-group>
+      <article-title>Modified Look-Locker inversion recovery (MOLLI) for high-resolution T1 mapping of the heart</article-title>
+      <source>Magn. Reson. Med.</source>
+      <publisher-name>Wiley</publisher-name>
+      <year iso-8601-date="2004-07">2004</year><month>07</month>
+      <volume>52</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.20110</pub-id>
+      <fpage>141</fpage>
+      <lpage>146</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Boudreau2020-jf">
+    <element-citation publication-type="chapter">
+      <person-group person-group-type="author">
+        <name><surname>Boudreau</surname><given-names>Mathieu</given-names></name>
+        <name><surname>Keenan</surname><given-names>Kathryn E</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+      </person-group>
+      <article-title>Quantitative T1 and T1r mapping</article-title>
+      <source>Quantitative magnetic resonance imaging</source>
+      <year iso-8601-date="2020-11">2020</year><month>11</month>
+      <pub-id pub-id-type="doi">10.1016/b978-0-12-817057-1.00004-4</pub-id>
+      <fpage>19</fpage>
+      <lpage>45</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Tofts1997-ln">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Tofts</surname><given-names>P S</given-names></name>
+      </person-group>
+      <article-title>Modeling tracer kinetics in dynamic Gd-DTPA MR imaging</article-title>
+      <source>J. Magn. Reson. Imaging</source>
+      <year iso-8601-date="1997">1997</year>
+      <volume>7</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1002/jmri.1880070113</pub-id>
+      <fpage>91</fpage>
+      <lpage>101</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Keenan2021-ly">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Keenan</surname><given-names>Kathryn E</given-names></name>
+        <name><surname>Gimbutas</surname><given-names>Zydrunas</given-names></name>
+        <name><surname>Dienstfrey</surname><given-names>Andrew</given-names></name>
+        <name><surname>Stupic</surname><given-names>Karl F</given-names></name>
+        <name><surname>Boss</surname><given-names>Michael A</given-names></name>
+        <name><surname>Russek</surname><given-names>Stephen E</given-names></name>
+        <name><surname>Chenevert</surname><given-names>Thomas L</given-names></name>
+        <name><surname>Prasad</surname><given-names>P V</given-names></name>
+        <name><surname>Guo</surname><given-names>Junyu</given-names></name>
+        <name><surname>Reddick</surname><given-names>Wilburn E</given-names></name>
+        <name><surname>Cecil</surname><given-names>Kim M</given-names></name>
+        <name><surname>Shukla-Dave</surname><given-names>Amita</given-names></name>
+        <name><surname>Aramburu Nunez</surname><given-names>David</given-names></name>
+        <name><surname>Shridhar Konar</surname><given-names>Amaresh</given-names></name>
+        <name><surname>Liu</surname><given-names>Michael Z</given-names></name>
+        <name><surname>Jambawalikar</surname><given-names>Sachin R</given-names></name>
+        <name><surname>Schwartz</surname><given-names>Lawrence H</given-names></name>
+        <name><surname>Zheng</surname><given-names>Jie</given-names></name>
+        <name><surname>Hu</surname><given-names>Peng</given-names></name>
+        <name><surname>Jackson</surname><given-names>Edward F</given-names></name>
+      </person-group>
+      <article-title>Multi-site, multi-platform comparison of MRI T1 measurement using the system phantom</article-title>
+      <source>PLoS One</source>
+      <year iso-8601-date="2021-06">2021</year><month>06</month>
+      <volume>16</volume>
+      <issue>6</issue>
+      <pub-id pub-id-type="doi">10.1371/journal.pone.0252966</pub-id>
+      <fpage>e0252966</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Wansapura1999-tf">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Wansapura</surname><given-names>J P</given-names></name>
+        <name><surname>Holland</surname><given-names>S K</given-names></name>
+        <name><surname>Dunn</surname><given-names>R S</given-names></name>
+        <name><surname>Ball</surname><given-names>W S</given-names><suffix>Jr</suffix></name>
+      </person-group>
+      <article-title>NMR relaxation times in the human brain at 3.0 tesla</article-title>
+      <source>J. Magn. Reson. Imaging</source>
+      <year iso-8601-date="1999-04">1999</year><month>04</month>
+      <volume>9</volume>
+      <issue>4</issue>
+      <pub-id pub-id-type="doi">10.1002/(SICI)1522-2586(199904)9:4&lt;531::AID-JMRI4&gt;3.0.CO;2-L</pub-id>
+      <fpage>531</fpage>
+      <lpage>538</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Gracien2020-ak">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <string-name>Gracien</string-name>
+        <string-name>Maiworm</string-name>
+        <string-name>Brüche</string-name>
+        <string-name>Shrestha</string-name>
+        <name><surname>others</surname></name>
+      </person-group>
+      <article-title>How stable is quantitative MRI?–Assessment of intra-and inter-scanner-model reproducibility using identical acquisition sequences and data analysis …</article-title>
+      <source>Neuroimage</source>
+      <year iso-8601-date="2020">2020</year>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2019.116364</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-Schweitzer2016-fl">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Schweitzer</surname><given-names>Mark</given-names></name>
+      </person-group>
+      <article-title>Stages of technical efficacy: Journal of magnetic resonance imaging style</article-title>
+      <source>J. Magn. Reson. Imaging</source>
+      <year iso-8601-date="2016-10">2016</year><month>10</month>
+      <volume>44</volume>
+      <issue>4</issue>
+      <pub-id pub-id-type="doi">10.1002/jmri.25417</pub-id>
+      <fpage>781</fpage>
+      <lpage>782</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-A_G_Teixeira2020-bw">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>A G Teixeira</surname><given-names>Rui Pedro</given-names></name>
+        <name><surname>Neji</surname><given-names>Radhouene</given-names></name>
+        <name><surname>Wood</surname><given-names>Tobias C</given-names></name>
+        <name><surname>Baburamani</surname><given-names>Ana A</given-names></name>
+        <name><surname>Malik</surname><given-names>Shaihan J</given-names></name>
+        <name><surname>Hajnal</surname><given-names>Joseph V</given-names></name>
+      </person-group>
+      <article-title>Controlled saturation magnetization transfer for reproducible multivendor variable flip angle T1 and T2 mapping</article-title>
+      <source>Magn. Reson. Med.</source>
+      <year iso-8601-date="2020-07">2020</year><month>07</month>
+      <volume>84</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.28109</pub-id>
+      <fpage>221</fpage>
+      <lpage>236</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Ernst1966-pp">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Ernst</surname><given-names>R R</given-names></name>
+        <name><surname>Anderson</surname><given-names>W A</given-names></name>
+      </person-group>
+      <article-title>Application of fourier transform spectroscopy to magnetic resonance</article-title>
+      <source>Rev. Sci. Instrum.</source>
+      <publisher-name>American Institute of Physics</publisher-name>
+      <year iso-8601-date="1966-01">1966</year><month>01</month>
+      <volume>37</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1063/1.1719961</pub-id>
+      <fpage>93</fpage>
+      <lpage>102</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Layton2017-dy">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Layton</surname><given-names>Kelvin J</given-names></name>
+        <name><surname>Kroboth</surname><given-names>Stefan</given-names></name>
+        <name><surname>Jia</surname><given-names>Feng</given-names></name>
+        <name><surname>Littin</surname><given-names>Sebastian</given-names></name>
+        <name><surname>Yu</surname><given-names>Huijun</given-names></name>
+        <name><surname>Leupold</surname><given-names>Jochen</given-names></name>
+        <name><surname>Nielsen</surname><given-names>Jon-Fredrik</given-names></name>
+        <name><surname>Stöcker</surname><given-names>Tony</given-names></name>
+        <name><surname>Zaitsev</surname><given-names>Maxim</given-names></name>
+      </person-group>
+      <article-title>Pulseq: A rapid and hardware-independent pulse sequence prototyping framework</article-title>
+      <source>Magn. Reson. Med.</source>
+      <year iso-8601-date="2017-04">2017</year><month>04</month>
+      <volume>77</volume>
+      <issue>4</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.26235</pub-id>
+      <fpage>1544</fpage>
+      <lpage>1552</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Fryback1991-sy">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Fryback</surname><given-names>D G</given-names></name>
+        <name><surname>Thornbury</surname><given-names>J R</given-names></name>
+      </person-group>
+      <article-title>The efficacy of diagnostic imaging</article-title>
+      <source>Med. Decis. Making</source>
+      <year iso-8601-date="1991">1991</year>
+      <volume>11</volume>
+      <issue>2</issue>
+      <pub-id pub-id-type="doi">10.1177/0272989X9101100203</pub-id>
+      <fpage>88</fpage>
+      <lpage>94</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Marques2010-po">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Marques</surname><given-names>José P</given-names></name>
+        <name><surname>Kober</surname><given-names>Tobias</given-names></name>
+        <name><surname>Krueger</surname><given-names>Gunnar</given-names></name>
+        <name><surname>Zwaag</surname><given-names>Wietske van der</given-names></name>
+        <name><surname>Van de Moortele</surname><given-names>Pierre-François</given-names></name>
+        <name><surname>Gruetter</surname><given-names>Rolf</given-names></name>
+      </person-group>
+      <article-title>MP2RAGE, a self bias-field corrected sequence for improved segmentation and T1-mapping at high field</article-title>
+      <source>NeuroImage</source>
+      <year iso-8601-date="2010">2010</year>
+      <volume>49</volume>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2009.10.002</pub-id>
+      <fpage>1271</fpage>
+      <lpage>1281</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Stikov2015-qj">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Boudreau</surname><given-names>Mathieu</given-names></name>
+        <name><surname>Levesque</surname><given-names>Ives R</given-names></name>
+        <name><surname>Tardif</surname><given-names>Christine L</given-names></name>
+        <name><surname>Barral</surname><given-names>Joëlle K</given-names></name>
+        <name><surname>Pike</surname><given-names>G Bruce</given-names></name>
+      </person-group>
+      <article-title>On the accuracy of T1 mapping: Searching for common ground</article-title>
+      <source>Magn. Reson. Med.</source>
+      <year iso-8601-date="2015">2015</year>
+      <volume>73</volume>
+      <issue>2</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.25135</pub-id>
+      <fpage>514</fpage>
+      <lpage>522</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Fram1987-jj">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Fram</surname><given-names>E K</given-names></name>
+        <name><surname>Herfkens</surname><given-names>R J</given-names></name>
+        <name><surname>Johnson</surname><given-names>G A</given-names></name>
+        <name><surname>Glover</surname><given-names>G H</given-names></name>
+        <name><surname>Karis</surname><given-names>J P</given-names></name>
+        <name><surname>Shimakawa</surname><given-names>A</given-names></name>
+        <name><surname>Perkins</surname><given-names>T G</given-names></name>
+        <name><surname>Pelc</surname><given-names>N J</given-names></name>
+      </person-group>
+      <article-title>Rapid calculation of T1 using variable flip angle gradient refocused imaging</article-title>
+      <source>Magn. Reson. Imaging</source>
+      <year iso-8601-date="1987">1987</year>
+      <volume>5</volume>
+      <issue>3</issue>
+      <pub-id pub-id-type="doi">10.1016/0730-725X(87)90021-X</pub-id>
+      <fpage>201</fpage>
+      <lpage>208</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Cheng2006-qe">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Cheng</surname><given-names>Hai-Ling Margaret</given-names></name>
+        <name><surname>Wright</surname><given-names>Graham A</given-names></name>
+      </person-group>
+      <article-title>Rapid high-resolutionT1 mapping by variable flip angles: Accurate and precise measurements in the presence of radiofrequency field inhomogeneity</article-title>
+      <source>Magnetic Resonance in Medicine</source>
+      <year iso-8601-date="2006">2006</year>
+      <volume>55</volume>
+      <pub-id pub-id-type="doi">10.1002/mrm.20791</pub-id>
+      <fpage>566</fpage>
+      <lpage>574</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Dupre2022-iro">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>DuPre</surname><given-names>Elizabeth</given-names></name>
+        <name><surname>Holdgraf</surname><given-names>Chris</given-names></name>
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>Tetrel</surname><given-names>Loı̈c</given-names></name>
+        <name><surname>Bellec</surname><given-names>Pierre</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Poline</surname><given-names>Jean-Baptiste</given-names></name>
+      </person-group>
+      <article-title>Beyond advertising: New infrastructures for publishing integrated research objects</article-title>
+      <source>PLOS Computational Biology</source>
+      <publisher-name>Public Library of Science San Francisco, CA USA</publisher-name>
+      <year iso-8601-date="2022">2022</year>
+      <volume>18</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1371/journal.pcbi.1009651</pub-id>
+      <fpage>e1009651</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Harding2023-conp">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Harding</surname><given-names>Rachel J.</given-names></name>
+        <name><surname>Bermudez</surname><given-names>Patrick</given-names></name>
+        <name><surname>Bernier</surname><given-names>Alexander</given-names></name>
+        <name><surname>Beauvais</surname><given-names>Michael</given-names></name>
+        <name><surname>Bellec</surname><given-names>Pierre</given-names></name>
+        <name><surname>Hill</surname><given-names>Sean</given-names></name>
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>Knoppers</surname><given-names>Bartha M.</given-names></name>
+        <name><surname>Pavlidis</surname><given-names>Paul</given-names></name>
+        <name><surname>Poline</surname><given-names>Jean-Baptiste</given-names></name>
+        <name><surname>Roskams</surname><given-names>Jane</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Stone</surname><given-names>Jessica</given-names></name>
+        <name><surname>Strother</surname><given-names>Stephen</given-names></name>
+        <name><surname>Consortium</surname><given-names>CONP</given-names></name>
+        <name><surname>Evans</surname><given-names>Alan C.</given-names></name>
+      </person-group>
+      <article-title>The Canadian Open Neuroscience Platform—An open science framework for the neuroscience community</article-title>
+      <source>PLOS Computational Biology</source>
+      <year iso-8601-date="2023-07">2023</year><month>07</month>
+      <volume>19</volume>
+      <issue>7</issue>
+      <uri>10.1371/journal.pcbi.1011230</uri>
+      <pub-id pub-id-type="doi">10.1371/journal.pcbi.1011230</pub-id>
+      <fpage>1</fpage>
+      <lpage>14</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Karakuzu2022-nlwf">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>DuPre</surname><given-names>Elizabeth</given-names></name>
+        <name><surname>Tetrel</surname><given-names>Loic</given-names></name>
+        <name><surname>Bermudez</surname><given-names>Patrick</given-names></name>
+        <name><surname>Boudreau</surname><given-names>Mathieu</given-names></name>
+        <name><surname>Chin</surname><given-names>Mary</given-names></name>
+        <name><surname>Poline</surname><given-names>Jean-Baptiste</given-names></name>
+        <name><surname>Das</surname><given-names>Samir</given-names></name>
+        <name><surname>Bellec</surname><given-names>Pierre</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+      </person-group>
+      <article-title>NeuroLibre : A preprint server for full-fledged reproducible neuroscience</article-title>
+      <publisher-name>OSF Preprints</publisher-name>
+      <year iso-8601-date="2022-04">2022</year><month>04</month>
+      <uri>osf.io/h89js</uri>
+      <pub-id pub-id-type="doi">10.31219/osf.io/h89js</pub-id>
+    </element-citation>
+  </ref>
+</ref-list>
+<fn-group>
+  <fn id="fn1">
+    <label>1</label><p><ext-link ext-link-type="uri" xlink:href="https://blog.ismrm.org/2019/12/12/reproducibility-challenge-2020-join-the-reproducible-research-and-quantitative-mr-study-groups-in-their-efforts-to-standardize-t1-mapping/">ISMRM
+    blog post announcingn the RRRSG challenge</ext-link></p>
+  </fn>
+  <fn id="fn2">
+    <label>2</label><p>The
+    <ext-link ext-link-type="uri" xlink:href="https://collaborate.nist.gov/mriphantoms/bin/view/MriPhantoms/SimpleImagingInstructions">website</ext-link>
+    provided to the researchers has since been removed from the NIST
+    website.</p>
+  </fn>
+  <fn id="fn3">
+    <label>3</label><p>This
+    <ext-link ext-link-type="uri" xlink:href="https://www.uu.nl/en/research/research-data-management/guides/informed-consent-for-data-sharing">website</ext-link>
+    was provided as a resource to the participants for best practices to
+    obtain informed consent for data sharing.</p>
+  </fn>
+  <fn id="fn4">
+    <label>4</label><p>Submissions were reviewed by MB and AK.
+    Submission guidelines
+    (https://github.com/rrsg2020/data_submission/blob/master/README.md)
+    and a GitHub issue checklist
+    (https://github.com/rrsg2020/data_submission/blob/master/.github/ISSUE_TEMPLATE/data-submission-request.md)
+    were checked. Lastly, the submitted data was passed to the T1
+    processing pipeline and verified for quality and expected values.
+    Feedback was sent to the authors if their submission did not adhere
+    to the requested guidelines, or if issues with the submitted
+    datasets were found and if possible, corrected (e.g., scaling issues
+    between inversion time data points).</p>
+  </fn>
+  <fn id="fn5">
+    <label>5</label><p>Strictly speaking, not all manufacturers operate
+    at 3.0 T. Even though this is the field strength advertised by the
+    system manufacturers, there is some deviation in actual field
+    strength between vendors. The actual center frequencies are
+    typically reported in the DICOM files, and these were shared for
+    most datasets and are available in our OSF.io repository
+    (https://osf.io/ywc9g/). From these datasets, the center frequencies
+    imply participants that used GE and Philips scanners were at 3.0T
+    (<monospace>~</monospace>127.7 MHz), whereas participants that used
+    Siemens scanners were at 2.89T (<monospace>~</monospace>123.2 MHz).
+    For simplicity, we will always refer to the field strength in this
+    article as 3T.</p>
+  </fn>
+  <fn id="fn6">
+    <label>6</label><p><ext-link ext-link-type="uri" xlink:href="http://www-mrsrl.stanford.edu/~jbarral/t1map.html">http://www-mrsrl.stanford.edu/~jbarral/t1map.html</ext-link></p>
+  </fn>
+  <fn id="fn7">
+    <label>7</label><p><ext-link ext-link-type="uri" xlink:href="https://github.com/qMRLab/qMRLab/blob/master/src/Models_Functions/IRfun/rdNlsPr.m#L118-L129">https://github.com/qMRLab/qMRLab/blob/master/src/Models_Functions/IRfun/rdNlsPr.m#L118-L129</ext-link></p>
+  </fn>
+  <fn id="fn8">
+    <label>8</label><p><ext-link ext-link-type="uri" xlink:href="https://github.com/rrsg2020/analysis">https://github.com/rrsg2020/analysis</ext-link></p>
+  </fn>
+  <fn id="fn9">
+    <label>9</label><p>https://mybinder.org/v2/gh/rrsg2020/analysis/master?filepath=analysis</p>
+  </fn>
+  <fn id="fn10">
+    <label>10</label><p>The T1 values vs temperature tables reported by
+    the phantom manufacturer did not always exhibit a linear
+    relationship. We explored the use of spline fitting on the original
+    data and quadratic fitting on the log-log representation of the
+    data, Both methods yielded good results, and we opted to use the
+    latter in our analyses. The code is found
+    <ext-link ext-link-type="uri" xlink:href="https://github.com/rrsg2020/analysis/blob/master/src/nist.py">here</ext-link>,
+    and a Jupyter Notebook used in temperature interpolation development
+    is
+    <ext-link ext-link-type="uri" xlink:href="https://github.com/rrsg2020/analysis/blob/master/temperature_correction.ipynb">here</ext-link>.</p>
+  </fn>
+  <fn id="fn11">
+    <label>11</label><p>Only T1 maps measured using phantom version 1
+    were included in this inter-submission COV, as including both sets
+    would have increased the COV due to the differences in reference T1
+    values. There were seven research groups that used version 1, and
+    six that used version 2.</p>
+  </fn>
+</fn-group>
+</back>
+</article>
