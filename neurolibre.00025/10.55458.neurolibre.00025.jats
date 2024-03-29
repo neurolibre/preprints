@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN"
+                  "JATS-publishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+<journal-title>NeuroLibre Reproducible Preprints</journal-title>
+<abbrev-journal-title>NeuroLibre</abbrev-journal-title>
+</journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher>
+<publisher-name>NeuroLibre</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">25</article-id>
+<article-id pub-id-type="doi">10.55458/neurolibre.00025</article-id>
+<title-group>
+<article-title>Analysis code for the paper “RF shimming in the cervical
+spinal cord at 7T”</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-1481-1413</contrib-id>
+<name>
+<surname>Papp</surname>
+<given-names>Daniel</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-3026-5686</contrib-id>
+<name>
+<surname>Gilbert</surname>
+<given-names>Kyle M.</given-names>
+</name>
+<xref ref-type="aff" rid="aff-2"/>
+<xref ref-type="aff" rid="aff-3"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Cereza</surname>
+<given-names>Gaspard</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-0381-7334</contrib-id>
+<name>
+<surname>D’Astous</surname>
+<given-names>Alexandre</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-4791-8260</contrib-id>
+<name>
+<surname>Lopez-Rios</surname>
+<given-names>Nibardo</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-7726-4456</contrib-id>
+<name>
+<surname>Boudreau</surname>
+<given-names>Mathieu</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-2732-8941</contrib-id>
+<name>
+<surname>Couch</surname>
+<given-names>Marcus</given-names>
+</name>
+<xref ref-type="aff" rid="aff-4"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-4456-5997</contrib-id>
+<name>
+<surname>Yazdanbakhsh</surname>
+<given-names>Pedram</given-names>
+</name>
+<xref ref-type="aff" rid="aff-5"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Barry</surname>
+<given-names>Robert L.</given-names>
+</name>
+<xref ref-type="aff" rid="aff-6"/>
+<xref ref-type="aff" rid="aff-7"/>
+<xref ref-type="aff" rid="aff-8"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-6590-7234</contrib-id>
+<name>
+<surname>Ortiz</surname>
+<given-names>Eva Alonso</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-3662-9532</contrib-id>
+<name>
+<surname>Cohen-Adad</surname>
+<given-names>Julien</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="aff" rid="aff-9"/>
+<xref ref-type="aff" rid="aff-10"/>
+</contrib>
+<aff id="aff-1">
+<institution-wrap>
+<institution>NeuroPoly Lab, Institute of Biomedical Engineering,
+Polytechnique Montreal, Montreal, QC, Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-2">
+<institution-wrap>
+<institution>Centre for Functional and Metabolic Mapping, The University
+of Western Ontario, London, ON, Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-3">
+<institution-wrap>
+<institution>Department of Medical Biophysics, The University of Western
+Ontario, London, ON, Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-4">
+<institution-wrap>
+<institution>Siemens Healthcare Limited, Montreal, QC,
+Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-5">
+<institution-wrap>
+<institution>McConnell Brain Imaging Centre, Montreal Neurological
+Institute, McGill University, Montreal, QC, Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-6">
+<institution-wrap>
+<institution>Athinoula A. Martinos Center for Biomedical Imaging,
+Department of Radiology, Massachusetts General Hospital, Charlestown,
+MA, USA</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-7">
+<institution-wrap>
+<institution>Harvard Medical School, Boston, MA, USA</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-8">
+<institution-wrap>
+<institution>Harvard-Massachusetts Institute of Technology Health
+Sciences and Technology, Cambridge, MA, USA</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-9">
+<institution-wrap>
+<institution>Mila - Quebec AI Institute, Montreal, QC,
+Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-10">
+<institution-wrap>
+<institution>Functional Neuroimaging Unit, Centre de recherche de
+l’Institut universitaire de gériatrie de Montréal QC,
+Canada</institution>
+</institution-wrap>
+</aff>
+</contrib-group>
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-02-09">
+<day>9</day>
+<month>2</month>
+<year>2024</year>
+</pub-date>
+<volume>4</volume>
+<issue>39</issue>
+<fpage>25</fpage>
+<permissions>
+<copyright-statement>Authors of papers retain copyright and release the
+work under a Creative Commons Attribution 4.0 International License (CC
+BY 4.0)</copyright-statement>
+<copyright-year>2022</copyright-year>
+<copyright-holder>The article authors</copyright-holder>
+<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/">
+<license-p>Authors of papers retain copyright and release the work under
+a Creative Commons Attribution 4.0 International License (CC BY
+4.0)</license-p>
+</license>
+</permissions>
+<kwd-group kwd-group-type="author">
+<kwd>RF shimming</kwd>
+<kwd>spinal cord</kwd>
+<kwd>MRI</kwd>
+<kwd>high field</kwd>
+<kwd>7T</kwd>
+</kwd-group>
+</article-meta>
+</front>
+<body>
+<sec id="summary">
+  <title>Summary</title>
+  <p>Data was collected from five participants between two 7T sites with
+  a custom 8Tx/20Rx parallel transmission (pTx) coil. We explored two RF
+  shimming approaches from an MRI vendor and four from an open-source
+  toolbox, showcasing their ability to enhance transmit field and signal
+  homogeneity along the cervical spinal cord.</p>
+  <p>The results indicate significant improvements in B1+ efficiency and
+  cerebrospinal fluid / spinal cord signal ratio across various RF
+  shimming conditions compared to the vendor based methods.</p>
+  <p>The study’s findings highlight the potential of RF shimming to
+  advance 7T MRI’s clinical utility for central nervous system imaging
+  by enabling more homogenous and efficient spinal cord imaging.
+  Additionally, the research incorporates a reproducible Jupyter
+  Notebook, enhancing the study’s transparency and facilitating peer
+  verification. By also making the data openly accessible on OpenNeuro,
+  we ensure that the scientific community can further explore, validate,
+  and build upon our findings, contributing to the collective
+  advancement in high-resolution imaging techniques.</p>
+  <fig>
+    <caption><p>Overview of the RF shimming procedure. The top panel
+    shows the RF coil used for the experiments, alongside the Tx coil
+    geometry and the electromagnetic simulation results (on Gustav
+    model) yielding the CP mode used for this coil. The bottom panel
+    shows the RF shimming procedure (with approximate duration). First,
+    GRE and tfl_rfmap scans are acquired (4min30s). Second, these images
+    are transferred via ethernet socket from the MRI console onto a
+    separate laptop running Shimming Toolbox and SCT (&lt;1s). Third,
+    the spinal cord is automatically segmented to produce a mask that is
+    resampled into the space of the individual coil magnitude and phase
+    images of the tfl_rfmap scan (~5s). Fourth, the RF shim weights are
+    calculated according to the defined constraints for each shim
+    scenario (1min total).
+    <styled-content id="figU003Aoverview"></styled-content></p></caption>
+    <graphic mimetype="image" mime-subtype="png" xlink:href="media/featured.png" />
+  </fig>
+</sec>
+<sec id="statement-of-need">
+  <title>Statement of need</title>
+  <p>Advancing the development of 7T MRI for spinal cord imaging is
+  crucial for the enhanced diagnosis and monitoring of various
+  neurodegenerative diseases
+  (<xref alt="Kearney et al., 2015" rid="ref-Kearney2015-py" ref-type="bibr">Kearney
+  et al., 2015</xref>) and traumas
+  (<xref alt="David et al., 2019" rid="ref-David2019-jy" ref-type="bibr">David
+  et al., 2019</xref>). However, a significant challenge at this field
+  strength is the transmit field inhomogeneity . Such inhomogeneity is
+  particularly problematic for imaging the small, deep anatomical
+  structures
+  of(<xref alt="Collins et al., 2005" rid="ref-Collins2005-za" ref-type="bibr">Collins
+  et al., 2005</xref>;
+  <xref alt="Ibrahim et al., 2001" rid="ref-Ibrahim2001-xt" ref-type="bibr">Ibrahim
+  et al., 2001</xref>;
+  <xref alt="Röschmann, 1987" rid="ref-Roschmann1987-om" ref-type="bibr">Röschmann,
+  1987</xref>;
+  <xref alt="Yang et al., 2002" rid="ref-Yang2002-ui" ref-type="bibr">Yang
+  et al., 2002</xref>) the cervical spinal cord, as it can cause uneven
+  signal intensity and elevate the local specific absorption ratio,
+  compromising image quality. This multi-site study explores several
+  radiofrequency (RF) shimming techniques in the cervical spinal cord at
+  7T.</p>
+</sec>
+<sec id="data">
+  <title>1. Data</title>
+  <p>The data can be downloaded from:
+  https://openneuro.org/datasets/ds004906</p>
+  <p>The structure of the input dataset is as follows (JSON sidecars are
+  not listed for clarity):</p>
+  <p><monospace>{toggle} ~~~ ds004906 ├── CHANGES ├── README ├── dataset_description.json ├── participants.json ├── participants.tsv ├── sub-01 │   ├── anat │   │   ├── sub-01_acq-CP_T1w.nii.gz │   │   ├── sub-01_acq-CP_T2starw.nii.gz │   │   ├── sub-01_acq-CoV_T1w.nii.gz │   │   ├── sub-01_acq-CoV_T2starw.nii.gz │   │   ├── sub-01_acq-SAReff_T2starw.nii.gz │   │   ├── sub-01_acq-patient_T2starw.nii.gz │   │   ├── sub-01_acq-phase_T2starw.nii.gz │   │   ├── sub-01_acq-target_T2starw.nii.gz │   │   ├── sub-01_acq-volume_T2starw.nii.gz │   └── fmap │       ├── sub-01_acq-anatCP_TB1TFL.nii.gz │       ├── sub-01_acq-anatCoV_TB1TFL.nii.gz │       ├── sub-01_acq-anatSAReff_TB1TFL.nii.gz │       ├── sub-01_acq-anatpatient_TB1TFL.nii.gz │       ├── sub-01_acq-anatphase_TB1TFL.nii.gz │       ├── sub-01_acq-anattarget_TB1TFL.nii.gz │       ├── sub-01_acq-anatvolume_TB1TFL.nii.gz │       ├── sub-01_acq-fampCP_TB1TFL.nii.gz │       ├── sub-01_acq-fampCoV_TB1TFL.nii.gz │       ├── sub-01_acq-fampSAReff_TB1TFL.nii.gz │       ├── sub-01_acq-famppatient_TB1TFL.nii.gz │       ├── sub-01_acq-fampphase_TB1TFL.nii.gz │       ├── sub-01_acq-famptarget_TB1TFL.nii.gz │       └── sub-01_acq-fampvolume_TB1TFL.nii.gz ├── sub-02 ├── sub-03 ├── sub-04 └── sub-05 ~~~</monospace></p>
+</sec>
+<sec id="overview-of-processing-pipeline">
+  <title>2. Overview of processing pipeline</title>
+  <p>During the data acquisition stage, RF shimming was done using the
+  <ext-link ext-link-type="uri" xlink:href="https://github.com/shimming-toolbox/shimming-toolbox">Shimming
+  Toolbox</ext-link>
+  (<xref alt="D’Astous et al., 2023" rid="ref-DAstous2023" ref-type="bibr">D’Astous
+  et al., 2023</xref>) during the acquisition stage.</p>
+  <p>The post-processing pipeline uses the
+  <ext-link ext-link-type="uri" xlink:href="https://spinalcordtoolbox.com">Spinal
+  Cord Toolbox</ext-link>
+  (<xref alt="De Leener et al., 2017" rid="ref-DeLeener201724" ref-type="bibr">De
+  Leener et al., 2017</xref>).</p>
+  <p>For each subject:</p>
+  <list list-type="bullet">
+    <list-item>
+      <p>Process anat/T2starw (GRE)</p>
+      <list list-type="bullet">
+        <list-item>
+          <p>Segment the spinal cord (SC)</p>
+        </list-item>
+        <list-item>
+          <p>Label vertebral levels using existing manual disc
+          labels</p>
+        </list-item>
+        <list-item>
+          <p>Create a mask of the cerebrospinal fluid (CSF)</p>
+        </list-item>
+        <list-item>
+          <p>Extract the SC/CSF magnitude signal to assess the stability
+          of the flip angle across shim methods</p>
+        </list-item>
+      </list>
+    </list-item>
+    <list-item>
+      <p>Process fmap/TFL (flip angle maps)</p>
+      <list list-type="bullet">
+        <list-item>
+          <p>Register each B1 map (CP, CoV, etc.) to the GRE scan</p>
+        </list-item>
+        <list-item>
+          <p>Apply the computed warping field to bring the segmentation
+          and vertebral levels to the B1 map</p>
+        </list-item>
+        <list-item>
+          <p>Convert the B1 map to nT/V units</p>
+        </list-item>
+        <list-item>
+          <p>Extract the B1 map value within the SC</p>
+        </list-item>
+      </list>
+    </list-item>
+  </list>
+  <disp-quote>
+    <p>Slow processes are indicated with the emoji ⏳</p>
+  </disp-quote>
+</sec>
+<sec id="requirements">
+  <title>3. Requirements</title>
+  <list list-type="bullet">
+    <list-item>
+      <p>Install
+      <ext-link ext-link-type="uri" xlink:href="https://spinalcordtoolbox.com/user_section/installation.html">Spinal
+      Cord Toolbox</ext-link>
+      (<xref alt="De Leener et al., 2017" rid="ref-DeLeener201724" ref-type="bibr">De
+      Leener et al., 2017</xref>), eg</p>
+    </list-item>
+  </list>
+  <preformat># Install SCT ⏳
+!git clone --depth 1 https://github.com/spinalcordtoolbox/spinalcordtoolbox.git
+!yes | spinalcordtoolbox/install_sct
+os.environ['PATH'] += f&quot;:/content/spinalcordtoolbox/bin&quot;</preformat>
+  <list list-type="bullet">
+    <list-item>
+      <p>Download the project repository</p>
+    </list-item>
+  </list>
+  <preformat>git clone https://github.com/shimming-toolbox/rf-shimming-7t.git
+cd rf-shimming-7t
+git checkout main</preformat>
+  <list list-type="bullet">
+    <list-item>
+      <p>Install requirements</p>
+    </list-item>
+  </list>
+  <preformat>pip install -r binder/requirements.txt</preformat>
+  <list list-type="bullet">
+    <list-item>
+      <p>Download data</p>
+    </list-item>
+  </list>
+  <preformat>cd content
+repo2data -r ../binder/data_requirement.json</preformat>
+</sec>
+<sec id="environment-setup">
+  <title>4. Environment setup</title>
+  <p>In a Python shell, import the necessary modules and define
+  variables.</p>
+</sec>
+<sec id="process-anatt2starw-gre">
+  <title>5. Process anat/T2starw (GRE)</title>
+  <list list-type="order">
+    <list-item>
+      <p>Run segmentation on GRE scan.</p>
+    </list-item>
+    <list-item>
+      <p>Copy CSF masks from the derivatives folder.</p>
+    </list-item>
+  </list>
+  <disp-quote>
+    <p>For more details about how these masks were created, see:
+    <ext-link ext-link-type="uri" xlink:href="https://github.com/shimming-toolbox/rf-shimming-7t/issues/67">https://github.com/shimming-toolbox/rf-shimming-7t/issues/67</ext-link>.</p>
+  </disp-quote>
+  <list list-type="order">
+    <list-item>
+      <label>3.</label>
+      <p>Crop GRE scan for faster processing and better registration
+      results.</p>
+    </list-item>
+    <list-item>
+      <label>4.</label>
+      <p>Label vertebrae on GRE scan.</p>
+    </list-item>
+    <list-item>
+      <label>5.</label>
+      <p>Register *_T2starw to CoV_T2starw.</p>
+    </list-item>
+    <list-item>
+      <label>6.</label>
+      <p>Extract the signal intensity on the GRE scan within the spinal
+      cord between levels C3 and T2 (included), which correspond to the
+      region where RF shimming was prescribed.</p>
+    </list-item>
+    <list-item>
+      <label>7.</label>
+      <p>Prepare data for figure of CSF/SC signal ratio from T2starw
+      scan.</p>
+    </list-item>
+    <list-item>
+      <label>8.</label>
+      <p>Perform statistics.</p>
+    </list-item>
+  </list>
+</sec>
+<sec id="process-fmaptfl-flip-angle-maps">
+  <title>6. Process fmap/TFL (flip angle maps)</title>
+  <list list-type="order">
+    <list-item>
+      <p>Register TFL flip angle maps to the GRE scan.</p>
+    </list-item>
+    <list-item>
+      <p>Warping spinal cord segmentation and vertebral level to each
+      flip angle map.</p>
+    </list-item>
+    <list-item>
+      <p>Convert the flip angle maps to B1+ efficiency maps [nT/V]
+      (inspired by code from Kyle Gilbert).</p>
+    </list-item>
+    <list-item>
+      <p>The approach consists in calculating the B1+ efficiency using a
+      1ms, pi-pulse at the acquisition voltage, then scale the
+      efficiency by the ratio of the measured flip angle to the
+      requested flip angle in the pulse sequence.</p>
+    </list-item>
+    <list-item>
+      <p>Extract B1+ value along the spinal cord between levels C3 and
+      T2 (included).</p>
+    </list-item>
+    <list-item>
+      <p>Prepare data for figure of B1+ values along the spinal cord
+      across shim methods.</p>
+    </list-item>
+    <list-item>
+      <p>Perform statistics.</p>
+    </list-item>
+  </list>
+</sec>
+<sec id="paper-figures">
+  <title>7. Paper figures</title>
+  <list list-type="order">
+    <list-item>
+      <p>Prepare RF shimming mask for figure.</p>
+    </list-item>
+    <list-item>
+      <p>Create figure of B1+ maps.</p>
+    </list-item>
+  </list>
+  <fig>
+    <caption><p>B1+ efficiency for one participant (sub-05) across all
+    seven RF shimming conditions. The top left panel shows the tfl_b1map
+    magnitude image with an overlay of the mask that was used to perform
+    RF shimming. Text inserts show the mean (in nT/V) and CoV (in %) of
+    B1+ efficiency along the spinal cord between C3 and T2.
+    <styled-content id="figU003Afig2"></styled-content></p></caption>
+    <graphic mimetype="image" mime-subtype="png" xlink:href="media/fig2_b1plus_map.png" />
+  </fig>
+  <fig>
+    <caption><p>B1+ efficiency (A) and CSF/Cord signal ratio from the
+    GRE scan (B) across subjects and across different RF shimming
+    conditions. Data were measured in the spinal cord from C3 to T2
+    vertebral levels. To match the x-ticks across subjects, the C2-C3
+    and the T2-T3 intervertebral discs of each subject were aligned with
+    that of the PAM50 template
+    (<xref alt="De Leener et al., 2018" rid="ref-DELEENER2018170" ref-type="bibr">De
+    Leener et al., 2018</xref>), and the curves were linearly scaled.
+    <styled-content id="figU003Afig3"></styled-content></p></caption>
+    <graphic mimetype="image" mime-subtype="png" xlink:href="media/fig3_plotly.png" />
+  </fig>
+</sec>
+<sec id="acknowledgements">
+  <title>Acknowledgements</title>
+  <p>Funded by the Canada Research Chair in Quantitative Magnetic
+  Resonance Imaging [950-230815], the Canadian Institute of Health
+  Research [CIHR FDN-143263], the Canada Foundation for Innovation
+  [32454, 34824], the Fonds de Recherche du Québec - Santé [28826], the
+  Natural Sciences and Engineering Research Council of Canada
+  [RGPIN-2019-07244], the Canada First Research Excellence Fund (IVADO
+  and TransMedTech), the Courtois NeuroMod project and the Quebec
+  BioImaging Network [5886, 35450], and MITACS Accelerate
+  Fellowship.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+  <ref id="ref-DAstous2023">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>D’Astous</surname><given-names>Alexandre</given-names></name>
+        <name><surname>Cereza</surname><given-names>Gaspard</given-names></name>
+        <name><surname>Papp</surname><given-names>Daniel</given-names></name>
+        <name><surname>Gilbert</surname><given-names>Kyle M.</given-names></name>
+        <name><surname>Stockmann</surname><given-names>Jason P.</given-names></name>
+        <name><surname>Alonso-Ortiz</surname><given-names>Eva</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+      </person-group>
+      <article-title>Shimming toolbox: An open-source software toolbox for B0 and B1 shimming in MRI</article-title>
+      <source>Magnetic Resonance in Medicine</source>
+      <year iso-8601-date="2023">2023</year>
+      <volume>89</volume>
+      <issue>4</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.29528</pub-id>
+      <fpage>1401</fpage>
+      <lpage>1417</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-DeLeener201724">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>De Leener</surname><given-names>Benjamin</given-names></name>
+        <name><surname>Lévy</surname><given-names>Simon</given-names></name>
+        <name><surname>Dupont</surname><given-names>Sara M.</given-names></name>
+        <name><surname>Fonov</surname><given-names>Vladimir S.</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Collins</surname><given-names>D. Louis</given-names></name>
+        <name><surname>Callot</surname><given-names>Virginie</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+      </person-group>
+      <article-title>SCT: Spinal cord toolbox, an open-source software for processing spinal cord {MRI} data</article-title>
+      <source>NeuroImage</source>
+      <year iso-8601-date="2017">2017</year>
+      <volume>145, Part A</volume>
+      <issue></issue>
+      <issn>1053-8119</issn>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2016.10.009</pub-id>
+      <fpage>24 </fpage>
+      <lpage> 43</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Kearney2015-py">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Kearney</surname><given-names>Hugh</given-names></name>
+        <name><surname>Miller</surname><given-names>David H</given-names></name>
+        <name><surname>Ciccarelli</surname><given-names>Olga</given-names></name>
+      </person-group>
+      <article-title>Spinal cord MRI in multiple sclerosis–diagnostic, prognostic and clinical value</article-title>
+      <source>Nat. Rev. Neurol.</source>
+      <year iso-8601-date="2015-06">2015</year><month>06</month>
+      <volume>11</volume>
+      <issue>6</issue>
+      <pub-id pub-id-type="doi">10.1038/nrneurol.2015.80</pub-id>
+      <fpage>327</fpage>
+      <lpage>338</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-David2019-jy">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>David</surname><given-names>Gergely</given-names></name>
+        <name><surname>Mohammadi</surname><given-names>Siawoosh</given-names></name>
+        <name><surname>Martin</surname><given-names>Allan R</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+        <name><surname>Weiskopf</surname><given-names>Nikolaus</given-names></name>
+        <name><surname>Thompson</surname><given-names>Alan</given-names></name>
+        <name><surname>Freund</surname><given-names>Patrick</given-names></name>
+      </person-group>
+      <article-title>Traumatic and nontraumatic spinal cord injury: Pathological insights from neuroimaging</article-title>
+      <source>Nat. Rev. Neurol.</source>
+      <year iso-8601-date="2019-12">2019</year><month>12</month>
+      <volume>15</volume>
+      <issue>12</issue>
+      <pub-id pub-id-type="doi">10.1038/s41582-019-0270-5</pub-id>
+      <fpage>718</fpage>
+      <lpage>731</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Ibrahim2001-xt">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Ibrahim</surname><given-names>Tamer S</given-names></name>
+        <name><surname>Lee</surname><given-names>Robert</given-names></name>
+        <name><surname>Abduljalil</surname><given-names>Amir M</given-names></name>
+        <name><surname>Baertlein</surname><given-names>Brian A</given-names></name>
+        <name><surname>Robitaille</surname><given-names>Pierre-Marie L</given-names></name>
+      </person-group>
+      <article-title>Dielectric resonances and B1 field inhomogeneity in UHFMRI: Computational analysis and experimental findings</article-title>
+      <source>Magnetic Resonance Imaging</source>
+      <year iso-8601-date="2001">2001</year>
+      <volume>19</volume>
+      <issue>2</issue>
+      <issn>0730-725X</issn>
+      <pub-id pub-id-type="doi">10.1016/S0730-725X(01)00300-9</pub-id>
+      <fpage>219</fpage>
+      <lpage>226</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Collins2005-za">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Collins</surname><given-names>Christopher M</given-names></name>
+        <name><surname>Liu</surname><given-names>Wanzhan</given-names></name>
+        <name><surname>Schreiber</surname><given-names>Weston</given-names></name>
+        <name><surname>Yang</surname><given-names>Qing X</given-names></name>
+        <name><surname>Smith</surname><given-names>Michael B</given-names></name>
+      </person-group>
+      <article-title>Central brightening due to constructive interference with, without, and despite dielectric resonance</article-title>
+      <source>J. Magn. Reson. Imaging</source>
+      <year iso-8601-date="2005-02">2005</year><month>02</month>
+      <volume>21</volume>
+      <issue>2</issue>
+      <pub-id pub-id-type="doi">10.1002/jmri.20245</pub-id>
+      <fpage>192</fpage>
+      <lpage>196</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Roschmann1987-om">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Röschmann</surname><given-names>P</given-names></name>
+      </person-group>
+      <article-title>Radiofrequency penetration and absorption in the human body: Limitations to high-field whole-body nuclear magnetic resonance imaging</article-title>
+      <source>Med. Phys.</source>
+      <year iso-8601-date="1987-11">1987</year><month>11</month>
+      <volume>14</volume>
+      <issue>6</issue>
+      <pub-id pub-id-type="doi">10.1118/1.595995</pub-id>
+      <fpage>922</fpage>
+      <lpage>931</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Yang2002-ui">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Yang</surname><given-names>Qing X</given-names></name>
+        <name><surname>Wang</surname><given-names>Jinghua</given-names></name>
+        <name><surname>Zhang</surname><given-names>Xiaoliang</given-names></name>
+        <name><surname>Collins</surname><given-names>Christopher M</given-names></name>
+        <name><surname>Smith</surname><given-names>Michael B</given-names></name>
+        <name><surname>Liu</surname><given-names>Haiying</given-names></name>
+        <name><surname>Zhu</surname><given-names>Xiao-Hong</given-names></name>
+        <name><surname>Vaughan</surname><given-names>J Thomas</given-names></name>
+        <name><surname>Ugurbil</surname><given-names>Kamil</given-names></name>
+        <name><surname>Chen</surname><given-names>Wei</given-names></name>
+      </person-group>
+      <article-title>Analysis of wave behavior in lossy dielectric samples at high field</article-title>
+      <source>Magn. Reson. Med.</source>
+      <year iso-8601-date="2002-05">2002</year><month>05</month>
+      <volume>47</volume>
+      <issue>5</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.10137</pub-id>
+      <fpage>982</fpage>
+      <lpage>989</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-DELEENER2018170">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>De Leener</surname><given-names>Benjamin</given-names></name>
+        <name><surname>Fonov</surname><given-names>Vladimir S.</given-names></name>
+        <name><surname>Collins</surname><given-names>D. Louis</given-names></name>
+        <name><surname>Callot</surname><given-names>Virginie</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Cohen-Adad</surname><given-names>Julien</given-names></name>
+      </person-group>
+      <article-title>PAM50: Unbiased multimodal template of the brainstem and spinal cord aligned with the ICBM152 space</article-title>
+      <source>NeuroImage</source>
+      <year iso-8601-date="2018">2018</year>
+      <volume>165</volume>
+      <issn>1053-8119</issn>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2017.10.041</pub-id>
+      <fpage>170</fpage>
+      <lpage>179</lpage>
+    </element-citation>
+  </ref>
+</ref-list>
+</back>
+</article>
