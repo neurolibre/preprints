@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>20240329T073012-8763609a79966d4c1b9ecd76b9511aedec8ec422</doi_batch_id>
+    <timestamp>20240329073012</timestamp>
+    <depositor>
+      <depositor_name>NeuroLibre Admin</depositor_name>
+      <email_address>admin@neurolibre.org</email_address>
+    </depositor>
+    <registrant>Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal</registrant>
+  </head>
+  <body>
+  <posted_content type="preprint">
+  <group_title>NeuroLibre Reproducible Preprints</group_title>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Daniel</given_name>
+            <surname>Papp</surname>
+            <ORCID>https://orcid.org/0000-0003-1481-1413</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Kyle M.</given_name>
+            <surname>Gilbert</surname>
+            <ORCID>https://orcid.org/0000-0003-3026-5686</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Gaspard</given_name>
+            <surname>Cereza</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Alexandre</given_name>
+            <surname>D’Astous</surname>
+            <ORCID>https://orcid.org/0000-0003-0381-7334</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Nibardo</given_name>
+            <surname>Lopez-Rios</surname>
+            <ORCID>https://orcid.org/0000-0002-4791-8260</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Mathieu</given_name>
+            <surname>Boudreau</surname>
+            <ORCID>https://orcid.org/0000-0002-7726-4456</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Marcus</given_name>
+            <surname>Couch</surname>
+            <ORCID>https://orcid.org/0000-0002-2732-8941</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Pedram</given_name>
+            <surname>Yazdanbakhsh</surname>
+            <ORCID>https://orcid.org/0000-0003-4456-5997</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Robert L.</given_name>
+            <surname>Barry</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Eva Alonso</given_name>
+            <surname>Ortiz</surname>
+            <ORCID>https://orcid.org/0000-0001-6590-7234</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Julien</given_name>
+            <surname>Cohen-Adad</surname>
+            <ORCID>https://orcid.org/0000-0003-3662-9532</ORCID>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Analysis code for the paper “RF shimming in the
+cervical spinal cord at 7T”</title>
+        </titles>
+        <posted_date>
+          <month>03</month>
+          <day>29</day>
+          <year>2024</year>
+        </posted_date>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Repository archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi"></rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Dataset archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi"></rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Book archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi"></rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Container archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi"></rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub technical screening</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://github.com/neurolibre/neurolibre-reviews/issues/25</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Executable preprint</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://preprint.neurolibre.org/10.55458/neurolibre.00025</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.55458/neurolibre.00025</doi>
+          <resource>https://neurolibre.org/papers/10.55458/neurolibre.00025</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://preprint.neurolibre.org/10.55458/neurolibre.00025.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="DAstous2023">
+            <article_title>Shimming toolbox: An open-source software
+toolbox for B0 and B1 shimming in MRI</article_title>
+            <author>D’Astous</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>4</issue>
+            <volume>89</volume>
+            <doi>10.1002/mrm.29528</doi>
+            <cYear>2023</cYear>
+            <unstructured_citation>D’Astous, A., Cereza, G., Papp, D.,
+Gilbert, K. M., Stockmann, J. P., Alonso-Ortiz, E., &amp; Cohen-Adad, J.
+(2023). Shimming toolbox: An open-source software toolbox for B0 and B1
+shimming in MRI. Magnetic Resonance in Medicine, 89(4), 1401–1417.
+https://doi.org/10.1002/mrm.29528</unstructured_citation>
+          </citation>
+          <citation key="DeLeener201724">
+            <article_title>SCT: Spinal cord toolbox, an open-source
+software for processing spinal cord {MRI} data</article_title>
+            <author>De Leener</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>145, Part A</volume>
+            <doi>10.1016/j.neuroimage.2016.10.009</doi>
+            <issn>1053-8119</issn>
+            <cYear>2017</cYear>
+            <unstructured_citation>De Leener, B., Lévy, S., Dupont, S.
+M., Fonov, V. S., Stikov, N., Collins, D. L., Callot, V., &amp;
+Cohen-Adad, J. (2017). SCT: Spinal cord toolbox, an open-source software
+for processing spinal cord {MRI} data. NeuroImage, 145, Part A, 24–43.
+https://doi.org/10.1016/j.neuroimage.2016.10.009</unstructured_citation>
+          </citation>
+          <citation key="Kearney2015-py">
+            <article_title>Spinal cord MRI in multiple
+sclerosis–diagnostic, prognostic and clinical value</article_title>
+            <author>Kearney</author>
+            <journal_title>Nat. Rev. Neurol.</journal_title>
+            <issue>6</issue>
+            <volume>11</volume>
+            <doi>10.1038/nrneurol.2015.80</doi>
+            <cYear>2015</cYear>
+            <unstructured_citation>Kearney, H., Miller, D. H., &amp;
+Ciccarelli, O. (2015). Spinal cord MRI in multiple sclerosis–diagnostic,
+prognostic and clinical value. Nat. Rev. Neurol., 11(6), 327–338.
+https://doi.org/10.1038/nrneurol.2015.80</unstructured_citation>
+          </citation>
+          <citation key="David2019-jy">
+            <article_title>Traumatic and nontraumatic spinal cord
+injury: Pathological insights from neuroimaging</article_title>
+            <author>David</author>
+            <journal_title>Nat. Rev. Neurol.</journal_title>
+            <issue>12</issue>
+            <volume>15</volume>
+            <doi>10.1038/s41582-019-0270-5</doi>
+            <cYear>2019</cYear>
+            <unstructured_citation>David, G., Mohammadi, S., Martin, A.
+R., Cohen-Adad, J., Weiskopf, N., Thompson, A., &amp; Freund, P. (2019).
+Traumatic and nontraumatic spinal cord injury: Pathological insights
+from neuroimaging. Nat. Rev. Neurol., 15(12), 718–731.
+https://doi.org/10.1038/s41582-019-0270-5</unstructured_citation>
+          </citation>
+          <citation key="Ibrahim2001-xt">
+            <article_title>Dielectric resonances and B1 field
+inhomogeneity in UHFMRI: Computational analysis and experimental
+findings</article_title>
+            <author>Ibrahim</author>
+            <journal_title>Magnetic Resonance Imaging</journal_title>
+            <issue>2</issue>
+            <volume>19</volume>
+            <doi>10.1016/S0730-725X(01)00300-9</doi>
+            <issn>0730-725X</issn>
+            <cYear>2001</cYear>
+            <unstructured_citation>Ibrahim, T. S., Lee, R., Abduljalil,
+A. M., Baertlein, B. A., &amp; Robitaille, P.-M. L. (2001). Dielectric
+resonances and B1 field inhomogeneity in UHFMRI: Computational analysis
+and experimental findings. Magnetic Resonance Imaging, 19(2), 219–226.
+https://doi.org/10.1016/S0730-725X(01)00300-9</unstructured_citation>
+          </citation>
+          <citation key="Collins2005-za">
+            <article_title>Central brightening due to constructive
+interference with, without, and despite dielectric
+resonance</article_title>
+            <author>Collins</author>
+            <journal_title>J. Magn. Reson. Imaging</journal_title>
+            <issue>2</issue>
+            <volume>21</volume>
+            <doi>10.1002/jmri.20245</doi>
+            <cYear>2005</cYear>
+            <unstructured_citation>Collins, C. M., Liu, W., Schreiber,
+W., Yang, Q. X., &amp; Smith, M. B. (2005). Central brightening due to
+constructive interference with, without, and despite dielectric
+resonance. J. Magn. Reson. Imaging, 21(2), 192–196.
+https://doi.org/10.1002/jmri.20245</unstructured_citation>
+          </citation>
+          <citation key="Roschmann1987-om">
+            <article_title>Radiofrequency penetration and absorption in
+the human body: Limitations to high-field whole-body nuclear magnetic
+resonance imaging</article_title>
+            <author>Röschmann</author>
+            <journal_title>Med. Phys.</journal_title>
+            <issue>6</issue>
+            <volume>14</volume>
+            <doi>10.1118/1.595995</doi>
+            <cYear>1987</cYear>
+            <unstructured_citation>Röschmann, P. (1987). Radiofrequency
+penetration and absorption in the human body: Limitations to high-field
+whole-body nuclear magnetic resonance imaging. Med. Phys., 14(6),
+922–931. https://doi.org/10.1118/1.595995</unstructured_citation>
+          </citation>
+          <citation key="Yang2002-ui">
+            <article_title>Analysis of wave behavior in lossy dielectric
+samples at high field</article_title>
+            <author>Yang</author>
+            <journal_title>Magn. Reson. Med.</journal_title>
+            <issue>5</issue>
+            <volume>47</volume>
+            <doi>10.1002/mrm.10137</doi>
+            <cYear>2002</cYear>
+            <unstructured_citation>Yang, Q. X., Wang, J., Zhang, X.,
+Collins, C. M., Smith, M. B., Liu, H., Zhu, X.-H., Vaughan, J. T.,
+Ugurbil, K., &amp; Chen, W. (2002). Analysis of wave behavior in lossy
+dielectric samples at high field. Magn. Reson. Med., 47(5), 982–989.
+https://doi.org/10.1002/mrm.10137</unstructured_citation>
+          </citation>
+          <citation key="DELEENER2018170">
+            <article_title>PAM50: Unbiased multimodal template of the
+brainstem and spinal cord aligned with the ICBM152 space</article_title>
+            <author>De Leener</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>165</volume>
+            <doi>10.1016/j.neuroimage.2017.10.041</doi>
+            <issn>1053-8119</issn>
+            <cYear>2018</cYear>
+            <unstructured_citation>De Leener, B., Fonov, V. S., Collins,
+D. L., Callot, V., Stikov, N., &amp; Cohen-Adad, J. (2018). PAM50:
+Unbiased multimodal template of the brainstem and spinal cord aligned
+with the ICBM152 space. NeuroImage, 165, 170–179.
+https://doi.org/10.1016/j.neuroimage.2017.10.041</unstructured_citation>
+          </citation>
+        </citation_list>
+  </posted_content>
+  </body>
+</doi_batch>
