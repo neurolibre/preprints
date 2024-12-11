@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>20241211T055034-0bd77da776008ac25ad910c7988eec6b38284ba6</doi_batch_id>
+    <timestamp>20241211055034</timestamp>
+    <depositor>
+      <depositor_name>NeuroLibre Admin</depositor_name>
+      <email_address>admin@neurolibre.org</email_address>
+    </depositor>
+    <registrant>Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal</registrant>
+  </head>
+  <body>
+  <posted_content type="preprint">
+  <group_title>NeuroLibre Reproducible Preprints</group_title>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Jessica</given_name>
+            <surname>Archibald</surname>
+            <ORCID>https://orcid.org/0000-0001-6651-183X</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Alexander Mark</given_name>
+            <surname>Weber</surname>
+            <ORCID>https://orcid.org/0000-0001-7295-0775</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Paulina S.</given_name>
+            <surname>Scheuren</surname>
+            <ORCID>https://orcid.org/0000-0001-7568-0133</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Oscar</given_name>
+            <surname>Ortiz</surname>
+            <ORCID>https://orcid.org/0000-0001-5872-2434</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Cassandra</given_name>
+            <surname>Choles</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Jaimie J.</given_name>
+            <surname>Lee</surname>
+            <ORCID>https://orcid.org/0009-0009-6246-2773</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Niklaus</given_name>
+            <surname>Zölch</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Erin L.</given_name>
+            <surname>MacMillan</surname>
+            <ORCID>https://orcid.org/0000-0002-8515-5858</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>John L. K</given_name>
+            <surname>Kramer</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Integrating Structural, Functional, and Biochemical
+Brain Imaging Data with MRShiny Brain - An Interactive Web
+Application</title>
+        </titles>
+        <posted_date>
+          <month>12</month>
+          <day>11</day>
+          <year>2024</year>
+        </posted_date>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Repository archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.14375265</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Dataset archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">N/A</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Book archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.14375267</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Container archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">N/A</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub technical screening</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://github.com/neurolibre/neurolibre-reviews/issues/29</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Executable preprint</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://preprint.neurolibre.org/10.55458/neurolibre.00029</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.55458/neurolibre.00029</doi>
+          <resource>https://neurolibre.org/papers/10.55458/neurolibre.00029</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://preprint.neurolibre.org/10.55458/neurolibre.00029.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="kubota2021dynamic">
+            <article_title>Dynamic alterations in the central
+glutamatergic status following food and glucose intake: In vivo
+multimodal assessments in humans and animal models</article_title>
+            <author>Kubota</author>
+            <journal_title>Journal of Cerebral Blood Flow &amp;
+Metabolism</journal_title>
+            <issue>11</issue>
+            <volume>41</volume>
+            <doi>10.1177/0271678X211004150</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Kubota, M., Kimura, Y., Shimojo, M.,
+Takado, Y., Duarte, J. M., Takuwa, H., Seki, C., Shimada, H., Shinotoh,
+H., Takahata, K., &amp; others. (2021). Dynamic alterations in the
+central glutamatergic status following food and glucose intake: In vivo
+multimodal assessments in humans and animal models. Journal of Cerebral
+Blood Flow &amp; Metabolism, 41(11), 2928–2943.
+https://doi.org/10.1177/0271678X211004150</unstructured_citation>
+          </citation>
+          <citation key="eckelmahan2013metabolism">
+            <article_title>Metabolism and the circadian clock
+converge</article_title>
+            <author>Eckel-Mahan</author>
+            <journal_title>Physiol. Rev.</journal_title>
+            <volume>93</volume>
+            <doi>10.1152/physrev.00016.2012</doi>
+            <cYear>2013</cYear>
+            <unstructured_citation>Eckel-Mahan, K., &amp; Sassone-Corsi,
+P. (2013). Metabolism and the circadian clock converge. Physiol. Rev.,
+93, 107–135.
+https://doi.org/10.1152/physrev.00016.2012</unstructured_citation>
+          </citation>
+          <citation key="hjelmervik2018sex">
+            <article_title>Sex- and sex hormone-related variations in
+energy-metabolic frontal brain asymmetries: A magnetic resonance
+spectroscopy study</article_title>
+            <author>Hjelmervik</author>
+            <journal_title>Neuroimage</journal_title>
+            <volume>172</volume>
+            <doi>10.1016/j.neuroimage.2018.01.043</doi>
+            <cYear>2018</cYear>
+            <unstructured_citation>Hjelmervik, H., &amp; others. (2018).
+Sex- and sex hormone-related variations in energy-metabolic frontal
+brain asymmetries: A magnetic resonance spectroscopy study. Neuroimage,
+172, 817–825.
+https://doi.org/10.1016/j.neuroimage.2018.01.043</unstructured_citation>
+          </citation>
+          <citation key="adebimpe2022aslprep">
+            <article_title>ASLPrep: A platform for processing of
+arterial spin labeled MRI and quantification of regional brain
+perfusion</article_title>
+            <author>Adebimpe</author>
+            <journal_title>Nature methods</journal_title>
+            <issue>6</issue>
+            <volume>19</volume>
+            <doi>10.1038/s41592-022-01458-7</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Adebimpe, A., Bertolero, M., Dolui,
+S., Cieslak, M., Murtha, K., Baller, E. B., Boeve, B., Boxer, A.,
+Butler, E. R., Cook, P., &amp; others. (2022). ASLPrep: A platform for
+processing of arterial spin labeled MRI and quantification of regional
+brain perfusion. Nature Methods, 19(6), 683–686.
+https://doi.org/10.1038/s41592-022-01458-7</unstructured_citation>
+          </citation>
+          <citation key="salo2023aslprep">
+            <article_title>ASLPrep: A Robust Preprocessing Pipeline for
+ASL Data</article_title>
+            <author>Salo</author>
+            <doi>10.5281/zenodo.7809101</doi>
+            <cYear>2023</cYear>
+            <unstructured_citation>Salo, T., Adebimpe, A., Bertolero,
+M., Dolui, S., Cieslak, M., Murtha, K., Baller, E., Boeve, B., Boxer,
+A., Butler, E. R., Cook, P., Colcombe, S., Covitz, S., Davatzikos, C.,
+Davila, D. G., Elliott, M. A., Flounders, M. W., Franco, A. R., Gur, R.
+E., … Satterthwaite, T. (2023). ASLPrep: A Robust Preprocessing Pipeline
+for ASL Data (Version 0.3.0). Zenodo.
+https://doi.org/10.5281/zenodo.7809101</unstructured_citation>
+          </citation>
+          <citation key="esteban2019fmriprep">
+            <article_title>fMRIPrep: A robust preprocessing pipeline for
+functional MRI</article_title>
+            <author>Esteban</author>
+            <journal_title>Nat. Methods</journal_title>
+            <volume>16</volume>
+            <doi>10.1038/s41592-018-0235-4</doi>
+            <cYear>2019</cYear>
+            <unstructured_citation>Esteban, O., &amp; others. (2019).
+fMRIPrep: A robust preprocessing pipeline for functional MRI. Nat.
+Methods, 16, 111–116.
+https://doi.org/10.1038/s41592-018-0235-4</unstructured_citation>
+          </citation>
+          <citation key="esteban2020analysis">
+            <article_title>Analysis of task-based functional MRI data
+preprocessed with fMRIPrep</article_title>
+            <author>Esteban</author>
+            <journal_title>Nat. Protoc.</journal_title>
+            <volume>15</volume>
+            <doi>10.1038/s41596-020-0327-3</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Esteban, O., &amp; others. (2020).
+Analysis of task-based functional MRI data preprocessed with fMRIPrep.
+Nat. Protoc., 15, 2186–2202.
+https://doi.org/10.1038/s41596-020-0327-3</unstructured_citation>
+          </citation>
+          <citation key="avants2014ants">
+            <article_title>Advanced normalization tools:
+V1.0</article_title>
+            <author>Avants</author>
+            <doi>10.54294/uvnhin</doi>
+            <cYear>2009</cYear>
+            <unstructured_citation>Avants, B., Tustison, N., &amp; Song,
+G. (2009). Advanced normalization tools: V1.0.
+https://doi.org/10.54294/uvnhin</unstructured_citation>
+          </citation>
+          <citation key="avants2008symmetric">
+            <article_title>Symmetric diffeomorphic image registration
+with cross-correlation: Evaluating automated labeling of elderly and
+neurodegenerative brain</article_title>
+            <author>Avants</author>
+            <journal_title>Med Image Anal</journal_title>
+            <volume>12</volume>
+            <doi>10.1016/j.media.2007.06.004</doi>
+            <cYear>2008</cYear>
+            <unstructured_citation>Avants, B. B., &amp; others. (2008).
+Symmetric diffeomorphic image registration with cross-correlation:
+Evaluating automated labeling of elderly and neurodegenerative brain.
+Med Image Anal, 12, 26–41.
+https://doi.org/10.1016/j.media.2007.06.004</unstructured_citation>
+          </citation>
+          <citation key="jenkinson2002improved">
+            <article_title>Improved optimization for the robust and
+accurate linear registration and motion correction of brain
+images</article_title>
+            <author>Jenkinson</author>
+            <journal_title>Neuroimage</journal_title>
+            <volume>17</volume>
+            <doi>10.1006/nimg.2002.1132</doi>
+            <cYear>2002</cYear>
+            <unstructured_citation>Jenkinson, M., &amp; others. (2002).
+Improved optimization for the robust and accurate linear registration
+and motion correction of brain images. Neuroimage, 17, 825–841.
+https://doi.org/10.1006/nimg.2002.1132</unstructured_citation>
+          </citation>
+          <citation key="wang2008empirical">
+            <article_title>Empirical optimization of ASL data analysis
+using an ASL data processing toolbox: ASLtbx</article_title>
+            <author>Wang</author>
+            <journal_title>Magn. Reson. Imaging</journal_title>
+            <volume>26</volume>
+            <doi>10.1016/j.mri.2007.07.003</doi>
+            <cYear>2008</cYear>
+            <unstructured_citation>Wang, Z., &amp; others. (2008).
+Empirical optimization of ASL data analysis using an ASL data processing
+toolbox: ASLtbx. Magn. Reson. Imaging, 26, 261–269.
+https://doi.org/10.1016/j.mri.2007.07.003</unstructured_citation>
+          </citation>
+          <citation key="jenkinson2001global">
+            <article_title>A global optimisation method for robust
+affine registration of brain images</article_title>
+            <author>Jenkinson</author>
+            <journal_title>Med. Image Anal.</journal_title>
+            <volume>5</volume>
+            <doi>10.1016/s1361-8415(01)00036-6</doi>
+            <cYear>2001</cYear>
+            <unstructured_citation>Jenkinson, M., &amp; Smith, S.
+(2001). A global optimisation method for robust affine registration of
+brain images. Med. Image Anal., 5, 143–156.
+https://doi.org/10.1016/s1361-8415(01)00036-6</unstructured_citation>
+          </citation>
+          <citation key="greve2009accurate">
+            <article_title>Accurate and robust brain image alignment
+using boundary-based registration</article_title>
+            <author>Greve</author>
+            <journal_title>Neuroimage</journal_title>
+            <volume>48</volume>
+            <doi>10.1016/j.neuroimage.2009.06.060</doi>
+            <cYear>2009</cYear>
+            <unstructured_citation>Greve, D. N., &amp; Fischl, B.
+(2009). Accurate and robust brain image alignment using boundary-based
+registration. Neuroimage, 48, 63–72.
+https://doi.org/10.1016/j.neuroimage.2009.06.060</unstructured_citation>
+          </citation>
+          <citation key="dolui2017structural">
+            <article_title>Structural correlation-based outlier
+rejection (SCORE) algorithm for arterial spin labeling time series:
+SCORE: Denoising algorithm for ASL</article_title>
+            <author>Dolui</author>
+            <journal_title>Journal of Magnetic Resonance
+Imaging</journal_title>
+            <issue>6</issue>
+            <volume>45</volume>
+            <doi>10.1002/jmri.25436</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>Dolui, S., Wang, Z., Shinohara, R.
+T., Wolk, D. A., &amp; Detre, J. A. (2017). Structural correlation-based
+outlier rejection (SCORE) algorithm for arterial spin labeling time
+series: SCORE: Denoising algorithm for ASL. Journal of Magnetic
+Resonance Imaging, 45(6).
+https://doi.org/10.1002/jmri.25436</unstructured_citation>
+          </citation>
+          <citation key="power2014methods">
+            <article_title>Methods to detect, characterize, and remove
+motion artifact in resting state fMRI</article_title>
+            <author>Power</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>28</volume>
+            <doi>10.1016/j.neuroimage.2013.08.048</doi>
+            <cYear>2014</cYear>
+            <unstructured_citation>Power, J. D., &amp; others. (2014).
+Methods to detect, characterize, and remove motion artifact in resting
+state fMRI. NeuroImage, 28, 529–543.
+https://doi.org/10.1016/j.neuroimage.2013.08.048</unstructured_citation>
+          </citation>
+          <citation key="buxton1998general">
+            <article_title>A general kinetic model for quantitative
+perfusion imaging with arterial spin labeling</article_title>
+            <author>Buxton</author>
+            <journal_title>Magnetic resonance in
+medicine</journal_title>
+            <issue>3</issue>
+            <volume>40</volume>
+            <doi>10.1002/mrm.1910400308</doi>
+            <cYear>1998</cYear>
+            <unstructured_citation>Buxton, R. B., Frank, L. R., Wong, E.
+C., Siewert, B., Warach, S., &amp; Edelman, R. R. (1998). A general
+kinetic model for quantitative perfusion imaging with arterial spin
+labeling. Magnetic Resonance in Medicine, 40(3), 383–396.
+https://doi.org/10.1002/mrm.1910400308</unstructured_citation>
+          </citation>
+          <citation key="abraham2014machine">
+            <article_title>Machine learning for neuroimaging with
+scikit-learn</article_title>
+            <author>Abraham</author>
+            <journal_title>Frontiers in neuroinformatics</journal_title>
+            <volume>8</volume>
+            <doi>10.3389/fninf.2014.00014</doi>
+            <cYear>2014</cYear>
+            <unstructured_citation>Abraham, A., Pedregosa, F.,
+Eickenberg, M., Gervais, P., Mueller, A., Kossaifi, J., Gramfort, A.,
+Thirion, B., &amp; Varoquaux, G. (2014). Machine learning for
+neuroimaging with scikit-learn. Frontiers in Neuroinformatics, 8, 71792.
+https://doi.org/10.3389/fninf.2014.00014</unstructured_citation>
+          </citation>
+          <citation key="near2021preprocessing">
+            <article_title>Preprocessing, analysis and quantification in
+single-voxel magnetic resonance spectroscopy: Experts’ consensus
+recommendations</article_title>
+            <author>Near</author>
+            <journal_title>NMR in Biomedicine</journal_title>
+            <issue>5</issue>
+            <volume>34</volume>
+            <doi>10.1002/nbm.4257</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Near, J., Harris, A. D., Juchem, C.,
+Kreis, R., Marjańska, M., Öz, G., Slotboom, J., Wilson, M., &amp;
+Gasparovic, C. (2021). Preprocessing, analysis and quantification in
+single-voxel magnetic resonance spectroscopy: Experts’ consensus
+recommendations. NMR in Biomedicine, 34(5), e4257.
+https://doi.org/10.1002/nbm.4257</unstructured_citation>
+          </citation>
+          <citation key="simpson2017advanced">
+            <article_title>Advanced processing and simulation of MRS
+data using the FID appliance (FID-a)—an open source, MATLAB-based
+toolkit</article_title>
+            <author>Simpson</author>
+            <journal_title>Magnetic resonance in
+medicine</journal_title>
+            <issue>1</issue>
+            <volume>77</volume>
+            <doi>10.1002/mrm.26091</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>Simpson, R., Devenyi, G. A., Jezzard,
+P., Hennessy, T. J., &amp; Near, J. (2017). Advanced processing and
+simulation of MRS data using the FID appliance (FID-a)—an open source,
+MATLAB-based toolkit. Magnetic Resonance in Medicine, 77(1), 23–33.
+https://doi.org/10.1002/mrm.26091</unstructured_citation>
+          </citation>
+          <citation key="cady1995estimation">
+            <article_title>The estimation of local brain temperature by
+in vivo 1H magnetic resonance spectroscopy</article_title>
+            <author>Cady</author>
+            <journal_title>Magn Reson Med</journal_title>
+            <issue>6</issue>
+            <volume>33</volume>
+            <doi>10.1002/mrm.1910330620</doi>
+            <cYear>1995</cYear>
+            <unstructured_citation>Cady, E. B., D’Souza, P. C., Penrice,
+J., &amp; Lorek, A. (1995). The estimation of local brain temperature by
+in vivo 1H magnetic resonance spectroscopy. Magn Reson Med, 33(6),
+862–867. https://doi.org/10.1002/mrm.1910330620</unstructured_citation>
+          </citation>
+          <citation key="thrippleton2014reliability">
+            <article_title>Reliability of MRSI brain temperature mapping
+at 1.5 and 3 t</article_title>
+            <author>Thrippleton</author>
+            <journal_title>NMR Biomed</journal_title>
+            <issue>2</issue>
+            <volume>27</volume>
+            <doi>10.1002/nbm.3050</doi>
+            <cYear>2014</cYear>
+            <unstructured_citation>Thrippleton, M. J., Parikh, J.,
+Harris, B. A., Hammer, S. J., Semple, S. I. K., Andrews, P. J. D.,
+Wardlaw, J. M., &amp; Marshall, I. (2014). Reliability of MRSI brain
+temperature mapping at 1.5 and 3 t. NMR Biomed, 27(2), 183–190.
+https://doi.org/10.1002/nbm.3050</unstructured_citation>
+          </citation>
+          <citation key="karakuzu2022nl">
+            <article_title>NeuroLibre : A preprint server for
+full-fledged reproducible neuroscience</article_title>
+            <author>Karakuzu</author>
+            <doi>10.31219/osf.io/h89js</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Karakuzu, A., DuPre, E., Tetrel, L.,
+Bermudez, P., Boudreau, M., Chin, M., Poline, J.-B., Das, S., Bellec,
+P., &amp; Stikov, N. (2022). NeuroLibre : A preprint server for
+full-fledged reproducible neuroscience. OSF Preprints.
+https://doi.org/10.31219/osf.io/h89js</unstructured_citation>
+          </citation>
+          <citation key="harding2023canadian">
+            <article_title>The canadian open neuroscience platform—an
+open science framework for the neuroscience community</article_title>
+            <author>Harding</author>
+            <journal_title>PLOS Computational Biology</journal_title>
+            <issue>7</issue>
+            <volume>19</volume>
+            <doi>10.1371/journal.pcbi.1011230</doi>
+            <cYear>2023</cYear>
+            <unstructured_citation>Harding, R. J., Bermudez, P.,
+Bernier, A., Beauvais, M., Bellec, P., Hill, S., Karakuzu, A., Knoppers,
+B. M., Pavlidis, P., Poline, J.-B., &amp; others. (2023). The canadian
+open neuroscience platform—an open science framework for the
+neuroscience community. PLOS Computational Biology, 19(7), e1011230.
+https://doi.org/10.1371/journal.pcbi.1011230</unstructured_citation>
+          </citation>
+        </citation_list>
+  </posted_content>
+  </body>
+</doi_batch>
