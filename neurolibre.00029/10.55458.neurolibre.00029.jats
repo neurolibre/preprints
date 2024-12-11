@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN"
+                  "JATS-publishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+<journal-title>NeuroLibre Reproducible Preprints</journal-title>
+<abbrev-journal-title>NeuroLibre</abbrev-journal-title>
+</journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher>
+<publisher-name>NeuroLibre</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">29</article-id>
+<article-id pub-id-type="doi">10.55458/neurolibre.00029</article-id>
+<title-group>
+<article-title>Integrating Structural, Functional, and Biochemical Brain
+Imaging Data with MRShiny Brain - An Interactive Web
+Application</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-6651-183X</contrib-id>
+<name>
+<surname>Archibald</surname>
+<given-names>Jessica</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="aff" rid="aff-2"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-7295-0775</contrib-id>
+<name>
+<surname>Weber</surname>
+<given-names>Alexander Mark</given-names>
+</name>
+<xref ref-type="aff" rid="aff-3"/>
+<xref ref-type="aff" rid="aff-4"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-7568-0133</contrib-id>
+<name>
+<surname>Scheuren</surname>
+<given-names>Paulina S.</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="aff" rid="aff-9"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-5872-2434</contrib-id>
+<name>
+<surname>Ortiz</surname>
+<given-names>Oscar</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Choles</surname>
+<given-names>Cassandra</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="aff" rid="aff-9"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0009-0009-6246-2773</contrib-id>
+<name>
+<surname>Lee</surname>
+<given-names>Jaimie J.</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="aff" rid="aff-9"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Zölch</surname>
+<given-names>Niklaus</given-names>
+</name>
+<xref ref-type="aff" rid="aff-5"/>
+</contrib>
+<contrib contrib-type="author" equal-contrib="yes">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-8515-5858</contrib-id>
+<name>
+<surname>MacMillan</surname>
+<given-names>Erin L.</given-names>
+</name>
+<xref ref-type="aff" rid="aff-6"/>
+<xref ref-type="aff" rid="aff-8"/>
+<xref ref-type="aff" rid="aff-7"/>
+</contrib>
+<contrib contrib-type="author" equal-contrib="yes">
+<name>
+<surname>Kramer</surname>
+<given-names>John L. K</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="aff" rid="aff-9"/>
+</contrib>
+<aff id="aff-1">
+<institution-wrap>
+<institution>International Collaboration on Repair Discoveries (ICORD),
+University of BritishColumbia, Vancouver, Canada.</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-2">
+<institution-wrap>
+<institution>Department of Experimental Medicine, University of British
+Columbia, Vancouver, Canada.</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-3">
+<institution-wrap>
+<institution>Department of Pediatrics, University of British Columbia,
+Vancouver, Canada.</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-4">
+<institution-wrap>
+<institution>BC Children Hospital Research Institute, Vancouver,
+Canada.</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-5">
+<institution-wrap>
+<institution>Forensic Medicine, Universität Zürich, Zürich,
+Switzerland.</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-6">
+<institution-wrap>
+<institution>Department of Radiology, University of British Columbia,
+Vancouver, Canada.</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-7">
+<institution-wrap>
+<institution>Image Tech Lab, Simon Fraser University, Surrey,
+Canada.</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-8">
+<institution-wrap>
+<institution>Philips Healthcare Canada, Mississauga,
+Canada.</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-9">
+<institution-wrap>
+<institution>Department of Anesthesiology, Pharmacology and
+Therapeutics, Faculty of Medicine, University of British Columbia
+Vancouver, Canada.</institution>
+</institution-wrap>
+</aff>
+</contrib-group>
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-11-25">
+<day>25</day>
+<month>11</month>
+<year>2024</year>
+</pub-date>
+<volume>4</volume>
+<issue>48</issue>
+<fpage>29</fpage>
+<permissions>
+<copyright-statement>Authors of papers retain copyright and release the
+work under a Creative Commons Attribution 4.0 International License (CC
+BY 4.0)</copyright-statement>
+<copyright-year>2022</copyright-year>
+<copyright-holder>The article authors</copyright-holder>
+<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/">
+<license-p>Authors of papers retain copyright and release the work under
+a Creative Commons Attribution 4.0 International License (CC BY
+4.0)</license-p>
+</license>
+</permissions>
+<abstract>
+The utilization of structural, functional, and biochemical data from the
+human brain has grown in addressing inquiries related to
+neurodegenerative and neuropsychiatric conditions. However, the normal
+variability within these measures has not been systematically reported.
+In this work, a database comprising these outcome measures in a healthy
+population (<monospace>n=51</monospace>) was established to potentially
+serve as a comparative reference. Healthy individuals underwent
+standardized procedures to ensure consistent collection of magnetic
+resonance imaging (<monospace>MRI</monospace>) and spectroscopy data.
+The MR data was acquired using a 3T scanner with various sequences,
+including MPRAGE 3D T1w, pseudo-continuous arterial spin labelling
+(<monospace>pCASL</monospace>), and single voxel proton magnetic
+resonance spectroscopy (<monospace>1H-MRS</monospace>). Established and
+custom software tools were employed to analyze outcome measures such as
+tissue segmentation, cortical thickness, cerebral blood flow, metabolite
+levels, and temperature estimated using MRS. This study provides a
+comprehensive overview of the data analysis process, aiming to
+facilitate future utilization of the collected data through an
+<xref alt="interactive dashboard" rid="intdashboard">interactive
+dashboard</xref> developed in
+<ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/R_(programming_language)#:~:text=R%20is%20a%20programming%20language,%2C%20bioinformatics%2C%20and%20data%20analysis.">R</ext-link>
+using the
+<ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Shiny_(software)">Shiny</ext-link>
+framework.
+</abstract>
+<kwd-group kwd-group-type="author">
+<kwd>Preprint</kwd>
+<kwd>Reproducible article</kwd>
+<kwd>Neuroscience</kwd>
+</kwd-group>
+</article-meta>
+</front>
+<body>
+<sec id="introduction">
+  <title>INTRODUCTION</title>
+  <p>The pursuit to understand the biological foundations of
+  neurodegenerative and neuropsychiatric conditions has led to an
+  extensive exploration of brain imaging and neurophysiological tools.
+  Integrating various magnetic resonance imaging (MRI) modalities has
+  emerged as an essential approach to obtain a comprehensive
+  understanding of these conditions. By combining morphological,
+  functional, and biochemical data, researchers gain valuable insights
+  into the intricate mechanisms underlying neurological diseases. These
+  insights extend to identifying potential biomarkers and therapeutic
+  targets, thereby paving the way for improved treatment strategies for
+  neurological disorders.</p>
+  <p>A notable challenge in understanding the brain’s behaviour in
+  disease lies in the incomplete comprehension of its state within a
+  healthy population at rest. In the field of brain imaging, the
+  importance of considering variability between individuals and across
+  different brain regions is high. Therefore, creating a comprehensive
+  database that includes information from multiple brain regions, and
+  multiple modalities in a healthy population is invaluable for guiding
+  future research and clinical use. Such a database can be utilized as a
+  reference, allowing researchers to measure deviations, potentially
+  enabling early disease detection and monitoring progression across
+  different populations. Furthermore, it enables a focused analysis of
+  specific subsets of groups, for example, examining outcomes-based
+  factors like sex or age that allow for matched comparisons.</p>
+  <p>Our study provides a description of the meticulous methodology that
+  ensures consistency of the data acquisition and analysis methods.
+  Standardized procedures have been followed to maximize the precision
+  of the data gathered. The outcomes available include morphological
+  measures such as brain tissue volume (gray matter, white matter, and
+  cerebral spinal fluid) and cortical thickness. Additionally, we have
+  included blood perfusion levels, biochemical profiles, and temperature
+  of different brain regions assessed through MR spectroscopy (MRS).</p>
+  <p>The MRShiny Brain application has been developed as a normative
+  live database, designed to facilitate user-friendly access to a wide
+  spectrum of morphological, perfusion, biochemical, and temperature
+  brain data. Our core objective revolves around presenting a normative
+  representation of the healthy brain during rest with the intent of
+  empowering the scientific community to formulate a priori hypotheses.
+  Recognizing that the analysis of MRI/MRS data can be a time-consuming
+  and expertise-demanding task, we aim to provide these data and the
+  analysis scripts in an accessible format.</p>
+  <p>As we examine brain function, it becomes evident that understanding
+  the brain in a healthy state is pivotal to understanding it in
+  pathological states. The challenge of understanding the brain’s
+  intricacies in various states, particularly during rest, underscores
+  the importance of our study. By building a comprehensive foundation of
+  knowledge through the integration of diverse brain outcome measures,
+  into a user-friendly database we aim to drive advancements in our
+  understanding of brain function.</p>
+</sec>
+<sec id="methods">
+  <title>METHODS</title>
+  <sec id="demographics">
+    <title>Demographics</title>
+    <p>This is a live database that undergoes continuous updates,
+    resulting in changes to the following information. At the time of
+    this report, 51 healthy participants have been recruited for this
+    experiment (24M, mean age = 27.4 years, SD = 6.16 years, range = 19
+    - 47 years). Participants were asked to arrive at the laboratory in
+    a fasting state, and were given one muffin to eat about one hour
+    prior to the MRI scan to account for food intake effects
+    (<xref alt="Kubota et al., 2021" rid="ref-kubota2021dynamic" ref-type="bibr">Kubota
+    et al., 2021</xref>). The timing of the scan was kept consistent
+    (11:30am-12:30pm) across participants, to account for circadian
+    rhythm effects of metabolites
+    (<xref alt="Eckel-Mahan &amp; Sassone-Corsi, 2013" rid="ref-eckelmahan2013metabolism" ref-type="bibr">Eckel-Mahan
+    &amp; Sassone-Corsi, 2013</xref>). Regarding female participants,
+    their testing was based on self-reported information regarding the
+    phase of their menstrual cycle, specifically targeting the
+    follicular phase
+    (<xref alt="Hjelmervik &amp; others, 2018" rid="ref-hjelmervik2018sex" ref-type="bibr">Hjelmervik
+    &amp; others, 2018</xref>). Figure 1 illustrates the study
+    design.</p>
+    <fig>
+      <caption><p>Study design. MR scans included an anatomical 3DT1, a
+      pseudo-continuous arterial spin labelling (pCASL) sequence, and an
+      MR Spectroscopy (MRS) sequence sLASER. MRS data were collected at
+      4 different voxel locations (periungual anterior cingulate cortex
+      [pACC], anterior mid-cingulate cortex [aMCC], posterior
+      mid-cingulate cortex [pMCC], and the posterior cingulate cortex
+      [PCC]) The order of the MRS acquisition from each voxel was
+      randomized for each participant. Figure modified with text,
+      markings, and colour after adaptation of “Nervous System &amp;
+      Medical Equipment” from Servier Medical Art by Servier, licensed
+      under a Creative Commons Attribution 3.0 Unported
+      License.</p></caption>
+      <graphic mimetype="image" mime-subtype="png" xlink:href="media/content/images/fig1.png" />
+    </fig>
+  </sec>
+  <sec id="mr-acquisition-protocol">
+    <title>MR Acquisition Protocol</title>
+    <p>MRI data were collected using a <italic>3T Philips Ingenia
+    Elition X</italic> with a 32-channel <italic>SENSE head
+    coil</italic>, and the sequences included:</p>
+    <table-wrap>
+      <table>
+        <colgroup>
+          <col width="45%" />
+          <col width="55%" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Sequence</th>
+            <th>Parameters</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>3D MPRAGE</td>
+            <td>- TE/TR/TI = 4.3/9.3/950ms- Shot interval = 2400ms-
+            Resolution = 0.8mm³ isotropic- FOV (ap/rl/fh) =
+            256/256/180mm³- Scan time = 5:49 min</td>
+          </tr>
+          <tr>
+            <td>pCASL</td>
+            <td>- TE/TR = 12/4174ms- Post-labelling duration = 2000ms-
+            Labelling duration = 1800ms- Total scan duration = 5.59 min-
+            Four pairs of perfusion-weighted and control scans</td>
+          </tr>
+          <tr>
+            <td>1H-MRS</td>
+            <td>- TE/TR = 32/5000 ms- NSA = 64- Voxel size = 24/22/15
+            mm³ (7.9mL)- Automated 2nd order shimming- 32-step phase
+            cycle- Water suppression using frequency selective
+            Excitation- Four cingulate cortex locations (pACC, aMCC,
+            pMCC, PCC) randomized</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+  </sec>
+  <sec id="mr-analysis">
+    <title>MR Analysis</title>
+    <sec id="structural-measures">
+      <title>Structural Measures:</title>
+      <p>Image Segmentation was performed in FSL
+      (<monospace>v6.05</monospace>) using default options, ROI
+      segmentation was performed using in-house MATLAB scripts. ROI
+      Cortical Thickness was performed in native space for each subject
+      using Freesurfer (v 7.2.0 -
+      <ext-link ext-link-type="uri" xlink:href="https://github.com/arcj-hub/Freesurfer-CT-native-space">code
+      here</ext-link>).</p>
+    </sec>
+    <sec id="arterial-spin-labeled-mri-preprocessing-and-cerebral-blood-flow-computation">
+      <title>Arterial Spin-Labeled MRI Preprocessing and Cerebral Blood
+      Flow Computation:</title>
+      <p>Arterial spin-labeled MRI images were preprocessed using
+      ASLPrep <monospace>0.6.0rc</monospace>
+      (<xref alt="Adebimpe et al., 2022" rid="ref-adebimpe2022aslprep" ref-type="bibr">Adebimpe
+      et al., 2022</xref>;
+      <xref alt="Salo et al., 2023" rid="ref-salo2023aslprep" ref-type="bibr">Salo
+      et al., 2023</xref>), which is based on fMRIPrep
+      (<xref alt="Esteban &amp; others, 2019" rid="ref-esteban2019fmriprep" ref-type="bibr">Esteban
+      &amp; others, 2019</xref>,
+      <xref alt="2020" rid="ref-esteban2020analysis" ref-type="bibr">2020</xref>)
+      and Nipype <monospace>1.8.6s</monospace>.</p>
+    </sec>
+    <sec id="anatomical-data-preprocessing">
+      <title>Anatomical data preprocessing</title>
+      <p>A total of 50 T1-weighted (T1w) images were found within the
+      input BIDS dataset. The T1-weighted (T1w) image was corrected for
+      intensity non-uniformity (INU) with
+      <monospace>N4BiasFieldCorrection</monospace>
+      (<xref alt="B. Avants et al., 2009" rid="ref-avants2014ants" ref-type="bibr">B.
+      Avants et al., 2009</xref>), distributed with ANTs
+      <monospace>2.3.3</monospace>
+      (<xref alt="B. B. Avants &amp; others, 2008" rid="ref-avants2008symmetric" ref-type="bibr">B.
+      B. Avants &amp; others, 2008</xref>), and used as T1w-reference
+      throughout the workflow. The T1w-reference was then skull-stripped
+      with a Nipype implementation of the
+      <monospace>antsBrainExtraction.sh</monospace> workflow (from
+      ANTs), using OASIS30ANTs as target template. Brain tissue
+      segmentation of cerebrospinal fluid (CSF), white-matter (WM) and
+      gray-matter (GM) was performed on the brain extracted T1w using
+      <monospace>fast</monospace> (FSL <monospace>6.0.7.1</monospace>)
+      (<xref alt="Jenkinson &amp; others, 2002" rid="ref-jenkinson2002improved" ref-type="bibr">Jenkinson
+      &amp; others, 2002</xref>).</p>
+    </sec>
+    <sec id="asl-data-preprocessing">
+      <title>ASL data preprocessing</title>
+      <p>For the 1 ASL run obtained per subject, the following
+      preprocessing was performed:</p>
+      <p>First, the second volume of the ASL timeseries was selected as
+      the reference volume and brain extracted using Nipype’s custom
+      brain extraction workflow. First, the middle M0 volume of the ASL
+      timeseries was selected as the reference volume and brain
+      extracted using Nipype’s custom brain extraction workflow.
+      Susceptibility distortion correction (SDC) was omitted.
+      Head-motion parameters were estimated for the ASL data using FSL’s
+      <monospace>mcflirt</monospace>
+      (<xref alt="Wang &amp; others, 2008" rid="ref-wang2008empirical" ref-type="bibr">Wang
+      &amp; others, 2008</xref>). Motion correction was performed
+      separately for each of the volume types in order to account for
+      intensity differences between different contrasts, which, when
+      motion corrected together, can conflate intensity differences with
+      head motions
+      (<xref alt="Jenkinson &amp; Smith, 2001" rid="ref-jenkinson2001global" ref-type="bibr">Jenkinson
+      &amp; Smith, 2001</xref>). Next, ASLPrep concatenated the motion
+      parameters across volume types and re-calculated relative root
+      mean-squared deviation. ASLPrep co-registered the ASL reference to
+      the T1w reference using FSL’s <monospace>flirt</monospace>
+      (<xref alt="Greve &amp; Fischl, 2009" rid="ref-greve2009accurate" ref-type="bibr">Greve
+      &amp; Fischl, 2009</xref>), which implemented the boundary-based
+      registration cost-function
+      (<xref alt="Power &amp; others, 2014" rid="ref-power2014methods" ref-type="bibr">Power
+      &amp; others, 2014</xref>). Co-registration used 6 degrees of
+      freedom. The quality of co-registration and normalization to
+      template was quantified using the Dice and Jaccard indices, the
+      cross-correlation with the reference image, and the overlap
+      between the ASL and reference images (e.g., image coverage).
+      Several confounding timeseries were calculated, including both
+      framewise displacement (FD) and temporal derivative of variance
+      over runs (DVARS). FD and DVARS are calculated using the
+      implementations in Nipype (following the definition by
+      (<xref alt="Buxton et al., 1998" rid="ref-buxton1998general" ref-type="bibr">Buxton
+      et al., 1998</xref>)) for each ASL run. ASLPrep summarizes
+      in-scanner motion as the mean FD and relative root-mean square
+      displacement.</p>
+    </sec>
+    <sec id="cerebral-blood-flow-computation-and-denoising">
+      <title>Cerebral blood flow computation and denoising</title>
+      <p>ASLPrep calculated cerebral blood flow (CBF) from the
+      single-delayPCASL using a single-compartment general kinetic model
+      (<xref alt="Abraham et al., 2014" rid="ref-abraham2014machine" ref-type="bibr">Abraham
+      et al., 2014</xref>). Calibration (M0) volumes associated with the
+      ASL scan were smoothed with a Gaussian kernel (FWHM=5 mm) and the
+      average calibration image was calculated and scaled by 1.</p>
+    </sec>
+    <sec id="roi-cbf-estimates">
+      <title>ROI CBF estimates</title>
+      <p>ROI perfusion levels were extracted in native space using each
+      ROI’s mask. Firstly the images were co-registered using
+      <monospace>flirt</monospace>
+      (<xref alt="Greve &amp; Fischl, 2009" rid="ref-greve2009accurate" ref-type="bibr">Greve
+      &amp; Fischl, 2009</xref>), the resampled mask was then binarized,
+      and ROI CBF was calculated using fslstats
+      <monospace>cbf_extraction.sh</monospace>
+      (<ext-link ext-link-type="uri" xlink:href="https://github.com/arcj-hub/ASLprep-CBF-Analysis">code
+      here</ext-link>).</p>
+    </sec>
+    <sec id="quality-evaluation-index-qei">
+      <title>Quality Evaluation Index (QEI)</title>
+      <p>The QEI was computed for each CBF map
+      (<xref alt="Dolui et al., 2017" rid="ref-dolui2017structural" ref-type="bibr">Dolui
+      et al., 2017</xref>). QEI is based on the similarity between the
+      CBF and the structural images, the spatial variability of the CBF
+      image, and the percentage of grey matter voxels containing
+      negative CBF values ’Quality_aslprep.sh`
+      (<ext-link ext-link-type="uri" xlink:href="https://github.com/arcj-hub/ASLprep-CBF-Analysis">code
+      here</ext-link>). For more details of the pipeline, see
+      <ext-link ext-link-type="uri" xlink:href="https://aslprep.readthedocs.io/en/latest/">ASLPrep-Documentation</ext-link>.</p>
+    </sec>
+    <sec id="mr-spectroscopy">
+      <title>MR Spectroscopy:</title>
+      <p>MRS analysis was performed following the recent expert
+      guideline recommendations
+      (<xref alt="Near et al., 2021" rid="ref-near2021preprocessing" ref-type="bibr">Near
+      et al., 2021</xref>). MRS data was pre-processed (e.g.,
+      <monospace>frequency alignment</monospace>, and
+      <monospace>eddy-current correction</monospace>) and quantified
+      using in-house MATLAB scripts. Spectral fitting was performed in
+      LCModel (<monospace>6.3</monospace>). The basis set was simulated
+      using the FID-A <monospace>run-simLaserShapted_fast.m</monospace>
+      (<xref alt="Simpson et al., 2017" rid="ref-simpson2017advanced" ref-type="bibr">Simpson
+      et al., 2017</xref>) function
+      (<ext-link ext-link-type="uri" xlink:href="https://github.com/arcj-hub/BasisSetSimulation">code
+      here</ext-link>). The simulation included the following
+      metabolites: PE, Asc, Scyllo, Glu, Gln, Cre, NAA, NAAG, PCr, GSH,
+      Gly, Glc, GPC, Ala, Asp, GABA, Ins, Lac, and Tau. The LCModel fit
+      was performed in the range of 0.5 to 4.0 ppm.</p>
+    </sec>
+    <sec id="mrs-thermometry">
+      <title>MRS thermometry:</title>
+      <p>MRS thermometry exploits the temperature dependence of the
+      location of the water peak on the frequency axis (-0.01 ppm/°C),
+      whereas that at the reference metabolite [e.g., N-acetylasparteate
+      (NAA)] is not temperature dependent
+      (<xref alt="Cady et al., 1995" rid="ref-cady1995estimation" ref-type="bibr">Cady
+      et al., 1995</xref>;
+      <xref alt="Thrippleton et al., 2014" rid="ref-thrippleton2014reliability" ref-type="bibr">Thrippleton
+      et al., 2014</xref>). After data pre-processing (i.e., frequency
+      alignment, eddy current correction), local brain temperature (TB)
+      was estimated by calculating the chemical shift difference between
+      water and NAA measured in parts per million (ppm) using the
+      following equation:</p>
+      <p><disp-formula><alternatives>
+      <tex-math><![CDATA[TB(^{\circ}\text{C}) = 100 \times [\Delta(NAA_{ppm} - water_{ppm}) + 2.665] + 37]]></tex-math>
+      <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>T</mml:mi><mml:mi>B</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msup><mml:mi></mml:mi><mml:mo>∘</mml:mo></mml:msup><mml:mtext mathvariant="normal">C</mml:mtext><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>100</mml:mn><mml:mo>×</mml:mo><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>Δ</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>N</mml:mi><mml:mi>A</mml:mi><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>p</mml:mi><mml:mi>p</mml:mi><mml:mi>m</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:mi>w</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>e</mml:mi><mml:msub><mml:mi>r</mml:mi><mml:mrow><mml:mi>p</mml:mi><mml:mi>p</mml:mi><mml:mi>m</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>2.665</mml:mn><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>37</mml:mn></mml:mrow></mml:math></alternatives></disp-formula></p>
+      <p>NAAppm and waterppm values were defined as the mid-point of the
+      full width half max (FWHM) for both the NAA and water peaks,
+      respectively. TB was estimated for each voxel separately (i.e.,
+      pACC, aMCC, pMCC, PCC -
+      <ext-link ext-link-type="uri" xlink:href="https://github.com/psscheuren">code
+      here</ext-link>).</p>
+    </sec>
+  </sec>
+  <sec id="dashboard">
+    <title>DASHBOARD</title>
+    <p>To facilitate the reuse and exploration of the data, we have
+    developed an interactive web application using R Shiny. This
+    application provides an intuitive and user-friendly interface for
+    accessing and analyzing the dataset. The application allows users to
+    interact with the data in a dynamic manner, enabling exploration,
+    visualization, and integration with other datasets. The dataset is
+    composed of different types of data structural, perfusion, and
+    biochemical. These data can all be downloaded directly via the
+    <ext-link ext-link-type="uri" xlink:href="https://shinybrain.db.neurolibre.org">MRShiny
+    Brain web-application</ext-link> deployed on NeuroLibre
+    (<xref alt="Harding et al., 2023" rid="ref-harding2023canadian" ref-type="bibr">Harding
+    et al., 2023</xref>;
+    <xref alt="Karakuzu et al., 2022" rid="ref-karakuzu2022nl" ref-type="bibr">Karakuzu
+    et al., 2022</xref>).</p>
+    <sec id="structural">
+      <title>Structural</title>
+      <list list-type="order">
+        <list-item>
+          <p>GM: gray matter fraction in each region of interest.</p>
+        </list-item>
+        <list-item>
+          <p>WM: white matter fraction in each region of interest.</p>
+        </list-item>
+        <list-item>
+          <p>CSF: cerebrospinal fluid fraction in each region of
+          interest.</p>
+        </list-item>
+        <list-item>
+          <p>CT: Cortical thickness in mm in each region of
+          interest.</p>
+        </list-item>
+      </list>
+    </sec>
+    <sec id="perfusion">
+      <title>Perfusion</title>
+      <list list-type="order">
+        <list-item>
+          <p>CBF: cerebral blood flow (<monospace>mL/gr/min</monospace>)
+          in each region of interest.</p>
+        </list-item>
+      </list>
+    </sec>
+    <sec id="biochemical">
+      <title>Biochemical</title>
+      <list list-type="order">
+        <list-item>
+          <p>Metabolites available: N-Acetyl aspartic acid (NAA), total
+          creatine (tCr), total choline (tCho), myoinositol (mI),
+          glutamate (Glu), glutamine (Gln), and glutamate+glutamine
+          (Glx).</p>
+        </list-item>
+        <list-item>
+          <p>Quality Measures signal-to-noise-ration (SNR), linewidth of
+          the water spectrum (LW), and Cramer-Rao Lower Bounds of each
+          metabolite (CRLB).</p>
+        </list-item>
+      </list>
+    </sec>
+    <sec id="thermometry">
+      <title>Thermometry</title>
+      <list list-type="order">
+        <list-item>
+          <p>Temperature: Temperature in Celcius
+          {math}<monospace>\degree C</monospace> in each brain region of
+          interest.</p>
+        </list-item>
+      </list>
+    </sec>
+  </sec>
+</sec>
+<sec id="results">
+  <title>RESULTS</title>
+  <p>The quality metrics of the spectra can be seen in the application
+  directly, while Figure 2 illustrates the pre-processed and baseline
+  corrected spectra.</p>
+  <fig>
+    <caption><p>MRS Average Spectra at each brain location. Averaged
+    participant spectra are illustrated in gray, and the group mean in
+    black. MRS data were collected at 4 different voxel locations
+    (periungual anterior cingulate cortex [pACC], anterior mid-cingulate
+    cortex [aMCC], posterior mid-cingulate cortex [pMCC], and the
+    posterior cingulate cortex [PCC]).</p></caption>
+    <graphic mimetype="image" mime-subtype="png" xlink:href="media/content/images/fig2.png" />
+  </fig>
+  <p>MRS and CBF data (1 M) were unable to be included since the
+  individual transients, and pCASL data were not properly saved, but CT
+  data was viable. For three participants we excluded metabolites from
+  one location (i.e., pACC (n=1), aMCC (n=1), and PCC (n=1)), due to
+  linewidth of the water being &gt;10Hz. The MRS data quality from the
+  remaining participants are illustrated in app. The mean ± std.dev of
+  the quality evaluation index (QEI)25 for ASL CBF maps for the 50
+  subjects is 0.794 ± 0.032.</p>
+</sec>
+<sec id="conclusion">
+  <title>CONCLUSION</title>
+  <p>In summary, this work provides a database containing structural,
+  functional, and biochemical data from the brains of 51 healthy
+  participants. This resource serves as a valuable reference for
+  researchers exploring neurodegenerative and neuropsychiatric
+  conditions. The interplay of structural, functional, and biochemical
+  measures within a healthy population may provide an understanding of
+  normal variability, laying the groundwork for more nuanced
+  investigations into neurological conditions.</p>
+</sec>
+<sec id="acknowledgements">
+  <title>Acknowledgements</title>
+  <p>The UBC MRI technologists are sincerely thanked for their valuable
+  assistance and support throughout the study. The following funding
+  sources are also acknowledged: J. Archibald’s research scholarship
+  from the National Council of Science and Technology (CONACYT),
+  GSD-NSERC, and the Friedman Foundation. P.S. Scheuren is supported by
+  the International Foundation for Research in Paraplegia (P 198 F), the
+  Swiss National Science Foundation (P500PB_214416), and Michael Smith
+  Health Research BC (RT-2023-3173). E.L. MacMillan’s salary support
+  from Philips Canada; and J. Kramer’s funding from an NSERC Discovery
+  Grant.</p>
+</sec>
+<sec id="data-availability">
+  <title>Data Availability</title>
+  <p>An interactive NeuroLibre dashboard has been deployed at
+  https://shinybrain.db.neurolibre.org. The data is downloadable within
+  the application. The analysis scripts are available on github, with
+  the exception of the MRS preprocessing MRS MATLAB code, this can be
+  accessed by reaching out to ELM directly
+  <monospace>erin.macmillan@ubc.ca</monospace>.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+  <ref id="ref-kubota2021dynamic">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Kubota</surname><given-names>Manabu</given-names></name>
+        <name><surname>Kimura</surname><given-names>Yasuyuki</given-names></name>
+        <name><surname>Shimojo</surname><given-names>Masafumi</given-names></name>
+        <name><surname>Takado</surname><given-names>Yuhei</given-names></name>
+        <name><surname>Duarte</surname><given-names>Joao MN</given-names></name>
+        <name><surname>Takuwa</surname><given-names>Hiroyuki</given-names></name>
+        <name><surname>Seki</surname><given-names>Chie</given-names></name>
+        <name><surname>Shimada</surname><given-names>Hitoshi</given-names></name>
+        <name><surname>Shinotoh</surname><given-names>Hitoshi</given-names></name>
+        <name><surname>Takahata</surname><given-names>Keisuke</given-names></name>
+        <name><surname>others</surname></name>
+      </person-group>
+      <article-title>Dynamic alterations in the central glutamatergic status following food and glucose intake: In vivo multimodal assessments in humans and animal models</article-title>
+      <source>Journal of Cerebral Blood Flow &amp; Metabolism</source>
+      <publisher-name>SAGE Publications Sage UK: London, England</publisher-name>
+      <year iso-8601-date="2021">2021</year>
+      <volume>41</volume>
+      <issue>11</issue>
+      <pub-id pub-id-type="doi">10.1177/0271678X2110041</pub-id>
+      <fpage>2928</fpage>
+      <lpage>2943</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-eckelmahan2013metabolism">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Eckel-Mahan</surname><given-names>K.</given-names></name>
+        <name><surname>Sassone-Corsi</surname><given-names>P.</given-names></name>
+      </person-group>
+      <article-title>Metabolism and the circadian clock converge</article-title>
+      <source>Physiol. Rev.</source>
+      <year iso-8601-date="2013">2013</year>
+      <volume>93</volume>
+      <pub-id pub-id-type="doi">10.1152/physrev.00016.2012</pub-id>
+      <fpage>107</fpage>
+      <lpage>135</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-hjelmervik2018sex">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Hjelmervik</surname><given-names>H.</given-names></name>
+        <name><surname>others</surname></name>
+      </person-group>
+      <article-title>Sex- and sex hormone-related variations in energy-metabolic frontal brain asymmetries: A magnetic resonance spectroscopy study</article-title>
+      <source>Neuroimage</source>
+      <year iso-8601-date="2018">2018</year>
+      <volume>172</volume>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2018.01.043</pub-id>
+      <fpage>817</fpage>
+      <lpage>825</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-adebimpe2022aslprep">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Adebimpe</surname><given-names>Azeez</given-names></name>
+        <name><surname>Bertolero</surname><given-names>Maxwell</given-names></name>
+        <name><surname>Dolui</surname><given-names>Sudipto</given-names></name>
+        <name><surname>Cieslak</surname><given-names>Matthew</given-names></name>
+        <name><surname>Murtha</surname><given-names>Kristin</given-names></name>
+        <name><surname>Baller</surname><given-names>Erica B</given-names></name>
+        <name><surname>Boeve</surname><given-names>Bradley</given-names></name>
+        <name><surname>Boxer</surname><given-names>Adam</given-names></name>
+        <name><surname>Butler</surname><given-names>Ellyn R</given-names></name>
+        <name><surname>Cook</surname><given-names>Phil</given-names></name>
+        <name><surname>others</surname></name>
+      </person-group>
+      <article-title>ASLPrep: A platform for processing of arterial spin labeled MRI and quantification of regional brain perfusion</article-title>
+      <source>Nature methods</source>
+      <publisher-name>Nature Publishing Group US New York</publisher-name>
+      <year iso-8601-date="2022">2022</year>
+      <volume>19</volume>
+      <issue>6</issue>
+      <pub-id pub-id-type="doi">10.1038/s41592-022-01458-7</pub-id>
+      <fpage>683</fpage>
+      <lpage>686</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-salo2023aslprep">
+    <element-citation publication-type="software">
+      <person-group person-group-type="author">
+        <name><surname>Salo</surname><given-names>Taylor</given-names></name>
+        <name><surname>Adebimpe</surname><given-names>Azeez</given-names></name>
+        <name><surname>Bertolero</surname><given-names>Maxwell</given-names></name>
+        <name><surname>Dolui</surname><given-names>Sudipto</given-names></name>
+        <name><surname>Cieslak</surname><given-names>Matthew</given-names></name>
+        <name><surname>Murtha</surname><given-names>Kristin</given-names></name>
+        <name><surname>Baller</surname><given-names>Erica</given-names></name>
+        <name><surname>Boeve</surname><given-names>Bradley</given-names></name>
+        <name><surname>Boxer</surname><given-names>Adam</given-names></name>
+        <name><surname>Butler</surname><given-names>Ellyn R.</given-names></name>
+        <name><surname>Cook</surname><given-names>Phil</given-names></name>
+        <name><surname>Colcombe</surname><given-names>Stan</given-names></name>
+        <name><surname>Covitz</surname><given-names>Sydney</given-names></name>
+        <name><surname>Davatzikos</surname><given-names>Christos</given-names></name>
+        <name><surname>Davila</surname><given-names>Diego G.</given-names></name>
+        <name><surname>Elliott</surname><given-names>Mark A.</given-names></name>
+        <name><surname>Flounders</surname><given-names>Matthew W.</given-names></name>
+        <name><surname>Franco</surname><given-names>Alexandre R.</given-names></name>
+        <name><surname>Gur</surname><given-names>Raquel E.</given-names></name>
+        <name><surname>Gur</surname><given-names>Ruben C.</given-names></name>
+        <name><surname>Jaber</surname><given-names>Basma</given-names></name>
+        <name><surname>McMillian</surname><given-names>Corey</given-names></name>
+        <name><surname>Consortium</surname><given-names>The ALLFTD</given-names></name>
+        <name><surname>Milham</surname><given-names>Michael</given-names></name>
+        <name><surname>Mutsaerts</surname><given-names>Henk J. M. M.</given-names></name>
+        <name><surname>Oathes</surname><given-names>Desmond J.</given-names></name>
+        <name><surname>Olm</surname><given-names>Christopher A.</given-names></name>
+        <name><surname>Phillips</surname><given-names>Jeffrey S.</given-names></name>
+        <name><surname>Tackett</surname><given-names>Will</given-names></name>
+        <name><surname>Roalf</surname><given-names>David R.</given-names></name>
+        <name><surname>Rosen</surname><given-names>Howard</given-names></name>
+        <name><surname>Tapera</surname><given-names>Tinashe M.</given-names></name>
+        <name><surname>Tisdall</surname><given-names>M. Dylan</given-names></name>
+        <name><surname>Zhou</surname><given-names>Dale</given-names></name>
+        <name><surname>Esteban</surname><given-names>Oscar</given-names></name>
+        <name><surname>Poldrack</surname><given-names>Russell A.</given-names></name>
+        <name><surname>Detre</surname><given-names>John A.</given-names></name>
+        <name><surname>Satterthwaite</surname><given-names>Theodore</given-names></name>
+      </person-group>
+      <article-title>ASLPrep: A Robust Preprocessing Pipeline for ASL Data</article-title>
+      <publisher-name>Zenodo</publisher-name>
+      <year iso-8601-date="2023-04">2023</year><month>04</month>
+      <uri>https://doi.org/10.5281/zenodo.7809101</uri>
+      <pub-id pub-id-type="doi">10.5281/zenodo.7809101</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-esteban2019fmriprep">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Esteban</surname><given-names>O.</given-names></name>
+        <name><surname>others</surname></name>
+      </person-group>
+      <article-title>fMRIPrep: A robust preprocessing pipeline for functional MRI</article-title>
+      <source>Nat. Methods</source>
+      <year iso-8601-date="2019">2019</year>
+      <volume>16</volume>
+      <pub-id pub-id-type="doi">10.1038/s41592-018-0235-4</pub-id>
+      <fpage>111</fpage>
+      <lpage>116</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-esteban2020analysis">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Esteban</surname><given-names>O.</given-names></name>
+        <name><surname>others</surname></name>
+      </person-group>
+      <article-title>Analysis of task-based functional MRI data preprocessed with fMRIPrep</article-title>
+      <source>Nat. Protoc.</source>
+      <year iso-8601-date="2020">2020</year>
+      <volume>15</volume>
+      <pub-id pub-id-type="doi">10.1038/s41596-020-0327-3</pub-id>
+      <fpage>2186</fpage>
+      <lpage>2202</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-avants2014ants">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Avants</surname><given-names>B.</given-names></name>
+        <name><surname>Tustison</surname><given-names>N.</given-names></name>
+        <name><surname>Song</surname><given-names>G.</given-names></name>
+      </person-group>
+      <article-title>Advanced normalization tools: V1.0</article-title>
+      <publisher-name>university of pennsylvania; http://hdl.handle.net/10380/3113; The Insight Journal</publisher-name>
+      <year iso-8601-date="2009-07">2009</year><month>07</month>
+      <pub-id pub-id-type="doi">10.54294/uvnhin</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-avants2008symmetric">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Avants</surname><given-names>B. B.</given-names></name>
+        <name><surname>others</surname></name>
+      </person-group>
+      <article-title>Symmetric diffeomorphic image registration with cross-correlation: Evaluating automated labeling of elderly and neurodegenerative brain</article-title>
+      <source>Med Image Anal</source>
+      <year iso-8601-date="2008">2008</year>
+      <volume>12</volume>
+      <pub-id pub-id-type="doi">10.1016/j.media.2007.06.004</pub-id>
+      <fpage>26</fpage>
+      <lpage>41</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-jenkinson2002improved">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Jenkinson</surname><given-names>M.</given-names></name>
+        <name><surname>others</surname></name>
+      </person-group>
+      <article-title>Improved optimization for the robust and accurate linear registration and motion correction of brain images</article-title>
+      <source>Neuroimage</source>
+      <year iso-8601-date="2002">2002</year>
+      <volume>17</volume>
+      <pub-id pub-id-type="doi">10.1006/nimg.2002.1132</pub-id>
+      <fpage>825</fpage>
+      <lpage>841</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-wang2008empirical">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Wang</surname><given-names>Z.</given-names></name>
+        <name><surname>others</surname></name>
+      </person-group>
+      <article-title>Empirical optimization of ASL data analysis using an ASL data processing toolbox: ASLtbx</article-title>
+      <source>Magn. Reson. Imaging</source>
+      <year iso-8601-date="2008">2008</year>
+      <volume>26</volume>
+      <pub-id pub-id-type="doi">10.1016/j.mri.2007.07.003</pub-id>
+      <fpage>261</fpage>
+      <lpage>269</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-jenkinson2001global">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Jenkinson</surname><given-names>M.</given-names></name>
+        <name><surname>Smith</surname><given-names>S.</given-names></name>
+      </person-group>
+      <article-title>A global optimisation method for robust affine registration of brain images</article-title>
+      <source>Med. Image Anal.</source>
+      <year iso-8601-date="2001">2001</year>
+      <volume>5</volume>
+      <pub-id pub-id-type="doi">10.1016/s1361-8415(01)00036-6</pub-id>
+      <fpage>143</fpage>
+      <lpage>156</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-greve2009accurate">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Greve</surname><given-names>D. N.</given-names></name>
+        <name><surname>Fischl</surname><given-names>B.</given-names></name>
+      </person-group>
+      <article-title>Accurate and robust brain image alignment using boundary-based registration</article-title>
+      <source>Neuroimage</source>
+      <year iso-8601-date="2009">2009</year>
+      <volume>48</volume>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2009.06.060</pub-id>
+      <fpage>63</fpage>
+      <lpage>72</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-dolui2017structural">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Dolui</surname><given-names>Sudipto</given-names></name>
+        <name><surname>Wang</surname><given-names>Ze</given-names></name>
+        <name><surname>Shinohara</surname><given-names>Russell T.</given-names></name>
+        <name><surname>Wolk</surname><given-names>David A.</given-names></name>
+        <name><surname>Detre</surname><given-names>John A.</given-names></name>
+      </person-group>
+      <article-title>Structural correlation-based outlier rejection (SCORE) algorithm for arterial spin labeling time series: SCORE: Denoising algorithm for ASL</article-title>
+      <source>Journal of Magnetic Resonance Imaging</source>
+      <year iso-8601-date="2017">2017</year>
+      <volume>45</volume>
+      <issue>6</issue>
+      <pub-id pub-id-type="doi">10.1002/jmri.25436</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-power2014methods">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Power</surname><given-names>J. D.</given-names></name>
+        <name><surname>others</surname></name>
+      </person-group>
+      <article-title>Methods to detect, characterize, and remove motion artifact in resting state fMRI</article-title>
+      <source>NeuroImage</source>
+      <year iso-8601-date="2014">2014</year>
+      <volume>28</volume>
+      <pub-id pub-id-type="doi">10.1016/j.neuroimage.2013.08.048</pub-id>
+      <fpage>529</fpage>
+      <lpage>543</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-buxton1998general">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Buxton</surname><given-names>Richard B</given-names></name>
+        <name><surname>Frank</surname><given-names>Lawrence R</given-names></name>
+        <name><surname>Wong</surname><given-names>Eric C</given-names></name>
+        <name><surname>Siewert</surname><given-names>Bettina</given-names></name>
+        <name><surname>Warach</surname><given-names>Steven</given-names></name>
+        <name><surname>Edelman</surname><given-names>Robert R</given-names></name>
+      </person-group>
+      <article-title>A general kinetic model for quantitative perfusion imaging with arterial spin labeling</article-title>
+      <source>Magnetic resonance in medicine</source>
+      <publisher-name>Wiley Online Library</publisher-name>
+      <year iso-8601-date="1998">1998</year>
+      <volume>40</volume>
+      <issue>3</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.1910400308</pub-id>
+      <fpage>383</fpage>
+      <lpage>396</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-abraham2014machine">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Abraham</surname><given-names>Alexandre</given-names></name>
+        <name><surname>Pedregosa</surname><given-names>Fabian</given-names></name>
+        <name><surname>Eickenberg</surname><given-names>Michael</given-names></name>
+        <name><surname>Gervais</surname><given-names>Philippe</given-names></name>
+        <name><surname>Mueller</surname><given-names>Andreas</given-names></name>
+        <name><surname>Kossaifi</surname><given-names>Jean</given-names></name>
+        <name><surname>Gramfort</surname><given-names>Alexandre</given-names></name>
+        <name><surname>Thirion</surname><given-names>Bertrand</given-names></name>
+        <name><surname>Varoquaux</surname><given-names>Gaël</given-names></name>
+      </person-group>
+      <article-title>Machine learning for neuroimaging with scikit-learn</article-title>
+      <source>Frontiers in neuroinformatics</source>
+      <publisher-name>Frontiers</publisher-name>
+      <year iso-8601-date="2014">2014</year>
+      <volume>8</volume>
+      <pub-id pub-id-type="doi">10.3389/fninf.2014.00014</pub-id>
+      <fpage>71792</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-simpson2017advanced">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Simpson</surname><given-names>R.</given-names></name>
+        <name><surname>Devenyi</surname><given-names>G. A.</given-names></name>
+        <name><surname>Jezzard</surname><given-names>P.</given-names></name>
+        <name><surname>Hennessy</surname><given-names>T. J.</given-names></name>
+        <name><surname>Near</surname><given-names>J.</given-names></name>
+      </person-group>
+      <article-title>Advanced processing and simulation of MRS data using the FID appliance (FID-a)—an open source, MATLAB-based toolkit</article-title>
+      <source>Magnetic Resonance in Medicine</source>
+      <year iso-8601-date="2017">2017</year>
+      <volume>77</volume>
+      <issue>1</issue>
+      <fpage>23</fpage>
+      <lpage>33</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-near2021preprocessing">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Near</surname><given-names>Jamie</given-names></name>
+        <name><surname>Harris</surname><given-names>Ashley D</given-names></name>
+        <name><surname>Juchem</surname><given-names>Christoph</given-names></name>
+        <name><surname>Kreis</surname><given-names>Roland</given-names></name>
+        <name><surname>Marjańska</surname><given-names>Małgorzata</given-names></name>
+        <name><surname>Öz</surname><given-names>Gülin</given-names></name>
+        <name><surname>Slotboom</surname><given-names>Johannes</given-names></name>
+        <name><surname>Wilson</surname><given-names>Martin</given-names></name>
+        <name><surname>Gasparovic</surname><given-names>Charles</given-names></name>
+      </person-group>
+      <article-title>Preprocessing, analysis and quantification in single-voxel magnetic resonance spectroscopy: Experts’ consensus recommendations</article-title>
+      <source>NMR in Biomedicine</source>
+      <publisher-name>Wiley Online Library</publisher-name>
+      <year iso-8601-date="2021">2021</year>
+      <volume>34</volume>
+      <issue>5</issue>
+      <pub-id pub-id-type="doi">10.1002/nbm.4257</pub-id>
+      <fpage>e4257</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-simpson2017advanced">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Simpson</surname><given-names>Robin</given-names></name>
+        <name><surname>Devenyi</surname><given-names>Gabriel A</given-names></name>
+        <name><surname>Jezzard</surname><given-names>Peter</given-names></name>
+        <name><surname>Hennessy</surname><given-names>T Jay</given-names></name>
+        <name><surname>Near</surname><given-names>Jamie</given-names></name>
+      </person-group>
+      <article-title>Advanced processing and simulation of MRS data using the FID appliance (FID-a)—an open source, MATLAB-based toolkit</article-title>
+      <source>Magnetic resonance in medicine</source>
+      <publisher-name>Wiley Online Library</publisher-name>
+      <year iso-8601-date="2017">2017</year>
+      <volume>77</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.26091</pub-id>
+      <fpage>23</fpage>
+      <lpage>33</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-cady1995estimation">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Cady</surname><given-names>E. B.</given-names></name>
+        <name><surname>D’Souza</surname><given-names>P. C.</given-names></name>
+        <name><surname>Penrice</surname><given-names>J.</given-names></name>
+        <name><surname>Lorek</surname><given-names>A.</given-names></name>
+      </person-group>
+      <article-title>The estimation of local brain temperature by in vivo 1H magnetic resonance spectroscopy</article-title>
+      <source>Magn Reson Med</source>
+      <year iso-8601-date="1995">1995</year>
+      <volume>33</volume>
+      <issue>6</issue>
+      <pub-id pub-id-type="doi">10.1002/mrm.1910330620</pub-id>
+      <fpage>862</fpage>
+      <lpage>867</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-thrippleton2014reliability">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Thrippleton</surname><given-names>Michael J.</given-names></name>
+        <name><surname>Parikh</surname><given-names>Jehill</given-names></name>
+        <name><surname>Harris</surname><given-names>Bridget A.</given-names></name>
+        <name><surname>Hammer</surname><given-names>Steven J.</given-names></name>
+        <name><surname>Semple</surname><given-names>Scott I. K.</given-names></name>
+        <name><surname>Andrews</surname><given-names>Peter J. D.</given-names></name>
+        <name><surname>Wardlaw</surname><given-names>Joanna M.</given-names></name>
+        <name><surname>Marshall</surname><given-names>Ian</given-names></name>
+      </person-group>
+      <article-title>Reliability of MRSI brain temperature mapping at 1.5 and 3 t</article-title>
+      <source>NMR Biomed</source>
+      <year iso-8601-date="2014">2014</year>
+      <volume>27</volume>
+      <issue>2</issue>
+      <pub-id pub-id-type="doi">10.1002/nbm.3050</pub-id>
+      <fpage>183</fpage>
+      <lpage>190</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-karakuzu2022nl">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>DuPre</surname><given-names>Elizabeth</given-names></name>
+        <name><surname>Tetrel</surname><given-names>Loic</given-names></name>
+        <name><surname>Bermudez</surname><given-names>Patrick</given-names></name>
+        <name><surname>Boudreau</surname><given-names>Mathieu</given-names></name>
+        <name><surname>Chin</surname><given-names>Mary</given-names></name>
+        <name><surname>Poline</surname><given-names>Jean-Baptiste</given-names></name>
+        <name><surname>Das</surname><given-names>Samir</given-names></name>
+        <name><surname>Bellec</surname><given-names>Pierre</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+      </person-group>
+      <article-title>NeuroLibre : A preprint server for full-fledged reproducible neuroscience</article-title>
+      <publisher-name>OSF Preprints</publisher-name>
+      <year iso-8601-date="2022-04">2022</year><month>04</month>
+      <uri>osf.io/h89js</uri>
+      <pub-id pub-id-type="doi">10.31219/osf.io/h89js</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-harding2023canadian">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Harding</surname><given-names>Rachel J</given-names></name>
+        <name><surname>Bermudez</surname><given-names>Patrick</given-names></name>
+        <name><surname>Bernier</surname><given-names>Alexander</given-names></name>
+        <name><surname>Beauvais</surname><given-names>Michael</given-names></name>
+        <name><surname>Bellec</surname><given-names>Pierre</given-names></name>
+        <name><surname>Hill</surname><given-names>Sean</given-names></name>
+        <name><surname>Karakuzu</surname><given-names>Agâh</given-names></name>
+        <name><surname>Knoppers</surname><given-names>Bartha M</given-names></name>
+        <name><surname>Pavlidis</surname><given-names>Paul</given-names></name>
+        <name><surname>Poline</surname><given-names>Jean-Baptiste</given-names></name>
+        <name><surname>others</surname></name>
+      </person-group>
+      <article-title>The canadian open neuroscience platform—an open science framework for the neuroscience community</article-title>
+      <source>PLOS Computational Biology</source>
+      <publisher-name>Public Library of Science San Francisco, CA USA</publisher-name>
+      <year iso-8601-date="2023">2023</year>
+      <volume>19</volume>
+      <issue>7</issue>
+      <pub-id pub-id-type="doi">10.1371/journal.pcbi.1011230</pub-id>
+      <fpage>e1011230</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+</ref-list>
+</back>
+</article>
