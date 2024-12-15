@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN"
+                  "JATS-publishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+<journal-title>NeuroLibre Reproducible Preprints</journal-title>
+<abbrev-journal-title>NeuroLibre</abbrev-journal-title>
+</journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher>
+<publisher-name>NeuroLibre</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">31</article-id>
+<article-id pub-id-type="doi">10.55458/neurolibre.00031</article-id>
+<title-group>
+<article-title>Little Science, Big Science, and Beyond: How Amateurs
+Shape the Scientific Landscape</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name>
+<surname>McLean</surname>
+<given-names>Evelyn</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+<xref ref-type="aff" rid="aff-2"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Abdo</surname>
+<given-names>Jane</given-names>
+</name>
+<xref ref-type="aff" rid="aff-3"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-1864-1899</contrib-id>
+<name>
+<surname>Blostein</surname>
+<given-names>Nadia</given-names>
+</name>
+<xref ref-type="aff" rid="aff-3"/>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-8480-5230</contrib-id>
+<name>
+<surname>Stikov</surname>
+<given-names>Nikola</given-names>
+</name>
+<xref ref-type="aff" rid="aff-3"/>
+<xref ref-type="aff" rid="aff-4"/>
+<xref ref-type="aff" rid="aff-5"/>
+</contrib>
+<aff id="aff-1">
+<institution-wrap>
+<institution>Sundae Theory Artist Collective, Portland State University,
+Oregon, USA</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-2">
+<institution-wrap>
+<institution>The Evergreen State College, Olympia, Washington,
+USA</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-3">
+<institution-wrap>
+<institution>NeuroPoly, Polytechnique Montreal, Quebec,
+Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-4">
+<institution-wrap>
+<institution>Montreal Heart Institute, Montreal, Quebec,
+Canada</institution>
+</institution-wrap>
+</aff>
+<aff id="aff-5">
+<institution-wrap>
+<institution>Center for Advanced Interdisciplinary Research, Ss. Cyril
+and Methodius University, Skopje, North Macedonia</institution>
+</institution-wrap>
+</aff>
+</contrib-group>
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-12-02">
+<day>2</day>
+<month>12</month>
+<year>2024</year>
+</pub-date>
+<volume>4</volume>
+<issue>48</issue>
+<fpage>31</fpage>
+<permissions>
+<copyright-statement>Authors of papers retain copyright and release the
+work under a Creative Commons Attribution 4.0 International License (CC
+BY 4.0)</copyright-statement>
+<copyright-year>2022</copyright-year>
+<copyright-holder>The article authors</copyright-holder>
+<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/">
+<license-p>Authors of papers retain copyright and release the work under
+a Creative Commons Attribution 4.0 International License (CC BY
+4.0)</license-p>
+</license>
+</permissions>
+<kwd-group kwd-group-type="author">
+<kwd>Amateur Science</kwd>
+<kwd>Patents</kwd>
+<kwd>History of Science</kwd>
+</kwd-group>
+</article-meta>
+</front>
+<body>
+<sec id="abstract">
+  <title>Abstract</title>
+  <p>The idea of an <italic>amateur</italic> in science is pretty new -
+  many of the most significant scientists in history were curious people
+  with regular jobs in their time (like monk, or tutor or son of a rich
+  guy) who observed natural phenomena and then interpreted their
+  findings. This pattern has changed dramatically over the last century
+  – most science these days is done by professionals, and it is quite
+  difficult for independent researchers to do science outside of
+  academic or governmental institutions. This article covers the history
+  of amateur science and traces its transformation from a wide variety
+  of activities conducted by philosophers and hobbyists to a narrowly
+  defined and highly competitive professional field. The article ends
+  with an exploration of the role of the amateur in the production of
+  scientific knowledge in the 21st century and the tools that have
+  emerged to make it possible.</p>
+</sec>
+<sec id="introduction">
+  <title>Introduction</title>
+  <p>In 1962 physicist and historian of science
+  <ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Derek_J._de_Solla_Price">Derek
+  de Solla Price</ext-link> gave a series of lectures in which he
+  divided the whole history of science into two distinct periods: he
+  called them little science and big science
+  (<xref alt="Derek J. de Solla, 1963" rid="ref-Price1963" ref-type="bibr">Derek
+  J. de Solla, 1963</xref>).</p>
+  <p>Little science, according to Price, encompassed the whole period of
+  scientific activity that occurred prior to the
+  <ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Scientific_Revolution">Scientific
+  Revolution</ext-link>. Before this inflection point, scientific
+  endeavors were carried out on a small scale by people working
+  independently or in small groups, and were either self-funded or
+  supported by rich patrons.</p>
+  <p>Big science, characterized by ambitious and highly complex research
+  conducted by large numbers of scientists and carried out with the
+  support of institutions like universities and governments, emerged in
+  the 20th century. Though government-funded research did increase
+  throughout the Scientific Revolution and the Industrial Revolution as
+  the possible applications of scientific research became increasingly
+  ambitious, 20th century projects like the space race and the Manhattan
+  Project exemplify the world-changing technology that big science was
+  built to produce.</p>
+  <p>The emergence of big science changed many things about the way
+  scientific knowledge was produced, and those changes have had lasting
+  impacts. Price argued that the extensive institutionalization of
+  science through the 20th century created the conditions for the
+  current paradigm of scientific advancement, in which the boundaries of
+  scientific knowledge expand incrementally through the accumulation of
+  isolated discoveries, rather than through the emergence of
+  paradigm-shifting theories.</p>
+  <p>The central role that the government and private industry play in
+  funding big science, and the vast bureaucracy that allocates that
+  funding, have led to a scientific process that is more hierarchical
+  and less autonomous than the scientific process of previous eras.
+  These dynamics are exacerbated by the increasingly arduous standards
+  set by academic institutions and journals that all players in the
+  field must meet in order to participate in mainstream science.</p>
+  <p>Despite these challenges, a devoted lineage of amateurs have
+  continued to expand their fields from outside of the academy. In the
+  last 60 years, new pathways have emerged for interested amateurs to
+  contribute to large-scale scientific projects, and many have found
+  ways to dialogue with professional scientists in their field. Recent
+  developments in technology and increased access to scientific
+  knowledge have spurred several movements calling for a more
+  transparent and democratic scientific paradigm. <bold>These changes
+  prompt the question: are we on the verge of a renaissance in amateur
+  science?</bold></p>
+  <p>This article features original research on patents, interviews with
+  case study subjects, and discussion of secondary sources such as the
+  <ext-link ext-link-type="uri" xlink:href="https://plato.stanford.edu">Stanford
+  Encyclopedia of philosophy</ext-link>
+  (<xref alt="Zalta et al., 1995" rid="ref-zalta95" ref-type="bibr">Zalta
+  et al., 1995</xref>), scholarly articles on the history of science,
+  and Bowler and Morus’ textbook on the subject, Making Modern Science
+  (<xref alt="Bowler &amp; Morus, 2020" rid="ref-Bowler2020" ref-type="bibr">Bowler
+  &amp; Morus, 2020</xref>).</p>
+</sec>
+<sec id="the-long-reign-of-the-natural-philosopher">
+  <title>The Long Reign of the Natural Philosopher</title>
+  <p>“Science” in the modern sense refers both to an agreed-upon body of
+  knowledge about the world, and to the distinct set of practices by
+  which that knowledge is created. The concept of the scientific method
+  is now so synonymous with the idea of science that it might be
+  confusing to think of the activities of pre-modern researchers and
+  natural philosophers as “science”, especially as they overlap with
+  epistemological systems now considered to be unscientific, such as
+  astrology, theology, and alchemy. But curious people have been doing
+  some version of science, i.e., discovering new things about the world
+  and using these discoveries to solve practical problems, since the
+  formation of the earliest civilizations.</p>
+  <p>The modern version of the scientific method was established a few
+  hundred years ago during the scientific revolution, but some of its
+  component parts date back to the emergence of
+  <ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Natural_philosophy">natural
+  philosophy</ext-link> in Ancient Greece. Natural philosophy was the
+  earliest form of what we might call scientific practice. Natural
+  philosophers, such as
+  <ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Plato">Plato</ext-link>
+  and
+  <ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Aristotle">Aristotle</ext-link>,
+  made detailed observations about the world and attempted to use their
+  findings to generate more general hypotheses about the nature of
+  reality
+  (<xref alt="Williams, 2000" rid="ref-Williams2000" ref-type="bibr">Williams,
+  2000</xref>).</p>
+  <p>This approach was inherently interdisciplinary. Natural
+  philosophers were attempting to answer big, existential questions
+  using all the tools they had at their disposal, and the bodies of work
+  produced by these scholars were often wide-ranging and heterogenous,
+  drawing on direct observation, religious texts, mathematics,
+  intuition, folk wisdom, and formal logic.</p>
+  <p>Plato’s discovery of the deductive method was central to the
+  development of science as we now know it, and laid the groundwork for
+  his student Aristotle, who completed the earliest known formal study
+  of logic in history,
+  <ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Organon">the
+  Organon</ext-link>. Aristotle’s discovery of inductive reasoning and
+  emphasis on empiricism make him perhaps the most significant figure in
+  the development of modern science before the 17th century. He also
+  made founding contributions to the fields that would become physics,
+  astronomy, geology, biology, zoology, and psychology, as well as
+  setting the stage for centuries of productive engagement with these
+  ideas throughout the Byzantine Empire and the Islamic Empire, long
+  after Western Europe had plunged into the Dark Ages after the fall of
+  Rome
+  (<xref alt="Kraut, 2022" rid="ref-Kraut2022" ref-type="bibr">Kraut,
+  2022</xref>).</p>
+  <sec id="case-study-aristotle">
+    <title>Case Study: Aristotle</title>
+    <p>Aristotle joined Plato’s Academy when he was 17 or 18 and stayed
+    in Athens until his late 30s. After leaving Athens he traveled,
+    including a trip with one of his students to the isle of Lesbos,
+    where they studied the animals, insects, plants, and environmental
+    conditions of two lagoons on the island, writing three books on his
+    theories of the origins of animals and their relationship to the
+    environment. He was invited back to Macedonia, his birthplace, to be
+    a tutor to the king’s son (who would go on to take the throne as
+    Alexander the Great), and later tutored two other future-kings,
+    Ptolemy and Cassander. Eventually he moved back to Athens and
+    established his own school, called Lyceum, where he taught courses
+    for the next 12 years. He is thought to have produced the bulk of
+    his body of work during that time
+    (<xref alt="Shields, 2022" rid="ref-Shields2022" ref-type="bibr">Shields,
+    2022</xref>).</p>
+  </sec>
+</sec>
+<sec id="golden-eras-and-dark-ages">
+  <title>Golden Eras and Dark Ages</title>
+  <p>The fall of Rome in the 5th century distanced Western Europe from
+  the intellectual legacies of
+  <ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Classical_antiquity">Classical
+  Antiquity</ext-link>, marking the beginning of a period of declining
+  scholarship in the West. On the other hand, scholars in China, India,
+  and the Middle East continued making important discoveries in the
+  fields of astronomy, medicine, physics, and mathematics over the next
+  12 centuries. Golden eras and dark ages came and went as the Byzantine
+  and Islamic empires grew, building schools, libraries, civic and
+  religious institutions, and then fell into periods of decline.
+  Aristotle’s manuscripts were translated into Latin and brought to
+  Medieval Europe starting in the 11th century, which sparked a renewed
+  interest in the knowledge of the ancients. In particular, translations
+  of Aristotle’s work on logic, which were brought to Europe by Greek
+  scholars fleeing Constantinople after it fell to the Turks in the 15th
+  century, introduced the idea of deduction and empiricism to Western
+  scientists and set the stage for the Scientific Revolution to
+  come.</p>
+  <p>Scientists of classical antiquity and the Middle Ages, though
+  amateurs, were usually educated, either as a student in a
+  philosopher’s school, a religious institution or, later on, at a
+  university. The 11th and 12th centuries saw the emergence of the first
+  European universities. These academic institutions mainly trained
+  students to become doctors, lawyers, or priests, but students were
+  also required to study grammar, rhetoric, logic, arithmetic,
+  astronomy, geometry, and music. The scientists of the Middle Ages
+  spent much of their time engaging in dialogue with scholars in a wide
+  range of disciplines, and most scientific progress before the 16th
+  century was achieved by individuals reading texts (and commentary on
+  those texts), and then conducting their own experiments and writing
+  their own books and commentaries in response.</p>
+  <p>Since all science was being produced by “amateurs” rather than
+  professionals, once an aspiring scientist was educated they had to
+  find a way to support their research. Some were from wealthy or
+  aristocratic families, and so did their research alongside familial
+  and political obligations. Others took jobs at universities, or in the
+  government or church. And some found a patron who was willing to
+  support their work. Many pursued their interests independent of (and
+  sometimes directly against the wishes of) the institutions they were
+  embedded within.</p>
+  <sec id="case-study-roger-bacon">
+    <title>Case Study: Roger Bacon</title>
+    <p><ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Roger_Bacon">Bacon</ext-link>
+    was a 13th-century scientist and early champion of the empirical
+    method. After earning his Master’s degree at Oxford he took a job as
+    a teacher, lecturing on Latin grammar, Aristotelian logic,
+    arithmetic, geometry, and the mathematical aspects of astronomy and
+    music. In his mid-life he spent about a decade as an independent
+    scholar, then became a friar in the Franciscan order. Soon after
+    joining, a new prohibition against members of his order publishing
+    books or pamphlets without prior approval from the Catholic
+    bureaucracy prevented him from engaging in his studies.</p>
+    <p>Eventually he found a patron to support his work. This patron
+    encouraged him to keep writing, but to keep his activities a secret.
+    As was typical of scientists of Bacon’s era, his work included
+    writing on a plethora of subjects including linguistics, morality,
+    empiricism, mathematics, optics, alchemy, astronomy, and how to
+    incorporate Aristotelian logic into theology
+    (<xref alt="Hackett, 2022" rid="ref-Hackett2022" ref-type="bibr">Hackett,
+    2022</xref>).</p>
+  </sec>
+</sec>
+<sec id="the-rise-of-the-gentleman-scholar">
+  <title>The Rise of the Gentleman Scholar</title>
+  <p>Of the many transformations which took place in the 15th century,
+  three of the most significant to the history of amateur science were
+  the invention of the
+  <ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Printing_press">printing
+  press</ext-link> in 1440, the
+  <ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Fall_of_Constantinople">fall
+  of Byzantium in 1453</ext-link>, and the discovery of the
+  <ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/New_World">“New
+  World”</ext-link> in 1492. In each case, new ideas, new ways of
+  thinking, and new methods for organizing society were developed,
+  culminating in a widespread and systematic reorganization of human
+  thought: the Scientific Revolution.</p>
+  <p>Many historians consider 1543 to be the beginning of the Scientific
+  Revolution. Two books published that year would set off an
+  unprecedented period of scientific development. One was
+  <ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/De_Humani_Corporis_Fabrica_Libri_Septem"><italic>De
+  Humani Corporis Fabrica</italic></ext-link> (On the Workings of the
+  Human Body) by Andreas Vesalius
+  (<xref alt="Vesalius, 1543" rid="ref-vesalius1543humani" ref-type="bibr">Vesalius,
+  1543</xref>). This work critiqued and updated the theory of anatomy
+  proposed by
+  <ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Galen">Galen</ext-link>,
+  the legendary physician and philosopher from Ancient Greece whose
+  writing on anatomy had prevailed for over a century. The other was
+  <ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium"><italic>De
+  Revolutionibus Orbium Coelestium</italic></ext-link> (On the
+  Revolutions of the Celestial Spheres) by Nicolaus Copernicus, which
+  made a compelling mathematical case for
+  <ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Heliocentrism">heliocentrism</ext-link>
+  and consequently turned the world upside with its religious
+  implications. Luckily for Copernicus, the book was published while he
+  was on his deathbed, which allowed him to avoid the (likely
+  devastating) personal consequences that he would have faced from the
+  Church for proposing the heretical theory that the Earth was not at
+  the center of the Universe.</p>
+  <p>Scientific activity proliferated and scientific discoveries
+  accelerated rapidly over the next 100 years. In the mid-17th century,
+  amateur scientists formed scientific academies and societies.
+  Previously, scientific communication had largely happened privately
+  via letters, but meeting in person had several advantages: talking in
+  a group made it easier to keep up with the pace of discoveries, which
+  was becoming harder to do. And due to the increasing emphasis on the
+  empirical method, any experiment needed trustworthy witnesses to
+  confirm the results: the higher the status of the witness, the more
+  credible their testimony. The members of the more prestigious
+  academies felt a need to defend their positions as the arbiters and
+  able practitioners of the “new science”. Thus, participation in these
+  groups was limited to
+  <ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Independent_scientist">“gentleman
+  scholars”,</ext-link> (and their rich patrons), whose social standing
+  and pedigree were signals of the veracity and trustworthiness of their
+  findings.</p>
+  <p>Within a few years of their formation, the academies began to
+  collect and publish regular reports of the experiments they’d heard
+  about in their vast network of correspondents. These reports, which
+  were the precursor to the modern academic journal, were essentially a
+  scientific news service, certifying, broadcasting, and archiving news
+  about what was happening in the emerging scientific communities. These
+  publications also engaged the public, who began to take an interest in
+  scientific matters. Ironically, the publication of scientific journals
+  by these exclusive clubs likely had a hand in popularizing science and
+  whetting the public’s appetite to engage in scientific
+  experimentation. Though the members of scientific societies were also
+  amateurs – wealthy landowners or young urban bourgeoisie who
+  participated in science as a hobby – a hierarchy of amateurs was
+  emerging.</p>
+  <p>Throughout the 18th and 19th centuries, scientific societies spread
+  through Europe. As they gained social prominence, they became
+  increasingly exclusive, authoritative, and elite. The founding of the
+  prestigious
+  <ext-link ext-link-type="uri" xlink:href="https://fr.wikipedia.org/wiki/%C3%89cole_polytechnique_(France)">École
+  polytechnique in Paris</ext-link> at the end of the 18th century
+  represented the first monumental investment by a government in an
+  institution that would begin to educate students in the new methods of
+  scientific discovery. The École Polytechnique, founded during the
+  French Revolution, was originally a technical school that trained
+  students to become civil and military engineers. This landmark
+  investment was an endorsement of the idea that French scientists had
+  been pitching the government on since the founding of the Royal
+  Society: that funding scholars who could then apply the scientific
+  method to the problems of society could offer a significant return on
+  investment.</p>
+  <p>Government support for the “new science” in other nations, however,
+  was slow to emerge. Universities still largely adhered to religious
+  doctrine, and continued on with the curriculum that had been developed
+  in the Middle Ages. Private laboratories, gardens and museums formed
+  to give more structure to the activities of the societies, but science
+  remained largely in the purview of gentleman amateurs and their
+  patrons.</p>
+  <sec id="case-study-mary-anning">
+    <title>Case Study: Mary Anning</title>
+    <p><ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Mary_Anning">Mary
+    Anning</ext-link>, a working class woman in Dorset, England,
+    collected and sold fossils she found on the beach. Despite her few
+    years of formal education, she studied all the writing on
+    paleontology that she could find, and eventually became well known
+    for her skill of identifying, classifying, and drawing the specimens
+    she found. Her collection was renowned among fossil-lovers
+    throughout England (the first complete Plesiosaurus was one of her
+    most significant finds), including the members of the
+    <ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Geological_Society_of_London">Geological
+    Society of London</ext-link>, to whom she regularly sold her
+    fossils. As a working-class woman, however, she was unable to take
+    part in any of the activities of the society. It was not uncommon
+    for her to sell a fossil to a member of a society who would then
+    fail to credit her in the article he published about the specimen
+    (<xref alt="Rafferty, 2023" rid="ref-Rafferty2023" ref-type="bibr">Rafferty,
+    2023</xref>).</p>
+  </sec>
+</sec>
+<sec id="the-emergence-of-the-professional-scientist">
+  <title>The Emergence of the Professional Scientist</title>
+  <p>The beginning of the 19th century was a lively time for the growing
+  community of middle and working class Europeans who had taken an
+  interest in science. New societies like
+  <ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Soci%C3%A9t%C3%A9_astronomique_de_France">The
+  Société Astronomique de France</ext-link> sprang up as
+  amateur-friendly alternatives to the Royal Academies. In industrial
+  regions of England like Manchester, working-class amateur naturalists
+  gathered in pubs to discuss botany and zoology, and all across Europe
+  extensive amateur meteorological observation networks sprang up,
+  gathering data used by the emerging professional field of meteorology
+  (<xref alt="Lingelbach, 2011" rid="ref-Lingelbach2011" ref-type="bibr">Lingelbach,
+  2011</xref>).</p>
+  <p>It was also a time of conflict, as amateur scientists began to push
+  back against the limitations that both governments and scientific
+  societies imposed. Amateur astronomers in France argued for a more
+  democratic approach to astronomy, allowing for wider public
+  involvement in research through activities like tracking meteor
+  showers, and amateur archaeologists in Germany, Prussia, and France
+  organized to protest legislation that required permits for
+  excavations, limiting the freedom to study ancient archaeological
+  sites.</p>
+  <p>Trained scientists were also beginning to chafe against the
+  academies’ control over funding and the production of knowledge.
+  Societies like the British Association for the Advancement of Science
+  coordinated scientists nationwide and lobbied governments for funding
+  and recognition, attempting to transform science from an activity for
+  wealthy hobbyists to a government-funded professional institution
+  whose advances could be systematized and applied for the benefit of
+  society.</p>
+  <p>Their petitions worked – increases in the institutional support for
+  science led to the creation of more technical schools, and to
+  government scientific agencies like geological surveys, physics labs
+  and health institutes. The first modern PhD programs, in which
+  professors were expected to train their students to produce
+  independent research while conducting their own research, were
+  established in Germany in the early 19th century. Scientific
+  disciplines continued to organize into specialized departments,
+  schools, and journals. By the late 19th century, most scientists
+  worked in academic or government settings, not as independent
+  gentlemen.</p>
+  <p>The changes in scientific institutions that occurred in the 19th
+  century reflect the social and material transformations caused by the
+  Industrial Revolution. The stark and growing divisions between
+  socioeconomic classes and the miraculous possibilities of the machine
+  age that co-occurred initiated an ongoing public debate about social
+  inequality and the distribution of power and resources in society.
+  Many people saw science and technology as tools that could be used to
+  address social inequality, but opinions differed widely on the best
+  way to apply them
+  (<xref alt="Grantham, 2011" rid="ref-Grantham2011" ref-type="bibr">Grantham,
+  2011</xref>).</p>
+</sec>
+<sec id="big-science-the-last-100-years">
+  <title>Big Science: The Last 100 Years</title>
+  <p>Over the previous 300 years, science had become indispensable to
+  the functioning of the modern world, but it had also become
+  increasingly tied to, and reliant on, political and economic power
+  structures. Throughout the 20th century scientific institutions became
+  increasingly intertwined with government and industry. Funding for
+  science in this period was abundant but increasingly focused on
+  applied research, which was becoming more specialized.</p>
+  <p>The 20th century also witnessed the escalating influence of science
+  and industry on world events. The First World War intensified the
+  development of research to advance military capability, spurring
+  massive projects like the Manhattan Project for the atomic bomb and
+  later the space race, projects which proved instrumental in the
+  outcomes of World War II and the Cold War era, respectively.
+  Scientific research became a strategic imperative leveraged by
+  governments worldwide; many countries formally institutionalized
+  science as a national priority, establishing dedicated policy bodies
+  like the U.S. National Science Foundation in 1950.</p>
+  <p>The growth of research in government, private and academic settings
+  accelerated the institutionalization of science, and led to a steady
+  decline in the popularity of amateur science. Our research into
+  worldwide patent applications over the course of the 20th century
+  illustrates this shift. <xref alt="[fig1]" rid="fig1">[fig1]</xref>
+  highlights the relative proportion of patent applications filed by
+  private companies, public research centers, and universities, as
+  compared to patent applications filed by individual researchers. The
+  steady increase in applications by institutions, and the decrease in
+  applications filed by solo inventors, continues nearly unbroken for
+  over 100 years.</p>
+  <fig>
+    <caption><p>Worldwide patent applications classification (1910 -
+    2023). Please scroll horizontally to see the full figure. Source:
+    WIPO Patentscope.
+    <styled-content id="fig1"></styled-content></p></caption>
+    <graphic mimetype="image" mime-subtype="png" xlink:href="media/static/fig1.png" />
+  </fig>
+  <p>Relative proportion of worldwide patent applications classified by
+  research/company and solo inventor from 1910 to 2023. The data shows
+  an initial predominance of Solo Inventor patents and the steady
+  increase of Research/Company patents during the mid-20th century,
+  showing the professionalization of science. See
+  <xref alt="[appendixa]" rid="appendixa">[appendixa]</xref> for more
+  detail on the methodology used.</p>
+  <p>Though the scientific institutions of the 20th century had become
+  more open to women and ethnic minorities, amateurs were more
+  marginalized than ever. A few fields maintained a role for amateur
+  involvement: astronomers and naturalists in particular continued
+  making new discoveries in their fields, and tinkering with radio and
+  electrical systems in home workshops was a popular hobby for many
+  amateur inventors. But compared to professional scientists, amateur
+  research was given little credit or legitimacy during this period, and
+  the tools needed to conduct cutting-edge research in many fields were
+  totally inaccessible to the lay public</p>
+</sec>
+<sec id="the-rebirth-of-amateur-science">
+  <title>The Rebirth of Amateur Science</title>
+  <p>Big science continued to expand through the second half of the 20th
+  century, but several social and political movements that focused on
+  the lack of public involvement in science policy forced scientific
+  institutions to accept more input from the public on research agendas.
+  The environmental movement, the anti-nuclear movement, and HIV/AIDS
+  activists all fought to create ways to involve the public in setting
+  priorities for scientific research and assessing the risks of new
+  technologies. These groups demanded more oversight over scientific
+  research, more public buy-in, more communication, and more decision
+  making power for the people impacted by new scientific products. AIDS
+  activists, for example, became well-versed in the drug development
+  process and successfully argued for changes to the FDA’s policies on
+  testing and distributing experimental treatments. They also demanded
+  changes to the conditions in which clinical tests were carried out,
+  lobbied the CDC to broaden the definition of AIDS to include symptoms
+  and outcomes that were more commonly diagnosed in women, and helped
+  found alternative research facilities such as Boston’s Community
+  Research Initiative (1987)
+  (<xref alt="AccessHealth MA (formerly Community Research Initiative CRI), 2022" rid="ref-AccessHealthMA2022" ref-type="bibr">AccessHealth
+  MA (formerly Community Research Initiative CRI), 2022</xref>).</p>
+  <p>Though these movements failed to significantly alter the broader
+  structures underlying scientific establishments, they did serve to
+  empower amateurs and activists, giving rise to the citizen science
+  movement, a massive network of amateurs engaged in data collection and
+  analysis on a staggering scale. Amateur engagement through field
+  observation and data collection have existed for over a century,
+  particularly in the environmental sciences and astronomy, but the
+  development of digital technology in recent decades has made it
+  possible to efficiently collect and process data from tens of
+  thousands of citizen scientists, further expanding the possibilities
+  of big science. More recently citizen science has expanded into fields
+  like social science and health
+  (<xref alt="Bonney et al., 2014" rid="ref-Bonney2014" ref-type="bibr">Bonney
+  et al., 2014</xref>).</p>
+  <sec id="case-study-aella">
+    <title>Case Study: Aella</title>
+    <p><ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Aella_(writer)">Aella</ext-link>
+    (a pseudonym) is a well-known writer and sex researcher. She is
+    unique, even among amateur scientists, for her lack of formal
+    education. She grew up in rural Idaho, where she was homeschooled,
+    and attended college for one semester before dropping out. She has
+    never taken a college-level science class, and her knowledge of data
+    collection, data analysis, survey design and psychology is entirely
+    self-taught. She has a community of friends (many of whom are
+    trained statisticians and engineers) who can answer questions and
+    offer feedback about her work. In 2022, she published a survey about
+    sexual fetishes and kinks that now has over 600,000 responses,
+    making it one of the largest (if not the largest) surveys of its
+    kind ever done. She has done studies on a wide array of subjects,
+    including categories of enlightenment, relationship types, and
+    social taboos. She publishes her findings and makes her data
+    available to all on her
+    <ext-link ext-link-type="uri" xlink:href="https://aella.substack.com">Substack</ext-link>
+    (<xref alt="Aella, 2021" rid="ref-Aella2021" ref-type="bibr">Aella,
+    2021</xref>).</p>
+  </sec>
+  <sec id="case-study-the-four-thieves-vinegar-collective">
+    <title>Case Study: The Four Thieves Vinegar Collective</title>
+    <p><ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Four_Thieves_Vinegar_Collective">The
+    Four Thieves Vinegar Collective</ext-link> was founded in 2015 with
+    the goal of increasing access to essential generic medications like
+    insulin and epinephrine by producing them using DIY techniques.
+    Named after a legend about a group of medical students who broke
+    into pharmacies to redistribute medicine to the poor, the
+    decentralized collective aims to make medications affordable by
+    developing open source protocols for safely synthesizing drugs at
+    home. Their first major project was developing an open source recipe
+    for Daraprim, an AIDS medication whose price was controversially
+    raised over 50-fold in 2015. The following year, when the
+    pharmaceutical company Mylan raised the price of EpiPens from $57 to
+    $318, they published DIY instructions for a $30 “EpiPencil”
+    autoinjector that could be easily made at home using common
+    materials. By publicizing alternative production methods, the
+    collective hopes to undermine monopolies and empower patients
+    worldwide through decentralizing pharmaceutical production
+    (<xref alt="Four Thieves Vinegar Collective – Harm Reduction for the Living, n.d." rid="ref-FourThievesVinegar" ref-type="bibr"><italic>Four
+    Thieves Vinegar Collective – Harm Reduction for the Living</italic>,
+    n.d.</xref>;
+    <xref alt="Oberhaus, 2018" rid="ref-Oberhaus2018" ref-type="bibr">Oberhaus,
+    2018</xref>).</p>
+  </sec>
+  <sec id="case-study-slime-mold-time-mold">
+    <title>Case Study: Slime Mold Time Mold</title>
+    <p>This pseudonymous collective of scientists has been writing
+    <ext-link ext-link-type="uri" xlink:href="https://slimemoldtimemold.com">a
+    blog about nutrition and the obesity epidemic</ext-link> since 2020.
+    Though they haven’t publicly identified as either amateurs or
+    academics (“There isn’t one single answer for our background,
+    because we are a hive mind/collaboration”), their articles feature
+    collaborations and exchanges with amateurs and academics alike. In
+    2022 they recruited over 200 people to take part in the “All-Potato
+    Diet”, in an effort to find evidence for their theory on the role of
+    lithium in the obesity epidemic. 64 participants finished the
+    month-long experiment. The results of the experiment, and a
+    six-month follow-up, can be found on their blog
+    (<xref alt="Slime Mold Time Mold, 2023" rid="ref-slimemoldtimemold2023" ref-type="bibr">Slime
+    Mold Time Mold, 2023</xref>).</p>
+    <p>When asked in an interview what kind of impact they hope to make
+    with their research, they wrote:</p>
+    <disp-quote>
+      <p>We’d like science to be more diverse — more kinds of people,
+      doing more kinds of science, using more kinds of methods and
+      paradigms, in more kinds of communities and institutions, and
+      communicating their work in more and more different ways. We also
+      want to usher in a 21st century scientific revolution. Ambitious
+      research is possible, both inside and outside of institutions.
+      We’d like this to be our impact, but also it doesn’t really matter
+      since we think that at some level this is inevitable. Authority is
+      brittle, it requires constant attention — the natural state of
+      science is chaos.</p>
+    </disp-quote>
+  </sec>
+  <sec id="case-study-seeds-of-science">
+    <title>Case Study: Seeds of Science</title>
+    <p><ext-link ext-link-type="uri" xlink:href="https://www.theseedsofscience.org/">Seeds
+    of Science</ext-link> is an open-access journal founded by a
+    collaborative team including a psychology professor, a physics PhD,
+    and science enthusiasts. It aims to offer a publishing platform for
+    non-traditional researchers without constraints of conventional
+    academic formats.</p>
+    <p>Seeds of Science believes in talent beyond university walls: The
+    journal aspires to be a hub for disenfranchised scientists and
+    individuals outside academia, facilitating collaboration,
+    mentorship, and publication. Despite hurdles such as conforming to
+    academic indexing standards and database inclusion, Seeds of Science
+    remains committed to its mission. The journal advocates for a more
+    inclusive and diverse scientific community, where unconventional
+    ideas and speculative research can flourish. By challenging
+    traditional gatekeeping mechanisms, they aspire to cultivate a
+    culture that values open inquiry and fosters the next generation of
+    innovative thinkers.</p>
+  </sec>
+</sec>
+<sec id="conclusion">
+  <title>Conclusion</title>
+  <p><italic>21st Century Science</italic></p>
+  <p>Since the 1980s and the beginning of home computing, new
+  technologies have allowed amateurs to participate once again in many
+  scientific fields through large-scale crowdsourcing, citizen science
+  projects, and open online collaborations between amateurs and
+  professionals. It’s possible that we’re entering a new era, where the
+  new tools for collecting, storing, analyzing, and displaying data, and
+  for funding and publishing research make scientific research
+  accessible to the public in new ways. Many of these tools and
+  platforms have been created as a part of the Open Access and
+  Decentralized Science (or DeSci) movements.</p>
+  <p>The Open Access movement began around 2000 with the goal of making
+  scientific knowledge more accessible to all. Early Open Access
+  pioneers created new journals that didn’t have paywalls, removing the
+  financial and institutional barriers that prevented non-professionals
+  from accessing new scientific literature. However, these publications
+  supplemented their lost income from subscriptions by instituting large
+  fees for authors and institutions, merely moving the cost of access to
+  the scientists and institutions looking to publish. A new movement,
+  known as Diamond or Platinum Open Access emerged in the 2010s, and
+  used institutional funding and volunteer labor to create publishing
+  platforms for scientific research that were free for both researchers
+  and readers.</p>
+  <p>DeSci is a new set of methods for doing scientific research that
+  doesn’t rely on traditional centralized institutions like universities
+  or government labs. Instead, it leverages distributed networks, open
+  collaborations, and decentralized technologies to democratize access,
+  enable global participation, and facilitate peer-to-peer validation of
+  scientific claims and data. Desci aims to accelerate scientific
+  progress by removing barriers, increasing transparency, and
+  incentivizing contributions from a broader pool of researchers and
+  citizen scientists worldwide. It uses decentralized autonomous
+  organizations (DAOs), open science frameworks, and web3 technologies.
+  These decentralized blockchain-based protocols allow researchers to
+  self-organize into projects, validate each other’s work through peer
+  review, and get funding from distributed sources
+  (<xref alt="Ethereum Foundation, n.d." rid="ref-EthereumDesci" ref-type="bibr">Ethereum
+  Foundation, n.d.</xref>).</p>
+  <fig>
+    <caption><p>Timeline of amateur science through history.
+    <styled-content id="figstat"></styled-content></p></caption>
+    <graphic mimetype="image" mime-subtype="png" xlink:href="media/static/fig2stat.png" />
+  </fig>
+  <p>As we enter the 21st century, powerful new technological tools and
+  the emergence of innovations in the field of open science offer
+  amateurs perhaps the greatest opportunity since the Scientific
+  Revolution to directly participate in expanding the frontiers of
+  knowledge. Just outside the gates of big science, where scores of
+  professionals conduct their research under the purview of governments,
+  universities, and corporations, there are countless amateurs,
+  conducting their own research and contributing to the dream of a more
+  democratic, decentralized science.</p>
+</sec>
+<sec id="appendixa">
+  <title>Appendix A: Methodology for classifying patents</title>
+  <p>The dataset in <xref alt="[figstat]" rid="figstat">[figstat]</xref>
+  was obtained by web scraping the WIPO PatentScope website from 1910 to
+  2023. For each year we scraped the first 99 pages from the database
+  each year (~200 patents per page), creating a sample of around 19,800
+  patents per year before cleaning and preprocessing. Patents were
+  sorted using the “Relevance” criterion, an algorithm applied to
+  keyword searches (see Guide
+  <ext-link ext-link-type="uri" xlink:href="https://patentscope.wipo.int/search/help/en/BM25scoring.pdf">here</ext-link>).
+  As no keywords were searched (only the publication year), the
+  displayed patents are considered to be randomly sampled. Due to
+  computational constraints, patents were scraped without delving into
+  each individual patent. This approach limited the extraction of fields
+  such as “Applicant” and “Inventor” to only the first row, possibly
+  causing the observed fluctuations during the years 2010–2017. Patents
+  were classified into three types:
+  <monospace>Solo Inventor</monospace>,
+  <monospace>Research/Company</monospace>, or
+  <monospace>Other</monospace>. These fields usually appear in the first
+  row of the patent description. If this wasn’t the case, or if the
+  classification was unclear, the patent was
+  <monospace>Other</monospace>. Other patents, typically unclear, were
+  omitted from the analysis. Research/Company patents included
+  applicants from private industries, research centers, and
+  universities, while Solo Inventor patents had individuals as
+  applicants. The relative proportions of the two patent types were
+  calculated for each year and displayed as stacked bars using the
+  Plotly Express library in Python, executed by and compiled into a
+  MyST-formatted integrated research article
+  (<xref alt="DuPre et al., 2022" rid="ref-Dupre2022-iro" ref-type="bibr">DuPre
+  et al., 2022</xref>) by NeuroLibre
+  (<xref alt="Harding et al., 2023" rid="ref-Harding2023-conp" ref-type="bibr">Harding
+  et al., 2023</xref>;
+  <xref alt="Karakuzu et al., 2022" rid="ref-Karakuzu2022-nlwf" ref-type="bibr">Karakuzu
+  et al., 2022</xref>).</p>
+  <p>Below is a more detailed breakdown of the decision tree used for
+  classifying patents into <monospace>Solo Inventor</monospace>,
+  <monospace>Research/Company</monospace>, or
+  <monospace>Other</monospace>:</p>
+  <fig>
+    <caption><p>Decision tree for classifying patents.
+    <styled-content id="figstat"></styled-content></p></caption>
+    <graphic mimetype="image" mime-subtype="png" xlink:href="media/static/appendix.png" />
+  </fig>
+</sec>
+</body>
+<back>
+<ref-list>
+  <ref id="ref-vesalius1543humani">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name><surname>Vesalius</surname><given-names>Andreas</given-names></name>
+      </person-group>
+      <source>De humani corporis fabrica libri septem</source>
+      <year iso-8601-date="1543">1543</year>
+    </element-citation>
+  </ref>
+  <ref id="ref-Price1963">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name><surname>Derek J. de Solla</surname><given-names>Price</given-names></name>
+      </person-group>
+      <source>Little science, big science</source>
+      <publisher-name>Columbia University Press</publisher-name>
+      <publisher-loc>New York Chichester, West Sussex</publisher-loc>
+      <year iso-8601-date="1963">1963</year>
+      <isbn>9780231885751</isbn>
+      <pub-id pub-id-type="doi">10.7312/pric91844</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-zalta95">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Zalta</surname><given-names>Edward N</given-names></name>
+        <name><surname>Nodelman</surname><given-names>Uri</given-names></name>
+        <name><surname>Allen</surname><given-names>Colin</given-names></name>
+        <name><surname>Perry</surname><given-names>John</given-names></name>
+      </person-group>
+      <article-title>Stanford encyclopedia of philosophy</article-title>
+      <publisher-name>Metaphysics Research Lab, Center for the Study of Language; Information …</publisher-name>
+      <year iso-8601-date="1995">1995</year>
+    </element-citation>
+  </ref>
+  <ref id="ref-Williams2000">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Williams</surname><given-names>L. Pearce</given-names></name>
+      </person-group>
+      <article-title>History of science | definition, natural philosophy, &amp; development of science</article-title>
+      <publisher-name>Encyclopedia Britannica</publisher-name>
+      <year iso-8601-date="2000">2000</year>
+      <uri>https://www.britannica.com/science/history-of-science</uri>
+    </element-citation>
+  </ref>
+  <ref id="ref-Grantham2011">
+    <element-citation publication-type="chapter">
+      <person-group person-group-type="author">
+        <name><surname>Grantham</surname><given-names>George</given-names></name>
+      </person-group>
+      <article-title>The institutionalization of science in europe, 1650–1850</article-title>
+      <source>Science in the modern world polity: Institutionalization and globalization</source>
+      <person-group person-group-type="editor">
+        <name><surname>Drori</surname><given-names>Gili S.</given-names></name>
+        <name><surname>Meyer</surname><given-names>John W.</given-names></name>
+        <name><surname>Ramirez</surname><given-names>Francisco O.</given-names></name>
+        <name><surname>Schofer</surname><given-names>Evan</given-names></name>
+      </person-group>
+      <publisher-name>Stanford University Press</publisher-name>
+      <year iso-8601-date="2011">2011</year>
+      <pub-id pub-id-type="doi">10.11126/stanford/9780804771856.003.0003</pub-id>
+      <fpage>51</fpage>
+      <lpage>85</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Lingelbach2011">
+    <element-citation publication-type="chapter">
+      <person-group person-group-type="author">
+        <name><surname>Lingelbach</surname><given-names>Gabriele</given-names></name>
+      </person-group>
+      <article-title>The institutionalization and professionalization of history in europe and the united states</article-title>
+      <source>The oxford history of historical writing: Volume 4: 1800-1945</source>
+      <person-group person-group-type="editor">
+        <name><surname>Macintyre</surname><given-names>Stuart</given-names></name>
+        <name><surname>Maiguashca</surname><given-names>Juan</given-names></name>
+        <name><surname>Pók</surname><given-names>Attila</given-names></name>
+      </person-group>
+      <publisher-name>Oxford University Press</publisher-name>
+      <year iso-8601-date="2011">2011</year>
+      <pub-id pub-id-type="doi">10.1093/acprof:osobl/9780199533091.003.0005</pub-id>
+      <fpage>78</fpage>
+      <lpage>96</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Bonney2014">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Bonney</surname><given-names>Rick</given-names></name>
+        <name><surname>Shirk</surname><given-names>Jennifer</given-names></name>
+        <name><surname>Phillips</surname><given-names>Tina</given-names></name>
+        <name><surname>Wiggins</surname><given-names>Andrea</given-names></name>
+        <name><surname>Ballard</surname><given-names>Heidi L.</given-names></name>
+        <name><surname>Miller-Rushing</surname><given-names>Abraham J.</given-names></name>
+        <name><surname>Parrish</surname><given-names>Julia K.</given-names></name>
+      </person-group>
+      <article-title>Next steps for citizen science</article-title>
+      <source>Science</source>
+      <year iso-8601-date="2014">2014</year>
+      <volume>343</volume>
+      <issue>6178</issue>
+      <pub-id pub-id-type="doi">10.1126/science.1251554</pub-id>
+      <fpage>1436</fpage>
+      <lpage>1437</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Oberhaus2018">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Oberhaus</surname><given-names>Daniel</given-names></name>
+      </person-group>
+      <article-title>Meet the anarchists making their own medicine</article-title>
+      <source>Vice</source>
+      <year iso-8601-date="2018">2018</year>
+      <uri>https://www.vice.com/en/article/43pngb/how-to-make-your-own-medicine-four-thieves-vinegar-collective</uri>
+    </element-citation>
+  </ref>
+  <ref id="ref-Bowler2020">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name><surname>Bowler</surname><given-names>Peter J.</given-names></name>
+        <name><surname>Morus</surname><given-names>Iwan Rhys</given-names></name>
+      </person-group>
+      <source>Making modern science</source>
+      <publisher-name>University of Chicago Press</publisher-name>
+      <year iso-8601-date="2020">2020</year>
+      <edition>Second</edition>
+      <pub-id pub-id-type="doi">10.7208/chicago/9780226365930.001.0001</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-Aella2021">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Aella</surname></name>
+      </person-group>
+      <article-title>Knowingless</article-title>
+      <publisher-name>https://aella.substack.com/</publisher-name>
+      <year iso-8601-date="2021">2021</year>
+    </element-citation>
+  </ref>
+  <ref id="ref-Shields2022">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Shields</surname><given-names>Christopher</given-names></name>
+      </person-group>
+      <article-title>Aristotle</article-title>
+      <publisher-name>The Stanford Encyclopedia of Philosophy (Spring 2022 Edition), Metaphysics Research Lab, Stanford University</publisher-name>
+      <year iso-8601-date="2022">2022</year>
+      <uri>https://plato.stanford.edu/archives/spr2022/entries/aristotle/</uri>
+    </element-citation>
+  </ref>
+  <ref id="ref-AccessHealthMA2022">
+    <element-citation>
+      <person-group person-group-type="author">
+        <string-name>AccessHealth MA (formerly Community Research Initiative CRI)</string-name>
+      </person-group>
+      <article-title>History | AccessHealth MA l CRI</article-title>
+      <publisher-name>https://accesshealthma.org/about-accesshealthma/history/</publisher-name>
+      <year iso-8601-date="2022">2022</year>
+    </element-citation>
+  </ref>
+  <ref id="ref-Hackett2022">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Hackett</surname><given-names>Jeremiah</given-names></name>
+      </person-group>
+      <article-title>Roger bacon</article-title>
+      <publisher-name>The Stanford Encyclopedia of Philosophy (Spring 2022 Edition), Metaphysics Research Lab, Stanford University</publisher-name>
+      <year iso-8601-date="2022">2022</year>
+      <uri>https://plato.stanford.edu/archives/spr2022/entries/roger-bacon/</uri>
+    </element-citation>
+  </ref>
+  <ref id="ref-Kraut2022">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Kraut</surname><given-names>Richard</given-names></name>
+      </person-group>
+      <article-title>Plato</article-title>
+      <publisher-name>The Stanford Encyclopedia of Philosophy (Spring 2022 Edition), Metaphysics Research Lab, Stanford University</publisher-name>
+      <year iso-8601-date="2022">2022</year>
+      <uri>https://plato.stanford.edu/archives/spr2022/entries/plato/</uri>
+    </element-citation>
+  </ref>
+  <ref id="ref-slimemoldtimemold2023">
+    <element-citation>
+      <person-group person-group-type="author">
+        <string-name>Slime Mold Time Mold</string-name>
+      </person-group>
+      <article-title>Archives</article-title>
+      <publisher-name>https://slimemoldtimemold.com/</publisher-name>
+      <year iso-8601-date="2023">2023</year>
+    </element-citation>
+  </ref>
+  <ref id="ref-Rafferty2023">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Rafferty</surname><given-names>John P.</given-names></name>
+      </person-group>
+      <article-title>Mary anning</article-title>
+      <publisher-name>Encyclopedia Britannica</publisher-name>
+      <year iso-8601-date="2023">2023</year>
+      <uri>https://www.britannica.com/biography/Mary-Anning</uri>
+    </element-citation>
+  </ref>
+  <ref id="ref-EthereumDesci">
+    <element-citation>
+      <person-group person-group-type="author">
+        <string-name>Ethereum Foundation</string-name>
+      </person-group>
+      <article-title>Decentralized science (DeSci)</article-title>
+      <publisher-name>https://ethereum.org/en/desci/#further-reading</publisher-name>
+    </element-citation>
+  </ref>
+  <ref id="ref-FourThievesVinegar">
+    <element-citation>
+      <article-title>Four thieves vinegar collective – harm reduction for the living</article-title>
+      <publisher-name>https://fourthievesvinegar.org/</publisher-name>
+    </element-citation>
+  </ref>
+  <ref id="ref-Karakuzu2022-nlwf">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>DuPre</surname><given-names>Elizabeth</given-names></name>
+        <name><surname>Tetrel</surname><given-names>Loic</given-names></name>
+        <name><surname>Bermudez</surname><given-names>Patrick</given-names></name>
+        <name><surname>Boudreau</surname><given-names>Mathieu</given-names></name>
+        <name><surname>Chin</surname><given-names>Mary</given-names></name>
+        <name><surname>Poline</surname><given-names>Jean-Baptiste</given-names></name>
+        <name><surname>Das</surname><given-names>Samir</given-names></name>
+        <name><surname>Bellec</surname><given-names>Pierre</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+      </person-group>
+      <article-title>NeuroLibre : A preprint server for full-fledged reproducible neuroscience</article-title>
+      <publisher-name>OSF Preprints</publisher-name>
+      <year iso-8601-date="2022-04">2022</year><month>04</month>
+      <uri>osf.io/h89js</uri>
+      <pub-id pub-id-type="doi">10.31219/osf.io/h89js</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-Dupre2022-iro">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>DuPre</surname><given-names>Elizabeth</given-names></name>
+        <name><surname>Holdgraf</surname><given-names>Chris</given-names></name>
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>Tetrel</surname><given-names>Loı̈c</given-names></name>
+        <name><surname>Bellec</surname><given-names>Pierre</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Poline</surname><given-names>Jean-Baptiste</given-names></name>
+      </person-group>
+      <article-title>Beyond advertising: New infrastructures for publishing integrated research objects</article-title>
+      <source>PLOS Computational Biology</source>
+      <publisher-name>Public Library of Science San Francisco, CA USA</publisher-name>
+      <year iso-8601-date="2022">2022</year>
+      <volume>18</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1371/journal.pcbi.1009651</pub-id>
+      <fpage>e1009651</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Harding2023-conp">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Harding</surname><given-names>Rachel J.</given-names></name>
+        <name><surname>Bermudez</surname><given-names>Patrick</given-names></name>
+        <name><surname>Bernier</surname><given-names>Alexander</given-names></name>
+        <name><surname>Beauvais</surname><given-names>Michael</given-names></name>
+        <name><surname>Bellec</surname><given-names>Pierre</given-names></name>
+        <name><surname>Hill</surname><given-names>Sean</given-names></name>
+        <name><surname>Karakuzu</surname><given-names>Agah</given-names></name>
+        <name><surname>Knoppers</surname><given-names>Bartha M.</given-names></name>
+        <name><surname>Pavlidis</surname><given-names>Paul</given-names></name>
+        <name><surname>Poline</surname><given-names>Jean-Baptiste</given-names></name>
+        <name><surname>Roskams</surname><given-names>Jane</given-names></name>
+        <name><surname>Stikov</surname><given-names>Nikola</given-names></name>
+        <name><surname>Stone</surname><given-names>Jessica</given-names></name>
+        <name><surname>Strother</surname><given-names>Stephen</given-names></name>
+        <name><surname>Consortium</surname><given-names>CONP</given-names></name>
+        <name><surname>Evans</surname><given-names>Alan C.</given-names></name>
+      </person-group>
+      <article-title>The Canadian Open Neuroscience Platform—An open science framework for the neuroscience community</article-title>
+      <source>PLOS Computational Biology</source>
+      <year iso-8601-date="2023-07">2023</year><month>07</month>
+      <volume>19</volume>
+      <issue>7</issue>
+      <uri>10.1371/journal.pcbi.1011230</uri>
+      <pub-id pub-id-type="doi">10.1371/journal.pcbi.1011230</pub-id>
+      <fpage>1</fpage>
+      <lpage>14</lpage>
+    </element-citation>
+  </ref>
+</ref-list>
+</back>
+</article>
