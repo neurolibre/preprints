@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>20241215T212452-fb15d30a85169ae02e18e179c029b99df6f79a68</doi_batch_id>
+    <timestamp>20241215212452</timestamp>
+    <depositor>
+      <depositor_name>NeuroLibre Admin</depositor_name>
+      <email_address>admin@neurolibre.org</email_address>
+    </depositor>
+    <registrant>Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal</registrant>
+  </head>
+  <body>
+  <posted_content type="preprint">
+  <group_title>NeuroLibre Reproducible Preprints</group_title>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Evelyn</given_name>
+            <surname>McLean</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Jane</given_name>
+            <surname>Abdo</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Nadia</given_name>
+            <surname>Blostein</surname>
+            <ORCID>https://orcid.org/0000-0002-1864-1899</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Nikola</given_name>
+            <surname>Stikov</surname>
+            <ORCID>https://orcid.org/0000-0002-8480-5230</ORCID>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Little Science, Big Science, and Beyond: How Amateurs
+Shape the Scientific Landscape</title>
+        </titles>
+        <posted_date>
+          <month>12</month>
+          <day>15</day>
+          <year>2024</year>
+        </posted_date>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Repository archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.14348880</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Dataset archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.14348882</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Book archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.14348876</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Container archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.14348886</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub technical screening</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://github.com/neurolibre/neurolibre-reviews/issues/31</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Executable preprint</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://preprint.neurolibre.org/10.55458/neurolibre.00031</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.55458/neurolibre.00031</doi>
+          <resource>https://neurolibre.org/papers/10.55458/neurolibre.00031</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://preprint.neurolibre.org/10.55458/neurolibre.00031.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="vesalius1543humani">
+            <volume_title>De humani corporis fabrica libri
+septem</volume_title>
+            <author>Vesalius</author>
+            <cYear>1543</cYear>
+            <unstructured_citation>Vesalius, A. (1543). De humani
+corporis fabrica libri septem.</unstructured_citation>
+          </citation>
+          <citation key="Price1963">
+            <volume_title>Little science, big science</volume_title>
+            <author>Derek J. de Solla</author>
+            <doi>10.7312/pric91844</doi>
+            <isbn>9780231885751</isbn>
+            <cYear>1963</cYear>
+            <unstructured_citation>Derek J. de Solla, P. (1963). Little
+science, big science. Columbia University Press.
+https://doi.org/10.7312/pric91844</unstructured_citation>
+          </citation>
+          <citation key="zalta95">
+            <article_title>Stanford encyclopedia of
+philosophy</article_title>
+            <author>Zalta</author>
+            <cYear>1995</cYear>
+            <unstructured_citation>Zalta, E. N., Nodelman, U., Allen,
+C., &amp; Perry, J. (1995). Stanford encyclopedia of philosophy.
+Metaphysics Research Lab, Center for the Study of Language;
+Information ….</unstructured_citation>
+          </citation>
+          <citation key="Williams2000">
+            <article_title>History of science | definition, natural
+philosophy, &amp; development of science</article_title>
+            <author>Williams</author>
+            <cYear>2000</cYear>
+            <unstructured_citation>Williams, L. P. (2000). History of
+science | definition, natural philosophy, &amp; development of science.
+Encyclopedia Britannica.
+https://www.britannica.com/science/history-of-science</unstructured_citation>
+          </citation>
+          <citation key="Grantham2011">
+            <article_title>The institutionalization of science in
+europe, 1650–1850</article_title>
+            <author>Grantham</author>
+            <journal_title>Science in the modern world polity:
+Institutionalization and globalization</journal_title>
+            <doi>10.11126/stanford/9780804771856.003.0003</doi>
+            <cYear>2011</cYear>
+            <unstructured_citation>Grantham, G. (2011). The
+institutionalization of science in europe, 1650–1850. In G. S. Drori, J.
+W. Meyer, F. O. Ramirez, &amp; E. Schofer (Eds.), Science in the modern
+world polity: Institutionalization and globalization (pp. 51–85).
+Stanford University Press.
+https://doi.org/10.11126/stanford/9780804771856.003.0003</unstructured_citation>
+          </citation>
+          <citation key="Lingelbach2011">
+            <article_title>The institutionalization and
+professionalization of history in europe and the united
+states</article_title>
+            <author>Lingelbach</author>
+            <journal_title>The oxford history of historical writing:
+Volume 4: 1800-1945</journal_title>
+            <doi>10.1093/acprof:osobl/9780199533091.003.0005</doi>
+            <cYear>2011</cYear>
+            <unstructured_citation>Lingelbach, G. (2011). The
+institutionalization and professionalization of history in europe and
+the united states. In S. Macintyre, J. Maiguashca, &amp; A. Pók (Eds.),
+The oxford history of historical writing: Volume 4: 1800-1945 (pp.
+78–96). Oxford University Press.
+https://doi.org/10.1093/acprof:osobl/9780199533091.003.0005</unstructured_citation>
+          </citation>
+          <citation key="Bonney2014">
+            <article_title>Next steps for citizen
+science</article_title>
+            <author>Bonney</author>
+            <journal_title>Science</journal_title>
+            <issue>6178</issue>
+            <volume>343</volume>
+            <doi>10.1126/science.1251554</doi>
+            <cYear>2014</cYear>
+            <unstructured_citation>Bonney, R., Shirk, J., Phillips, T.,
+Wiggins, A., Ballard, H. L., Miller-Rushing, A. J., &amp; Parrish, J. K.
+(2014). Next steps for citizen science. Science, 343(6178), 1436–1437.
+https://doi.org/10.1126/science.1251554</unstructured_citation>
+          </citation>
+          <citation key="Oberhaus2018">
+            <article_title>Meet the anarchists making their own
+medicine</article_title>
+            <author>Oberhaus</author>
+            <journal_title>Vice</journal_title>
+            <cYear>2018</cYear>
+            <unstructured_citation>Oberhaus, D. (2018). Meet the
+anarchists making their own medicine. Vice.
+https://www.vice.com/en/article/43pngb/how-to-make-your-own-medicine-four-thieves-vinegar-collective</unstructured_citation>
+          </citation>
+          <citation key="Bowler2020">
+            <volume_title>Making modern science</volume_title>
+            <author>Bowler</author>
+            <doi>10.7208/chicago/9780226365930.001.0001</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Bowler, P. J., &amp; Morus, I. R.
+(2020). Making modern science (Second). University of Chicago Press.
+https://doi.org/10.7208/chicago/9780226365930.001.0001</unstructured_citation>
+          </citation>
+          <citation key="Aella2021">
+            <article_title>Knowingless</article_title>
+            <author>Aella</author>
+            <cYear>2021</cYear>
+            <unstructured_citation>Aella. (2021). Knowingless.
+https://aella.substack.com/.</unstructured_citation>
+          </citation>
+          <citation key="Shields2022">
+            <article_title>Aristotle</article_title>
+            <author>Shields</author>
+            <cYear>2022</cYear>
+            <unstructured_citation>Shields, C. (2022). Aristotle. The
+Stanford Encyclopedia of Philosophy (Spring 2022 Edition), Metaphysics
+Research Lab, Stanford University.
+https://plato.stanford.edu/archives/spr2022/entries/aristotle/</unstructured_citation>
+          </citation>
+          <citation key="AccessHealthMA2022">
+            <article_title>History | AccessHealth MA l
+CRI</article_title>
+            <author>AccessHealth MA (formerly Community Research
+Initiative CRI)</author>
+            <cYear>2022</cYear>
+            <unstructured_citation>AccessHealth MA (formerly Community
+Research Initiative CRI). (2022). History | AccessHealth MA l CRI.
+https://accesshealthma.org/about-accesshealthma/history/.</unstructured_citation>
+          </citation>
+          <citation key="Hackett2022">
+            <article_title>Roger bacon</article_title>
+            <author>Hackett</author>
+            <cYear>2022</cYear>
+            <unstructured_citation>Hackett, J. (2022). Roger bacon. The
+Stanford Encyclopedia of Philosophy (Spring 2022 Edition), Metaphysics
+Research Lab, Stanford University.
+https://plato.stanford.edu/archives/spr2022/entries/roger-bacon/</unstructured_citation>
+          </citation>
+          <citation key="Kraut2022">
+            <article_title>Plato</article_title>
+            <author>Kraut</author>
+            <cYear>2022</cYear>
+            <unstructured_citation>Kraut, R. (2022). Plato. The Stanford
+Encyclopedia of Philosophy (Spring 2022 Edition), Metaphysics Research
+Lab, Stanford University.
+https://plato.stanford.edu/archives/spr2022/entries/plato/</unstructured_citation>
+          </citation>
+          <citation key="slimemoldtimemold2023">
+            <article_title>Archives</article_title>
+            <author>Slime Mold Time Mold</author>
+            <cYear>2023</cYear>
+            <unstructured_citation>Slime Mold Time Mold. (2023).
+Archives. https://slimemoldtimemold.com/.</unstructured_citation>
+          </citation>
+          <citation key="Rafferty2023">
+            <article_title>Mary anning</article_title>
+            <author>Rafferty</author>
+            <cYear>2023</cYear>
+            <unstructured_citation>Rafferty, J. P. (2023). Mary anning.
+Encyclopedia Britannica.
+https://www.britannica.com/biography/Mary-Anning</unstructured_citation>
+          </citation>
+          <citation key="EthereumDesci">
+            <article_title>Decentralized science (DeSci)</article_title>
+            <author>Ethereum Foundation</author>
+            <unstructured_citation>Ethereum Foundation. (n.d.).
+Decentralized science (DeSci).
+https://ethereum.org/en/desci/#further-reading.</unstructured_citation>
+          </citation>
+          <citation key="FourThievesVinegar">
+            <article_title>Four thieves vinegar collective – harm
+reduction for the living</article_title>
+            <unstructured_citation>Four thieves vinegar collective –
+harm reduction for the living. (n.d.).
+https://fourthievesvinegar.org/.</unstructured_citation>
+          </citation>
+          <citation key="Karakuzu2022-nlwf">
+            <article_title>NeuroLibre : A preprint server for
+full-fledged reproducible neuroscience</article_title>
+            <author>Karakuzu</author>
+            <doi>10.31219/osf.io/h89js</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Karakuzu, A., DuPre, E., Tetrel, L.,
+Bermudez, P., Boudreau, M., Chin, M., Poline, J.-B., Das, S., Bellec,
+P., &amp; Stikov, N. (2022). NeuroLibre : A preprint server for
+full-fledged reproducible neuroscience. OSF Preprints.
+https://doi.org/10.31219/osf.io/h89js</unstructured_citation>
+          </citation>
+          <citation key="Dupre2022-iro">
+            <article_title>Beyond advertising: New infrastructures for
+publishing integrated research objects</article_title>
+            <author>DuPre</author>
+            <journal_title>PLOS Computational Biology</journal_title>
+            <issue>1</issue>
+            <volume>18</volume>
+            <doi>10.1371/journal.pcbi.1009651</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>DuPre, E., Holdgraf, C., Karakuzu,
+A., Tetrel, L., Bellec, P., Stikov, N., &amp; Poline, J.-B. (2022).
+Beyond advertising: New infrastructures for publishing integrated
+research objects. PLOS Computational Biology, 18(1), e1009651.
+https://doi.org/10.1371/journal.pcbi.1009651</unstructured_citation>
+          </citation>
+          <citation key="Harding2023-conp">
+            <article_title>The Canadian Open Neuroscience Platform—An
+open science framework for the neuroscience community</article_title>
+            <author>Harding</author>
+            <journal_title>PLOS Computational Biology</journal_title>
+            <issue>7</issue>
+            <volume>19</volume>
+            <doi>10.1371/journal.pcbi.1011230</doi>
+            <cYear>2023</cYear>
+            <unstructured_citation>Harding, R. J., Bermudez, P.,
+Bernier, A., Beauvais, M., Bellec, P., Hill, S., Karakuzu, A., Knoppers,
+B. M., Pavlidis, P., Poline, J.-B., Roskams, J., Stikov, N., Stone, J.,
+Strother, S., Consortium, C., &amp; Evans, A. C. (2023). The Canadian
+Open Neuroscience Platform—An open science framework for the
+neuroscience community. PLOS Computational Biology, 19(7), 1–14.
+https://doi.org/10.1371/journal.pcbi.1011230</unstructured_citation>
+          </citation>
+        </citation_list>
+  </posted_content>
+  </body>
+</doi_batch>
