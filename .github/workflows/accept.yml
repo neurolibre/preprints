@@ -43,13 +43,15 @@ jobs:
           branch_prefix: neurolibre
           issue_id: ${{ github.event.inputs.issue_id }}
           pdf_path: ${{ steps.generate-files.outputs.pdf_path}}
-          jats_path: ${{ steps.generate-files.outputs.jats_path}}
+          # Disabling due to MyST related change
+          # jats_path: ${{ steps.generate-files.outputs.jats_path}}
           crossref_path: ${{ steps.generate-files.outputs.crossref_path}}
       - name: Validate metadata files
         id: validate-xml
         uses: xuanxu/validate-xml-files-action@main
         with:
-          jats_path: ${{ steps.generate-files.outputs.jats_path}}
+          # Disabling due to MyST related change
+          # jats_path: ${{ steps.generate-files.outputs.jats_path}}
           crossref_path: ${{ steps.generate-files.outputs.crossref_path}}
           validation_mode: strict
       - name: Create and Merge Pull Request
