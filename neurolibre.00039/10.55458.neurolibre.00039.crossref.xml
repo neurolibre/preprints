@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>20250613T210120-f91136d0b1d6ff606bb441764fe9be1ae458f1ed</doi_batch_id>
+    <timestamp>20250613210120</timestamp>
+    <depositor>
+      <depositor_name>NeuroLibre Admin</depositor_name>
+      <email_address>admin@neurolibre.org</email_address>
+    </depositor>
+    <registrant>Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal</registrant>
+  </head>
+  <body>
+  <posted_content type="preprint">
+  <group_title>NeuroLibre Reproducible Preprints</group_title>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Samuelle</given_name>
+            <surname>St-Onge</surname>
+            <ORCID>https://orcid.org/0000-0001-7572-8504</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Camille</given_name>
+            <surname>Coustaury</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Caroline</given_name>
+            <surname>Landelle</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Linda Solstrand</given_name>
+            <surname>Dahlberg</surname>
+            <ORCID>https://orcid.org/0000-0002-1090-7138</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Ovidiu</given_name>
+            <surname>Lungu</surname>
+            <ORCID>https://orcid.org/0000-0001-6608-5818</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Julien</given_name>
+            <surname>Doyon</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Benjamin De</given_name>
+            <surname>Leener</surname>
+            <ORCID>https://orcid.org/0000-0002-1378-2756</ORCID>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Parkinson’s disease in the spinal cord: an exploratory
+study to establish T2*w, MTR and diffusion-weighted imaging metric
+values</title>
+        </titles>
+        <posted_date>
+          <month>06</month>
+          <day>13</day>
+          <year>2025</year>
+        </posted_date>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Repository archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.15658606</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Dataset archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.15658613</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Book archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.15658609</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Container archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.15658611</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub technical screening</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://github.com/neurolibre/neurolibre-reviews/issues/39</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Executable preprint</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://preprint.neurolibre.org/10.55458/neurolibre.00039</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.55458/neurolibre.00039</doi>
+          <resource>https://neurolibre.org/papers/10.55458/neurolibre.00039</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://preprint.neurolibre.org/10.55458/neurolibre.00039.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="de_leener_pam50_2018">
+            <article_title>PAM50: Unbiased multimodal template of the
+brainstem and spinal cord aligned with the ICBM152 space</article_title>
+            <author>De Leener</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>165</volume>
+            <doi>10.1016/j.neuroimage.2017.10.041</doi>
+            <issn>1053-8119</issn>
+            <cYear>2018</cYear>
+            <unstructured_citation>De Leener, B., Fonov, V. S., Collins,
+D. L., Callot, V., Stikov, N., &amp; Cohen-Adad, J. (2018). PAM50:
+Unbiased multimodal template of the brainstem and spinal cord aligned
+with the ICBM152 space. NeuroImage, 165, 170–179.
+https://doi.org/10.1016/j.neuroimage.2017.10.041</unstructured_citation>
+          </citation>
+          <citation key="kotian_diffusion_2020">
+            <article_title>A diffusion tensor imaging study to compare
+normative fractional anisotropy values with patients suffering from
+Parkinson’s disease in the brain grey and white matter</article_title>
+            <author>Kotian</author>
+            <journal_title>Health and Technology</journal_title>
+            <issue>5</issue>
+            <volume>10</volume>
+            <doi>10.1007/s12553-020-00454-1</doi>
+            <issn>2190-7196</issn>
+            <cYear>2020</cYear>
+            <unstructured_citation>Kotian, R. P., Prakashini, K., &amp;
+Nair, N. S. (2020). A diffusion tensor imaging study to compare
+normative fractional anisotropy values with patients suffering from
+Parkinson’s disease in the brain grey and white matter. Health and
+Technology, 10(5), 1283–1289.
+https://doi.org/10.1007/s12553-020-00454-1</unstructured_citation>
+          </citation>
+          <citation key="atkinson-clement_diffusion_2017">
+            <article_title>Diffusion tensor imaging in Parkinson’s
+disease: Review and meta-analysis</article_title>
+            <author>Atkinson-Clement</author>
+            <journal_title>NeuroImage: Clinical</journal_title>
+            <volume>16</volume>
+            <doi>10.1016/j.nicl.2017.07.011</doi>
+            <issn>2213-1582</issn>
+            <cYear>2017</cYear>
+            <unstructured_citation>Atkinson-Clement, C., Pinto, S.,
+Eusebio, A., &amp; Coulon, O. (2017). Diffusion tensor imaging in
+Parkinson’s disease: Review and meta-analysis. NeuroImage: Clinical, 16,
+98–110.
+https://doi.org/10.1016/j.nicl.2017.07.011</unstructured_citation>
+          </citation>
+          <citation key="frostell_review_2016">
+            <article_title>A Review of the Segmental Diameter of the
+Healthy Human Spinal Cord</article_title>
+            <author>Frostell</author>
+            <journal_title>Frontiers in Neurology</journal_title>
+            <volume>7</volume>
+            <doi>10.3389/fneur.2016.00238</doi>
+            <issn>1664-2295</issn>
+            <cYear>2016</cYear>
+            <unstructured_citation>Frostell, A., Hakim, R., Thelin, E.
+P., Mattsson, P., &amp; Svensson, M. (2016). A Review of the Segmental
+Diameter of the Healthy Human Spinal Cord. Frontiers in Neurology, 7.
+https://doi.org/10.3389/fneur.2016.00238</unstructured_citation>
+          </citation>
+          <citation key="wang_age-related_2014">
+            <article_title>Age-related changes of the diffusion tensor
+imaging parameters of the normal cervical spinal cord</article_title>
+            <author>Wang</author>
+            <journal_title>European Journal of Radiology</journal_title>
+            <issue>12</issue>
+            <volume>83</volume>
+            <doi>10.1016/j.ejrad.2014.09.010</doi>
+            <issn>0720-048X</issn>
+            <cYear>2014</cYear>
+            <unstructured_citation>Wang, K., Song, Q., Zhang, F., Chen,
+Z., Hou, C., Tang, Y., Chen, S., Hao, Q., &amp; Shen, H. (2014).
+Age-related changes of the diffusion tensor imaging parameters of the
+normal cervical spinal cord. European Journal of Radiology, 83(12),
+2196–2202.
+https://doi.org/10.1016/j.ejrad.2014.09.010</unstructured_citation>
+          </citation>
+          <citation key="de_oliveira_utility_2021">
+            <article_title>Utility of manual fractional anisotropy
+measurements in the management of patients with Parkinson disease: A
+feasibility study with a 1.5-T magnetic resonance imaging
+system</article_title>
+            <author>Oliveira</author>
+            <journal_title>Acta Radiologica Open</journal_title>
+            <issue>2</issue>
+            <volume>10</volume>
+            <doi>10.1177/2058460121993477</doi>
+            <issn>2058-4601</issn>
+            <cYear>2021</cYear>
+            <unstructured_citation>Oliveira, R. V. de, &amp; Pereira, J.
+S. (2021). Utility of manual fractional anisotropy measurements in the
+management of patients with Parkinson disease: A feasibility study with
+a 1.5-T magnetic resonance imaging system. Acta Radiologica Open, 10(2),
+2058460121993477.
+https://doi.org/10.1177/2058460121993477</unstructured_citation>
+          </citation>
+          <citation key="landelle_altered_2023">
+            <article_title>Altered Spinal Cord Functional Connectivity
+Associated with Parkinson’s Disease Progression</article_title>
+            <author>Landelle</author>
+            <journal_title>Movement Disorders</journal_title>
+            <issue>4</issue>
+            <volume>38</volume>
+            <doi>10.1002/mds.29354</doi>
+            <issn>1531-8257</issn>
+            <cYear>2023</cYear>
+            <unstructured_citation>Landelle, C., Dahlberg, L. S., Lungu,
+O., Misic, B., De Leener, B., &amp; Doyon, J. (2023). Altered Spinal
+Cord Functional Connectivity Associated with Parkinson’s Disease
+Progression. Movement Disorders, 38(4), 636–645.
+https://doi.org/10.1002/mds.29354</unstructured_citation>
+          </citation>
+          <citation key="kamagata_what_2016">
+            <article_title>What is NODDI and what is its role in
+Parkinson’s assessment?</article_title>
+            <author>Kamagata</author>
+            <journal_title>Expert Review of
+Neurotherapeutics</journal_title>
+            <issue>3</issue>
+            <volume>16</volume>
+            <doi>10.1586/14737175.2016.1142876</doi>
+            <issn>1473-7175</issn>
+            <cYear>2016</cYear>
+            <unstructured_citation>Kamagata, K., Hatano, T., &amp; Aoki,
+S. (2016). What is NODDI and what is its role in Parkinson’s assessment?
+Expert Review of Neurotherapeutics, 16(3), 241–243.
+https://doi.org/10.1586/14737175.2016.1142876</unstructured_citation>
+          </citation>
+          <citation key="zhang_noddi_2012">
+            <article_title>NODDI: Practical in vivo neurite orientation
+dispersion and density imaging of the human brain</article_title>
+            <author>Zhang</author>
+            <journal_title>NeuroImage</journal_title>
+            <issue>4</issue>
+            <volume>61</volume>
+            <doi>10.1016/j.neuroimage.2012.03.072</doi>
+            <issn>1095-9572</issn>
+            <cYear>2012</cYear>
+            <unstructured_citation>Zhang, H., Schneider, T.,
+Wheeler-Kingshott, C. A., &amp; Alexander, D. C. (2012). NODDI:
+Practical in vivo neurite orientation dispersion and density imaging of
+the human brain. NeuroImage, 61(4), 1000–1016.
+https://doi.org/10.1016/j.neuroimage.2012.03.072</unstructured_citation>
+          </citation>
+          <citation key="nyatega_gray_2022">
+            <article_title>Gray matter, white matter and cerebrospinal
+fluid abnormalities in Parkinson’s disease: A voxel-based morphometry
+study</article_title>
+            <author>Nyatega</author>
+            <journal_title>Frontiers in Psychiatry</journal_title>
+            <volume>13</volume>
+            <doi>10.3389/fpsyt.2022.1027907</doi>
+            <issn>1664-0640</issn>
+            <cYear>2022</cYear>
+            <unstructured_citation>Nyatega, C. O., Qiang, L., Adamu, M.
+J., &amp; Kawuwa, H. B. (2022). Gray matter, white matter and
+cerebrospinal fluid abnormalities in Parkinson’s disease: A voxel-based
+morphometry study. Frontiers in Psychiatry, 13.
+https://doi.org/10.3389/fpsyt.2022.1027907</unstructured_citation>
+          </citation>
+          <citation key="kamagata_neurite_2016">
+            <article_title>Neurite orientation dispersion and density
+imaging in the substantia nigra in idiopathic Parkinson
+disease</article_title>
+            <author>Kamagata</author>
+            <journal_title>European Radiology</journal_title>
+            <issue>8</issue>
+            <volume>26</volume>
+            <doi>10.1007/s00330-015-4066-8</doi>
+            <issn>1432-1084</issn>
+            <cYear>2016</cYear>
+            <unstructured_citation>Kamagata, K., Hatano, T., Okuzumi,
+A., Motoi, Y., Abe, O., Shimoji, K., Kamiya, K., Suzuki, M., Hori, M.,
+Kumamaru, K. K., Hattori, N., &amp; Aoki, S. (2016). Neurite orientation
+dispersion and density imaging in the substantia nigra in idiopathic
+Parkinson disease. European Radiology, 26(8), 2567–2577.
+https://doi.org/10.1007/s00330-015-4066-8</unstructured_citation>
+          </citation>
+          <citation key="de_leener_sct_2017">
+            <article_title>SCT: Spinal Cord Toolbox, an open-source
+software for processing spinal cord MRI data</article_title>
+            <author>De Leener</author>
+            <journal_title>NeuroImage</journal_title>
+            <issue>Pt A</issue>
+            <volume>145</volume>
+            <doi>10.1016/j.neuroimage.2016.10.009</doi>
+            <issn>1095-9572</issn>
+            <cYear>2017</cYear>
+            <unstructured_citation>De Leener, B., Lévy, S., Dupont, S.
+M., Fonov, V. S., Stikov, N., Louis Collins, D., Callot, V., &amp;
+Cohen-Adad, J. (2017). SCT: Spinal Cord Toolbox, an open-source software
+for processing spinal cord MRI data. NeuroImage, 145(Pt A), 24–43.
+https://doi.org/10.1016/j.neuroimage.2016.10.009</unstructured_citation>
+          </citation>
+          <citation key="muller_staging_2005">
+            <article_title>Staging of Sporadic Parkinson Disease-Related
+a-Synuclein Pathology: Inter- and Intra-Rater
+Reliability</article_title>
+            <author>Muller</author>
+            <journal_title>J Neuropathol Exp Neurol</journal_title>
+            <issue>7</issue>
+            <volume>64</volume>
+            <doi>10.1097/01.jnen.0000171652.40083.15</doi>
+            <cYear>2005</cYear>
+            <unstructured_citation>Muller, C. M., Thal, D. R., Tolnay,
+M., &amp; Braak, H. (2005). Staging of Sporadic Parkinson
+Disease-Related a-Synuclein Pathology: Inter- and Intra-Rater
+Reliability. J Neuropathol Exp Neurol, 64(7).
+https://doi.org/10.1097/01.jnen.0000171652.40083.15</unstructured_citation>
+          </citation>
+          <citation key="martin_novel_2017">
+            <article_title>A Novel MRI Biomarker of Spinal Cord White
+Matter Injury: T2*-Weighted White Matter to Gray Matter Signal Intensity
+Ratio</article_title>
+            <author>Martin</author>
+            <journal_title>American Journal of
+Neuroradiology</journal_title>
+            <issue>6</issue>
+            <volume>38</volume>
+            <doi>10.3174/ajnr.A5162</doi>
+            <issn>0195-6108</issn>
+            <cYear>2017</cYear>
+            <unstructured_citation>Martin, A. R., De Leener, B.,
+Cohen-Adad, J., Cadotte, D. W., Kalsi-Ryan, S., Lange, S. F., Tetreault,
+L., Nouri, A., Crawley, A., Mikulis, D. J., Ginsberg, H., &amp;
+Fehlings, M. G. (2017). A Novel MRI Biomarker of Spinal Cord White
+Matter Injury: T2*-Weighted White Matter to Gray Matter Signal Intensity
+Ratio. American Journal of Neuroradiology, 38(6), 1266–1273.
+https://doi.org/10.3174/ajnr.A5162</unstructured_citation>
+          </citation>
+          <citation key="agosta_evidence_2007">
+            <article_title>Evidence for cervical cord tissue
+disorganisation with aging by diffusion tensor MRI</article_title>
+            <author>Agosta</author>
+            <journal_title>NeuroImage</journal_title>
+            <issue>3</issue>
+            <volume>36</volume>
+            <doi>10.1016/j.neuroimage.2007.03.048</doi>
+            <issn>1053-8119</issn>
+            <cYear>2007</cYear>
+            <unstructured_citation>Agosta, F., Laganà, M., Valsasina,
+P., Sala, S., Dall’Occhio, L., Sormani, M. P., Judica, E., &amp;
+Filippi, M. (2007). Evidence for cervical cord tissue disorganisation
+with aging by diffusion tensor MRI. NeuroImage, 36(3), 728–735.
+https://doi.org/10.1016/j.neuroimage.2007.03.048</unstructured_citation>
+          </citation>
+          <citation key="sumikura_distribution_2015">
+            <article_title>Distribution of α-synuclein in the spinal
+cord and dorsal root ganglia in an autopsy cohort of elderly
+persons</article_title>
+            <author>Sumikura</author>
+            <journal_title>Acta Neuropathologica
+Communications</journal_title>
+            <volume>3</volume>
+            <doi>10.1186/s40478-015-0236-9</doi>
+            <issn>2051-5960</issn>
+            <cYear>2015</cYear>
+            <unstructured_citation>Sumikura, H., Takao, M., Hatsuta, H.,
+Ito, S., Nakano, Y., Uchino, A., Nogami, A., Saito, Y., Mochizuki, H.,
+&amp; Murayama, S. (2015). Distribution of α-synuclein in the spinal
+cord and dorsal root ganglia in an autopsy cohort of elderly persons.
+Acta Neuropathologica Communications, 3, 57.
+https://doi.org/10.1186/s40478-015-0236-9</unstructured_citation>
+          </citation>
+          <citation key="oinas_-synuclein_2010">
+            <article_title>Α-Synuclein pathology in the spinal cord
+autonomic nuclei associates with α-synuclein pathology in the brain: A
+population-based Vantaa 85+ study</article_title>
+            <author>Oinas</author>
+            <journal_title>Acta Neuropathologica</journal_title>
+            <issue>6</issue>
+            <volume>119</volume>
+            <doi>10.1007/s00401-009-0629-6</doi>
+            <issn>1432-0533</issn>
+            <cYear>2010</cYear>
+            <unstructured_citation>Oinas, M., Paetau, A., Myllykangas,
+L., Notkola, I.-L., Kalimo, H., &amp; Polvikoski, T. (2010). Α-Synuclein
+pathology in the spinal cord autonomic nuclei associates with
+α-synuclein pathology in the brain: A population-based Vantaa 85+ study.
+Acta Neuropathologica, 119(6), 715–722.
+https://doi.org/10.1007/s00401-009-0629-6</unstructured_citation>
+          </citation>
+          <citation key="bloch_-synuclein_2006">
+            <article_title>Α-Synuclein pathology of the spinal and
+peripheral autonomic nervous system in neurologically unimpaired elderly
+subjects</article_title>
+            <author>Bloch</author>
+            <journal_title>Neuropathology and Applied
+Neurobiology</journal_title>
+            <issue>3</issue>
+            <volume>32</volume>
+            <doi>10.1111/j.1365-2990.2006.00727.x</doi>
+            <issn>1365-2990</issn>
+            <cYear>2006</cYear>
+            <unstructured_citation>Bloch, A., Probst, A., Bissig, H.,
+Adams, H., &amp; Tolnay, M. (2006). Α-Synuclein pathology of the spinal
+and peripheral autonomic nervous system in neurologically unimpaired
+elderly subjects. Neuropathology and Applied Neurobiology, 32(3),
+284–295.
+https://doi.org/10.1111/j.1365-2990.2006.00727.x</unstructured_citation>
+          </citation>
+          <citation key="odonnell_introduction_2011">
+            <article_title>An introduction to diffusion tensor image
+analysis</article_title>
+            <author>O’Donnell</author>
+            <journal_title>Neurosurgery clinics of North
+America</journal_title>
+            <issue>2</issue>
+            <volume>22</volume>
+            <doi>10.1016/j.nec.2010.12.004</doi>
+            <cYear>2011</cYear>
+            <unstructured_citation>O’Donnell, L. J., &amp; Westin, C.-F.
+(2011). An introduction to diffusion tensor image analysis. Neurosurgery
+Clinics of North America, 22(2), 185.
+https://doi.org/10.1016/j.nec.2010.12.004</unstructured_citation>
+          </citation>
+          <citation key="schwarz_parkinsons_2018">
+            <article_title>Parkinson’s disease related signal change in
+the nigrosomes 1–5 and the substantia nigra using T2* weighted 7T
+MRI</article_title>
+            <author>Schwarz</author>
+            <journal_title>NeuroImage: Clinical</journal_title>
+            <volume>19</volume>
+            <doi>10.1016/j.nicl.2018.05.027</doi>
+            <issn>2213-1582</issn>
+            <cYear>2018</cYear>
+            <unstructured_citation>Schwarz, S. T., Mougin, O., Xing, Y.,
+Blazejewska, A., Bajaj, N., Auer, D. P., &amp; Gowland, P. (2018).
+Parkinson’s disease related signal change in the nigrosomes 1–5 and the
+substantia nigra using T2* weighted 7T MRI. NeuroImage: Clinical, 19,
+683–689.
+https://doi.org/10.1016/j.nicl.2018.05.027</unstructured_citation>
+          </citation>
+          <citation key="tambasco_t2-weighted_2019">
+            <article_title>T2*-weighted MRI values correlate with motor
+and cognitive dysfunction in Parkinson’s disease</article_title>
+            <author>Tambasco</author>
+            <journal_title>Neurobiology of Aging</journal_title>
+            <volume>80</volume>
+            <doi>10.1016/j.neurobiolaging.2019.04.005</doi>
+            <cYear>2019</cYear>
+            <unstructured_citation>Tambasco, N., Paolini Paoletti, F.,
+Chiappiniello, A., Lisetti, V., Nigro, P., Eusebi, P., Chiarini, P.,
+Romoli, M., Brahimi, E., Simoni, S., Filidei, M., Floridi, P., Tarducci,
+R., Parnetti, L., &amp; Calabresi, P. (2019). T2*-weighted MRI values
+correlate with motor and cognitive dysfunction in Parkinson’s disease.
+Neurobiology of Aging, 80, 91–98.
+https://doi.org/10.1016/j.neurobiolaging.2019.04.005</unstructured_citation>
+          </citation>
+          <citation key="anik_magnetization_2007">
+            <article_title>Magnetization Transfer Ratio in Early Period
+of Parkinson Disease</article_title>
+            <author>Anik</author>
+            <journal_title>Academic Radiology</journal_title>
+            <issue>2</issue>
+            <volume>14</volume>
+            <doi>10.1016/j.acra.2006.11.005</doi>
+            <issn>1076-6332</issn>
+            <cYear>2007</cYear>
+            <unstructured_citation>Anik, Y., Iseri, P., Demirci, A.,
+Komsuoglu, S., &amp; Inan, N. (2007). Magnetization Transfer Ratio in
+Early Period of Parkinson Disease. Academic Radiology, 14(2), 189–192.
+https://doi.org/10.1016/j.acra.2006.11.005</unstructured_citation>
+          </citation>
+          <citation key="tambasco_magnetization_2011">
+            <article_title>A magnetization transfer study of mild and
+advanced Parkinson’s disease</article_title>
+            <author>Tambasco</author>
+            <journal_title>European Journal of Neurology</journal_title>
+            <issue>3</issue>
+            <volume>18</volume>
+            <doi>10.1111/j.1468-1331.2010.03184.x</doi>
+            <issn>1468-1331</issn>
+            <cYear>2011</cYear>
+            <unstructured_citation>Tambasco, N., Belcastro, V.,
+Sarchielli, P., Floridi, P., Pierguidi, L., Menichetti, C., Castrioto,
+A., Chiarini, P., Parnetti, L., Eusebi, P., Calabresi, P., &amp; Rossi,
+A. (2011). A magnetization transfer study of mild and advanced
+Parkinson’s disease. European Journal of Neurology, 18(3), 471–477.
+https://doi.org/10.1111/j.1468-1331.2010.03184.x</unstructured_citation>
+          </citation>
+          <citation key="sekigawa_role_2015">
+            <article_title>Role of α- and β-Synucleins in the Axonal
+Pathology of Parkinson’s Disease and Related
+Synucleinopathies</article_title>
+            <author>Sekigawa</author>
+            <journal_title>Biomolecules</journal_title>
+            <issue>2</issue>
+            <volume>5</volume>
+            <doi>10.3390/biom5021000</doi>
+            <issn>2218-273X</issn>
+            <cYear>2015</cYear>
+            <unstructured_citation>Sekigawa, A., Takamatsu, Y.,
+Sekiyama, K., &amp; Hashimoto, M. (2015). Role of α- and β-Synucleins in
+the Axonal Pathology of Parkinson’s Disease and Related
+Synucleinopathies. Biomolecules, 5(2), 1000–1011.
+https://doi.org/10.3390/biom5021000</unstructured_citation>
+          </citation>
+          <citation key="nardone_spinal_2020">
+            <article_title>Spinal cord involvement in Lewy body-related
+α-synucleinopathies</article_title>
+            <author>Nardone</author>
+            <journal_title>The Journal of Spinal Cord
+Medicine</journal_title>
+            <issue>6</issue>
+            <volume>43</volume>
+            <doi>10.1080/10790268.2018.1557863</doi>
+            <issn>1079-0268</issn>
+            <cYear>2020</cYear>
+            <unstructured_citation>Nardone, R., Höller, Y., Brigo, F.,
+Versace, V., Sebastianelli, L., Florea, C., Schwenker, K., Golaszewski,
+S., Saltuari, L., &amp; Trinka, E. (2020). Spinal cord involvement in
+Lewy body-related α-synucleinopathies. The Journal of Spinal Cord
+Medicine, 43(6), 832–845.
+https://doi.org/10.1080/10790268.2018.1557863</unstructured_citation>
+          </citation>
+          <citation key="braak_parkinsons_2007">
+            <article_title>Parkinson’s disease: Lesions in dorsal horn
+layer I, involvement of parasympathetic and sympathetic pre- and
+postganglionic neurons</article_title>
+            <author>Braak</author>
+            <journal_title>Acta Neuropathologica</journal_title>
+            <issue>4</issue>
+            <volume>113</volume>
+            <doi>10.1007/s00401-007-0193-x</doi>
+            <issn>0001-6322</issn>
+            <cYear>2007</cYear>
+            <unstructured_citation>Braak, H., Sastre, M., Bohl, J. R.
+E., Vos, R. A. I. de, &amp; Del Tredici, K. (2007). Parkinson’s disease:
+Lesions in dorsal horn layer I, involvement of parasympathetic and
+sympathetic pre- and postganglionic neurons. Acta Neuropathologica,
+113(4), 421–429.
+https://doi.org/10.1007/s00401-007-0193-x</unstructured_citation>
+          </citation>
+          <citation key="buchman_spinal_2017">
+            <article_title>Spinal Lewy body pathology in older adults
+without an antemortem diagnosis of Parkinson’s disease</article_title>
+            <author>Buchman</author>
+            <journal_title>Brain Pathology</journal_title>
+            <issue>4</issue>
+            <volume>28</volume>
+            <doi>10.1111/bpa.12560</doi>
+            <issn>1015-6305</issn>
+            <cYear>2017</cYear>
+            <unstructured_citation>Buchman, A. S., Nag, S., Leurgans, S.
+E., Miller, J., VanderHorst, V. G. J. M., Bennett, D. A., &amp;
+Schneider, J. A. (2017). Spinal Lewy body pathology in older adults
+without an antemortem diagnosis of Parkinson’s disease. Brain Pathology,
+28(4), 560–568.
+https://doi.org/10.1111/bpa.12560</unstructured_citation>
+          </citation>
+          <citation key="bianco_-synucleinopathy_2002">
+            <article_title>Α-Synucleinopathy and selective dopaminergic
+neuron loss in a rat lentiviral-based model of Parkinson’s
+disease</article_title>
+            <author>Bianco</author>
+            <doi>10.1073/pnas.152339799</doi>
+            <cYear>2002</cYear>
+            <unstructured_citation>Bianco, C. L., Ridet, J. L.,
+Schneider, B. L., Déglon, N., &amp; Aebischer, P. (2002).
+Α-Synucleinopathy and selective dopaminergic neuron loss in a rat
+lentiviral-based model of Parkinson’s disease.
+https://doi.org/10.1073/pnas.152339799</unstructured_citation>
+          </citation>
+          <citation key="mitchell_neurite_2019">
+            <article_title>Neurite orientation dispersion and density
+imaging (NODDI) and free-water imaging in Parkinsonism</article_title>
+            <author>Mitchell</author>
+            <journal_title>Human Brain Mapping</journal_title>
+            <issue>17</issue>
+            <volume>40</volume>
+            <doi>10.1002/hbm.24760</doi>
+            <issn>1097-0193</issn>
+            <cYear>2019</cYear>
+            <unstructured_citation>Mitchell, T., Archer, D. B., Chu, W.
+T., Coombes, S. A., Lai, S., Wilkes, B. J., McFarland, N. R., Okun, M.
+S., Black, M. L., Herschel, E., Simuni, T., Comella, C., Xie, T., Li,
+H., Parrish, T. B., Kurani, A. S., Corcos, D. M., &amp; Vaillancourt, D.
+E. (2019). Neurite orientation dispersion and density imaging (NODDI)
+and free-water imaging in Parkinsonism. Human Brain Mapping, 40(17),
+5094–5107. https://doi.org/10.1002/hbm.24760</unstructured_citation>
+          </citation>
+          <citation key="del_tredici_spinal_2012">
+            <article_title>Spinal cord lesions in sporadic Parkinson’s
+disease</article_title>
+            <author>Del Tredici</author>
+            <journal_title>Acta Neuropathologica</journal_title>
+            <issue>5</issue>
+            <volume>124</volume>
+            <doi>10.1007/s00401-012-1028-y</doi>
+            <issn>1432-0533</issn>
+            <cYear>2012</cYear>
+            <unstructured_citation>Del Tredici, K., &amp; Braak, H.
+(2012). Spinal cord lesions in sporadic Parkinson’s disease. Acta
+Neuropathologica, 124(5), 643–664.
+https://doi.org/10.1007/s00401-012-1028-y</unstructured_citation>
+          </citation>
+          <citation key="combes_spiral_2024">
+            <article_title>Spiral volumetric optoacoustic tomography of
+reduced oxygen saturation in the spinal cord of M83 mouse model of
+Parkinson’s disease</article_title>
+            <author>Combes</author>
+            <journal_title>European Journal of Nuclear Medicine and
+Molecular Imaging</journal_title>
+            <doi>10.1007/s00259-024-06938-w</doi>
+            <issn>1619-7089</issn>
+            <cYear>2024</cYear>
+            <unstructured_citation>Combes, B. F., Kalva, S. K.,
+Benveniste, P.-L., Tournant, A., Law, M. H., Newton, J., Krüger, M.,
+Weber, R. Z., Dias, I., Noain, D., Dean-Ben, X. L., Konietzko, U.,
+Baumann, C. R., Gillberg, P.-G., Hock, C., Nitsch, R. M., Cohen-Adad,
+J., Razansky, D., &amp; Ni, R. (2024). Spiral volumetric optoacoustic
+tomography of reduced oxygen saturation in the spinal cord of M83 mouse
+model of Parkinson’s disease. European Journal of Nuclear Medicine and
+Molecular Imaging.
+https://doi.org/10.1007/s00259-024-06938-w</unstructured_citation>
+          </citation>
+          <citation key="ucl_microstructure_imaging_group_noddi_2021">
+            <article_title>NODDI Matlab Toolbox</article_title>
+            <author>UCL Microstructure Imaging Group</author>
+            <cYear>2021</cYear>
+            <unstructured_citation>UCL Microstructure Imaging Group.
+(2021). NODDI Matlab Toolbox.
+http://mig.cs.ucl.ac.uk/index.php?n=Tutorial.NODDImatlab</unstructured_citation>
+          </citation>
+          <citation key="del_tredici_review_2016">
+            <article_title>Review: Sporadic Parkinson’s disease:
+Development and distribution of α-synuclein pathology</article_title>
+            <author>Del Tredici</author>
+            <journal_title>Neuropathology and Applied
+Neurobiology</journal_title>
+            <issue>1</issue>
+            <volume>42</volume>
+            <doi>10.1111/nan.12298</doi>
+            <issn>1365-2990</issn>
+            <cYear>2016</cYear>
+            <unstructured_citation>Del Tredici, K., &amp; Braak, H.
+(2016). Review: Sporadic Parkinson’s disease: Development and
+distribution of α-synuclein pathology. Neuropathology and Applied
+Neurobiology, 42(1), 33–50.
+https://doi.org/10.1111/nan.12298</unstructured_citation>
+          </citation>
+          <citation key="assaf_diffusion_2008">
+            <article_title>Diffusion Tensor Imaging (DTI)-based White
+Matter Mapping in Brain Research: A Review</article_title>
+            <author>Assaf</author>
+            <journal_title>Journal of Molecular
+Neuroscience</journal_title>
+            <issue>1</issue>
+            <volume>34</volume>
+            <doi>10.1007/s12031-007-0029-0</doi>
+            <issn>1559-1166</issn>
+            <cYear>2008</cYear>
+            <unstructured_citation>Assaf, Y., &amp; Pasternak, O.
+(2008). Diffusion Tensor Imaging (DTI)-based White Matter Mapping in
+Brain Research: A Review. Journal of Molecular Neuroscience, 34(1),
+51–61. https://doi.org/10.1007/s12031-007-0029-0</unstructured_citation>
+          </citation>
+          <citation key="pfefferbaum_diffusion_2010">
+            <article_title>Diffusion tensor imaging of deep gray matter
+brain structures: Effects of age and iron concentration</article_title>
+            <author>Pfefferbaum</author>
+            <journal_title>Neurobiology of aging</journal_title>
+            <issue>3</issue>
+            <volume>31</volume>
+            <doi>10.1016/j.neurobiolaging.2008.04.013</doi>
+            <issn>0197-4580</issn>
+            <cYear>2010</cYear>
+            <unstructured_citation>Pfefferbaum, A., Adalsteinsson, E.,
+Rohlfing, T., &amp; Sullivan, E. V. (2010). Diffusion tensor imaging of
+deep gray matter brain structures: Effects of age and iron
+concentration. Neurobiology of Aging, 31(3), 482.
+https://doi.org/10.1016/j.neurobiolaging.2008.04.013</unstructured_citation>
+          </citation>
+          <citation key="vedantam_diffusion_2014">
+            <article_title>Diffusion Tensor Imaging of the Spinal Cord:
+Insights From Animal and Human Studies</article_title>
+            <author>Vedantam</author>
+            <journal_title>Neurosurgery</journal_title>
+            <issue>1</issue>
+            <volume>74</volume>
+            <doi>10.1227/NEU.0000000000000171</doi>
+            <issn>0148-396X</issn>
+            <cYear>2014</cYear>
+            <unstructured_citation>Vedantam, A., Jirjis, M. B., Schmit,
+B. D., Wang, M. C., Ulmer, J. L., &amp; Kurpad, S. N. (2014). Diffusion
+Tensor Imaging of the Spinal Cord: Insights From Animal and Human
+Studies. Neurosurgery, 74(1), 1–8.
+https://doi.org/10.1227/NEU.0000000000000171</unstructured_citation>
+          </citation>
+          <citation key="zeng_iron_2024">
+            <article_title>Iron Deposition in Parkinson’s Disease: A
+Mini-Review</article_title>
+            <author>Zeng</author>
+            <journal_title>Cellular and Molecular
+Neurobiology</journal_title>
+            <issue>1</issue>
+            <volume>44</volume>
+            <doi>10.1007/s10571-024-01459-4</doi>
+            <issn>1573-6830</issn>
+            <cYear>2024</cYear>
+            <unstructured_citation>Zeng, W., Cai, J., Zhang, L., &amp;
+Peng, Q. (2024). Iron Deposition in Parkinson’s Disease: A Mini-Review.
+Cellular and Molecular Neurobiology, 44(1), 26.
+https://doi.org/10.1007/s10571-024-01459-4</unstructured_citation>
+          </citation>
+          <citation key="horsager_brain-first_2020">
+            <article_title>Brain-first versus body-first Parkinson’s
+disease: A multimodal imaging case-control study</article_title>
+            <author>Horsager</author>
+            <journal_title>Brain</journal_title>
+            <issue>10</issue>
+            <volume>143</volume>
+            <doi>10.1093/brain/awaa238</doi>
+            <issn>0006-8950</issn>
+            <cYear>2020</cYear>
+            <unstructured_citation>Horsager, J., Andersen, K. B.,
+Knudsen, K., Skjærbæk, C., Fedorova, T. D., Okkels, N., Schaeffer, E.,
+Bonkat, S. K., Geday, J., Otto, M., Sommerauer, M., Danielsen, E. H.,
+Bech, E., Kraft, J., Munk, O. L., Hansen, S. D., Pavese, N., Göder, R.,
+Brooks, D. J., … Borghammer, P. (2020). Brain-first versus body-first
+Parkinson’s disease: A multimodal imaging case-control study. Brain,
+143(10), 3077–3088.
+https://doi.org/10.1093/brain/awaa238</unstructured_citation>
+          </citation>
+          <citation key="leclair-visonneau_gut_2020">
+            <article_title>The gut in Parkinson’s disease: Bottom-up,
+top-down, or neither?</article_title>
+            <author>Leclair-Visonneau</author>
+            <journal_title>Neurogastroenterology &amp;
+Motility</journal_title>
+            <issue>1</issue>
+            <volume>32</volume>
+            <doi>10.1111/nmo.13777</doi>
+            <issn>1365-2982</issn>
+            <cYear>2020</cYear>
+            <unstructured_citation>Leclair-Visonneau, L., Neunlist, M.,
+Derkinderen, P., &amp; Lebouvier, T. (2020). The gut in Parkinson’s
+disease: Bottom-up, top-down, or neither? Neurogastroenterology &amp;
+Motility, 32(1), e13777.
+https://doi.org/10.1111/nmo.13777</unstructured_citation>
+          </citation>
+          <citation key="droby_interplay_2022">
+            <article_title>The interplay between structural and
+functional connectivity in early stage Parkinson’s disease
+patients</article_title>
+            <author>Droby</author>
+            <journal_title>Journal of the Neurological
+Sciences</journal_title>
+            <volume>442</volume>
+            <doi>10.1016/j.jns.2022.120452</doi>
+            <issn>0022-510X</issn>
+            <cYear>2022</cYear>
+            <unstructured_citation>Droby, A., Nosatzki, S., Edry, Y.,
+Thaler, A., Giladi, N., Mirelman, A., &amp; Maidan, I. (2022). The
+interplay between structural and functional connectivity in early stage
+Parkinson’s disease patients. Journal of the Neurological Sciences, 442.
+https://doi.org/10.1016/j.jns.2022.120452</unstructured_citation>
+          </citation>
+          <citation key="movement_disorder_society_task_force_on_rating_scales_for_parkinsons_disease_unified_2003">
+            <article_title>The Unified Parkinson’s Disease Rating Scale
+(UPDRS): Status and recommendations</article_title>
+            <author>Movement Disorder Society Task Force on Rating
+Scales for Parkinson’s Disease</author>
+            <journal_title>Movement Disorders: Official Journal of the
+Movement Disorder Society</journal_title>
+            <issue>7</issue>
+            <volume>18</volume>
+            <doi>10.1002/mds.10473</doi>
+            <issn>0885-3185</issn>
+            <cYear>2003</cYear>
+            <unstructured_citation>Movement Disorder Society Task Force
+on Rating Scales for Parkinson’s Disease. (2003). The Unified
+Parkinson’s Disease Rating Scale (UPDRS): Status and recommendations.
+Movement Disorders: Official Journal of the Movement Disorder Society,
+18(7), 738–750.
+https://doi.org/10.1002/mds.10473</unstructured_citation>
+          </citation>
+        </citation_list>
+  </posted_content>
+  </body>
+</doi_batch>
