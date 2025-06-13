@@ -43,7 +43,8 @@ jobs:
           branch_prefix: neurolibre
           issue_id: ${{ github.event.inputs.issue_id }}
           pdf_path: ${{ steps.generate-files.outputs.pdf_path}}
-          jats_path: ${{ steps.generate-files.outputs.jats_path}}
+          # Not validating  for now, due to MyST mix pdf issue
+          # jats_path: ${{ steps.generate-files.outputs.jats_path}}
           crossref_path: ${{ steps.generate-files.outputs.crossref_path}}
       - name: Open Pull Request
         id: open-pr
@@ -58,7 +59,8 @@ jobs:
         id: validate-xml
         uses: xuanxu/validate-xml-files-action@main
         with:
-          jats_path: ${{ steps.generate-files.outputs.jats_path}}
+          # Not validating  for now, due to MyST mix pdf issue
+          # jats_path: ${{ steps.generate-files.outputs.jats_path}}
           crossref_path: ${{ steps.generate-files.outputs.crossref_path}}
           validation_mode: strict
       - name: Reply message
