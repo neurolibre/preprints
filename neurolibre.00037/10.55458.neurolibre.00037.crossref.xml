@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>20250617T205604-2fd656460f7e2551e519e6e7556baa510f9297e1</doi_batch_id>
+    <timestamp>20250617205604</timestamp>
+    <depositor>
+      <depositor_name>NeuroLibre Admin</depositor_name>
+      <email_address>admin@neurolibre.org</email_address>
+    </depositor>
+    <registrant>Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal</registrant>
+  </head>
+  <body>
+  <posted_content type="preprint">
+  <group_title>NeuroLibre Reproducible Preprints</group_title>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>John</given_name>
+            <surname>Kruper</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Ariel</given_name>
+            <surname>Rokem</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Computational examples of software for white matter
+tractometry</title>
+        </titles>
+        <posted_date>
+          <month>06</month>
+          <day>17</day>
+          <year>2025</year>
+        </posted_date>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Repository archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.15660306</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Dataset archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.15660314</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Book archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.15660308</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Container archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.15660310</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub technical screening</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://github.com/neurolibre/neurolibre-reviews/issues/37</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Executable preprint</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://preprint.neurolibre.org/10.55458/neurolibre.00037</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.55458/neurolibre.00037</doi>
+          <resource>https://neurolibre.org/papers/10.55458/neurolibre.00037</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://preprint.neurolibre.org/10.55458/neurolibre.00037.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="Kruper2024-ke">
+            <article_title>Tractometry of the human connectome project:
+Resources and insights</article_title>
+            <author>Kruper</author>
+            <journal_title>Front. Neurosci.</journal_title>
+            <volume>18</volume>
+            <doi>10.3389/fnins.2024.1389680</doi>
+            <cYear>2024</cYear>
+            <unstructured_citation>Kruper, J., Hagen, M. P., Rheault,
+F., Crane, I., Gilmore, A., Narayan, M., Motwani, K., Lila, E., Rorden,
+C., Yeatman, J. D., &amp; Rokem, A. (2024). Tractometry of the human
+connectome project: Resources and insights. Front. Neurosci., 18,
+1389680.
+https://doi.org/10.3389/fnins.2024.1389680</unstructured_citation>
+          </citation>
+          <citation key="Yeatman2012AFQ">
+            <article_title>Tract profiles of white matter properties:
+Automating fiber-tract quantification</article_title>
+            <author>Yeatman</author>
+            <journal_title>PLoS One</journal_title>
+            <issue>11</issue>
+            <volume>7</volume>
+            <doi>10.1371/journal.pone.0049790</doi>
+            <cYear>2012</cYear>
+            <unstructured_citation>Yeatman, J. D., Dougherty, R. F.,
+Myall, N. J., Wandell, B. A., &amp; Feldman, H. M. (2012). Tract
+profiles of white matter properties: Automating fiber-tract
+quantification. PLoS One, 7(11), e49790.
+https://doi.org/10.1371/journal.pone.0049790</unstructured_citation>
+          </citation>
+          <citation key="RichieHalford2021SGL">
+            <article_title>Multidimensional analysis and detection of
+informative features in human brain white matter</article_title>
+            <author>Richie-Halford</author>
+            <journal_title>PLoS Comput. Biol.</journal_title>
+            <issue>6</issue>
+            <volume>17</volume>
+            <doi>10.1371/journal.pcbi.1009136</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Richie-Halford, A., Yeatman, J. D.,
+Simon, N., &amp; Rokem, A. (2021). Multidimensional analysis and
+detection of informative features in human brain white matter. PLoS
+Comput. Biol., 17(6), e1009136.
+https://doi.org/10.1371/journal.pcbi.1009136</unstructured_citation>
+          </citation>
+          <citation key="Muncy2022GAMs">
+            <article_title>General additive models address statistical
+issues in diffusion MRI: An example with clinically anxious
+adolescents</article_title>
+            <author>Muncy</author>
+            <journal_title>Neuroimage Clin</journal_title>
+            <volume>33</volume>
+            <doi>10.1016/j.nicl.2022.102937</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Muncy, N. M., Kimbler, A.,
+Hedges-Muncy, A. M., McMakin, D. L., &amp; Mattfeld, A. T. (2022).
+General additive models address statistical issues in diffusion MRI: An
+example with clinically anxious adolescents. Neuroimage Clin, 33,
+102937.
+https://doi.org/10.1016/j.nicl.2022.102937</unstructured_citation>
+          </citation>
+          <citation key="Yeatman2018AFQBrowser">
+            <article_title>A browser-based tool for visualization and
+analysis of diffusion MRI data</article_title>
+            <author>Yeatman</author>
+            <journal_title>Nat. Commun.</journal_title>
+            <issue>1</issue>
+            <volume>9</volume>
+            <doi>10.1038/s41467-018-03297-7</doi>
+            <cYear>2018</cYear>
+            <unstructured_citation>Yeatman, J. D., Richie-Halford, A.,
+Smith, J. K., Keshavan, A., &amp; Rokem, A. (2018). A browser-based tool
+for visualization and analysis of diffusion MRI data. Nat. Commun.,
+9(1), 940.
+https://doi.org/10.1038/s41467-018-03297-7</unstructured_citation>
+          </citation>
+        </citation_list>
+  </posted_content>
+  </body>
+</doi_batch>
