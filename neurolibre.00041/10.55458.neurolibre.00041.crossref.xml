@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>20250617T224456-0ce0c5ee09224b45ebae1e9fa0ab513ee915ceff</doi_batch_id>
+    <timestamp>20250617224456</timestamp>
+    <depositor>
+      <depositor_name>NeuroLibre Admin</depositor_name>
+      <email_address>admin@neurolibre.org</email_address>
+    </depositor>
+    <registrant>Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal</registrant>
+  </head>
+  <body>
+  <posted_content type="preprint">
+  <group_title>NeuroLibre Reproducible Preprints</group_title>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Agah</given_name>
+            <surname>Karakuzu</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Toward a woven literature: Open-source infrastructure
+for reproducible publishing</title>
+        </titles>
+        <posted_date>
+          <month>06</month>
+          <day>17</day>
+          <year>2025</year>
+        </posted_date>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Repository archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.15686020</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Book archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.15686022</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub technical screening</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://github.com/neurolibre/neurolibre-reviews/issues/41</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Executable preprint</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://preprint.neurolibre.org/10.55458/neurolibre.00041</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.55458/neurolibre.00041</doi>
+          <resource>https://neurolibre.org/papers/10.55458/neurolibre.00041</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://preprint.neurolibre.org/10.55458/neurolibre.00041.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="ARC-AGI_Community_2025">
+            <article_title>ARCPRIZE leaderboard</article_title>
+            <author>Community</author>
+            <cYear>2025</cYear>
+            <unstructured_citation>Community, A.-A. (2025). ARCPRIZE
+leaderboard. https://arcprize.org/leaderboard</unstructured_citation>
+          </citation>
+          <citation key="Archibald_2024">
+            <article_title>Integrating structural, functional, and
+biochemical brain imaging data with MRShiny brain - an interactive web
+application</article_title>
+            <author>Archibald</author>
+            <journal_title>NeuroLibre Reproducible
+Preprints</journal_title>
+            <doi>10.55458/neurolibre.00029</doi>
+            <cYear>2024</cYear>
+            <unstructured_citation>Archibald, J., Weber, A. M.,
+Scheuren, P. S., Ortiz, O., Choles, C., Lee, J. J., Zölch, N.,
+MacMillan, E. L., &amp; Kramer, J. L. k. (2024). Integrating structural,
+functional, and biochemical brain imaging data with MRShiny brain - an
+interactive web application. NeuroLibre Reproducible Preprints, 29.
+https://doi.org/10.55458/neurolibre.00029</unstructured_citation>
+          </citation>
+          <citation key="Bellec_Jbabdi_Craddock_2023">
+            <article_title>Parcellating the parcellation issue - a proof
+of concept for reproducible analyses using neurolibre</article_title>
+            <author>Bellec</author>
+            <journal_title>NeuroLibre Reproducible
+Preprints</journal_title>
+            <doi>10.55458/neurolibre.00010</doi>
+            <cYear>2023</cYear>
+            <unstructured_citation>Bellec, P., Jbabdi, S., &amp;
+Craddock, R. C. (2023). Parcellating the parcellation issue - a proof of
+concept for reproducible analyses using neurolibre. NeuroLibre
+Reproducible Preprints, 10.
+https://doi.org/10.55458/neurolibre.00010</unstructured_citation>
+          </citation>
+          <citation key="Benet_2014">
+            <article_title>IPFS - content addressed, versioned, P2P file
+system</article_title>
+            <author>Benet</author>
+            <journal_title>CoRR</journal_title>
+            <volume>abs/1407.3561</volume>
+            <cYear>2014</cYear>
+            <unstructured_citation>Benet, J. (2014). IPFS - content
+addressed, versioned, P2P file system. CoRR, abs/1407.3561.
+http://arxiv.org/abs/1407.3561</unstructured_citation>
+          </citation>
+          <citation key="Bisong_2019">
+            <article_title>Google colaboratory</article_title>
+            <author>Bisong</author>
+            <journal_title>Building machine learning and deep learning
+models on google cloud platform</journal_title>
+            <doi>10.1007/978-1-4842-4470-8_7</doi>
+            <isbn>9781484244692</isbn>
+            <cYear>2019</cYear>
+            <unstructured_citation>Bisong, E. (2019). Google
+colaboratory. In Building machine learning and deep learning models on
+google cloud platform (pp. 59–64). Apress.
+https://doi.org/10.1007/978-1-4842-4470-8_7</unstructured_citation>
+          </citation>
+          <citation key="Bocchi_Blomer_Mosciatti_Valenzuela_2021">
+            <article_title>CernVM-FS powered container
+hub</article_title>
+            <author>Bocchi</author>
+            <journal_title>EPJ web of conferences</journal_title>
+            <volume>251</volume>
+            <doi>10.1051/epjconf/202125102033</doi>
+            <issn>2101-6275</issn>
+            <cYear>2021</cYear>
+            <unstructured_citation>Bocchi, E., Blomer, J., Mosciatti,
+S., &amp; Valenzuela, A. (2021). CernVM-FS powered container hub. EPJ
+Web of Conferences, 251, 02033.
+https://doi.org/10.1051/epjconf/202125102033</unstructured_citation>
+          </citation>
+          <citation key="Boudreau_2024">
+            <article_title>Repeat it without me: Crowdsourcing the T1
+mapping common ground via the ISMRM reproducibility
+challenge</article_title>
+            <author>Boudreau</author>
+            <journal_title>Magnetic resonance in
+medicine</journal_title>
+            <doi>10.1002/mrm.30111</doi>
+            <issn>0740-3194</issn>
+            <cYear>2024</cYear>
+            <unstructured_citation>Boudreau, M., Karakuzu, A.,
+Cohen-Adad, J., Bozkurt, E., Carr, M., Castellaro, M., Concha, L.,
+Doneva, M., Dual, S. A., Ensworth, A., Foias, A., Fortier, V., Gabr, R.
+E., Gilbert, G., Glide-Hurst, C. K., Grech-Sollars, M., Hu, S.,
+Jalnefjord, O., Jovicich, J., … ISMRM Quantitative MR Study Group, the.
+(2024). Repeat it without me: Crowdsourcing the T1 mapping common ground
+via the ISMRM reproducibility challenge. Magnetic Resonance in Medicine.
+https://doi.org/10.1002/mrm.30111</unstructured_citation>
+          </citation>
+          <citation key="Bourne_Polka_Vale_Kiley_2017">
+            <article_title>Ten simple rules to consider regarding
+preprint submission</article_title>
+            <author>Bourne</author>
+            <journal_title>PLoS computational biology</journal_title>
+            <issue>5</issue>
+            <volume>13</volume>
+            <doi>10.1371/journal.pcbi.1005473</doi>
+            <issn>1553-734X</issn>
+            <cYear>2017</cYear>
+            <unstructured_citation>Bourne, P. E., Polka, J. K., Vale, R.
+D., &amp; Kiley, R. (2017). Ten simple rules to consider regarding
+preprint submission. PLoS Computational Biology, 13(5), e1005473.
+https://doi.org/10.1371/journal.pcbi.1005473</unstructured_citation>
+          </citation>
+          <citation key="Brinckman_2019">
+            <article_title>Computing environments for reproducibility:
+Capturing the “whole tale”</article_title>
+            <author>Brinckman</author>
+            <journal_title>Future Generation Computer
+Systems</journal_title>
+            <volume>94</volume>
+            <doi>10.1016/j.future.2017.12.029</doi>
+            <cYear>2019</cYear>
+            <unstructured_citation>Brinckman, A., Chard, K., Gaffney,
+N., Hategan, M., Jones, M. B., Kowalik, K., Kulasekaran, S., Ludäscher,
+B., Mecum, B. D., Nabrzyski, J., &amp; Others. (2019). Computing
+environments for reproducibility: Capturing the “whole tale.” Future
+Generation Computer Systems, 94, 854–867.
+https://doi.org/10.1016/j.future.2017.12.029</unstructured_citation>
+          </citation>
+          <citation key="Andrade_1965">
+            <article_title>The birth and early days of the philosophical
+transactions</article_title>
+            <author>C. Andrade</author>
+            <journal_title>Notes and records of the Royal Society of
+London</journal_title>
+            <issue>1</issue>
+            <volume>20</volume>
+            <doi>10.1098/rsnr.1965.0002</doi>
+            <issn>0035-9149</issn>
+            <cYear>1965</cYear>
+            <unstructured_citation>C. Andrade, E. N. da. (1965). The
+birth and early days of the philosophical transactions. Notes and
+Records of the Royal Society of London, 20(1), 9–27.
+https://doi.org/10.1098/rsnr.1965.0002</unstructured_citation>
+          </citation>
+          <citation key="Chollet_Knoop_Kamradt_Landers_Pinkard_2025">
+            <article_title>ARC-AGI-2: A new challenge for frontier AI
+reasoning systems</article_title>
+            <author>Chollet</author>
+            <journal_title>arXiv [cs.AI]</journal_title>
+            <doi>10.48550/ARXIV.2505.11831</doi>
+            <cYear>2025</cYear>
+            <unstructured_citation>Chollet, F., Knoop, M., Kamradt, G.,
+Landers, B., &amp; Pinkard, H. (2025). ARC-AGI-2: A new challenge for
+frontier AI reasoning systems. In arXiv [cs.AI].
+https://doi.org/10.48550/ARXIV.2505.11831</unstructured_citation>
+          </citation>
+          <citation key="Cockett_2024">
+            <article_title>Continuous science: Accelerating the speed of
+scientific discoveries through changes in collaboration</article_title>
+            <author>Cockett</author>
+            <doi>10.62329/wjck7598</doi>
+            <cYear>2024</cYear>
+            <unstructured_citation>Cockett, R. (2024). Continuous
+science: Accelerating the speed of scientific discoveries through
+changes in collaboration.
+https://doi.org/10.62329/wjck7598</unstructured_citation>
+          </citation>
+          <citation key="Cockett_Purves_Koch_Morrison_2024">
+            <article_title>Continuous tools for scientific publishing:
+Using MyST markdown and curvenote to encourage continuous science
+practices</article_title>
+            <author>Cockett</author>
+            <journal_title>Proceedings of the python in science
+conference</journal_title>
+            <doi>10.25080/nkvc9349</doi>
+            <issn>2575-9752</issn>
+            <cYear>2024</cYear>
+            <unstructured_citation>Cockett, R., Purves, S., Koch, F.,
+&amp; Morrison, M. (2024). Continuous tools for scientific publishing:
+Using MyST markdown and curvenote to encourage continuous science
+practices. Proceedings of the Python in Science Conference, 121–136.
+https://doi.org/10.25080/nkvc9349</unstructured_citation>
+          </citation>
+          <citation key="Dehaye_2016">
+            <article_title>Interoperability in the OpenDreamKit project:
+The math-in-the-middle approach</article_title>
+            <author>Dehaye</author>
+            <journal_title>Lecture notes in computer
+science</journal_title>
+            <doi>10.1007/978-3-319-42547-4_9</doi>
+            <issn>0302-9743</issn>
+            <isbn>9783319425467</isbn>
+            <cYear>2016</cYear>
+            <unstructured_citation>Dehaye, P.-O., Iancu, M., Kohlhase,
+M., Konovalov, A., Lelièvre, S., Müller, D., Pfeiffer, M., Rabe, F.,
+Thiéry, N. M., &amp; Wiesing, T. (2016). Interoperability in the
+OpenDreamKit project: The math-in-the-middle approach. In Lecture notes
+in computer science (pp. 117–131). Springer International Publishing.
+https://doi.org/10.1007/978-3-319-42547-4_9</unstructured_citation>
+          </citation>
+          <citation key="Donoho_2010">
+            <article_title>An invitation to reproducible computational
+research</article_title>
+            <author>Donoho</author>
+            <journal_title>Biostatistics (Oxford,
+England)</journal_title>
+            <issue>3</issue>
+            <volume>11</volume>
+            <doi>10.1093/biostatistics/kxq028</doi>
+            <issn>1465-4644</issn>
+            <cYear>2010</cYear>
+            <unstructured_citation>Donoho, D. L. (2010). An invitation
+to reproducible computational research. Biostatistics (Oxford, England),
+11(3), 385–388.
+https://doi.org/10.1093/biostatistics/kxq028</unstructured_citation>
+          </citation>
+          <citation key="DuPre_2022">
+            <article_title>Beyond advertising: New infrastructures for
+publishing integrated research objects</article_title>
+            <author>DuPre</author>
+            <journal_title>PLoS computational biology</journal_title>
+            <issue>1</issue>
+            <volume>18</volume>
+            <doi>10.1371/journal.pcbi.1009651</doi>
+            <issn>1553-734X</issn>
+            <cYear>2022</cYear>
+            <unstructured_citation>DuPre, E., Holdgraf, C., Karakuzu,
+A., Tetrel, L., Bellec, P., Stikov, N., &amp; Poline, J.-B. (2022).
+Beyond advertising: New infrastructures for publishing integrated
+research objects. PLoS Computational Biology, 18(1), e1009651.
+https://doi.org/10.1371/journal.pcbi.1009651</unstructured_citation>
+          </citation>
+          <citation key="Eisen_2020">
+            <article_title>Implementing a “publish, then review” model
+of publishing</article_title>
+            <author>Eisen</author>
+            <journal_title>eLife</journal_title>
+            <volume>9</volume>
+            <doi>10.7554/eLife.64910</doi>
+            <issn>2050-084X</issn>
+            <cYear>2020</cYear>
+            <unstructured_citation>Eisen, M. B., Akhmanova, A., Behrens,
+T. E., Harper, D. M., Weigel, D., &amp; Zaidi, M. (2020). Implementing a
+“publish, then review” model of publishing. eLife, 9.
+https://doi.org/10.7554/eLife.64910</unstructured_citation>
+          </citation>
+          <citation key="Freeman_Osheroff_2016">
+            <article_title>Toward publishing reproducible computation
+with binder</article_title>
+            <author>Freeman</author>
+            <journal_title>eLife [Internet]</journal_title>
+            <volume>13</volume>
+            <cYear>2016</cYear>
+            <unstructured_citation>Freeman, J., &amp; Osheroff, A.
+(2016). Toward publishing reproducible computation with binder. eLife
+[Internet], 13.</unstructured_citation>
+          </citation>
+          <citation key="Fuentes2004">
+            <article_title>The historical relationship of elms and
+vines</article_title>
+            <author>Fuentes-Utrilla</author>
+            <journal_title>Forest Systems</journal_title>
+            <issue>1</issue>
+            <volume>13</volume>
+            <doi>10.5424/808</doi>
+            <cYear>2004</cYear>
+            <unstructured_citation>Fuentes-Utrilla, P., López-Rodríguez,
+R. A., &amp; Gil, L. (2004). The historical relationship of elms and
+vines. Forest Systems, 13(1), 7–15.
+https://doi.org/10.5424/808</unstructured_citation>
+          </citation>
+          <citation key="Guidon_2025">
+            <article_title>Shaping a collaborative, sustainable,
+accessible, and reproducible future for computational
+modeling</article_title>
+            <author>Guidon</author>
+            <journal_title>bioRxiv</journal_title>
+            <doi>10.1101/2025.06.12.656959</doi>
+            <cYear>2025</cYear>
+            <unstructured_citation>Guidon, M., Kaiser, D., Iavarone, E.,
+Anderegg, S., Bisgaard, M., Bujard, C., Cassarà, A., Crespo-Valero, P.,
+Drobuliak, M., Fasse, A., Hrytsuk, Y., Karimi, F., Maiz, O., Neagu, A.,
+Newton, T., Ordonez, J., Oetiker, T., Pascual, I., Querido, J., …
+Neufeld, E. (2025). Shaping a collaborative, sustainable, accessible,
+and reproducible future for computational modeling. In bioRxiv.
+https://doi.org/10.1101/2025.06.12.656959</unstructured_citation>
+          </citation>
+          <citation key="Haas_2017">
+            <article_title>Bringing the web up to speed with
+WebAssembly</article_title>
+            <author>Haas</author>
+            <journal_title>Proceedings of the 38th ACM SIGPLAN
+conference on programming language design and
+implementation</journal_title>
+            <doi>10.1145/3062341.3062363</doi>
+            <isbn>9781450349888</isbn>
+            <cYear>2017</cYear>
+            <unstructured_citation>Haas, A., Rossberg, A., Schuff, D.
+L., Titzer, B. L., Holman, M., Gohman, D., Wagner, L., Zakai, A., &amp;
+Bastien, J. F. (2017, June). Bringing the web up to speed with
+WebAssembly. Proceedings of the 38th ACM SIGPLAN Conference on
+Programming Language Design and Implementation.
+https://doi.org/10.1145/3062341.3062363</unstructured_citation>
+          </citation>
+          <citation key="Halchenko_2021">
+            <article_title>DataLad: Distributed system for joint
+management of code, data, and their relationship</article_title>
+            <author>Halchenko</author>
+            <journal_title>Journal of open source
+software</journal_title>
+            <issue>63</issue>
+            <volume>6</volume>
+            <doi>10.21105/joss.03262</doi>
+            <issn>2475-9066</issn>
+            <cYear>2021</cYear>
+            <unstructured_citation>Halchenko, Y. O., Meyer, K.,
+Poldrack, B., Solanky, D. S., Wagner, A. S., Gors, J., MacFarlane, D.,
+Pustina, D., Sochat, V., Ghosh, S. S., Mönch, C., Markiewicz, C. J.,
+Waite, L., Shlyakhter, I., Vega, A. de la, Hayashi, S., Häusler, C. O.,
+Poline, J.-B., Kadelka, T., … Hanke, M. (2021). DataLad: Distributed
+system for joint management of code, data, and their relationship.
+Journal of Open Source Software, 6(63), 3262.
+https://doi.org/10.21105/joss.03262</unstructured_citation>
+          </citation>
+          <citation key="Harding_2023">
+            <article_title>The canadian open neuroscience platform-an
+open science framework for the neuroscience community</article_title>
+            <author>Harding</author>
+            <journal_title>PLoS computational biology</journal_title>
+            <issue>7</issue>
+            <volume>19</volume>
+            <doi>10.1371/journal.pcbi.1011230</doi>
+            <issn>1553-734X</issn>
+            <cYear>2023</cYear>
+            <unstructured_citation>Harding, R. J., Bermudez, P.,
+Bernier, A., Beauvais, M., Bellec, P., Hill, S., Karakuzu, A., Knoppers,
+B. M., Pavlidis, P., Poline, J.-B., Roskams, J., Stikov, N., Stone, J.,
+Strother, S., Consortium, C., &amp; Evans, A. C. (2023). The canadian
+open neuroscience platform-an open science framework for the
+neuroscience community. PLoS Computational Biology, 19(7), e1011230.
+https://doi.org/10.1371/journal.pcbi.1011230</unstructured_citation>
+          </citation>
+          <citation key="Hayashi_2024">
+            <article_title>Brainlife.io: A decentralized and open-source
+cloud platform to support neuroscience research</article_title>
+            <author>Hayashi</author>
+            <journal_title>Nature methods</journal_title>
+            <issue>5</issue>
+            <volume>21</volume>
+            <doi>10.1038/s41592-024-02237-2</doi>
+            <issn>1548-7091</issn>
+            <cYear>2024</cYear>
+            <unstructured_citation>Hayashi, S., Caron, B. A., Heinsfeld,
+A. S., Vinci-Booher, S., McPherson, B., Bullock, D. N., Bertò, G., Niso,
+G., Hanekamp, S., Levitas, D., Ray, K., MacKenzie, A., Avesani, P.,
+Kitchell, L., Leong, J. K., Nascimento-Silva, F., Koudoro, S., Willis,
+H., Jolly, J. K., … Pestilli, F. (2024). Brainlife.io: A decentralized
+and open-source cloud platform to support neuroscience research. Nature
+Methods, 21(5), 809–813.
+https://doi.org/10.1038/s41592-024-02237-2</unstructured_citation>
+          </citation>
+          <citation key="Henriques_Rzayeva_Pinfield_Waltman_2023">
+            <article_title>Preprint review services: Disrupting the
+scholarly communication landscape?</article_title>
+            <author>Henriques</author>
+            <journal_title>SocArXiv</journal_title>
+            <doi>10.31235/osf.io/8c6xm</doi>
+            <cYear>2023</cYear>
+            <unstructured_citation>Henriques, S. O., Rzayeva, N.,
+Pinfield, S., &amp; Waltman, L. (2023). Preprint review services:
+Disrupting the scholarly communication landscape? In SocArXiv.
+https://doi.org/10.31235/osf.io/8c6xm</unstructured_citation>
+          </citation>
+          <citation key="Heybroek_2015">
+            <article_title>The elm, tree of milk and
+wine</article_title>
+            <author>Heybroek</author>
+            <journal_title>IForest : biogeosciences and
+forestry</journal_title>
+            <issue>2</issue>
+            <volume>8</volume>
+            <doi>10.3832/ifor1244-007</doi>
+            <issn>1971-7458</issn>
+            <cYear>2015</cYear>
+            <unstructured_citation>Heybroek, H. M. (2015). The elm, tree
+of milk and wine. IForest : Biogeosciences and Forestry, 8(2), 181–186.
+https://doi.org/10.3832/ifor1244-007</unstructured_citation>
+          </citation>
+          <citation key="Hohman_Conlen_Heer_Chau_2020">
+            <article_title>Communicating with interactive
+articles</article_title>
+            <author>Hohman</author>
+            <journal_title>Distill</journal_title>
+            <issue>9</issue>
+            <volume>5</volume>
+            <doi>10.23915/distill.00028</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Hohman, F., Conlen, M., Heer, J.,
+&amp; Chau, D. H. P. (2020). Communicating with interactive articles.
+Distill, 5(9), e28.
+https://doi.org/10.23915/distill.00028</unstructured_citation>
+          </citation>
+          <citation key="Holdgraf_2021">
+            <article_title>Extending open standards for scientific
+communication with jupyter book and MyST markdown</article_title>
+            <author>Holdgraf</author>
+            <journal_title>AGU fall meeting abstracts</journal_title>
+            <volume>2021</volume>
+            <cYear>2021</cYear>
+            <unstructured_citation>Holdgraf, C. (2021). Extending open
+standards for scientific communication with jupyter book and MyST
+markdown. AGU Fall Meeting Abstracts, 2021,
+IN55D–02.</unstructured_citation>
+          </citation>
+          <citation key="Jefferson_2024">
+            <article_title>PyodideU: Unlocking python entirely in a
+browser for CS1</article_title>
+            <author>Jefferson</author>
+            <journal_title>Proceedings of the 55th ACM technical
+symposium on computer science education v. 1</journal_title>
+            <doi>10.1145/3626252.3630913</doi>
+            <cYear>2024</cYear>
+            <unstructured_citation>Jefferson, T., Gregg, C., &amp;
+Piech, C. (2024). PyodideU: Unlocking python entirely in a browser for
+CS1. Proceedings of the 55th ACM Technical Symposium on Computer Science
+Education v. 1, 583–589.
+https://doi.org/10.1145/3626252.3630913</unstructured_citation>
+          </citation>
+          <citation key="Karakuzu_2022">
+            <article_title>Vendor-neutral sequences and fully
+transparent workflows improve inter-vendor reproducibility of
+quantitative MRI</article_title>
+            <author>Karakuzu</author>
+            <journal_title>Magnetic resonance in medicine: official
+journal of the Society of Magnetic Resonance in Medicine / Society of
+Magnetic Resonance in Medicine</journal_title>
+            <issue>3</issue>
+            <volume>88</volume>
+            <doi>10.1002/mrm.29292</doi>
+            <issn>0740-3194</issn>
+            <cYear>2022</cYear>
+            <unstructured_citation>Karakuzu, A., Biswas, L., Cohen-Adad,
+J., &amp; Stikov, N. (2022). Vendor-neutral sequences and fully
+transparent workflows improve inter-vendor reproducibility of
+quantitative MRI. Magnetic Resonance in Medicine: Official Journal of
+the Society of Magnetic Resonance in Medicine / Society of Magnetic
+Resonance in Medicine, 88(3), 1212–1228.
+https://doi.org/10.1002/mrm.29292</unstructured_citation>
+          </citation>
+          <citation key="Karakuzu_2025">
+            <article_title>Rethinking MRI as a measurement device
+through modular and portable pipelines</article_title>
+            <author>Karakuzu</author>
+            <journal_title>Magma (New York, N.Y.)</journal_title>
+            <doi>10.1007/s10334-025-01245-3</doi>
+            <issn>0968-5243</issn>
+            <cYear>2025</cYear>
+            <unstructured_citation>Karakuzu, A., Blostein, N., Caron, A.
+V., Boré, A., Rheault, F., Descoteaux, M., &amp; Stikov, N. (2025).
+Rethinking MRI as a measurement device through modular and portable
+pipelines. Magma (New York, N.Y.).
+https://doi.org/10.1007/s10334-025-01245-3</unstructured_citation>
+          </citation>
+          <citation key="Katz_Barba_Niemeyer_Smith_2019">
+            <article_title>Cost models for running an online open
+journal</article_title>
+            <author>Katz</author>
+            <journal_title>Journal of Open Source Software
+Blog</journal_title>
+            <doi>10.59349/g4fz2-1cr36</doi>
+            <cYear>2019</cYear>
+            <unstructured_citation>Katz, D. S., Barba, L. A., Niemeyer,
+K., &amp; Smith, A. M. (2019). Cost models for running an online open
+journal. In Journal of Open Source Software Blog.
+https://doi.org/10.59349/g4fz2-1cr36</unstructured_citation>
+          </citation>
+          <citation key="Katz_Niemeyer_Smith_2018">
+            <article_title>Publish your software: Introducing the
+journal of open source software (JOSS)</article_title>
+            <author>Katz</author>
+            <journal_title>Computing in science &amp;
+engineering</journal_title>
+            <issue>3</issue>
+            <volume>20</volume>
+            <doi>10.1109/mcse.2018.03221930</doi>
+            <issn>1521-9615</issn>
+            <cYear>2018</cYear>
+            <unstructured_citation>Katz, D. S., Niemeyer, K. E., &amp;
+Smith, A. M. (2018). Publish your software: Introducing the journal of
+open source software (JOSS). Computing in Science &amp; Engineering,
+20(3), 84–88.
+https://doi.org/10.1109/mcse.2018.03221930</unstructured_citation>
+          </citation>
+          <citation key="Kery_2018">
+            <article_title>The story in the notebook: Exploratory data
+science using a literate programming tool</article_title>
+            <author>Kery</author>
+            <journal_title>Proceedings of the 2018 CHI conference on
+human factors in computing systems</journal_title>
+            <doi>10.1145/3173574.3173748</doi>
+            <isbn>9781450356206</isbn>
+            <cYear>2018</cYear>
+            <unstructured_citation>Kery, M. B., Radensky, M., Arya, M.,
+John, B. E., &amp; Myers, B. A. (2018, April). The story in the
+notebook: Exploratory data science using a literate programming tool.
+Proceedings of the 2018 CHI Conference on Human Factors in Computing
+Systems. https://doi.org/10.1145/3173574.3173748</unstructured_citation>
+          </citation>
+          <citation key="Klein_2014">
+            <article_title>Scholarly context not found: One in five
+articles suffers from reference rot</article_title>
+            <author>Klein</author>
+            <journal_title>PloS one</journal_title>
+            <issue>12</issue>
+            <volume>9</volume>
+            <doi>10.1371/journal.pone.0115253</doi>
+            <issn>1932-6203</issn>
+            <cYear>2014</cYear>
+            <unstructured_citation>Klein, M., Van de Sompel, H.,
+Sanderson, R., Shankar, H., Balakireva, L., Zhou, K., &amp; Tobin, R.
+(2014). Scholarly context not found: One in five articles suffers from
+reference rot. PloS One, 9(12), e115253.
+https://doi.org/10.1371/journal.pone.0115253</unstructured_citation>
+          </citation>
+          <citation key="Klokmose_Zander_2010">
+            <article_title>Rethinking laboratory
+notebooks</article_title>
+            <author>Klokmose</author>
+            <journal_title>Proceedings of COOP 2010</journal_title>
+            <doi>10.1007/978-1-84996-211-7_8</doi>
+            <isbn>9781849962100</isbn>
+            <cYear>2010</cYear>
+            <unstructured_citation>Klokmose, C. N., &amp; Zander, P.-O.
+(2010). Rethinking laboratory notebooks. In Proceedings of COOP 2010
+(pp. 119–139). Springer London.
+https://doi.org/10.1007/978-1-84996-211-7_8</unstructured_citation>
+          </citation>
+          <citation key="Knuth_1984">
+            <article_title>Literate programming</article_title>
+            <author>Knuth</author>
+            <journal_title>The computer journal</journal_title>
+            <issue>2</issue>
+            <volume>27</volume>
+            <doi>10.1093/comjnl/27.2.97</doi>
+            <issn>0010-4620</issn>
+            <cYear>1984</cYear>
+            <unstructured_citation>Knuth, D. E. (1984). Literate
+programming. The Computer Journal, 27(2), 97–111.
+https://doi.org/10.1093/comjnl/27.2.97</unstructured_citation>
+          </citation>
+          <citation key="Knuth_1993">
+            <article_title>Theory and practice</article_title>
+            <author>Knuth</author>
+            <journal_title>arXiv [cs.GL]</journal_title>
+            <doi>10.48550/ARXIV.CS/9301114</doi>
+            <cYear>1993</cYear>
+            <unstructured_citation>Knuth, D. E. (1993). Theory and
+practice. arXiv [Cs.GL].
+https://doi.org/10.48550/ARXIV.CS/9301114</unstructured_citation>
+          </citation>
+          <citation key="Knuth_Shustek_2021">
+            <article_title>Let’s not dumb down the history of computer
+science</article_title>
+            <author>Knuth</author>
+            <journal_title>Communications of the ACM</journal_title>
+            <issue>2</issue>
+            <volume>64</volume>
+            <doi>10.1145/3442377</doi>
+            <issn>0001-0782</issn>
+            <cYear>2021</cYear>
+            <unstructured_citation>Knuth, D. E., &amp; Shustek, L.
+(2021). Let’s not dumb down the history of computer science.
+Communications of the ACM, 64(2), 33–35.
+https://doi.org/10.1145/3442377</unstructured_citation>
+          </citation>
+          <citation key="Ko_2011">
+            <article_title>The state of the art in end-user software
+engineering</article_title>
+            <author>Ko</author>
+            <journal_title>ACM computing surveys</journal_title>
+            <issue>3</issue>
+            <volume>43</volume>
+            <doi>10.1145/1922649.1922658</doi>
+            <issn>0360-0300</issn>
+            <cYear>2011</cYear>
+            <unstructured_citation>Ko, A. J., Abraham, R., Beckwith, L.,
+Blackwell, A., Burnett, M., Erwig, M., Scaffidi, C., Lawrance, J.,
+Lieberman, H., Myers, B., Rosson, M. B., Rothermel, G., Shaw, M., &amp;
+Wiedenbeck, S. (2011). The state of the art in end-user software
+engineering. ACM Computing Surveys, 43(3), 1–44.
+https://doi.org/10.1145/1922649.1922658</unstructured_citation>
+          </citation>
+          <citation key="Kramer_2016">
+            <article_title>Scikit-learn</article_title>
+            <author>Kramer</author>
+            <journal_title>Studies in big data</journal_title>
+            <doi>10.1007/978-3-319-33383-0_5</doi>
+            <issn>2197-6503</issn>
+            <isbn>9783319333816</isbn>
+            <cYear>2016</cYear>
+            <unstructured_citation>Kramer, O. (2016). Scikit-learn. In
+Studies in big data (pp. 45–53). Springer International Publishing.
+https://doi.org/10.1007/978-3-319-33383-0_5</unstructured_citation>
+          </citation>
+          <citation key="Haustein_Mongeon_2015">
+            <article_title>The oligopoly of academic publishers in the
+digital era</article_title>
+            <author>Larivière</author>
+            <journal_title>PloS one</journal_title>
+            <issue>6</issue>
+            <volume>10</volume>
+            <doi>10.1371/journal.pone.0127502</doi>
+            <issn>1932-6203</issn>
+            <cYear>2015</cYear>
+            <unstructured_citation>Larivière, V., Haustein, S., &amp;
+Mongeon, P. (2015). The oligopoly of academic publishers in the digital
+era. PloS One, 10(6), e0127502.
+https://doi.org/10.1371/journal.pone.0127502</unstructured_citation>
+          </citation>
+          <citation key="Lethbridge_Singer_Forward_2003">
+            <article_title>How software engineers use documentation: The
+state of the practice</article_title>
+            <author>Lethbridge</author>
+            <journal_title>IEEE software</journal_title>
+            <issue>6</issue>
+            <volume>20</volume>
+            <doi>10.1109/ms.2003.1241364</doi>
+            <issn>0740-7459</issn>
+            <cYear>2003</cYear>
+            <unstructured_citation>Lethbridge, T. C., Singer, J., &amp;
+Forward, A. (2003). How software engineers use documentation: The state
+of the practice. IEEE Software, 20(6), 35–39.
+https://doi.org/10.1109/ms.2003.1241364</unstructured_citation>
+          </citation>
+          <citation key="Maciocci_2018">
+            <article_title>Reproducible document stack: Towards a
+scalable solution for reproducible articles</article_title>
+            <author>Maciocci</author>
+            <journal_title>eLife</journal_title>
+            <cYear>2018</cYear>
+            <unstructured_citation>Maciocci, G., Tsang, E., Bentley, N.,
+&amp; Aufreiter, M. (2018). Reproducible document stack: Towards a
+scalable solution for reproducible articles. In eLife.
+https://elifesciences.org/labs/b521cf4d/reproducible-document-stack-towards-a-scalable-solution-for-reproducible-articles</unstructured_citation>
+          </citation>
+          <citation key="Maddi_Sapinho_2021">
+            <article_title>Article processing charges based
+publications: To which extent the price explains scientific
+impact?</article_title>
+            <author>Maddi</author>
+            <journal_title>Proceedings of the ISSI 2021</journal_title>
+            <cYear>2021</cYear>
+            <unstructured_citation>Maddi, A., &amp; Sapinho, D. (2021).
+Article processing charges based publications: To which extent the price
+explains scientific impact? Proceedings of the ISSI
+2021.</unstructured_citation>
+          </citation>
+          <citation key="Mancini_2020">
+            <article_title>An interactive meta-analysis of MRI
+biomarkers of myelin</article_title>
+            <author>Mancini</author>
+            <journal_title>eLife</journal_title>
+            <volume>9</volume>
+            <doi>10.7554/eLife.61523</doi>
+            <issn>2050-084X</issn>
+            <cYear>2020</cYear>
+            <unstructured_citation>Mancini, M., Karakuzu, A.,
+Cohen-Adad, J., Cercignani, M., Nichols, T. E., &amp; Stikov, N. (2020).
+An interactive meta-analysis of MRI biomarkers of myelin. eLife, 9.
+https://doi.org/10.7554/eLife.61523</unstructured_citation>
+          </citation>
+          <citation key="McLean_2024">
+            <article_title>Little science, big science, and beyond: How
+amateurs shape the scientific landscape</article_title>
+            <author>McLean</author>
+            <journal_title>NeuroLibre Reproducible
+Preprints</journal_title>
+            <doi>10.55458/neurolibre.00031</doi>
+            <cYear>2024</cYear>
+            <unstructured_citation>McLean, E., Abdo, J., Blostein, N.,
+&amp; Stikov, N. (2024). Little science, big science, and beyond: How
+amateurs shape the scientific landscape. NeuroLibre Reproducible
+Preprints, 31.
+https://doi.org/10.55458/neurolibre.00031</unstructured_citation>
+          </citation>
+          <citation key="Meyer_2023">
+            <article_title>ChatGPT and large language models in
+academia: Opportunities and challenges</article_title>
+            <author>Meyer</author>
+            <journal_title>BioData mining</journal_title>
+            <issue>1</issue>
+            <volume>16</volume>
+            <doi>10.1186/s13040-023-00339-9</doi>
+            <issn>1756-0381</issn>
+            <cYear>2023</cYear>
+            <unstructured_citation>Meyer, J. G., Urbanowicz, R. J.,
+Martin, P. C. N., O’Connor, K., Li, R., Peng, P.-C., Bright, T. J.,
+Tatonetti, N., Won, K. J., Gonzalez-Hernandez, G., &amp; Moore, J. H.
+(2023). ChatGPT and large language models in academia: Opportunities and
+challenges. BioData Mining, 16(1), 20.
+https://doi.org/10.1186/s13040-023-00339-9</unstructured_citation>
+          </citation>
+          <citation key="Niso_2022">
+            <article_title>Open and reproducible neuroimaging: From
+study inception to publication</article_title>
+            <author>Niso</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>263</volume>
+            <doi>10.1016/j.neuroimage.2022.119623</doi>
+            <issn>1053-8119</issn>
+            <cYear>2022</cYear>
+            <unstructured_citation>Niso, G., Botvinik-Nezer, R.,
+Appelhoff, S., De La Vega, A., Esteban, O., Etzel, J. A., Finc, K.,
+Ganz, M., Gau, R., Halchenko, Y. O., Herholz, P., Karakuzu, A., Keator,
+D. B., Markiewicz, C. J., Maumet, C., Pernet, C. R., Pestilli, F.,
+Queder, N., Schmitt, T., … Rieger, J. W. (2022). Open and reproducible
+neuroimaging: From study inception to publication. NeuroImage, 263,
+119623.
+https://doi.org/10.1016/j.neuroimage.2022.119623</unstructured_citation>
+          </citation>
+          <citation key="Niya_2019">
+            <article_title>A blockchain-based scientific publishing
+platform</article_title>
+            <author>Niya</author>
+            <journal_title>2019 IEEE international conference on
+blockchain and cryptocurrency (ICBC)</journal_title>
+            <doi>10.1109/bloc.2019.8751379</doi>
+            <isbn>9781728113289</isbn>
+            <cYear>2019</cYear>
+            <unstructured_citation>Niya, S. R., Pelloni, L.,
+Wullschleger, S., Schaufelbuhl, A., Bocek, T., Rajendran, L., &amp;
+Stiller, B. (2019, May). A blockchain-based scientific publishing
+platform. 2019 IEEE International Conference on Blockchain and
+Cryptocurrency (ICBC).
+https://doi.org/10.1109/bloc.2019.8751379</unstructured_citation>
+          </citation>
+          <citation key="Ochkov_2022">
+            <article_title>Jupyter notebook, JupyterLab – integrated
+environment for STEM education</article_title>
+            <author>Ochkov</author>
+            <journal_title>2022 VI international conference on
+information technologies in engineering education
+(inforino)</journal_title>
+            <doi>10.1109/inforino53888.2022.9782924</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Ochkov, V. F., Stevens, A., &amp;
+Tikhonov, A. I. (2022, April). Jupyter notebook, JupyterLab – integrated
+environment for STEM education. 2022 VI International Conference on
+Information Technologies in Engineering Education (Inforino).
+https://doi.org/10.1109/inforino53888.2022.9782924</unstructured_citation>
+          </citation>
+          <citation key="Ogden_McKelvey_Madsen_Others_2017">
+            <article_title>Dat-distributed dataset synchronization and
+versioning</article_title>
+            <author>Ogden</author>
+            <journal_title>Open Science Framework</journal_title>
+            <issue>2.2</issue>
+            <volume>10</volume>
+            <doi>10.31219/osf.io/nsv2c</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>Ogden, M., McKelvey, K., Madsen, M.
+B., &amp; Others. (2017). Dat-distributed dataset synchronization and
+versioning. Open Science Framework, 10(2.2).
+https://doi.org/10.31219/osf.io/nsv2c</unstructured_citation>
+          </citation>
+          <citation key="Perez_Granger_2007">
+            <article_title>IPython: A system for interactive scientific
+computing</article_title>
+            <author>Perez</author>
+            <journal_title>Computing in science &amp;
+engineering</journal_title>
+            <issue>3</issue>
+            <volume>9</volume>
+            <doi>10.1109/mcse.2007.53</doi>
+            <issn>1521-9615</issn>
+            <cYear>2007</cYear>
+            <unstructured_citation>Perez, F., &amp; Granger, B. E.
+(2007). IPython: A system for interactive scientific computing.
+Computing in Science &amp; Engineering, 9(3), 21–29.
+https://doi.org/10.1109/mcse.2007.53</unstructured_citation>
+          </citation>
+          <citation key="Perez_Granger_2015">
+            <article_title>Project jupyter: Computational narratives as
+the engine of collaborative data science</article_title>
+            <author>Perez</author>
+            <journal_title>Retrieved September</journal_title>
+            <issue>207</issue>
+            <volume>11</volume>
+            <cYear>2015</cYear>
+            <unstructured_citation>Perez, F., &amp; Granger, B. E.
+(2015). Project jupyter: Computational narratives as the engine of
+collaborative data science. Retrieved September, 11(207),
+108.</unstructured_citation>
+          </citation>
+          <citation key="Pouwelse_2005">
+            <article_title>The bittorrent P2P file-sharing system:
+Measurements and analysis</article_title>
+            <author>Pouwelse</author>
+            <journal_title>Peer-to-peer systems IV</journal_title>
+            <doi>10.1007/11558989_19</doi>
+            <issn>0302-9743</issn>
+            <isbn>9783540290681</isbn>
+            <cYear>2005</cYear>
+            <unstructured_citation>Pouwelse, J., Garbacki, P., Epema,
+D., &amp; Sips, H. (2005). The bittorrent P2P file-sharing system:
+Measurements and analysis. In Peer-to-peer systems IV (pp. 205–216).
+Springer Berlin Heidelberg.
+https://doi.org/10.1007/11558989_19</unstructured_citation>
+          </citation>
+          <citation key="Project_Jupyter_Contributors_2025">
+            <article_title>The reproducible execution environment
+specification</article_title>
+            <author>Contributors.</author>
+            <cYear>2025</cYear>
+            <unstructured_citation>Contributors., P. J. (2025). The
+reproducible execution environment specification.
+https://repo2docker.readthedocs.io/en/latest/specification.html</unstructured_citation>
+          </citation>
+          <citation key="RaganKelley_2018">
+            <article_title>Binder 2.0-reproducible, interactive,
+sharable environments for science at scale</article_title>
+            <author>Ragan-Kelley</author>
+            <journal_title>Proceedings of the 17th python in science
+conference</journal_title>
+            <doi>10.25080/majora-4af1f417-011</doi>
+            <cYear>2018</cYear>
+            <unstructured_citation>Ragan-Kelley, B., Willing, C., Akici,
+F., Lippa, D., Niederhut, D., &amp; Pacer, M. (2018). Binder
+2.0-reproducible, interactive, sharable environments for science at
+scale. Proceedings of the 17th Python in Science Conference, 113–120.
+https://doi.org/10.25080/majora-4af1f417-011</unstructured_citation>
+          </citation>
+          <citation key="Renton_2024">
+            <article_title>Neurodesk: An accessible, flexible and
+portable data analysis environment for reproducible
+neuroimaging</article_title>
+            <author>Renton</author>
+            <journal_title>Nature methods</journal_title>
+            <issue>5</issue>
+            <volume>21</volume>
+            <doi>10.1038/s41592-023-02145-x</doi>
+            <issn>1548-7091</issn>
+            <cYear>2024</cYear>
+            <unstructured_citation>Renton, A. I., Dao, T. T., Johnstone,
+T., Civier, O., Sullivan, R. P., White, D. J., Lyons, P., Slade, B. M.,
+Abbott, D. F., Amos, T. J., Bollmann, S., Botting, A., Campbell, M. E.
+J., Chang, J., Close, T. G., Dörig, M., Eckstein, K., Egan, G. F., Evas,
+S., … Bollmann, S. (2024). Neurodesk: An accessible, flexible and
+portable data analysis environment for reproducible neuroimaging. Nature
+Methods, 21(5), 804–808.
+https://doi.org/10.1038/s41592-023-02145-x</unstructured_citation>
+          </citation>
+          <citation key="Salo_2022_nl">
+            <article_title>NiMARE: Neuroimaging meta-analysis research
+environment</article_title>
+            <author>Salo</author>
+            <journal_title>NeuroLibre Reproducible Preprint
+Server</journal_title>
+            <issue>1</issue>
+            <volume>1</volume>
+            <doi>10.55458/neurolibre.00007</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Salo, T., Yarkoni, T., Nichols, T.,
+Poline, J.-B., Bilgel, M., Bottenhorn, K., Jarecka, D., Kent, J.,
+Kimbler, A., Nielson, D., Oudyk, K., Peraza, J., Pérez, A., Reeders, P.,
+Yanes, J., &amp; Laird, A. (2022). NiMARE: Neuroimaging meta-analysis
+research environment. NeuroLibre Reproducible Preprint Server, 1(1), 7.
+https://doi.org/10.55458/neurolibre.00007</unstructured_citation>
+          </citation>
+          <citation key="Samuel_Mietchen_2024">
+            <article_title>Computational reproducibility of jupyter
+notebooks from biomedical publications</article_title>
+            <author>Samuel</author>
+            <journal_title>GigaScience</journal_title>
+            <volume>13</volume>
+            <doi>10.1093/gigascience/giad113</doi>
+            <issn>2047-217X</issn>
+            <cYear>2024</cYear>
+            <unstructured_citation>Samuel, S., &amp; Mietchen, D.
+(2024). Computational reproducibility of jupyter notebooks from
+biomedical publications. GigaScience, 13.
+https://doi.org/10.1093/gigascience/giad113</unstructured_citation>
+          </citation>
+          <citation key="Schluter_Vinken_1997">
+            <volume_title>The elsevier non solus imprint</volume_title>
+            <author>Schlüter</author>
+            <cYear>1997</cYear>
+            <unstructured_citation>Schlüter, L., &amp; Vinken, P. J.
+(1997). The elsevier non solus imprint. Elsevier Science.
+https://cir.nii.ac.jp/crid/1130000796402639488</unstructured_citation>
+          </citation>
+          <citation key="Schmitt_2014">
+            <article_title>Academic journals: The most profitable
+obsolete technology in history</article_title>
+            <author>Schmitt</author>
+            <journal_title>Huffpost</journal_title>
+            <cYear>2014</cYear>
+            <unstructured_citation>Schmitt, J. (2014). Academic
+journals: The most profitable obsolete technology in history. In
+Huffpost.
+https://www.huffpost.com/entry/academic-journals-the-mos_b_6368204</unstructured_citation>
+          </citation>
+          <citation key="Shearer_2015">
+            <article_title>Aligning repository networks and the
+confederation of open access repositories (COAR)</article_title>
+            <author>Shearer</author>
+            <cYear>2015</cYear>
+            <unstructured_citation>Shearer, K. (2015). Aligning
+repository networks and the confederation of open access repositories
+(COAR).</unstructured_citation>
+          </citation>
+          <citation key="Shearer_2024">
+            <article_title>Publish, review, curate a better model for
+scholarly publishing</article_title>
+            <author>Shearer</author>
+            <doi>10.20350/DIGITALCSIC/16767</doi>
+            <cYear>2024</cYear>
+            <unstructured_citation>Shearer, K. (2024). Publish, review,
+curate a better model for scholarly publishing.
+https://doi.org/10.20350/DIGITALCSIC/16767</unstructured_citation>
+          </citation>
+          <citation key="Sherif_2014">
+            <article_title>CBRAIN: A web-based, distributed computing
+platform for collaborative neuroimaging research</article_title>
+            <author>Sherif</author>
+            <journal_title>Frontiers in neuroinformatics</journal_title>
+            <volume>8</volume>
+            <doi>10.3389/fninf.2014.00054</doi>
+            <issn>1662-5196</issn>
+            <cYear>2014</cYear>
+            <unstructured_citation>Sherif, T., Rioux, P., Rousseau,
+M.-E., Kassis, N., Beck, N., Adalat, R., Das, S., Glatard, T., &amp;
+Evans, A. C. (2014). CBRAIN: A web-based, distributed computing platform
+for collaborative neuroimaging research. Frontiers in Neuroinformatics,
+8, 54. https://doi.org/10.3389/fninf.2014.00054</unstructured_citation>
+          </citation>
+          <citation key="Sintu_2025">
+            <article_title>Representation in brain imaging research: A
+quebec demographic overview</article_title>
+            <author>Sintu</author>
+            <journal_title>NeuroLibre Reproducible
+Preprints</journal_title>
+            <doi>10.55458/neurolibre.00035</doi>
+            <cYear>2025</cYear>
+            <unstructured_citation>Sintu, T., Oyeniran, O., Anazodo, U.,
+Leener, B. D., &amp; Alonso-Ortiz, E. (2025). Representation in brain
+imaging research: A quebec demographic overview. NeuroLibre Reproducible
+Preprints, 35.
+https://doi.org/10.55458/neurolibre.00035</unstructured_citation>
+          </citation>
+          <citation key="Smith_2018">
+            <article_title>Journal of open source software (JOSS):
+Design and first-year review</article_title>
+            <author>Smith</author>
+            <journal_title>PeerJ preprints</journal_title>
+            <issue>e147</issue>
+            <volume>4</volume>
+            <doi>10.7717/peerj-cs.147</doi>
+            <issn>2167-9843</issn>
+            <cYear>2018</cYear>
+            <unstructured_citation>Smith, A. M., Niemeyer, K. E., Katz,
+D. S., Barba, L. A., Githinji, G., Gymrek, M., Huff, K. D., Madan, C.
+R., Mayes, A. C., Moerman, K. M., Prins, P., Ram, K., Rokem, A., Teal,
+T. K., Guimera, R. V., &amp; Vanderplas, J. T. (2018). Journal of open
+source software (JOSS): Design and first-year review. PeerJ Preprints,
+4(e147), e147.
+https://doi.org/10.7717/peerj-cs.147</unstructured_citation>
+          </citation>
+          <citation key="Sokol_Flach_2021">
+            <article_title>You only write thrice: Creating documents,
+computational notebooks and presentations from a single
+source</article_title>
+            <author>Sokol</author>
+            <journal_title>arXiv [cs.PL]</journal_title>
+            <doi>10.48550/ARXIV.2107.06639</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Sokol, K., &amp; Flach, P. (2021).
+You only write thrice: Creating documents, computational notebooks and
+presentations from a single source. In arXiv [cs.PL].
+https://doi.org/10.48550/ARXIV.2107.06639</unstructured_citation>
+          </citation>
+          <citation key="Stikov_2022">
+            <article_title>ChatGPT and galactica are taking scientific
+papers to their logical conclusion</article_title>
+            <author>Stikov</author>
+            <journal_title>Kantarot</journal_title>
+            <cYear>2022</cYear>
+            <unstructured_citation>Stikov, N. (2022). ChatGPT and
+galactica are taking scientific papers to their logical conclusion. In
+Kantarot.
+https://qantarot.substack.com/p/chatgpt-and-galactica-are-taking</unstructured_citation>
+          </citation>
+          <citation key="Urchs_2025">
+            <volume_title>Neurobagel_api</volume_title>
+            <author>Urchs</author>
+            <doi>10.5281/ZENODO.8088140</doi>
+            <cYear>2025</cYear>
+            <unstructured_citation>Urchs, S., Dai, A., Armoza, J.,
+Jahanpour, A., Bhagwat, N., &amp; Poline, J.-B. (2025). Neurobagel_api.
+Zenodo. https://doi.org/10.5281/ZENODO.8088140</unstructured_citation>
+          </citation>
+          <citation key="VanNoorden_2013">
+            <article_title>Open access: The true cost of science
+publishing</article_title>
+            <author>Van Noorden</author>
+            <journal_title>Nature</journal_title>
+            <issue>7442</issue>
+            <volume>495</volume>
+            <doi>10.1038/495426a</doi>
+            <issn>0028-0836</issn>
+            <cYear>2013</cYear>
+            <unstructured_citation>Van Noorden, R. (2013). Open access:
+The true cost of science publishing. Nature, 495(7442), 426–429.
+https://doi.org/10.1038/495426a</unstructured_citation>
+          </citation>
+          <citation key="Walk_Sompel_Shearer_2020">
+            <article_title>Modeling overlay peer review processes with
+linked data notifications</article_title>
+            <author>Walk</author>
+            <journal_title>Confederation of Open Access
+Repositories</journal_title>
+            <cYear>2020</cYear>
+            <unstructured_citation>Walk, P., Klein, M., Van de Sompel,
+H., &amp; Shearer, K. (2020). Modeling overlay peer review processes
+with linked data notifications. Confederation of Open Access
+Repositories.</unstructured_citation>
+          </citation>
+          <citation key="Wang_2023">
+            <article_title>A reproducible benchmark of resting-state
+fMRI denoising strategies using fMRIPrep and nilearn</article_title>
+            <author>Wang</author>
+            <doi>10.55458/neurolibre.00012</doi>
+            <cYear>2023</cYear>
+            <unstructured_citation>Wang, H.-T., Meisler, S. L.,
+Sharmarke, H., Clarke, N., Paugam, F., Gensollen, N., Markiewicz, C. J.,
+Thirion, B., &amp; Bellec, P. (2023). A reproducible benchmark of
+resting-state fMRI denoising strategies using fMRIPrep and nilearn.
+https://doi.org/10.55458/neurolibre.00012</unstructured_citation>
+          </citation>
+          <citation key="Wilkinson_2016">
+            <article_title>The FAIR guiding principles for scientific
+data management and stewardship</article_title>
+            <author>Wilkinson</author>
+            <journal_title>Scientific data</journal_title>
+            <volume>3</volume>
+            <doi>10.1038/sdata.2016.18</doi>
+            <issn>2052-4463</issn>
+            <cYear>2016</cYear>
+            <unstructured_citation>Wilkinson, M. D., Dumontier, M.,
+Aalbersberg, I. J. J., Appleton, G., Axton, M., Baak, A., Blomberg, N.,
+Boiten, J.-W., Silva Santos, L. B. da, Bourne, P. E., Bouwman, J.,
+Brookes, A. J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds,
+S., Evelo, C. T., Finkers, R., … Mons, B. (2016). The FAIR guiding
+principles for scientific data management and stewardship. Scientific
+Data, 3, 160018.
+https://doi.org/10.1038/sdata.2016.18</unstructured_citation>
+          </citation>
+          <citation key="Xie_2016">
+            <volume_title>Bookdown: Authoring books and technical
+documents with r markdown</volume_title>
+            <author>Xie</author>
+            <doi>10.1201/9781315204963</doi>
+            <issn>2334-4806</issn>
+            <isbn>9781351792608</isbn>
+            <cYear>2016</cYear>
+            <unstructured_citation>Xie, Y. (2016). Bookdown: Authoring
+books and technical documents with r markdown. Chapman; Hall.
+https://doi.org/10.1201/9781315204963</unstructured_citation>
+          </citation>
+          <citation key="Xie_Allaire_Grolemund_2018">
+            <volume_title>R markdown: The definitive
+guide</volume_title>
+            <author>Xie</author>
+            <doi>10.1201/9781138359444</doi>
+            <isbn>9781138359444</isbn>
+            <cYear>2018</cYear>
+            <unstructured_citation>Xie, Y., Allaire, J. J., &amp;
+Grolemund, G. (2018). R markdown: The definitive guide. Chapman;
+Hall/CRC. https://doi.org/10.1201/9781138359444</unstructured_citation>
+          </citation>
+        </citation_list>
+  </posted_content>
+  </body>
+</doi_batch>
