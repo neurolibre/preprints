@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>20250619T162847-5ab15c42d368e9e5d33b4239869f6f072d4aa952</doi_batch_id>
+    <timestamp>20250619162847</timestamp>
+    <depositor>
+      <depositor_name>NeuroLibre Admin</depositor_name>
+      <email_address>admin@neurolibre.org</email_address>
+    </depositor>
+    <registrant>Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal</registrant>
+  </head>
+  <body>
+  <posted_content type="preprint">
+  <group_title>NeuroLibre Reproducible Preprints</group_title>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Lison</given_name>
+            <surname>Kardassevitch</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Davide</given_name>
+            <surname>Burchielli</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Numa</given_name>
+            <surname>Dancause</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Marco</given_name>
+            <surname>Bonizzato</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>NeuroMOSAICS: A collection of neurostimulation datasets
+- Multi-scale Open-Source Across Interfaces Conditions &amp;
+Species</title>
+        </titles>
+        <posted_date>
+          <month>06</month>
+          <day>19</day>
+          <year>2025</year>
+        </posted_date>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Repository archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.15692252</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Dataset archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.15692258</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Book archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.15692254</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Container archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.15692256</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub technical screening</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://github.com/neurolibre/neurolibre-reviews/issues/33</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Executable preprint</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://preprint.neurolibre.org/10.55458/neurolibre.00033</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.55458/neurolibre.00033</doi>
+          <resource>https://neurolibre.org/papers/10.55458/neurolibre.00033</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://preprint.neurolibre.org/10.55458/neurolibre.00033.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="ting2021neurostimulation">
+            <article_title>Neurostimulation for stroke
+rehabilitation</article_title>
+            <author>Ting</author>
+            <journal_title>Frontiers in neuroscience</journal_title>
+            <volume>15</volume>
+            <doi>10.3389/fnins.2021.649459</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Ting, W. K.-C., Fadul, F. A.-R.,
+Fecteau, S., &amp; Ethier, C. (2021). Neurostimulation for stroke
+rehabilitation. Frontiers in Neuroscience, 15, 649459.
+https://doi.org/10.3389/fnins.2021.649459</unstructured_citation>
+          </citation>
+          <citation key="james2018neuromodulation">
+            <article_title>Neuromodulation in the restoration of
+function after spinal cord injury</article_title>
+            <author>James</author>
+            <journal_title>The Lancet Neurology</journal_title>
+            <issue>10</issue>
+            <volume>17</volume>
+            <doi>10.1016/s1474-4422(18)30287-4</doi>
+            <cYear>2018</cYear>
+            <unstructured_citation>James, N. D., McMahon, S. B.,
+Field-Fote, E. C., &amp; Bradbury, E. J. (2018). Neuromodulation in the
+restoration of function after spinal cord injury. The Lancet Neurology,
+17(10), 905–917.
+https://doi.org/10.1016/s1474-4422(18)30287-4</unstructured_citation>
+          </citation>
+          <citation key="schupbach2017directional">
+            <article_title>Directional leads for deep brain stimulation:
+Opportunities and challenges.</article_title>
+            <author>Schüpbach</author>
+            <journal_title>Movement disorders</journal_title>
+            <issue>10</issue>
+            <volume>32</volume>
+            <doi>10.1002/mds.27096</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>Schüpbach, M., Chabardes, S.,
+Matthies, C., Pollo, C., Steigerwald, F., Timmermann, L., Visser
+Vandewalle, V., Volkmann, J., &amp; Schuurman, P. R. (2017). Directional
+leads for deep brain stimulation: Opportunities and challenges. Movement
+Disorders, 32(10), 1371–1375.
+https://doi.org/10.1002/mds.27096</unstructured_citation>
+          </citation>
+          <citation key="anderson2018optimized">
+            <article_title>Optimized programming algorithm for
+cylindrical and directional deep brain stimulation
+electrodes</article_title>
+            <author>Anderson</author>
+            <journal_title>Journal of neural engineering</journal_title>
+            <issue>2</issue>
+            <volume>15</volume>
+            <doi>10.1088/1741-2552/aaa14b</doi>
+            <cYear>2018</cYear>
+            <unstructured_citation>Anderson, D. N., Osting, B., Vorwerk,
+J., Dorval, A. D., &amp; Butson, C. R. (2018). Optimized programming
+algorithm for cylindrical and directional deep brain stimulation
+electrodes. Journal of Neural Engineering, 15(2), 026005.
+https://doi.org/10.1088/1741-2552/aaa14b</unstructured_citation>
+          </citation>
+          <citation key="de2021future">
+            <article_title>The future of neuromodulation: Smart
+neuromodulation</article_title>
+            <author>De Ridder</author>
+            <journal_title>Expert Review of Medical
+Devices</journal_title>
+            <issue>4</issue>
+            <volume>18</volume>
+            <doi>10.1080/17434440.2021.1909470</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>De Ridder, D., Maciaczyk, J., &amp;
+Vanneste, S. (2021). The future of neuromodulation: Smart
+neuromodulation. Expert Review of Medical Devices, 18(4), 307–317.
+https://doi.org/10.1080/17434440.2021.1909470</unstructured_citation>
+          </citation>
+          <citation key="won2020emerging">
+            <article_title>Emerging modalities and implantable
+technologies for neuromodulation</article_title>
+            <author>Won</author>
+            <journal_title>Cell</journal_title>
+            <issue>1</issue>
+            <volume>181</volume>
+            <doi>10.1016/j.cell.2020.02.054</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Won, S. M., Song, E., Reeder, J. T.,
+&amp; Rogers, J. A. (2020). Emerging modalities and implantable
+technologies for neuromodulation. Cell, 181(1), 115–135.
+https://doi.org/10.1016/j.cell.2020.02.054</unstructured_citation>
+          </citation>
+          <citation key="jun2017fully">
+            <article_title>Fully integrated silicon probes for
+high-density recording of neural activity</article_title>
+            <author>Jun</author>
+            <journal_title>Nature</journal_title>
+            <issue>7679</issue>
+            <volume>551</volume>
+            <doi>10.1038/nature24636</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>Jun, J. J., Steinmetz, N. A., Siegle,
+J. H., Denman, D. J., Bauza, M., Barbarits, B., Lee, A. K., Anastassiou,
+C. A., Andrei, A., Aydın, Ç., &amp; others. (2017). Fully integrated
+silicon probes for high-density recording of neural activity. Nature,
+551(7679), 232–236.
+https://doi.org/10.1038/nature24636</unstructured_citation>
+          </citation>
+          <citation key="tsai2017very">
+            <article_title>A very large-scale microelectrode array for
+cellular-resolution electrophysiology</article_title>
+            <author>Tsai</author>
+            <journal_title>Nature Communications</journal_title>
+            <issue>1</issue>
+            <volume>8</volume>
+            <doi>10.1038/s41467-017-02009-x</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>Tsai, D., Sawyer, D., Bradd, A.,
+Yuste, R., &amp; Shepard, K. L. (2017). A very large-scale
+microelectrode array for cellular-resolution electrophysiology. Nature
+Communications, 8(1), 1802.
+https://doi.org/10.1038/s41467-017-02009-x</unstructured_citation>
+          </citation>
+          <citation key="pineau2009treating">
+            <article_title>Treating epilepsy via adaptive
+neurostimulation: A reinforcement learning approach</article_title>
+            <author>Pineau</author>
+            <journal_title>International journal of neural
+systems</journal_title>
+            <issue>04</issue>
+            <volume>19</volume>
+            <doi>10.1142/s0129065709001987</doi>
+            <cYear>2009</cYear>
+            <unstructured_citation>Pineau, J., Guez, A., Vincent, R.,
+Panuccio, G., &amp; Avoli, M. (2009). Treating epilepsy via adaptive
+neurostimulation: A reinforcement learning approach. International
+Journal of Neural Systems, 19(04), 227–240.
+https://doi.org/10.1142/s0129065709001987</unstructured_citation>
+          </citation>
+          <citation key="gao2023offline">
+            <article_title>Offline learning of closed-loop deep brain
+stimulation controllers for parkinson disease treatment</article_title>
+            <author>Gao</author>
+            <journal_title>Proceedings of the ACM/IEEE 14th
+international conference on cyber-physical systems (with CPS-IoT week
+2023)</journal_title>
+            <doi>10.1145/3576841.3585925</doi>
+            <cYear>2023</cYear>
+            <unstructured_citation>Gao, Q., Schmidt, S. L., Chowdhury,
+A., Feng, G., Peters, J. J., Genty, K., Grill, W. M., Turner, D. A.,
+&amp; Pajic, M. (2023). Offline learning of closed-loop deep brain
+stimulation controllers for parkinson disease treatment. Proceedings of
+the ACM/IEEE 14th International Conference on Cyber-Physical Systems
+(with CPS-IoT Week 2023), 44–55.
+https://doi.org/10.1145/3576841.3585925</unstructured_citation>
+          </citation>
+          <citation key="gebodh2021novel">
+            <article_title>A novel approach to closed-loop
+neuromodulation with machine learning</article_title>
+            <author>Gebodh</author>
+            <journal_title>Brain Stimulation: Basic, Translational, and
+Clinical Research in Neuromodulation</journal_title>
+            <issue>6</issue>
+            <volume>14</volume>
+            <doi>10.1016/j.brs.2021.10.235</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Gebodh, N., &amp; Bikson, M. (2021).
+A novel approach to closed-loop neuromodulation with machine learning.
+Brain Stimulation: Basic, Translational, and Clinical Research in
+Neuromodulation, 14(6), 1662.
+https://doi.org/10.1016/j.brs.2021.10.235</unstructured_citation>
+          </citation>
+          <citation key="de2021predictive">
+            <article_title>Predictive clinical decision support system
+using machine learning and imaging biomarkers in patients with
+neurostimulation therapy: A pilot study</article_title>
+            <author>De Andres</author>
+            <journal_title>Pain Physician</journal_title>
+            <issue>8</issue>
+            <volume>24</volume>
+            <cYear>2021</cYear>
+            <unstructured_citation>De Andres, J., Ten-Esteve, A.,
+Harutyunyan, A., Romero-Garcia, C. S., Fabregat-Cid, G., Asensio-Samper,
+J. M., Alberich-Bayarri, A., Marti-Bonmati, L., &amp; others. (2021).
+Predictive clinical decision support system using machine learning and
+imaging biomarkers in patients with neurostimulation therapy: A pilot
+study. Pain Physician, 24(8), E1279.</unstructured_citation>
+          </citation>
+          <citation key="shukla2014towards">
+            <article_title>Towards closed-loop deep brain stimulation:
+Decision tree-based essential tremor patient’s state classifier and
+tremor reappearance predictor</article_title>
+            <author>Shukla</author>
+            <journal_title>2014 36th annual international conference of
+the IEEE engineering in medicine and biology society</journal_title>
+            <doi>10.1109/embc.2014.6944156</doi>
+            <cYear>2014</cYear>
+            <unstructured_citation>Shukla, P., Basu, I., &amp;
+Tuninetti, D. (2014). Towards closed-loop deep brain stimulation:
+Decision tree-based essential tremor patient’s state classifier and
+tremor reappearance predictor. 2014 36th Annual International Conference
+of the IEEE Engineering in Medicine and Biology Society, 2605–2608.
+https://doi.org/10.1109/embc.2014.6944156</unstructured_citation>
+          </citation>
+          <citation key="shukla2012neural">
+            <article_title>A neural network-based design of an on-off
+adaptive control for deep brain stimulation in movement
+disorders</article_title>
+            <author>Shukla</author>
+            <journal_title>2012 annual international conference of the
+IEEE engineering in medicine and biology society</journal_title>
+            <doi>10.1109/embc.2012.6346878</doi>
+            <cYear>2012</cYear>
+            <unstructured_citation>Shukla, P., Basu, I., Graupe, D.,
+Tuninetti, D., &amp; Slavin, K. V. (2012). A neural network-based design
+of an on-off adaptive control for deep brain stimulation in movement
+disorders. 2012 Annual International Conference of the IEEE Engineering
+in Medicine and Biology Society, 4140–4143.
+https://doi.org/10.1109/embc.2012.6346878</unstructured_citation>
+          </citation>
+          <citation key="medaglia2020personalizing">
+            <article_title>Personalizing neuromodulation</article_title>
+            <author>Medaglia</author>
+            <journal_title>International Journal of
+Psychophysiology</journal_title>
+            <volume>154</volume>
+            <doi>10.1016/j.ijpsycho.2019.01.002</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Medaglia, J. D., Erickson, B.,
+Zimmerman, J., &amp; Kelkar, A. (2020). Personalizing neuromodulation.
+International Journal of Psychophysiology, 154, 101–110.
+https://doi.org/10.1016/j.ijpsycho.2019.01.002</unstructured_citation>
+          </citation>
+          <citation key="yu2021reinforcement">
+            <article_title>Reinforcement learning in healthcare: A
+survey</article_title>
+            <author>Yu</author>
+            <journal_title>ACM Computing Surveys (CSUR)</journal_title>
+            <issue>1</issue>
+            <volume>55</volume>
+            <doi>10.1145/3477600</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Yu, C., Liu, J., Nemati, S., &amp;
+Yin, G. (2021). Reinforcement learning in healthcare: A survey. ACM
+Computing Surveys (CSUR), 55(1), 1–36.
+https://doi.org/10.1145/3477600</unstructured_citation>
+          </citation>
+          <citation key="arlotti2018eight">
+            <article_title>Eight-hours adaptive deep brain stimulation
+in patients with parkinson disease</article_title>
+            <author>Arlotti</author>
+            <journal_title>Neurology</journal_title>
+            <issue>11</issue>
+            <volume>90</volume>
+            <doi>10.1212/wnl.0000000000005121</doi>
+            <cYear>2018</cYear>
+            <unstructured_citation>Arlotti, M., Marceglia, S., Foffani,
+G., Volkmann, J., Lozano, A. M., Moro, E., Cogiamanian, F., Prenassi,
+M., Bocci, T., Cortese, F., &amp; others. (2018). Eight-hours adaptive
+deep brain stimulation in patients with parkinson disease. Neurology,
+90(11), e971–e976.
+https://doi.org/10.1212/wnl.0000000000005121</unstructured_citation>
+          </citation>
+          <citation key="rosa2015adaptive">
+            <article_title>Adaptive deep brain stimulation in a freely
+moving parkinsonian patient</article_title>
+            <author>Rosa</author>
+            <journal_title>Movement Disorders</journal_title>
+            <issue>7</issue>
+            <volume>30</volume>
+            <doi>10.1002/mds.26241</doi>
+            <cYear>2015</cYear>
+            <unstructured_citation>Rosa, M., Arlotti, M., Ardolino, G.,
+Cogiamanian, F., Marceglia, S., Di Fonzo, A., Cortese, F., Rampini, P.
+M., &amp; Priori, A. (2015). Adaptive deep brain stimulation in a freely
+moving parkinsonian patient. Movement Disorders, 30(7), 1003.
+https://doi.org/10.1002/mds.26241</unstructured_citation>
+          </citation>
+          <citation key="swann2018adaptive">
+            <article_title>Adaptive deep brain stimulation for
+parkinson’s disease using motor cortex sensing</article_title>
+            <author>Swann</author>
+            <journal_title>Journal of neural engineering</journal_title>
+            <issue>4</issue>
+            <volume>15</volume>
+            <doi>10.1088/1741-2552/aabc9b</doi>
+            <cYear>2018</cYear>
+            <unstructured_citation>Swann, N. C., De Hemptinne, C.,
+Thompson, M. C., Miocinovic, S., Miller, A. M., Ostrem, J. L., Chizeck,
+H. J., Starr, P. A., &amp; others. (2018). Adaptive deep brain
+stimulation for parkinson’s disease using motor cortex sensing. Journal
+of Neural Engineering, 15(4), 046006.
+https://doi.org/10.1088/1741-2552/aabc9b</unstructured_citation>
+          </citation>
+          <citation key="bonizzato2023autonomous">
+            <article_title>Autonomous optimization of neuroprosthetic
+stimulation parameters that drive the motor cortex and spinal cord
+outputs in rats and monkeys</article_title>
+            <author>Bonizzato</author>
+            <journal_title>Cell Reports Medicine</journal_title>
+            <issue>4</issue>
+            <volume>4</volume>
+            <doi>10.1016/j.xcrm.2023.101008</doi>
+            <cYear>2023</cYear>
+            <unstructured_citation>Bonizzato, M., Hottin, R. G., Côté,
+S. L., Massai, E., Choinière, L., Macar, U., Laferrière, S., Sirpal, P.,
+Quessy, S., Lajoie, G., &amp; others. (2023). Autonomous optimization of
+neuroprosthetic stimulation parameters that drive the motor cortex and
+spinal cord outputs in rats and monkeys. Cell Reports Medicine, 4(4).
+https://doi.org/10.1016/j.xcrm.2023.101008</unstructured_citation>
+          </citation>
+          <citation key="choiniere2024gaussian">
+            <article_title>Gaussian-process-based bayesian optimization
+for neurostimulation interventions in rats</article_title>
+            <author>Choinière</author>
+            <journal_title>STAR protocols</journal_title>
+            <issue>1</issue>
+            <volume>5</volume>
+            <doi>10.1016/j.xpro.2024.102885</doi>
+            <cYear>2024</cYear>
+            <unstructured_citation>Choinière, L., Guay-Hottin, R.,
+Picard, R., Lajoie, G., Bonizzato, M., &amp; Dancause, N. (2024).
+Gaussian-process-based bayesian optimization for neurostimulation
+interventions in rats. STAR Protocols, 5(1), 102885.
+https://doi.org/10.1016/j.xpro.2024.102885</unstructured_citation>
+          </citation>
+          <citation key="laferriere2020hierarchical">
+            <article_title>Hierarchical bayesian optimization of
+spatiotemporal neurostimulations for targeted motor
+outputs</article_title>
+            <author>Laferriere</author>
+            <journal_title>IEEE Transactions on Neural Systems and
+Rehabilitation Engineering</journal_title>
+            <issue>6</issue>
+            <volume>28</volume>
+            <doi>10.1109/tnsre.2020.2987001</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Laferriere, S., Bonizzato, M., Côté,
+S. L., Dancause, N., &amp; Lajoie, G. (2020). Hierarchical bayesian
+optimization of spatiotemporal neurostimulations for targeted motor
+outputs. IEEE Transactions on Neural Systems and Rehabilitation
+Engineering, 28(6), 1452–1460.
+https://doi.org/10.1109/tnsre.2020.2987001</unstructured_citation>
+          </citation>
+          <citation key="sarikhani2022automated">
+            <article_title>Automated deep brain stimulation programming
+with safety constraints for tremor suppression in patients with
+parkinson’s disease and essential tremor</article_title>
+            <author>Sarikhani</author>
+            <journal_title>Journal of neural engineering</journal_title>
+            <issue>4</issue>
+            <volume>19</volume>
+            <doi>10.1088/1741-2552/ac86a2</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Sarikhani, P., Ferleger, B.,
+Mitchell, K., Ostrem, J., Herron, J., Mahmoudi, B., &amp; Miocinovic, S.
+(2022). Automated deep brain stimulation programming with safety
+constraints for tremor suppression in patients with parkinson’s disease
+and essential tremor. Journal of Neural Engineering, 19(4), 046042.
+https://doi.org/10.1088/1741-2552/ac86a2</unstructured_citation>
+          </citation>
+          <citation key="aiello2023recalibration">
+            <article_title>Recalibration of neuromodulation parameters
+in neural implants with adaptive bayesian optimization</article_title>
+            <author>Aiello</author>
+            <journal_title>Journal of Neural Engineering</journal_title>
+            <issue>2</issue>
+            <volume>20</volume>
+            <doi>10.1088/1741-2552/acc975</doi>
+            <cYear>2023</cYear>
+            <unstructured_citation>Aiello, G., Valle, G., &amp;
+Raspopovic, S. (2023). Recalibration of neuromodulation parameters in
+neural implants with adaptive bayesian optimization. Journal of Neural
+Engineering, 20(2), 026037.
+https://doi.org/10.1088/1741-2552/acc975</unstructured_citation>
+          </citation>
+          <citation key="grahn2014restoration">
+            <article_title>Restoration of motor function following
+spinal cord injury via optimal control of intraspinal microstimulation:
+Toward a next generation closed-loop neural prosthesis</article_title>
+            <author>Grahn</author>
+            <journal_title>Frontiers in neuroscience</journal_title>
+            <volume>8</volume>
+            <doi>10.3389/fnins.2014.00296</doi>
+            <cYear>2014</cYear>
+            <unstructured_citation>Grahn, P. J., Mallory, G. W., Berry,
+B. M., Hachmann, J. T., Lobel, D. A., &amp; Lujan, J. L. (2014).
+Restoration of motor function following spinal cord injury via optimal
+control of intraspinal microstimulation: Toward a next generation
+closed-loop neural prosthesis. Frontiers in Neuroscience, 8, 296.
+https://doi.org/10.3389/fnins.2014.00296</unstructured_citation>
+          </citation>
+          <citation key="losanno2021bayesian">
+            <article_title>Bayesian optimization of peripheral
+intraneural stimulation protocols to evoke distal limb
+movements</article_title>
+            <author>Losanno</author>
+            <journal_title>Journal of Neural Engineering</journal_title>
+            <issue>6</issue>
+            <volume>18</volume>
+            <doi>10.1088/1741-2552/ac3f6c</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Losanno, E., Badi, M., Wurth, S.,
+Borgognon, S., Courtine, G., Capogrosso, M., Rouiller, E., &amp; Micera,
+S. (2021). Bayesian optimization of peripheral intraneural stimulation
+protocols to evoke distal limb movements. Journal of Neural Engineering,
+18(6), 066046.
+https://doi.org/10.1088/1741-2552/ac3f6c</unstructured_citation>
+          </citation>
+          <citation key="rowald2022activity">
+            <article_title>Activity-dependent spinal cord
+neuromodulation rapidly restores trunk and leg motor functions after
+complete paralysis</article_title>
+            <author>Rowald</author>
+            <journal_title>Nature medicine</journal_title>
+            <issue>2</issue>
+            <volume>28</volume>
+            <doi>10.1038/s41591-021-01663-5</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Rowald, A., Komi, S., Demesmaeker,
+R., Baaklini, E., Hernandez-Charpak, S. D., Paoles, E., Montanaro, H.,
+Cassara, A., Becce, F., Lloyd, B., &amp; others. (2022).
+Activity-dependent spinal cord neuromodulation rapidly restores trunk
+and leg motor functions after complete paralysis. Nature Medicine,
+28(2), 260–271.
+https://doi.org/10.1038/s41591-021-01663-5</unstructured_citation>
+          </citation>
+          <citation key="wagner2018targeted">
+            <article_title>Targeted neurotechnology restores walking in
+humans with spinal cord injury</article_title>
+            <author>Wagner</author>
+            <journal_title>Nature</journal_title>
+            <issue>7729</issue>
+            <volume>563</volume>
+            <doi>10.1038/s41586-018-0649-2</doi>
+            <cYear>2018</cYear>
+            <unstructured_citation>Wagner, F. B., Mignardot, J.-B., Le
+Goff-Mignardot, C. G., Demesmaeker, R., Komi, S., Capogrosso, M.,
+Rowald, A., Seáñez, I., Caban, M., Pirondini, E., &amp; others. (2018).
+Targeted neurotechnology restores walking in humans with spinal cord
+injury. Nature, 563(7729), 65–71.
+https://doi.org/10.1038/s41586-018-0649-2</unstructured_citation>
+          </citation>
+          <citation key="capogrosso2013computational">
+            <article_title>A computational model for epidural electrical
+stimulation of spinal sensorimotor circuits</article_title>
+            <author>Capogrosso</author>
+            <journal_title>Journal of Neuroscience</journal_title>
+            <issue>49</issue>
+            <volume>33</volume>
+            <doi>10.1523/jneurosci.1688-13.2013</doi>
+            <cYear>2013</cYear>
+            <unstructured_citation>Capogrosso, M., Wenger, N.,
+Raspopovic, S., Musienko, P., Beauparlant, J., Luciani, L. B., Courtine,
+G., &amp; Micera, S. (2013). A computational model for epidural
+electrical stimulation of spinal sensorimotor circuits. Journal of
+Neuroscience, 33(49), 19326–19340.
+https://doi.org/10.1523/jneurosci.1688-13.2013</unstructured_citation>
+          </citation>
+          <citation key="wang2023machine">
+            <article_title>Machine learning classifiers for electrode
+selection in the design of closed-loop neuromodulation devices for
+episodic memory improvement</article_title>
+            <author>Wang</author>
+            <journal_title>Cerebral Cortex</journal_title>
+            <issue>13</issue>
+            <volume>33</volume>
+            <doi>10.1093/cercor/bhad105</doi>
+            <cYear>2023</cYear>
+            <unstructured_citation>Wang, D. X., Ng, N., Seger, S. E.,
+Ekstrom, A. D., Kriegel, J. L., &amp; Lega, B. C. (2023). Machine
+learning classifiers for electrode selection in the design of
+closed-loop neuromodulation devices for episodic memory improvement.
+Cerebral Cortex, 33(13), 8150–8163.
+https://doi.org/10.1093/cercor/bhad105</unstructured_citation>
+          </citation>
+          <citation key="greenhill2020bayesian">
+            <article_title>Bayesian optimization for adaptive
+experimental design: A review</article_title>
+            <author>Greenhill</author>
+            <journal_title>IEEE access</journal_title>
+            <volume>8</volume>
+            <doi>10.1109/access.2020.2966228</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Greenhill, S., Rana, S., Gupta, S.,
+Vellanki, P., &amp; Venkatesh, S. (2020). Bayesian optimization for
+adaptive experimental design: A review. IEEE Access, 8, 13937–13948.
+https://doi.org/10.1109/access.2020.2966228</unstructured_citation>
+          </citation>
+          <citation key="guay2025robust">
+            <article_title>Robust prior-biased acquisition function for
+human-in-the-loop bayesian optimization</article_title>
+            <author>Guay-Hottin</author>
+            <journal_title>Knowledge-Based Systems</journal_title>
+            <doi>10.1016/j.knosys.2025.113039</doi>
+            <cYear>2025</cYear>
+            <unstructured_citation>Guay-Hottin, R., Kardassevitch, L.,
+Pham, H., Lajoie, G., &amp; Bonizzato, M. (2025). Robust prior-biased
+acquisition function for human-in-the-loop bayesian optimization.
+Knowledge-Based Systems, 113039.
+https://doi.org/10.1016/j.knosys.2025.113039</unstructured_citation>
+          </citation>
+        </citation_list>
+  </posted_content>
+  </body>
+</doi_batch>
