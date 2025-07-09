@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>20250709T140758-45c78a5af78ec702f514b03eb4cc880518734fc1</doi_batch_id>
+    <timestamp>20250709140758</timestamp>
+    <depositor>
+      <depositor_name>NeuroLibre Admin</depositor_name>
+      <email_address>admin@neurolibre.org</email_address>
+    </depositor>
+    <registrant>Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal</registrant>
+  </head>
+  <body>
+  <posted_content type="preprint">
+  <group_title>NeuroLibre Reproducible Preprints</group_title>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Agah</given_name>
+            <surname>Karakuzu</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Labonny</given_name>
+            <surname>Biswas</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Julien</given_name>
+            <surname>Cohen-Adad</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Nikola</given_name>
+            <surname>Stikov</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Vendor-neutral sequences and their implications for the
+reproducibility of quantitative MRI</title>
+        </titles>
+        <posted_date>
+          <month>07</month>
+          <day>09</day>
+          <year>2025</year>
+        </posted_date>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Repository archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.15844191</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Dataset archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.17605/OSF.IO/5N3CU</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Book archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.15844193</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Container archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.15844195</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub technical screening</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://github.com/neurolibre/neurolibre-reviews/issues/27</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Executable preprint</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://preprint.neurolibre.org/10.55458/neurolibre.00027</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.55458/neurolibre.00027</doi>
+          <resource>https://neurolibre.org/papers/10.55458/neurolibre.00027</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://preprint.neurolibre.org/10.55458/neurolibre.00027.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="karakuzu2022vendor">
+            <article_title>Vendor-neutral sequences and fully
+transparent workflows improve inter-vendor reproducibility of
+quantitative MRI</article_title>
+            <author>Karakuzu</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>3</issue>
+            <volume>88</volume>
+            <doi>10.1002/mrm.29292</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Karakuzu, A., Biswas, L., Cohen-Adad,
+J., &amp; Stikov, N. (2022). Vendor-neutral sequences and fully
+transparent workflows improve inter-vendor reproducibility of
+quantitative MRI. Magnetic Resonance in Medicine, 88(3), 1212–1228.
+https://doi.org/10.1002/mrm.29292</unstructured_citation>
+          </citation>
+          <citation key="karakuzu2022qmri">
+            <article_title>qMRI-BIDS: An extension to the brain imaging
+data structure for quantitative magnetic resonance imaging
+data</article_title>
+            <author>Karakuzu</author>
+            <journal_title>Scientific Data</journal_title>
+            <issue>1</issue>
+            <volume>9</volume>
+            <doi>10.1038/s41597-022-01571-4</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Karakuzu, A., Appelhoff, S., Auer,
+T., Boudreau, M., Feingold, F., Khan, A. R., Lazari, A., Markiewicz, C.,
+Mulder, M., Phillips, C., &amp; others. (2022). qMRI-BIDS: An extension
+to the brain imaging data structure for quantitative magnetic resonance
+imaging data. Scientific Data, 9(1), 517.
+https://doi.org/10.1038/s41597-022-01571-4</unstructured_citation>
+          </citation>
+          <citation key="karakuzu_nl">
+            <article_title>NeuroLibre : A preprint server for
+full-fledged reproducible neuroscience</article_title>
+            <author>Karakuzu</author>
+            <doi>10.31219/osf.io/h89js</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Karakuzu, A., DuPre, E., Tetrel, L.,
+Bermudez, P., Boudreau, M., Chin, M., Poline, J.-B., Das, S., Bellec,
+L., &amp; Stikov, N. (2022). NeuroLibre : A preprint server for
+full-fledged reproducible neuroscience. OSF Preprints.
+https://doi.org/10.31219/osf.io/h89js</unstructured_citation>
+          </citation>
+          <citation key="harding2023canadian">
+            <article_title>The canadian open neuroscience platform—an
+open science framework for the neuroscience community</article_title>
+            <author>Harding</author>
+            <journal_title>PLOS Computational Biology</journal_title>
+            <issue>7</issue>
+            <volume>19</volume>
+            <doi>10.1371/journal.pcbi.1011230</doi>
+            <cYear>2023</cYear>
+            <unstructured_citation>Harding, R. J., Bermudez, P.,
+Bernier, A., Beauvais, M., Bellec, P., Hill, S., Karakuzu, A., Knoppers,
+B. M., Pavlidis, P., Poline, J.-B., &amp; others. (2023). The canadian
+open neuroscience platform—an open science framework for the
+neuroscience community. PLOS Computational Biology, 19(7), e1011230.
+https://doi.org/10.1371/journal.pcbi.1011230</unstructured_citation>
+          </citation>
+          <citation key="karakuzu2025">
+            <article_title>Toward a woven literature: Open-source
+infrastructure for reproducible publishing</article_title>
+            <author>Karakuzu</author>
+            <journal_title>NeuroLibre Reproducible
+Preprints</journal_title>
+            <doi>10.55458/neurolibre.00041</doi>
+            <cYear>2025</cYear>
+            <unstructured_citation>Karakuzu, A. (2025). Toward a woven
+literature: Open-source infrastructure for reproducible publishing.
+NeuroLibre Reproducible Preprints, 41.
+https://doi.org/10.55458/neurolibre.00041</unstructured_citation>
+          </citation>
+          <citation key="dupre2022beyond">
+            <article_title>Beyond advertising: New infrastructures for
+publishing integrated research objects</article_title>
+            <author>DuPre</author>
+            <journal_title>PLOS Computational Biology</journal_title>
+            <issue>1</issue>
+            <volume>18</volume>
+            <doi>10.1371/journal.pcbi.1009651</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>DuPre, E., Holdgraf, C., Karakuzu,
+A., Tetrel, L., Bellec, P., Stikov, N., &amp; Poline, J.-B. (2022).
+Beyond advertising: New infrastructures for publishing integrated
+research objects. PLOS Computational Biology, 18(1), e1009651.
+https://doi.org/10.1371/journal.pcbi.1009651</unstructured_citation>
+          </citation>
+          <citation key="boudreau2024repeat">
+            <article_title>Repeat it without me: Crowdsourcing the T1
+mapping common ground via the ISMRM reproducibility
+challenge</article_title>
+            <author>Boudreau</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>3</issue>
+            <volume>92</volume>
+            <doi>10.1002/mrm.30111</doi>
+            <cYear>2024</cYear>
+            <unstructured_citation>Boudreau, M., Karakuzu, A.,
+Cohen-Adad, J., Bozkurt, E., Carr, M., Castellaro, M., Concha, L.,
+Doneva, M., Dual, S. A., Ensworth, A., Foias, A., Fortier, V., Gabr, R.
+E., Gilbert, G., Glide-Hurst, C. K., Grech-Sollars, M., Hu, S.,
+Jalnefjord, O., Jovicich, J., … the ISMRM Reproducible Research Study
+Group and the ISMRM Quantitative MR Study Group. (2024). Repeat it
+without me: Crowdsourcing the T1 mapping common ground via the ISMRM
+reproducibility challenge. Magnetic Resonance in Medicine, 92(3),
+1115–1127. https://doi.org/10.1002/mrm.30111</unstructured_citation>
+          </citation>
+          <citation key="stikov2023relaxometry">
+            <article_title>The relaxometry hype cycle</article_title>
+            <author>Stikov</author>
+            <journal_title>Frontiers in Physiology</journal_title>
+            <volume>14</volume>
+            <doi>10.3389/fphys.2023.1281147</doi>
+            <cYear>2023</cYear>
+            <unstructured_citation>Stikov, N., &amp; Karakuzu, A.
+(2023). The relaxometry hype cycle. Frontiers in Physiology, 14,
+1281147.
+https://doi.org/10.3389/fphys.2023.1281147</unstructured_citation>
+          </citation>
+          <citation key="karakuzu2024reproducible">
+            <article_title>Reproducible research practices in magnetic
+resonance neuroimaging: A review informed by advanced language
+models</article_title>
+            <author>Karakuzu</author>
+            <journal_title>Magnetic Resonance in Medical
+Sciences</journal_title>
+            <issue>3</issue>
+            <volume>23</volume>
+            <doi>10.2463/mrms.rev.2023-0174</doi>
+            <cYear>2024</cYear>
+            <unstructured_citation>Karakuzu, A., Boudreau, M., &amp;
+Stikov, N. (2024). Reproducible research practices in magnetic resonance
+neuroimaging: A review informed by advanced language models. Magnetic
+Resonance in Medical Sciences, 23(3), 252–267.
+https://doi.org/10.2463/mrms.rev.2023-0174</unstructured_citation>
+          </citation>
+          <citation key="karakuzu2025rethinking">
+            <article_title>Rethinking MRI as a measurement device
+through modular and portable pipelines</article_title>
+            <author>Karakuzu</author>
+            <journal_title>Magnetic Resonance Materials in Physics,
+Biology and Medicine</journal_title>
+            <doi>10.1007/s10334-025-01245-3</doi>
+            <cYear>2025</cYear>
+            <unstructured_citation>Karakuzu, A., Blostein, N., Caron, A.
+V., Boré, A., Rheault, F., Descoteaux, M., &amp; Stikov, N. (2025).
+Rethinking MRI as a measurement device through modular and portable
+pipelines. Magnetic Resonance Materials in Physics, Biology and
+Medicine, 1–17.
+https://doi.org/10.1007/s10334-025-01245-3</unstructured_citation>
+          </citation>
+          <citation key="10.1162/imag_a_00409">
+            <article_title>Longitudinal reproducibility of brain and
+spinal cord quantitative MRI biomarkers</article_title>
+            <author>Boudreau</author>
+            <journal_title>Imaging Neuroscience</journal_title>
+            <volume>3</volume>
+            <doi>10.1162/imag_a_00409</doi>
+            <issn>2837-6056</issn>
+            <cYear>2025</cYear>
+            <unstructured_citation>Boudreau, M., Karakuzu, A., Boré, A.,
+Pinsard, B., Zelenkovski, K., Alonso-Ortiz, E., Boyle, J., Bellec, L.,
+&amp; Cohen-Adad, J. (2025). Longitudinal reproducibility of brain and
+spinal cord quantitative MRI biomarkers. Imaging Neuroscience, 3,
+imag_a_00409.
+https://doi.org/10.1162/imag_a_00409</unstructured_citation>
+          </citation>
+          <citation key="niso2022open">
+            <article_title>Open and reproducible neuroimaging: From
+study inception to publication</article_title>
+            <author>Niso</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>263</volume>
+            <doi>10.1016/j.neuroimage.2022.119623</doi>
+            <issn>1053-8119</issn>
+            <cYear>2022</cYear>
+            <unstructured_citation>Niso, G., Botvinik-Nezer, R.,
+Appelhoff, S., De La Vega, A., Esteban, O., Etzel, J. A., Finc, K.,
+Ganz, M., Gau, R., Halchenko, Y. O., Herholz, P., Karakuzu, A., Keator,
+D. B., Markiewicz, C. J., Maumet, C., Pernet, C. R., Pestilli, F.,
+Queder, N., Schmitt, T., … Rieger, J. W. (2022). Open and reproducible
+neuroimaging: From study inception to publication. NeuroImage, 263,
+119623.
+https://doi.org/10.1016/j.neuroimage.2022.119623</unstructured_citation>
+          </citation>
+          <citation key="layton2017pulseq">
+            <article_title>Pulseq: A rapid and hardware-independent
+pulse sequence prototyping framework</article_title>
+            <author>Layton</author>
+            <journal_title>Magnetic resonance in
+medicine</journal_title>
+            <issue>4</issue>
+            <volume>77</volume>
+            <doi>10.1002/mrm.26235</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>Layton, K. J., Kroboth, S., Jia, F.,
+Littin, S., Yu, H., Leupold, J., Nielsen, J.-F., Stöcker, T., &amp;
+Zaitsev, M. (2017). Pulseq: A rapid and hardware-independent pulse
+sequence prototyping framework. Magnetic Resonance in Medicine, 77(4),
+1544–1552. https://doi.org/10.1002/mrm.26235</unstructured_citation>
+          </citation>
+          <citation key="hoinkiss2023ai">
+            <article_title>AI-driven and automated MRI sequence
+optimization in scanner-independent MRI sequences formulated by a
+domain-specific language</article_title>
+            <author>Hoinkiss</author>
+            <journal_title>Frontiers in Neuroimaging</journal_title>
+            <volume>2</volume>
+            <doi>10.3389/fnimg.2023.1090054</doi>
+            <cYear>2023</cYear>
+            <unstructured_citation>Hoinkiss, D. C., Huber, J., Plump,
+C., Lüth, C., Drechsler, R., &amp; Günther, M. (2023). AI-driven and
+automated MRI sequence optimization in scanner-independent MRI sequences
+formulated by a domain-specific language. Frontiers in Neuroimaging, 2,
+1090054.
+https://doi.org/10.3389/fnimg.2023.1090054</unstructured_citation>
+          </citation>
+        </citation_list>
+  </posted_content>
+  </body>
+</doi_batch>
