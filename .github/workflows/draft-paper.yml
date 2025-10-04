@@ -11,6 +11,9 @@ on:
       issue_id:
         description: 'The issue number of the submission in the NeuroLibre reviews repo'
         required: true
+      preprint_version:
+        description: 'Preprint version (v1, v2, etc. to determine the branch and file names)'
+        required: false
 jobs:
   pdf-generation:
     name: ${{ format('PDF draft for issue {0}', github.event.inputs.issue_id) }}
@@ -36,10 +39,11 @@ jobs:
           branch_prefix: neurolibre
           issue_id: ${{ github.event.inputs.issue_id }}
           pdf_path: ${{ steps.generate-files.outputs.pdf_path}}
+          preprint_version: ${{ github.event.inputs.preprint_version }}
       - name: Reply message
         if: ${{ success() }}
         run: |
-          gh issue comment ${{ github.event.inputs.issue_id }} --body ":point_right::page_facing_up: [Download article proof](${{ steps.upload-pdf.outputs.pdf_download_url}}) :page_facing_up: [View article proof on GitHub](${{ steps.upload-pdf.outputs.pdf_html_url}}) :page_facing_up: :point_left:"
+          gh issue comment ${{ github.event.inputs.issue_id }} --body ":point_right::page_facing_up: [Download article proof (${{ github.event.inputs.preprint_version }})](${{ steps.upload-pdf.outputs.pdf_download_url}}) :page_facing_up: [View article proof on GitHub](${{ steps.upload-pdf.outputs.pdf_html_url}}) :page_facing_up: :point_left:"
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
           GH_REPO: neurolibre/neurolibre-reviews  
