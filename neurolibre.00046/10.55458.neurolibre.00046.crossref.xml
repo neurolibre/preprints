@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>20260806T173201-d33a0ba326cc566a66bc43f4da95dc6dc9f15ee9</doi_batch_id>
+    <timestamp>20260806173201</timestamp>
+    <depositor>
+      <depositor_name>NeuroLibre Admin</depositor_name>
+      <email_address>admin@neurolibre.org</email_address>
+    </depositor>
+    <registrant>Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal</registrant>
+  </head>
+  <body>
+  <posted_content type="preprint">
+  <group_title>NeuroLibre Reproducible Preprints</group_title>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Nicolas</given_name>
+            <surname>Dalbec-Constant</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Guillaume</given_name>
+            <surname>Thekkadath</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Duncan</given_name>
+            <surname>England</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Benjamin</given_name>
+            <surname>Sussman</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Thomas</given_name>
+            <surname>Gerrits</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Nicolás</given_name>
+            <surname>Quesada</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Accurate Unsupervised Photon Counting from Transition
+Edge Sensor Signals</title>
+        </titles>
+        <posted_date>
+          <month>08</month>
+          <day>06</day>
+          <year>2026</year>
+        </posted_date>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Repository archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.21827086</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Dataset archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.14101974</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Book archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.21827090</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Container archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.21827092</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub technical screening</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://github.com/neurolibre/neurolibre-reviews/issues/46</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Executable preprint</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://preprint.neurolibre.org/10.55458/neurolibre.00046</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.55458/neurolibre.00046</doi>
+          <resource>https://neurolibre.org/papers/10.55458/neurolibre.00046</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://preprint.neurolibre.org/10.55458/neurolibre.00046.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="bourassa2021blueprint">
+            <article_title>Blueprint for a scalable photonic
+fault-tolerant quantum computer</article_title>
+            <author>Bourassa</author>
+            <journal_title>Quantum</journal_title>
+            <volume>5</volume>
+            <doi>10.22331/q-2021-02-04-392</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Bourassa, J. E., Alexander, R. N.,
+Vasmer, M., Patil, A., Tzitrin, I., Matsuura, T., Su, D., Baragiola, B.
+Q., Guha, S., Dauphinais, G., &amp; others. (2021). Blueprint for a
+scalable photonic fault-tolerant quantum computer. Quantum, 5, 392.
+https://doi.org/10.22331/q-2021-02-04-392</unstructured_citation>
+          </citation>
+          <citation key="hamilton2017gaussian">
+            <article_title>Gaussian boson sampling</article_title>
+            <author>Hamilton</author>
+            <journal_title>Phys. Rev. Lett.</journal_title>
+            <issue>17</issue>
+            <volume>119</volume>
+            <cYear>2017</cYear>
+            <unstructured_citation>Hamilton, C. S., Kruse, R., Sansoni,
+L., Barkhofen, S., Silberhorn, C., &amp; Jex, I. (2017). Gaussian boson
+sampling. Phys. Rev. Lett., 119(17), 170501.</unstructured_citation>
+          </citation>
+          <citation key="kruse2017limits">
+            <article_title>Limits of the time-multiplexed
+photon-counting method</article_title>
+            <author>Kruse</author>
+            <journal_title>Phys. Rev. A</journal_title>
+            <issue>2</issue>
+            <volume>95</volume>
+            <doi>10.1103/physreva.95.023815</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>Kruse, R., Tiedau, J., Bartley, T.
+J., Barkhofen, S., &amp; Silberhorn, C. (2017). Limits of the
+time-multiplexed photon-counting method. Phys. Rev. A, 95(2), 023815.
+https://doi.org/10.1103/physreva.95.023815</unstructured_citation>
+          </citation>
+          <citation key="aaronson2011computational">
+            <article_title>The computational complexity of linear
+optics</article_title>
+            <author>Aaronson</author>
+            <journal_title>Proceedings of the forty-third annual ACM
+symposium on theory of computing</journal_title>
+            <doi>10.1364/qim.2014.qth1a.2</doi>
+            <cYear>2011</cYear>
+            <unstructured_citation>Aaronson, S., &amp; Arkhipov, A.
+(2011). The computational complexity of linear optics. Proceedings of
+the Forty-Third Annual ACM Symposium on Theory of Computing, 333–342.
+https://doi.org/10.1364/qim.2014.qth1a.2</unstructured_citation>
+          </citation>
+          <citation key="thekkadath2020quantum">
+            <article_title>Quantum-enhanced interferometry with large
+heralded photon-number states</article_title>
+            <author>Thekkadath</author>
+            <journal_title>npj Quantum Inf.</journal_title>
+            <issue>1</issue>
+            <volume>6</volume>
+            <doi>10.1038/s41534-020-00320-y</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Thekkadath, G., Mycroft, M., Bell,
+B., Wade, C., Eckstein, A., Phillips, D., Patel, R., Buraczewski, A.,
+Lita, A., Gerrits, T., &amp; others. (2020). Quantum-enhanced
+interferometry with large heralded photon-number states. Npj Quantum
+Inf., 6(1), 89.
+https://doi.org/10.1038/s41534-020-00320-y</unstructured_citation>
+          </citation>
+          <citation key="deshpande2022quantum">
+            <article_title>Quantum computational advantage via
+high-dimensional Gaussian boson sampling</article_title>
+            <author>Deshpande</author>
+            <journal_title>Sci. Adv.</journal_title>
+            <issue>1</issue>
+            <volume>8</volume>
+            <doi>10.1126/sciadv.abi7894</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Deshpande, A., Mehta, A., Vincent,
+T., Quesada, N., Hinsche, M., Ioannou, M., Madsen, L., Lavoie, J., Qi,
+H., Eisert, J., Hangleiter, D., Fefferman, B., &amp; Dhand, I. (2022).
+Quantum computational advantage via high-dimensional Gaussian boson
+sampling. Sci. Adv., 8(1), eabi7894.
+https://doi.org/10.1126/sciadv.abi7894</unstructured_citation>
+          </citation>
+          <citation key="grier2022complexity">
+            <article_title>The complexity of bipartite gaussian boson
+sampling</article_title>
+            <author>Grier</author>
+            <journal_title>Quantum</journal_title>
+            <volume>6</volume>
+            <doi>10.22331/q-2022-11-28-863</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Grier, D., Brod, D. J., Arrazola, J.
+M., Andrade Alonso, M. B. de, &amp; Quesada, N. (2022). The complexity
+of bipartite gaussian boson sampling. Quantum, 6, 863.
+https://doi.org/10.22331/q-2022-11-28-863</unstructured_citation>
+          </citation>
+          <citation key="madsen2022quantum">
+            <article_title>Quantum computational advantage with a
+programmable photonic processor</article_title>
+            <author>Madsen</author>
+            <journal_title>Nature</journal_title>
+            <issue>7912</issue>
+            <volume>606</volume>
+            <cYear>2022</cYear>
+            <unstructured_citation>Madsen, L. S., Laudenbach, F.,
+Askarani, M. F., Rortais, F., Vincent, T., Bulmer, J. F., Miatto, F. M.,
+Neuhaus, L., Helt, L. G., Collins, M. J., &amp; others. (2022). Quantum
+computational advantage with a programmable photonic processor. Nature,
+606(7912), 75–81.</unstructured_citation>
+          </citation>
+          <citation key="maring2024versatile">
+            <article_title>A versatile single-photon-based quantum
+computing platform</article_title>
+            <author>Maring</author>
+            <journal_title>Nat. Photonics</journal_title>
+            <issue>6</issue>
+            <volume>18</volume>
+            <cYear>2024</cYear>
+            <unstructured_citation>Maring, N., Fyrillas, A., Pont, M.,
+Ivanov, E., Stepanov, P., Margaria, N., Hease, W., Pishchagin, A.,
+Lemaı̂tre, A., Sagnes, I., &amp; others. (2024). A versatile
+single-photon-based quantum computing platform. Nat. Photonics, 18(6),
+603–609.</unstructured_citation>
+          </citation>
+          <citation key="endo2024optically">
+            <article_title>Optically-sampled superconducting-nanostrip
+photon-number resolving detector for non-classical quantum state
+generation</article_title>
+            <author>Endo</author>
+            <journal_title>arXiv preprint
+arXiv:2405.06901</journal_title>
+            <cYear>2024</cYear>
+            <unstructured_citation>Endo, M., Takahashi, K., Nomura, T.,
+Sonoyama, T., Yabuno, M., Miki, S., Terai, H., Kashiwazaki, T., Inoue,
+A., Umeki, T., &amp; others. (2024). Optically-sampled
+superconducting-nanostrip photon-number resolving detector for
+non-classical quantum state generation. arXiv Preprint
+arXiv:2405.06901.</unstructured_citation>
+          </citation>
+          <citation key="sonoyama2024generation">
+            <article_title>Generation of multi-photon Fock states at
+telecommunication wavelength using picosecond pulsed
+light</article_title>
+            <author>Sonoyama</author>
+            <journal_title>Opt. Express</journal_title>
+            <issue>18</issue>
+            <volume>32</volume>
+            <doi>10.1364/OE.530164</doi>
+            <issn>1094-4087</issn>
+            <cYear>2024</cYear>
+            <unstructured_citation>Sonoyama, T., Takahashi, K., Sano,
+T., Suzuki, T., Nomura, T., Yabuno, M., Miki, S., Terai, H., Takase, K.,
+Asavanant, W., Endo, M., &amp; Furusawa, A. (2024). Generation of
+multi-photon Fock states at telecommunication wavelength using
+picosecond pulsed light. Opt. Express, 32(18), 32387–32395.
+https://doi.org/10.1364/OE.530164</unstructured_citation>
+          </citation>
+          <citation key="tiedau2019scalability">
+            <article_title>Scalability of parametric down-conversion for
+generating higher-order fock states</article_title>
+            <author>Tiedau</author>
+            <journal_title>Phys. Rev. A</journal_title>
+            <volume>100</volume>
+            <doi>10.1103/PhysRevA.100.041802</doi>
+            <cYear>2019</cYear>
+            <unstructured_citation>Tiedau, J., Bartley, T. J., Harder,
+G., Lita, A. E., Nam, S. W., Gerrits, T., &amp; Silberhorn, C. (2019).
+Scalability of parametric down-conversion for generating higher-order
+fock states. Phys. Rev. A, 100, 041802.
+https://doi.org/10.1103/PhysRevA.100.041802</unstructured_citation>
+          </citation>
+          <citation key="melalkia2023multiplexed">
+            <article_title>A multiplexed synthesizer for non-gaussian
+photonic quantum state generation</article_title>
+            <author>Melalkia</author>
+            <journal_title>Quantum Sci. Technol.</journal_title>
+            <issue>2</issue>
+            <volume>8</volume>
+            <doi>10.1088/2058-9565/acb4b8</doi>
+            <cYear>2023</cYear>
+            <unstructured_citation>Melalkia, M., Huynh, J., Tanzilli,
+S., d’Auria, V., &amp; Etesse, J. (2023). A multiplexed synthesizer for
+non-gaussian photonic quantum state generation. Quantum Sci. Technol.,
+8(2), 025007.
+https://doi.org/10.1088/2058-9565/acb4b8</unstructured_citation>
+          </citation>
+          <citation key="chen2024generation">
+            <article_title>Generation of heralded optical cat states by
+photon addition</article_title>
+            <author>Chen</author>
+            <journal_title>Phys. Rev. A</journal_title>
+            <issue>2</issue>
+            <volume>110</volume>
+            <cYear>2024</cYear>
+            <unstructured_citation>Chen, Y.-R., Hsieh, H.-Y., Ning, J.,
+Wu, H.-C., Chen, H. L., Shi, Z.-H., Yang, P., Steuernagel, O., Wu,
+C.-M., &amp; Lee, R.-K. (2024). Generation of heralded optical cat
+states by photon addition. Phys. Rev. A, 110(2),
+023703.</unstructured_citation>
+          </citation>
+          <citation key="alexander2024manufacturable">
+            <article_title>A manufacturable platform for photonic
+quantum computing</article_title>
+            <author>Alexander</author>
+            <journal_title>arXiv preprint
+arXiv:2404.17570</journal_title>
+            <cYear>2024</cYear>
+            <unstructured_citation>Alexander, K., Bahgat, A., Benyamini,
+A., Black, D., Bonneau, D., Burgos, S., Burridge, B., Campbell, G.,
+Catalano, G., Ceballos, A., &amp; others. (2024). A manufacturable
+platform for photonic quantum computing. arXiv Preprint
+arXiv:2404.17570.</unstructured_citation>
+          </citation>
+          <citation key="yao2022design">
+            <article_title>Riemannian optimization of photonic quantum
+circuits in phase and Fock space</article_title>
+            <author>Yao</author>
+            <journal_title>Scipost Phys.</journal_title>
+            <issue>3</issue>
+            <volume>17</volume>
+            <doi>10.21468/SciPostPhys.17.3.082</doi>
+            <issn>2542-4653</issn>
+            <cYear>2024</cYear>
+            <unstructured_citation>Yao, Y., Miatto, F., &amp; Quesada,
+N. (2024). Riemannian optimization of photonic quantum circuits in phase
+and Fock space. Scipost Phys., 17(3), 082.
+https://doi.org/10.21468/SciPostPhys.17.3.082</unstructured_citation>
+          </citation>
+          <citation key="takase2024generation">
+            <article_title>Generation of flying logical qubits using
+generalized photon subtraction with adaptive gaussian
+operations</article_title>
+            <author>Takase</author>
+            <journal_title>Phys. Rev. A</journal_title>
+            <issue>1</issue>
+            <volume>110</volume>
+            <doi>10.1103/physreva.110.012436</doi>
+            <cYear>2024</cYear>
+            <unstructured_citation>Takase, K., Hanamura, F., Nagayoshi,
+H., Bourassa, J. E., Alexander, R. N., Kawasaki, A., Asavanant, W.,
+Endo, M., &amp; Furusawa, A. (2024). Generation of flying logical qubits
+using generalized photon subtraction with adaptive gaussian operations.
+Phys. Rev. A, 110(1), 012436.
+https://doi.org/10.1103/physreva.110.012436</unstructured_citation>
+          </citation>
+          <citation key="rudolph2017optimistic">
+            <article_title>Why I am optimistic about the
+silicon-photonic route to quantum computing</article_title>
+            <author>Rudolph</author>
+            <journal_title>APL photonics</journal_title>
+            <issue>3</issue>
+            <volume>2</volume>
+            <cYear>2017</cYear>
+            <unstructured_citation>Rudolph, T. (2017). Why I am
+optimistic about the silicon-photonic route to quantum computing. APL
+Photonics, 2(3).</unstructured_citation>
+          </citation>
+          <citation key="jonsson2019evaluating">
+            <article_title>Evaluating the performance of
+photon-number-resolving detectors</article_title>
+            <author>Jönsson</author>
+            <journal_title>Phys. Rev. A</journal_title>
+            <issue>4</issue>
+            <volume>99</volume>
+            <cYear>2019</cYear>
+            <unstructured_citation>Jönsson, M., &amp; Björk, G. (2019).
+Evaluating the performance of photon-number-resolving detectors. Phys.
+Rev. A, 99(4), 043822.</unstructured_citation>
+          </citation>
+          <citation key="jonsson2020temporal">
+            <article_title>Temporal array with superconducting nanowire
+single-photon detectors for photon-number resolution</article_title>
+            <author>Jönsson</author>
+            <journal_title>Phys. Rev. A</journal_title>
+            <issue>5</issue>
+            <volume>102</volume>
+            <cYear>2020</cYear>
+            <unstructured_citation>Jönsson, M., Swillo, M., Gyger, S.,
+Zwiller, V., &amp; Björk, G. (2020). Temporal array with superconducting
+nanowire single-photon detectors for photon-number resolution. Phys.
+Rev. A, 102(5), 052616.</unstructured_citation>
+          </citation>
+          <citation key="hadfield2009single">
+            <article_title>Single-photon detectors for optical quantum
+information applications</article_title>
+            <author>Hadfield</author>
+            <journal_title>Nat. Photonics</journal_title>
+            <issue>12</issue>
+            <volume>3</volume>
+            <doi>10.1038/nphoton.2009.230</doi>
+            <cYear>2009</cYear>
+            <unstructured_citation>Hadfield, R. H. (2009). Single-photon
+detectors for optical quantum information applications. Nat. Photonics,
+3(12), 696–705.
+https://doi.org/10.1038/nphoton.2009.230</unstructured_citation>
+          </citation>
+          <citation key="phillips2020advanced">
+            <article_title>Advanced measurements for quantum photonics
+and quantum technologies</article_title>
+            <author>Phillips</author>
+            <cYear>2020</cYear>
+            <unstructured_citation>Phillips, D. S. (2020). Advanced
+measurements for quantum photonics and quantum technologies [PhD
+thesis]. University of Oxford.</unstructured_citation>
+          </citation>
+          <citation key="moraisPreciselyDeterminingPhotonnumber2022a">
+            <article_title>Precisely determining photon-number in real
+time</article_title>
+            <author>Morais</author>
+            <journal_title>Quantum</journal_title>
+            <volume>8</volume>
+            <doi>10.22331/q-2024-05-23-1355</doi>
+            <cYear>2024</cYear>
+            <unstructured_citation>Morais, L. A., Weinhold, T., Almeida,
+M. P. de, Combes, J., Rambach, M., Lita, A., Gerrits, T., Nam, S. W.,
+White, A. G., &amp; Gillett, G. (2024). Precisely determining
+photon-number in real time. Quantum, 8, 1355.
+https://doi.org/10.22331/q-2024-05-23-1355</unstructured_citation>
+          </citation>
+          <citation key="arrazola_quantum_2021">
+            <article_title>Quantum circuits with many photons on a
+programmable nanophotonic chip</article_title>
+            <author>Arrazola</author>
+            <journal_title>Nature</journal_title>
+            <issue>7848</issue>
+            <volume>591</volume>
+            <doi>10.1038/s41586-021-03202-1</doi>
+            <issn>1476-4687</issn>
+            <cYear>2021</cYear>
+            <unstructured_citation>Arrazola, J. M., Bergholm, V.,
+Brádler, K., Bromley, T. R., Collins, M. J., Dhand, I., Fumagalli, A.,
+Gerrits, T., Goussev, A., Helt, L. G., Hundal, J., Isacsson, T., Israel,
+R. B., Izaac, J., Jahangiri, S., Janik, R., Killoran, N., Kumar, S. P.,
+Lavoie, J., … Zhang, Y. (2021). Quantum circuits with many photons on a
+programmable nanophotonic chip. Nature, 591(7848), 54–60.
+https://doi.org/10.1038/s41586-021-03202-1</unstructured_citation>
+          </citation>
+          <citation key="gerrits_extending_2012">
+            <article_title>Extending single-photon optimized
+superconducting transition edge sensors beyond the single-photon
+counting regime</article_title>
+            <author>Gerrits</author>
+            <journal_title>Opt. Express</journal_title>
+            <issue>21</issue>
+            <volume>20</volume>
+            <doi>10.1364/OE.20.023798</doi>
+            <cYear>2012</cYear>
+            <unstructured_citation>Gerrits, T., Calkins, B., Tomlin, N.,
+Lita, A. E., Migdall, A., Mirin, R., &amp; Nam, S. W. (2012). Extending
+single-photon optimized superconducting transition edge sensors beyond
+the single-photon counting regime. Opt. Express, 20(21), 23798–23810.
+https://doi.org/10.1364/OE.20.023798</unstructured_citation>
+          </citation>
+          <citation key="divochiy_superconducting_2008">
+            <article_title>Superconducting nanowire
+photon-number-resolving detector at telecommunication
+wavelengths</article_title>
+            <author>Divochiy</author>
+            <journal_title>Nat. Photonics</journal_title>
+            <issue>5</issue>
+            <volume>2</volume>
+            <doi>10.1038/nphoton.2008.51</doi>
+            <issn>1749-4893</issn>
+            <cYear>2008</cYear>
+            <unstructured_citation>Divochiy, A., Marsili, F., Bitauld,
+D., Gaggero, A., Leoni, R., Mattioli, F., Korneev, A., Seleznev, V.,
+Kaurova, N., Minaeva, O., Gol’tsman, G., Lagoudakis, K. G., Benkhaoul,
+M., Lévy, F., &amp; Fiore, A. (2008). Superconducting nanowire
+photon-number-resolving detector at telecommunication wavelengths. Nat.
+Photonics, 2(5), 302–306.
+https://doi.org/10.1038/nphoton.2008.51</unstructured_citation>
+          </citation>
+          <citation key="slussarenko_photonic_2019">
+            <article_title>Photonic quantum information processing: A
+concise review</article_title>
+            <author>Slussarenko</author>
+            <journal_title>Appl. Phys. Rev.</journal_title>
+            <issue>4</issue>
+            <volume>6</volume>
+            <doi>10.1063/1.5115814</doi>
+            <issn>1931-9401</issn>
+            <cYear>2019</cYear>
+            <unstructured_citation>Slussarenko, S., &amp; Pryde, G. J.
+(2019). Photonic quantum information processing: A concise review. Appl.
+Phys. Rev., 6(4).
+https://doi.org/10.1063/1.5115814</unstructured_citation>
+          </citation>
+          <citation key="humphreys_tomography_2015">
+            <article_title>Tomography of photon-number resolving
+continuous-output detectors</article_title>
+            <author>Humphreys</author>
+            <journal_title>New J. Phys.</journal_title>
+            <issue>10</issue>
+            <volume>17</volume>
+            <doi>10.1088/1367-2630/17/10/103044</doi>
+            <cYear>2015</cYear>
+            <unstructured_citation>Humphreys, P. C., Metcalf, B. J.,
+Gerrits, T., Hiemstra, T., Lita, A. E., Nunn, J., Nam, S. W., Datta, A.,
+Kolthammer, W. S., &amp; Walmsley, I. A. (2015). Tomography of
+photon-number resolving continuous-output detectors. New J. Phys.,
+17(10), 103044.
+https://doi.org/10.1088/1367-2630/17/10/103044</unstructured_citation>
+          </citation>
+          <citation key="Wildfeuer:09">
+            <article_title>Interferometry with a photon-number resolving
+detector*</article_title>
+            <author>Wildfeuer</author>
+            <journal_title>Conference on Lasers and
+Electro-Optics/International Quantum Electronics Conference (2009),
+paper IWF1</journal_title>
+            <doi>10.1364/IQEC.2009.IWF1</doi>
+            <cYear>2009</cYear>
+            <unstructured_citation>Wildfeuer, C. F., Pearlman, A. J.,
+Chen, J., Fan, J., Migdall, A., &amp; Dowling, J. P. (2009).
+Interferometry with a photon-number resolving detector*. Conference on
+Lasers and Electro-Optics/International Quantum Electronics Conference
+(2009), Paper IWF1, IWF1.
+https://doi.org/10.1364/IQEC.2009.IWF1</unstructured_citation>
+          </citation>
+          <citation key="fukuda_titanium-based_2011">
+            <article_title>Titanium-based transition-edge photon number
+resolving detector with 98% detection efficiency with index-matched
+small-gap fiber coupling</article_title>
+            <author>Fukuda</author>
+            <journal_title>Opt. Express</journal_title>
+            <issue>2</issue>
+            <volume>19</volume>
+            <doi>10.1364/OE.19.000870</doi>
+            <cYear>2011</cYear>
+            <unstructured_citation>Fukuda, D., Fujii, G., Numata, T.,
+Amemiya, K., Yoshizawa, A., Tsuchida, H., Fujino, H., Ishii, H.,
+Itatani, T., Inoue, S., &amp; Zama, T. (2011). Titanium-based
+transition-edge photon number resolving detector with 98% detection
+efficiency with index-matched small-gap fiber coupling. Opt. Express,
+19(2), 870–875.
+https://doi.org/10.1364/OE.19.000870</unstructured_citation>
+          </citation>
+          <citation key="levine_algorithm_2012">
+            <article_title>Algorithm for finding clusters with a known
+distribution and its application to photon-number resolution using a
+superconducting transition-edge sensor</article_title>
+            <author>Levine</author>
+            <journal_title>J. Opt. Soc. Am. B</journal_title>
+            <issue>8</issue>
+            <volume>29</volume>
+            <doi>10.1364/JOSAB.29.002066</doi>
+            <cYear>2012</cYear>
+            <unstructured_citation>Levine, Z. H., Gerrits, T., Migdall,
+A. L., Samarov, D. V., Calkins, B., Lita, A. E., &amp; Nam, S. W.
+(2012). Algorithm for finding clusters with a known distribution and its
+application to photon-number resolution using a superconducting
+transition-edge sensor. J. Opt. Soc. Am. B, 29(8), 2066–2073.
+https://doi.org/10.1364/JOSAB.29.002066</unstructured_citation>
+          </citation>
+          <citation key="nautrup_optimizing_2019">
+            <article_title>Optimizing quantum error correction codes
+with reinforcement learning</article_title>
+            <author>Nautrup</author>
+            <journal_title>Quantum</journal_title>
+            <volume>3</volume>
+            <doi>10.22331/q-2019-12-16-215</doi>
+            <issn>2521-327X</issn>
+            <cYear>2019</cYear>
+            <unstructured_citation>Nautrup, H. P., Delfosse, N., Dunjko,
+V., Briegel, H. J., &amp; Friis, N. (2019). Optimizing quantum error
+correction codes with reinforcement learning. Quantum, 3, 215.
+https://doi.org/10.22331/q-2019-12-16-215</unstructured_citation>
+          </citation>
+          <citation key="rajendran_deep_2018">
+            <article_title>Deep learning models for wireless signal
+classification with distributed low-cost spectrum
+sensors</article_title>
+            <author>Rajendran</author>
+            <journal_title>IEEE Transactions on Cognitive Communications
+and Networking</journal_title>
+            <issue>3</issue>
+            <volume>4</volume>
+            <doi>10.1109/TCCN.2018.2835460</doi>
+            <cYear>2018</cYear>
+            <unstructured_citation>Rajendran, S., Meert, W.,
+Giustiniano, D., Lenders, V., &amp; Pollin, S. (2018). Deep learning
+models for wireless signal classification with distributed low-cost
+spectrum sensors. IEEE Transactions on Cognitive Communications and
+Networking, 4(3), 433–445.
+https://doi.org/10.1109/TCCN.2018.2835460</unstructured_citation>
+          </citation>
+          <citation key="allaoui_considerably_2020">
+            <article_title>Considerably improving clustering algorithms
+using UMAP dimensionality reduction technique: A comparative
+study</article_title>
+            <author>Allaoui</author>
+            <journal_title>Image and signal processing</journal_title>
+            <doi>10.1007/978-3-030-51935-3_34</doi>
+            <isbn>978-3-030-51935-3</isbn>
+            <cYear>2020</cYear>
+            <unstructured_citation>Allaoui, M., Kherfi, M. L., &amp;
+Cheriet, A. (2020). Considerably improving clustering algorithms using
+UMAP dimensionality reduction technique: A comparative study. In A. El
+Moataz, D. Mammass, A. Mansouri, &amp; F. Nouboud (Eds.), Image and
+signal processing (pp. 317–325). Springer International Publishing.
+https://doi.org/10.1007/978-3-030-51935-3_34</unstructured_citation>
+          </citation>
+          <citation key="irwin_transition-edge_2005">
+            <article_title>Transition-edge sensors</article_title>
+            <author>Irwin</author>
+            <journal_title>Cryogenic particle detection</journal_title>
+            <doi>10.1007/10933596_3</doi>
+            <isbn>978-3-540-31478-3</isbn>
+            <cYear>2005</cYear>
+            <unstructured_citation>Irwin, K. D., &amp; Hilton, G. C.
+(2005). Transition-edge sensors. In C. Enss (Ed.), Cryogenic particle
+detection (pp. 63–150). Springer.
+https://doi.org/10.1007/10933596_3</unstructured_citation>
+          </citation>
+          <citation key="Schmidt_Bimodal_2021">
+            <article_title>Bimodal behavior of microlasers investigated
+with a two-channel photon-number-resolving transition-edge sensor
+system</article_title>
+            <author>Schmidt</author>
+            <journal_title>Phys. Rev. Res.</journal_title>
+            <volume>3</volume>
+            <doi>10.1103/PhysRevResearch.3.013263</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Schmidt, M., Grothe, I. H., Neumeier,
+S., Bremer, L., Helversen, M. von, Zent, W., Melcher, B., Beyer, J.,
+Schneider, C., Höfling, S., Wiersig, J., &amp; Reitzenstein, S. (2021).
+Bimodal behavior of microlasers investigated with a two-channel
+photon-number-resolving transition-edge sensor system. Phys. Rev. Res.,
+3, 013263.
+https://doi.org/10.1103/PhysRevResearch.3.013263</unstructured_citation>
+          </citation>
+          <citation key="eaton2023">
+            <article_title>Resolution of 100 photons and quantum
+generation of unbiased random numbers</article_title>
+            <author>Eaton</author>
+            <journal_title>Nat. Photonics</journal_title>
+            <issue>1</issue>
+            <volume>17</volume>
+            <doi>10.1038/s41566-022-01105-9</doi>
+            <issn>1749-4893</issn>
+            <cYear>2023</cYear>
+            <unstructured_citation>Eaton, M., Hossameldin, A.,
+Birrittella, R. J., Alsing, P. M., Gerry, C. C., Dong, H., Cuevas, C.,
+&amp; Pfister, O. (2023). Resolution of 100 photons and quantum
+generation of unbiased random numbers. Nat. Photonics, 17(1), 106–111.
+https://doi.org/10.1038/s41566-022-01105-9</unstructured_citation>
+          </citation>
+          <citation key="SeabornkdeplotSeaborn0132">
+            <article_title>Seaborn.kdeplot — seaborn 0.13.2
+documentation</article_title>
+            <unstructured_citation>Seaborn.kdeplot — seaborn 0.13.2
+documentation. (2024-10-23).
+https://seaborn.pydata.org/generated/seaborn.kdeplot.html.</unstructured_citation>
+          </citation>
+          <citation key="gerritsGenerationOpticalCoherentstate2010">
+            <article_title>Generation of optical coherent-state
+superpositions by number-resolved photon subtraction from the squeezed
+vacuum</article_title>
+            <author>Gerrits</author>
+            <journal_title>Physical Review A</journal_title>
+            <issue>3</issue>
+            <volume>82</volume>
+            <doi>10.1103/PhysRevA.82.031802</doi>
+            <cYear>2010</cYear>
+            <unstructured_citation>Gerrits, T., Glancy, S., Clement, T.
+S., Calkins, B., Lita, A. E., Miller, A. J., Migdall, A. L., Nam, S. W.,
+Mirin, R. P., &amp; Knill, E. (2010). Generation of optical
+coherent-state superpositions by number-resolved photon subtraction from
+the squeezed vacuum. Physical Review A, 82(3), 031802.
+https://doi.org/10.1103/PhysRevA.82.031802</unstructured_citation>
+          </citation>
+          <citation key="youScalableMultiphotonQuantum2021">
+            <article_title>Scalable multiphoton quantum metrology with
+neither pre- nor post-selected measurements</article_title>
+            <author>You</author>
+            <journal_title>Applied Physics Reviews</journal_title>
+            <issue>4</issue>
+            <volume>8</volume>
+            <doi>10.1063/5.0063294</doi>
+            <issn>1931-9401</issn>
+            <cYear>2021</cYear>
+            <unstructured_citation>You, C., Hong, M., Bierhorst, P.,
+Lita, A. E., Glancy, S., Kolthammer, S., Knill, E., Nam, S. W., Mirin,
+R. P., Magaña-Loaiza, O. S., &amp; Gerrits, T. (2021). Scalable
+multiphoton quantum metrology with neither pre- nor post-selected
+measurements. Applied Physics Reviews, 8(4), 041406.
+https://doi.org/10.1063/5.0063294</unstructured_citation>
+          </citation>
+          <citation key="thekkadathPreparingCharacterizingQuantum2020b">
+            <article_title>Preparing and characterizing quantum states
+of light using photon-number-resolving detectors</article_title>
+            <author>Thekkadath</author>
+            <cYear>2020</cYear>
+            <unstructured_citation>Thekkadath, G. S. (2020). Preparing
+and characterizing quantum states of light using photon-number-resolving
+detectors [{{Http://purl.org/dc/dcmitype/Text}}]. University of
+Oxford.</unstructured_citation>
+          </citation>
+          <citation key="thekkadathEngineeringSchrodingerCat2020">
+            <article_title>Engineering Schrödinger cat states with a
+photonic even-parity detector</article_title>
+            <author>Thekkadath</author>
+            <journal_title>Quantum</journal_title>
+            <volume>4</volume>
+            <doi>10.22331/q-2020-03-02-239</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Thekkadath, G. S., Bell, B. A.,
+Walmsley, I. A., &amp; Lvovsky, A. I. (2020). Engineering Schrödinger
+cat states with a photonic even-parity detector. Quantum, 4, 239.
+https://doi.org/10.22331/q-2020-03-02-239</unstructured_citation>
+          </citation>
+          <citation key="larsenIntegratedPhotonicSource2025">
+            <article_title>Integrated photonic source of
+Gottesman–Kitaev–Preskill qubits</article_title>
+            <author>Larsen</author>
+            <journal_title>Nature</journal_title>
+            <doi>10.1038/s41586-025-09044-5</doi>
+            <issn>1476-4687</issn>
+            <cYear>2025</cYear>
+            <unstructured_citation>Larsen, M. V., Bourassa, J. E.,
+Kocsis, S., Tasker, J. F., Chadwick, R. S., González-Arciniegas, C.,
+Hastrup, J., Lopetegui-González, C. E., Miatto, F. M., Motamedi, A.,
+Noro, R., Roeland, G., Baby, R., Chen, H., Contu, P., Di Luch, I.,
+Drago, C., Giesbrecht, M., Grainge, T., … Mahler, D. H. (2025).
+Integrated photonic source of Gottesman–Kitaev–Preskill qubits. Nature,
+1–5. https://doi.org/10.1038/s41586-025-09044-5</unstructured_citation>
+          </citation>
+        </citation_list>
+  </posted_content>
+  </body>
+</doi_batch>
