@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>20260820T000900-f140dfd1f4c5be098244f037d5d0637187c9280d</doi_batch_id>
+    <timestamp>20260820000900</timestamp>
+    <depositor>
+      <depositor_name>NeuroLibre Admin</depositor_name>
+      <email_address>admin@neurolibre.org</email_address>
+    </depositor>
+    <registrant>Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal</registrant>
+  </head>
+  <body>
+  <posted_content type="preprint">
+  <group_title>NeuroLibre Reproducible Preprints</group_title>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Hugo Albert</given_name>
+            <surname>Plante</surname>
+            <ORCID>https://orcid.org/0009-0008-9235-0097</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Agah</given_name>
+            <surname>karakuzu</surname>
+            <ORCID>https://orcid.org/0000-0001-7283-271X</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Ameen</given_name>
+            <surname>Qadi</surname>
+            <ORCID>https://orcid.org/0009-0002-9571-0111</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Mathieu</given_name>
+            <surname>Boudreau</surname>
+            <ORCID>https://orcid.org/0000-0002-7726-4456</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Namrata</given_name>
+            <surname>Bangera</surname>
+            <ORCID>https://orcid.org/0009-0006-0875-9291</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Abraiz</given_name>
+            <surname>Azhar</surname>
+            <ORCID>https://orcid.org/0009-0009-7203-7439</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Morane</given_name>
+            <surname>Bienvenu</surname>
+            <ORCID>https://orcid.org/0009-0005-7487-1567</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Bas</given_name>
+            <surname>Rokers</surname>
+            <ORCID>https://orcid.org/0000-0003-0573-5332</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Nikola</given_name>
+            <surname>Stikov</surname>
+            <ORCID>https://orcid.org/0000-0002-8480-5230</ORCID>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Strong Coupling of Retinal Thickness and Optic Nerve
+Myelin in Vivo</title>
+        </titles>
+        <posted_date>
+          <month>08</month>
+          <day>20</day>
+          <year>2026</year>
+        </posted_date>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Repository archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.22019068</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Dataset archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.22019074</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Book archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.22019070</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Container archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.22019072</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub technical screening</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://github.com/neurolibre/neurolibre-reviews/issues/50</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Executable preprint</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://preprint.neurolibre.org/10.55458/neurolibre.00050</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.55458/neurolibre.00050</doi>
+          <resource>https://neurolibre.org/papers/10.55458/neurolibre.00050</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://preprint.neurolibre.org/10.55458/neurolibre.00050.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="simon1988fatsuppression">
+            <article_title>Fat-suppression MR imaging of the
+orbit</article_title>
+            <author>Simon</author>
+            <journal_title>American Journal of
+Neuroradiology</journal_title>
+            <issue>5</issue>
+            <volume>9</volume>
+            <cYear>1988</cYear>
+            <unstructured_citation>Simon, J. H., Szumowski, J.,
+Totterman, S., Kido, D., Ekholm, S., Wicks, A., &amp; Plewes, D. (1988).
+Fat-suppression MR imaging of the orbit. American Journal of
+Neuroradiology, 9(5), 961–968.
+http://www.ajnr.org/content/9/5/961</unstructured_citation>
+          </citation>
+          <citation key="varma2020artifacts">
+            <article_title>Beware of artifacts in orbital magnetic
+resonance imaging</article_title>
+            <author>Varma</author>
+            <journal_title>Indian Journal of
+Ophthalmology</journal_title>
+            <issue>11</issue>
+            <volume>68</volume>
+            <doi>10.4103/ijo.IJO_640_20</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Varma, D. R., Ponnaganti, S., &amp;
+Dandu, R. V. (2020). Beware of artifacts in orbital magnetic resonance
+imaging. Indian Journal of Ophthalmology, 68(11), 2516–2518.
+https://doi.org/10.4103/ijo.IJO_640_20</unstructured_citation>
+          </citation>
+          <citation key="duval2016modeling">
+            <article_title>Modeling white matter
+microstructure</article_title>
+            <author>Duval</author>
+            <journal_title>Functional Neurology</journal_title>
+            <issue>4</issue>
+            <volume>31</volume>
+            <doi>10.11138/fneur/2016.31.4.217</doi>
+            <cYear>2016</cYear>
+            <unstructured_citation>Duval, T., Stikov, N., &amp;
+Cohen-Adad, J. (2016). Modeling white matter microstructure. Functional
+Neurology, 31(4), 217–228.
+https://doi.org/10.11138/fneur/2016.31.4.217</unstructured_citation>
+          </citation>
+          <citation key="rasband2012myelin">
+            <article_title>Myelin structure and
+biochemistry</article_title>
+            <author>Rasband</author>
+            <journal_title>Basic neurochemistry</journal_title>
+            <doi>10.1016/B978-0-12-374947-5.00010-9</doi>
+            <cYear>2012</cYear>
+            <unstructured_citation>Rasband, M. N., Macklin, W. B., &amp;
+Benjamins, J. A. (2012). Myelin structure and biochemistry. In Basic
+neurochemistry (8th ed., pp. 180–199). Elsevier.
+https://doi.org/10.1016/B978-0-12-374947-5.00010-9</unstructured_citation>
+          </citation>
+          <citation key="chow2021recent">
+            <article_title>Recent advances on optic nerve magnetic
+resonance imaging and post-processing</article_title>
+            <author>Chow</author>
+            <journal_title>Magnetic Resonance Imaging</journal_title>
+            <volume>79</volume>
+            <doi>10.1016/j.mri.2021.03.014</doi>
+            <cYear>2021</cYear>
+            <unstructured_citation>Chow, L. S., &amp; Paley, M. N. J.
+(2021). Recent advances on optic nerve magnetic resonance imaging and
+post-processing. Magnetic Resonance Imaging, 79, 76–84.
+https://doi.org/10.1016/j.mri.2021.03.014</unstructured_citation>
+          </citation>
+          <citation key="zhang2016longitudinal">
+            <article_title>Longitudinal and cross-sectional analyses of
+age effects on retinal nerve fiber layer and ganglion cell complex
+thickness by fourier-domain OCT</article_title>
+            <author>Zhang</author>
+            <journal_title>Translational Vision Science &amp;
+Technology</journal_title>
+            <issue>2</issue>
+            <volume>5</volume>
+            <cYear>2016</cYear>
+            <unstructured_citation>Zhang, X., Francis, B. A.,
+Dastiridou, A., Chopra, V., Tan, O., Varma, R., Greenfield, D. S.,
+Schuman, J. S., &amp; Huang, D. (2016). Longitudinal and cross-sectional
+analyses of age effects on retinal nerve fiber layer and ganglion cell
+complex thickness by fourier-domain OCT. Translational Vision Science
+&amp; Technology, 5(2), 1.</unstructured_citation>
+          </citation>
+          <citation key="steen1995agerelated">
+            <article_title>Age-related changes in proton T1 values of
+normal human brain</article_title>
+            <author>Steen</author>
+            <journal_title>Journal of Magnetic Resonance
+Imaging</journal_title>
+            <issue>1</issue>
+            <volume>5</volume>
+            <doi>10.1002/jmri.1880050111</doi>
+            <cYear>1995</cYear>
+            <unstructured_citation>Steen, R. G., Gronemeyer, S. A.,
+&amp; Taylor, J. S. (1995). Age-related changes in proton T1 values of
+normal human brain. Journal of Magnetic Resonance Imaging, 5(1), 43–48.
+https://doi.org/10.1002/jmri.1880050111</unstructured_citation>
+          </citation>
+          <citation key="waxman1980">
+            <article_title>Determinants of conduction velocity in
+myelinated nerve fibers</article_title>
+            <author>Waxman</author>
+            <journal_title>Muscle &amp; Nerve</journal_title>
+            <issue>2</issue>
+            <volume>3</volume>
+            <doi>10.1002/mus.880030207</doi>
+            <cYear>1980</cYear>
+            <unstructured_citation>Waxman, S. G. (1980). Determinants of
+conduction velocity in myelinated nerve fibers. Muscle &amp; Nerve,
+3(2), 141–150.
+https://doi.org/10.1002/mus.880030207</unstructured_citation>
+          </citation>
+          <citation key="Hoch2017Advanced">
+            <article_title>Advanced MRI of the Optic
+Nerve</article_title>
+            <author>Hoch</author>
+            <journal_title>Journal of
+Neuro-Ophthalmology</journal_title>
+            <issue>2</issue>
+            <volume>37</volume>
+            <doi>10.1097/wno.0000000000000511</doi>
+            <issn>1070-8022</issn>
+            <cYear>2017</cYear>
+            <unstructured_citation>Hoch, M. J., Bruno, M. T., &amp;
+Shepherd, T. M. (2017). Advanced MRI of the Optic Nerve. Journal of
+Neuro-Ophthalmology, 37(2), 187–196.
+https://doi.org/10.1097/wno.0000000000000511</unstructured_citation>
+          </citation>
+          <citation key="Shin_2024">
+            <article_title>Imaging the optic nerve with optical
+coherence tomography</article_title>
+            <author>Shin</author>
+            <journal_title>Eye</journal_title>
+            <issue>12</issue>
+            <volume>38</volume>
+            <doi>10.1038/s41433-024-03165-3</doi>
+            <issn>1476-5454</issn>
+            <cYear>2024</cYear>
+            <unstructured_citation>Shin, H. J., &amp; Costello, F.
+(2024). Imaging the optic nerve with optical coherence tomography. Eye,
+38(12), 2365–2379.
+https://doi.org/10.1038/s41433-024-03165-3</unstructured_citation>
+          </citation>
+          <citation key="Galetta2011Optical">
+            <article_title>Optical Coherence Tomography (OCT): Imaging
+the Visual Pathway as a Model for Neurodegeneration</article_title>
+            <author>Galetta</author>
+            <journal_title>Neurotherapeutics</journal_title>
+            <issue>1</issue>
+            <volume>8</volume>
+            <doi>10.1007/s13311-010-0005-1</doi>
+            <issn>1878-7479</issn>
+            <cYear>2011</cYear>
+            <unstructured_citation>Galetta, K. M., Calabresi, P. A.,
+Frohman, E. M., &amp; Balcer, L. J. (2011). Optical Coherence Tomography
+(OCT): Imaging the Visual Pathway as a Model for Neurodegeneration.
+Neurotherapeutics, 8(1), 117–132.
+https://doi.org/10.1007/s13311-010-0005-1</unstructured_citation>
+          </citation>
+          <citation key="Petzold_2010">
+            <article_title>Optical coherence tomography in multiple
+sclerosis: A systematic review and meta-analysis</article_title>
+            <author>Petzold</author>
+            <journal_title>The Lancet Neurology</journal_title>
+            <issue>9</issue>
+            <volume>9</volume>
+            <doi>10.1016/s1474-4422(10)70168-x</doi>
+            <issn>1474-4422</issn>
+            <cYear>2010</cYear>
+            <unstructured_citation>Petzold, A., Boer, J. F. de,
+Schippling, S., Vermersch, P., Kardon, R., Green, A., Calabresi, P. A.,
+&amp; Polman, C. (2010). Optical coherence tomography in multiple
+sclerosis: A systematic review and meta-analysis. The Lancet Neurology,
+9(9), 921–932.
+https://doi.org/10.1016/s1474-4422(10)70168-x</unstructured_citation>
+          </citation>
+          <citation key="Sakata_2009">
+            <article_title>Optical coherence tomography of the retina
+and optic nerve – a review</article_title>
+            <author>Sakata</author>
+            <journal_title>Clinical &amp;amp; Experimental
+Ophthalmology</journal_title>
+            <issue>1</issue>
+            <volume>37</volume>
+            <doi>10.1111/j.1442-9071.2009.02015.x</doi>
+            <issn>1442-9071</issn>
+            <cYear>2009</cYear>
+            <unstructured_citation>Sakata, L. M., DeLeonOrtega, J.,
+Sakata, V., &amp; Girkin, C. A. (2009). Optical coherence tomography of
+the retina and optic nerve – a review. Clinical &amp;Amp; Experimental
+Ophthalmology, 37(1), 90–99.
+https://doi.org/10.1111/j.1442-9071.2009.02015.x</unstructured_citation>
+          </citation>
+          <citation key="Bristow_2002">
+            <article_title>The Distribution of Mitochondrial Activity in
+Relation to Optic Nerve Structure</article_title>
+            <author>Bristow</author>
+            <journal_title>Archives of Ophthalmology</journal_title>
+            <issue>6</issue>
+            <volume>120</volume>
+            <doi>10.1001/archopht.120.6.791</doi>
+            <issn>0003-9950</issn>
+            <cYear>2002</cYear>
+            <unstructured_citation>Bristow, E. A. (2002). The
+Distribution of Mitochondrial Activity in Relation to Optic Nerve
+Structure. Archives of Ophthalmology, 120(6), 791.
+https://doi.org/10.1001/archopht.120.6.791</unstructured_citation>
+          </citation>
+          <citation key="Curcio_1990">
+            <article_title>Topography of ganglion cells in human
+retina</article_title>
+            <author>Curcio</author>
+            <journal_title>Journal of Comparative
+Neurology</journal_title>
+            <issue>1</issue>
+            <volume>300</volume>
+            <doi>10.1002/cne.903000103</doi>
+            <issn>1096-9861</issn>
+            <cYear>1990</cYear>
+            <unstructured_citation>Curcio, C. A., &amp; Allen, K. A.
+(1990). Topography of ganglion cells in human retina. Journal of
+Comparative Neurology, 300(1), 5–25.
+https://doi.org/10.1002/cne.903000103</unstructured_citation>
+          </citation>
+          <citation key="Gala_2015">
+            <article_title>Magnetic resonance imaging of optic
+nerve</article_title>
+            <author>Gala</author>
+            <journal_title>Indian Journal of Radiology and
+Imaging</journal_title>
+            <issue>04</issue>
+            <volume>25</volume>
+            <doi>10.4103/0971-3026.169462</doi>
+            <issn>1998-3808</issn>
+            <cYear>2015</cYear>
+            <unstructured_citation>Gala, F. (2015). Magnetic resonance
+imaging of optic nerve. Indian Journal of Radiology and Imaging, 25(04),
+421–438.
+https://doi.org/10.4103/0971-3026.169462</unstructured_citation>
+          </citation>
+          <citation key="Miller_1988">
+            <article_title>Magnetic resonance imaging of the optic nerve
+in optic neuritis</article_title>
+            <author>Miller</author>
+            <journal_title>Neurology</journal_title>
+            <issue>2</issue>
+            <volume>38</volume>
+            <doi>10.1212/wnl.38.2.175</doi>
+            <issn>1526-632X</issn>
+            <cYear>1988</cYear>
+            <unstructured_citation>Miller, D. H., Newton, M. R., Poel,
+J. C. van der, Boulay, E. P. G. H. du, Halliday, A. M., Kendall, B. E.,
+Johnson, G., MacManus, D. G., Moseley, I. F., &amp; McDonald, W. I.
+(1988). Magnetic resonance imaging of the optic nerve in optic neuritis.
+Neurology, 38(2), 175–175.
+https://doi.org/10.1212/wnl.38.2.175</unstructured_citation>
+          </citation>
+          <citation key="Filippi_2019">
+            <article_title>Assessment of lesions on magnetic resonance
+imaging in multiple sclerosis: Practical guidelines</article_title>
+            <author>Filippi</author>
+            <journal_title>Brain</journal_title>
+            <issue>7</issue>
+            <volume>142</volume>
+            <doi>10.1093/brain/awz144</doi>
+            <issn>1460-2156</issn>
+            <cYear>2019</cYear>
+            <unstructured_citation>Filippi, M., Preziosa, P., Banwell,
+B. L., Barkhof, F., Ciccarelli, O., De Stefano, N., Geurts, J. J. G.,
+Paul, F., Reich, D. S., Toosy, A. T., Traboulsee, A., Wattjes, M. P.,
+Yousry, T. A., Gass, A., Lubetzki, C., Weinshenker, B. G., &amp; Rocca,
+M. A. (2019). Assessment of lesions on magnetic resonance imaging in
+multiple sclerosis: Practical guidelines. Brain, 142(7), 1858–1875.
+https://doi.org/10.1093/brain/awz144</unstructured_citation>
+          </citation>
+          <citation key="Xena2025Advances">
+            <article_title>Advances in MRI optic nerve
+segmentation</article_title>
+            <author>Xena-Bosch</author>
+            <journal_title>Multiple Sclerosis and Related
+Disorders</journal_title>
+            <volume>98</volume>
+            <doi>10.1016/j.msard.2025.106437</doi>
+            <issn>2211-0348</issn>
+            <cYear>2025</cYear>
+            <unstructured_citation>Xena-Bosch, C., Kodali, S., Sahi, N.,
+Chard, D., Llufriu, S., Toosy, A. T., Martinez-Heras, E., &amp; Prados,
+F. (2025). Advances in MRI optic nerve segmentation. Multiple Sclerosis
+and Related Disorders, 98, 106437.
+https://doi.org/10.1016/j.msard.2025.106437</unstructured_citation>
+          </citation>
+          <citation key="van_Elst_2023">
+            <article_title>Automatic segmentation and quantification of
+the optic nerve on MRI using a 3D U-Net</article_title>
+            <author>Elst</author>
+            <journal_title>Journal of Medical Imaging</journal_title>
+            <issue>03</issue>
+            <volume>10</volume>
+            <doi>10.1117/1.jmi.10.3.034501</doi>
+            <issn>2329-4302</issn>
+            <cYear>2023</cYear>
+            <unstructured_citation>Elst, S. van, Bloeme, C. M. de,
+Noteboom, S., Jong, M. C. de, Moll, A. C., Göricke, S., De Graaf, P.,
+&amp; Caan, M. W. A. (2023). Automatic segmentation and quantification
+of the optic nerve on MRI using a 3D U-Net. Journal of Medical Imaging,
+10(03).
+https://doi.org/10.1117/1.jmi.10.3.034501</unstructured_citation>
+          </citation>
+          <citation key="Haykal_2020">
+            <article_title>Investigating changes in axonal density and
+morphology of glaucomatous optic nerves using fixel-based
+analysis</article_title>
+            <author>Haykal</author>
+            <journal_title>European Journal of Radiology</journal_title>
+            <volume>133</volume>
+            <doi>10.1016/j.ejrad.2020.109356</doi>
+            <issn>0720-048X</issn>
+            <cYear>2020</cYear>
+            <unstructured_citation>Haykal, S., Jansonius, N. M., &amp;
+Cornelissen, F. W. (2020). Investigating changes in axonal density and
+morphology of glaucomatous optic nerves using fixel-based analysis.
+European Journal of Radiology, 133, 109356.
+https://doi.org/10.1016/j.ejrad.2020.109356</unstructured_citation>
+          </citation>
+          <citation key="Hong_2022">
+            <article_title>Quantitative evaluation of intraorbital optic
+nerve in optic atrophy using diffusion tensor imaging</article_title>
+            <author>Hong</author>
+            <journal_title>Scientific Reports</journal_title>
+            <issue>1</issue>
+            <volume>12</volume>
+            <doi>10.1038/s41598-022-16267-3</doi>
+            <issn>2045-2322</issn>
+            <cYear>2022</cYear>
+            <unstructured_citation>Hong, E. H., Yang, J.-J., Yeon, Y.,
+Cho, H. S., Lee, J. Y., Lee, W. J., Kim, Y. J., Moon, Y., &amp; Lim, H.
+W. (2022). Quantitative evaluation of intraorbital optic nerve in optic
+atrophy using diffusion tensor imaging. Scientific Reports, 12(1).
+https://doi.org/10.1038/s41598-022-16267-3</unstructured_citation>
+          </citation>
+          <citation key="Miller_2019">
+            <article_title>Linking neural and clinical measures of
+glaucoma with diffusion magnetic resonance imaging
+(dMRI)</article_title>
+            <author>Miller</author>
+            <journal_title>PLOS ONE</journal_title>
+            <issue>5</issue>
+            <volume>14</volume>
+            <doi>10.1371/journal.pone.0217011</doi>
+            <issn>1932-6203</issn>
+            <cYear>2019</cYear>
+            <unstructured_citation>Miller, N., Liu, Y., Krivochenitser,
+R., &amp; Rokers, B. (2019). Linking neural and clinical measures of
+glaucoma with diffusion magnetic resonance imaging (dMRI). PLOS ONE,
+14(5), e0217011.
+https://doi.org/10.1371/journal.pone.0217011</unstructured_citation>
+          </citation>
+          <citation key="Moon_2021">
+            <article_title>In vivo Analysis of Normal Optic Nerve in an
+Elderly Population Using Diffusion Magnetic Resonance Imaging
+Tractography</article_title>
+            <author>Moon</author>
+            <journal_title>Frontiers in Neurology</journal_title>
+            <volume>12</volume>
+            <doi>10.3389/fneur.2021.680488</doi>
+            <issn>1664-2295</issn>
+            <cYear>2021</cYear>
+            <unstructured_citation>Moon, Y., Yang, J.-J., Lee, W. J.,
+Lee, J. Y., Kim, Y. J., &amp; Lim, H. W. (2021). In vivo Analysis of
+Normal Optic Nerve in an Elderly Population Using Diffusion Magnetic
+Resonance Imaging Tractography. Frontiers in Neurology, 12.
+https://doi.org/10.3389/fneur.2021.680488</unstructured_citation>
+          </citation>
+          <citation key="Smith_2011">
+            <article_title>Diffusion Tensor Imaging of the Optic Nerve
+in Multiple Sclerosis: Association with Retinal Damage and Visual
+Disability</article_title>
+            <author>Smith</author>
+            <journal_title>American Journal of
+Neuroradiology</journal_title>
+            <issue>9</issue>
+            <volume>32</volume>
+            <doi>10.3174/ajnr.a2574</doi>
+            <issn>1936-959X</issn>
+            <cYear>2011</cYear>
+            <unstructured_citation>Smith, S. A., Williams, Z. R.,
+Ratchford, J. N., Newsome, S. D., Farrell, S. K., Farrell, J. A. D.,
+Gifford, A., Miller, N. R., Zijl, P. C. M. van, Calabresi, P. A., &amp;
+Reich, D. S. (2011). Diffusion Tensor Imaging of the Optic Nerve in
+Multiple Sclerosis: Association with Retinal Damage and Visual
+Disability. American Journal of Neuroradiology, 32(9), 1662–1668.
+https://doi.org/10.3174/ajnr.a2574</unstructured_citation>
+          </citation>
+          <citation key="Trip_2006">
+            <article_title>Optic nerve diffusion tensor imaging in optic
+neuritis</article_title>
+            <author>Trip</author>
+            <journal_title>NeuroImage</journal_title>
+            <issue>2</issue>
+            <volume>30</volume>
+            <doi>10.1016/j.neuroimage.2005.09.024</doi>
+            <issn>1053-8119</issn>
+            <cYear>2006</cYear>
+            <unstructured_citation>Trip, S. A., Wheeler-Kingshott, C.,
+Jones, S. J., Li, W.-Y., Barker, G. J., Thompson, A. J., Plant, G. T.,
+&amp; Miller, D. H. (2006). Optic nerve diffusion tensor imaging in
+optic neuritis. NeuroImage, 30(2), 498–505.
+https://doi.org/10.1016/j.neuroimage.2005.09.024</unstructured_citation>
+          </citation>
+          <citation key="Hickman_2003">
+            <article_title>Serial magnetization transfer imaging in
+acute optic neuritis</article_title>
+            <author>Hickman</author>
+            <journal_title>Brain</journal_title>
+            <issue>3</issue>
+            <volume>127</volume>
+            <doi>10.1093/brain/awh076</doi>
+            <issn>1460-2156</issn>
+            <cYear>2003</cYear>
+            <unstructured_citation>Hickman, S. J. (2003). Serial
+magnetization transfer imaging in acute optic neuritis. Brain, 127(3),
+692–700. https://doi.org/10.1093/brain/awh076</unstructured_citation>
+          </citation>
+          <citation key="Trip_2007">
+            <article_title>Optic nerve magnetization transfer imaging
+and measures of axonal loss and demyelination in optic
+neuritis</article_title>
+            <author>Trip</author>
+            <journal_title>Multiple Sclerosis Journal</journal_title>
+            <issue>7</issue>
+            <volume>13</volume>
+            <doi>10.1177/1352458507076952</doi>
+            <issn>1477-0970</issn>
+            <cYear>2007</cYear>
+            <unstructured_citation>Trip, S., Schlottmann, P., Jones, S.,
+Li, W.-Y., Garway-Heath, D., Thompson, A., Plant, G., &amp; Miller, D.
+(2007). Optic nerve magnetization transfer imaging and measures of
+axonal loss and demyelination in optic neuritis. Multiple Sclerosis
+Journal, 13(7), 875–879.
+https://doi.org/10.1177/1352458507076952</unstructured_citation>
+          </citation>
+          <citation key="Dortch_2012">
+            <article_title>Characterizing intercompartmental water
+exchange in myelinated tissue using relaxation exchange
+spectroscopy</article_title>
+            <author>Dortch</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>5</issue>
+            <volume>70</volume>
+            <doi>10.1002/mrm.24571</doi>
+            <issn>1522-2594</issn>
+            <cYear>2012</cYear>
+            <unstructured_citation>Dortch, R. D., Harkins, K. D.,
+Juttukonda, M. R., Gore, J. C., &amp; Does, M. D. (2012). Characterizing
+intercompartmental water exchange in myelinated tissue using relaxation
+exchange spectroscopy. Magnetic Resonance in Medicine, 70(5), 1450–1459.
+https://doi.org/10.1002/mrm.24571</unstructured_citation>
+          </citation>
+          <citation key="Weiskopf_2021">
+            <article_title>Quantitative magnetic resonance imaging of
+brain anatomy and in vivo histology</article_title>
+            <author>Weiskopf</author>
+            <journal_title>Nature Reviews Physics</journal_title>
+            <issue>8</issue>
+            <volume>3</volume>
+            <doi>10.1038/s42254-021-00326-1</doi>
+            <issn>2522-5820</issn>
+            <cYear>2021</cYear>
+            <unstructured_citation>Weiskopf, N., Edwards, L. J., Helms,
+G., Mohammadi, S., &amp; Kirilina, E. (2021). Quantitative magnetic
+resonance imaging of brain anatomy and in vivo histology. Nature Reviews
+Physics, 3(8), 570–588.
+https://doi.org/10.1038/s42254-021-00326-1</unstructured_citation>
+          </citation>
+          <citation key="Marques2010MP2RAGE">
+            <article_title>MP2RAGE, a self bias-field corrected sequence
+for improved segmentation and T1-mapping at high field</article_title>
+            <author>Marques</author>
+            <journal_title>NeuroImage</journal_title>
+            <issue>2</issue>
+            <volume>49</volume>
+            <doi>10.1016/j.neuroimage.2009.10.002</doi>
+            <issn>1053-8119</issn>
+            <cYear>2010</cYear>
+            <unstructured_citation>Marques, J. P., Kober, T., Krueger,
+G., Zwaag, W. van der, Van de Moortele, P.-F., &amp; Gruetter, R.
+(2010). MP2RAGE, a self bias-field corrected sequence for improved
+segmentation and T1-mapping at high field. NeuroImage, 49(2), 1271–1281.
+https://doi.org/10.1016/j.neuroimage.2009.10.002</unstructured_citation>
+          </citation>
+          <citation key="Mancini_2020">
+            <article_title>An interactive meta-analysis of MRI
+biomarkers of myelin</article_title>
+            <author>Mancini</author>
+            <journal_title>eLife</journal_title>
+            <volume>9</volume>
+            <doi>10.7554/elife.61523</doi>
+            <issn>2050-084X</issn>
+            <cYear>2020</cYear>
+            <unstructured_citation>Mancini, M., Karakuzu, A.,
+Cohen-Adad, J., Cercignani, M., Nichols, T. E., &amp; Stikov, N. (2020).
+An interactive meta-analysis of MRI biomarkers of myelin. eLife, 9.
+https://doi.org/10.7554/elife.61523</unstructured_citation>
+          </citation>
+          <citation key="van_der_Weijden_2021">
+            <article_title>Myelin quantification with MRI: A systematic
+review of accuracy and reproducibility</article_title>
+            <author>Weijden</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>226</volume>
+            <doi>10.1016/j.neuroimage.2020.117561</doi>
+            <issn>1053-8119</issn>
+            <cYear>2021</cYear>
+            <unstructured_citation>Weijden, C. W. J. van der, García, D.
+V., Borra, R. J. H., Thurner, P., Meilof, J. F., Laar, P.-J. van,
+Dierckx, R. A. J. O., Gutmann, I. W., &amp; Vries, E. F. J. de. (2021).
+Myelin quantification with MRI: A systematic review of accuracy and
+reproducibility. NeuroImage, 226, 117561.
+https://doi.org/10.1016/j.neuroimage.2020.117561</unstructured_citation>
+          </citation>
+          <citation key="Mezer_2013">
+            <article_title>Quantifying the local tissue volume and
+composition in individual brains with magnetic resonance
+imaging</article_title>
+            <author>Mezer</author>
+            <journal_title>Nature Medicine</journal_title>
+            <issue>12</issue>
+            <volume>19</volume>
+            <doi>10.1038/nm.3390</doi>
+            <issn>1546-170X</issn>
+            <cYear>2013</cYear>
+            <unstructured_citation>Mezer, A., Yeatman, J. D., Stikov,
+N., Kay, K. N., Cho, N.-J., Dougherty, R. F., Perry, M. L., Parvizi, J.,
+Hua, L. H., Butts-Pauly, K., &amp; Wandell, B. A. (2013). Quantifying
+the local tissue volume and composition in individual brains with
+magnetic resonance imaging. Nature Medicine, 19(12), 1667–1672.
+https://doi.org/10.1038/nm.3390</unstructured_citation>
+          </citation>
+          <citation key="Schmierer_2004">
+            <article_title>Magnetization transfer ratio and myelin in
+postmortem multiple sclerosis brain</article_title>
+            <author>Schmierer</author>
+            <journal_title>Annals of Neurology</journal_title>
+            <issue>3</issue>
+            <volume>56</volume>
+            <doi>10.1002/ana.20202</doi>
+            <issn>1531-8249</issn>
+            <cYear>2004</cYear>
+            <unstructured_citation>Schmierer, K., Scaravilli, F.,
+Altmann, D. R., Barker, G. J., &amp; Miller, D. H. (2004). Magnetization
+transfer ratio and myelin in postmortem multiple sclerosis brain. Annals
+of Neurology, 56(3), 407–415.
+https://doi.org/10.1002/ana.20202</unstructured_citation>
+          </citation>
+          <citation key="van_Walderveen_2003">
+            <article_title>Multislice T1 relaxation time measurements in
+the brain using IREPI: Reproducibility, normal values, and histogram
+analysis in patients with multiple sclerosis</article_title>
+            <author>Walderveen</author>
+            <journal_title>Journal of Magnetic Resonance
+Imaging</journal_title>
+            <issue>6</issue>
+            <volume>18</volume>
+            <doi>10.1002/jmri.10417</doi>
+            <issn>1522-2586</issn>
+            <cYear>2003</cYear>
+            <unstructured_citation>Walderveen, M. A. A. van, Schijndel,
+R. A. van, Pouwels, P. J. W., Polman, C. H., &amp; Barkhof, F. (2003).
+Multislice T1 relaxation time measurements in the brain using IREPI:
+Reproducibility, normal values, and histogram analysis in patients with
+multiple sclerosis. Journal of Magnetic Resonance Imaging, 18(6),
+656–664. https://doi.org/10.1002/jmri.10417</unstructured_citation>
+          </citation>
+          <citation key="Vrenken_2006">
+            <article_title>Whole-Brain T1 Mapping in Multiple Sclerosis:
+Global Changes of Normal-appearing Gray and White Matter</article_title>
+            <author>Vrenken</author>
+            <journal_title>Radiology</journal_title>
+            <issue>3</issue>
+            <volume>240</volume>
+            <doi>10.1148/radiol.2403050569</doi>
+            <issn>1527-1315</issn>
+            <cYear>2006</cYear>
+            <unstructured_citation>Vrenken, H., Geurts, J. J. G., Knol,
+D. L., Dijk, L. N. van, Dattola, V., Jasperse, B., Schijndel, R. A. van,
+Polman, C. H., Castelijns, J. A., Barkhof, F., &amp; Pouwels, P. J. W.
+(2006). Whole-Brain T1 Mapping in Multiple Sclerosis: Global Changes of
+Normal-appearing Gray and White Matter. Radiology, 240(3), 811–820.
+https://doi.org/10.1148/radiol.2403050569</unstructured_citation>
+          </citation>
+          <citation key="Mirmosayyeb_2025">
+            <article_title>The relationship between optical coherence
+tomography and magnetic resonance imaging measurements in people with
+multiple sclerosis: A systematic review and
+meta-analysis</article_title>
+            <author>Mirmosayyeb</author>
+            <journal_title>Journal of the Neurological
+Sciences</journal_title>
+            <volume>470</volume>
+            <doi>10.1016/j.jns.2025.123401</doi>
+            <issn>0022-510X</issn>
+            <cYear>2025</cYear>
+            <unstructured_citation>Mirmosayyeb, O., Yazdan Panah, M.,
+Moases Ghaffary, E., Vaheb, S., Mahmoudi, F., Shaygannejad, V., Lincoff,
+N., Jakimovski, D., Zivadinov, R., &amp; Weinstock-Guttman, B. (2025).
+The relationship between optical coherence tomography and magnetic
+resonance imaging measurements in people with multiple sclerosis: A
+systematic review and meta-analysis. Journal of the Neurological
+Sciences, 470, 123401.
+https://doi.org/10.1016/j.jns.2025.123401</unstructured_citation>
+          </citation>
+          <citation key="Santos_Nobre_2007">
+            <article_title>Residual Analysis for Linear Mixed
+Models</article_title>
+            <author>Santos Nobre</author>
+            <journal_title>Biometrical Journal</journal_title>
+            <issue>6</issue>
+            <volume>49</volume>
+            <doi>10.1002/bimj.200610341</doi>
+            <issn>1521-4036</issn>
+            <cYear>2007</cYear>
+            <unstructured_citation>Santos Nobre, J., &amp; Motta Singer,
+J. da. (2007). Residual Analysis for Linear Mixed Models. Biometrical
+Journal, 49(6), 863–875.
+https://doi.org/10.1002/bimj.200610341</unstructured_citation>
+          </citation>
+          <citation key="Hiraoka_2011">
+            <article_title>Localization of Papillofoveal Bundles in
+Primates</article_title>
+            <author>Hiraoka</author>
+            <journal_title>The Anatomical Record</journal_title>
+            <issue>2</issue>
+            <volume>295</volume>
+            <doi>10.1002/ar.21519</doi>
+            <issn>1932-8494</issn>
+            <cYear>2011</cYear>
+            <unstructured_citation>Hiraoka, M., Inoue, K., Kawano, H.,
+&amp; Takada, M. (2011). Localization of Papillofoveal Bundles in
+Primates. The Anatomical Record, 295(2), 347–354.
+https://doi.org/10.1002/ar.21519</unstructured_citation>
+          </citation>
+          <citation key="Kobayashi_2015">
+            <article_title>Correlation of Papillomacular Nerve Fiber
+Bundle Thickness with Central Visual Function in Open-Angle
+Glaucoma</article_title>
+            <author>Kobayashi</author>
+            <journal_title>Journal of Ophthalmology</journal_title>
+            <volume>2015</volume>
+            <doi>10.1155/2015/460918</doi>
+            <issn>2090-0058</issn>
+            <cYear>2015</cYear>
+            <unstructured_citation>Kobayashi, W., Kunikata, H., Omodaka,
+K., Togashi, K., Ryu, M., Akiba, M., Takeuchi, G., Yuasa, T., &amp;
+Nakazawa, T. (2015). Correlation of Papillomacular Nerve Fiber Bundle
+Thickness with Central Visual Function in Open-Angle Glaucoma. Journal
+of Ophthalmology, 2015, 1–6.
+https://doi.org/10.1155/2015/460918</unstructured_citation>
+          </citation>
+          <citation key="Rebolleda2015Papillomacular">
+            <article_title>Papillomacular Bundle and Inner Retinal
+Thicknesses Correlate With Visual Acuity in Nonarteritic Anterior
+Ischemic Optic Neuropathy</article_title>
+            <author>Rebolleda</author>
+            <journal_title>Investigative Ophthalmology &amp;amp; Visual
+Science</journal_title>
+            <issue>2</issue>
+            <volume>56</volume>
+            <doi>10.1167/iovs.14-15314</doi>
+            <issn>0146-0404</issn>
+            <cYear>2015</cYear>
+            <unstructured_citation>Rebolleda, G., Sanchez-Sanchez, C.,
+Gonzalez-Lopez, J. J., Contreras, I., &amp; Munoz-Negrete, F. J. (2015).
+Papillomacular Bundle and Inner Retinal Thicknesses Correlate With
+Visual Acuity in Nonarteritic Anterior Ischemic Optic Neuropathy.
+Investigative Ophthalmology &amp;Amp; Visual Science, 56(2), 682–692.
+https://doi.org/10.1167/iovs.14-15314</unstructured_citation>
+          </citation>
+          <citation key="Dom_nguez_Vicent_2021">
+            <article_title>Precision and Agreement of Individual and
+Simultaneous Macular and Optic Disc Volumetric Measurements With
+Spectral Domain Optical Coherence Tomography</article_title>
+            <author>Domínguez-Vicent</author>
+            <journal_title>Frontiers in Medicine</journal_title>
+            <volume>8</volume>
+            <doi>10.3389/fmed.2021.764236</doi>
+            <issn>2296-858X</issn>
+            <cYear>2021</cYear>
+            <unstructured_citation>Domínguez-Vicent, A., Kensén, J.,
+Ramsay, M. W., Brautaset, R., &amp; Venkataraman, A. P. (2021).
+Precision and Agreement of Individual and Simultaneous Macular and Optic
+Disc Volumetric Measurements With Spectral Domain Optical Coherence
+Tomography. Frontiers in Medicine, 8.
+https://doi.org/10.3389/fmed.2021.764236</unstructured_citation>
+          </citation>
+          <citation key="Dominguez2019Repeatability">
+            <article_title>Repeatability of quantitative measurements of
+retinal layers with SD-OCT and agreement between vertical and horizontal
+scan protocols in healthy eyes</article_title>
+            <author>Domínguez-Vicent</author>
+            <journal_title>PLOS ONE</journal_title>
+            <issue>8</issue>
+            <volume>14</volume>
+            <doi>10.1371/journal.pone.0221466</doi>
+            <issn>1932-6203</issn>
+            <cYear>2019</cYear>
+            <unstructured_citation>Domínguez-Vicent, A., Brautaset, R.,
+&amp; Venkataraman, A. P. (2019). Repeatability of quantitative
+measurements of retinal layers with SD-OCT and agreement between
+vertical and horizontal scan protocols in healthy eyes. PLOS ONE, 14(8),
+e0221466.
+https://doi.org/10.1371/journal.pone.0221466</unstructured_citation>
+          </citation>
+          <citation key="Bakhshaliyeva_2025">
+            <article_title>Deep Learning Model for Automated
+Segmentation of Orbital Structures in MRI Images</article_title>
+            <author>Bakhshaliyeva</author>
+            <journal_title>Clinical Neuroradiology</journal_title>
+            <issue>4</issue>
+            <volume>35</volume>
+            <doi>10.1007/s00062-025-01535-2</doi>
+            <issn>1869-1447</issn>
+            <cYear>2025</cYear>
+            <unstructured_citation>Bakhshaliyeva, E., Reiner, L. N.,
+Chelbi, M., Nawabi, J., Tietze, A., Scheel, M., Wattjes, M., Dell’Orco,
+A., &amp; Meddeb, A. (2025). Deep Learning Model for Automated
+Segmentation of Orbital Structures in MRI Images. Clinical
+Neuroradiology, 35(4), 735–745.
+https://doi.org/10.1007/s00062-025-01535-2</unstructured_citation>
+          </citation>
+          <citation key="Barranco_2026">
+            <article_title>A-eye: Automated 3D MRI segmentation and
+morphometric feature extraction for eye and orbit atlas
+construction</article_title>
+            <author>Barranco</author>
+            <journal_title>PLOS One</journal_title>
+            <issue>7</issue>
+            <volume>21</volume>
+            <doi>10.1371/journal.pone.0352257</doi>
+            <issn>1932-6203</issn>
+            <cYear>2026</cYear>
+            <unstructured_citation>Barranco, J., Luyken, A. K., Jia, Y.,
+Kebiri, H., Stachs, P., Gordaliza, P. M., Esteban, O., Aleman, Y.,
+Sznitman, R., Streckenbach, F., Stachs, O., Langner, S., Franceschiello,
+B., &amp; Cuadra, M. B. (2026). A-eye: Automated 3D MRI segmentation and
+morphometric feature extraction for eye and orbit atlas construction.
+PLOS One, 21(7), e0352257.
+https://doi.org/10.1371/journal.pone.0352257</unstructured_citation>
+          </citation>
+          <citation key="Han_2025">
+            <article_title>Automatic segmentation and volume measurement
+of anterior visual pathway in brain 3D-T1WI using deep
+learning</article_title>
+            <author>Han</author>
+            <journal_title>Frontiers in Medicine</journal_title>
+            <volume>12</volume>
+            <doi>10.3389/fmed.2025.1530361</doi>
+            <issn>2296-858X</issn>
+            <cYear>2025</cYear>
+            <unstructured_citation>Han, Y., Wang, H., Luo, Q., Wang, J.,
+Zeng, C., Zheng, Q., Dai, L., Wei, Y., Zhu, Q., Lin, W., Cui, S., &amp;
+Li, Y. (2025). Automatic segmentation and volume measurement of anterior
+visual pathway in brain 3D-T1WI using deep learning. Frontiers in
+Medicine, 12.
+https://doi.org/10.3389/fmed.2025.1530361</unstructured_citation>
+          </citation>
+          <citation key="Tang_2025">
+            <article_title>MReye-Seg: Development and validation of an
+automated MRI pipeline for standardised ocular and orbital
+morphometrics</article_title>
+            <author>Tang</author>
+            <journal_title>Eye</journal_title>
+            <issue>18</issue>
+            <volume>39</volume>
+            <doi>10.1038/s41433-025-04044-1</doi>
+            <issn>1476-5454</issn>
+            <cYear>2025</cYear>
+            <unstructured_citation>Tang, G., Ahmadi, S.-A., Jillings,
+S., Jeurissen, B., Tomilovskaya, E., Nosikova, I., Ryabova, A.,
+Pechenkova, E., Petrovichev, V., Rukavishnikov, I., Velten, T., Gripshi,
+M., Van Ombergen, A., Wuyts, F. L., &amp; Eulenburg, P. zu. (2025).
+MReye-Seg: Development and validation of an automated MRI pipeline for
+standardised ocular and orbital morphometrics. Eye, 39(18), 3294–3305.
+https://doi.org/10.1038/s41433-025-04044-1</unstructured_citation>
+          </citation>
+          <citation key="Syc2019Axon">
+            <article_title>Axon injury signaling and compartmentalized
+injury response in glaucoma</article_title>
+            <author>Syc-Mazurek</author>
+            <journal_title>Progress in Retinal and Eye
+Research</journal_title>
+            <volume>73</volume>
+            <doi>10.1016/j.preteyeres.2019.07.002</doi>
+            <issn>1350-9462</issn>
+            <cYear>2019</cYear>
+            <unstructured_citation>Syc-Mazurek, S. B., &amp; Libby, R.
+T. (2019). Axon injury signaling and compartmentalized injury response
+in glaucoma. Progress in Retinal and Eye Research, 73, 100769.
+https://doi.org/10.1016/j.preteyeres.2019.07.002</unstructured_citation>
+          </citation>
+          <citation key="Toosy_2014">
+            <article_title>Optic neuritis</article_title>
+            <author>Toosy</author>
+            <journal_title>The Lancet Neurology</journal_title>
+            <issue>1</issue>
+            <volume>13</volume>
+            <doi>10.1016/s1474-4422(13)70259-x</doi>
+            <issn>1474-4422</issn>
+            <cYear>2014</cYear>
+            <unstructured_citation>Toosy, A. T., Mason, D. F., &amp;
+Miller, D. H. (2014). Optic neuritis. The Lancet Neurology, 13(1),
+83–99.
+https://doi.org/10.1016/s1474-4422(13)70259-x</unstructured_citation>
+          </citation>
+          <citation key="Kale_2016">
+            <article_title>Optic neuritis as an early sign of multiple
+sclerosis</article_title>
+            <author>Kale</author>
+            <journal_title>Eye and Brain</journal_title>
+            <volume>Volume 8</volume>
+            <doi>10.2147/eb.s54131</doi>
+            <issn>1179-2744</issn>
+            <cYear>2016</cYear>
+            <unstructured_citation>Kale, N. (2016). Optic neuritis as an
+early sign of multiple sclerosis. Eye and Brain, Volume 8, 195–202.
+https://doi.org/10.2147/eb.s54131</unstructured_citation>
+          </citation>
+          <citation key="Montalban_2025">
+            <article_title>Diagnosis of multiple sclerosis: 2024
+revisions of the McDonald criteria</article_title>
+            <author>Montalban</author>
+            <journal_title>The Lancet Neurology</journal_title>
+            <issue>10</issue>
+            <volume>24</volume>
+            <doi>10.1016/s1474-4422(25)00270-4</doi>
+            <issn>1474-4422</issn>
+            <cYear>2025</cYear>
+            <unstructured_citation>Montalban, X., Lebrun-Frénay, C., Oh,
+J., Arrambide, G., Moccia, M., Pia Amato, M., Amezcua, L., Banwell, B.,
+Bar-Or, A., Barkhof, F., Butzkueven, H., Ciccarelli, O., Chataway, J.,
+Cohen, J. A., Comi, G., Correale, J., Deisenhammer, F., Filippi, M.,
+Fiol, J., … Thompson, A. J. (2025). Diagnosis of multiple sclerosis:
+2024 revisions of the McDonald criteria. The Lancet Neurology, 24(10),
+850–865.
+https://doi.org/10.1016/s1474-4422(25)00270-4</unstructured_citation>
+          </citation>
+          <citation key="Sherif_2019">
+            <article_title>Normal Visual Recovery after Optic Neuritis
+Despite Significant Loss of Retinal Ganglion Cells in Patients with
+Multiple Sclerosis</article_title>
+            <author>Sherif</author>
+            <journal_title>Klinische Monatsblätter für
+Augenheilkunde</journal_title>
+            <issue>04</issue>
+            <volume>236</volume>
+            <doi>10.1055/a-0853-1721</doi>
+            <issn>1439-3999</issn>
+            <cYear>2019</cYear>
+            <unstructured_citation>Sherif, M., Bergin, C., &amp;
+Borruat, F.-X. (2019). Normal Visual Recovery after Optic Neuritis
+Despite Significant Loss of Retinal Ganglion Cells in Patients with
+Multiple Sclerosis. Klinische Monatsblätter für Augenheilkunde, 236(04),
+425–428. https://doi.org/10.1055/a-0853-1721</unstructured_citation>
+          </citation>
+          <citation key="Karakuzu_2020">
+            <article_title>qMRLab: Quantitative MRI analysis, under one
+umbrella</article_title>
+            <author>Karakuzu</author>
+            <journal_title>Journal of Open Source
+Software</journal_title>
+            <issue>53</issue>
+            <volume>5</volume>
+            <doi>10.21105/joss.02343</doi>
+            <issn>2475-9066</issn>
+            <cYear>2020</cYear>
+            <unstructured_citation>Karakuzu, A., Boudreau, M., Duval,
+T., Boshkovski, T., Leppert, I., Cabana, J.-F., Gagnon, I., Beliveau,
+P., Pike, G., Cohen-Adad, J., &amp; Stikov, N. (2020). qMRLab:
+Quantitative MRI analysis, under one umbrella. Journal of Open Source
+Software, 5(53), 2343.
+https://doi.org/10.21105/joss.02343</unstructured_citation>
+          </citation>
+          <citation key="Fedorov20123D">
+            <article_title>3D Slicer as an image computing platform for
+the Quantitative Imaging Network</article_title>
+            <author>Fedorov</author>
+            <journal_title>Magnetic Resonance Imaging</journal_title>
+            <issue>9</issue>
+            <volume>30</volume>
+            <doi>10.1016/j.mri.2012.05.001</doi>
+            <issn>0730-725X</issn>
+            <cYear>2012</cYear>
+            <unstructured_citation>Fedorov, A., Beichel, R.,
+Kalpathy-Cramer, J., Finet, J., Fillion-Robin, J.-C., Pujol, S., Bauer,
+C., Jennings, D., Fennessy, F., Sonka, M., Buatti, J., Aylward, S.,
+Miller, J. V., Pieper, S., &amp; Kikinis, R. (2012). 3D Slicer as an
+image computing platform for the Quantitative Imaging Network. Magnetic
+Resonance Imaging, 30(9), 1323–1341.
+https://doi.org/10.1016/j.mri.2012.05.001</unstructured_citation>
+          </citation>
+          <citation key="etdrs1987treatment">
+            <article_title>Treatment techniques and clinical guidelines
+for photocoagulation of diabetic macular edema</article_title>
+            <author>Early Treatment Diabetic Retinopathy Study Research
+Group</author>
+            <journal_title>Ophthalmology</journal_title>
+            <issue>7</issue>
+            <volume>94</volume>
+            <doi>10.1016/S0161-6420(87)33527-4</doi>
+            <cYear>1987</cYear>
+            <unstructured_citation>Early Treatment Diabetic Retinopathy
+Study Research Group. (1987). Treatment techniques and clinical
+guidelines for photocoagulation of diabetic macular edema.
+Ophthalmology, 94(7), 761–774.
+https://doi.org/10.1016/S0161-6420(87)33527-4</unstructured_citation>
+          </citation>
+          <citation key="Garway_Heath_2000">
+            <article_title>Mapping the visual field to the optic disc in
+normal tension glaucoma eyes11The authors have no proprietary interest
+in the development or marketing of any product or instrument mentioned
+in this article.</article_title>
+            <author>Garway-Heath</author>
+            <journal_title>Ophthalmology</journal_title>
+            <issue>10</issue>
+            <volume>107</volume>
+            <doi>10.1016/s0161-6420(00)00284-0</doi>
+            <issn>0161-6420</issn>
+            <cYear>2000</cYear>
+            <unstructured_citation>Garway-Heath, D. F., Poinoosawmy, D.,
+Fitzke, F. W., &amp; Hitchings, R. A. (2000). Mapping the visual field
+to the optic disc in normal tension glaucoma eyes11The authors have no
+proprietary interest in the development or marketing of any product or
+instrument mentioned in this article. Ophthalmology, 107(10), 1809–1815.
+https://doi.org/10.1016/s0161-6420(00)00284-0</unstructured_citation>
+          </citation>
+          <citation key="Benjamini_1995">
+            <article_title>Controlling the False Discovery Rate: A
+Practical and Powerful Approach to Multiple Testing</article_title>
+            <author>Benjamini</author>
+            <journal_title>Journal of the Royal Statistical Society
+Series B: Statistical Methodology</journal_title>
+            <issue>1</issue>
+            <volume>57</volume>
+            <doi>10.1111/j.2517-6161.1995.tb02031.x</doi>
+            <issn>1467-9868</issn>
+            <cYear>1995</cYear>
+            <unstructured_citation>Benjamini, Y., &amp; Hochberg, Y.
+(1995). Controlling the False Discovery Rate: A Practical and Powerful
+Approach to Multiple Testing. Journal of the Royal Statistical Society
+Series B: Statistical Methodology, 57(1), 289–300.
+https://doi.org/10.1111/j.2517-6161.1995.tb02031.x</unstructured_citation>
+          </citation>
+          <citation key="karakuzu_2022">
+            <article_title>NeuroLibre : A preprint server for
+full-fledged reproducible neuroscience</article_title>
+            <author>Karakuzu</author>
+            <doi>10.31219/osf.io/h89js</doi>
+            <cYear>2022</cYear>
+            <unstructured_citation>Karakuzu, A., DuPre, E., Tetrel, L.,
+Bermudez, P., Boudreau, M., Chin, M., Poline, J.-B., Das, S., Bellec,
+L., &amp; Stikov, N. (2022). NeuroLibre : A preprint server for
+full-fledged reproducible neuroscience. OSF Preprints.
+https://doi.org/10.31219/osf.io/h89js</unstructured_citation>
+          </citation>
+          <citation key="karakuzu_2025">
+            <article_title>Toward a woven literature: Open-source
+infrastructure for networked scientific publishing</article_title>
+            <author>Karakuzu</author>
+            <journal_title>Aperture Neuro</journal_title>
+            <issue>SI 3</issue>
+            <volume>5</volume>
+            <doi>10.52294/001c.146072</doi>
+            <cYear>2025</cYear>
+            <unstructured_citation>Karakuzu, A. (2025). Toward a woven
+literature: Open-source infrastructure for networked scientific
+publishing. Aperture Neuro, 5(SI 3).
+https://doi.org/10.52294/001c.146072</unstructured_citation>
+          </citation>
+          <citation key="karakuzu2025nf">
+            <article_title>Rethinking MRI as a measurement device
+through modular and portable pipelines</article_title>
+            <author>Karakuzu</author>
+            <journal_title>Magnetic Resonance Materials in Physics,
+Biology and Medicine</journal_title>
+            <issue>3</issue>
+            <volume>38</volume>
+            <doi>10.1007/s10334-025-01245-3</doi>
+            <cYear>2025</cYear>
+            <unstructured_citation>Karakuzu, A., Blostein, N., Caron, A.
+V., Boré, A., Rheault, F., Descoteaux, M., &amp; Stikov, N. (2025).
+Rethinking MRI as a measurement device through modular and portable
+pipelines. Magnetic Resonance Materials in Physics, Biology and
+Medicine, 38(3), 423–439.
+https://doi.org/10.1007/s10334-025-01245-3</unstructured_citation>
+          </citation>
+          <citation key="stikov2023relaxometry">
+            <article_title>The relaxometry hype cycle</article_title>
+            <author>Stikov</author>
+            <journal_title>Frontiers in Physiology</journal_title>
+            <volume>14</volume>
+            <doi>10.3389/fphys.2023.1281147</doi>
+            <cYear>2023</cYear>
+            <unstructured_citation>Stikov, N., &amp; Karakuzu, A.
+(2023). The relaxometry hype cycle. Frontiers in Physiology, 14,
+1281147.
+https://doi.org/10.3389/fphys.2023.1281147</unstructured_citation>
+          </citation>
+          <citation key="boudreau2024t1">
+            <article_title>Repeat it without me: Crowdsourcing the T1
+mapping common ground via the ISMRM reproducibility
+challenge</article_title>
+            <author>Boudreau</author>
+            <journal_title>Magnetic resonance in
+medicine</journal_title>
+            <issue>3</issue>
+            <volume>92</volume>
+            <doi>10.1002/mrm.30111</doi>
+            <cYear>2024</cYear>
+            <unstructured_citation>Boudreau, M., Karakuzu, A.,
+Cohen-Adad, J., Bozkurt, E., Carr, M., Castellaro, M., Concha, L.,
+Doneva, M., Dual, S. A., Ensworth, A., &amp; others. (2024). Repeat it
+without me: Crowdsourcing the T1 mapping common ground via the ISMRM
+reproducibility challenge. Magnetic Resonance in Medicine, 92(3),
+1115–1127. https://doi.org/10.1002/mrm.30111</unstructured_citation>
+          </citation>
+        </citation_list>
+  </posted_content>
+  </body>
+</doi_batch>
