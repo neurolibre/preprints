@@ -1,0 +1,1811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>20261103T181904-d1bf173d67fe6bc1c2b8fcafb47cf384f45113a3</doi_batch_id>
+    <timestamp>20261103181904</timestamp>
+    <depositor>
+      <depositor_name>NeuroLibre Admin</depositor_name>
+      <email_address>admin@neurolibre.org</email_address>
+    </depositor>
+    <registrant>Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal</registrant>
+  </head>
+  <body>
+  <posted_content type="preprint">
+  <group_title>NeuroLibre Reproducible Preprints</group_title>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Ricardo</given_name>
+            <surname>Rios-Carrillo</surname>
+            <ORCID>https://orcid.org/0000-0002-8344-5624</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Rubina</given_name>
+            <surname>Malik</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Isis</given_name>
+            <surname>So</surname>
+            <ORCID>https://orcid.org/0000-0001-6232-2644</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Kyeongrim</given_name>
+            <surname>Moon</surname>
+            <ORCID>https://orcid.org/0009-0000-4330-1987</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Ali R.</given_name>
+            <surname>Khan</surname>
+            <ORCID>https://orcid.org/0000-0002-0760-8647</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Elizabeth</given_name>
+            <surname>Finger</surname>
+            <ORCID>https://orcid.org/0000-0003-4461-7427</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Corey A.</given_name>
+            <surname>Baron</surname>
+            <ORCID>https://orcid.org/0000-0001-7343-5580</ORCID>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Probing gray matter microstructure differences in
+neurodegenerative dementia using b-tensor encoding diffusion MRI</title>
+        </titles>
+        <posted_date>
+          <month>11</month>
+          <day>03</day>
+          <year>2026</year>
+        </posted_date>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Repository archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.23743846</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Dataset archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.23212234</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Book archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.23743852</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Container archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.23743854</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub technical screening</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://github.com/neurolibre/neurolibre-reviews/issues/52</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Executable preprint</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://preprint.neurolibre.org/10.55458/neurolibre.00052</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.55458/neurolibre.00052</doi>
+          <resource>https://neurolibre.org/papers/10.55458/neurolibre.00052</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://preprint.neurolibre.org/10.55458/neurolibre.00052.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="breijyeh_comprehensive_2020">
+            <article_title>Comprehensive Review on Alzheimer’s Disease:
+Causes and Treatment</article_title>
+            <author>Breijyeh</author>
+            <journal_title>Molecules</journal_title>
+            <issue>24</issue>
+            <volume>25</volume>
+            <doi>10.3390/molecules25245789</doi>
+            <issn>1420-3049</issn>
+            <cYear>2020</cYear>
+            <unstructured_citation>Breijyeh, Z., &amp; Karaman, R.
+(2020). Comprehensive Review on Alzheimer’s Disease: Causes and
+Treatment. Molecules, 25(24), 5789.
+https://doi.org/10.3390/molecules25245789</unstructured_citation>
+          </citation>
+          <citation key="le_bihan_mr_1986">
+            <article_title>MR imaging of intravoxel incoherent motions:
+Application to diffusion and perfusion in neurologic
+disorders.</article_title>
+            <author>Le Bihan</author>
+            <journal_title>Radiology</journal_title>
+            <issue>2</issue>
+            <volume>161</volume>
+            <doi>10.1148/radiology.161.2.3763909</doi>
+            <issn>0033-8419</issn>
+            <cYear>1986</cYear>
+            <unstructured_citation>Le Bihan, D., Breton, E., Lallemand,
+D., Grenier, P., Cabanis, E., &amp; Laval-Jeantet, M. (1986). MR imaging
+of intravoxel incoherent motions: Application to diffusion and perfusion
+in neurologic disorders. Radiology, 161(2), 401–407.
+https://doi.org/10.1148/radiology.161.2.3763909</unstructured_citation>
+          </citation>
+          <citation key="beaulieu_basis_2002">
+            <article_title>The basis of anisotropic water diffusion in
+the nervous system – a technical review</article_title>
+            <author>Beaulieu</author>
+            <journal_title>NMR in Biomedicine</journal_title>
+            <issue>7-8</issue>
+            <volume>15</volume>
+            <doi>10.1002/nbm.782</doi>
+            <issn>1099-1492</issn>
+            <cYear>2002</cYear>
+            <unstructured_citation>Beaulieu, C. (2002). The basis of
+anisotropic water diffusion in the nervous system – a technical review.
+NMR in Biomedicine, 15(7-8), 435–455.
+https://doi.org/10.1002/nbm.782</unstructured_citation>
+          </citation>
+          <citation key="acosta-cabronero_diffusion_2014">
+            <article_title>Diffusion tensor imaging in Alzheimer’s
+disease: Insights into the limbic-diencephalic network and
+methodological considerations</article_title>
+            <author>Acosta-Cabronero</author>
+            <journal_title>Frontiers in Aging
+Neuroscience</journal_title>
+            <volume>6</volume>
+            <doi>10.3389/fnagi.2014.00266</doi>
+            <issn>1663-4365</issn>
+            <cYear>2014</cYear>
+            <unstructured_citation>Acosta-Cabronero, J., &amp; Nestor,
+P. J. (2014). Diffusion tensor imaging in Alzheimer’s disease: Insights
+into the limbic-diencephalic network and methodological considerations.
+Frontiers in Aging Neuroscience, 6, 266.
+https://doi.org/10.3389/fnagi.2014.00266</unstructured_citation>
+          </citation>
+          <citation key="ashford_diffusion_2011">
+            <article_title>Diffusion Tensor Imaging of the Hippocampus
+in MCI and Early Alzheimer’s Disease</article_title>
+            <author>Ashford</author>
+            <journal_title>Journal of Alzheimer’s
+Disease</journal_title>
+            <issue>s3</issue>
+            <volume>26</volume>
+            <doi>10.3233/JAD-2011-0001</doi>
+            <issn>1387-2877</issn>
+            <cYear>2011</cYear>
+            <unstructured_citation>Ashford, J. W., Rosen, A., Adamson,
+M., Bayley, P., Sabri, O., Furst, A., Black, S. E., Weiner, M.,
+Fellgiebel, A., &amp; Yakushev, I. (2011). Diffusion Tensor Imaging of
+the Hippocampus in MCI and Early Alzheimer’s Disease. Journal of
+Alzheimer’s Disease, 26(s3), 257–262.
+https://doi.org/10.3233/JAD-2011-0001</unstructured_citation>
+          </citation>
+          <citation key="novikov_quantifying_2019">
+            <article_title>Quantifying brain microstructure with
+diffusion MRI: Theory and parameter estimation</article_title>
+            <author>Novikov</author>
+            <journal_title>NMR in Biomedicine</journal_title>
+            <issue>4</issue>
+            <volume>32</volume>
+            <doi>10.1002/nbm.3998</doi>
+            <issn>0952-3480</issn>
+            <cYear>2019</cYear>
+            <unstructured_citation>Novikov, D. S., Fieremans, E.,
+Jespersen, S. N., &amp; Kiselev, V. G. (2019). Quantifying brain
+microstructure with diffusion MRI: Theory and parameter estimation. NMR
+in Biomedicine, 32(4), e3998.
+https://doi.org/10.1002/nbm.3998</unstructured_citation>
+          </citation>
+          <citation key="karat_diffusion_2024">
+            <article_title>Diffusion MRI of the
+Hippocampus</article_title>
+            <author>Karat</author>
+            <journal_title>Journal of Neuroscience</journal_title>
+            <issue>23</issue>
+            <volume>44</volume>
+            <doi>10.1523/JNEUROSCI.1705-23.2024</doi>
+            <issn>0270-6474</issn>
+            <cYear>2024</cYear>
+            <unstructured_citation>Karat, B. G., Köhler, S., &amp; Khan,
+A. R. (2024). Diffusion MRI of the Hippocampus. Journal of Neuroscience,
+44(23), e1705232024.
+https://doi.org/10.1523/JNEUROSCI.1705-23.2024</unstructured_citation>
+          </citation>
+          <citation key="basser_estimation_1994">
+            <article_title>Estimation of the Effective Self-Diffusion
+Tensor from the NMR Spin Echo</article_title>
+            <author>Basser</author>
+            <journal_title>Journal of Magnetic Resonance, Series
+B</journal_title>
+            <issue>3</issue>
+            <volume>103</volume>
+            <doi>10.1006/jmrb.1994.1037</doi>
+            <issn>1064-1866</issn>
+            <cYear>1994</cYear>
+            <unstructured_citation>Basser, P. J., Mattiello, J., &amp;
+Lebihan, D. (1994). Estimation of the Effective Self-Diffusion Tensor
+from the NMR Spin Echo. Journal of Magnetic Resonance, Series B, 103(3),
+247–254. https://doi.org/10.1006/jmrb.1994.1037</unstructured_citation>
+          </citation>
+          <citation key="westin_q-space_2016">
+            <article_title>Q-space trajectory imaging for
+multidimensional diffusion MRI of the human brain</article_title>
+            <author>Westin</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>135</volume>
+            <doi>10.1016/j.neuroimage.2016.02.039</doi>
+            <issn>1053-8119</issn>
+            <cYear>2016</cYear>
+            <unstructured_citation>Westin, C.-F., Knutsson, H.,
+Pasternak, O., Szczepankiewicz, F., Özarslan, E., Westen, D. van,
+Mattisson, C., Bogren, M., O’Donnell, L. J., Kubicki, M., Topgaard, D.,
+&amp; Nilsson, M. (2016). Q-space trajectory imaging for
+multidimensional diffusion MRI of the human brain. NeuroImage, 135,
+345–362.
+https://doi.org/10.1016/j.neuroimage.2016.02.039</unstructured_citation>
+          </citation>
+          <citation key="arezza_rapid_2021">
+            <article_title>Rapid microscopic fractional anisotropy
+imaging via an optimized linear regression formulation</article_title>
+            <author>Arezza</author>
+            <journal_title>Magnetic Resonance Imaging</journal_title>
+            <volume>80</volume>
+            <doi>10.1016/j.mri.2021.04.015</doi>
+            <issn>0730-725X</issn>
+            <cYear>2021</cYear>
+            <unstructured_citation>Arezza, N. J. J., Tse, D. H. Y.,
+&amp; Baron, C. A. (2021). Rapid microscopic fractional anisotropy
+imaging via an optimized linear regression formulation. Magnetic
+Resonance Imaging, 80, 132–143.
+https://doi.org/10.1016/j.mri.2021.04.015</unstructured_citation>
+          </citation>
+          <citation key="arezza_estimation_2023">
+            <article_title>Estimation of free water-corrected
+microscopic fractional anisotropy</article_title>
+            <author>Arezza</author>
+            <journal_title>Frontiers in Neuroscience</journal_title>
+            <volume>17</volume>
+            <doi>10.3389/fnins.2023.1074730</doi>
+            <issn>1662-453X</issn>
+            <cYear>2023</cYear>
+            <unstructured_citation>Arezza, N. J. J., Santini, T., Omer,
+M., &amp; Baron, C. A. (2023). Estimation of free water-corrected
+microscopic fractional anisotropy. Frontiers in Neuroscience, 17,
+1074730.
+https://doi.org/10.3389/fnins.2023.1074730</unstructured_citation>
+          </citation>
+          <citation key="shemesh_conventions_2016">
+            <article_title>Conventions and nomenclature for double
+diffusion encoding NMR and MRI</article_title>
+            <author>Shemesh</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>1</issue>
+            <volume>75</volume>
+            <doi>10.1002/mrm.25901</doi>
+            <issn>1522-2594</issn>
+            <cYear>2016</cYear>
+            <unstructured_citation>Shemesh, N., Jespersen, S. N.,
+Alexander, D. C., Cohen, Y., Drobnjak, I., Dyrby, T. B., Finsterbusch,
+J., Koch, M. A., Kuder, T., Laun, F., Lawrenz, M., Lundell, H., Mitra,
+P. P., Nilsson, M., Özarslan, E., Topgaard, D., &amp; Westin, C.-F.
+(2016). Conventions and nomenclature for double diffusion encoding NMR
+and MRI. Magnetic Resonance in Medicine, 75(1), 82–87.
+https://doi.org/10.1002/mrm.25901</unstructured_citation>
+          </citation>
+          <citation key="arezza_hippocampal_2024">
+            <article_title>Hippocampal microscopic fractional anisotropy
+is reduced in temporal lobe epilepsy</article_title>
+            <author>Arezza</author>
+            <journal_title>Imaging Neuroscience</journal_title>
+            <volume>2</volume>
+            <doi>10.1162/imag_a_00356</doi>
+            <issn>2837-6056</issn>
+            <cYear>2024</cYear>
+            <unstructured_citation>Arezza, N. J. J., Abbas, H. H.,
+Chadwick, C., Johnsrude, I. S., Burneo, J. G., Suller Marti, A., Khan,
+A. R., &amp; Baron, C. A. (2024). Hippocampal microscopic fractional
+anisotropy is reduced in temporal lobe epilepsy. Imaging Neuroscience,
+2, imag-2-00356.
+https://doi.org/10.1162/imag_a_00356</unstructured_citation>
+          </citation>
+          <citation key="lampinen_tensor-valued_2020">
+            <article_title>Tensor-valued diffusion MRI differentiates
+cortex and white matter in malformations of cortical development
+associated with epilepsy</article_title>
+            <author>Lampinen</author>
+            <journal_title>Epilepsia</journal_title>
+            <issue>8</issue>
+            <volume>61</volume>
+            <doi>10.1111/epi.16605</doi>
+            <issn>1528-1167</issn>
+            <cYear>2020</cYear>
+            <unstructured_citation>Lampinen, B., Zampeli, A.,
+Björkman-Burtscher, I. M., Szczepankiewicz, F., Källén, K., Compagno
+Strandberg, M., &amp; Nilsson, M. (2020). Tensor-valued diffusion MRI
+differentiates cortex and white matter in malformations of cortical
+development associated with epilepsy. Epilepsia, 61(8), 1701–1713.
+https://doi.org/10.1111/epi.16605</unstructured_citation>
+          </citation>
+          <citation key="lampinen_probing_2023">
+            <article_title>Probing brain tissue microstructure with MRI:
+Principles, challenges, and the role of multidimensional
+diffusion-relaxation encoding</article_title>
+            <author>Lampinen</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>282</volume>
+            <doi>10.1016/j.neuroimage.2023.120338</doi>
+            <issn>1053-8119</issn>
+            <cYear>2023</cYear>
+            <unstructured_citation>Lampinen, B., Szczepankiewicz, F.,
+Lätt, J., Knutsson, L., Mårtensson, J., Björkman-Burtscher, I. M.,
+Westen, D. van, Sundgren, P. C., Ståhlberg, F., &amp; Nilsson, M.
+(2023). Probing brain tissue microstructure with MRI: Principles,
+challenges, and the role of multidimensional diffusion-relaxation
+encoding. NeuroImage, 282, 120338.
+https://doi.org/10.1016/j.neuroimage.2023.120338</unstructured_citation>
+          </citation>
+          <citation key="helms_high-resolution_2008">
+            <article_title>High-resolution maps of magnetization
+transfer with inherent correction for RF inhomogeneity and T1 relaxation
+obtained from 3D FLASH MRI</article_title>
+            <author>Helms</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>6</issue>
+            <volume>60</volume>
+            <doi>10.1002/mrm.21732</doi>
+            <issn>1522-2594</issn>
+            <cYear>2008</cYear>
+            <unstructured_citation>Helms, G., Dathe, H., Kallenberg, K.,
+&amp; Dechent, P. (2008). High-resolution maps of magnetization transfer
+with inherent correction for RF inhomogeneity and T1 relaxation obtained
+from 3D FLASH MRI. Magnetic Resonance in Medicine, 60(6), 1396–1407.
+https://doi.org/10.1002/mrm.21732</unstructured_citation>
+          </citation>
+          <citation key="seiberlich_wood_chapter_2020">
+            <article_title>Chapter 32 - Magnetization
+Transfer</article_title>
+            <author>Wood</author>
+            <journal_title>Quantitative Magnetic Resonance
+Imaging</journal_title>
+            <volume>1</volume>
+            <doi>10.1016/B978-0-12-817057-1.00035-4</doi>
+            <issn>2666-9099</issn>
+            <cYear>2020</cYear>
+            <unstructured_citation>Wood, T. C., &amp; Malik, S. J.
+(2020). Chapter 32 - Magnetization Transfer. In N. Seiberlich, V.
+Gulani, F. Calamante, A. Campbell-Washburn, M. Doneva, H. H. Hu, &amp;
+S. Sourbron (Eds.), Quantitative Magnetic Resonance Imaging (Vol. 1, pp.
+839–856). Academic Press.
+https://doi.org/10.1016/B978-0-12-817057-1.00035-4</unstructured_citation>
+          </citation>
+          <citation key="mahalanobis_reprint_2018">
+            <article_title>Reprint: On the generalised distance in
+statistics</article_title>
+            <author>Mahalanobis</author>
+            <journal_title>Sankhya A</journal_title>
+            <issue>1</issue>
+            <volume>80</volume>
+            <doi>10.1007/s13171-019-00164-5</doi>
+            <issn>0976-8378</issn>
+            <cYear>2018</cYear>
+            <unstructured_citation>Mahalanobis, P. C. (2018). Reprint:
+On the generalised distance in statistics. Sankhya A, 80(1), 1–7.
+https://doi.org/10.1007/s13171-019-00164-5</unstructured_citation>
+          </citation>
+          <citation key="tremblay_mvcomp_2024">
+            <article_title>MVComp toolbox: MultiVariate Comparisons of
+brain MRI features accounting for common information across
+measures</article_title>
+            <author>Tremblay</author>
+            <journal_title>Aperture Neuro</journal_title>
+            <volume>4</volume>
+            <doi>10.52294/001c.118427</doi>
+            <cYear>2024</cYear>
+            <unstructured_citation>Tremblay, S. A., Alasmar, Z.,
+Pirhadi, A., Carbonell, F., Iturria-Medina, Y., Gauthier, C. J., &amp;
+Steele, C. J. (2024). MVComp toolbox: MultiVariate Comparisons of brain
+MRI features accounting for common information across measures. Aperture
+Neuro, 4. https://doi.org/10.52294/001c.118427</unstructured_citation>
+          </citation>
+          <citation key="ades-aron_evaluation_2018">
+            <article_title>Evaluation of the accuracy and precision of
+the diffusion parameter EStImation with Gibbs and NoisE removal
+pipeline</article_title>
+            <author>Ades-Aron</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>183</volume>
+            <doi>10.1016/j.neuroimage.2018.07.066</doi>
+            <issn>1053-8119</issn>
+            <cYear>2018</cYear>
+            <unstructured_citation>Ades-Aron, B., Veraart, J., Kochunov,
+P., McGuire, S., Sherman, P., Kellner, E., Novikov, D. S., &amp;
+Fieremans, E. (2018). Evaluation of the accuracy and precision of the
+diffusion parameter EStImation with Gibbs and NoisE removal pipeline.
+NeuroImage, 183, 532–543.
+https://doi.org/10.1016/j.neuroimage.2018.07.066</unstructured_citation>
+          </citation>
+          <citation key="chen_optimization_2024">
+            <article_title>Optimization and validation of the DESIGNER
+preprocessing pipeline for clinical diffusion MRI in white matter
+aging</article_title>
+            <author>Chen</author>
+            <journal_title>Imaging Neuroscience</journal_title>
+            <volume>2</volume>
+            <doi>10.1162/imag_a_00125</doi>
+            <issn>2837-6056</issn>
+            <cYear>2024</cYear>
+            <unstructured_citation>Chen, J., Ades-Aron, B., Lee, H.-H.,
+Mehrin, S., Pang, M., Novikov, D. S., Veraart, J., &amp; Fieremans, E.
+(2024). Optimization and validation of the DESIGNER preprocessing
+pipeline for clinical diffusion MRI in white matter aging. Imaging
+Neuroscience, 2, imag-2-00125.
+https://doi.org/10.1162/imag_a_00125</unstructured_citation>
+          </citation>
+          <citation key="veraart_denoising_2016">
+            <article_title>Denoising of diffusion MRI using random
+matrix theory</article_title>
+            <author>Veraart</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>142</volume>
+            <doi>10.1016/j.neuroimage.2016.08.016</doi>
+            <issn>1053-8119</issn>
+            <cYear>2016</cYear>
+            <unstructured_citation>Veraart, J., Novikov, D. S.,
+Christiaens, D., Ades-aron, B., Sijbers, J., &amp; Fieremans, E. (2016).
+Denoising of diffusion MRI using random matrix theory. NeuroImage, 142,
+394–406.
+https://doi.org/10.1016/j.neuroimage.2016.08.016</unstructured_citation>
+          </citation>
+          <citation key="lee_removal_2021">
+            <article_title>Removal of partial Fourier-induced Gibbs
+(RPG) ringing artifacts in MRI</article_title>
+            <author>Lee</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>5</issue>
+            <volume>86</volume>
+            <doi>10.1002/mrm.28830</doi>
+            <issn>1522-2594</issn>
+            <cYear>2021</cYear>
+            <unstructured_citation>Lee, H.-H., Novikov, D. S., &amp;
+Fieremans, E. (2021). Removal of partial Fourier-induced Gibbs (RPG)
+ringing artifacts in MRI. Magnetic Resonance in Medicine, 86(5),
+2733–2750. https://doi.org/10.1002/mrm.28830</unstructured_citation>
+          </citation>
+          <citation key="koay_analytically_2006">
+            <article_title>Analytically exact correction scheme for
+signal extraction from noisy magnitude MR signals</article_title>
+            <author>Koay</author>
+            <journal_title>Journal of Magnetic Resonance</journal_title>
+            <issue>2</issue>
+            <volume>179</volume>
+            <doi>10.1016/j.jmr.2006.01.016</doi>
+            <issn>1090-7807</issn>
+            <cYear>2006</cYear>
+            <unstructured_citation>Koay, C. G., &amp; Basser, P. J.
+(2006). Analytically exact correction scheme for signal extraction from
+noisy magnitude MR signals. Journal of Magnetic Resonance, 179(2),
+317–322.
+https://doi.org/10.1016/j.jmr.2006.01.016</unstructured_citation>
+          </citation>
+          <citation key="andersson_integrated_2016">
+            <article_title>An integrated approach to correction for
+off-resonance effects and subject movement in diffusion MR
+imaging</article_title>
+            <author>Andersson</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>125</volume>
+            <doi>10.1016/j.neuroimage.2015.10.019</doi>
+            <issn>1053-8119</issn>
+            <cYear>2016</cYear>
+            <unstructured_citation>Andersson, J. L. R., &amp;
+Sotiropoulos, S. N. (2016). An integrated approach to correction for
+off-resonance effects and subject movement in diffusion MR imaging.
+NeuroImage, 125, 1063–1078.
+https://doi.org/10.1016/j.neuroimage.2015.10.019</unstructured_citation>
+          </citation>
+          <citation key="tournier_mrtrix3_2019">
+            <article_title>MRtrix3: A fast, flexible and open software
+framework for medical image processing and visualisation</article_title>
+            <author>Tournier</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>202</volume>
+            <doi>10.1016/j.neuroimage.2019.116137</doi>
+            <issn>1053-8119</issn>
+            <cYear>2019</cYear>
+            <unstructured_citation>Tournier, J.-D., Smith, R., Raffelt,
+D., Tabbara, R., Dhollander, T., Pietsch, M., Christiaens, D.,
+Jeurissen, B., Yeh, C.-H., &amp; Connelly, A. (2019). MRtrix3: A fast,
+flexible and open software framework for medical image processing and
+visualisation. NeuroImage, 202, 116137.
+https://doi.org/10.1016/j.neuroimage.2019.116137</unstructured_citation>
+          </citation>
+          <citation key="hoopes_synthstrip_2022">
+            <article_title>SynthStrip: Skull-stripping for any brain
+image</article_title>
+            <author>Hoopes</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>260</volume>
+            <doi>10.1016/j.neuroimage.2022.119474</doi>
+            <issn>1053-8119</issn>
+            <cYear>2022</cYear>
+            <unstructured_citation>Hoopes, A., Mora, J. S., Dalca, A.
+V., Fischl, B., &amp; Hoffmann, M. (2022). SynthStrip: Skull-stripping
+for any brain image. NeuroImage, 260, 119474.
+https://doi.org/10.1016/j.neuroimage.2022.119474</unstructured_citation>
+          </citation>
+          <citation key="billot_robust_2023">
+            <article_title>Robust machine learning segmentation for
+large-scale analysis of heterogeneous clinical brain MRI
+datasets</article_title>
+            <author>Billot</author>
+            <journal_title>Proceedings of the National Academy of
+Sciences</journal_title>
+            <issue>9</issue>
+            <volume>120</volume>
+            <doi>10.1073/pnas.2216399120</doi>
+            <cYear>2023</cYear>
+            <unstructured_citation>Billot, B., Magdamo, C., Cheng, Y.,
+Arnold, S. E., Das, S., &amp; Iglesias, J. E. (2023). Robust machine
+learning segmentation for large-scale analysis of heterogeneous clinical
+brain MRI datasets. Proceedings of the National Academy of Sciences,
+120(9), e2216399120.
+https://doi.org/10.1073/pnas.2216399120</unstructured_citation>
+          </citation>
+          <citation key="fischl_freesurfer_2012">
+            <article_title>FreeSurfer</article_title>
+            <author>Fischl</author>
+            <journal_title>NeuroImage</journal_title>
+            <issue>2</issue>
+            <volume>62</volume>
+            <doi>10.1016/j.neuroimage.2012.01.021</doi>
+            <issn>1053-8119</issn>
+            <cYear>2012</cYear>
+            <unstructured_citation>Fischl, B. (2012). FreeSurfer.
+NeuroImage, 62(2), 774–781.
+https://doi.org/10.1016/j.neuroimage.2012.01.021</unstructured_citation>
+          </citation>
+          <citation key="baron_matmri_2026">
+            <article_title>MatMRI: A GPU enabled package for MRI image
+reconstruction and processing</article_title>
+            <author>Baron</author>
+            <doi>10.5281/zenodo.21842149</doi>
+            <cYear>2026</cYear>
+            <unstructured_citation>Baron, C. A., Dubovan, P. I., &amp;
+Rios-Carrillo, R. (2026). MatMRI: A GPU enabled package for MRI image
+reconstruction and processing.
+https://doi.org/10.5281/zenodo.21842149</unstructured_citation>
+          </citation>
+          <citation key="wood_quit_2018">
+            <article_title>QUIT: QUantitative Imaging
+Tools</article_title>
+            <author>Wood</author>
+            <journal_title>Journal of Open Source
+Software</journal_title>
+            <issue>26</issue>
+            <volume>3</volume>
+            <doi>10.21105/joss.00656</doi>
+            <issn>2475-9066</issn>
+            <cYear>2018</cYear>
+            <unstructured_citation>Wood, T. C. (2018). QUIT:
+QUantitative Imaging Tools. Journal of Open Source Software, 3(26), 656.
+https://doi.org/10.21105/joss.00656</unstructured_citation>
+          </citation>
+          <citation key="hamilton_robust_2024">
+            <article_title>Robust frequency-dependent diffusional
+kurtosis computation using an efficient direction scheme, axisymmetric
+modelling, and spatial regularization</article_title>
+            <author>Hamilton</author>
+            <journal_title>Imaging Neuroscience</journal_title>
+            <volume>2</volume>
+            <doi>10.1162/imag_a_00055</doi>
+            <issn>2837-6056</issn>
+            <cYear>2024</cYear>
+            <unstructured_citation>Hamilton, J., Xu, K., Geremia, N.,
+Prado, V. F., Prado, M. A. M., Brown, A., &amp; Baron, C. A. (2024).
+Robust frequency-dependent diffusional kurtosis computation using an
+efficient direction scheme, axisymmetric modelling, and spatial
+regularization. Imaging Neuroscience, 2, imag-2-00055.
+https://doi.org/10.1162/imag_a_00055</unstructured_citation>
+          </citation>
+          <citation key="dekraker_automated_2022">
+            <article_title>Automated hippocampal unfolding for
+morphometry and subfield segmentation with HippUnfold</article_title>
+            <author>DeKraker</author>
+            <journal_title>eLife</journal_title>
+            <volume>11</volume>
+            <doi>10.7554/eLife.77945</doi>
+            <issn>2050-084X</issn>
+            <cYear>2022</cYear>
+            <unstructured_citation>DeKraker, J., Haast, R. A., Yousif,
+M. D., Karat, B., Lau, J. C., Köhler, S., &amp; Khan, A. R. (2022).
+Automated hippocampal unfolding for morphometry and subfield
+segmentation with HippUnfold. eLife, 11, e77945.
+https://doi.org/10.7554/eLife.77945</unstructured_citation>
+          </citation>
+          <citation key="dekraker_surface-intrinsic_2026">
+            <article_title>A surface-intrinsic framework for
+topology-preserving hippocampal alignment and precision
+morphometry</article_title>
+            <author>DeKraker</author>
+            <doi>10.64898/2026.07.22.740127</doi>
+            <cYear>2026</cYear>
+            <unstructured_citation>DeKraker, J., Bansal, D., Snyder, M.,
+Karat, B. G., Talaei, N., Salman, M., Ngo, A., Chen, J., Sahlas, E.,
+Royer, J., Cabalo, D. G., Glasser, M. F., Coalson, T., Harwell, J.,
+Torkamani-Azar, M., Liu, Y., Tohka, J., Lau, J. C., Evans, A. C., …
+Khan, A. R. (2026). A surface-intrinsic framework for
+topology-preserving hippocampal alignment and precision morphometry.
+bioRxiv.
+https://doi.org/10.64898/2026.07.22.740127</unstructured_citation>
+          </citation>
+          <citation key="karat_hippocampal_2025">
+            <article_title>Hippocampal grey matter changes across scales
+in Alzheimer’s Disease</article_title>
+            <author>Karat</author>
+            <doi>10.1101/2025.10.15.682705</doi>
+            <cYear>2025</cYear>
+            <unstructured_citation>Karat, B. G., Farahani, M. V.,
+Davidson, M., Thurairajah, A., Taha, A., Schmitz, T. W., Khan, A. R.,
+&amp; Alzheimer’s Disease Neuroimaging Initiative. (2025). Hippocampal
+grey matter changes across scales in Alzheimer’s Disease. bioRxiv.
+https://doi.org/10.1101/2025.10.15.682705</unstructured_citation>
+          </citation>
+          <citation key="gorgolewski_brain_2016">
+            <article_title>The brain imaging data structure, a format
+for organizing and describing outputs of neuroimaging
+experiments</article_title>
+            <author>Gorgolewski</author>
+            <journal_title>Scientific Data</journal_title>
+            <issue>1</issue>
+            <volume>3</volume>
+            <doi>10.1038/sdata.2016.44</doi>
+            <issn>2052-4463</issn>
+            <cYear>2016</cYear>
+            <unstructured_citation>Gorgolewski, K. J., Auer, T.,
+Calhoun, V. D., Craddock, R. C., Das, S., Duff, E. P., Flandin, G.,
+Ghosh, S. S., Glatard, T., Halchenko, Y. O., Handwerker, D. A., Hanke,
+M., Keator, D., Li, X., Michael, Z., Maumet, C., Nichols, B. N.,
+Nichols, T. E., Pellman, J., … Poldrack, R. A. (2016). The brain imaging
+data structure, a format for organizing and describing outputs of
+neuroimaging experiments. Scientific Data, 3(1), 160044.
+https://doi.org/10.1038/sdata.2016.44</unstructured_citation>
+          </citation>
+          <citation key="karakuzu_qmri-bids_2022">
+            <article_title>qMRI-BIDS: An extension to the brain imaging
+data structure for quantitative magnetic resonance imaging
+data</article_title>
+            <author>Karakuzu</author>
+            <journal_title>Scientific Data</journal_title>
+            <issue>1</issue>
+            <volume>9</volume>
+            <doi>10.1038/s41597-022-01571-4</doi>
+            <issn>2052-4463</issn>
+            <cYear>2022</cYear>
+            <unstructured_citation>Karakuzu, A., Appelhoff, S., Auer,
+T., Boudreau, M., Feingold, F., Khan, A. R., Lazari, A., Markiewicz, C.,
+Mulder, M., Phillips, C., Salo, T., Stikov, N., Whitaker, K., &amp;
+Hollander, G. de. (2022). qMRI-BIDS: An extension to the brain imaging
+data structure for quantitative magnetic resonance imaging data.
+Scientific Data, 9(1), 517.
+https://doi.org/10.1038/s41597-022-01571-4</unstructured_citation>
+          </citation>
+          <citation key="molder_sustainable_2025">
+            <article_title>Sustainable data analysis with
+Snakemake</article_title>
+            <author>Mölder</author>
+            <journal_title>F1000Research</journal_title>
+            <volume>10</volume>
+            <doi>10.12688/f1000research.29032.3</doi>
+            <cYear>2025</cYear>
+            <unstructured_citation>Mölder, F., Jablonski, K. P.,
+Letcher, B., Hall, M. B., Dyken, P. C. van, Tomkins-Tinch, C. H.,
+Sochat, V., Forster, J., Vieira, F. G., Meesters, C., Lee, S.,
+Twardziok, S. O., Kanitz, A., VanCampen, J., Malladi, V., Wilm, A.,
+Holtgrewe, M., Rahmann, S., Nahnsen, S., &amp; Köster, J. (2025).
+Sustainable data analysis with Snakemake. F1000Research, 10, 33.
+https://doi.org/10.12688/f1000research.29032.3</unstructured_citation>
+          </citation>
+          <citation key="kim_white_2026">
+            <article_title>White matter micro- and macrostructure brain
+charts for the human lifespan</article_title>
+            <author>Kim</author>
+            <journal_title>Nature</journal_title>
+            <issue>8124</issue>
+            <volume>655</volume>
+            <doi>10.1038/s41586-026-10454-2</doi>
+            <issn>1476-4687</issn>
+            <cYear>2026</cYear>
+            <unstructured_citation>Kim, M. E., Gao, C., Ramadass, K.,
+Newlin, N. R., Kanakaraj, P., Bogdanov, S., Rudravaram, G., Archer, D.,
+Hohman, T. J., Jefferson, A. L., Morgan, V. L., Roche, A., Englot, D.
+J., Resnick, S. M., Beason-Held, L. L., Cutting, L. E., Barquero, L. A.,
+D’archangel, M. A., Nguyen, T. Q., … Schilling, K. G. (2026). White
+matter micro- and macrostructure brain charts for the human lifespan.
+Nature, 655(8124), 979–989.
+https://doi.org/10.1038/s41586-026-10454-2</unstructured_citation>
+          </citation>
+          <citation key="kamiya_brain_2020">
+            <article_title>Brain White-Matter Degeneration Due to Aging
+and Parkinson Disease as Revealed by Double Diffusion
+Encoding</article_title>
+            <author>Kamiya</author>
+            <journal_title>Frontiers in Neuroscience</journal_title>
+            <volume>14</volume>
+            <doi>10.3389/fnins.2020.584510</doi>
+            <issn>1662-453X</issn>
+            <cYear>2020</cYear>
+            <unstructured_citation>Kamiya, K., Kamagata, K., Ogaki, K.,
+Hatano, T., Ogawa, T., Takeshige-Amano, H., Murata, S., Andica, C.,
+Murata, K., Feiweier, T., Hori, M., Hattori, N., &amp; Aoki, S. (2020).
+Brain White-Matter Degeneration Due to Aging and Parkinson Disease as
+Revealed by Double Diffusion Encoding. Frontiers in Neuroscience, 14,
+584510.
+https://doi.org/10.3389/fnins.2020.584510</unstructured_citation>
+          </citation>
+          <citation key="novikov_modeling_2018">
+            <article_title>On modeling</article_title>
+            <author>Novikov</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>6</issue>
+            <volume>79</volume>
+            <doi>10.1002/mrm.27101</doi>
+            <cYear>2018</cYear>
+            <unstructured_citation>Novikov, D. S., Kiselev, V. G., &amp;
+Jespersen, S. N. (2018). On modeling. Magnetic Resonance in Medicine,
+79(6), 3172–3193.
+https://doi.org/10.1002/mrm.27101</unstructured_citation>
+          </citation>
+          <citation key="chen_abnormal_2023">
+            <article_title>Abnormal white matter changes in Alzheimer’s
+disease based on diffusion tensor imaging: A systematic
+review</article_title>
+            <author>Chen</author>
+            <journal_title>Ageing Research Reviews</journal_title>
+            <volume>87</volume>
+            <doi>10.1016/j.arr.2023.101911</doi>
+            <issn>1568-1637</issn>
+            <cYear>2023</cYear>
+            <unstructured_citation>Chen, Y., Wang, Y., Song, Z., Fan,
+Y., Gao, T., &amp; Tang, X. (2023). Abnormal white matter changes in
+Alzheimer’s disease based on diffusion tensor imaging: A systematic
+review. Ageing Research Reviews, 87, 101911.
+https://doi.org/10.1016/j.arr.2023.101911</unstructured_citation>
+          </citation>
+          <citation key="gordon_advances_2016">
+            <article_title>Advances in neuroimaging in frontotemporal
+dementia</article_title>
+            <author>Gordon</author>
+            <journal_title>Journal of Neurochemistry</journal_title>
+            <issue>S1</issue>
+            <volume>138</volume>
+            <doi>10.1111/jnc.13656</doi>
+            <issn>1471-4159</issn>
+            <cYear>2016</cYear>
+            <unstructured_citation>Gordon, E., Rohrer, J. D., &amp; Fox,
+N. C. (2016). Advances in neuroimaging in frontotemporal dementia.
+Journal of Neurochemistry, 138(S1), 193–210.
+https://doi.org/10.1111/jnc.13656</unstructured_citation>
+          </citation>
+          <citation key="mahoney_longitudinal_2015">
+            <article_title>Longitudinal diffusion tensor imaging in
+frontotemporal dementia</article_title>
+            <author>Mahoney</author>
+            <journal_title>Annals of Neurology</journal_title>
+            <issue>1</issue>
+            <volume>77</volume>
+            <doi>10.1002/ana.24296</doi>
+            <issn>1531-8249</issn>
+            <cYear>2015</cYear>
+            <unstructured_citation>Mahoney, C. J., Simpson, I. J. A.,
+Nicholas, J. M., Fletcher, P. D., Downey, L. E., Golden, H. L., Clark,
+C. N., Schmitz, N., Rohrer, J. D., Schott, J. M., Zhang, H., Ourselin,
+S., Warren, J. D., &amp; Fox, N. C. (2015). Longitudinal diffusion
+tensor imaging in frontotemporal dementia. Annals of Neurology, 77(1),
+33–46. https://doi.org/10.1002/ana.24296</unstructured_citation>
+          </citation>
+          <citation key="laurell_systematic_2025">
+            <article_title>A systematic review of diffusion tensor
+imaging and tractography in dementia with Lewy bodies and Parkinson’s
+disease dementia</article_title>
+            <author>Laurell</author>
+            <journal_title>Neuroscience &amp; Biobehavioral
+Reviews</journal_title>
+            <volume>169</volume>
+            <doi>10.1016/j.neubiorev.2025.106007</doi>
+            <issn>0149-7634</issn>
+            <cYear>2025</cYear>
+            <unstructured_citation>Laurell, A. A. S., Mak, E., &amp;
+O’Brien, J. T. (2025). A systematic review of diffusion tensor imaging
+and tractography in dementia with Lewy bodies and Parkinson’s disease
+dementia. Neuroscience &amp; Biobehavioral Reviews, 169, 106007.
+https://doi.org/10.1016/j.neubiorev.2025.106007</unstructured_citation>
+          </citation>
+          <citation key="tian_advanced_2026">
+            <article_title>Advanced diffusion MRI tract signatures in
+Alzheimer’s disease, dementia with Lewy bodies, and the FTD/PPA
+spectrum</article_title>
+            <author>Tian</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>334</volume>
+            <doi>10.1016/j.neuroimage.2026.121984</doi>
+            <issn>1053-8119</issn>
+            <cYear>2026</cYear>
+            <unstructured_citation>Tian, Y., &amp; Whitwell, J. L.
+(2026). Advanced diffusion MRI tract signatures in Alzheimer’s disease,
+dementia with Lewy bodies, and the FTD/PPA spectrum. NeuroImage, 334,
+121984.
+https://doi.org/10.1016/j.neuroimage.2026.121984</unstructured_citation>
+          </citation>
+          <citation key="kantarci_dementia_2010">
+            <article_title>Dementia with Lewy bodies and Alzheimer
+disease</article_title>
+            <author>Kantarci</author>
+            <journal_title>Neurology</journal_title>
+            <issue>22</issue>
+            <volume>74</volume>
+            <doi>10.1212/WNL.0b013e3181e0f7cf</doi>
+            <cYear>2010</cYear>
+            <unstructured_citation>Kantarci, K., Avula, R., Senjem, M.
+L., Samikoglu, A. R., Zhang, B., Weigand, S. D., Przybelski, S. A.,
+Edmonson, H. A., Vemuri, P., Knopman, D. S., Ferman, T. J., Boeve, B.
+F., Petersen, R. C., &amp; Jack, C. R. (2010). Dementia with Lewy bodies
+and Alzheimer disease. Neurology, 74(22), 1814–1821.
+https://doi.org/10.1212/WNL.0b013e3181e0f7cf</unstructured_citation>
+          </citation>
+          <citation key="elahi_longitudinal_2017">
+            <article_title>Longitudinal white matter change in
+frontotemporal dementia subtypes and sporadic late onset Alzheimer’s
+disease</article_title>
+            <author>Elahi</author>
+            <journal_title>NeuroImage: Clinical</journal_title>
+            <volume>16</volume>
+            <doi>10.1016/j.nicl.2017.09.007</doi>
+            <issn>2213-1582</issn>
+            <cYear>2017</cYear>
+            <unstructured_citation>Elahi, F. M., Marx, G., Cobigo, Y.,
+Staffaroni, A. M., Kornak, J., Tosun, D., Boxer, A. L., Kramer, J. H.,
+Miller, B. L., &amp; Rosen, H. J. (2017). Longitudinal white matter
+change in frontotemporal dementia subtypes and sporadic late onset
+Alzheimer’s disease. NeuroImage: Clinical, 16, 595–603.
+https://doi.org/10.1016/j.nicl.2017.09.007</unstructured_citation>
+          </citation>
+          <citation key="mak_alpha_synuclein_2026">
+            <article_title>Α-synuclein positivity is associated with
+decline in brain microstructure in the Alzheimer’s disease
+spectrum</article_title>
+            <author>Mak</author>
+            <journal_title>Alzheimer’s Research &amp;
+Therapy</journal_title>
+            <issue>1</issue>
+            <volume>18</volume>
+            <doi>10.1186/s13195-026-01995-9</doi>
+            <issn>1758-9193</issn>
+            <cYear>2026</cYear>
+            <unstructured_citation>Mak, E., Przybelski, S. A., Reid, R.
+I., Wiste, H. J., Fought, A. J., Schwarz, C. G., Senjem, M. L., Vemuri,
+P., Jack, C. R., Lowe, V. J., Petersen, R. C., Boeve, B. F., Kantarci,
+K., &amp; Alzheimer’s Disease Neuroimaging Initiative. (2026).
+Α-synuclein positivity is associated with decline in brain
+microstructure in the Alzheimer’s disease spectrum. Alzheimer’s Research
+&amp; Therapy, 18(1), 82.
+https://doi.org/10.1186/s13195-026-01995-9</unstructured_citation>
+          </citation>
+          <citation key="afzali_sensitivity_2021">
+            <article_title>The sensitivity of diffusion MRI to
+microstructural properties and experimental factors</article_title>
+            <author>Afzali</author>
+            <journal_title>Journal of Neuroscience
+Methods</journal_title>
+            <volume>347</volume>
+            <doi>10.1016/j.jneumeth.2020.108951</doi>
+            <issn>0165-0270</issn>
+            <cYear>2021</cYear>
+            <unstructured_citation>Afzali, M., Pieciak, T., Newman, S.,
+Garyfallidis, E., Özarslan, E., Cheng, H., &amp; Jones, D. K. (2021).
+The sensitivity of diffusion MRI to microstructural properties and
+experimental factors. Journal of Neuroscience Methods, 347, 108951.
+https://doi.org/10.1016/j.jneumeth.2020.108951</unstructured_citation>
+          </citation>
+          <citation key="concha_macroscopic_2014">
+            <article_title>A macroscopic view of microstructure: Using
+diffusion-weighted images to infer damage, repair, and plasticity of
+white matter</article_title>
+            <author>Concha</author>
+            <journal_title>Neuroscience</journal_title>
+            <volume>276</volume>
+            <doi>10.1016/j.neuroscience.2013.09.004</doi>
+            <cYear>2014</cYear>
+            <unstructured_citation>Concha, L. (2014). A macroscopic view
+of microstructure: Using diffusion-weighted images to infer damage,
+repair, and plasticity of white matter. Neuroscience, 276, 14–28.
+https://doi.org/10.1016/j.neuroscience.2013.09.004</unstructured_citation>
+          </citation>
+          <citation key="moallemian_multimodal_2023">
+            <article_title>Multimodal imaging of microstructural
+cerebral alterations and loss of synaptic density in Alzheimer’s
+disease</article_title>
+            <author>Moallemian</author>
+            <journal_title>Neurobiology of Aging</journal_title>
+            <volume>132</volume>
+            <doi>10.1016/j.neurobiolaging.2023.08.001</doi>
+            <issn>0197-4580</issn>
+            <cYear>2023</cYear>
+            <unstructured_citation>Moallemian, S., Salmon, E., Bahri, M.
+A., Beliy, N., Delhaye, E., Balteau, E., Degueldre, C., Phillips, C.,
+&amp; Bastin, C. (2023). Multimodal imaging of microstructural cerebral
+alterations and loss of synaptic density in Alzheimer’s disease.
+Neurobiology of Aging, 132, 24–35.
+https://doi.org/10.1016/j.neurobiolaging.2023.08.001</unstructured_citation>
+          </citation>
+          <citation key="syed_nasser_review_2022">
+            <article_title>A review on investigation of the basic
+contrast mechanism underlying multidimensional diffusion MRI in
+assessment of neurological disorders</article_title>
+            <author>Syed Nasser</author>
+            <journal_title>Journal of Clinical
+Neuroscience</journal_title>
+            <volume>102</volume>
+            <doi>10.1016/j.jocn.2022.05.027</doi>
+            <issn>0967-5868</issn>
+            <cYear>2022</cYear>
+            <unstructured_citation>Syed Nasser, N., Rajan, S.,
+Venugopal, V. kumar, Lasič, S., Mahajan, V., &amp; Mahajan, H. (2022). A
+review on investigation of the basic contrast mechanism underlying
+multidimensional diffusion MRI in assessment of neurological disorders.
+Journal of Clinical Neuroscience, 102, 26–35.
+https://doi.org/10.1016/j.jocn.2022.05.027</unstructured_citation>
+          </citation>
+          <citation key="afzali_quantification_2022">
+            <article_title>Quantification of Tissue Microstructure Using
+Tensor-Valued Diffusion Encoding: Brain and Body</article_title>
+            <author>Afzali</author>
+            <journal_title>Frontiers in Physics</journal_title>
+            <volume>10</volume>
+            <doi>10.3389/fphy.2022.809133</doi>
+            <issn>2296-424X</issn>
+            <cYear>2022</cYear>
+            <unstructured_citation>Afzali, M., Mueller, L.,
+Szczepankiewicz, F., Jones, D. K., &amp; Schneider, J. E. (2022).
+Quantification of Tissue Microstructure Using Tensor-Valued Diffusion
+Encoding: Brain and Body. Frontiers in Physics, 10, 809133.
+https://doi.org/10.3389/fphy.2022.809133</unstructured_citation>
+          </citation>
+          <citation key="rahman_microstructural_2025">
+            <article_title>Microstructural maturation of the adult mouse
+brain</article_title>
+            <author>Rahman</author>
+            <journal_title>Communications Biology</journal_title>
+            <issue>1</issue>
+            <volume>8</volume>
+            <doi>10.1038/s42003-025-08981-1</doi>
+            <issn>2399-3642</issn>
+            <cYear>2025</cYear>
+            <unstructured_citation>Rahman, N., Hamilton, J., Xu, K.,
+Brown, A., &amp; Baron, C. A. (2025). Microstructural maturation of the
+adult mouse brain. Communications Biology, 8(1), 1605.
+https://doi.org/10.1038/s42003-025-08981-1</unstructured_citation>
+          </citation>
+          <citation key="zhang_noddi_2012">
+            <article_title>NODDI: Practical in vivo neurite orientation
+dispersion and density imaging of the human brain</article_title>
+            <author>Zhang</author>
+            <journal_title>NeuroImage</journal_title>
+            <issue>4</issue>
+            <volume>61</volume>
+            <doi>10.1016/j.neuroimage.2012.03.072</doi>
+            <issn>1053-8119</issn>
+            <cYear>2012</cYear>
+            <unstructured_citation>Zhang, H., Schneider, T.,
+Wheeler-Kingshott, C. A., &amp; Alexander, D. C. (2012). NODDI:
+Practical in vivo neurite orientation dispersion and density imaging of
+the human brain. NeuroImage, 61(4), 1000–1016.
+https://doi.org/10.1016/j.neuroimage.2012.03.072</unstructured_citation>
+          </citation>
+          <citation key="veale_loss_2021">
+            <article_title>Loss and dispersion of superficial white
+matter in Alzheimer’s disease: A diffusion MRI study</article_title>
+            <author>Veale</author>
+            <journal_title>Brain Communications</journal_title>
+            <issue>4</issue>
+            <volume>3</volume>
+            <doi>10.1093/braincomms/fcab272</doi>
+            <issn>2632-1297</issn>
+            <cYear>2021</cYear>
+            <unstructured_citation>Veale, T., Malone, I. B., Poole, T.,
+Parker, T. D., Slattery, C. F., Paterson, R. W., Foulkes, A. J. M.,
+Thomas, D. L., Schott, J. M., Zhang, H., Fox, N. C., &amp; Cash, D. M.
+(2021). Loss and dispersion of superficial white matter in Alzheimer’s
+disease: A diffusion MRI study. Brain Communications, 3(4), fcab272.
+https://doi.org/10.1093/braincomms/fcab272</unstructured_citation>
+          </citation>
+          <citation key="lv_analysis_2025">
+            <article_title>Analysis of advanced diffusion models
+assessing white matter microstructure in Alzheimer’s
+disease</article_title>
+            <author>Lv</author>
+            <journal_title>Scientific Reports</journal_title>
+            <issue>1</issue>
+            <volume>15</volume>
+            <doi>10.1038/s41598-025-09412-1</doi>
+            <issn>2045-2322</issn>
+            <cYear>2025</cYear>
+            <unstructured_citation>Lv, M., Zhan, K., Yang, J., Li, Y.,
+Li, Y., Xu, X., Han, L., Feng, H., &amp; Zhong, J. (2025). Analysis of
+advanced diffusion models assessing white matter microstructure in
+Alzheimer’s disease. Scientific Reports, 15(1), 26266.
+https://doi.org/10.1038/s41598-025-09412-1</unstructured_citation>
+          </citation>
+          <citation key="pisano_frontotemporal_2025">
+            <article_title>Frontotemporal dementia characterization
+using neurite orientation dispersion and density imaging</article_title>
+            <author>Pisano</author>
+            <journal_title>Brain Communications</journal_title>
+            <issue>6</issue>
+            <volume>7</volume>
+            <doi>10.1093/braincomms/fcaf442</doi>
+            <issn>2632-1297</issn>
+            <cYear>2025</cYear>
+            <unstructured_citation>Pisano, S., Basaia, S., Agosta, F.,
+Canu, E., Spinelli, E. G., Cecchetti, G., Ghirelli, A., Sibilla, E.,
+Magnani, G., Caso, F., Caroppo, P., Prioni, S., Villa, C., Tremolizzo,
+L., Appollonio, I., Verde, F., Ticozzi, N., Silani, V., &amp; Filippi,
+M. (2025). Frontotemporal dementia characterization using neurite
+orientation dispersion and density imaging. Brain Communications, 7(6),
+fcaf442.
+https://doi.org/10.1093/braincomms/fcaf442</unstructured_citation>
+          </citation>
+          <citation key="palombo_sandi_2020">
+            <article_title>SANDI: A compartment-based model for
+non-invasive apparent soma and neurite imaging by diffusion
+MRI</article_title>
+            <author>Palombo</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>215</volume>
+            <doi>10.1016/j.neuroimage.2020.116835</doi>
+            <issn>1053-8119</issn>
+            <cYear>2020</cYear>
+            <unstructured_citation>Palombo, M., Ianus, A., Guerreri, M.,
+Nunes, D., Alexander, D. C., Shemesh, N., &amp; Zhang, H. (2020). SANDI:
+A compartment-based model for non-invasive apparent soma and neurite
+imaging by diffusion MRI. NeuroImage, 215, 116835.
+https://doi.org/10.1016/j.neuroimage.2020.116835</unstructured_citation>
+          </citation>
+          <citation key="lee_age-related_2024">
+            <article_title>Age-related alterations in human cortical
+microstructure across the lifespan: Insights from high-gradient
+diffusion MRI</article_title>
+            <author>Lee</author>
+            <journal_title>Aging Cell</journal_title>
+            <issue>11</issue>
+            <volume>23</volume>
+            <doi>10.1111/acel.14267</doi>
+            <issn>1474-9726</issn>
+            <cYear>2024</cYear>
+            <unstructured_citation>Lee, H., Lee, H.-H., Ma, Y.,
+Eskandarian, L., Gaudet, K., Tian, Q., Krijnen, E. A., Russo, A. W.,
+Salat, D. H., Klawiter, E. C., &amp; Huang, S. Y. (2024). Age-related
+alterations in human cortical microstructure across the lifespan:
+Insights from high-gradient diffusion MRI. Aging Cell, 23(11), e14267.
+https://doi.org/10.1111/acel.14267</unstructured_citation>
+          </citation>
+          <citation key="ma_age-related_2026">
+            <article_title>Age-Related Alterations in Hippocampal
+Microstructure Quantified Using High-Gradient Diffusion MRI (dMRI) in an
+Unfolded Hippocampal Space</article_title>
+            <author>Ma</author>
+            <journal_title>Aging Cell</journal_title>
+            <issue>1</issue>
+            <volume>25</volume>
+            <doi>10.1111/acel.70274</doi>
+            <issn>1474-9726</issn>
+            <cYear>2026</cYear>
+            <unstructured_citation>Ma, Y., Lee, H., Chan, K.-S.,
+Eskandarian, L., Gaudet, K., Tian, Q., Bhatt, A., Gerold, J., Russo, A.
+W., Salat, D. H., Klawiter, E. C., Huang, S. Y., &amp; Lee, H.-H.
+(2026). Age-Related Alterations in Hippocampal Microstructure Quantified
+Using High-Gradient Diffusion MRI (dMRI) in an Unfolded Hippocampal
+Space. Aging Cell, 25(1), e70274.
+https://doi.org/10.1111/acel.70274</unstructured_citation>
+          </citation>
+          <citation key="jelescu_challenges_2020">
+            <article_title>Challenges for biophysical modeling of
+microstructure</article_title>
+            <author>Jelescu</author>
+            <journal_title>Journal of Neuroscience
+Methods</journal_title>
+            <volume>344</volume>
+            <doi>10.1016/j.jneumeth.2020.108861</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Jelescu, I. O., Palombo, M., Bagnato,
+F., &amp; Schilling, K. G. (2020). Challenges for biophysical modeling
+of microstructure. Journal of Neuroscience Methods, 344, 108861.
+https://doi.org/10.1016/j.jneumeth.2020.108861</unstructured_citation>
+          </citation>
+          <citation key="lampinen_towards_2020">
+            <article_title>Towards unconstrained compartment modeling in
+white matter using diffusion-relaxation MRI with tensor-valued diffusion
+encoding</article_title>
+            <author>Lampinen</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>3</issue>
+            <volume>84</volume>
+            <doi>10.1002/mrm.28216</doi>
+            <issn>0740-3194</issn>
+            <cYear>2020</cYear>
+            <unstructured_citation>Lampinen, B., Szczepankiewicz, F.,
+Mårtensson, J., Westen, D., Hansson, O., Westin, C.-F., &amp; Nilsson,
+M. (2020). Towards unconstrained compartment modeling in white matter
+using diffusion-relaxation MRI with tensor-valued diffusion encoding.
+Magnetic Resonance in Medicine, 84(3), 1605–1623.
+https://doi.org/10.1002/mrm.28216</unstructured_citation>
+          </citation>
+          <citation key="gyori_potential_2021">
+            <article_title>On the potential for mapping apparent neural
+soma density via a clinically viable diffusion MRI
+protocol</article_title>
+            <author>Gyori</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>239</volume>
+            <doi>10.1016/j.neuroimage.2021.118303</doi>
+            <issn>1053-8119</issn>
+            <cYear>2021</cYear>
+            <unstructured_citation>Gyori, N. G., Clark, C. A.,
+Alexander, D. C., &amp; Kaden, E. (2021). On the potential for mapping
+apparent neural soma density via a clinically viable diffusion MRI
+protocol. NeuroImage, 239, 118303.
+https://doi.org/10.1016/j.neuroimage.2021.118303</unstructured_citation>
+          </citation>
+          <citation key="wearn_quantitative_2025">
+            <article_title>Quantitative MRI of the hippocampus reveals
+microstructural trajectories of aging and Alzheimer’s disease
+pathology</article_title>
+            <author>Wearn</author>
+            <journal_title>Proceedings of the National Academy of
+Sciences</journal_title>
+            <issue>44</issue>
+            <volume>122</volume>
+            <doi>10.1073/pnas.2502674122</doi>
+            <cYear>2025</cYear>
+            <unstructured_citation>Wearn, A., Tardif, C. L., Leppert, I.
+R., Baracchini, G., Hughes, C., Tremblay-Mercier, J., Breitner, J.,
+Poirier, J., Villeneuve, S., Bernhardt, B. C., Turner, G. R., Spreng, R.
+N., &amp; the PREVENT-AD Research Group. (2025). Quantitative MRI of the
+hippocampus reveals microstructural trajectories of aging and
+Alzheimer’s disease pathology. Proceedings of the National Academy of
+Sciences, 122(44), e2502674122.
+https://doi.org/10.1073/pnas.2502674122</unstructured_citation>
+          </citation>
+          <citation key="varma_magnetization_2015">
+            <article_title>Magnetization transfer from inhomogeneously
+broadened lines: A potential marker for myelin</article_title>
+            <author>Varma</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>2</issue>
+            <volume>73</volume>
+            <doi>10.1002/mrm.25174</doi>
+            <issn>1522-2594</issn>
+            <cYear>2015</cYear>
+            <unstructured_citation>Varma, G., Duhamel, G., Bazelaire, C.
+de, &amp; Alsop, D. C. (2015). Magnetization transfer from
+inhomogeneously broadened lines: A potential marker for myelin. Magnetic
+Resonance in Medicine, 73(2), 614–622.
+https://doi.org/10.1002/mrm.25174</unstructured_citation>
+          </citation>
+          <citation key="finger_frontotemporal_2016">
+            <article_title>Frontotemporal Dementias</article_title>
+            <author>Finger</author>
+            <journal_title>Continuum</journal_title>
+            <issue>2</issue>
+            <volume>22</volume>
+            <doi>10.1212/CON.0000000000000300</doi>
+            <cYear>2016</cYear>
+            <unstructured_citation>Finger, E. C. (2016). Frontotemporal
+Dementias. Continuum, 22(2), 464–489.
+https://doi.org/10.1212/CON.0000000000000300</unstructured_citation>
+          </citation>
+          <citation key="andersen_disentangling_2020">
+            <article_title>Disentangling white-matter damage from
+physiological fibre orientation dispersion in multiple
+sclerosis</article_title>
+            <author>Andersen</author>
+            <journal_title>Brain Communications</journal_title>
+            <issue>2</issue>
+            <volume>2</volume>
+            <doi>10.1093/braincomms/fcaa077</doi>
+            <issn>2632-1297</issn>
+            <cYear>2020</cYear>
+            <unstructured_citation>Andersen, K. W., Lasič, S., Lundell,
+H., Nilsson, M., Topgaard, D., Sellebjerg, F., Szczepankiewicz, F.,
+Siebner, H. R., Blinkenberg, M., &amp; Dyrby, T. B. (2020).
+Disentangling white-matter damage from physiological fibre orientation
+dispersion in multiple sclerosis. Brain Communications, 2(2), fcaa077.
+https://doi.org/10.1093/braincomms/fcaa077</unstructured_citation>
+          </citation>
+          <citation key="yoo_high-resolution_2022">
+            <article_title>High-resolution microscopic diffusion
+anisotropy imaging in the human hippocampus at 3T</article_title>
+            <author>Yoo</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>4</issue>
+            <volume>87</volume>
+            <doi>10.1002/mrm.29104</doi>
+            <issn>1522-2594</issn>
+            <cYear>2022</cYear>
+            <unstructured_citation>Yoo, J., Kerkelä, L., Hales, P. W.,
+Seunarine, K. K., &amp; Clark, C. A. (2022). High-resolution microscopic
+diffusion anisotropy imaging in the human hippocampus at 3T. Magnetic
+Resonance in Medicine, 87(4), 1903–1913.
+https://doi.org/10.1002/mrm.29104</unstructured_citation>
+          </citation>
+          <citation key="drake-perez_clinical_2018">
+            <article_title>Clinical applications of diffusion weighted
+imaging in neuroradiology</article_title>
+            <author>Drake-Pérez</author>
+            <journal_title>Insights into Imaging</journal_title>
+            <issue>4</issue>
+            <volume>9</volume>
+            <doi>10.1007/s13244-018-0624-3</doi>
+            <issn>1869-4101</issn>
+            <cYear>2018</cYear>
+            <unstructured_citation>Drake-Pérez, M., Boto, J., Fitsiori,
+A., Lovblad, K., &amp; Vargas, M. I. (2018). Clinical applications of
+diffusion weighted imaging in neuroradiology. Insights into Imaging,
+9(4), 535–547.
+https://doi.org/10.1007/s13244-018-0624-3</unstructured_citation>
+          </citation>
+          <citation key="weston_diffusion_2015">
+            <article_title>Diffusion imaging changes in grey matter in
+Alzheimer’s disease: A potential marker of early
+neurodegeneration</article_title>
+            <author>Weston</author>
+            <journal_title>Alzheimer’s Research &amp;
+Therapy</journal_title>
+            <issue>1</issue>
+            <volume>7</volume>
+            <doi>10.1186/s13195-015-0132-3</doi>
+            <issn>1758-9193</issn>
+            <cYear>2015</cYear>
+            <unstructured_citation>Weston, P. S. J., Simpson, I. J. A.,
+Ryan, N. S., Ourselin, S., &amp; Fox, N. C. (2015). Diffusion imaging
+changes in grey matter in Alzheimer’s disease: A potential marker of
+early neurodegeneration. Alzheimer’s Research &amp; Therapy, 7(1), 47.
+https://doi.org/10.1186/s13195-015-0132-3</unstructured_citation>
+          </citation>
+          <citation key="naggara_diffusion_2006">
+            <article_title>Diffusion tensor imaging in early Alzheimer’s
+disease</article_title>
+            <author>Naggara</author>
+            <journal_title>Psychiatry Research:
+Neuroimaging</journal_title>
+            <issue>3</issue>
+            <volume>146</volume>
+            <doi>10.1016/j.pscychresns.2006.01.005</doi>
+            <issn>0925-4927</issn>
+            <cYear>2006</cYear>
+            <unstructured_citation>Naggara, O., Oppenheim, C., Rieu, D.,
+Raoux, N., Rodrigo, S., Dalla Barba, G., &amp; Meder, J.-F. (2006).
+Diffusion tensor imaging in early Alzheimer’s disease. Psychiatry
+Research: Neuroimaging, 146(3), 243–249.
+https://doi.org/10.1016/j.pscychresns.2006.01.005</unstructured_citation>
+          </citation>
+          <citation key="zhang_white_2009">
+            <article_title>White matter damage in frontotemporal
+dementia and Alzheimer’s disease measured by diffusion
+MRI</article_title>
+            <author>Zhang</author>
+            <journal_title>Brain</journal_title>
+            <issue>9</issue>
+            <volume>132</volume>
+            <doi>10.1093/brain/awp071</doi>
+            <issn>0006-8950</issn>
+            <cYear>2009</cYear>
+            <unstructured_citation>Zhang, Y., Schuff, N., Du, A.-T.,
+Rosen, H. J., Kramer, J. H., Gorno-Tempini, M. L., Miller, B. L., &amp;
+Weiner, M. W. (2009). White matter damage in frontotemporal dementia and
+Alzheimer’s disease measured by diffusion MRI. Brain, 132(9), 2579–2592.
+https://doi.org/10.1093/brain/awp071</unstructured_citation>
+          </citation>
+          <citation key="szczepankiewicz_link_2016">
+            <article_title>The link between diffusion MRI and tumor
+heterogeneity: Mapping cell eccentricity and density by diffusional
+variance decomposition (DIVIDE)</article_title>
+            <author>Szczepankiewicz</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>142</volume>
+            <doi>10.1016/j.neuroimage.2016.07.038</doi>
+            <issn>1053-8119</issn>
+            <cYear>2016</cYear>
+            <unstructured_citation>Szczepankiewicz, F., Westen, D. van,
+Englund, E., Westin, C.-F., Ståhlberg, F., Lätt, J., Sundgren, P. C.,
+&amp; Nilsson, M. (2016). The link between diffusion MRI and tumor
+heterogeneity: Mapping cell eccentricity and density by diffusional
+variance decomposition (DIVIDE). NeuroImage, 142, 522–532.
+https://doi.org/10.1016/j.neuroimage.2016.07.038</unstructured_citation>
+          </citation>
+          <citation key="montal_cortical_2018">
+            <article_title>Cortical microstructural changes along the
+Alzheimer’s disease continuum</article_title>
+            <author>Montal</author>
+            <journal_title>Alzheimer’s &amp; Dementia</journal_title>
+            <issue>3</issue>
+            <volume>14</volume>
+            <doi>10.1016/j.jalz.2017.09.013</doi>
+            <issn>1552-5279</issn>
+            <cYear>2018</cYear>
+            <unstructured_citation>Montal, V., Vilaplana, E., Alcolea,
+D., Pegueroles, J., Pasternak, O., González-Ortiz, S., Clarimón, J.,
+Carmona-Iragui, M., Illán-Gala, I., Morenas-Rodríguez, E., Ribosa-Nogué,
+R., Sala, I., Sánchez-Saudinós, M.-B., García-Sebastian, M., Villanúa,
+J., Izagirre, A., Estanga, A., Ecay-Torres, M., Iriondo, A., … Fortea,
+J. (2018). Cortical microstructural changes along the Alzheimer’s
+disease continuum. Alzheimer’s &amp; Dementia, 14(3), 340–351.
+https://doi.org/10.1016/j.jalz.2017.09.013</unstructured_citation>
+          </citation>
+          <citation key="spotorno_diffusion_2024">
+            <article_title>Diffusion MRI tracks cortical microstructural
+changes during the early stages of Alzheimer’s disease</article_title>
+            <author>Spotorno</author>
+            <journal_title>Brain</journal_title>
+            <issue>3</issue>
+            <volume>147</volume>
+            <doi>10.1093/brain/awad428</doi>
+            <issn>0006-8950</issn>
+            <cYear>2024</cYear>
+            <unstructured_citation>Spotorno, N., Strandberg, O.,
+Stomrud, E., Janelidze, S., Blennow, K., Nilsson, M., Westen, D. van,
+&amp; Hansson, O. (2024). Diffusion MRI tracks cortical microstructural
+changes during the early stages of Alzheimer’s disease. Brain, 147(3),
+961–969. https://doi.org/10.1093/brain/awad428</unstructured_citation>
+          </citation>
+          <citation key="zhou_tensor-valued_2024">
+            <article_title>Tensor-valued diffusion MRI of human acute
+stroke</article_title>
+            <author>Zhou</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>5</issue>
+            <volume>91</volume>
+            <doi>10.1002/mrm.29975</doi>
+            <issn>1522-2594</issn>
+            <cYear>2024</cYear>
+            <unstructured_citation>Zhou, M., Stobbe, R.,
+Szczepankiewicz, F., Budde, M., Buck, B., Kate, M., Lloret, M., Fairall,
+P., Butcher, K., Shuaib, A., Emery, D., Nilsson, M., Westin, C.-F.,
+&amp; Beaulieu, C. (2024). Tensor-valued diffusion MRI of human acute
+stroke. Magnetic Resonance in Medicine, 91(5), 2126–2141.
+https://doi.org/10.1002/mrm.29975</unstructured_citation>
+          </citation>
+          <citation key="nilsson_tensor-valued_2020">
+            <article_title>Tensor-valued diffusion MRI in under 3
+minutes: An initial survey of microscopic anisotropy and tissue
+heterogeneity in intracranial tumors</article_title>
+            <author>Nilsson</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>2</issue>
+            <volume>83</volume>
+            <doi>10.1002/mrm.27959</doi>
+            <issn>1522-2594</issn>
+            <cYear>2020</cYear>
+            <unstructured_citation>Nilsson, M., Szczepankiewicz, F.,
+Brabec, J., Taylor, M., Westin, C.-F., Golby, A., Westen, D. van, &amp;
+Sundgren, P. C. (2020). Tensor-valued diffusion MRI in under 3 minutes:
+An initial survey of microscopic anisotropy and tissue heterogeneity in
+intracranial tumors. Magnetic Resonance in Medicine, 83(2), 608–620.
+https://doi.org/10.1002/mrm.27959</unstructured_citation>
+          </citation>
+          <citation key="jack_hypothetical_2010">
+            <article_title>Hypothetical model of dynamic biomarkers of
+the Alzheimer’s pathological cascade</article_title>
+            <author>Jack</author>
+            <journal_title>The Lancet Neurology</journal_title>
+            <issue>1</issue>
+            <volume>9</volume>
+            <doi>10.1016/S1474-4422(09)70299-6</doi>
+            <issn>1474-4422</issn>
+            <cYear>2010</cYear>
+            <unstructured_citation>Jack, C. R., Knopman, D. S., Jagust,
+W. J., Shaw, L. M., Aisen, P. S., Weiner, M. W., Petersen, R. C., &amp;
+Trojanowski, J. Q. (2010). Hypothetical model of dynamic biomarkers of
+the Alzheimer’s pathological cascade. The Lancet Neurology, 9(1),
+119–128.
+https://doi.org/10.1016/S1474-4422(09)70299-6</unstructured_citation>
+          </citation>
+          <citation key="serrano-pozo_neuropathological_2011">
+            <article_title>Neuropathological Alterations in Alzheimer
+Disease</article_title>
+            <author>Serrano-Pozo</author>
+            <journal_title>Cold Spring Harbor Perspectives in
+Medicine</journal_title>
+            <issue>1</issue>
+            <volume>1</volume>
+            <doi>10.1101/cshperspect.a006189</doi>
+            <issn>2157-1422</issn>
+            <cYear>2011</cYear>
+            <unstructured_citation>Serrano-Pozo, A., Frosch, M. P.,
+Masliah, E., &amp; Hyman, B. T. (2011). Neuropathological Alterations in
+Alzheimer Disease. Cold Spring Harbor Perspectives in Medicine, 1(1),
+a006189.
+https://doi.org/10.1101/cshperspect.a006189</unstructured_citation>
+          </citation>
+          <citation key="mackenzie_molecular_2016">
+            <article_title>Molecular neuropathology of frontotemporal
+dementia: Insights into disease mechanisms from postmortem
+studies</article_title>
+            <author>Mackenzie</author>
+            <journal_title>Journal of Neurochemistry</journal_title>
+            <issue>S1</issue>
+            <volume>138</volume>
+            <doi>10.1111/jnc.13588</doi>
+            <issn>1471-4159</issn>
+            <cYear>2016</cYear>
+            <unstructured_citation>Mackenzie, I. R. A., &amp; Neumann,
+M. (2016). Molecular neuropathology of frontotemporal dementia: Insights
+into disease mechanisms from postmortem studies. Journal of
+Neurochemistry, 138(S1), 54–70.
+https://doi.org/10.1111/jnc.13588</unstructured_citation>
+          </citation>
+          <citation key="sekiya_neuropathology_2025">
+            <article_title>Neuropathology of Lewy body dementia:
+Lewy-related pathology, α-synuclein oligomers, and comorbid
+pathologies</article_title>
+            <author>Sekiya</author>
+            <journal_title>Molecular Neurodegeneration</journal_title>
+            <issue>1</issue>
+            <volume>20</volume>
+            <doi>10.1186/s13024-025-00900-6</doi>
+            <issn>1750-1326</issn>
+            <cYear>2025</cYear>
+            <unstructured_citation>Sekiya, H., Matsubara, T., DeTure, M.
+A., &amp; Dickson, D. W. (2025). Neuropathology of Lewy body dementia:
+Lewy-related pathology, α-synuclein oligomers, and comorbid pathologies.
+Molecular Neurodegeneration, 20(1), 117.
+https://doi.org/10.1186/s13024-025-00900-6</unstructured_citation>
+          </citation>
+          <citation key="zetterberg_biofluid_2026">
+            <article_title>Biofluid biomarkers in Alzheimer’s disease
+and other neurodegenerative dementias</article_title>
+            <author>Zetterberg</author>
+            <journal_title>Nature</journal_title>
+            <issue>8100</issue>
+            <volume>650</volume>
+            <doi>10.1038/s41586-025-10018-w</doi>
+            <issn>1476-4687</issn>
+            <cYear>2026</cYear>
+            <unstructured_citation>Zetterberg, H., &amp; Bendlin, B. B.
+(2026). Biofluid biomarkers in Alzheimer’s disease and other
+neurodegenerative dementias. Nature, 650(8100), 49–59.
+https://doi.org/10.1038/s41586-025-10018-w</unstructured_citation>
+          </citation>
+          <citation key="lasic_microanisotropy_2014">
+            <article_title>Microanisotropy imaging: Quantification of
+microscopic diffusion anisotropy and orientational order parameter by
+diffusion MRI with magic-angle spinning of the q-vector</article_title>
+            <author>Lasič</author>
+            <journal_title>Frontiers in Physics</journal_title>
+            <volume>2</volume>
+            <doi>10.3389/fphy.2014.00011</doi>
+            <issn>2296-424X</issn>
+            <cYear>2014</cYear>
+            <unstructured_citation>Lasič, S., Szczepankiewicz, F.,
+Eriksson, S., Nilsson, M., &amp; Topgaard, D. (2014). Microanisotropy
+imaging: Quantification of microscopic diffusion anisotropy and
+orientational order parameter by diffusion MRI with magic-angle spinning
+of the q-vector. Frontiers in Physics, 2, 11.
+https://doi.org/10.3389/fphy.2014.00011</unstructured_citation>
+          </citation>
+          <citation key="dekosky_revision_2011">
+            <article_title>Revision of the criteria for Alzheimer’s
+disease: A symposium</article_title>
+            <author>DeKosky</author>
+            <journal_title>Alzheimer’s &amp; Dementia</journal_title>
+            <issue>1</issue>
+            <volume>7</volume>
+            <doi>10.1016/j.jalz.2010.12.007</doi>
+            <issn>1552-5279</issn>
+            <cYear>2011</cYear>
+            <unstructured_citation>DeKosky, S. T., Carrillo, M. C.,
+Phelps, C., Knopman, D., Petersen, R. C., Frank, R., Schenk, D.,
+Masterman, D., Siemers, E. R., Cedarbaum, J. M., Gold, M., Miller, D.
+S., Morimoto, B. H., Khachaturian, A. S., &amp; Mohs, R. C. (2011).
+Revision of the criteria for Alzheimer’s disease: A symposium.
+Alzheimer’s &amp; Dementia, 7(1), e1–e12.
+https://doi.org/10.1016/j.jalz.2010.12.007</unstructured_citation>
+          </citation>
+          <citation key="gorno-tempini_classification_2011">
+            <article_title>Classification of primary progressive aphasia
+and its variants</article_title>
+            <author>Gorno-Tempini</author>
+            <journal_title>Neurology</journal_title>
+            <issue>11</issue>
+            <volume>76</volume>
+            <doi>10.1212/WNL.0b013e31821103e6</doi>
+            <cYear>2011</cYear>
+            <unstructured_citation>Gorno-Tempini, M. L., Hillis, A. E.,
+Weintraub, S., Kertesz, A., Mendez, M., Cappa, S. F., Ogar, J. M.,
+Rohrer, J. D., Black, S., Boeve, B. F., Manes, F., Dronkers, N. F.,
+Vandenberghe, R., Rascovsky, K., Patterson, K., Miller, B. L., Knopman,
+D. S., Hodges, J. R., Mesulam, M. M., &amp; Grossman, M. (2011).
+Classification of primary progressive aphasia and its variants.
+Neurology, 76(11), 1006–1014.
+https://doi.org/10.1212/WNL.0b013e31821103e6</unstructured_citation>
+          </citation>
+          <citation key="rascovsky_sensitivity_2011">
+            <article_title>Sensitivity of revised diagnostic criteria
+for the behavioural variant of frontotemporal dementia</article_title>
+            <author>Rascovsky</author>
+            <journal_title>Brain</journal_title>
+            <issue>9</issue>
+            <volume>134</volume>
+            <doi>10.1093/brain/awr179</doi>
+            <issn>0006-8950</issn>
+            <cYear>2011</cYear>
+            <unstructured_citation>Rascovsky, K., Hodges, J. R.,
+Knopman, D., Mendez, M. F., Kramer, J. H., Neuhaus, J., Swieten, J. C.
+van, Seelaar, H., Dopper, E. G. P., Onyike, C. U., Hillis, A. E.,
+Josephs, K. A., Boeve, B. F., Kertesz, A., Seeley, W. W., Rankin, K. P.,
+Johnson, J. K., Gorno-Tempini, M.-L., Rosen, H., … Miller, B. L. (2011).
+Sensitivity of revised diagnostic criteria for the behavioural variant
+of frontotemporal dementia. Brain, 134(9), 2456–2477.
+https://doi.org/10.1093/brain/awr179</unstructured_citation>
+          </citation>
+          <citation key="mckeith_diagnosis_2017">
+            <article_title>Diagnosis and management of dementia with
+Lewy bodies</article_title>
+            <author>McKeith</author>
+            <journal_title>Neurology</journal_title>
+            <issue>1</issue>
+            <volume>89</volume>
+            <doi>10.1212/WNL.0000000000004058</doi>
+            <cYear>2017</cYear>
+            <unstructured_citation>McKeith, I. G., Boeve, B. F.,
+Dickson, D. W., Halliday, G., Taylor, J.-P., Weintraub, D., Aarsland,
+D., Galvin, J., Attems, J., Ballard, C. G., Bayston, A., Beach, T. G.,
+Blanc, F., Bohnen, N., Bonanni, L., Bras, J., Brundin, P., Burn, D.,
+Chen-Plotkin, A., … Kosaka, K. (2017). Diagnosis and management of
+dementia with Lewy bodies. Neurology, 89(1), 88–100.
+https://doi.org/10.1212/WNL.0000000000004058</unstructured_citation>
+          </citation>
+          <citation key="kroes_demystifying_2025">
+            <article_title>Demystifying omega squared: Practical
+guidance for effect size in common analysis of variance
+designs</article_title>
+            <author>Kroes</author>
+            <journal_title>Psychological Methods</journal_title>
+            <issue>4</issue>
+            <volume>30</volume>
+            <doi>10.1037/met0000581</doi>
+            <issn>1939-1463</issn>
+            <cYear>2025</cYear>
+            <unstructured_citation>Kroes, A. D. A., &amp; Finley, J. R.
+(2025). Demystifying omega squared: Practical guidance for effect size
+in common analysis of variance designs. Psychological Methods, 30(4),
+866–887. https://doi.org/10.1037/met0000581</unstructured_citation>
+          </citation>
+          <citation key="henriques_evidence_2021">
+            <article_title>Evidence for microscopic kurtosis in neural
+tissue revealed by correlation tensor MRI</article_title>
+            <author>Henriques</author>
+            <journal_title>Magnetic Resonance in
+Medicine</journal_title>
+            <issue>6</issue>
+            <volume>86</volume>
+            <doi>10.1002/mrm.28938</doi>
+            <issn>1522-2594</issn>
+            <cYear>2021</cYear>
+            <unstructured_citation>Henriques, R. N., Jespersen, S. N.,
+&amp; Shemesh, N. (2021). Evidence for microscopic kurtosis in neural
+tissue revealed by correlation tensor MRI. Magnetic Resonance in
+Medicine, 86(6), 3111–3130.
+https://doi.org/10.1002/mrm.28938</unstructured_citation>
+          </citation>
+          <citation key="novello_vivo_2022">
+            <article_title>In vivo Correlation Tensor MRI reveals
+microscopic kurtosis in the human brain on a clinical 3T
+scanner</article_title>
+            <author>Novello</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>254</volume>
+            <doi>10.1016/j.neuroimage.2022.119137</doi>
+            <issn>1053-8119</issn>
+            <cYear>2022</cYear>
+            <unstructured_citation>Novello, L., Henriques, R. N., Ianuş,
+A., Feiweier, T., Shemesh, N., &amp; Jovicich, J. (2022). In vivo
+Correlation Tensor MRI reveals microscopic kurtosis in the human brain
+on a clinical 3T scanner. NeuroImage, 254, 119137.
+https://doi.org/10.1016/j.neuroimage.2022.119137</unstructured_citation>
+          </citation>
+          <citation key="lasic_spectral_2025">
+            <article_title>Spectral principal axis system (SPAS) and
+tuning of tensor-valued encoding for microscopic anisotropy and
+time-dependent diffusion in the rat brain</article_title>
+            <author>Lasič</author>
+            <journal_title>Imaging Neuroscience</journal_title>
+            <volume>3</volume>
+            <doi>10.1162/IMAG.a.35</doi>
+            <issn>2837-6056</issn>
+            <cYear>2025</cYear>
+            <unstructured_citation>Lasič, S., Just, N., Nilsson, M.,
+Szczepankiewicz, F., Budde, M., &amp; Lundell, H. (2025). Spectral
+principal axis system (SPAS) and tuning of tensor-valued encoding for
+microscopic anisotropy and time-dependent diffusion in the rat brain.
+Imaging Neuroscience, 3, IMAG.a.35.
+https://doi.org/10.1162/IMAG.a.35</unstructured_citation>
+          </citation>
+          <citation key="szczepankiewicz_restriction-weighted_2026">
+            <article_title>Restriction-Weighted Q-Space Trajectory
+Imaging (ResQ): Toward Mapping Diffusion-Time Effects With Tensor-Valued
+Diffusion Encoding in Human Prostate Cancer Xenografts</article_title>
+            <author>Szczepankiewicz</author>
+            <journal_title>NMR in Biomedicine</journal_title>
+            <issue>8</issue>
+            <volume>39</volume>
+            <doi>10.1002/nbm.70344</doi>
+            <issn>1099-1492</issn>
+            <cYear>2026</cYear>
+            <unstructured_citation>Szczepankiewicz, F., Molendowska, M.,
+Lasič, S., Safi, M. E., Gottschalk, M., Sereti, E., Bjartell, A.,
+Knutsson, L., Timmermand, O. V., Ceberg, C., &amp; Strand, J. (2026).
+Restriction-Weighted Q-Space Trajectory Imaging (ResQ): Toward Mapping
+Diffusion-Time Effects With Tensor-Valued Diffusion Encoding in Human
+Prostate Cancer Xenografts. NMR in Biomedicine, 39(8), e70344.
+https://doi.org/10.1002/nbm.70344</unstructured_citation>
+          </citation>
+          <citation key="olesen_diffusion_2022">
+            <article_title>Diffusion time dependence, power-law scaling,
+and exchange in gray matter</article_title>
+            <author>Olesen</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>251</volume>
+            <doi>10.1016/j.neuroimage.2022.118976</doi>
+            <issn>1053-8119</issn>
+            <cYear>2022</cYear>
+            <unstructured_citation>Olesen, J. L., Østergaard, L.,
+Shemesh, N., &amp; Jespersen, S. N. (2022). Diffusion time dependence,
+power-law scaling, and exchange in gray matter. NeuroImage, 251, 118976.
+https://doi.org/10.1016/j.neuroimage.2022.118976</unstructured_citation>
+          </citation>
+          <citation key="jelescu_neurite_2022">
+            <article_title>Neurite Exchange Imaging (NEXI): A minimal
+model of diffusion in gray matter with inter-compartment water
+exchange</article_title>
+            <author>Jelescu</author>
+            <journal_title>NeuroImage</journal_title>
+            <volume>256</volume>
+            <doi>10.1016/j.neuroimage.2022.119277</doi>
+            <issn>1053-8119</issn>
+            <cYear>2022</cYear>
+            <unstructured_citation>Jelescu, I. O., Skowronski, A. de,
+Geffroy, F., Palombo, M., &amp; Novikov, D. S. (2022). Neurite Exchange
+Imaging (NEXI): A minimal model of diffusion in gray matter with
+inter-compartment water exchange. NeuroImage, 256, 119277.
+https://doi.org/10.1016/j.neuroimage.2022.119277</unstructured_citation>
+          </citation>
+          <citation key="valabregue_siam_2026">
+            <article_title>SIAM: Head and Brain MRI Segmentation from
+Few High-Quality Templates via Synthetic Training</article_title>
+            <author>Valabregue</author>
+            <doi>10.48550/arXiv.2605.02737</doi>
+            <cYear>2026</cYear>
+            <unstructured_citation>Valabregue, R., Khemir, I., Badinet,
+E., Rousseau, F., Auzias, G., &amp; Dorent, R. (2026). SIAM: Head and
+Brain MRI Segmentation from Few High-Quality Templates via Synthetic
+Training. arXiv.
+https://doi.org/10.48550/arXiv.2605.02737</unstructured_citation>
+          </citation>
+          <citation key="planche_structural_2022">
+            <article_title>Structural progression of Alzheimer’s disease
+over decades: The MRI staging scheme</article_title>
+            <author>Planche</author>
+            <journal_title>Brain Communications</journal_title>
+            <issue>3</issue>
+            <volume>4</volume>
+            <doi>10.1093/braincomms/fcac109</doi>
+            <issn>2632-1297</issn>
+            <cYear>2022</cYear>
+            <unstructured_citation>Planche, V., Manjon, J. V.,
+Mansencal, B., Lanuza, E., Tourdias, T., Catheline, G., &amp; Coupé, P.
+(2022). Structural progression of Alzheimer’s disease over decades: The
+MRI staging scheme. Brain Communications, 4(3), fcac109.
+https://doi.org/10.1093/braincomms/fcac109</unstructured_citation>
+          </citation>
+          <citation key="planche_anatomical_2023">
+            <article_title>Anatomical MRI staging of frontotemporal
+dementia variants</article_title>
+            <author>Planche</author>
+            <journal_title>Alzheimer’s &amp; Dementia</journal_title>
+            <issue>8</issue>
+            <volume>19</volume>
+            <doi>10.1002/alz.12975</doi>
+            <issn>1552-5279</issn>
+            <cYear>2023</cYear>
+            <unstructured_citation>Planche, V., Mansencal, B., Manjon,
+J. V., Tourdias, T., Catheline, G., Coupé, P., &amp; For the
+Frontotemporal Lobar Degeneration Neuroimaging Initiative and the
+National Alzheimer’s Coordinating Center cohort. (2023). Anatomical MRI
+staging of frontotemporal dementia variants. Alzheimer’s &amp; Dementia,
+19(8), 3283–3294.
+https://doi.org/10.1002/alz.12975</unstructured_citation>
+          </citation>
+          <citation key="whitwell_focal_2007">
+            <article_title>Focal atrophy in dementia with Lewy bodies on
+MRI: A distinct pattern from Alzheimer’s disease</article_title>
+            <author>Whitwell</author>
+            <journal_title>Brain</journal_title>
+            <issue>3</issue>
+            <volume>130</volume>
+            <doi>10.1093/brain/awl388</doi>
+            <issn>1460-2156</issn>
+            <cYear>2007</cYear>
+            <unstructured_citation>Whitwell, J. L., Weigand, S. D.,
+Shiung, M. M., Boeve, B. F., Ferman, T. J., Smith, G. E., Knopman, D.
+S., Petersen, R. C., Benarroch, E. E., Josephs, K. A., &amp; Jack, C.
+R., Jr. (2007). Focal atrophy in dementia with Lewy bodies on MRI: A
+distinct pattern from Alzheimer’s disease. Brain, 130(3), 708–719.
+https://doi.org/10.1093/brain/awl388</unstructured_citation>
+          </citation>
+          <citation key="conti_neuroanatomical_2025">
+            <article_title>Neuroanatomical and clinical correlates of
+prodromal dementia with Lewy bodies: A systematic literature review of
+neuroimaging findings</article_title>
+            <author>Conti</author>
+            <journal_title>Journal of Neurology</journal_title>
+            <issue>1</issue>
+            <volume>272</volume>
+            <doi>10.1007/s00415-024-12726-1</doi>
+            <issn>1432-1459</issn>
+            <cYear>2025</cYear>
+            <unstructured_citation>Conti, D., Bechi Gabrielli, G.,
+Panigutti, M., Zazzaro, G., Bruno, G., Galati, G., &amp; D’Antonio, F.
+(2025). Neuroanatomical and clinical correlates of prodromal dementia
+with Lewy bodies: A systematic literature review of neuroimaging
+findings. Journal of Neurology, 272(1), 38.
+https://doi.org/10.1007/s00415-024-12726-1</unstructured_citation>
+          </citation>
+          <citation key="hyades_tabular_data_2026">
+            <article_title>HYADES: Tabular data for "probing gray matter
+microstructure differences in neurodegenerative dementia using b-tensor
+encoding diffusion MRI" [data set]</article_title>
+            <author>Rios-Carrillo</author>
+            <doi>10.5281/zenodo.23212234</doi>
+            <cYear>2026</cYear>
+            <unstructured_citation>Rios-Carrillo, R., Malik, R., So, I.,
+Moon, K., Khan, A. R., Finger, E., &amp; Baron, C. A. (2026). HYADES:
+Tabular data for "probing gray matter microstructure differences in
+neurodegenerative dementia using b-tensor encoding diffusion MRI" [data
+set]. Zenodo.
+https://doi.org/10.5281/zenodo.23212234</unstructured_citation>
+          </citation>
+          <citation key="hyades_workflow_2026">
+            <article_title>HYADES processing pipeline: Snakemake
+workflow for b-tensor encoding diffusion and magnetization transfer MRI
+[computer software]</article_title>
+            <author>Rios-Carrillo</author>
+            <cYear>2026</cYear>
+            <unstructured_citation>Rios-Carrillo, R. (2026). HYADES
+processing pipeline: Snakemake workflow for b-tensor encoding diffusion
+and magnetization transfer MRI [computer software].
+https://github.com/RicardoRios46/hyades_snakemake</unstructured_citation>
+          </citation>
+        </citation_list>
+  </posted_content>
+  </body>
+</doi_batch>
