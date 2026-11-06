@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>20261106T142230-c898b2121b3b39609d94896b5786866647750c39</doi_batch_id>
+    <timestamp>20261106142230</timestamp>
+    <depositor>
+      <depositor_name>NeuroLibre Admin</depositor_name>
+      <email_address>admin@neurolibre.org</email_address>
+    </depositor>
+    <registrant>Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal</registrant>
+  </head>
+  <body>
+  <posted_content type="preprint">
+  <group_title>NeuroLibre Reproducible Preprints</group_title>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Morane</given_name>
+            <surname>Bienvenu</surname>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Agah</given_name>
+            <surname>Karakuzu</surname>
+            <ORCID>https://orcid.org/0000-0001-7283-271X</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Karine</given_name>
+            <surname>Marcotte</surname>
+            <ORCID>https://orcid.org/0000-0002-3275-1154</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Michel Thiebaut</given_name>
+            <surname>de Schotten</surname>
+            <ORCID>https://orcid.org/0000-0002-0329-1814</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Pedro Nascimento</given_name>
+            <surname>Alves</surname>
+            <ORCID>https://orcid.org/0000-0001-5740-5904</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Christophe</given_name>
+            <surname>Bedetti</surname>
+            <ORCID>https://orcid.org/0000-0002-1443-8922</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Simona Maria</given_name>
+            <surname>Brambati</surname>
+            <ORCID>https://orcid.org/0000-0002-9227-1443</ORCID>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Nikola</given_name>
+            <surname>Stikov</surname>
+            <ORCID>https://orcid.org/0000-0002-8480-5230</ORCID>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Sex-specific early neurotransmitter dynamics and
+post-stroke aphasia recovery</title>
+        </titles>
+        <posted_date>
+          <month>11</month>
+          <day>06</day>
+          <year>2026</year>
+        </posted_date>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Repository archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.23986169</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Dataset archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.23986181</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Book archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.23986173</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Container archive</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="doi">10.5281/zenodo.23986179</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub technical screening</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://github.com/neurolibre/neurolibre-reviews/issues/48</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>Executable preprint</rel:description>
+            <rel:inter_work_relation relationship-type="isSupplementedBy" identifier-type="uri">https://preprint.neurolibre.org/10.55458/neurolibre.00048</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.55458/neurolibre.00048</doi>
+          <resource>https://neurolibre.org/papers/10.55458/neurolibre.00048</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://preprint.neurolibre.org/10.55458/neurolibre.00048.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="Alves2025">
+            <article_title>Neurotransmitters’ white matter mapping
+unveils the neurochemical fingerprints of stroke</article_title>
+            <author>Alves</author>
+            <journal_title>Nature Communications</journal_title>
+            <volume>16</volume>
+            <doi>10.1038/s41467-025-57680-2</doi>
+            <cYear>2025</cYear>
+            <unstructured_citation>Alves, P. N., Nozais, V., Hansen, J.
+Y., &amp; others. (2025). Neurotransmitters’ white matter mapping
+unveils the neurochemical fingerprints of stroke. Nature Communications,
+16, 2555.
+https://doi.org/10.1038/s41467-025-57680-2</unstructured_citation>
+          </citation>
+          <citation key="Calabresi2007">
+            <article_title>Dopamine-mediated regulation of
+corticostriatal synaptic plasticity</article_title>
+            <author>Calabresi</author>
+            <journal_title>Trends in Neurosciences</journal_title>
+            <issue>5</issue>
+            <volume>30</volume>
+            <doi>10.1016/j.tins.2007.03.001</doi>
+            <cYear>2007</cYear>
+            <unstructured_citation>Calabresi, P., Picconi, B., Tozzi,
+A., &amp; Di Filippo, M. (2007). Dopamine-mediated regulation of
+corticostriatal synaptic plasticity. Trends in Neurosciences, 30(5),
+211–219.
+https://doi.org/10.1016/j.tins.2007.03.001</unstructured_citation>
+          </citation>
+          <citation key="Feigin2025">
+            <article_title>World stroke organization: Global stroke fact
+sheet 2025</article_title>
+            <author>Feigin</author>
+            <journal_title>International Journal of
+Stroke</journal_title>
+            <issue>2</issue>
+            <volume>20</volume>
+            <doi>10.1177/17474930241308142</doi>
+            <cYear>2025</cYear>
+            <unstructured_citation>Feigin, V. L., Brainin, M., Norrving,
+B., Martins, S. O., Pandian, J., Lindsay, P., Grupper, M. F., &amp;
+Rautalin, I. (2025). World stroke organization: Global stroke fact sheet
+2025. International Journal of Stroke, 20(2), 132–144.
+https://doi.org/10.1177/17474930241308142</unstructured_citation>
+          </citation>
+          <citation key="Ingahalikar2013">
+            <article_title>Sex differences in the structural connectome
+of the human brain</article_title>
+            <author>Ingahalikar</author>
+            <journal_title>Proceedings of the National Academy of
+Sciences</journal_title>
+            <issue>2</issue>
+            <volume>111</volume>
+            <doi>10.1073/pnas.1316909110</doi>
+            <cYear>2013</cYear>
+            <unstructured_citation>Ingahalikar, M., Smith, A. R.,
+Parker, D., Satterthwaite, T. D., Elliott, M. A., Ruparel, K.,
+Hakonarson, H., Gur, R. E., Gur, R. C., &amp; Verma, R. (2013). Sex
+differences in the structural connectome of the human brain. Proceedings
+of the National Academy of Sciences, 111(2), 823–828.
+https://doi.org/10.1073/pnas.1316909110</unstructured_citation>
+          </citation>
+          <citation key="Pedersen1995">
+            <article_title>Aphasia in acute stroke: Incidence,
+determinants, and recovery</article_title>
+            <author>Pedersen</author>
+            <journal_title>Annals of Neurology</journal_title>
+            <issue>4</issue>
+            <volume>38</volume>
+            <doi>10.1002/ana.410380416</doi>
+            <cYear>1995</cYear>
+            <unstructured_citation>Pedersen, P. M., Jørgensen, H. S.,
+Nakayama, H., Raaschou, H. O., &amp; Olsen, T. S. (1995). Aphasia in
+acute stroke: Incidence, determinants, and recovery. Annals of
+Neurology, 38(4), 659–666.
+https://doi.org/10.1002/ana.410380416</unstructured_citation>
+          </citation>
+        </citation_list>
+  </posted_content>
+  </body>
+</doi_batch>
