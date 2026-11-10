@@ -30,8 +30,8 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
       GH_REPO: neurolibre/neurolibre-reviews
       ISSUE_ID: ${{ github.event.inputs.issue_id }}
-      # Inputs are passed through env rather than written into scripts, so a
-      # value can't be run as shell code.
+      # Inputs and step outputs are passed through env rather than written into
+      # scripts, so a value can't be run as shell code.
       PREPRINT_DOI: ${{ github.event.inputs.preprint_doi }}
       PUBLISHED_DOI: ${{ github.event.inputs.published_doi }}
       CROSSREF_MODE: ${{ github.event.inputs.crossref_mode }}
@@ -46,10 +46,13 @@ jobs:
           python3 .github/scripts/link_published_version.py build \
             --preprint-doi "$PREPRINT_DOI" \
             --published-doi "$PUBLISHED_DOI" \
-            --out-dir "$WORK_DIR"
+            --out-dir "$WORK_DIR" \
+            --repo-dir "$GITHUB_WORKSPACE"
 
       - name: Validate deposit against Crossref schema
         if: ${{ steps.build.outputs.already_linked != 'true' }}
+        env:
+          XML_PATH: ${{ steps.build.outputs.xml_path }}
         run: |
           mkdir -p "$WORK_DIR/xsd" && cd "$WORK_DIR/xsd"
           base=https://gitlab.com/crossref/schema/-/raw/master/schemas
@@ -62,7 +65,7 @@ jobs:
               done
             done
           done
-          xmllint --noout --schema doi_resources5.4.0.xsd "${{ steps.build.outputs.xml_path }}"
+          xmllint --noout --schema doi_resources5.4.0.xsd "$XML_PATH"
 
       - name: Deposit with Crossref
         if: ${{ steps.build.outputs.already_linked != 'true' }}
@@ -75,16 +78,21 @@ jobs:
           crossref_operation: doDOICitUpload
 
       - name: Confirm Crossref accepted it
+        id: check
         if: ${{ steps.build.outputs.already_linked != 'true' }}
         env:
           CROSSREF_USERNAME: ${{ secrets.CROSSREF_USERNAME }}
           CROSSREF_PASSWORD: ${{ secrets.CROSSREF_PASSWORD }}
+          BUILT_PREPRINT_DOI: ${{ steps.build.outputs.preprint_doi }}
+          BUILT_PUBLISHED_DOI: ${{ steps.build.outputs.published_doi }}
+          FILE_NAME: ${{ steps.build.outputs.file_name }}
+          SNAPSHOT: ${{ steps.build.outputs.snapshot_path }}
         run: |
           python3 .github/scripts/link_published_version.py check \
-            --preprint-doi "${{ steps.build.outputs.preprint_doi }}" \
-            --published-doi "${{ steps.build.outputs.published_doi }}" \
-            --file-name "${{ steps.build.outputs.file_name }}" \
-            --snapshot "${{ steps.build.outputs.snapshot_path }}" \
+            --preprint-doi "$BUILT_PREPRINT_DOI" \
+            --published-doi "$BUILT_PUBLISHED_DOI" \
+            --file-name "$FILE_NAME" \
+            --snapshot "$SNAPSHOT" \
             --mode "$CROSSREF_MODE"
 
       - name: Reply message
@@ -92,11 +100,19 @@ jobs:
         env:
           JOURNAL: ${{ steps.build.outputs.journal }}
           ALREADY: ${{ steps.build.outputs.already_linked }}
+          CONFIRMED: ${{ steps.check.outputs.confirmed }}
+          BUILT_PREPRINT_DOI: ${{ steps.build.outputs.preprint_doi }}
+          BUILT_PUBLISHED_DOI: ${{ steps.build.outputs.published_doi }}
         run: |
+          link="[$BUILT_PUBLISHED_DOI](https://doi.org/$BUILT_PUBLISHED_DOI) ($JOURNAL)"
           if [ "$ALREADY" = "true" ]; then
-            first="Crossref already lists ${{ steps.build.outputs.published_doi }} as the published version of ${{ steps.build.outputs.preprint_doi }}, so nothing was deposited."
+            first="Crossref already lists $link as the published version of $BUILT_PREPRINT_DOI, so nothing was deposited."
+          elif [ "$CONFIRMED" = "true" ]; then
+            first="Crossref now records $BUILT_PREPRINT_DOI as the preprint of $link, and its earlier relations are all still there."
+          elif [ -n "$CROSSREF_MODE" ]; then
+            first="Test deposit accepted by test.crossref.org: $BUILT_PREPRINT_DOI as the preprint of $link. Nothing changed in production."
           else
-            first="Crossref now records ${{ steps.build.outputs.preprint_doi }} as the preprint of [${{ steps.build.outputs.published_doi }}](https://doi.org/${{ steps.build.outputs.published_doi }}) ($JOURNAL)."
+            first="Crossref accepted the deposit linking $BUILT_PREPRINT_DOI to $link, but its public record didn't show the change before the check timed out. Look at https://api.crossref.org/works/$BUILT_PREPRINT_DOI later to confirm the relation is there and the archive links are intact."
           fi
           gh issue comment "$ISSUE_ID" --body "📚 $first
 
