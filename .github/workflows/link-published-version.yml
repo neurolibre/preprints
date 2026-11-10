@@ -54,6 +54,8 @@ jobs:
         env:
           XML_PATH: ${{ steps.build.outputs.xml_path }}
         run: |
+          # xmllint is not on the runner image (libxml2-utils), so install it.
+          command -v xmllint >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq libxml2-utils; }
           mkdir -p "$WORK_DIR/xsd" && cd "$WORK_DIR/xsd"
           base=https://gitlab.com/crossref/schema/-/raw/master/schemas
           curl -sfL -o doi_resources5.4.0.xsd "$base/doi_resources5.4.0.xsd"
