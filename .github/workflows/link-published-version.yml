@@ -1,0 +1,124 @@
+name: Link published version
+# Adds an isPreprintOf relation to a NeuroLibre preprint's Crossref record,
+# pointing at the journal article (or chapter) it was published as. This is
+# what Crossref asks for in its "preprint matched to a published article" emails.
+#
+# It is a resource-only deposit: only the relation is sent, and the rest of the
+# preprint's record is left as it is. The check step confirms that afterwards.
+on:
+  workflow_dispatch:
+    inputs:
+      preprint_doi:
+        description: 'NeuroLibre preprint DOI, e.g. 10.55458/neurolibre.00023'
+        required: true
+      published_doi:
+        description: 'DOI of the published version, e.g. 10.1002/mrm.30111'
+        required: true
+      issue_id:
+        description: 'Review issue number to report back to (optional)'
+        required: false
+        default: ''
+      crossref_mode:
+        description: 'Leave empty for production, or "test" for test.crossref.org'
+        required: false
+        default: ''
+jobs:
+  link-published-version:
+    name: ${{ format('Linking {0} to {1}', github.event.inputs.preprint_doi, github.event.inputs.published_doi) }}
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
+      GH_REPO: neurolibre/neurolibre-reviews
+      ISSUE_ID: ${{ github.event.inputs.issue_id }}
+      # Inputs and step outputs are passed through env rather than written into
+      # scripts, so a value can't be run as shell code.
+      PREPRINT_DOI: ${{ github.event.inputs.preprint_doi }}
+      PUBLISHED_DOI: ${{ github.event.inputs.published_doi }}
+      CROSSREF_MODE: ${{ github.event.inputs.crossref_mode }}
+      WORK_DIR: ${{ github.workspace }}/relation
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check DOIs and build deposit
+        id: build
+        run: |
+          python3 .github/scripts/link_published_version.py build \
+            --preprint-doi "$PREPRINT_DOI" \
+            --published-doi "$PUBLISHED_DOI" \
+            --out-dir "$WORK_DIR" \
+            --repo-dir "$GITHUB_WORKSPACE"
+
+      - name: Validate deposit against Crossref schema
+        if: ${{ steps.build.outputs.already_linked != 'true' }}
+        env:
+          XML_PATH: ${{ steps.build.outputs.xml_path }}
+        run: |
+          mkdir -p "$WORK_DIR/xsd" && cd "$WORK_DIR/xsd"
+          base=https://gitlab.com/crossref/schema/-/raw/master/schemas
+          curl -sfL -o doi_resources5.4.0.xsd "$base/doi_resources5.4.0.xsd"
+          # Fetch the schemas it includes, and the ones those include.
+          for _ in 1 2 3 4; do
+            for xsd in *.xsd; do
+              for dep in $(grep -oE 'schemaLocation="[^"]+"' "$xsd" | cut -d'"' -f2 | grep -v '^http'); do
+                [ -s "$dep" ] || curl -sfL -o "$dep" "$base/$dep"
+              done
+            done
+          done
+          xmllint --noout --schema doi_resources5.4.0.xsd "$XML_PATH"
+
+      - name: Deposit with Crossref
+        if: ${{ steps.build.outputs.already_linked != 'true' }}
+        uses: neurolibre/deposit-with-crossref-action@main
+        with:
+          crossref_filepath: ${{ steps.build.outputs.xml_path }}
+          crossref_username: ${{ secrets.CROSSREF_USERNAME }}
+          crossref_password: ${{ secrets.CROSSREF_PASSWORD }}
+          crossref_mode: ${{ github.event.inputs.crossref_mode }}
+          crossref_operation: doDOICitUpload
+
+      - name: Confirm Crossref accepted it
+        id: check
+        if: ${{ steps.build.outputs.already_linked != 'true' }}
+        env:
+          CROSSREF_USERNAME: ${{ secrets.CROSSREF_USERNAME }}
+          CROSSREF_PASSWORD: ${{ secrets.CROSSREF_PASSWORD }}
+          BUILT_PREPRINT_DOI: ${{ steps.build.outputs.preprint_doi }}
+          BUILT_PUBLISHED_DOI: ${{ steps.build.outputs.published_doi }}
+          FILE_NAME: ${{ steps.build.outputs.file_name }}
+          SNAPSHOT: ${{ steps.build.outputs.snapshot_path }}
+        run: |
+          python3 .github/scripts/link_published_version.py check \
+            --preprint-doi "$BUILT_PREPRINT_DOI" \
+            --published-doi "$BUILT_PUBLISHED_DOI" \
+            --file-name "$FILE_NAME" \
+            --snapshot "$SNAPSHOT" \
+            --mode "$CROSSREF_MODE"
+
+      - name: Reply message
+        if: ${{ success() && env.ISSUE_ID != '' }}
+        env:
+          JOURNAL: ${{ steps.build.outputs.journal }}
+          ALREADY: ${{ steps.build.outputs.already_linked }}
+          CONFIRMED: ${{ steps.check.outputs.confirmed }}
+          BUILT_PREPRINT_DOI: ${{ steps.build.outputs.preprint_doi }}
+          BUILT_PUBLISHED_DOI: ${{ steps.build.outputs.published_doi }}
+        run: |
+          link="[$BUILT_PUBLISHED_DOI](https://doi.org/$BUILT_PUBLISHED_DOI) ($JOURNAL)"
+          if [ "$ALREADY" = "true" ]; then
+            first="Crossref already lists $link as the published version of $BUILT_PREPRINT_DOI, so nothing was deposited."
+          elif [ "$CONFIRMED" = "true" ]; then
+            first="Crossref now records $BUILT_PREPRINT_DOI as the preprint of $link, and its earlier relations are all still there."
+          elif [ -n "$CROSSREF_MODE" ]; then
+            first="Test deposit accepted by test.crossref.org: $BUILT_PREPRINT_DOI as the preprint of $link. Nothing changed in production."
+          else
+            first="Crossref accepted the deposit linking $BUILT_PREPRINT_DOI to $link, but its public record didn't show the change before the check timed out. Look at https://api.crossref.org/works/$BUILT_PREPRINT_DOI later to confirm the relation is there and the archive links are intact."
+          fi
+          gh issue comment "$ISSUE_ID" --body "📚 $first
+
+          The published-version badge on neurolibre.org still has to be set by hand (\`prpub_doi\` and \`prpub_journal\`), until neurolibre.org has an endpoint for it."
+
+      - name: Error message
+        if: ${{ failure() && env.ISSUE_ID != '' }}
+        run: |
+          gh issue comment "$ISSUE_ID" --body ":warning: Couldn't link the published version. [See the workflow run](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}). ${{ env.CUSTOM_ERROR }}"
